@@ -1,0 +1,18 @@
+VER 3 0100000000000001 "评级挂机" "134400"
+/click StaticPopup1Button2
+/click LFDRoleCheckPopupAcceptButton
+/click PVPReadyDialogEnterBattleButton
+/run PVPMatchResults["leaveButton"]:Click()
+/cast 爆燃冲刺
+/cast 燃烧
+/use 16
+/use 黄金保险箱
+/use 钢铁保险箱
+/use 治疗石
+END
+VER 3 0100000000000002 "黑魂" "INV_Misc_QuestionMark"
+#showtooltip
+/施放 黑暗灵魂：动荡
+/use 13
+/use 14
+END

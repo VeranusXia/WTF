@@ -1,0 +1,19 @@
+VER 3 0100000000000004 "全神" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 全神贯注
+/use 13
+/use 14
+END
+VER 3 0100000000000002 "惩击" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm][target=targettarget,harm][]惩击
+END
+VER 3 0100000000000003 "绝望祷言" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 绝望祷言
+/use 治疗石
+END
+VER 3 0100000000000001 "驱散宏" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm]驱散魔法; [help][]纯净术
+END

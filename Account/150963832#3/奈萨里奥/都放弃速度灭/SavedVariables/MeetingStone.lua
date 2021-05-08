@@ -1,0 +1,11 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+	["profileKeys"] = {
+		["都放弃速度灭 - 奈萨里奥"] = "都放弃速度灭 - 奈萨里奥",
+	},
+	["profiles"] = {
+		["都放弃速度灭 - 奈萨里奥"] = {
+			["version"] = "90002.03",
+		},
+	},
+}

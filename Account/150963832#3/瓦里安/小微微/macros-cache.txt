@@ -1,0 +1,12 @@
+VER 3 0100000000000002 "卡死" "INV_MISC_QUESTIONMARK"
+/click HelpFrameCharacterStuckStuck
+/click StaticPopup2Button1
+END
+VER 3 0100000000000001 "奥山" "INV_MISC_QUESTIONMARK"
+/run TogglePVPUI()
+/click HonorFrameQueueButton
+/click StaticPopup1Button2
+/click PVPReadyDialogEnterBattleButton
+/run PVPMatchResults["leaveButton"]:Click()
+/cast 治疗之涌
+END

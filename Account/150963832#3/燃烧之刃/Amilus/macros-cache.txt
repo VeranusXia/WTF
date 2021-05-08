@@ -1,0 +1,34 @@
+VER 3 010000000000000B "大地盾熔岩" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm]熔岩爆裂; [help][]大地之盾
+END
+VER 3 0100000000000004 "奶潮" "INV_Misc_QuestionMark"
+#showtooltip 治疗之潮图腾
+/use 14
+/use 13
+/cast 治疗之潮图腾
+END
+VER 3 0100000000000003 "实力" "1370984"
+/tar 平原
+/stopcasting
+/cast 毁灭闪电
+/cast 风暴打击
+END
+VER 3 0100000000000006 "挂机" "INV_MISC_QUESTIONMARK"
+/castsequence [nochanneling:血肉铸造]激流,闪电之盾,治疗之泉图腾
+END
+VER 3 010000000000000A "治疗链冰震" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm]冰霜震击; [help][]治疗链
+END
+VER 3 0100000000000008 "涌闪电箭" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm]闪电箭; [help][]治疗之涌
+END
+VER 3 0100000000000007 "激流闪电链" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help][help,nodead]激流; [harm,nodead]闪电链;激流
+END
+VER 3 0100000000000009 "驱散" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,harm,nodead][harm,nodead]净化术;[@mouseover,help,nodead][help,nodead][]净化灵魂;
+END

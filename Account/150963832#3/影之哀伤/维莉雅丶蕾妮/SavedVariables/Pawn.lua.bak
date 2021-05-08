@@ -1,0 +1,12 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0241,
+	["LastPlayerFullName"] = "维莉雅丶蕾妮-影之哀伤",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "MAGE",
+	["LastAdded"] = 1,
+}

@@ -1,0 +1,87 @@
+VER 3 0100000000000016 "kiss" "INV_MISC_QUESTIONMARK"
+/run C_PetBattles.StartPVPMatchmaking()
+/run C_PetBattles.AcceptQueuedPVPMatch();StaticPopupSpecial_Hide(PetBattleQueueReadyFrame)
+END
+VER 3 0100000000000014 "一件[][][][]" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar 鞭
+/castsequence reset=6/combat 奉献,祝福之锤,祝福之锤
+/cast 正义盾击
+/use 13
+/use 14
+END
+VER 3 010000000000000B "圣光" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm]十字军打击;[][help]圣光术
+END
+VER 3 010000000000000F "坦克复仇" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 复仇之怒
+/use 13
+END
+VER 3 010000000000000A "复仇" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 复仇之怒
+/use 13
+/use 14
+/cast 律法之责
+END
+VER 3 0100000000000010 "审判" "INV_MISC_QUESTIONMARK"
+#showtooltip 审判 
+/use [@mouseover,harm,nodead] [harm,nodead] [@targettarget,harm,nodead][@focus,harm,nodead][@targettargettarget,harm,nodead] 审判
+/stopmacro [harm,nodead][targettarget,harm,nodead]
+/targetenemy
+/use 审判
+/targetlasttarget
+END
+VER 3 0100000000000005 "拉怪" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=4 审判,奉献,祝福之锤,祝福之锤,审判,祝福之锤,奉献,审判,祝福之锤
+END
+VER 3 010000000000001C "用鱼" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 淡紫刺鳐
+/use 软泥鲭鱼
+/use 洋流鲷鱼
+/use 狂乱的利齿青鱼
+/use 赤尾泥鳅
+/use 海砂变色鱼
+/use 提拉加德鲈鱼
+/use 蝰鱼
+/cast 黎明之光
+END
+VER 3 0100000000000017 "神圣复仇者" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 神圣复仇者
+/use 13
+/use 14
+/cast 律法之责
+END
+VER 3 0100000000000018 "神圣震击" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,help][@target,help][] 神圣震击 
+END
+VER 3 010000000000001A "评级" "INV_MISC_QUESTIONMARK"
+/cast [target=player]神圣震击
+END
+VER 3 0100000000000009 "赋予信仰" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=player]赋予信仰
+END
+VER 3 0100000000000015 "铁须" "INV_MISC_QUESTIONMARK"
+/target 铁须
+/cast 清算之手
+/cast 审判
+/use 芬德尔的远程拾取器
+END
+VER 3 0100000000000013 "阿古斯拉怪" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=6/combat 奉献,正义之锤,审判,正义之锤
+END
+VER 3 010000000000001D "阿斯顿" "INV_MISC_QUESTIONMARK"
+/use 一把糖果
+END
+VER 3 0100000000000019 "驱散" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,help][@target,help][] 清洁术
+END

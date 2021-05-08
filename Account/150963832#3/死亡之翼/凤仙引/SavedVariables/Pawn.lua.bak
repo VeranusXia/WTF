@@ -1,0 +1,12 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0241,
+	["LastPlayerFullName"] = "凤仙引-死亡之翼",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "MAGE",
+	["LastAdded"] = 1,
+}

@@ -1,0 +1,13 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"干嘛..", -- [1]
+		"/TMW", -- [2]
+		"玩小号举报啥", -- [3]
+		"切", -- [4]
+		"/WA", -- [5]
+		"/RL", -- [6]
+	},
+	["ChatHistoryLog"] = {
+	},
+}

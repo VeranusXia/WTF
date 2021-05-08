@@ -1,0 +1,18 @@
+VER 3 0100000000000001 "大招" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/施放 猛虎之怒
+/施放 狂暴
+END
+VER 3 0100000000000003 "宁静宏" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 维伦的未来预言
+/use 缺指指环
+/cast 宁静
+END
+VER 3 0100000000000002 "熊大招" "INV_MISC_QUESTIONMARK"
+/cast 化身：乌索克的守护者(天赋，变形)
+/cast 明月普照
+/cast 沉睡者之怒(神器)
+/use 缺指指环
+/use 虚空追猎者的契约
+END

@@ -1,0 +1,15 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+	["profileKeys"] = {
+		["蔡徐坤 - 蜘蛛王国"] = "蔡徐坤 - 蜘蛛王国",
+	},
+	["profiles"] = {
+		["蔡徐坤 - 蜘蛛王国"] = {
+			["lastSearchCode"] = "6-0-0-0",
+			["version"] = "80300.01",
+			["searchHistoryList"] = {
+				"6-0-0-0", -- [1]
+			},
+		},
+	},
+}

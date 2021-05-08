@@ -1,0 +1,24 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+	["profileKeys"] = {
+		["沈琴愉 - 布兰卡德"] = "沈琴愉 - 布兰卡德",
+	},
+	["profiles"] = {
+		["沈琴愉 - 布兰卡德"] = {
+			["version"] = "90002.03",
+			["lastSearchCode"] = "9-0-19-0",
+			["settings"] = {
+				["storage"] = {
+					["y"] = 0,
+					["x"] = -308.9949340820313,
+					["scale"] = 1,
+				},
+			},
+			["advShine"] = "80300.01",
+			["searchHistoryList"] = {
+				"9-0-19-0", -- [1]
+				"6-0-0-0", -- [2]
+			},
+		},
+	},
+}

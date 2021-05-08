@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "111" "INV_MISC_QUESTIONMARK"
+/castsequence 佯攻,剑刃乱舞,猩红之瓶,消失
+/脚本 local a,i,j,l="蓬乱绒毛" for i=1,#a do for j=1,114 do l=GetContainerItemLink(j/23,j%23) l=l and GetItemInfo(l) if l==a then PickupContainerItem(j/23,j%23) DeleteCursorItem () end end end
+END

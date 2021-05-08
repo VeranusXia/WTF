@@ -1,0 +1,12 @@
+VER 3 0100000000000001 "大招" "INV_MISC_QUESTIONMARK"
+#showtooltip 狂暴
+/use 13
+/use 14
+/cast 狂暴
+END
+VER 3 0100000000000002 "宁静" "INV_MISC_QUESTIONMARK"
+#showtooltip 宁静
+/use 13
+/use 14
+/cast 宁静
+END

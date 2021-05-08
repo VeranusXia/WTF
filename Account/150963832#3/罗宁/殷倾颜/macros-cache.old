@@ -1,0 +1,15 @@
+VER 3 0100000000000003 "浩劫" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,harm][@target,harm][] 浩劫
+END
+VER 3 0100000000000004 "献祭" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,harm][@target,harm][] 献祭
+END
+VER 3 0100000000000002 "黑魂" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/施放 黑暗灵魂：动荡
+/施放 黑暗灵魂：哀难
+/use 13
+/use 14
+END

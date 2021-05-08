@@ -1,0 +1,47 @@
+VER 3 0100000000000002 "121212" "461818"
+/run TogglePVPUI()
+/click HonorFrameQueueButton
+/click StaticPopup1Button2
+/click PVPReadyDialogEnterBattleButton
+/run PVPMatchResults["leaveButton"]:Click()
+/use 协同战旗
+/use 庆典烟火
+END
+VER 3 0100000000000003 "12312312321" "133741"
+/use 尾锚的宠物日志
+/施放 复活战斗宠物(战斗宠物)
+/target 海难俘虏
+/script SelectGossipOption(1)
+/script if (UnitLevel("player")<60)then StaticPopup1Button1:Click() end
+/click HonorFrameQueueButton
+/click PVPReadyDialogEnterBattleButton
+/run PVPMatchResults["leaveButton"]:Click(
+END
+VER 3 0100000000000004 "冲锋清醒梦境" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 冲锋
+/cast 清醒梦境之忆
+END
+VER 3 0100000000000001 "大跳" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]英勇飞跃
+END
+VER 3 0100000000000005 "天神饰品" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 天神下凡
+/use 13
+END
+VER 3 0100000000000006 "实力" "461818"
+/tar [dead][noexists] 给我尝尝呗
+/tar [dead][noexists] 银渐层
+/cast [@target,exists,nodead] 自动攻击
+/use 协同战旗
+END
+VER 3 0100000000000007 "巨人打击" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 巨人打击
+/use 13
+END
+VER 3 0100000000000008 "拆解" "134400"
+/run for b=0,NUM_BAG_SLOTS do for s= 1, 32, 1 do local name = GetContainerItemLink(b,s); if name and string.find(name,"浪息亚麻护腕") then PickupContainerItem(b,s) UseContainerItem(b,s) end end end
+END

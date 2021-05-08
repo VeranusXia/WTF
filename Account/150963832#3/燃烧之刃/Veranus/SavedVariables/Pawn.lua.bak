@@ -1,0 +1,12 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.024,
+	["LastPlayerFullName"] = "Veranus-燃烧之刃",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "PALADIN",
+	["LastAdded"] = 1,
+}

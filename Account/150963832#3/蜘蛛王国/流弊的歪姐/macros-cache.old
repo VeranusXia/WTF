@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "大招" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/施放 猛虎之怒
+/施放 狂暴
+END

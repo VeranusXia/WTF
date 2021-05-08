@@ -1,0 +1,12 @@
+VER 3 0100000000000002 "奶潮" "INV_MISC_QUESTIONMARK"
+#showtooltip 治疗之潮图腾
+/use 14
+/use 13
+/cast 治疗之潮图腾
+END
+VER 3 0100000000000001 "实力" "INV_MISC_QUESTIONMARK"
+/tar 平原
+/stopcasting
+/cast 毁灭闪电
+/cast 风暴打击
+END

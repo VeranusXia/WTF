@@ -1,0 +1,65 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0326,
+	["ItemLevels"] = {
+		{
+			["ID"] = 122250,
+			["Level"] = 224,
+			["Link"] = "|cff00ccff|Hitem:122250::::::::112:256:::1:5805:::|h[破烂的鬼雾面罩]|h|r",
+		}, -- [1]
+		nil, -- [2]
+		{
+			["ID"] = 122360,
+			["Level"] = 224,
+			["Link"] = "|cff00ccff|Hitem:122360::::::::112:256:::1:5805:::|h[褴褛的鬼雾衬肩]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 122384,
+			["Level"] = 224,
+			["Link"] = "|cff00ccff|Hitem:122384::::::::112:256:::1:5805:::|h[破烂的鬼雾长袍]|h|r",
+		}, -- [5]
+		nil, -- [6]
+		{
+			["ID"] = 122256,
+			["Level"] = 224,
+			["Link"] = "|cff00ccff|Hitem:122256::::::::112:256:::1:5805:::|h[破烂的鬼雾护腿]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 51,
+			["Level"] = 1,
+			["Link"] = "|cffffffff|Hitem:51::::::::79:256::::::|h[见习牧师之靴]|h|r",
+		}, -- [8]
+		[11] = {
+			["ID"] = 128173,
+			["Level"] = 224,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff00ccff|Hitem:128173::::::::112:256:::1:5805:::|h[海军上将泰勒的忠诚指环]|h|r",
+		},
+		[16] = {
+			["ID"] = 20978,
+			["Level"] = 1,
+			["Link"] = "|cffffffff|Hitem:20978::::::::79:256::::::|h[学徒法杖]|h|r",
+		},
+		[15] = {
+			["ID"] = 122262,
+			["Level"] = 224,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::112:256:::1:5805:::|h[上古血月披风]|h|r",
+		},
+		[12] = {
+			["ID"] = 128173,
+			["Level"] = 170,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff00ccff|Hitem:128173::::::::110:256:::1:5805:::|h[海军上将泰勒的忠诚指环]|h|r",
+		},
+	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Amilus-死亡之翼",
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "PRIEST",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

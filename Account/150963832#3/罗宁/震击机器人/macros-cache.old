@@ -1,0 +1,6 @@
+VER 3 0100000000000001 "实力" "INV_MISC_QUESTIONMARK"
+/tar 平原
+/stopcasting
+/cast 毁灭闪电
+/cast 风暴打击
+END

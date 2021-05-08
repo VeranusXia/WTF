@@ -1,0 +1,24 @@
+VER 3 0100000000000002 "DB_AaslaanFire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_AaslaanFire
+END
+VER 3 0100000000000006 "DB_Arcane" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Arcane
+END
+VER 3 0100000000000003 "DB_Fire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Fire
+END
+VER 3 0100000000000001 "DB_Frosty" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Frosty
+END
+VER 3 0100000000000004 "DB_Ichthys_Frosty" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Ichthys_Frosty
+END
+VER 3 0100000000000005 "烈焰风暴" "INV_MISC_QUESTIONMARK"
+/cast [@cursor]烈焰风暴 
+/cast [@player]烈焰风暴
+END

@@ -1,0 +1,48 @@
+VER 3 0100000000000002 "偷天" "INV_MISC_QUESTIONMARK"
+#showtooltip 嫁祸诀窍
+/click AutoTankMisdirect
+END
+VER 3 0100000000000007 "大招" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [spec:1]宿敌;[spec:2]冲动;[spec:3]暗影之刃
+/use 13
+END
+VER 3 0100000000000030 "帷幕闪避" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stealth,nocombat]潜伏帷幕;[combat]闪避
+END
+VER 3 0100000000000031 "抓贼" "INV_MISC_QUESTIONMARK"
+#show 闷棍 
+/cleartarget 
+/targetenemy 
+/cast 闷棍 
+END
+VER 3 0100000000000018 "抓钩" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]抓钩
+END
+VER 3 0100000000000026 "潜行鬼魅攻击" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nostealth,nocombat] 潜行
+/cast [nostealth,combat,talent:6/2]淬毒之刃
+/cast [nostealth,combat,talent:6/3]抽血
+/cast [talent:3/3]死亡标记
+END
+VER 3 0100000000000012 "脚踢" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting 
+/Cast [target=focus,exists][]脚踢
+END
+VER 3 010000000000002F "致盲" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting 
+/Cast [target=focus,exists][]致盲
+END
+VER 3 0100000000000003 "鹦鹉暗打" "INV_MISC_QUESTIONMARK"
+#showtooltip 暗影之舞
+/cast [stance:0,nohelp,exists,nodead] !暗影之舞
+/cast 死亡符记
+/use 13
+/cast 冷血
+/cast [stance:0/2] 暗影打击
+END

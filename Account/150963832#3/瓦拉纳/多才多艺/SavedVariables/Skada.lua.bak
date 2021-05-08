@@ -1,0 +1,1163 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 2258956,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "ROGUE",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["healingspells"] = {
+					["迅捷的正义之手"] = {
+						["shielding"] = 0,
+						["id"] = 59913,
+						["healing"] = 3,
+						["min"] = 0,
+						["name"] = "迅捷的正义之手",
+						["hits"] = 44,
+						["overhealing"] = 31359,
+						["max"] = 3,
+						["critical"] = 0,
+						["absorbed"] = 0,
+					},
+					["警觉之嗅"] = {
+						["shielding"] = 563,
+						["id"] = 312215,
+						["healing"] = 563,
+						["min"] = 1,
+						["name"] = "警觉之嗅",
+						["hits"] = 57,
+						["overhealing"] = 0,
+						["max"] = 45,
+						["critical"] = 0,
+						["absorbed"] = 0,
+					},
+				},
+				["time"] = 156,
+				["interrupts"] = 0,
+				["role"] = "DAMAGER",
+				["overhealing"] = 31359,
+				["damage"] = 2258956,
+				["damagespells"] = {
+					["左右开弓"] = {
+						["hitmin"] = 18464,
+						["criticalamount"] = 153737,
+						["id"] = 86392,
+						["damage"] = 326609,
+						["max"] = 40361,
+						["school"] = 1,
+						["min"] = 18464,
+						["criticalmax"] = 40361,
+						["critical"] = 4,
+						["hit"] = 9,
+						["totalhits"] = 13,
+						["hitmax"] = 20357,
+						["criticalmin"] = 37237,
+						["hitamount"] = 172872,
+					},
+					["攻击"] = {
+						["damage"] = 541404,
+						["hitmin"] = 7314,
+						["criticalamount"] = 250295,
+						["id"] = 6603,
+						["criticalmin"] = 14570,
+						["max"] = 29564,
+						["school"] = 1,
+						["min"] = 7314,
+						["criticalmax"] = 29564,
+						["hitmax"] = 15661,
+						["hit"] = 21,
+						["totalhits"] = 33,
+						["critical"] = 11,
+						["MISS"] = 1,
+						["hitamount"] = 291109,
+					},
+					["影袭"] = {
+						["hitmin"] = 17350,
+						["criticalamount"] = 317992,
+						["id"] = 193315,
+						["damage"] = 740704,
+						["max"] = 36788,
+						["school"] = 1,
+						["min"] = 17350,
+						["criticalmax"] = 36788,
+						["hitmax"] = 18468,
+						["hit"] = 24,
+						["totalhits"] = 33,
+						["critical"] = 9,
+						["criticalmin"] = 34840,
+						["hitamount"] = 422712,
+					},
+					["剑刃乱舞"] = {
+						["hitmin"] = 5518,
+						["id"] = 22482,
+						["min"] = 5518,
+						["damage"] = 172602,
+						["hitmax"] = 11745,
+						["hit"] = 25,
+						["school"] = 1,
+						["totalhits"] = 25,
+						["max"] = 11745,
+						["hitamount"] = 172602,
+					},
+					["斩击"] = {
+						["hitmin"] = 40398,
+						["id"] = 2098,
+						["min"] = 40398,
+						["damage"] = 40398,
+						["hitmax"] = 40398,
+						["hit"] = 1,
+						["school"] = 1,
+						["totalhits"] = 1,
+						["max"] = 40398,
+						["hitamount"] = 40398,
+					},
+					["手枪射击"] = {
+						["hitmin"] = 13572,
+						["criticalamount"] = 165337,
+						["id"] = 185763,
+						["damage"] = 358497,
+						["max"] = 27707,
+						["school"] = 1,
+						["min"] = 13572,
+						["criticalmax"] = 27707,
+						["hitmax"] = 14530,
+						["hit"] = 14,
+						["totalhits"] = 20,
+						["critical"] = 6,
+						["criticalmin"] = 27146,
+						["hitamount"] = 193160,
+					},
+					["正中眉心"] = {
+						["hitmin"] = 20801,
+						["id"] = 199804,
+						["min"] = 20801,
+						["damage"] = 78742,
+						["hitmax"] = 37055,
+						["hit"] = 3,
+						["school"] = 1,
+						["totalhits"] = 3,
+						["max"] = 37055,
+						["hitamount"] = 78742,
+					},
+				},
+				["maxhp"] = 34400,
+				["healed"] = {
+					["Player-2136-0C12B55E"] = {
+						["role"] = "DAMAGER",
+						["name"] = "多才多艺",
+						["amount"] = 566,
+						["class"] = "ROGUE",
+						["shielding"] = 563,
+					},
+				},
+				["shielding"] = 563,
+				["id"] = "Player-2136-0C12B55E",
+				["healing"] = 566,
+				["deathlog"] = {
+					{
+						["absorb"] = 0,
+						["amount"] = 3,
+						["srcname"] = "多才多艺",
+						["spellid"] = 59913,
+						["hp"] = 34400,
+						["ts"] = 1600961550.189,
+					}, -- [1]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "多才多艺",
+						["spellid"] = 59913,
+						["hp"] = 34400,
+						["ts"] = 1600961550.189,
+					}, -- [2]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "多才多艺",
+						["spellid"] = 59913,
+						["hp"] = 34400,
+						["ts"] = 1600961572.251,
+					}, -- [3]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "多才多艺",
+						["spellid"] = 59913,
+						["hp"] = 34400,
+						["ts"] = 1600961572.251,
+					}, -- [4]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "多才多艺",
+						["spellid"] = 59913,
+						["hp"] = 34400,
+						["ts"] = 1600961665.305,
+					}, -- [5]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "多才多艺",
+						["spellid"] = 59913,
+						["hp"] = 34400,
+						["ts"] = 1600961665.305,
+					}, -- [6]
+					{
+						["absorb"] = -14,
+						["srcname"] = "珍禽异兽商人",
+						["spellid"] = 88163,
+						["hp"] = 34400,
+						["ts"] = 1600961666.706,
+					}, -- [7]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "多才多艺",
+						["spellid"] = 59913,
+						["hp"] = 34400,
+						["ts"] = 1600961698.802,
+					}, -- [8]
+					{
+						["ts"] = 1600961698.802,
+						["amount"] = 0,
+						["spellid"] = 59913,
+						["srcname"] = "多才多艺",
+						["hp"] = 34400,
+						["absorb"] = 0,
+					}, -- [9]
+					{
+						["ts"] = 1600961421.288,
+						["amount"] = 0,
+						["spellid"] = 59913,
+						["srcname"] = "多才多艺",
+						["hp"] = 34400,
+						["absorb"] = 0,
+					}, -- [10]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "多才多艺",
+						["spellid"] = 59913,
+						["hp"] = 34400,
+						["ts"] = 1600961439.275,
+					}, -- [11]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "多才多艺",
+						["spellid"] = 59913,
+						["hp"] = 34400,
+						["ts"] = 1600961439.275,
+					}, -- [12]
+					{
+						["ts"] = 1600961505.785,
+						["amount"] = 0,
+						["spellid"] = 59913,
+						["srcname"] = "多才多艺",
+						["hp"] = 34400,
+						["absorb"] = 0,
+					}, -- [13]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["srcname"] = "多才多艺",
+						["spellid"] = 59913,
+						["hp"] = 34400,
+						["ts"] = 1600961505.785,
+					}, -- [14]
+					{
+						["ts"] = 1600961550.189,
+						["amount"] = -3,
+						["hp"] = 34397,
+						["srcname"] = "奥菲斯",
+						["spellid"] = 162182,
+					}, -- [15]
+					["pos"] = 10,
+				},
+				["damagetakenspells"] = {
+					["恶毒投掷"] = {
+						["crushing"] = 0,
+						["id"] = 170367,
+						["damage"] = 88,
+						["max"] = 5,
+						["name"] = "恶毒投掷",
+						["glancing"] = 0,
+						["totalhits"] = 18,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["school"] = 1,
+						["resisted"] = 0,
+						["min"] = 4,
+						["absorbed"] = 0,
+					},
+					["攻击"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["damage"] = 330,
+						["max"] = 38,
+						["name"] = "攻击",
+						["glancing"] = 0,
+						["totalhits"] = 45,
+						["critical"] = 2,
+						["blocked"] = 0,
+						["school"] = 1,
+						["resisted"] = 0,
+						["min"] = 1,
+						["absorbed"] = 0,
+					},
+					["震击"] = {
+						["crushing"] = 0,
+						["id"] = 162182,
+						["damage"] = 3,
+						["max"] = 3,
+						["name"] = "震击",
+						["glancing"] = 0,
+						["totalhits"] = 1,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["school"] = 8,
+						["resisted"] = 0,
+						["min"] = 3,
+						["absorbed"] = 0,
+					},
+				},
+				["damagetaken"] = 421,
+				["name"] = "多才多艺",
+				["ffdamagedonetargets"] = {
+				},
+				["auras"] = {
+					["命运骨骰"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["name"] = "命运骨骰",
+						["auratype"] = "BUFF",
+						["id"] = 193316,
+					},
+					["手枪射击"] = {
+						["uptime"] = 148,
+						["active"] = 0,
+						["auratype"] = "BUFF",
+						["id"] = 185763,
+						["name"] = "手枪射击",
+						["school"] = 1,
+					},
+					["正中眉心"] = {
+						["name"] = "正中眉心",
+						["active"] = 0,
+						["school"] = 1,
+						["uptime"] = 4,
+						["auratype"] = "DEBUFF",
+						["id"] = 199804,
+					},
+					["埋藏的宝藏"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["name"] = "埋藏的宝藏",
+						["auratype"] = "BUFF",
+						["id"] = 199600,
+					},
+					["消失"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["name"] = "消失",
+						["auratype"] = "BUFF",
+						["id"] = 11327,
+					},
+					["剑刃乱舞"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["name"] = "剑刃乱舞",
+						["auratype"] = "BUFF",
+						["id"] = 13877,
+					},
+					["人人有份"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["name"] = "人人有份",
+						["auratype"] = "BUFF",
+						["id"] = 198368,
+					},
+					["可乘之机"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["name"] = "可乘之机",
+						["auratype"] = "BUFF",
+						["id"] = 195627,
+					},
+					["艾泽拉斯的勇士"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["name"] = "艾泽拉斯的勇士",
+						["auratype"] = "BUFF",
+						["id"] = 280713,
+					},
+					["登船突击队"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["name"] = "登船突击队",
+						["auratype"] = "BUFF",
+						["id"] = 209754,
+					},
+					["疾跑"] = {
+						["uptime"] = 16,
+						["active"] = 0,
+						["school"] = 1,
+						["name"] = "疾跑",
+						["auratype"] = "BUFF",
+						["id"] = 2983,
+					},
+					["敏锐"] = {
+						["uptime"] = 20,
+						["active"] = 0,
+						["school"] = 1,
+						["name"] = "敏锐",
+						["auratype"] = "BUFF",
+						["id"] = 193538,
+					},
+				},
+				["power"] = {
+					[4] = {
+						["spells"] = {
+							[193315] = 18,
+							[185763] = 9,
+							[139546] = 3,
+						},
+						["amount"] = 30,
+					},
+					[3] = {
+						["spells"] = {
+							[35546] = 160,
+						},
+						["amount"] = 160,
+					},
+				},
+				["ccbreaks"] = 0,
+				["ffdamagedone"] = 0,
+				["ffdamagedonespells"] = {
+				},
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["damagetaken"] = 421,
+		["power"] = {
+			[4] = 30,
+			[3] = 160,
+		},
+		["ffdamagedone"] = 0,
+		["healing"] = 566,
+		["auras"] = {
+		},
+		["mobtaken"] = 2258956,
+		["shielding"] = 563,
+		["starttime"] = 1600959187,
+		["name"] = "总计",
+		["mobs"] = {
+			["纳斯雷兹姆奴隶"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 0,
+						["done"] = 35,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 35,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["炮兵古戈克"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 41159,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 41159,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["狂野的赤爪"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 42871,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 42871,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["逝网爬行者"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 0,
+						["done"] = 69,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 69,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["针尾雄虫"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 111216,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 111216,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["缚魂者奈拉娜"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 67510,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 67510,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["古托尔"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 30249,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 30249,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["竞技场野兽"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 17495,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 17495,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["大魔导师泰卡尔"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 58829,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 58829,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["碎棘"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 35133,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 35133,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["鸦爪祭司佐卡拉"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 52449,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 52449,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["多戈中尉"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 57199,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 57199,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["魔火扈从"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 52698,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 52698,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["狂暴的瘤蹄"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 17495,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 17495,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["摩摩尔的回响"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 220784,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 220784,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["逝网小蜘蛛"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 39284,
+						["done"] = 38,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 39284,
+				["done"] = 38,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["艾克加纳克"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 152953,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 152953,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["燃烧欺诈者"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 18001,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 18001,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["狂乱污秽者"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 0,
+						["done"] = 44,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 44,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["布鲁娜中尉"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 13854,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 13854,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["雌鸟哈米"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 41610,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 41610,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["逝网护卵者"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 32622,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 32622,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["暗影议会召唤师"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 55358,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 55358,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["针尾工虫"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 237366,
+						["done"] = 33,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 237366,
+				["done"] = 33,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["岩怒"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 17567,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 17567,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["索克雷萨的化身"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 69113,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 69113,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["吞天者哈坤"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 66935,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 66935,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["暗影卫士"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 22021,
+						["done"] = 199,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 22021,
+				["done"] = 199,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["战略家安克尔"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 50390,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 50390,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["加纳迪安"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 32552,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 32552,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["疯狂的魔像"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 36114,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 36114,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["伯格鲁"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 302656,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 302656,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["巨羽"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 48484,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 48484,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["灵魔"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 38065,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 38065,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["奥菲斯"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 43136,
+						["done"] = 3,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 43136,
+				["done"] = 3,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["角斗场驯兽师"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 41109,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 41109,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["珍禽异兽商人"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 11745,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 11745,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["希兰尼"] = {
+				["players"] = {
+					["多才多艺"] = {
+						["taken"] = 82934,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "DAMAGER",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 82934,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+		},
+		["overhealing"] = 31359,
+		["mobhdone"] = 0,
+		["last_action"] = 1600959187,
+		["mobdone"] = 421,
+	},
+	["sets"] = {
+	},
+}

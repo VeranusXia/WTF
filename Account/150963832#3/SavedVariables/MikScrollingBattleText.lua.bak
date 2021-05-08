@@ -1,0 +1,56 @@
+
+MSBTProfiles_SavedVars = {
+	["profiles"] = {
+		["Default"] = {
+			["enableBlizzardDamage"] = true,
+			["creationVersion"] = "5.7.150",
+			["alwaysShowQuestItems"] = false,
+			["hideFullOverheals"] = true,
+			["soundsDisabled"] = true,
+			["scrollAreas"] = {
+				["Incoming"] = {
+					["stickyDirection"] = "Down",
+					["offsetX"] = -282,
+					["behavior"] = "MSBT_NORMAL",
+					["stickyBehavior"] = "MSBT_NORMAL",
+					["offsetY"] = 89,
+					["animationStyle"] = "Straight",
+					["stickyAnimationStyle"] = "Static",
+				},
+				["Outgoing"] = {
+					["stickyDirection"] = "Up",
+					["direction"] = "Up",
+					["offsetX"] = 232,
+					["behavior"] = "MSBT_NORMAL",
+					["stickyBehavior"] = "MSBT_NORMAL",
+					["offsetY"] = 89,
+					["animationStyle"] = "Straight",
+					["stickyAnimationStyle"] = "Static",
+				},
+				["Static"] = {
+					["offsetX"] = -19,
+					["offsetY"] = -326,
+				},
+				["Notification"] = {
+					["offsetY"] = 30,
+					["disabled"] = true,
+					["offsetX"] = -167,
+				},
+			},
+			["enableBlizzardHealing"] = false,
+			["shortenNumbers"] = true,
+			["hideMergeTrailer"] = true,
+			["qualityExclusions"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+			},
+		},
+	},
+}
+MSBT_SavedMedia = {
+	["fonts"] = {
+	},
+	["sounds"] = {
+	},
+}

@@ -1,0 +1,22 @@
+
+Ahoy_Settings = {
+	["ShowCollected"] = true,
+	["MapIcons"] = true,
+	["Toggle_AutoShowAhoyOnIsland"] = true,
+	["Toggle_AutoShowAhoyOnMissionTable"] = true,
+	["Toggle_MobMouseOverCategory"] = true,
+	["Toggle_ShowRewards"] = true,
+	["DEBUGMODE"] = false,
+	["Toggle_HideMinimapIcon"] = false,
+	["WindowScale"] = 1,
+	["WindowLocked"] = false,
+	["Toggle_MobTargetLootDisplay"] = true,
+	["FlashCards"] = false,
+	["Toggle_MobTooltipLootDisplay"] = false,
+}
+Ahoy_SettingsLDB = {
+}
+Ahoy_CollectedData = {
+	["MissingNPCs"] = {
+	},
+}

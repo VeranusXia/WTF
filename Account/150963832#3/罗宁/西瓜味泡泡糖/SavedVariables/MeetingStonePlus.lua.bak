@@ -1,0 +1,15 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+	["profileKeys"] = {
+		["西瓜味泡泡糖 - 罗宁"] = "西瓜味泡泡糖 - 罗宁",
+	},
+	["profiles"] = {
+		["西瓜味泡泡糖 - 罗宁"] = {
+			["lastSearchCode"] = "6-0-0-0",
+			["version"] = "90001.01",
+			["searchHistoryList"] = {
+				"6-0-0-0", -- [1]
+			},
+		},
+	},
+}

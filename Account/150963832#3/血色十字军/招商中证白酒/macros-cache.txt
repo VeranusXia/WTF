@@ -1,0 +1,21 @@
+VER 3 0100000000000001 "DB_Blood" "INV_Misc_QuestionMark"
+#showtooltip
+/click DB_Blood
+END
+VER 3 0100000000000002 "DB_BloodDK" "INV_Misc_QuestionMark"
+#showtooltip
+/click DB_BloodDK
+END
+VER 3 0100000000000003 "DB_SquishyDK" "INV_Misc_QuestionMark"
+#showtooltip
+/click DB_SquishyDK
+END
+VER 3 0100000000000004 "凋零" "INV_Misc_QuestionMark"
+#showtooltip
+/施放 [@cursor]枯萎凋零
+END
+VER 3 0100000000000005 "吸血鬼" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 吸血鬼之血
+/use 治疗石
+END

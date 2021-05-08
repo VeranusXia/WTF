@@ -1,0 +1,28 @@
+VER 3 0100000000000005 "浩劫" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,harm][@target,harm][] 浩劫
+END
+VER 3 0100000000000006 "献祭" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,harm][@target,harm][] 献祭
+END
+VER 3 0100000000000001 "评级挂机" "134400"
+/click StaticPopup1Button2
+/click LFDRoleCheckPopupAcceptButton
+/click PVPReadyDialogEnterBattleButton
+/run PVPMatchResults["leaveButton"]:Click()
+/cast 黑暗契约
+/targetenemy
+/cast 燃烧
+/use 16
+/use 治疗石
+/use 黄金保险箱
+/use 钢铁保险箱
+END
+VER 3 0100000000000004 "黑魂" "INV_Misc_QuestionMark"
+#showtooltip
+/施放 黑暗灵魂：动荡
+/施放 黑暗灵魂：哀难
+/use 13
+/use 14
+END

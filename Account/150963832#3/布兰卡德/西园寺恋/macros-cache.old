@@ -1,0 +1,76 @@
+VER 3 010000000000002C "信仰" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [help]信仰飞跃;[harm][]能量灌注
+END
+VER 3 010000000000002D "全神" "INV_Misc_QuestionMark"
+#showtooltip 全神贯注
+/use 罪孽角斗士的凶猛徽章
+/cast 全神贯注
+END
+VER 3 010000000000002E "吸血鬼毒奶" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][nocombat]暗影愈合;吸血鬼的拥抱
+END
+VER 3 010000000000002F "大招饰品" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [spec:1]痛苦压制
+/use 14
+END
+VER 3 0100000000000030 "强效治疗术" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [harm]神圣之火; [help][]强效治疗术
+END
+VER 3 0100000000000031 "快速治疗控心术" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [harm]控心术; [help][]快速治疗
+END
+VER 3 0100000000000032 "恢复" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@target,help][] 恢复
+END
+VER 3 0100000000000033 "惩击" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [harm][target=targettarget,harm][]惩击
+END
+VER 3 0100000000000034 "惩击盾" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help]真言术：盾;[harm]惩击; [help][]真言术：盾
+END
+VER 3 0100000000000035 "治疗术痛" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [harm]暗言术：痛; [help][]治疗术
+END
+VER 3 0100000000000036 "痛" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [channeling:精神灼烧]灼烧梦魇;暗言术：痛
+END
+VER 3 0100000000000037 "盾" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@target,help][] 真言术：盾
+END
+VER 3 0100000000000038 "绝望" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 绝望祷言
+/use 治疗石
+/use 活力翡翠
+/use 希拉斯的延继治疗之瓶
+END
+VER 3 0100000000000039 "罩子灵暗影冲撞" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor,spec:1]真言术：障;[@cursor,spec:2]圣言术：灵;[@cursor,spec:3,talent:5/3]暗影冲撞
+END
+VER 3 010000000000003A "羽毛宏" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] 天堂之羽
+END
+VER 3 010000000000003B "虚空爆发" "INV_Misc_QuestionMark"
+#showtooltip 虚空爆发
+/use 13
+/use 14
+/施放 虚空爆发
+END
+VER 3 010000000000003C "驱散" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,nodead,nospec:3]纯净术;[@mouseover,help,nodead,spec:3]净化疾病;[@mouseover,harm,nodead]驱散魔法
+/cast [harm,nodead]驱散魔法;[help,nodead,nospec:3][nospec:3]纯净术;[help,nodead,spec:3][spec:3]净化疾病
+END

@@ -1,0 +1,103 @@
+VER 3 0100000000000001 "kiss" "134400"
+/use 疣无忧唇膏
+/KISS
+END
+VER 3 0100000000000011 "kiss" "134400"
+/run C_PetBattles.StartPVPMatchmaking()
+/run C_PetBattles.AcceptQueuedPVPMatch();StaticPopupSpecial_Hide(PetBattleQueueReadyFrame)
+END
+VER 3 0100000000000002 "一件[][][][]" "INV_Misc_QuestionMark"
+#showtooltip
+/tar 鞭
+/castsequence reset=6/combat 奉献,祝福之锤,祝福之锤
+/cast 正义盾击
+/use 13
+/use 14
+END
+VER 3 0100000000000003 "圣光" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [harm]十字军打击;[][help]圣光术
+END
+VER 3 0100000000000004 "坦克复仇" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 复仇之怒
+/use 13
+END
+VER 3 0100000000000005 "复仇" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 复仇之怒
+/use 13
+/use 14
+/cast 律法之责
+END
+VER 3 0100000000000006 "审判" "INV_Misc_QuestionMark"
+#showtooltip 审判 
+/use [@mouseover,harm,nodead] [harm,nodead] [@targettarget,harm,nodead][@focus,harm,nodead][@targettargettarget,harm,nodead] 审判 
+/stopmacro [harm,nodead][targettarget,harm,nodead] 
+/targetenemy 
+/use 审判 
+/targetlasttarget
+END
+VER 3 0100000000000007 "拉怪" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence reset=4 审判,奉献,祝福之锤,祝福之锤,审判,祝福之锤,奉献,审判,祝福之锤
+END
+VER 3 0100000000000008 "用鱼" "INV_Misc_QuestionMark"
+#showtooltip
+/use 淡紫刺鳐
+/use 软泥鲭鱼
+/use 洋流鲷鱼
+/use 狂乱的利齿青鱼
+/use 赤尾泥鳅
+/use 海砂变色鱼
+/use 提拉加德鲈鱼
+/use 蝰鱼
+/cast 黎明之光
+END
+VER 3 0100000000000009 "神圣复仇者" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 神圣复仇者
+/use 13
+/use 14
+/cast 律法之责
+END
+VER 3 010000000000000A "神圣震击" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@target,help][] 神圣震击 
+END
+VER 3 010000000000000B "评级" "134400"
+/click StaticPopup1Button2
+/click LFDRoleCheckPopupAcceptButton
+/click PVPReadyDialogEnterBattleButton
+/run PVPMatchResults["leaveButton"]:Click()
+/click LFGDungeonReadyDialogEnterDungeonButton
+/targetfriendplayer
+/cast 殉道者之光
+/use 黄金保险箱
+/use 钢铁保险箱
+END
+VER 3 010000000000000C "赋予信仰" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=player]赋予信仰
+END
+VER 3 010000000000000D "进攻" "134400"
+/targetenemy
+/cast 神圣震击
+END
+VER 3 010000000000000E "铁须" "135984"
+/target 铁须
+/cast 清算之手
+/cast 审判
+/use 芬德尔的远程拾取器
+END
+VER 3 010000000000000F "阿古斯拉怪" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence reset=6/combat 奉献,正义之锤,审判,正义之锤
+END
+VER 3 0100000000000012 "阿斯顿" "134400"
+/use 一把糖果
+END
+VER 3 0100000000000010 "驱散" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@target,help][] 清洁术
+END

@@ -1,0 +1,65 @@
+VER 3 0100000000000006 "DB_HolyDeeps" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_HolyDeeps
+END
+VER 3 0100000000000003 "DB_Palla_Prot_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Palla_Prot_AOE
+END
+VER 3 0100000000000002 "DB_Palla_Prot_ST" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Palla_Prot_ST
+END
+VER 3 0100000000000001 "DB_Palla_Sera" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Palla_Sera
+END
+VER 3 0100000000000004 "DB_Prot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Prot
+END
+VER 3 010000000000000E "DB_Ret" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Ret
+END
+VER 3 010000000000000D "DB_RetAoE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_RetAoE
+END
+VER 3 010000000000000B "圣光" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [harm]十字军打击;[][help]圣光术
+END
+VER 3 010000000000000F "坦克复仇" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 复仇之怒
+/use 13
+/use 14
+END
+VER 3 010000000000000A "复仇" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 复仇之怒
+/cast 光环掌握
+END
+VER 3 0100000000000005 "拉怪" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=4 审判,奉献,祝福之锤,祝福之锤,审判,祝福之锤,奉献,审判,祝福之锤
+END
+VER 3 0100000000000007 "提尔" "INV_MISC_QUESTIONMARK"
+#showtooltip 提尔的拯救
+/cast 神圣复仇者
+/cast 提尔的拯救(神器)
+END
+VER 3 0100000000000008 "美德" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 美德道标
+/cast 律法之则
+END
+VER 3 010000000000000C "自杀光" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [help]殉道者之光;[player]赋予信仰
+END
+VER 3 0100000000000009 "赋予信仰" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=player]赋予信仰
+END

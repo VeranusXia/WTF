@@ -1,0 +1,9 @@
+VER 3 0100000000000002 "战吼大风车" "INV_MISC_QUESTIONMARK"
+#showtooltip 剑刃风暴
+/cast 战吼
+/cast 剑刃风暴
+END
+VER 3 0100000000000001 "英勇跳跃" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]英勇飞跃
+END

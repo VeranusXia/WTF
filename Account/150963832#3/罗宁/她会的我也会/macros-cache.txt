@@ -1,0 +1,70 @@
+VER 3 0100000000000015 "123123213" "INV_MISC_QUESTIONMARK"
+/hug
+END
+VER 3 0100000000000011 "一键爆发" "INV_MISC_QUESTIONMARK"
+/castsequence [@cursor] reset=20/combat 火焰冲击,清醒梦境之忆,能量符文,火焰冲击,流星,燃烧,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术,火焰冲击,超线程护腕,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术,灼烧,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术
+END
+VER 3 0100000000000013 "一键爆发" "135807"
+/castsequence [@cursor] reset=20/combat 火焰冲击,清醒梦境之忆,能量符文,火焰冲击,流星,燃烧,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术,火焰冲击,超线程护腕,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术,灼烧,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术
+END
+VER 3 0100000000000007 "冰脉" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 冰冷血脉
+/use 13
+/use 14
+END
+VER 3 0100000000000008 "奥强" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 奥术强化
+/cast 气定神闲
+/use 13
+/use 14
+END
+VER 3 0100000000000016 "并且" "INV_MISC_QUESTIONMARK"
+/targetenemy
+/cast 冰枪术
+END
+VER 3 0100000000000012 "暂停红" "INV_MISC_QUESTIONMARK"
+/run local t = time() + 10 while time() < t do end
+END
+VER 3 010000000000000C "暴风雪" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]暴风雪 
+/cast [@player]暴风雪
+END
+VER 3 010000000000000B "流星" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]流星
+/cast [@player]流星
+END
+VER 3 010000000000000F "清醒火冲" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 清醒梦境之忆
+/cast 火焰冲击
+END
+VER 3 0100000000000010 "火炬" "INV_MISC_QUESTIONMARK"
+/use 黄金保险箱
+/use 钢铁保险箱
+END
+VER 3 0100000000000005 "烈焰风暴" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]烈焰风暴 
+/cast [@player]烈焰风暴
+END
+VER 3 0100000000000009 "燃烧" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 燃烧
+/use 13
+/use 14
+END
+VER 3 010000000000000D "爱情娃娃" "INV_MISC_QUESTIONMARK"
+/target 爱情娃娃
+/pity
+END
+VER 3 0100000000000014 "赤翼蛾" "INV_MISC_QUESTIONMARK"
+/target 赤翼蛾
+END
+VER 3 010000000000000A "飞弹" "INV_MISC_QUESTIONMARK"
+#showtooltip 奥术飞弹
+/cast [nochanneling] 奥术飞弹
+END

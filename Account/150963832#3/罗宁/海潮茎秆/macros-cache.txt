@@ -1,0 +1,24 @@
+VER 3 0100000000000001 "1" "644389"
+/施放 复活战斗宠物(战斗宠物) 
+/target 瑞迪尔 
+/script SelectGossipOption(1) 
+/click tdBattlePetScriptAutoButton
+END
+VER 3 0100000000000002 "2" "644389"
+/castsequence reset=240 复活战斗宠物(战斗宠物),幽灵视觉,幽灵视觉,幽灵视觉,幽灵视觉,幽灵视觉,幽灵视觉,幽灵视觉,幽灵视觉,幽灵视觉,战斗宠物绷带
+END
+VER 3 0100000000000003 "3" "644389"
+/castsequence reset=240 复活战斗宠物(战斗宠物),影遁,影遁,战斗宠物绷带,影遁,战斗宠物绷带,影遁,战斗宠物绷带
+END
+VER 3 0100000000000004 "4" "134400"
+/target 瑞迪尔 
+/script SelectGossipOption(1)
+END
+VER 3 0100000000000005 "5" "134400"
+/click ActionButton1
+/click ActionButton2
+END
+VER 3 0100000000000006 "大跳" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor]地狱火撞击
+END

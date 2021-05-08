@@ -1,0 +1,13 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/INV 西瓜味泡泡糖-罗宁", -- [1]
+		"/RL", -- [2]
+		"/INV 匠人匠心-蜘蛛王国", -- [3]
+		"/MYSLOT", -- [4]
+		"/WHO", -- [5]
+		"/INV 看群文件-罗宁", -- [6]
+	},
+	["ChatHistoryLog"] = {
+	},
+}

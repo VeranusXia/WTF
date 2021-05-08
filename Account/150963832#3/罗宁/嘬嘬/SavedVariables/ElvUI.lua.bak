@@ -1,0 +1,11 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/tmw", -- [1]
+		"/1 食肉鞭荅者 有人来打么", -- [2]
+		"/TARGET 奥", -- [3]
+		"/qbar lock", -- [4]
+	},
+	["ChatHistoryLog"] = {
+	},
+}

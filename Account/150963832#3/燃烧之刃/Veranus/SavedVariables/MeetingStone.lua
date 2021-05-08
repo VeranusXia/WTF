@@ -1,0 +1,11 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+	["profileKeys"] = {
+		["Veranus - 燃烧之刃"] = "Veranus - 燃烧之刃",
+	},
+	["profiles"] = {
+		["Veranus - 燃烧之刃"] = {
+			["version"] = "80300.01",
+		},
+	},
+}

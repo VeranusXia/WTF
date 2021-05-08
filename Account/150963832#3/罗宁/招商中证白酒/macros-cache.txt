@@ -1,0 +1,60 @@
+VER 3 010000000000000A "壮胆酒战斗大师" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 壮胆酒
+/use 静谧之瓶
+/use 罪孽角斗士的纹章
+END
+VER 3 0100000000000008 "幻灭踢" "INV_MISC_QUESTIONMARK"
+#showtooltip 幻灭踢
+/targetenemy [noharm][dead]
+/cast 风火雷电：锁定
+/cast [nochanneling:怒雷破]幻灭踢
+END
+VER 3 010000000000000D "徽章魂体转移" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 罪孽角斗士的勋章
+/cast 生存意志
+/cast 魂体双分：转移
+END
+VER 3 010000000000000C "抓钩迅捷" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead]迅如猛虎;[@mouseover,harm,nodead][harm]抓钩武器;[help][]迅如猛虎
+END
+VER 3 0100000000000005 "爆发" "INV_MISC_QUESTIONMARK"
+#showtooltip 风火雷电
+/cast [nochanneling:怒雷破]风火雷电
+/castsequence 精序兵戈(格里恩),白虎下凡
+/use 罪孽角斗士的凶猛徽章
+END
+VER 3 0100000000000007 "猛虎" "INV_MISC_QUESTIONMARK"
+#showtooltip 猛虎掌
+/targetenemy [noharm][dead]
+/cast 风火雷电：锁定
+/cast [nochanneling:怒雷破]猛虎掌
+END
+VER 3 0100000000000004 "环" "INV_MISC_QUESTIONMARK"
+#showtooltip [talent:4/3]平心之环;[talent:4/2]赤精之歌
+/cast [mod:alt,@player] [@cursor] 平心之环
+/cast [talent:4/2]赤精之歌
+END
+VER 3 0100000000000003 "白虎拳" "INV_MISC_QUESTIONMARK"
+#showtooltip 白虎拳
+/targetenemy [noharm][dead]
+/cast 风火雷电：锁定
+/cast [nochanneling:怒雷破]白虎拳
+END
+VER 3 0100000000000009 "神鹤" "INV_MISC_QUESTIONMARK"
+#showtooltip 神鹤引项踢
+/cast 风火雷电：锁定
+/cast [nochanneling:怒雷破]神鹤引项踢
+END
+VER 3 0100000000000006 "防御" "INV_MISC_QUESTIONMARK"
+#showtooltip [talent:5/2]散魔功;[talent:5/3]躯不坏;[talent:5/1]金创药
+/cast [talent:5/2]散魔功;[talent:5/3]躯不坏;[talent:5/1]金创药
+/use 治疗石
+END
+VER 3 010000000000000B "饰品还魂" "INV_MISC_QUESTIONMARK"
+#showtooltip 还魂术
+/use 13
+/cast 还魂术
+END

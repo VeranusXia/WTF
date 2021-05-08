@@ -1,0 +1,2 @@
+GridClickSets: enabled
+ElvUI_CliqueDatatext: enabled

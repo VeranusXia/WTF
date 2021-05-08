@@ -1,0 +1,94 @@
+VER 3 0100000000000001 "信仰" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=贩马仔怒风] 信仰飞跃
+END
+VER 3 0100000000000002 "全神" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 全神贯注
+/use 13
+/use 14
+/use 16
+END
+VER 3 0100000000000003 "大招" "INV_Misc_QuestionMark"
+#showtooltip 神圣赞美诗
+/use 14
+/cast 神圣赞美诗
+END
+VER 3 0100000000000004 "强效治疗术" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [harm]神圣之火; [help][]强效治疗术
+END
+VER 3 0100000000000005 "恢复" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@target,help][] 恢复
+END
+VER 3 0100000000000007 "惩击" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [harm]惩击; [help][]艾泽拉斯之心精华
+END
+VER 3 0100000000000006 "惩击" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [harm][target=targettarget,harm][]惩击
+END
+VER 3 0100000000000008 "拆解" "134400"
+/run for b=0,NUM_BAG_SLOTS do for s= 1, 32, 1 do local name = GetContainerItemLink(b,s); if name and string.find(name,"浪息亚麻护腕") then PickupContainerItem(b,s) UseContainerItem(b,s) end end end
+END
+VER 3 0100000000000009 "灵" "INV_Misc_QuestionMark"
+#showtooltip
+/use 16
+/施放 [@cursor]圣言术：灵
+END
+VER 3 010000000000000A "用鱼" "INV_Misc_QuestionMark"
+#showtooltip 预兆
+/use 淡紫刺鳐
+/use 软泥鲭鱼
+/use 洋流鲷鱼
+/use 狂乱的利齿青鱼
+/use 赤尾泥鳅
+/use 海砂变色鱼
+/use 提拉加德鲈鱼
+/use 蝰鱼
+/cast 预兆
+END
+VER 3 010000000000000B "盾" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@target,help][] 真言术：盾
+END
+VER 3 010000000000000C "祷言" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence reset=6 愈合祷言,治疗祷言,治疗祷言,治疗祷言,治疗祷言,治疗祷言,治疗祷言
+END
+VER 3 010000000000000D "绝望" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 绝望祷言
+/use 治疗石
+/use 活力翡翠
+/use 希拉斯的延继治疗之瓶
+END
+VER 3 010000000000000E "羽毛" "134400"
+/cast [@player] 天堂之羽
+/use 1
+END
+VER 3 010000000000000F "苦修" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nochanneling:苦修]苦修
+END
+VER 3 0100000000000010 "评级" "1934753"
+/click StaticPopup1Button2
+/click LFDRoleCheckPopupAcceptButton
+/click PVPReadyDialogEnterBattleButton
+/run PVPMatchResults["leaveButton"]:Click()
+/use 16
+/cast 绝望祷言
+/施放 真言术：耀
+/use 黄金保险箱
+/use 钢铁保险箱
+END
+VER 3 0100000000000012 "驱散" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [harm]驱散魔法; [help][]纯净术
+END
+VER 3 0100000000000011 "驱散" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@target,help][]纯净术;[harm]驱散魔法
+END

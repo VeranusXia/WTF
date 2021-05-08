@@ -1,0 +1,529 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 1628,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "WARRIOR",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["role"] = "NONE",
+				["time"] = 156,
+				["interrupts"] = 0,
+				["ffdamagedonespells"] = {
+				},
+				["ffdamagedone"] = 0,
+				["damage"] = 1628,
+				["damagespells"] = {
+					["攻击"] = {
+						["hitmin"] = 6,
+						["criticalamount"] = 142,
+						["id"] = 6603,
+						["hitamount"] = 761,
+						["max"] = 33,
+						["school"] = 1,
+						["min"] = 6,
+						["criticalmax"] = 33,
+						["hitmax"] = 22,
+						["hit"] = 54,
+						["totalhits"] = 59,
+						["critical"] = 5,
+						["criticalmin"] = 25,
+						["damage"] = 903,
+					},
+					["猛击"] = {
+						["hitmin"] = 5,
+						["criticalamount"] = 243,
+						["id"] = 1464,
+						["hitamount"] = 435,
+						["criticalmin"] = 10,
+						["critical"] = 13,
+						["min"] = 5,
+						["criticalmax"] = 26,
+						["hitmax"] = 13,
+						["hit"] = 54,
+						["school"] = 1,
+						["totalhits"] = 67,
+						["max"] = 26,
+						["damage"] = 678,
+					},
+					["冲锋"] = {
+						["hitmin"] = 2,
+						["criticalamount"] = 5,
+						["id"] = 126664,
+						["hitamount"] = 42,
+						["criticalmin"] = 5,
+						["hitmax"] = 4,
+						["min"] = 2,
+						["criticalmax"] = 5,
+						["critical"] = 1,
+						["hit"] = 16,
+						["totalhits"] = 17,
+						["school"] = 1,
+						["max"] = 5,
+						["damage"] = 47,
+					},
+				},
+				["ccbreaks"] = 0,
+				["healed"] = {
+					["Player-829-056302A4"] = {
+						["role"] = "NONE",
+						["name"] = "拔剑乱杀",
+						["amount"] = 211,
+						["class"] = "WARRIOR",
+						["shielding"] = 0,
+					},
+				},
+				["shielding"] = 0,
+				["id"] = "Player-829-056302A4",
+				["healing"] = 211,
+				["auras"] = {
+					["血性狂怒"] = {
+						["name"] = "血性狂怒",
+						["active"] = 0,
+						["school"] = 1,
+						["uptime"] = 15,
+						["auratype"] = "BUFF",
+						["id"] = 20572,
+					},
+					["冲锋"] = {
+						["name"] = "冲锋",
+						["active"] = 0,
+						["school"] = 1,
+						["id"] = 105771,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 11,
+					},
+					["胜利"] = {
+						["started"] = 1615632639,
+						["uptime"] = 0,
+						["name"] = "胜利",
+						["active"] = 1,
+						["school"] = 1,
+						["auratype"] = "BUFF",
+						["id"] = 32216,
+					},
+				},
+				["damagetakenspells"] = {
+					["愤怒之气"] = {
+						["crushing"] = 0,
+						["id"] = 79581,
+						["absorbed"] = 0,
+						["min"] = 3,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["school"] = 8,
+						["name"] = "愤怒之气",
+						["blocked"] = 0,
+						["totalhits"] = 4,
+						["resisted"] = 0,
+						["max"] = 3,
+						["damage"] = 12,
+					},
+					["毒液飞溅"] = {
+						["crushing"] = 0,
+						["id"] = 79607,
+						["damage"] = 2,
+						["max"] = 1,
+						["name"] = "毒液飞溅",
+						["min"] = 1,
+						["totalhits"] = 2,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["school"] = 8,
+						["resisted"] = 0,
+						["glancing"] = 0,
+						["absorbed"] = 0,
+					},
+					["邪能献祭"] = {
+						["crushing"] = 0,
+						["id"] = 37628,
+						["damage"] = 7,
+						["max"] = 5,
+						["name"] = "邪能献祭",
+						["min"] = 1,
+						["totalhits"] = 3,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["school"] = 4,
+						["resisted"] = 0,
+						["glancing"] = 0,
+						["absorbed"] = 0,
+					},
+					["攻击"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["absorbed"] = 0,
+						["min"] = 2,
+						["critical"] = 2,
+						["glancing"] = 0,
+						["school"] = 1,
+						["name"] = "攻击",
+						["blocked"] = 0,
+						["totalhits"] = 49,
+						["resisted"] = 0,
+						["max"] = 10,
+						["damage"] = 201,
+					},
+					["射击"] = {
+						["crushing"] = 0,
+						["id"] = 185857,
+						["absorbed"] = 0,
+						["min"] = 3,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["school"] = 1,
+						["name"] = "射击",
+						["blocked"] = 0,
+						["totalhits"] = 4,
+						["resisted"] = 0,
+						["max"] = 4,
+						["damage"] = 14,
+					},
+					["吸取生命"] = {
+						["crushing"] = 0,
+						["id"] = 79619,
+						["damage"] = 13,
+						["max"] = 2,
+						["name"] = "吸取生命",
+						["min"] = 1,
+						["totalhits"] = 9,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["school"] = 32,
+						["resisted"] = 0,
+						["glancing"] = 0,
+						["absorbed"] = 0,
+					},
+					["邪能火球"] = {
+						["crushing"] = 0,
+						["id"] = 35913,
+						["damage"] = 9,
+						["max"] = 9,
+						["name"] = "邪能火球",
+						["min"] = 9,
+						["totalhits"] = 1,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["school"] = 4,
+						["resisted"] = 0,
+						["glancing"] = 0,
+						["absorbed"] = 0,
+					},
+				},
+				["power"] = {
+					{
+						["amount"] = 153,
+						["spells"] = {
+							[195707] = 153,
+						},
+					}, -- [1]
+				},
+				["ffdamagedonetargets"] = {
+				},
+				["name"] = "拔剑乱杀",
+				["damagetaken"] = 258,
+				["overhealing"] = 125,
+				["maxhp"] = 315,
+				["deathlog"] = {
+					{
+						["ts"] = 1615632569.066,
+						["amount"] = -2,
+						["hp"] = 301,
+						["srcname"] = "魔犬",
+						["spellid"] = 79619,
+					}, -- [1]
+					{
+						["ts"] = 1615632569.858,
+						["amount"] = 7,
+						["srcname"] = "拔剑乱杀",
+						["hp"] = 308,
+						["spellid"] = 59913,
+						["absorb"] = 0,
+					}, -- [2]
+					{
+						["ts"] = 1615632569.858,
+						["amount"] = 7,
+						["srcname"] = "拔剑乱杀",
+						["spellid"] = 59913,
+						["hp"] = 315,
+						["absorb"] = 0,
+					}, -- [3]
+					{
+						["ts"] = 1615632581.035,
+						["amount"] = -5,
+						["srcname"] = "亚罗格·刺影",
+						["spellid"] = 37628,
+						["hp"] = 310,
+					}, -- [4]
+					{
+						["ts"] = 1615632584.065,
+						["amount"] = -1,
+						["srcname"] = "亚罗格·刺影",
+						["spellid"] = 37628,
+						["hp"] = 309,
+					}, -- [5]
+					{
+						["ts"] = 1615632585.755,
+						["amount"] = -9,
+						["srcname"] = "亚罗格·刺影",
+						["spellid"] = 35913,
+						["hp"] = 300,
+					}, -- [6]
+					{
+						["ts"] = 1615632587.049,
+						["amount"] = -1,
+						["srcname"] = "亚罗格·刺影",
+						["spellid"] = 37628,
+						["hp"] = 299,
+					}, -- [7]
+					{
+						["ts"] = 1615632587.702,
+						["amount"] = -6,
+						["srcname"] = "亚罗格·刺影",
+						["hp"] = 299,
+						["spellid"] = 88163,
+					}, -- [8]
+					{
+						["absorb"] = 0,
+						["amount"] = 6,
+						["hp"] = 299,
+						["spellid"] = 59913,
+						["srcname"] = "拔剑乱杀",
+						["ts"] = 1615632588.575,
+					}, -- [9]
+					{
+						["absorb"] = 0,
+						["amount"] = 6,
+						["hp"] = 305,
+						["srcname"] = "拔剑乱杀",
+						["spellid"] = 59913,
+						["ts"] = 1615632588.575,
+					}, -- [10]
+					{
+						["ts"] = 1615632635.55,
+						["amount"] = -4,
+						["srcname"] = "邪灵劣魔",
+						["hp"] = 315,
+						["spellid"] = 88163,
+					}, -- [11]
+					{
+						["ts"] = 1615632637.605,
+						["srcname"] = "邪灵劣魔",
+						["amount"] = -4,
+						["hp"] = 311,
+						["spellid"] = 88163,
+					}, -- [12]
+					{
+						["ts"] = 1615632639.11,
+						["hp"] = 314,
+						["amount"] = 7,
+						["spellid"] = 59913,
+						["srcname"] = "拔剑乱杀",
+						["absorb"] = 0,
+					}, -- [13]
+					{
+						["ts"] = 1615632639.11,
+						["absorb"] = 0,
+						["amount"] = 1,
+						["srcname"] = "拔剑乱杀",
+						["hp"] = 315,
+						["spellid"] = 59913,
+					}, -- [14]
+					{
+						["ts"] = 1615632568.16,
+						["amount"] = -2,
+						["srcname"] = "魔犬",
+						["spellid"] = 79619,
+						["hp"] = 303,
+					}, -- [15]
+					["pos"] = 15,
+				},
+				["healingspells"] = {
+					["迅捷的正义之手"] = {
+						["shielding"] = 0,
+						["id"] = 59913,
+						["healing"] = 211,
+						["min"] = 0,
+						["name"] = "迅捷的正义之手",
+						["absorbed"] = 0,
+						["critical"] = 0,
+						["max"] = 7,
+						["overhealing"] = 125,
+						["hits"] = 62,
+					},
+				},
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["damagetaken"] = 258,
+		["power"] = {
+			153, -- [1]
+		},
+		["ffdamagedone"] = 0,
+		["healing"] = 211,
+		["auras"] = {
+		},
+		["mobtaken"] = 1628,
+		["overhealing"] = 125,
+		["mobs"] = {
+			["北卫军斥候"] = {
+				["players"] = {
+					["拔剑乱杀"] = {
+						["taken"] = 177,
+						["done"] = 31,
+						["role"] = "NONE",
+						["class"] = "WARRIOR",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 177,
+				["done"] = 31,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["蝎子"] = {
+				["players"] = {
+					["拔剑乱杀"] = {
+						["taken"] = 330,
+						["done"] = 55,
+						["class"] = "WARRIOR",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 330,
+				["done"] = 55,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["萨科斯"] = {
+				["players"] = {
+					["拔剑乱杀"] = {
+						["taken"] = 87,
+						["done"] = 16,
+						["class"] = "WARRIOR",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 87,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 16,
+			},
+			["邪灵劣魔"] = {
+				["players"] = {
+					["拔剑乱杀"] = {
+						["taken"] = 471,
+						["done"] = 46,
+						["role"] = "NONE",
+						["class"] = "WARRIOR",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 471,
+				["done"] = 46,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["魔犬"] = {
+				["players"] = {
+					["拔剑乱杀"] = {
+						["taken"] = 296,
+						["done"] = 47,
+						["class"] = "WARRIOR",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 4,
+				["hdonespell"] = {
+					["吸取生命"] = {
+						["min"] = 1,
+						["crits"] = 0,
+						["max"] = 1,
+						["healing"] = 4,
+						["overhealing"] = 0,
+						["hits"] = 4,
+					},
+				},
+				["taken"] = 296,
+				["htakenspell"] = {
+					["吸取生命"] = {
+						["min"] = 1,
+						["crits"] = 0,
+						["max"] = 1,
+						["healing"] = 4,
+						["overhealing"] = 0,
+						["hits"] = 4,
+					},
+				},
+				["htaken"] = 4,
+				["done"] = 47,
+			},
+			["杂斑野猪"] = {
+				["players"] = {
+					["拔剑乱杀"] = {
+						["taken"] = 136,
+						["done"] = 41,
+						["role"] = "NONE",
+						["class"] = "WARRIOR",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 136,
+				["done"] = 41,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["亚罗格·刺影"] = {
+				["players"] = {
+					["拔剑乱杀"] = {
+						["taken"] = 131,
+						["done"] = 22,
+						["class"] = "WARRIOR",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 131,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 22,
+			},
+		},
+		["name"] = "总计",
+		["starttime"] = 1615626450,
+		["shielding"] = 0,
+		["mobhdone"] = 4,
+		["last_action"] = 1615626450,
+		["mobdone"] = 258,
+	},
+	["sets"] = {
+	},
+}

@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "误导" "INV_MISC_QUESTIONMARK"
+#showtooltip 误导
+/click AutoTankMisdirect
+END

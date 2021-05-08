@@ -1,0 +1,7 @@
+
+CamelSpotterDB = {
+	["WMOFF"] = {
+	},
+	["WMON"] = {
+	},
+}

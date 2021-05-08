@@ -1,0 +1,483 @@
+
+SkadaPerCharDB = {
+	["sets"] = {
+	},
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 22159,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "PALADIN",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["ccbreaks"] = 0,
+				["time"] = 3,
+				["interrupts"] = 0,
+				["role"] = "NONE",
+				["overhealing"] = 102323,
+				["maxhp"] = 24400,
+				["damage"] = 22159,
+				["damagespells"] = {
+					["圣光清算"] = {
+						["hitmin"] = 10985,
+						["id"] = 256896,
+						["min"] = 10985,
+						["damage"] = 22159,
+						["hitmax"] = 11174,
+						["hit"] = 2,
+						["school"] = 2,
+						["totalhits"] = 2,
+						["max"] = 11174,
+						["hitamount"] = 22159,
+					},
+				},
+				["deaths"] = {
+					{
+						["ts"] = 1598324078.1601,
+						["maxhp"] = 24400,
+						["log"] = {
+							{
+								["ts"] = 1598324076.50801,
+								["amount"] = -1995,
+								["spellid"] = 199552,
+								["srcname"] = "七截",
+								["hp"] = 18715,
+							}, -- [1]
+							{
+								["ts"] = 1598324076.71702,
+								["amount"] = -1995,
+								["spellid"] = 199552,
+								["srcname"] = "七截",
+								["hp"] = 16720,
+							}, -- [2]
+							{
+								["ts"] = 1598324077.00503,
+								["amount"] = -1995,
+								["spellid"] = 199552,
+								["srcname"] = "七截",
+								["hp"] = 14725,
+							}, -- [3]
+							{
+								["ts"] = 1598324077.21104,
+								["amount"] = -4394,
+								["spellid"] = 200685,
+								["srcname"] = "七截",
+								["hp"] = 10331,
+							}, -- [4]
+							{
+								["ts"] = 1598324077.21105,
+								["amount"] = -701,
+								["spellid"] = 295367,
+								["srcname"] = "七截",
+								["hp"] = 9630,
+							}, -- [5]
+							{
+								["ts"] = 1598324077.82106,
+								["amount"] = -2080,
+								["spellid"] = 88163,
+								["srcname"] = "七截",
+								["hp"] = 9630,
+							}, -- [6]
+							{
+								["ts"] = 1598324077.82107,
+								["amount"] = -660,
+								["spellid"] = 203796,
+								["srcname"] = "七截",
+								["hp"] = 8970,
+							}, -- [7]
+							{
+								["ts"] = 1598324077.93108,
+								["amount"] = -5216,
+								["spellid"] = 222031,
+								["srcname"] = "七截",
+								["hp"] = 1674,
+							}, -- [8]
+							{
+								["ts"] = 1598324078.16009,
+								["amount"] = -4536,
+								["spellid"] = 199547,
+								["srcname"] = "七截",
+								["hp"] = 1,
+							}, -- [9]
+							{
+								["spellname"] = "安苏宠物批发次死亡",
+								["ts"] = 1598324078.1601,
+								["spellid"] = 41220,
+								["hp"] = 0,
+							}, -- [10]
+							["pos"] = 11,
+						},
+					}, -- [1]
+					{
+						["ts"] = 1598170061.99504,
+						["log"] = {
+							{
+								["ts"] = 1598170061.16701,
+								["amount"] = -1027,
+								["spellid"] = 258883,
+								["srcname"] = "七截",
+								["hp"] = 19424,
+							}, -- [1]
+							{
+								["ts"] = 1598170061.63302,
+								["amount"] = -8092,
+								["spellid"] = 222031,
+								["srcname"] = "七截",
+								["hp"] = 11332,
+							}, -- [2]
+							{
+								["ts"] = 1598170061.99503,
+								["amount"] = -11581,
+								["spellid"] = 199547,
+								["srcname"] = "七截",
+								["hp"] = 1,
+							}, -- [3]
+							{
+								["spellname"] = "安苏宠物批发次死亡",
+								["ts"] = 1598170061.99504,
+								["spellid"] = 41220,
+								["hp"] = 0,
+							}, -- [4]
+							["pos"] = 5,
+						},
+						["maxhp"] = 24400,
+					}, -- [2]
+				},
+				["healed"] = {
+					["Creature-0-3928-0-10453-43823-00004051B4"] = {
+						["shielding"] = 0,
+						["role"] = "NONE",
+						["name"] = "莱斯莉·韦恩怀特",
+						["amount"] = 0,
+					},
+					["Creature-0-3928-0-10453-68-00054051B6"] = {
+						["shielding"] = 0,
+						["role"] = "NONE",
+						["name"] = "暴风城卫兵",
+						["amount"] = 22995,
+					},
+					["Creature-0-3928-0-10453-43824-00004051B2"] = {
+						["shielding"] = 0,
+						["role"] = "NONE",
+						["name"] = "安·韦恩怀特",
+						["amount"] = 0,
+					},
+					["Player-1933-0694861C"] = {
+						["amount"] = 0,
+						["role"] = "NONE",
+						["name"] = "非常小战",
+						["shielding"] = 0,
+					},
+					["Creature-0-3054-0-15768-68-0000447D6C"] = {
+						["amount"] = 11727,
+						["role"] = "NONE",
+						["name"] = "暴风城卫兵",
+						["shielding"] = 0,
+					},
+					["Creature-0-3928-0-10453-68-00064051B4"] = {
+						["shielding"] = 0,
+						["role"] = "NONE",
+						["name"] = "暴风城卫兵",
+						["amount"] = 27409,
+					},
+				},
+				["shielding"] = 0,
+				["id"] = "Player-1933-066DDD2B",
+				["healing"] = 62131,
+				["deathlog"] = {
+				},
+				["damagetakenspells"] = {
+					["刃舞"] = {
+						["crushing"] = 0,
+						["id"] = 200685,
+						["absorbed"] = 0,
+						["min"] = 1995,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["school"] = 1,
+						["name"] = "刃舞",
+						["blocked"] = 0,
+						["totalhits"] = 4,
+						["resisted"] = 0,
+						["max"] = 4394,
+						["damage"] = 10379,
+					},
+					["恶魔之刃"] = {
+						["crushing"] = 0,
+						["id"] = 203796,
+						["absorbed"] = 0,
+						["min"] = 660,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["school"] = 32,
+						["name"] = "恶魔之刃",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 660,
+						["damage"] = 660,
+					},
+					["毁灭之痕"] = {
+						["crushing"] = 0,
+						["id"] = 258883,
+						["damage"] = 1027,
+						["max"] = 1027,
+						["name"] = "毁灭之痕",
+						["glancing"] = 0,
+						["totalhits"] = 1,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["school"] = 124,
+						["resisted"] = 0,
+						["min"] = 1027,
+						["absorbed"] = 0,
+					},
+					["上古之火"] = {
+						["crushing"] = 0,
+						["id"] = 295367,
+						["absorbed"] = 0,
+						["min"] = 701,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["school"] = 4,
+						["name"] = "上古之火",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 701,
+						["damage"] = 701,
+					},
+					["混乱打击"] = {
+						["crushing"] = 0,
+						["id"] = 199547,
+						["damage"] = 29425,
+						["max"] = 11581,
+						["name"] = "混乱打击",
+						["glancing"] = 0,
+						["totalhits"] = 4,
+						["critical"] = 3,
+						["blocked"] = 0,
+						["school"] = 127,
+						["resisted"] = 0,
+						["min"] = 4536,
+						["absorbed"] = 0,
+					},
+					["攻击"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["absorbed"] = 0,
+						["min"] = 2080,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["school"] = 1,
+						["name"] = "攻击",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 2080,
+						["damage"] = 2080,
+					},
+				},
+				["damagetaken"] = 44272,
+				["name"] = "安苏宠物批发",
+				["ffdamagedonetargets"] = {
+				},
+				["auras"] = {
+				},
+				["power"] = {
+				},
+				["ffdamagedone"] = 0,
+				["ffdamagedonespells"] = {
+				},
+				["healingspells"] = {
+					["圣光清算"] = {
+						["shielding"] = 0,
+						["id"] = 256896,
+						["healing"] = 62131,
+						["min"] = 0,
+						["name"] = "圣光清算",
+						["hits"] = 6,
+						["overhealing"] = 102323,
+						["max"] = 27409,
+						["critical"] = 0,
+						["absorbed"] = 0,
+					},
+				},
+			}, -- [1]
+		},
+		["deaths"] = 2,
+		["damagetaken"] = 44272,
+		["power"] = {
+		},
+		["ffdamagedone"] = 0,
+		["healing"] = 62131,
+		["auras"] = {
+		},
+		["mobtaken"] = 22159,
+		["shielding"] = 0,
+		["starttime"] = 1598170061,
+		["name"] = "总计",
+		["mobs"] = {
+			["七截"] = {
+				["players"] = {
+					["安苏宠物批发"] = {
+						["taken"] = 22159,
+						["done"] = 44272,
+						["class"] = "PALADIN",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 115565,
+				["hdonespell"] = {
+					["冷漠面容"] = {
+						["min"] = 1094,
+						["crits"] = 1,
+						["max"] = 1094,
+						["healing"] = 1094,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["吸血"] = {
+						["min"] = 1881,
+						["crits"] = 0,
+						["max"] = 109928,
+						["healing"] = 114471,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+				},
+				["taken"] = 22159,
+				["done"] = 44272,
+				["htaken"] = 115565,
+				["htakenspell"] = {
+					["冷漠面容"] = {
+						["min"] = 1094,
+						["crits"] = 1,
+						["max"] = 1094,
+						["healing"] = 1094,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["吸血"] = {
+						["min"] = 1881,
+						["crits"] = 0,
+						["max"] = 109928,
+						["healing"] = 114471,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+				},
+			},
+			["暴风城卫兵"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 62131,
+				["htakenspell"] = {
+					["圣光清算"] = {
+						["min"] = 11727,
+						["crits"] = 0,
+						["max"] = 27409,
+						["healing"] = 62131,
+						["overhealing"] = 20096,
+						["hits"] = 3,
+					},
+				},
+			},
+			["安·韦恩怀特"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+					["圣光清算"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 27409,
+						["hits"] = 1,
+					},
+				},
+			},
+			["莱斯莉·韦恩怀特"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+					["圣光清算"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 27409,
+						["hits"] = 1,
+					},
+				},
+			},
+			["非常小战"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["圣光清算"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 27409,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["安苏宠物批发"] = {
+				["players"] = {
+				},
+				["hdone"] = 62131,
+				["hdonespell"] = {
+					["圣光清算"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 27409,
+						["healing"] = 62131,
+						["overhealing"] = 102323,
+						["hits"] = 6,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+		},
+		["overhealing"] = 102323,
+		["mobhdone"] = 177696,
+		["last_action"] = 1598170061,
+		["mobdone"] = 44272,
+	},
+}

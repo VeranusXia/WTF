@@ -1,0 +1,11 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"我上号", -- [1]
+		"/WHO", -- [2]
+		"/cw 龟裂-瓦拉纳 123", -- [3]
+		"/MYSLOT", -- [4]
+	},
+	["ChatHistoryLog"] = {
+	},
+}

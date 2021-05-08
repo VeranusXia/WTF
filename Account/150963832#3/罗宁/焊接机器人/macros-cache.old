@@ -1,0 +1,49 @@
+VER 3 0100000000000008 "冲锋清醒梦境" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 冲锋
+/cast [help]援护
+END
+VER 3 0100000000000001 "大跳" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor]英勇飞跃
+END
+VER 3 0100000000000003 "天神饰品" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 天神下凡
+/use 9
+/use 14
+END
+VER 3 0100000000000002 "实力" "INV_MISC_QUESTIONMARK"
+/tar [dead][noexists] 给我尝尝呗
+/tar [dead][noexists] 银渐层
+/cast [@target,exists,nodead] 自动攻击
+/use 协同战旗
+END
+VER 3 0100000000000007 "巨人打击" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 巨人打击
+/use 13
+END
+VER 3 010000000000000C "猛击旋风斩" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/2]旋风斩;猛击
+/cast 打磨利刃
+END
+VER 3 010000000000000D "顺劈无视痛苦" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/3]顺劈斩;无视苦痛
+END
+VER 3 0100000000000009 "鲁莽" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 鲁莽
+/use 13
+/use 14
+END
+VER 3 010000000000000B "龙" "132353"
+/tar 迷时始祖幼龙
+/tar 迷失始祖幼龙
+/tar 维拉苟萨
+/tar 奥伊纳克斯
+/cast 嘲讽
+/cast [exists]火红烈焰
+END

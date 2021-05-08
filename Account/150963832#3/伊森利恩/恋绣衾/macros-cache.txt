@@ -1,0 +1,32 @@
+VER 3 0100000000000003 "autoSpellButton" "INV_Misc_QuestionMark"
+#showtooltip 回春术
+/click autoSpell
+END
+VER 3 0100000000000004 "回春" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help][@target,help][] 回春术
+END
+VER 3 0100000000000001 "大招" "INV_MISC_QUESTIONMARK"
+#showtooltip 狂暴
+/use 13
+/use 14
+/cast 狂暴
+END
+VER 3 0100000000000002 "宁静" "INV_MISC_QUESTIONMARK"
+#showtooltip 宁静
+/use 13
+/use 14
+/cast 宁静
+END
+VER 3 0100000000000005 "月火结界" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [harm]月火术;[][help]塞纳里奥结界
+END
+VER 3 0100000000000006 "绽放" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@target,help][@focus,help][] 生命绽放
+END
+VER 3 0100000000000007 "阳炎过度生长" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [harm]阳炎术;[][help]过度生长
+END

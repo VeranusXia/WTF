@@ -1,0 +1,167 @@
+
+SkadaPerCharDB = {
+	["sets"] = {
+	},
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 794786,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "MAGE",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["healingspells"] = {
+				},
+				["time"] = 0,
+				["interrupts"] = 0,
+				["ffdamagedonetargets"] = {
+				},
+				["ffdamagedonespells"] = {
+				},
+				["ffdamagedone"] = 0,
+				["damage"] = 794786,
+				["damagespells"] = {
+					["奥术弹幕"] = {
+						["hitmin"] = 328685,
+						["id"] = 44425,
+						["min"] = 328685,
+						["hitamount"] = 328685,
+						["hitmax"] = 328685,
+						["hit"] = 1,
+						["school"] = 64,
+						["max"] = 328685,
+						["totalhits"] = 1,
+						["damage"] = 328685,
+					},
+					["魔爆术"] = {
+						["hitmin"] = 224085,
+						["id"] = 1449,
+						["min"] = 224085,
+						["hitamount"] = 466101,
+						["hitmax"] = 242016,
+						["hit"] = 2,
+						["school"] = 64,
+						["max"] = 242016,
+						["totalhits"] = 2,
+						["damage"] = 466101,
+					},
+				},
+				["ccbreaks"] = 0,
+				["healed"] = {
+				},
+				["shielding"] = 0,
+				["id"] = "Player-741-04DF7D54",
+				["power"] = {
+				},
+				["damagetakenspells"] = {
+				},
+				["auras"] = {
+					["节能施法"] = {
+						["school"] = 1,
+						["name"] = "节能施法",
+						["active"] = 2,
+						["id"] = 263725,
+						["started"] = 1598323122,
+						["auratype"] = "BUFF",
+						["uptime"] = 0,
+					},
+					["时空转移"] = {
+						["school"] = 64,
+						["name"] = "时空转移",
+						["active"] = 1,
+						["id"] = 236298,
+						["started"] = 1598323113,
+						["auratype"] = "BUFF",
+						["uptime"] = 0,
+					},
+				},
+				["damagetaken"] = 0,
+				["name"] = "恋绣衾",
+				["maxhp"] = 131480,
+				["deathlog"] = {
+				},
+				["overhealing"] = 0,
+				["role"] = "NONE",
+				["healing"] = 0,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["座狼"] = {
+				["players"] = {
+					["恋绣衾"] = {
+						["taken"] = 242016,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 242016,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["疯狂的座狼"] = {
+				["players"] = {
+					["恋绣衾"] = {
+						["taken"] = 224085,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 224085,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["疯狂的巨熊"] = {
+				["players"] = {
+					["恋绣衾"] = {
+						["taken"] = 328685,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "MAGE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 328685,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["shielding"] = 0,
+		["ffdamagedone"] = 0,
+		["healing"] = 0,
+		["power"] = {
+		},
+		["auras"] = {
+		},
+		["mobtaken"] = 794786,
+		["overhealing"] = 0,
+		["name"] = "总计",
+		["starttime"] = 1580865404,
+		["damagetaken"] = 0,
+		["mobhdone"] = 0,
+		["last_action"] = 1580865404,
+		["mobdone"] = 0,
+	},
+}

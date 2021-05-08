@@ -1,0 +1,24 @@
+VER 3 0100000000000001 "剥皮" "134366"
+/targetenemy [dead]
+/cast 剥皮
+END
+VER 3 0100000000000002 "大跳" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor]地狱火撞击
+END
+VER 3 0100000000000003 "烈焰" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player]烈焰咒符
+END
+VER 3 0100000000000004 "群体迷惑" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player]悲苦咒符
+END
+VER 3 0100000000000005 "群拉" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor]锁链咒符
+END
+VER 3 0100000000000006 "群沉" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player]沉默咒符
+END

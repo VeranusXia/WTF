@@ -1,0 +1,112 @@
+VER 3 0100000000000001 "12314" "INV_Misc_QuestionMark"
+#showtooltip 搜索
+/cleartarget
+/targetenemy
+/cast 搜索
+END
+VER 3 0100000000000011 "12321312312" "INV_MISC_QUESTIONMARK"
+/target 耶瑞卡尔大使
+/target 泥沼潜伏者
+/target 主工程师洛杉德尔
+/target 盘牙大使
+/target 扭曲观察者科里度斯
+/target 残骨骷髅
+/target 灾难预言者尤瑞姆
+/target 惩罚者埃沃考尔
+/target 弗尔古格
+/target 血齿鳄
+/target 赫玛希恩
+/target 克兰托尔
+/target 玛尔提卡
+/target 野蛮的麦索格
+/target 莫克拉什
+/target 努拉莫克
+/target 奥卡雷
+/target 演讲者玛尔高姆
+END
+VER 3 0100000000000002 "仇敌饰品" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 仇敌之血
+/use 14
+END
+VER 3 0100000000000003 "伏击偷窃宏" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 搜索
+/cast 伏击
+END
+VER 3 0100000000000004 "冲动" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 冲动
+/use 13
+END
+VER 3 0100000000000005 "净化" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player]净化冲击
+END
+VER 3 0100000000000006 "夜刃" "INV_Misc_QuestionMark"
+#showtooltip
+/cleartarget
+/targetlasttarget
+/targetenemy
+/cast 夜刃
+/targetlasttarget
+/cleartarget
+/targetlasttarget
+END
+VER 3 0100000000000007 "宿敌" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 宿敌
+/use 14
+END
+VER 3 0100000000000008 "抓钩" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor]抓钩
+END
+VER 3 0100000000000009 "暗刃" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 暗影之刃
+/use 14
+END
+VER 3 010000000000000A "暗打" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 暗影打击
+/cast 艾什凡的锋锐珊瑚
+END
+VER 3 010000000000000B "消失影舞刺骨" "INV_Misc_QuestionMark"
+#showtooltip
+/cast 消失
+/cast 潜行
+END
+VER 3 010000000000000C "潜行鬼魅攻击" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nostealth,nocombat] 潜行
+/cast [nostealth,combat,talent:6/2]淬毒之刃
+/cast [nostealth,combat,talent:6/3]抽血
+END
+VER 3 010000000000000D "绞喉割裂" "INV_Misc_QuestionMark"
+#showtooltip
+/cleartarget
+/targetlasttarget
+/targetenemy
+/cast [nostance:0] 锁喉;割裂
+/targetlasttarget
+/cleartarget
+/targetlasttarget
+END
+VER 3 010000000000000E "脚踢" "INV_Misc_QuestionMark"
+#showtooltip脚踢
+/stopcasting 
+/Cast [target=focus,exists] 脚踢;脚踢
+END
+VER 3 010000000000000F "锁喉毒伤" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nocombat] !锁喉
+/cast [combat] 毒伤
+END
+VER 3 0100000000000010 "鹦鹉暗打" "INV_Misc_QuestionMark"
+#showtooltip 暗影之舞
+/cast [stance:0,nohelp,exists,nodead] !暗影之舞
+/cast 死亡符记
+/use 13
+/cast [stance:0/2] 暗影打击
+END

@@ -1,0 +1,9 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/run SetBindingSpell(\"]\", \"钓鱼\");SetBinding(\"=\",\"INTERACTTARGET\");SetBinding(\"-\",\"INTERACTMOUSEOVER\");SetBinding(\"END\",\"SETVIEW1\");SaveBindings(2);", -- [1]
+		"/MYSLOT", -- [2]
+	},
+	["ChatHistoryLog"] = {
+	},
+}

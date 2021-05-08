@@ -1,0 +1,15 @@
+
+MasterPlanPC = {
+	["version"] = "20170831A",
+	["goldCollectedS"] = 0,
+	["moE"] = 12.68,
+	["moN"] = 10,
+	["moC"] = 3,
+	["moV"] = -4.2154,
+	["goldCollected"] = 285766000,
+}
+SVPC_GarrisonMissionManager = {
+	["ignored_followers"] = {
+	},
+}
+FollowerAssignCheck = nil

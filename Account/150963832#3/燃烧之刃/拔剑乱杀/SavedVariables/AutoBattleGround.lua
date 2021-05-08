@@ -1,0 +1,2 @@
+
+ABGCharacterDB = nil
