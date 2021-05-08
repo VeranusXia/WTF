@@ -271,7 +271,7 @@ HeroRotation_Druid: disabled
 HeroRotation_Rogue: disabled
 HeroRotation_Priest: disabled
 tdBattlePetScript_Ext: disabled
-AutoBattleGround: disabled
+AutoBattleGround: enabled
 CorruptionTooltips: disabled
 ElvUI_DTBars2: disabled
 EasyDelete: enabled
@@ -352,12 +352,12 @@ LibBabble-SubZone-3.0: enabled
 LibBabble-Boss-3.0: enabled
 LibDeflate: enabled
 LibSerialize: enabled
-VenturePlan: disabled
+VenturePlan: enabled
 BrewmasterTools: enabled
 ConsolePort: enabled
 SpellFlash: enabled
 SpellFlashCore: enabled
-AutoArena: enabled
+AutoArena: disabled
 !HFixInv: disabled
 !AutoRefuse: disabled
 CovenantMissionHelper: enabled

@@ -4,7 +4,7 @@ Rematch: disabled
 tdBattlePetScript: disabled
 tdBattlePetScript_Rematch: disabled
 tdBattlePetScript_Ext: disabled
-AutoBattleGround: disabled
+AutoBattleGround: enabled
 AdvancedInterfaceOptions: disabled
 Altcon: disabled
 Amilus: enabled
@@ -146,7 +146,7 @@ HandyNotes_Shadowlands: disabled
 ACP: disabled
 VenturePlan: disabled
 Hekili: disabled
-AutoArena: enabled
+AutoArena: disabled
 !HFixInv: disabled
 !AutoRefuse: disabled
 CovenantMissionHelper: disabled

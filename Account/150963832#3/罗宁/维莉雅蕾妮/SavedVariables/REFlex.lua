@@ -48,8 +48,8 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1619361587,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -63,11 +63,11 @@ REFlexDatabase = {
 				2, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1619361587,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -86,7 +86,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["Duration"] = 71,
 	}, -- [1]
 	{
@@ -103,15 +103,15 @@ REFlexDatabase = {
 				2, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619362031,
 		["PlayersNum"] = 4,
 		["Duration"] = 67,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
-		["Time"] = 1619362031,
-		["isBrawl"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -130,7 +130,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -176,15 +176,15 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 4,
 		["Duration"] = 101,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
 		["Time"] = 1619362207,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -203,7 +203,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -240,15 +240,15 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 4,
 		["Duration"] = 46,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
 		["Time"] = 1619362397,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -267,7 +267,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -304,15 +304,15 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 4,
 		["Duration"] = 32,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
 		["Time"] = 1619362504,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -331,7 +331,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -348,8 +348,8 @@ REFlexDatabase = {
 	{
 		["Map"] = 980,
 		["Duration"] = 103,
-		["Season"] = 30,
-		["Time"] = 1619418001,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -363,11 +363,11 @@ REFlexDatabase = {
 				2, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1619418001,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -386,7 +386,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -412,8 +412,8 @@ REFlexDatabase = {
 	{
 		["Map"] = 2373,
 		["Duration"] = 34,
-		["Season"] = 30,
-		["Time"] = 1619418128,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -427,11 +427,11 @@ REFlexDatabase = {
 				1, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 0,
+		["isBrawl"] = false,
+		["Time"] = 1619418128,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -450,7 +450,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -476,8 +476,8 @@ REFlexDatabase = {
 	{
 		["Map"] = 1552,
 		["Duration"] = 53,
-		["Season"] = 30,
-		["Time"] = 1619418272,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -491,11 +491,11 @@ REFlexDatabase = {
 				2, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1619418272,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -514,7 +514,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -540,8 +540,8 @@ REFlexDatabase = {
 	{
 		["Map"] = 1672,
 		["Duration"] = 47,
-		["Season"] = 30,
-		["Time"] = 1619418418,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -555,11 +555,11 @@ REFlexDatabase = {
 				1, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 0,
+		["isBrawl"] = false,
+		["Time"] = 1619418418,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -578,7 +578,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -624,8 +624,8 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1619446436,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -639,11 +639,11 @@ REFlexDatabase = {
 				2, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1619446436,
-		["isArena"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -662,7 +662,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["Duration"] = 76,
 	}, -- [10]
 	{
@@ -688,8 +688,8 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1619446620,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -703,11 +703,11 @@ REFlexDatabase = {
 				2, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1619446620,
-		["isArena"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -726,7 +726,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["Duration"] = 104,
 	}, -- [11]
 	{
@@ -752,8 +752,8 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1619446771,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -767,11 +767,11 @@ REFlexDatabase = {
 				2, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1619446771,
-		["isArena"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -790,7 +790,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["Duration"] = 74,
 	}, -- [12]
 	{
@@ -816,8 +816,8 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1619447046,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -831,11 +831,11 @@ REFlexDatabase = {
 				2, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1619447046,
-		["isArena"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -854,7 +854,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["Duration"] = 131,
 	}, -- [13]
 	{
@@ -880,8 +880,8 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619447373,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -895,11 +895,11 @@ REFlexDatabase = {
 				2, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1619447373,
-		["isArena"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -918,7 +918,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["Duration"] = 57,
 	}, -- [14]
 	{
@@ -944,8 +944,8 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1619447926,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -959,11 +959,11 @@ REFlexDatabase = {
 				2, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1619447926,
-		["isArena"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -982,7 +982,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["Duration"] = 57,
 	}, -- [15]
 	{
@@ -1008,8 +1008,8 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1619448352,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -1023,11 +1023,11 @@ REFlexDatabase = {
 				2, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1619448352,
-		["isArena"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -1046,7 +1046,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["Duration"] = 27,
 	}, -- [16]
 	{
@@ -1072,8 +1072,8 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619448551,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -1087,11 +1087,11 @@ REFlexDatabase = {
 				2, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1619448551,
-		["isArena"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -1110,7 +1110,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["Duration"] = 76,
 	}, -- [17]
 	{
@@ -1136,8 +1136,8 @@ REFlexDatabase = {
 				866, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619448747,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -1151,11 +1151,11 @@ REFlexDatabase = {
 				2, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1619448747,
-		["isArena"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -1174,7 +1174,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["Duration"] = 29,
 	}, -- [18]
 	{
@@ -1200,8 +1200,8 @@ REFlexDatabase = {
 				866, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1619449036,
 		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
@@ -1215,11 +1215,11 @@ REFlexDatabase = {
 				1, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1619449036,
-		["isArena"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -1238,12 +1238,11 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["Duration"] = 68,
 	}, -- [19]
 	{
 		["Map"] = 2167,
-		["Hidden"] = false,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -1265,14 +1264,15 @@ REFlexDatabase = {
 				882, -- [17]
 			}, -- [1]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 4,
 		["Duration"] = 34,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
 		["Time"] = 1620387956,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -1291,7 +1291,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -1307,14 +1307,14 @@ REFlexDatabase = {
 	}, -- [20]
 	{
 		["Map"] = 2222,
-		["Version"] = 313,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 0,
 		["Duration"] = 0,
 		["Season"] = 30,
 		["isBrawl"] = false,
-		["Time"] = 1620388107,
+		["Version"] = 313,
 		["isArena"] = false,
-		["PlayerSide"] = 1,
+		["Time"] = 1620388107,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -1350,7 +1350,6 @@ REFlexDatabase = {
 	}, -- [21]
 	{
 		["Map"] = 1504,
-		["Hidden"] = false,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -1372,14 +1371,15 @@ REFlexDatabase = {
 				882, -- [17]
 			}, -- [1]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 4,
 		["Duration"] = 84,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
 		["Time"] = 1620388469,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -1398,7 +1398,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -1414,14 +1414,14 @@ REFlexDatabase = {
 	}, -- [22]
 	{
 		["Map"] = 2222,
-		["Version"] = 313,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 0,
 		["Duration"] = 0,
 		["Season"] = 30,
 		["isBrawl"] = false,
-		["Time"] = 1620389094,
+		["Version"] = 313,
 		["isArena"] = false,
-		["PlayerSide"] = 1,
+		["Time"] = 1620389094,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -1457,7 +1457,6 @@ REFlexDatabase = {
 	}, -- [23]
 	{
 		["Map"] = 980,
-		["Hidden"] = false,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -1479,14 +1478,15 @@ REFlexDatabase = {
 				882, -- [17]
 			}, -- [1]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 4,
 		["Duration"] = 48,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
 		["Time"] = 1620389252,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -1505,7 +1505,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -1521,7 +1521,6 @@ REFlexDatabase = {
 	}, -- [24]
 	{
 		["Map"] = 1552,
-		["Hidden"] = false,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -1543,14 +1542,15 @@ REFlexDatabase = {
 				882, -- [17]
 			}, -- [1]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 4,
 		["Duration"] = 49,
-		["Season"] = 30,
+		["Hidden"] = false,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
 		["Time"] = 1620389382,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -1569,7 +1569,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -1585,7 +1585,6 @@ REFlexDatabase = {
 	}, -- [25]
 	{
 		["Map"] = 727,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -1598,11 +1597,34 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["Duration"] = 344,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620390738,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -1624,32 +1646,9 @@ REFlexDatabase = {
 				882, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620390738,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				11, -- [2]
-				11, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [26]
 	{
 		["Map"] = 2107,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -1662,11 +1661,34 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["Duration"] = 269,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620391233,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				10, -- [2]
+				11, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -1688,32 +1710,9 @@ REFlexDatabase = {
 				882, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620391233,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				10, -- [2]
-				11, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [27]
 	{
 		["Map"] = 2106,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -1726,11 +1725,34 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["Duration"] = 700,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620392278,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -1752,32 +1774,9 @@ REFlexDatabase = {
 				882, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620392278,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				3, -- [2]
-				11, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
 	}, -- [28]
 	{
 		["Map"] = 761,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -1790,11 +1789,34 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["Duration"] = 222,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620392798,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -1816,32 +1838,9 @@ REFlexDatabase = {
 				883, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620392798,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [29]
 	{
 		["Map"] = 2107,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -1854,11 +1853,34 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["Duration"] = 252,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620393191,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				3, -- [2]
+				11, -- [3]
+				4, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -1880,32 +1902,9 @@ REFlexDatabase = {
 				883, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620393191,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				3, -- [2]
-				11, -- [3]
-				4, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [30]
 	{
 		["Map"] = 566,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -1918,11 +1917,34 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["Duration"] = 652,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620393986,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				2, -- [2]
+				11, -- [3]
+				3, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -1944,32 +1966,9 @@ REFlexDatabase = {
 				883, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620393986,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				2, -- [2]
-				11, -- [3]
-				3, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [31]
 	{
 		["Map"] = 726,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -1982,11 +1981,34 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["Duration"] = 1200,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620395353,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -2008,32 +2030,9 @@ REFlexDatabase = {
 				883, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620395353,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [32]
 	{
 		["Map"] = 2106,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2046,11 +2045,34 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["Duration"] = 378,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620395895,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				4, -- [2]
+				11, -- [3]
+				5, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -2072,32 +2094,9 @@ REFlexDatabase = {
 				883, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620395895,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				4, -- [2]
-				11, -- [3]
-				5, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [33]
 	{
 		["Map"] = 2245,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2110,11 +2109,34 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["Duration"] = 986,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620397229,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -2136,32 +2158,9 @@ REFlexDatabase = {
 				883, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620397229,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [34]
 	{
 		["Map"] = 2106,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2174,11 +2173,34 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 19,
 		["Duration"] = 418,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620397793,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				10, -- [2]
+				10, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -2200,32 +2222,9 @@ REFlexDatabase = {
 				883, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620397793,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				10, -- [2]
-				10, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [35]
 	{
 		["Map"] = 727,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2238,11 +2237,34 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["Duration"] = 483,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620398421,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -2264,32 +2286,9 @@ REFlexDatabase = {
 				883, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620398421,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [36]
 	{
 		["Map"] = 2107,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2302,11 +2301,34 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["Duration"] = 172,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620398824,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				4, -- [2]
+				11, -- [3]
+				4, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -2328,32 +2350,9 @@ REFlexDatabase = {
 				883, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620398824,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				4, -- [2]
-				11, -- [3]
-				4, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [37]
 	{
 		["Map"] = 566,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2366,11 +2365,34 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 16,
 		["Duration"] = 454,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620399632,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				2, -- [2]
+				11, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -2392,28 +2414,6 @@ REFlexDatabase = {
 				883, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620399632,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				2, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [38]
 	{
 		["Map"] = 2222,
@@ -2436,7 +2436,7 @@ REFlexDatabase = {
 		["Players"] = {
 		},
 		["isBrawl"] = false,
-		["Time"] = 1620400495,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -2454,13 +2454,12 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [2]
 		},
-		["Version"] = 313,
-		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620400495,
 	}, -- [39]
 	{
 		["Map"] = 2222,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2473,9 +2472,10 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
+		["Hidden"] = false,
 		["PlayersNum"] = 20,
 		["Duration"] = 0,
-		["Season"] = 30,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -2497,9 +2497,9 @@ REFlexDatabase = {
 				883, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
 		["Time"] = 1620401136,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -2517,13 +2517,12 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [2]
 		},
-		["Version"] = 313,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["Season"] = 30,
 	}, -- [40]
 	{
 		["Map"] = 727,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2536,11 +2535,34 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["Duration"] = 419,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620401692,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -2562,32 +2584,9 @@ REFlexDatabase = {
 				883, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620401692,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [41]
 	{
 		["Map"] = 761,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2600,11 +2599,34 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["Duration"] = 150,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620402211,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				4, -- [2]
+				11, -- [3]
+				4, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -2626,32 +2648,9 @@ REFlexDatabase = {
 				883, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1620402211,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				4, -- [2]
-				11, -- [3]
-				4, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
 	}, -- [42]
 	{
 		["Map"] = 2245,
-		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2664,11 +2663,34 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["Duration"] = 289,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1620402952,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
 		["Season"] = 30,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"维莉雅蕾妮", -- [1]
@@ -2690,8 +2712,1458 @@ REFlexDatabase = {
 				884, -- [17]
 			}, -- [1]
 		},
+	}, -- [43]
+	{
+		["Map"] = 1035,
+		["Hidden"] = false,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				6, -- [3]
+				1, -- [4]
+				276, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				34713, -- [10]
+				132205, -- [11]
+				842, -- [12]
+				22, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 1031,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isArena"] = false,
-		["Time"] = 1620402952,
+		["Time"] = 1620411246,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				7, -- [2]
+				7, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				8, -- [2]
+				7, -- [3]
+				5, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [44]
+	{
+		["Map"] = 1035,
+		["Hidden"] = false,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				7233, -- [10]
+				8141, -- [11]
+				864, -- [12]
+				-2, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 140,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620411983,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [45]
+	{
+		["Map"] = 727,
+		["Hidden"] = false,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				60, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				16547, -- [10]
+				17098, -- [11]
+				862, -- [12]
+				-3, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 19,
+		["Duration"] = 419,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620412590,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				10, -- [2]
+				10, -- [3]
+				5, -- [4]
+				6, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [46]
+	{
+		["Map"] = 727,
+		["Hidden"] = false,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				3855, -- [10]
+				3855, -- [11]
+				859, -- [12]
+				-1, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 336,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620413135,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
+				4, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+	}, -- [47]
+	{
+		["Map"] = 1035,
+		["Hidden"] = false,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				3, -- [3]
+				1, -- [4]
+				69, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				2638, -- [10]
+				12126, -- [11]
+				858, -- [12]
+				-2, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 590,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620413906,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				7, -- [1]
+				7, -- [2]
+				14, -- [3]
+				7, -- [4]
+				7, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [48]
+	{
+		["Map"] = 2106,
+		["Hidden"] = false,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				5, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				3617, -- [10]
+				29791, -- [11]
+				856, -- [12]
+				-3, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 301,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620414594,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				10, -- [2]
+				11, -- [3]
+				7, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				5, -- [3]
+			}, -- [2]
+		},
+	}, -- [49]
+	{
+		["Map"] = 566,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["PlayerNum"] = 1,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				60, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				3622, -- [10]
+				3622, -- [11]
+				853, -- [12]
+				-5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["Time"] = 1620415200,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				3, -- [2]
+				11, -- [3]
+				5, -- [4]
+				6, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 351,
+	}, -- [50]
+	{
+		["Map"] = 727,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["PlayerNum"] = 1,
+		["PlayersNum"] = 19,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				2, -- [3]
+				0, -- [4]
+				109, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				7420, -- [10]
+				3667, -- [11]
+				848, -- [12]
+				-6, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["Time"] = 1620415945,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				10, -- [2]
+				11, -- [3]
+				5, -- [4]
+				6, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 503,
+	}, -- [51]
+	{
+		["Map"] = 761,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 511,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				2, -- [3]
+				0, -- [4]
+				365, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				2560, -- [10]
+				2560, -- [11]
+				842, -- [12]
+				31, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620416694,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
+				4, -- [4]
+				6, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [52]
+	{
+		["Map"] = 2107,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 218,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				2609, -- [10]
+				2609, -- [11]
+				873, -- [12]
+				-4, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620417128,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [53]
+	{
+		["Map"] = 2106,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 340,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				6089, -- [10]
+				5859, -- [11]
+				869, -- [12]
+				-5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620417647,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				2, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				9, -- [2]
+				14, -- [3]
+				3, -- [4]
+				6, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [54]
+	{
+		["Map"] = 566,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 354,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				240, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				2795, -- [10]
+				3068, -- [11]
+				864, -- [12]
+				39, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620418206,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				4, -- [1]
+				5, -- [2]
+				5, -- [3]
+				4, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				5, -- [2]
+				5, -- [3]
+				6, -- [4]
+				8, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [55]
+	{
+		["Map"] = 2106,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 292,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				4, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				8324, -- [10]
+				25795, -- [11]
+				903, -- [12]
+				-4, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620418738,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				5, -- [2]
+				11, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [56]
+	{
+		["Map"] = 2245,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 273,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				3595, -- [10]
+				3656, -- [11]
+				899, -- [12]
+				-6, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				884, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620419240,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [57]
+	{
+		["Map"] = 726,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 599,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				5, -- [3]
+				0, -- [4]
+				425, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				3867, -- [10]
+				4605, -- [11]
+				893, -- [12]
+				59, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				885, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620420083,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				4, -- [1]
+				3, -- [2]
+				4, -- [3]
+				4, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				3, -- [2]
+				4, -- [3]
+				9, -- [4]
+				6, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [58]
+	{
+		["Map"] = 2245,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 176,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				2492, -- [10]
+				11616, -- [11]
+				952, -- [12]
+				-5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				885, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620420483,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				5, -- [2]
+				11, -- [3]
+				7, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [59]
+	{
+		["Map"] = 1035,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 735,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				2, -- [3]
+				0, -- [4]
+				63, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				44546, -- [11]
+				947, -- [12]
+				-5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				885, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620421479,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				4, -- [1]
+				2, -- [2]
+				2, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				2, -- [2]
+				12, -- [3]
+				7, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [60]
+	{
+		["Map"] = 2107,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 170,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				704, -- [11]
+				942, -- [12]
+				-5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				885, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620421853,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				2, -- [3]
+				3, -- [4]
+				5, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				6, -- [2]
+				12, -- [3]
+				7, -- [4]
+				9, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [61]
+	{
+		["Map"] = 2107,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 241,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				937, -- [12]
+				-14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				885, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620422439,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+	}, -- [62]
+	{
+		["Map"] = 566,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 429,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				255, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				308, -- [11]
+				923, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				885, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620423039,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [63]
+	{
+		["Map"] = 1035,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 630,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				3, -- [4]
+				45, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				2384, -- [10]
+				11942, -- [11]
+				933, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				885, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620423840,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [64]
+	{
+		["Map"] = 761,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 342,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				121, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				24098, -- [11]
+				920, -- [12]
+				-15, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				885, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620424335,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [65]
+	{
+		["Map"] = 566,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 773,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				255, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				555, -- [11]
+				905, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				885, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620425263,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -2709,13 +4181,590 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [2]
 		},
+		["Winner"] = 1,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [66]
+	{
+		["Map"] = 2107,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				1, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 12,
+		["Duration"] = 287,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				255, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				551, -- [11]
+				913, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				886, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620425871,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [67]
+	{
+		["Map"] = 727,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 412,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				923, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				886, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620426487,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				11, -- [2]
+				11, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
 		["Winner"] = 0,
 		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-	}, -- [43]
+		["PlayerSide"] = 1,
+	}, -- [68]
+	{
+		["Map"] = 726,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 1200,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				279, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				1223, -- [11]
+				911, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				886, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620427896,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 255,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [69]
+	{
+		["Map"] = 1035,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 635,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				45, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				31, -- [11]
+				911, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				886, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620428778,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
+				5, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [70]
+	{
+		["Map"] = 726,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 334,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				159, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				11762, -- [11]
+				899, -- [12]
+				-8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				886, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620429349,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				4, -- [2]
+				10, -- [3]
+				5, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [71]
+	{
+		["Map"] = 761,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 230,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				121, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				21883, -- [11]
+				891, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				886, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620430065,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				4, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [72]
+	{
+		["Map"] = 727,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 345,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				348, -- [11]
+				879, -- [12]
+				-8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				886, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620430655,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [73]
+	{
+		["Map"] = 727,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 345,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				556, -- [11]
+				871, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				886, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620431165,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [74]
+	{
+		["Map"] = 2245,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 378,
+		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["Players"] = {
+			{
+				"维莉雅蕾妮", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				589, -- [11]
+				862, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				886, -- [17]
+			}, -- [1]
+		},
+		["isArena"] = false,
+		["Time"] = 1620431711,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+	}, -- [75]
 }
 REFlexHonorDatabase = {
 	[1620316800] = 12870,
 	[1619366400] = 1875,
 	[1619280000] = 645,
+	[1620403200] = 13679,
 }

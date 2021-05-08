@@ -162,7 +162,7 @@ Amilus: enabled
 ExRT: disabled
 PetTracker_Battle: disabled
 tdBattlePetScript_Ext: disabled
-AutoBattleGround: disabled
+AutoBattleGround: enabled
 CorruptionTooltips: disabled
 FarmHud_QuestArrow: disabled
 DBM-CastleNathria: disabled
@@ -193,7 +193,7 @@ HandyNotes_Shadowlands: disabled
 ACP: disabled
 VenturePlan: disabled
 Hekili: disabled
-AutoArena: enabled
+AutoArena: disabled
 !HFixInv: disabled
 !AutoRefuse: disabled
 CovenantMissionHelper: disabled

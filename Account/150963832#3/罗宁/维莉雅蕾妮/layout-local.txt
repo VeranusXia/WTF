@@ -13,3 +13,10 @@ X: 179
 Y: 118
 W: 365
 H: 200
+Frame: REFlexFrame
+FrameLevel: 1
+Anchor: BOTTOM
+X: -51
+Y: -2
+W: 790
+H: 625

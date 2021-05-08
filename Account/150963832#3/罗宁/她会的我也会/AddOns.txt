@@ -268,7 +268,7 @@ HeroRotation_Druid: disabled
 HeroRotation_Rogue: disabled
 HeroRotation_Priest: disabled
 tdBattlePetScript_Ext: disabled
-AutoBattleGround: disabled
+AutoBattleGround: enabled
 CorruptionTooltips: disabled
 ElvUI_DTBars2: disabled
 EasyDelete: disabled
@@ -291,7 +291,7 @@ AutoTradeSkill: enabled
 HandyNotes_Shadowlands: disabled
 ACP: disabled
 VenturePlan: disabled
-AutoArena: enabled
+AutoArena: disabled
 !HFixInv: disabled
 !AutoRefuse: disabled
 CovenantMissionHelper: disabled
