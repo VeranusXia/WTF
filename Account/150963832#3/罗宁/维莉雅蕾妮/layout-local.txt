@@ -15,8 +15,8 @@ W: 365
 H: 200
 Frame: REFlexFrame
 FrameLevel: 1
-Anchor: BOTTOM
-X: -51
-Y: -2
+Anchor: CENTER
+X: -97
+Y: -10
 W: 790
 H: 625

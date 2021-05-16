@@ -260,7 +260,7 @@ HeroRotation_Priest: enabled
 DBM-CastleNathria: disabled
 DBM-Party-Shadowlands: disabled
 tdBattlePetScript_Ext: disabled
-AutoBattleGround: enabled
+AutoBattleGround: disabled
 CorruptionTooltips: enabled
 163UI_TeamStats: enabled
 VEM-Core: disabled
@@ -338,11 +338,11 @@ LibClassicCasterino: enabled
 VenturePlan: disabled
 Hekili: disabled
 !AutoRefuse: disabled
-AutoArena: disabled
+AutoArena: enabled
 CovenantMissionHelper: disabled
-!HFixInv: disabled
+!HFixInv: enabled
 FreeInstanceFetcher: disabled
-REFlex: enabled
+REFlex: disabled
 Diminish: enabled
 Diminish_Options: enabled
 BrewmasterTools: enabled

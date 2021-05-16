@@ -155,7 +155,7 @@ HeroRotation_Druid: disabled
 HeroRotation_Rogue: disabled
 HeroRotation_Priest: disabled
 tdBattlePetScript_Ext: disabled
-AutoBattleGround: enabled
+AutoBattleGround: disabled
 CorruptionTooltips: enabled
 ElvUI_DTBars2: disabled
 EasyDelete: disabled
@@ -183,13 +183,13 @@ ACP: disabled
 GSE: enabled
 VenturePlan: disabled
 !AutoRefuse: disabled
-AutoArena: disabled
+AutoArena: enabled
 CovenantMissionHelper: disabled
-!HFixInv: disabled
+!HFixInv: enabled
 FreeInstanceFetcher: disabled
 BigDebuffs: disabled
 GladiusEx: disabled
-REFlex: enabled
+REFlex: disabled
 AzerPUG's Valor ToolTips: enabled
 tekDebug: enabled
 LibStub: enabled

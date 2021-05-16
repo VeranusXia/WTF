@@ -944,12 +944,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "艾谢朗",
 		},
-		[320631] = {
-			["school"] = 8,
+		[320376] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "食腐蛆虫",
+			["source"] = "缝肉的造物",
 		},
 		[329110] = {
 			["school"] = 8,
@@ -971,15 +973,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "复生的法师",
 		},
-		[326242] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "酤团",
-		},
 		[323437] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -990,6 +983,15 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "宫务大臣",
+		},
+		[326242] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "酤团",
 		},
 		[325551] = {
 			["school"] = 8,
@@ -1118,13 +1120,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "酤团",
 		},
-		[321975] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "传染软泥",
-		},
 		[323250] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -1133,6 +1128,13 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "宗主奥法兰",
+		},
+		[321975] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "传染软泥",
 		},
 		[326629] = {
 			["school"] = 40,
@@ -1341,14 +1343,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "高阶裁决官阿丽兹",
 		},
-		[320376] = {
-			["school"] = 1,
+		[320631] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "缝肉的造物",
+			["source"] = "食腐蛆虫",
 		},
 		[329340] = {
 			["school"] = 32,

@@ -256,7 +256,7 @@ HeroRotation_Druid: disabled
 HeroRotation_Rogue: disabled
 HeroRotation_Priest: disabled
 tdBattlePetScript_Ext: disabled
-AutoBattleGround: enabled
+AutoBattleGround: disabled
 CorruptionTooltips: disabled
 ElvUI_DTBars2: disabled
 EasyDelete: enabled
@@ -325,9 +325,9 @@ GSE_GUI: enabled
 GSE_LDB: enabled
 VenturePlan: disabled
 !AutoRefuse: disabled
-AutoArena: disabled
+AutoArena: enabled
 CovenantMissionHelper: enabled
-!HFixInv: disabled
+!HFixInv: enabled
 BrewmasterTools: enabled
 ConsolePort: enabled
 SpellFlash: enabled
@@ -337,7 +337,7 @@ LibSerialize: enabled
 FreeInstanceFetcher: disabled
 BigDebuffs: disabled
 GladiusEx: disabled
-REFlex: enabled
+REFlex: disabled
 AzerPUG's Valor ToolTips: enabled
 BigFootBank: disabled
 AzerPUG's ToolTips: disabled

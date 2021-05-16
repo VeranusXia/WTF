@@ -256,7 +256,7 @@ HeroRotation_Druid: disabled
 HeroRotation_Rogue: disabled
 HeroRotation_Priest: disabled
 tdBattlePetScript_Ext: disabled
-AutoBattleGround: enabled
+AutoBattleGround: disabled
 CorruptionTooltips: disabled
 ElvUI_DTBars2: disabled
 EasyDelete: enabled
@@ -277,10 +277,10 @@ HandyNotes_ScourgeInvasionShadowlands: enabled
 ACP: disabled
 HandyNotes_Shadowlands: disabled
 !AutoRefuse: disabled
-AutoArena: disabled
+AutoArena: enabled
 VenturePlan: disabled
 CovenantMissionHelper: enabled
-!HFixInv: disabled
+!HFixInv: enabled
 BigDebuffs: disabled
 Details_Covenants: disabled
 GladiusEx: disabled
@@ -291,7 +291,7 @@ BigFootBank: disabled
 AzerPUG's ToolTips: disabled
 FreeInstanceFetcher: disabled
 PlateColor: enabled
-REFlex: enabled
+REFlex: disabled
 tdGUI: enabled
 Ace3: enabled
 tekDebug: enabled
