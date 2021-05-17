@@ -5,7 +5,7 @@ Rematch: disabled
 tdBattlePetScript: disabled
 tdBattlePetScript_Rematch: disabled
 tdBattlePetScript_Ext: disabled
-AutoBattleGround: disabled
+AutoBattleGround: enabled
 AdvancedInterfaceOptions: disabled
 Altcon: disabled
 AngryKeystones: disabled
@@ -136,13 +136,13 @@ WeakAurasCompanion: disabled
 VenturePlan: disabled
 Hekili: disabled
 !AutoRefuse: disabled
-AutoArena: enabled
+AutoArena: disabled
 CovenantMissionHelper: disabled
-!HFixInv: enabled
+!HFixInv: disabled
 FreeInstanceFetcher: disabled
 BigDebuffs: disabled
 GladiusEx: disabled
-REFlex: disabled
+REFlex: enabled
 AzerPUG's Valor ToolTips: disabled
 BigFootBank: disabled
 AzerPUG's ToolTips: disabled

@@ -139,7 +139,7 @@ HeroRotation_Priest: enabled
 DBM-CastleNathria: disabled
 DBM-Party-Shadowlands: disabled
 tdBattlePetScript_Ext: disabled
-AutoBattleGround: disabled
+AutoBattleGround: enabled
 CorruptionTooltips: enabled
 163UI_TeamStats: enabled
 !!!163UI!!!: enabled
@@ -169,13 +169,13 @@ GSE: enabled
 VenturePlan: disabled
 Hekili: disabled
 !AutoRefuse: disabled
-AutoArena: enabled
+AutoArena: disabled
 CovenantMissionHelper: disabled
-!HFixInv: enabled
+!HFixInv: disabled
 FreeInstanceFetcher: disabled
 BigDebuffs: disabled
 GladiusEx: disabled
-REFlex: disabled
+REFlex: enabled
 AzerPUG's Valor ToolTips: disabled
 BigFootBank: disabled
 AzerPUG's ToolTips: disabled
