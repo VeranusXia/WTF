@@ -11,7 +11,7 @@ WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
 WorldQuestsList: disabled
-!BugGrabber: disabled
+!BugGrabber: enabled
 ElvUI_TankHealth: enabled
 GS-DraikMacros: disabled
 GS-SequenceTranslator: disabled
@@ -108,7 +108,7 @@ AdvancedInterfaceOptions: disabled
 HandyNotes_LegionTreasures: disabled
 TinyInspect: disabled
 WardrobeSort: enabled
-BugSack: disabled
+BugSack: enabled
 FilteredNamePlate: disabled
 DBM-AntorusBurningThrone: enabled
 DBM-Argus: enabled

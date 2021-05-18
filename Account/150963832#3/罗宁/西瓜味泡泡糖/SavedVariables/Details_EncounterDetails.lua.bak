@@ -1608,12 +1608,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "虚空鞭笞者",
 		},
-		[324090] = {
+		[332620] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "商人赛·艾柯莎",
+			["source"] = "德纳修斯大帝",
 		},
 		[331618] = {
 			["school"] = 1,
@@ -1676,12 +1676,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "食腐蛆虫",
 		},
-		[332620] = {
+		[324444] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "德纳修斯大帝",
+			["source"] = "奥莱芙莉安",
 		},
 		[327481] = {
 			["school"] = 64,
@@ -1781,11 +1781,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "卡尔将军",
 		},
-		[341949] = {
-			["school"] = 40,
+		[335817] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "德沃丝",
 		},
 		[325725] = {
 			["school"] = 32,
@@ -1862,15 +1864,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "啸翼",
 		},
-		[342694] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "顽石军团巨怪",
-		},
 		[328921] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -1878,6 +1871,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "啸翼",
+		},
+		[329943] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "蕾茉妮雅",
 		},
 		[332626] = {
 			["school"] = 32,
@@ -1896,14 +1897,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "米尔菲丝·法力风暴",
 		},
-		[330711] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "啸翼",
-		},
 		[320208] = {
 			["school"] = 1,
 			["token"] = {
@@ -1920,6 +1913,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "泥拳",
+		},
+		[330711] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "啸翼",
 		},
 		[328667] = {
 			["school"] = 16,
@@ -1953,24 +1954,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "压制战旗",
 		},
-		[327646] = {
+		[330712] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "穆厄扎拉",
-		},
-		[323687] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "商人赛·艾柯莎",
+			["source"] = "啸翼",
 		},
 		[323681] = {
 			["school"] = 32,
@@ -1978,6 +1967,15 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "无尽女皇莫德蕾莎",
+		},
+		[334929] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "卡尔将军",
 		},
 		[320365] = {
 			["school"] = 40,
@@ -1994,14 +1992,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "啸翼",
 		},
-		[334929] = {
-			["school"] = 1,
+		[323687] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "卡尔将军",
+			["source"] = "商人赛·艾柯莎",
 		},
 		[323943] = {
 			["school"] = 1,
@@ -2177,12 +2176,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "德纳修斯大帝",
 		},
-		[330712] = {
+		[327646] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "啸翼",
+			["source"] = "穆厄扎拉",
 		},
 		[329697] = {
 			["school"] = 1,
@@ -2238,13 +2239,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "雯图纳柯丝",
 		},
-		[329943] = {
+		[342694] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "蕾茉妮雅",
+			["source"] = "顽石军团巨怪",
 		},
 		[322274] = {
 			["school"] = 32,
@@ -2265,6 +2267,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "哈卡之子",
 		},
+		[341949] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
 		[320293] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -2283,14 +2291,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "阿玛厄斯",
-		},
-		[335817] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "德沃丝",
 		},
 		[324079] = {
 			["school"] = 32,
@@ -2369,12 +2369,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "缝肉的造物",
 		},
-		[324444] = {
+		[324090] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "奥莱芙莉安",
+			["source"] = "商人赛·艾柯莎",
+		},
+		[326892] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "斩首者德茜雅",
 		},
 		[342733] = {
 			["school"] = 1,
@@ -2390,15 +2399,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "复生的法师",
-		},
-		[326892] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "斩首者德茜雅",
 		},
 		[323877] = {
 			["school"] = 4,

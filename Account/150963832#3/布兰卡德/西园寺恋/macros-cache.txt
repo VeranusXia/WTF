@@ -16,10 +16,6 @@ VER 3 010000000000002F "大招饰品" "INV_Misc_QuestionMark"
 /cast [spec:1]痛苦压制
 /use 14
 END
-VER 3 0100000000000030 "强效治疗术" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [harm]神圣之火; [help][]强效治疗术
-END
 VER 3 010000000000003E "强效治疗术" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [harm]神圣之火; [help][]法缚威镜

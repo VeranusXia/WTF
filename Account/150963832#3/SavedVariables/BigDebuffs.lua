@@ -17,7 +17,7 @@ BigDebuffsDB = {
 		["蕾妮 - 格瑞姆巴托"] = "Default",
 		["殷倾颜 - 罗宁"] = "Default",
 		["安苏宠物批发 - 安苏"] = "Default",
-		["西园寺恋 - 布兰卡德"] = "Default",
+		["倾颜 - 熊猫酒仙"] = "Default",
 		["狂乱合唱 - 蜘蛛王国"] = "Default",
 		["小微微 - 熊猫酒仙"] = "Default",
 		["小微微 - 罗宁"] = "Default",
@@ -27,7 +27,7 @@ BigDebuffsDB = {
 		["西园寺恋 - 罗宁"] = "Default",
 		["Amilus - 燃烧之刃"] = "Default",
 		["Reneebaby - 罗宁"] = "Default",
-		["倾颜 - 熊猫酒仙"] = "Default",
+		["西园寺恋 - 布兰卡德"] = "Default",
 		["震击机器人 - 罗宁"] = "Default",
 	},
 	["profiles"] = {

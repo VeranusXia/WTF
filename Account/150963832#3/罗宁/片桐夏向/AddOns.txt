@@ -7,8 +7,8 @@ AngryKeystones: disabled
 zAutoLoadPetTeam_Rematch: disabled
 BagSync: disabled
 BattlePetBreedID: disabled
-!BugGrabber: disabled
-BugSack: disabled
+!BugGrabber: enabled
+BugSack: enabled
 CanIMogIt: disabled
 Clique: disabled
 ExRT: disabled

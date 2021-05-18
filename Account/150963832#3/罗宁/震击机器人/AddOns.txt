@@ -13,8 +13,8 @@ AzeriteTooltip: enabled
 BagSync: disabled
 BattlePetBreedID: disabled
 BattlegroundTargets: disabled
-!BugGrabber: disabled
-BugSack: disabled
+!BugGrabber: enabled
+BugSack: enabled
 Clique: disabled
 CorruptionTooltips: enabled
 ExRT: disabled

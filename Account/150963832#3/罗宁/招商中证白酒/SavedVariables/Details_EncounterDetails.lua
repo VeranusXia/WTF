@@ -1,5 +1,7 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+	},
 	["encounter_spells"] = {
 		[329340] = {
 			["school"] = 32,
@@ -231,12 +233,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "哈尔吉亚斯",
 		},
-		[322239] = {
-			["school"] = 8,
+		[322903] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "恶毒之裔",
+			["source"] = "卡尔将军",
 		},
 		[319688] = {
 			["school"] = 2,
@@ -276,15 +280,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "大学监贝律莉娅",
 		},
-		[336451] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[319687] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "万眼防御者",
+			["source"] = "贪食的克里克西斯",
 		},
 		[329258] = {
 			["school"] = 1,
@@ -301,23 +302,47 @@ EncounterDetailsDB = {
 			},
 			["source"] = "心能喷泉",
 		},
-		[322491] = {
-			["school"] = 8,
+		[319657] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "贪食的克里克西斯",
+		},
+		[326389] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "斯特拉达玛侯爵",
+			["source"] = "艾谢朗",
 		},
-		[328593] = {
+		[323538] = {
 			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "高阶裁决官阿丽兹",
+		},
+		[323845] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "卡尔将军",
+		},
+		[333353] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "大学监贝律莉娅",
+			["source"] = "多米娜·毒刃",
 		},
 		[59638] = {
 			["school"] = 16,
@@ -326,36 +351,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "镜像",
 		},
-		[319654] = {
+		[320277] = {
 			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "贪食的克里克西斯",
-		},
-		[322943] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "哈尔吉亚斯",
-		},
-		[333292] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "受诅者赛泽尔",
-		},
-		[333231] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "受诅者赛泽尔",
@@ -376,21 +376,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "大学监贝律莉娅",
 		},
-		[336449] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "万眼防御者",
-		},
-		[329104] = {
+		[319685] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "宫务大臣",
+			["source"] = "贪食的克里克西斯",
+		},
+		[324659] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "瞬息具象",
 		},
 		[321038] = {
 			["school"] = 32,
@@ -410,13 +410,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "大学监贝律莉娅",
 		},
-		[329168] = {
-			["school"] = 1,
+		[320278] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "罪碑雕像",
+			["source"] = "受诅者赛泽尔",
 		},
 		[329262] = {
 			["school"] = 1,
@@ -426,11 +425,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "宫务大臣",
 		},
-		[320277] = {
+		[333231] = {
 			["school"] = 32,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "受诅者赛泽尔",
@@ -442,12 +442,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "大学监贝律莉娅",
 		},
-		[324659] = {
+		[329104] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "瞬息具象",
+			["source"] = "宫务大臣",
 		},
 		[323548] = {
 			["school"] = 32,
@@ -457,12 +458,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "瞬息具象",
 		},
-		[320278] = {
-			["school"] = 32,
+		[329168] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "受诅者赛泽尔",
+			["source"] = "罪碑雕像",
 		},
 		[322977] = {
 			["school"] = 32,
@@ -492,22 +494,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "疫毒者巴瑟兰",
 		},
-		[327233] = {
+		[328206] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "魔药喷吐者",
+			["source"] = "艾谢朗",
 		},
-		[325551] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[329170] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "多米娜·毒刃",
+			["source"] = "罪碑雕像",
 		},
 		[325550] = {
 			["school"] = 8,
@@ -524,20 +525,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "多米娜·毒刃",
 		},
-		[329170] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "罪碑雕像",
-		},
-		[323552] = {
+		[325360] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "高阶裁决官阿丽兹",
+			["source"] = "大学监贝律莉娅",
+		},
+		[322567] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "执行者塔沃德",
 		},
 		[325170] = {
 			["school"] = 1,
@@ -553,22 +555,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "刺客追猎者",
 		},
-		[322567] = {
-			["school"] = 32,
+		[329171] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "执行者塔沃德",
+			["source"] = "罪碑雕像",
 		},
-		[331399] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[320843] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "斯特拉达玛侯爵",
+			["source"] = "贪食的虱子",
 		},
 		[323393] = {
 			["school"] = 1,
@@ -597,21 +597,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "罪碑雕像",
 		},
-		[329113] = {
+		[319715] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "贪食的克里克西斯",
+		},
+		[323392] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "宫务大臣",
-		},
-		[322304] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "斯特拉达玛侯爵",
 		},
 		[328125] = {
 			["school"] = 8,
@@ -621,16 +619,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "不死石精",
 		},
-		[325552] = {
-			["school"] = 1,
+		[320248] = {
+			["school"] = 40,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "多米娜·毒刃",
+			["source"] = "疫毒者巴瑟兰",
 		},
 		[325395] = {
 			["school"] = 1,
@@ -656,13 +652,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "艾谢朗",
 		},
-		[323650] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[319713] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "阴森的教民",
+			["source"] = "贪食的克里克西斯",
 		},
 		[322475] = {
 			["school"] = 8,
@@ -671,13 +667,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 		},
-		[319713] = {
-			["school"] = 1,
+		[323650] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "贪食的克里克西斯",
+			["source"] = "阴森的教民",
 		},
 		[319733] = {
 			["school"] = 1,
@@ -720,60 +716,66 @@ EncounterDetailsDB = {
 			},
 			["source"] = "卡尔将军",
 		},
-		[320248] = {
-			["school"] = 40,
+		[325552] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "多米娜·毒刃",
+		},
+		[322304] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "斯特拉达玛侯爵",
+		},
+		[329113] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "疫毒者巴瑟兰",
-		},
-		[323392] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
 			["source"] = "宫务大臣",
 		},
-		[319715] = {
-			["school"] = 1,
+		[331399] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "贪食的克里克西斯",
+			["source"] = "斯特拉达玛侯爵",
 		},
-		[320843] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "贪食的虱子",
-		},
-		[329171] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "罪碑雕像",
-		},
-		[325360] = {
+		[323552] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "大学监贝律莉娅",
+			["source"] = "高阶裁决官阿丽兹",
 		},
-		[328206] = {
+		[325551] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "多米娜·毒刃",
+		},
+		[327233] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "艾谢朗",
+			["source"] = "魔药喷吐者",
 		},
 		[322796] = {
 			["school"] = 1,
@@ -793,14 +795,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "罪碑雕像",
 		},
-		[319685] = {
-			["school"] = 32,
+		[336449] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "贪食的克里克西斯",
+			["source"] = "万眼防御者",
 		},
 		[335338] = {
 			["school"] = 32,
@@ -811,47 +812,47 @@ EncounterDetailsDB = {
 			},
 			["source"] = "宫务大臣",
 		},
-		[333353] = {
+		[322943] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "多米娜·毒刃",
-		},
-		[323845] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "卡尔将军",
+			["source"] = "哈尔吉亚斯",
 		},
-		[323538] = {
+		[319654] = {
 			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "高阶裁决官阿丽兹",
-		},
-		[326389] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "艾谢朗",
-		},
-		[319657] = {
-			["school"] = 2,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "贪食的克里克西斯",
+		},
+		[328593] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "大学监贝律莉娅",
+		},
+		[333292] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "受诅者赛泽尔",
+		},
+		[322491] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "斯特拉达玛侯爵",
 		},
 		[319655] = {
 			["school"] = 32,
@@ -860,12 +861,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "贪食的克里克西斯",
 		},
-		[319687] = {
-			["school"] = 32,
+		[336451] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "贪食的克里克西斯",
+			["source"] = "万眼防御者",
 		},
 		[319592] = {
 			["school"] = 8,
@@ -881,16 +885,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "肮脏的嚼土者",
 		},
-		[322903] = {
-			["school"] = 32,
+		[322239] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "卡尔将军",
+			["source"] = "恶毒之裔",
 		},
-	},
-	["emotes"] = {
 	},
 }

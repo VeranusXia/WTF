@@ -20,6 +20,10 @@ VER 3 0100000000000030 "强效治疗术" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [harm]神圣之火; [help][]强效治疗术
 END
+VER 3 010000000000003E "强效治疗术" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [harm]神圣之火; [help][]法缚威镜
+END
 VER 3 010000000000003D "快速治疗控心术" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@mouseover,help]快速治疗;[harm]控心术; [help][]快速治疗
