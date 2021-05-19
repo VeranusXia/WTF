@@ -131,8 +131,8 @@ AltconDB = {
 			["profile"] = "Reneebaby - 罗宁",
 			["challenge"] = {
 			},
-			["class"] = "ROGUE",
 			["ilevel"] = "208.5",
+			["class"] = "ROGUE",
 		},
 		["我把你画成花 - 罗宁"] = {
 			["profile"] = "我把你画成花 - 罗宁",
@@ -398,8 +398,8 @@ AltconDB = {
 			["profile"] = "Minpojke - 罗宁",
 			["challenge"] = {
 			},
-			["ilevel"] = "207.2",
 			["class"] = "DRUID",
+			["ilevel"] = "207.2",
 		},
 		["电压观察者 - 瓦拉纳"] = {
 			["profile"] = "电压观察者 - 瓦拉纳",
@@ -415,19 +415,19 @@ AltconDB = {
 			["class"] = "ROGUE",
 			["ilevel"] = "39.1",
 		},
-		["招商中证白酒 - 罗宁"] = {
-			["profile"] = "招商中证白酒 - 罗宁",
-			["challenge"] = {
-			},
-			["class"] = "MONK",
-			["ilevel"] = "224.3",
-		},
 		["电压守 - 瓦拉纳"] = {
 			["profile"] = "电压守 - 瓦拉纳",
 			["challenge"] = {
 			},
 			["class"] = "MAGE",
 			["ilevel"] = "8.0",
+		},
+		["实力不够悬殊 - 金色平原"] = {
+			["profile"] = "实力不够悬殊 - 金色平原",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "0.3",
 		},
 		["瓦拉纳丶微微 - 瓦拉纳"] = {
 			["profile"] = "瓦拉纳丶微微 - 瓦拉纳",
@@ -485,12 +485,12 @@ AltconDB = {
 			["class"] = "ROGUE",
 			["ilevel"] = "208.7",
 		},
-		["凤楼吟 - 死亡之翼"] = {
-			["profile"] = "凤楼吟 - 死亡之翼",
+		["混世魔王二狗 - 罗宁"] = {
+			["profile"] = "混世魔王二狗 - 罗宁",
 			["challenge"] = {
 			},
-			["class"] = "ROGUE",
-			["ilevel"] = "21.4",
+			["class"] = "DRUID",
+			["ilevel"] = "0.2",
 		},
 		["海妖花粉 - 蜘蛛王国"] = {
 			["profile"] = "海妖花粉 - 蜘蛛王国",
@@ -506,12 +506,12 @@ AltconDB = {
 			["class"] = "MAGE",
 			["ilevel"] = "50.1",
 		},
-		["混世魔王二狗 - 罗宁"] = {
-			["profile"] = "混世魔王二狗 - 罗宁",
+		["花环一号 - 罗宁"] = {
+			["profile"] = "花环一号 - 罗宁",
 			["challenge"] = {
 			},
 			["class"] = "DRUID",
-			["ilevel"] = "0.2",
+			["ilevel"] = "55.0",
 		},
 		["沈琴愉 - 布兰卡德"] = {
 			["profile"] = "沈琴愉 - 布兰卡德",
@@ -562,12 +562,12 @@ AltconDB = {
 			["class"] = "MAGE",
 			["ilevel"] = "18.5",
 		},
-		["花环一号 - 罗宁"] = {
-			["profile"] = "花环一号 - 罗宁",
+		["凤楼吟 - 死亡之翼"] = {
+			["profile"] = "凤楼吟 - 死亡之翼",
 			["challenge"] = {
 			},
-			["class"] = "DRUID",
-			["ilevel"] = "55.0",
+			["class"] = "ROGUE",
+			["ilevel"] = "21.4",
 		},
 		["迷你雪人 - 瓦里安"] = {
 			["profile"] = "迷你雪人 - 瓦里安",
@@ -604,12 +604,12 @@ AltconDB = {
 			["class"] = "PRIEST",
 			["ilevel"] = "229.6",
 		},
-		["实力不够悬殊 - 金色平原"] = {
-			["profile"] = "实力不够悬殊 - 金色平原",
+		["招商中证白酒 - 罗宁"] = {
+			["profile"] = "招商中证白酒 - 罗宁",
 			["challenge"] = {
 			},
-			["class"] = "ROGUE",
-			["ilevel"] = "0.3",
+			["class"] = "MONK",
+			["ilevel"] = "225.2",
 		},
 		["拔剑乱杀 - 燃烧之刃"] = {
 			["profile"] = "拔剑乱杀 - 燃烧之刃",

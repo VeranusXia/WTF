@@ -1,12 +1,6 @@
 
 EncounterDetailsDB = {
 	["emotes"] = {
-		{
-			["boss"] = "传令官沃拉兹",
-		}, -- [1]
-		{
-			["boss"] = "塔达拉姆王子",
-		}, -- [2]
 	},
 	["encounter_spells"] = {
 		[56936] = {
@@ -2850,10 +2844,10 @@ EncounterDetailsDB = {
 		[69869] = {
 			["school"] = 20,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "库卡隆祈求者",
 		},
@@ -3610,15 +3604,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "绝望的化身",
 		},
-		[264903] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[52042] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "阿库希尔",
+			["source"] = "治疗之泉图腾",
 		},
 		[69238] = {
 			["school"] = 16,
@@ -3630,12 +3621,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "未知目标",
 		},
-		[52042] = {
-			["school"] = 8,
+		[329636] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "治疗之泉图腾",
+			["source"] = "卡尔将军",
 		},
 		[310455] = {
 			["school"] = 32,
@@ -4047,13 +4039,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "哈兰·斯威提",
 		},
-		[329636] = {
-			["school"] = 1,
+		[264903] = {
+			["school"] = 16,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "卡尔将军",
+			["source"] = "阿库希尔",
 		},
 		[59825] = {
 			["school"] = 1,

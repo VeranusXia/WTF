@@ -7,13 +7,2523 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 206,
 					["tipo"] = 2,
+					["combatId"] = 210,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005199,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Vikluny-霜之哀伤"] = 4895,
+								["奈奈的無奈-霜之哀伤"] = 4762,
+								["优秀的阿昆-霜之哀伤"] = 6285,
+							},
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["last_dps"] = 1821.943451314286,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 15942.005199,
+							["last_event"] = 1621401715,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1621401720,
+							["aID"] = "729-052440E9",
+							["damage_taken"] = 0.005199,
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["total"] = 15942.005199,
+							["custom"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1051,
+										["targets"] = {
+											["优秀的阿昆-霜之哀伤"] = 3001,
+										},
+										["n_dmg"] = 3001,
+										["n_min"] = 482,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 3001,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 3001,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 4,
+										["n_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[8680] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 308,
+										["g_amt"] = 0,
+										["n_max"] = 90,
+										["targets"] = {
+											["优秀的阿昆-霜之哀伤"] = 331,
+											["奈奈的無奈-霜之哀伤"] = 87,
+											["Vikluny-霜之哀伤"] = 326,
+										},
+										["n_dmg"] = 436,
+										["n_min"] = 86,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 744,
+										["c_max"] = 158,
+										["id"] = 8680,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 654,
+										["c_min"] = 150,
+										["successful_casted"] = 0,
+										["a_amt"] = 6,
+										["n_amt"] = 5,
+										["extra"] = {
+										},
+										["spellschool"] = 8,
+									},
+									[197835] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 3312,
+										["g_amt"] = 0,
+										["n_max"] = 1008,
+										["targets"] = {
+											["Vikluny-霜之哀伤"] = 4569,
+											["奈奈的無奈-霜之哀伤"] = 4675,
+											["优秀的阿昆-霜之哀伤"] = 2953,
+										},
+										["n_dmg"] = 8885,
+										["n_min"] = 953,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 12197,
+										["c_max"] = 1680,
+										["id"] = 197835,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 12197,
+										["c_min"] = 1632,
+										["successful_casted"] = 0,
+										["a_amt"] = 11,
+										["n_amt"] = 9,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1621401712,
+							["serial"] = "Player-729-052440E9",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 1352,
+							["totalabsorbed"] = 0.005864,
+							["damage_from"] = {
+								["暴走之心"] = true,
+								["Shuker"] = true,
+								["呷奈奈美-主宰之剑"] = true,
+								["Reneebaby"] = true,
+								["渣哥-白银之手"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005864,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["total"] = 0.005864,
+							["classe"] = "UNGROUPPLAYER",
+							["damage_taken"] = 22668.005864,
+							["nome"] = "Vikluny-霜之哀伤",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["last_dps"] = 0,
+							["end_time"] = 1621401720,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1621401720,
+							["serial"] = "Player-877-05DB3F6B",
+							["aID"] = "877-05DB3F6B",
+						}, -- [2]
+						{
+							["flag_original"] = 1352,
+							["totalabsorbed"] = 0.003221,
+							["damage_from"] = {
+								["暴走之心"] = true,
+								["Shuker"] = true,
+								["呷奈奈美-主宰之剑"] = true,
+								["Reneebaby"] = true,
+								["渣哥-白银之手"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003221,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["total"] = 0.003221,
+							["classe"] = "UNGROUPPLAYER",
+							["damage_taken"] = 23262.003221,
+							["nome"] = "奈奈的無奈-霜之哀伤",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["last_dps"] = 0,
+							["end_time"] = 1621401720,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1621401720,
+							["serial"] = "Player-877-05DB3F66",
+							["aID"] = "877-05DB3F66",
+						}, -- [3]
+						{
+							["flag_original"] = 66888,
+							["totalabsorbed"] = 0.002665,
+							["damage_from"] = {
+								["Reneebaby"] = true,
+								["呷奈奈美-主宰之剑"] = true,
+								["暴走之心"] = true,
+								["渣哥-白银之手"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002665,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["total"] = 0.002665,
+							["classe"] = "UNGROUPPLAYER",
+							["damage_taken"] = 19760.002665,
+							["nome"] = "优秀的阿昆-霜之哀伤",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["last_dps"] = 0,
+							["end_time"] = 1621401720,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1621401720,
+							["serial"] = "Player-877-05DB4057",
+							["aID"] = "877-05DB4057",
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 210,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 210,
+					["_ActorTable"] = {
+						{
+							["received"] = 29.006855,
+							["resource"] = 0.006855,
+							["targets"] = {
+								["Reneebaby"] = 29,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 0.006855,
+							["total"] = 29.006855,
+							["totalover"] = 0.006855,
+							["nome"] = "Reneebaby",
+							["spells"] = {
+								["_ActorTable"] = {
+									[196911] = {
+										["total"] = 8,
+										["id"] = 196911,
+										["totalover"] = 0,
+										["targets"] = {
+											["Reneebaby"] = 8,
+										},
+										["counter"] = 1,
+									},
+									[196980] = {
+										["total"] = 21,
+										["id"] = 196980,
+										["totalover"] = 0,
+										["targets"] = {
+											["Reneebaby"] = 21,
+										},
+										["counter"] = 6,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["tipo"] = 3,
+							["aID"] = "729-052440E9",
+							["last_event"] = 1621401723,
+							["alternatepower"] = 0.006855,
+							["flag_original"] = 1297,
+							["serial"] = "Player-729-052440E9",
+							["resource_type"] = 4,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 210,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[3409] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 2,
+										["id"] = 3409,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[316220] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 316220,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[8680] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 4,
+										["id"] = 8680,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["cooldowns_defensive"] = 1.00451,
+							["buff_uptime"] = 72,
+							["last_cooldown"] = {
+								1621401720.518, -- [1]
+								1856, -- [2]
+							},
+							["aID"] = "729-052440E9",
+							["cooldowns_defensive_targets"] = {
+								["Reneebaby"] = 1,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[225787] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 225787,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[11327] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 11327,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[303003] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 303003,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[3408] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 3408,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[264420] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 264420,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[342814] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 342814,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[264415] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 264415,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[269083] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 269083,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[347600] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 347600,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[324748] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 324748,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[8679] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 8679,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[340094] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 340094,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[196980] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 196980,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[343173] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 343173,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 16,
+							["tipo"] = 4,
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[212743] = 3,
+								[197835] = 3,
+								[1856] = 1,
+							},
+							["serial"] = "Player-729-052440E9",
+							["classe"] = "ROGUE",
+							["last_event"] = 1621401720,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["cooldowns_defensive_spells"] = {
+								["_ActorTable"] = {
+									[1856] = {
+										["id"] = 1856,
+										["targets"] = {
+											["Reneebaby"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 210,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Reneebaby"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Reneebaby", -- [1]
+				},
+				["CombatStartedAt"] = 183304.123,
+				["tempo_start"] = 1621401712,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 911,
+				["playing_solo"] = true,
+				["totals"] = {
+					15941.91223799999, -- [1]
+					-0.028978, -- [2]
+					{
+						-0.008325, -- [1]
+						[0] = -0.003547,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 28.987717,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 1,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "13:22:01",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Vikluny-霜之哀伤",
+				["TotalElapsedCombatTime"] = 8.75,
+				["CombatEndedAt"] = 183312.873,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Reneebaby"] = 15942.005199,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 183312.873,
+				["combat_id"] = 210,
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["frags"] = {
+					["Vikluny-霜之哀伤"] = 1,
+					["奈奈的無奈-霜之哀伤"] = 1,
+					["优秀的阿昆-霜之哀伤"] = 1,
+				},
+				["totals_grupo"] = {
+					15942, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 29,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 1,
+					}, -- [4]
+				},
+				["spells_cast_timeline"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "13:21:52",
+				["start_time"] = 183304.123,
+				["contra"] = "优秀的阿昆-霜之哀伤",
+				["overall_added"] = true,
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 209,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008664,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["优秀的阿昆-霜之哀伤"] = 956,
+								["奈奈的無奈-霜之哀伤"] = 934,
+								["Vikluny-霜之哀伤"] = 945,
+							},
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["last_dps"] = 473.8440020050927,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2835.008664,
+							["last_event"] = 1621401703,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1621401709,
+							["aID"] = "729-052440E9",
+							["damage_taken"] = 0.008664,
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["total"] = 2835.008664,
+							["custom"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+									[197835] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 956,
+										["targets"] = {
+											["优秀的阿昆-霜之哀伤"] = 956,
+											["奈奈的無奈-霜之哀伤"] = 934,
+											["Vikluny-霜之哀伤"] = 945,
+										},
+										["n_dmg"] = 2835,
+										["n_min"] = 934,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 2835,
+										["c_max"] = 0,
+										["id"] = 197835,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 2835,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 3,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1621401703,
+							["serial"] = "Player-729-052440E9",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 1352,
+							["totalabsorbed"] = 0.006142,
+							["damage_from"] = {
+								["Reneebaby"] = true,
+								["渣哥-白银之手"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNGROUPPLAYER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.006142,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621401709,
+							["aID"] = "877-05DB3F6B",
+							["damage_taken"] = 6980.006142,
+							["nome"] = "Vikluny-霜之哀伤",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 0.006142,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
+							["start_time"] = 1621401709,
+							["serial"] = "Player-877-05DB3F6B",
+							["dps_started"] = false,
+						}, -- [2]
+						{
+							["flag_original"] = 66888,
+							["totalabsorbed"] = 0.005676,
+							["damage_from"] = {
+								["Reneebaby"] = true,
+								["渣哥-白银之手"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNGROUPPLAYER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005676,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621401709,
+							["aID"] = "877-05DB4057",
+							["damage_taken"] = 11002.005676,
+							["nome"] = "优秀的阿昆-霜之哀伤",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 0.005676,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
+							["start_time"] = 1621401709,
+							["serial"] = "Player-877-05DB4057",
+							["dps_started"] = false,
+						}, -- [3]
+						{
+							["flag_original"] = 1352,
+							["totalabsorbed"] = 0.002176,
+							["damage_from"] = {
+								["Reneebaby"] = true,
+								["Shuker"] = true,
+								["渣哥-白银之手"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNGROUPPLAYER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002176,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621401709,
+							["aID"] = "877-05DB3F66",
+							["damage_taken"] = 7344.002176,
+							["nome"] = "奈奈的無奈-霜之哀伤",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 0.002176,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
+							["start_time"] = 1621401709,
+							["serial"] = "Player-877-05DB3F66",
+							["dps_started"] = false,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 209,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 209,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.003967,
+							["resource"] = 0.003967,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 0.003967,
+							["total"] = 0.003967,
+							["totalover"] = 0.003967,
+							["nome"] = "Reneebaby",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["tipo"] = 3,
+							["aID"] = "729-052440E9",
+							["last_event"] = 1621401712,
+							["alternatepower"] = 0.003967,
+							["flag_original"] = 1297,
+							["serial"] = "Player-729-052440E9",
+							["resource_type"] = 4,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 209,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[3409] = {
+										["activedamt"] = -1,
+										["id"] = 3409,
+										["targets"] = {
+										},
+										["actived_at"] = 1621401704,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["appliedamt"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 58,
+							["aID"] = "729-052440E9",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[225787] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 225787,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[303003] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 303003,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[3408] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 3408,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[264420] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 264420,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[342814] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 342814,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[347600] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 347600,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[269083] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 269083,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[8679] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 8679,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[264415] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 264415,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[324748] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 324748,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 0,
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[324748] = 1,
+								[197835] = 1,
+							},
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1621401709,
+							["classe"] = "ROGUE",
+							["pets"] = {
+							},
+							["serial"] = "Player-729-052440E9",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 209,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Reneebaby"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Reneebaby", -- [1]
+				},
+				["CombatStartedAt"] = 183295.539,
+				["tempo_start"] = 1621401703,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 910,
+				["playing_solo"] = true,
+				["totals"] = {
+					2834.992206, -- [1]
+					-0.012426, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.00472,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "13:21:49",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "优秀的阿昆-霜之哀伤",
+				["TotalElapsedCombatTime"] = 5.870000000024447,
+				["CombatEndedAt"] = 183301.409,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Reneebaby"] = 2835.008664,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 183301.409,
+				["combat_id"] = 209,
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["frags"] = {
+					["优秀的阿昆-霜之哀伤"] = 1,
+					["奈奈的無奈-霜之哀伤"] = 1,
+					["Vikluny-霜之哀伤"] = 1,
+				},
+				["totals_grupo"] = {
+					2835, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["spells_cast_timeline"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "13:21:43",
+				["start_time"] = 183295.426,
+				["contra"] = "奈奈的無奈-霜之哀伤",
+				["overall_added"] = true,
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 208,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 943.002953,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Vikluny-霜之哀伤"] = 5868,
+								["奈奈的無奈-霜之哀伤"] = 9388,
+								["优秀的阿昆-霜之哀伤"] = 10377,
+							},
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["last_dps"] = 1064.847247965079,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 25633.002953,
+							["last_event"] = 1621401703,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1621401701,
+							["aID"] = "729-052440E9",
+							["damage_taken"] = 0.002953,
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["total"] = 25633.002953,
+							["custom"] = 0,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1042,
+										["targets"] = {
+											["优秀的阿昆-霜之哀伤"] = 4087,
+											["奈奈的無奈-霜之哀伤"] = 2450,
+										},
+										["n_dmg"] = 6537,
+										["n_min"] = 476,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 6537,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 8,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 6537,
+										["n_amt"] = 8,
+										["spellschool"] = 1,
+										["MISS"] = 2,
+									}, -- [1]
+									[197835] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1030,
+										["targets"] = {
+											["Vikluny-霜之哀伤"] = 5868,
+											["奈奈的無奈-霜之哀伤"] = 6764,
+											["优秀的阿昆-霜之哀伤"] = 5958,
+										},
+										["n_dmg"] = 18590,
+										["n_min"] = 943,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["total"] = 18590,
+										["c_max"] = 0,
+										["id"] = 197835,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 17647,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 18,
+										["n_amt"] = 19,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[8680] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 155,
+										["g_amt"] = 0,
+										["n_max"] = 93,
+										["targets"] = {
+											["优秀的阿昆-霜之哀伤"] = 332,
+											["奈奈的無奈-霜之哀伤"] = 174,
+										},
+										["n_dmg"] = 351,
+										["n_min"] = 84,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 506,
+										["c_max"] = 155,
+										["id"] = 8680,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 418,
+										["c_min"] = 155,
+										["successful_casted"] = 0,
+										["a_amt"] = 4,
+										["n_amt"] = 4,
+										["extra"] = {
+										},
+										["spellschool"] = 8,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["colocacao"] = 1,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1621401677,
+							["serial"] = "Player-729-052440E9",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 66888,
+							["totalabsorbed"] = 0.006508,
+							["damage_from"] = {
+								["暴走之心"] = true,
+								["Reneebaby"] = true,
+								["Shuker"] = true,
+								["须臾-金色平原"] = true,
+								["渣哥-白银之手"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNGROUPPLAYER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.006508,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621401701,
+							["aID"] = "877-05DB4057",
+							["damage_taken"] = 22625.006508,
+							["nome"] = "优秀的阿昆-霜之哀伤",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 0.006508,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
+							["start_time"] = 1621401701,
+							["serial"] = "Player-877-05DB4057",
+							["dps_started"] = false,
+						}, -- [2]
+						{
+							["flag_original"] = 1352,
+							["totalabsorbed"] = 0.002662,
+							["damage_from"] = {
+								["暴走之心"] = true,
+								["Reneebaby"] = true,
+								["Shuker"] = true,
+								["须臾-金色平原"] = true,
+								["渣哥-白银之手"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNGROUPPLAYER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002662,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621401701,
+							["aID"] = "877-05DB3F66",
+							["damage_taken"] = 37605.002662,
+							["nome"] = "奈奈的無奈-霜之哀伤",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 0.002662,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
+							["start_time"] = 1621401701,
+							["serial"] = "Player-877-05DB3F66",
+							["dps_started"] = false,
+						}, -- [3]
+						{
+							["flag_original"] = 1352,
+							["totalabsorbed"] = 0.002465,
+							["damage_from"] = {
+								["暴走之心"] = true,
+								["Reneebaby"] = true,
+								["Shuker"] = true,
+								["须臾-金色平原"] = true,
+								["渣哥-白银之手"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNGROUPPLAYER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002465,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621401701,
+							["aID"] = "877-05DB3F6B",
+							["damage_taken"] = 22744.002465,
+							["nome"] = "Vikluny-霜之哀伤",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 0.002465,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
+							["start_time"] = 1621401701,
+							["serial"] = "Player-877-05DB3F6B",
+							["dps_started"] = false,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 208,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 208,
+					["_ActorTable"] = {
+						{
+							["received"] = 16.004998,
+							["resource"] = 0.004998,
+							["targets"] = {
+								["Reneebaby"] = 16,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 0.004998,
+							["total"] = 16.004998,
+							["totalover"] = 0.004998,
+							["nome"] = "Reneebaby",
+							["spells"] = {
+								["_ActorTable"] = {
+									[196911] = {
+										["total"] = 16,
+										["id"] = 196911,
+										["totalover"] = 0,
+										["targets"] = {
+											["Reneebaby"] = 16,
+										},
+										["counter"] = 2,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["tipo"] = 3,
+							["aID"] = "729-052440E9",
+							["last_event"] = 1621401703,
+							["alternatepower"] = 0.004998,
+							["flag_original"] = 1297,
+							["serial"] = "Player-729-052440E9",
+							["resource_type"] = 4,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 208,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[3409] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -1,
+										["refreshamt"] = 0,
+										["id"] = 3409,
+										["uptime"] = 23,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[324260] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 324260,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[8680] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 8680,
+										["uptime"] = 4,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 217,
+							["aID"] = "729-052440E9",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[225787] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 225787,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[303003] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 303003,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[3408] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 3408,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[264420] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 264420,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[342814] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 342814,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[347600] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 347600,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[269083] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 269083,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[8679] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 8679,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[324748] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 324748,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[264415] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 264415,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 30,
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[212743] = 6,
+								[197835] = 7,
+								[324260] = 3,
+							},
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1621401701,
+							["classe"] = "ROGUE",
+							["pets"] = {
+							},
+							["serial"] = "Player-729-052440E9",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 208,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Reneebaby"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Reneebaby", -- [1]
+				},
+				["CombatStartedAt"] = 183269.243,
+				["tempo_start"] = 1621401677,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 909,
+				["playing_solo"] = true,
+				["totals"] = {
+					25632.98105900001, -- [1]
+					-0.022936, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.009732000000000001,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 16,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "13:21:41",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Vikluny-霜之哀伤",
+				["TotalElapsedCombatTime"] = 24.07199999998557,
+				["CombatEndedAt"] = 183293.315,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Reneebaby"] = 25633.002953,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 183293.315,
+				["combat_id"] = 208,
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["frags"] = {
+					["Vikluny-霜之哀伤"] = 3,
+					["奈奈的無奈-霜之哀伤"] = 3,
+					["优秀的阿昆-霜之哀伤"] = 3,
+				},
+				["totals_grupo"] = {
+					25633, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 16,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["spells_cast_timeline"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "13:21:17",
+				["start_time"] = 183269.243,
+				["contra"] = "优秀的阿昆-霜之哀伤",
+				["overall_added"] = true,
+			}, -- [3]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 207,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008905,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["优秀的阿昆-霜之哀伤"] = 12255,
+								["奈奈的無奈-霜之哀伤"] = 9608,
+								["Vikluny-霜之哀伤"] = 7271,
+							},
+							["pets"] = {
+							},
+							["classe"] = "ROGUE",
+							["last_dps"] = 1005.800210763827,
+							["aID"] = "729-052440E9",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 29134.008905,
+							["tipo"] = 1,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 29134.008905,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 0.008905,
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["end_time"] = 1621401676,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 3213,
+										["g_amt"] = 0,
+										["n_max"] = 1001,
+										["targets"] = {
+											["优秀的阿昆-霜之哀伤"] = 6293,
+											["奈奈的無奈-霜之哀伤"] = 1001,
+										},
+										["n_dmg"] = 4081,
+										["n_min"] = 440,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 7294,
+										["c_max"] = 1608,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 8,
+										["c_min"] = 1605,
+										["successful_casted"] = 0,
+										["a_dmg"] = 7294,
+										["n_amt"] = 6,
+										["spellschool"] = 1,
+										["MISS"] = 3,
+									}, -- [1]
+									[197835] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 4595,
+										["g_amt"] = 0,
+										["n_max"] = 1017,
+										["targets"] = {
+											["Vikluny-霜之哀伤"] = 7035,
+											["奈奈的無奈-霜之哀伤"] = 8375,
+											["优秀的阿昆-霜之哀伤"] = 5809,
+										},
+										["n_dmg"] = 16624,
+										["n_min"] = 813,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 21219,
+										["c_max"] = 1548,
+										["id"] = 197835,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 21219,
+										["c_min"] = 1503,
+										["successful_casted"] = 0,
+										["a_amt"] = 22,
+										["n_amt"] = 19,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[8680] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 80,
+										["targets"] = {
+											["Vikluny-霜之哀伤"] = 236,
+											["奈奈的無奈-霜之哀伤"] = 232,
+											["优秀的阿昆-霜之哀伤"] = 153,
+										},
+										["n_dmg"] = 621,
+										["n_min"] = 75,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 621,
+										["c_max"] = 0,
+										["id"] = 8680,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 470,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 6,
+										["n_amt"] = 8,
+										["extra"] = {
+										},
+										["spellschool"] = 8,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["custom"] = 0,
+							["colocacao"] = 1,
+							["last_event"] = 1621401677,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1621401647,
+							["serial"] = "Player-729-052440E9",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 1352,
+							["totalabsorbed"] = 0.007423,
+							["damage_from"] = {
+								["Reneebaby"] = true,
+								["须臾-金色平原"] = true,
+								["Shuker"] = true,
+								["暴走之心"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNGROUPPLAYER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.007423,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621401676,
+							["aID"] = "877-05DB3F6B",
+							["damage_taken"] = 24298.007423,
+							["nome"] = "Vikluny-霜之哀伤",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 0.007423,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
+							["start_time"] = 1621401676,
+							["serial"] = "Player-877-05DB3F6B",
+							["dps_started"] = false,
+						}, -- [2]
+						{
+							["flag_original"] = 1352,
+							["totalabsorbed"] = 0.003433,
+							["damage_from"] = {
+								["Reneebaby"] = true,
+								["须臾-金色平原"] = true,
+								["Shuker"] = true,
+								["暴走之心"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNGROUPPLAYER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003433,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621401676,
+							["aID"] = "877-05DB4057",
+							["damage_taken"] = 22612.003433,
+							["nome"] = "优秀的阿昆-霜之哀伤",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 0.003433,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
+							["start_time"] = 1621401676,
+							["serial"] = "Player-877-05DB4057",
+							["dps_started"] = false,
+						}, -- [3]
+						{
+							["flag_original"] = 1352,
+							["totalabsorbed"] = 0.003007,
+							["damage_from"] = {
+								["Reneebaby"] = true,
+								["须臾-金色平原"] = true,
+								["Shuker"] = true,
+								["暴走之心"] = true,
+							},
+							["targets"] = {
+							},
+							["enemy"] = true,
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNGROUPPLAYER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003007,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621401676,
+							["aID"] = "877-05DB3F66",
+							["damage_taken"] = 23779.003007,
+							["nome"] = "奈奈的無奈-霜之哀伤",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["total"] = 0.003007,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
+							["start_time"] = 1621401676,
+							["serial"] = "Player-877-05DB3F66",
+							["dps_started"] = false,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 207,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 207,
+					["_ActorTable"] = {
+						{
+							["received"] = 8.001417,
+							["resource"] = 2.001417,
+							["targets"] = {
+								["Reneebaby"] = 8,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 3,
+							["classe"] = "ROGUE",
+							["passiveover"] = 20.001417,
+							["total"] = 8.001417,
+							["totalover"] = 0.001417,
+							["nome"] = "Reneebaby",
+							["spells"] = {
+								["_ActorTable"] = {
+									[196911] = {
+										["total"] = 8,
+										["id"] = 196911,
+										["totalover"] = 0,
+										["targets"] = {
+											["Reneebaby"] = 8,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["spec"] = 261,
+							["tipo"] = 3,
+							["aID"] = "729-052440E9",
+							["last_event"] = 1621401677,
+							["alternatepower"] = 0.001417,
+							["flag_original"] = 1297,
+							["serial"] = "Player-729-052440E9",
+							["resource_type"] = 4,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 207,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "诚实的胡志",
+							["grupo"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["aID"] = "729-05ED2269",
+							["buff_uptime"] = 0,
+							["tipo"] = 4,
+							["last_event"] = 1621401647,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[269083] = {
+										["activedamt"] = 1,
+										["id"] = 269083,
+										["targets"] = {
+										},
+										["actived_at"] = 1621401647,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[32292] = {
+										["activedamt"] = 1,
+										["id"] = 32292,
+										["targets"] = {
+										},
+										["actived_at"] = 1621401647,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[264420] = {
+										["activedamt"] = 1,
+										["id"] = 264420,
+										["targets"] = {
+										},
+										["actived_at"] = 1621401647,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-729-05ED2269",
+							["classe"] = "DEATHKNIGHT",
+						}, -- [1]
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[3409] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 4,
+										["id"] = 3409,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 6,
+									},
+									[316220] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 316220,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[8680] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 2,
+										["id"] = 8680,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 6,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 265,
+							["aID"] = "729-052440E9",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[225787] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 225787,
+										["uptime"] = 29,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[303003] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 303003,
+										["uptime"] = 29,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[3408] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 3408,
+										["uptime"] = 29,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[264420] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 264420,
+										["uptime"] = 29,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[342814] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 342814,
+										["uptime"] = 29,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[347600] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 347600,
+										["uptime"] = 29,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[8679] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 8679,
+										["uptime"] = 29,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[269083] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 269083,
+										["uptime"] = 29,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[324748] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 2,
+										["id"] = 324748,
+										["uptime"] = 25,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[264415] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 264415,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 17,
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[212743] = 7,
+								[197835] = 7,
+								[324748] = 3,
+							},
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1621401676,
+							["classe"] = "ROGUE",
+							["pets"] = {
+							},
+							["serial"] = "Player-729-052440E9",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 207,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["至尊奶爸"] = true,
+					["诚实的胡志"] = true,
+					["杜六三三"] = true,
+					["Reneebaby"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"诚实的胡志", -- [1]
+					"杜六三三", -- [2]
+					"至尊奶爸", -- [3]
+					"Reneebaby", -- [4]
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					29133.968102, -- [1]
+					-0.016094, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.00668,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 8,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					29134, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 8,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "13:21:17",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "优秀的阿昆-霜之哀伤",
+				["TotalElapsedCombatTime"] = 183268.906,
+				["CombatEndedAt"] = 183268.906,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "13:20:48",
+				["end_time"] = 183268.906,
+				["combat_id"] = 207,
+				["TimeData"] = {
+				},
+				["tempo_start"] = 1621401647,
+				["frags"] = {
+					["Vikluny-霜之哀伤"] = 4,
+					["奈奈的無奈-霜之哀伤"] = 4,
+					["优秀的阿昆-霜之哀伤"] = 4,
+				},
+				["combat_counter"] = 908,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Reneebaby"] = 29134.008905,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 183239.94,
+				["contra"] = "优秀的阿昆-霜之哀伤",
+				["spells_cast_timeline"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 206,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.007998,
-							["spec"] = 261,
 							["damage_from"] = {
 								["巨锤"] = true,
 								["[*] 折磨：魂铸热能"] = true,
@@ -23,22 +2533,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["end_time"] = 1621261040,
-							["aID"] = "729-052440E9",
+							["total"] = 427433.007998,
+							["spec"] = 261,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 427433.007998,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-729-052440E9",
+							["dps_started"] = false,
+							["end_time"] = 1621261040,
+							["classe"] = "ROGUE",
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 427433.007998,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 11,
@@ -322,16 +2831,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 25143.11811752941,
-							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 15712.007998,
+							["colocacao"] = 1,
+							["aID"] = "729-052440E9",
+							["custom"] = 0,
+							["last_event"] = 1621261039,
+							["last_dps"] = 25143.11811752941,
 							["start_time"] = 1621261023,
 							["delay"] = 0,
-							["last_event"] = 1621261039,
+							["damage_taken"] = 15712.007998,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -342,22 +2853,21 @@ _detalhes_database = {
 								["Reneebaby"] = 13471,
 							},
 							["spellicon"] = 236215,
-							["serial"] = "",
-							["pets"] = {
-							},
+							["monster"] = true,
+							["end_time"] = 1621261040,
 							["aID"] = "",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 13471.001251,
-							["fight_component"] = true,
-							["end_time"] = 1621261040,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
 							["dps_started"] = false,
 							["total"] = 13471.001251,
-							["classe"] = "UNKNOW",
-							["monster"] = true,
+							["serial"] = "",
+							["friendlyfire_total"] = 0,
 							["nome"] = "[*] 折磨：魂铸热能",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[326469] = {
 										["c_amt"] = 0,
@@ -388,45 +2898,46 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
 							["on_hold"] = false,
+							["fight_component"] = true,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["custom"] = 0,
+							["last_event"] = 1621261038,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.001251,
 							["start_time"] = 1621261028,
 							["delay"] = 0,
-							["last_event"] = 1621261038,
+							["damage_taken"] = 0.001251,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.008994,
-							["aID"] = "159755",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 2241,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-159755-0000227AAD",
 							["pets"] = {
 							},
-							["end_time"] = 1621261040,
-							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2241.008994,
-							["monster"] = true,
 							["dps_started"] = false,
+							["monster"] = true,
 							["total"] = 2241.008994,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621261037,
 							["nome"] = "巨锤",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -458,23 +2969,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-159755-0000227AAD",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621261037,
+							["fight_component"] = true,
 							["damage_taken"] = 427433.008994,
+							["end_time"] = 1621261040,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621261025,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["aID"] = "159755",
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 206,
 					["tipo"] = 3,
+					["combatId"] = 206,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -505,13 +3016,12 @@ _detalhes_database = {
 							["healing_taken"] = 11467.007129,
 							["fight_component"] = true,
 							["end_time"] = 1621261040,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[341530] = {
 										["c_amt"] = 0,
@@ -531,11 +3041,11 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Reneebaby"] = 106,
 										},
-										["n_amt"] = 1,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 106,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 106,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -559,32 +3069,33 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 11361,
 										["totaldenied"] = 0,
 										["n_amt"] = 6,
+										["n_curado"] = 11361,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621261025,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621261034,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.007129,
 							["delay"] = 0,
-							["last_event"] = 1621261034,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 206,
 					["tipo"] = 7,
+					["combatId"] = 206,
 					["_ActorTable"] = {
 						{
 							["received"] = 279.004614,
-							["resource"] = 29.004614,
+							["resource"] = 32.004614,
 							["targets"] = {
 								["Reneebaby"] = 279,
 							},
@@ -598,17 +3109,7 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
-									[212283] = {
-										["total"] = 25,
-										["id"] = 212283,
-										["totalover"] = 15,
-										["targets"] = {
-											["Reneebaby"] = 25,
-										},
-										["counter"] = 1,
-									},
 									[98440] = {
 										["total"] = 168,
 										["id"] = 98440,
@@ -617,15 +3118,6 @@ _detalhes_database = {
 											["Reneebaby"] = 168,
 										},
 										["counter"] = 6,
-									},
-									[196911] = {
-										["total"] = 40,
-										["id"] = 196911,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 40,
-										},
-										["counter"] = 5,
 									},
 									[196980] = {
 										["total"] = 46,
@@ -636,488 +3128,173 @@ _detalhes_database = {
 										},
 										["counter"] = 13,
 									},
+									[196911] = {
+										["total"] = 40,
+										["id"] = 196911,
+										["totalover"] = 0,
+										["targets"] = {
+											["Reneebaby"] = 40,
+										},
+										["counter"] = 5,
+									},
+									[212283] = {
+										["total"] = 25,
+										["id"] = 212283,
+										["totalover"] = 15,
+										["targets"] = {
+											["Reneebaby"] = 25,
+										},
+										["counter"] = 1,
+									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.004614,
-							["last_event"] = 1621261042,
-							["aID"] = "729-052440E9",
 							["tipo"] = 3,
+							["last_event"] = 1621401647,
+							["aID"] = "729-052440E9",
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 15.004614,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 206,
 					["tipo"] = 9,
+					["combatId"] = 206,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 137619,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 16,
-										["appliedamt"] = 1,
+										["id"] = 8680,
 										["refreshamt"] = 2,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[321519] = {
-										["activedamt"] = 0,
-										["id"] = 321519,
+									[316220] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 16,
+										["id"] = 316220,
+										["refreshamt"] = 7,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[333846] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = -1,
+										["uptime"] = 14,
+										["id"] = 333846,
+										["refreshamt"] = 7,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[1833] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = 1833,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324260] = {
-										["activedamt"] = 0,
-										["id"] = 324260,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 324260,
 										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[1833] = {
-										["activedamt"] = 0,
-										["id"] = 1833,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[316220] = {
-										["activedamt"] = 0,
-										["id"] = 316220,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 1,
-										["refreshamt"] = 7,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[333504] = {
-										["activedamt"] = 0,
-										["id"] = 333504,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 2,
+										["id"] = 333504,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[255909] = {
-										["activedamt"] = 0,
-										["id"] = 255909,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 255909,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[328305] = {
-										["activedamt"] = 0,
-										["id"] = 328305,
-										["targets"] = {
-										},
-										["uptime"] = 10,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[333846] = {
-										["activedamt"] = -1,
-										["id"] = 333846,
 										["targets"] = {
 										},
-										["uptime"] = 14,
-										["appliedamt"] = 0,
-										["refreshamt"] = 7,
+										["activedamt"] = 0,
+										["uptime"] = 10,
+										["id"] = 328305,
+										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5760] = {
-										["activedamt"] = -1,
-										["id"] = 5760,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
+										["activedamt"] = -1,
 										["uptime"] = 16,
-										["appliedamt"] = 0,
+										["id"] = 5760,
 										["refreshamt"] = 13,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-								},
-							},
-							["interrupt_targets"] = {
-								["巨锤"] = 1,
-							},
-							["buff_uptime"] = 258,
-							["interrupt"] = 1.008444,
-							["cc_done_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[1833] = {
-										["id"] = 1833,
-										["targets"] = {
-											["巨锤"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["aID"] = "729-052440E9",
-							["interrupt_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[1766] = {
-										["id"] = 1766,
-										["interrompeu_oque"] = {
-											[330118] = 1,
-										},
-										["targets"] = {
-											["巨锤"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[196980] = {
-										["activedamt"] = 3,
-										["id"] = 196980,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[345228] = {
-										["activedamt"] = 1,
-										["id"] = 345228,
-										["targets"] = {
-										},
-										["uptime"] = 14,
+									[321519] = {
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
 										["targets"] = {
 										},
-										["uptime"] = 17,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[121471] = {
-										["activedamt"] = 1,
-										["id"] = 121471,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[212283] = {
-										["activedamt"] = 1,
-										["id"] = 212283,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[185422] = {
-										["activedamt"] = 2,
-										["id"] = 185422,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[347037] = {
-										["activedamt"] = 1,
-										["id"] = 347037,
-										["targets"] = {
-										},
+										["activedamt"] = 0,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 5,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[343782] = {
-										["activedamt"] = 1,
-										["id"] = 343782,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 1,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[1966] = {
-										["activedamt"] = 1,
-										["id"] = 1966,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[333507] = {
-										["activedamt"] = 5,
-										["id"] = 333507,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 5,
-										["refreshamt"] = 7,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5277] = {
-										["activedamt"] = 1,
-										["id"] = 5277,
-										["targets"] = {
-										},
-										["uptime"] = 13,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[36554] = {
-										["activedamt"] = 2,
-										["id"] = 36554,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[227151] = {
-										["activedamt"] = 1,
-										["id"] = 227151,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[343173] = {
-										["activedamt"] = 2,
-										["id"] = 343173,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 1,
-										["refreshamt"] = 5,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 321519,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["interrompeu_oque"] = {
-								[330118] = 1,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 100,
-							["cc_done_targets"] = {
-								["巨锤"] = 1,
-							},
-							["cc_done"] = 1.002824,
 							["nome"] = "Reneebaby",
-							["spec"] = 261,
-							["grupo"] = true,
+							["buff_uptime"] = 258,
 							["spell_cast"] = {
 								[36554] = 2,
 								[137619] = 1,
@@ -1133,22 +3310,356 @@ _detalhes_database = {
 								[212283] = 1,
 								[185313] = 2,
 							},
-							["debuff_uptime_targets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1621261040,
-							["pets"] = {
+							["cc_done_spells"] = {
+								["_ActorTable"] = {
+									[1833] = {
+										["id"] = 1833,
+										["targets"] = {
+											["巨锤"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
 							},
 							["classe"] = "ROGUE",
-							["serial"] = "Player-729-052440E9",
+							["interrupt_spells"] = {
+								["_ActorTable"] = {
+									[1766] = {
+										["id"] = 1766,
+										["interrompeu_oque"] = {
+											[330118] = 1,
+										},
+										["targets"] = {
+											["巨锤"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[196980] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 3,
+										["uptime"] = 4,
+										["id"] = 196980,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[345228] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 345228,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225787] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 225787,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[347600] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 347600,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[121471] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 14,
+										["id"] = 121471,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[212283] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 212283,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8679] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 8679,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[185422] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 10,
+										["id"] = 185422,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[115192] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 115192,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324717] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 324717,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[347037] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 347037,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 324748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[343173] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 0,
+										["id"] = 343173,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[342814] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 342814,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[340094] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 340094,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[333507] = {
+										["appliedamt"] = 5,
+										["targets"] = {
+										},
+										["activedamt"] = 5,
+										["uptime"] = 8,
+										["id"] = 333507,
+										["refreshamt"] = 7,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[315496] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 315496,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5277] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 13,
+										["id"] = 5277,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[36554] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 4,
+										["id"] = 36554,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227151] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 227151,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[343782] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 343782,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5761] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 5761,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[1966] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 1966,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[341530] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 341530,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[303003] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 17,
+										["id"] = 303003,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[341550] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 16,
+										["id"] = 341550,
+										["refreshamt"] = 5,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["interrompeu_oque"] = {
+								[330118] = 1,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 100,
+							["interrupt_targets"] = {
+								["巨锤"] = 1,
+							},
+							["cc_done"] = 1.002824,
+							["interrupt"] = 1.008444,
+							["spec"] = 261,
+							["grupo"] = true,
+							["cc_done_targets"] = {
+								["巨锤"] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1621261040,
 							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["serial"] = "Player-729-052440E9",
+							["aID"] = "729-052440E9",
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 206,
 					["tipo"] = 2,
+					["combatId"] = 206,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1158,24 +3669,21 @@ _detalhes_database = {
 				["raid_roster_indexed"] = {
 					"Reneebaby", -- [1]
 				},
+				["CombatStartedAt"] = 183239.786,
 				["tempo_start"] = 1621261023,
-				["cleu_timeline"] = {
+				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["overall_added"] = true,
-				["enemy"] = "巨锤",
 				["cleu_events"] = {
 					["n"] = 1,
 				},
-				["last_events_tables"] = {
-				},
 				["totals"] = {
-					443145, -- [1]
-					11467, -- [2]
+					443144.965108, -- [1]
+					11466.9706, -- [2]
 					{
-						0, -- [1]
-						[0] = 0,
+						-0.003872000000001208, -- [1]
+						[0] = -0.005341,
 						["alternatepower"] = 0,
 						[3] = 279,
 						[6] = 0,
@@ -1183,53 +3691,16 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["TotalElapsedCombatTime"] = 180064.194,
-				["instance_type"] = "scenario",
-				["frags_need_refresh"] = true,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 11467.007129,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 427433.007998,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 180064.411,
-				["combat_counter"] = 906,
-				["combat_id"] = 206,
-				["player_last_events"] = {
-				},
-				["CombatEndedAt"] = 180064.194,
-				["data_inicio"] = "22:17:03",
-				["spells_cast_timeline"] = {
-				},
-				["data_fim"] = "22:17:20",
 				["totals_grupo"] = {
 					427433, -- [1]
 					11467, -- [2]
@@ -1243,28 +3714,70 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "22:17:20",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "巨锤",
+				["TotalElapsedCombatTime"] = 180064.194,
+				["CombatEndedAt"] = 180064.194,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "22:17:03",
+				["end_time"] = 180064.411,
+				["combat_id"] = 206,
+				["overall_added"] = true,
 				["frags"] = {
 					["巨锤"] = 1,
 				},
-				["start_time"] = 180047.411,
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 906,
 				["TimeData"] = {
 				},
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 180047.411,
 				["contra"] = "巨锤",
-			}, -- [1]
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Reneebaby"] = 11467.007129,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Reneebaby"] = 427433.007998,
+						}, -- [1]
+					},
+				},
+			}, -- [5]
 			{
 				{
-					["combatId"] = 205,
 					["tipo"] = 2,
+					["combatId"] = 205,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1282,22 +3795,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1621261023,
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 227383.006249,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 227383.006249,
-							["aID"] = "729-052440E9",
-							["classe"] = "ROGUE",
-							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 13,
@@ -1330,34 +3829,6 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									}, -- [1]
-									[53] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1823,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["强化的渊誓护火者"] = 1823,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1823,
-										["c_max"] = 1823,
-										["id"] = 53,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1823,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
 									[8680] = {
 										["c_amt"] = 4,
 										["b_amt"] = 0,
@@ -1386,31 +3857,31 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[279043] = {
-										["c_amt"] = 0,
+									[53] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 1823,
 										["g_amt"] = 0,
-										["n_max"] = 7869,
+										["n_max"] = 0,
 										["targets"] = {
-											["强化的渊誓护火者"] = 26636,
+											["强化的渊誓护火者"] = 1823,
 										},
-										["n_dmg"] = 26636,
-										["n_min"] = 1013,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 26636,
-										["c_max"] = 0,
-										["id"] = 279043,
+										["counter"] = 1,
+										["total"] = 1823,
+										["c_max"] = 1823,
+										["id"] = 53,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 1823,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 6,
+										["n_amt"] = 0,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
@@ -1436,36 +3907,6 @@ _detalhes_database = {
 										},
 										["a_dmg"] = 0,
 										["c_min"] = 6497,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[185438] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 51696,
-										["g_amt"] = 0,
-										["n_max"] = 6075,
-										["targets"] = {
-											["巨锤"] = 4445,
-											["噬渊鼠"] = 6075,
-											["强化的渊誓护火者"] = 50157,
-										},
-										["n_dmg"] = 8981,
-										["n_min"] = 2906,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 60677,
-										["c_max"] = 14154,
-										["id"] = 185438,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 4068,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
@@ -1500,46 +3941,116 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
+									[185438] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 51696,
+										["g_amt"] = 0,
+										["n_max"] = 6075,
+										["targets"] = {
+											["巨锤"] = 4445,
+											["噬渊鼠"] = 6075,
+											["强化的渊誓护火者"] = 50157,
+										},
+										["n_dmg"] = 8981,
+										["n_min"] = 2906,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 60677,
+										["c_max"] = 14154,
+										["id"] = 185438,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 4068,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[279043] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7869,
+										["targets"] = {
+											["强化的渊誓护火者"] = 26636,
+										},
+										["n_dmg"] = 26636,
+										["n_min"] = 1013,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 26636,
+										["c_max"] = 0,
+										["id"] = 279043,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 6,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 261,
+							["classe"] = "ROGUE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 227383.006249,
+							["on_hold"] = false,
 							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 17077.76372965025,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1621261023,
+							["aID"] = "729-052440E9",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["total"] = 227383.006249,
 							["last_event"] = 1621261023,
-							["damage_taken"] = 19394.006249,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 17077.76372965025,
 							["start_time"] = 1621260947,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 19394.006249,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 5927.001483,
-							["total"] = 10747.001483,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 10747,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-168105-0000227A1B",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "168105",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10747.001483,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 214097.001483,
+							["monster"] = true,
 							["end_time"] = 1621260960,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260956,
 							["nome"] = "强化的渊誓护火者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[347404] = {
 										["c_amt"] = 0,
@@ -1596,44 +4107,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "168105",
-							["serial"] = "Creature-0-3932-2162-20804-168105-0000227A1B",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260956,
-							["damage_taken"] = 214097.001483,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260948,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 10747.001483,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 612.005544,
-							["total"] = 1796.005544,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 1796,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-151353-0002227A1B",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "151353",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1796.005544,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 7931.005544,
+							["monster"] = true,
 							["end_time"] = 1621260960,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260958,
 							["nome"] = "噬渊鼠",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1664,22 +4175,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "151353",
-							["serial"] = "Creature-0-3932-2162-20804-151353-0002227A1B",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260958,
-							["damage_taken"] = 7931.005544,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260948,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 1796.005544,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 205,
 					["tipo"] = 3,
+					["combatId"] = 205,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1710,13 +4223,12 @@ _detalhes_database = {
 							["healing_taken"] = 12543.002966,
 							["fight_component"] = true,
 							["end_time"] = 1621260960,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[341530] = {
 										["c_amt"] = 0,
@@ -1736,11 +4248,11 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Reneebaby"] = 6724,
 										},
-										["n_amt"] = 6,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 6724,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 6,
+										["n_curado"] = 6724,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -1764,28 +4276,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 5819,
 										["totaldenied"] = 0,
 										["n_amt"] = 5,
+										["n_curado"] = 5819,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621260948,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621260959,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.002966,
 							["delay"] = 0,
-							["last_event"] = 1621260959,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 205,
 					["tipo"] = 7,
+					["combatId"] = 205,
 					["_ActorTable"] = {
 						{
 							["received"] = 247.007321,
@@ -1803,17 +4316,7 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
-									[212283] = {
-										["total"] = 40,
-										["id"] = 212283,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 40,
-										},
-										["counter"] = 1,
-									},
 									[98440] = {
 										["total"] = 150,
 										["id"] = 98440,
@@ -1822,15 +4325,6 @@ _detalhes_database = {
 											["Reneebaby"] = 150,
 										},
 										["counter"] = 5,
-									},
-									[196980] = {
-										["total"] = 25,
-										["id"] = 196980,
-										["totalover"] = 2,
-										["targets"] = {
-											["Reneebaby"] = 25,
-										},
-										["counter"] = 9,
 									},
 									[196911] = {
 										["total"] = 32,
@@ -1841,340 +4335,281 @@ _detalhes_database = {
 										},
 										["counter"] = 4,
 									},
+									[196980] = {
+										["total"] = 25,
+										["id"] = 196980,
+										["totalover"] = 2,
+										["targets"] = {
+											["Reneebaby"] = 25,
+										},
+										["counter"] = 9,
+									},
+									[212283] = {
+										["total"] = 40,
+										["id"] = 212283,
+										["totalover"] = 0,
+										["targets"] = {
+											["Reneebaby"] = 40,
+										},
+										["counter"] = 1,
+									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.007321,
+							["tipo"] = 3,
 							["last_event"] = 1621261023,
 							["aID"] = "729-052440E9",
-							["tipo"] = 3,
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 2.007321,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 205,
 					["tipo"] = 9,
+					["combatId"] = 205,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[333504] = {
-										["activedamt"] = 0,
-										["id"] = 333504,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 6,
-										["appliedamt"] = 3,
+										["id"] = 333504,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5760] = {
-										["activedamt"] = 0,
-										["id"] = 5760,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 5760,
 										["refreshamt"] = 12,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 8680,
 										["refreshamt"] = 2,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 137619,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324260] = {
-										["activedamt"] = 0,
-										["id"] = 324260,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 324260,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[316220] = {
-										["activedamt"] = 0,
-										["id"] = 316220,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 316220,
 										["refreshamt"] = 4,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 193,
 							["aID"] = "729-052440E9",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 13,
-										["appliedamt"] = 1,
+										["id"] = 5761,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[345228] = {
-										["activedamt"] = 1,
-										["id"] = 345228,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 13,
-										["appliedamt"] = 1,
+										["id"] = 345228,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 13,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 13,
-										["appliedamt"] = 1,
+										["id"] = 347600,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[121471] = {
-										["activedamt"] = 1,
-										["id"] = 121471,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 13,
-										["appliedamt"] = 1,
+										["id"] = 121471,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[212283] = {
-										["activedamt"] = 1,
-										["id"] = 212283,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 212283,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 13,
-										["appliedamt"] = 1,
+										["id"] = 8679,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[185422] = {
-										["activedamt"] = 1,
-										["id"] = 185422,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 185422,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
-										["targets"] = {
-										},
-										["uptime"] = 13,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
-										["targets"] = {
-										},
-										["uptime"] = 13,
-										["appliedamt"] = 1,
+										["id"] = 115192,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1966] = {
-										["activedamt"] = 1,
-										["id"] = 1966,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 1966,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[36554] = {
-										["activedamt"] = 2,
-										["id"] = 36554,
+									[324717] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 4,
-										["appliedamt"] = 2,
+										["activedamt"] = 1,
+										["uptime"] = 13,
+										["id"] = 324717,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 342814,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[343173] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 0,
+										["id"] = 343173,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[36554] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 4,
+										["id"] = 36554,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[227151] = {
-										["activedamt"] = 1,
-										["id"] = 227151,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
-										["targets"] = {
-										},
-										["uptime"] = 13,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[196980] = {
-										["activedamt"] = 1,
-										["id"] = 196980,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 4,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[333507] = {
-										["activedamt"] = 4,
-										["id"] = 333507,
-										["targets"] = {
-										},
-										["uptime"] = 5,
-										["appliedamt"] = 4,
-										["refreshamt"] = 5,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[343173] = {
-										["activedamt"] = 2,
-										["id"] = 343173,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[31224] = {
-										["activedamt"] = 1,
-										["id"] = 31224,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 340094,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -2191,40 +4626,118 @@ _detalhes_database = {
 										["actived"] = true,
 										["counter"] = 0,
 									},
-									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
+									[303003] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 13,
+										["id"] = 303003,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[2983] = {
-										["activedamt"] = 1,
-										["id"] = 2983,
+									[196980] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
+										["id"] = 196980,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[341550] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 12,
+										["id"] = 341550,
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[333507] = {
+										["appliedamt"] = 4,
+										["targets"] = {
+										},
+										["activedamt"] = 4,
+										["uptime"] = 5,
+										["id"] = 333507,
+										["refreshamt"] = 5,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227151] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 227151,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[31224] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 31224,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115191] = {
-										["activedamt"] = 1,
-										["id"] = 115191,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
+										["id"] = 115191,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[2983] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 2983,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[315496] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 13,
+										["id"] = 315496,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[341530] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 341530,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 47,
@@ -2245,37 +4758,37 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1621260960,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "ROGUE",
 							["serial"] = "Player-729-052440E9",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "强化的渊誓护火者",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[347404] = 3,
 								[275983] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-168105-0000227A1B",
 							["aID"] = "168105",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 205,
 					["tipo"] = 2,
+					["combatId"] = 205,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2305,76 +4818,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					227383, -- [1]
-					12543, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 247,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "scenario",
-				["data_fim"] = "22:16:00",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "强化的渊誓护火者",
-				["TotalElapsedCombatTime"] = 179983.979,
-				["CombatEndedAt"] = 179983.979,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 12543.002966,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 222028.006249,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 179984.483,
-				["combat_id"] = 205,
-				["overall_added"] = true,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Reneebaby"] = {
@@ -2465,22 +4917,84 @@ _detalhes_database = {
 						["n"] = 3,
 					},
 				},
-				["data_inicio"] = "22:15:47",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "22:16:00",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "强化的渊誓护火者",
+				["TotalElapsedCombatTime"] = 179983.979,
+				["CombatEndedAt"] = 179983.979,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Reneebaby"] = 12543.002966,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Reneebaby"] = 222028.006249,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 179984.483,
+				["combat_id"] = 205,
+				["overall_added"] = true,
 				["frags"] = {
 					["噬渊鼠"] = 1,
 					["强化的渊誓护火者"] = 1,
 				},
-				["start_time"] = 179971.482,
+				["spells_cast_timeline"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["TimeData"] = {
 				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					227383, -- [1]
+					12543, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 247,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 179971.482,
 				["contra"] = "强化的渊誓护火者",
-			}, -- [2]
+				["data_inicio"] = "22:15:47",
+			}, -- [6]
 			{
 				{
-					["combatId"] = 204,
 					["tipo"] = 2,
+					["combatId"] = 204,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2497,22 +5011,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["spec"] = 261,
-							["friendlyfire"] = {
-							},
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 9181.005815,
+							["aID"] = "729-052440E9",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 158556.005815,
-							["end_time"] = 1621260931,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-729-052440E9",
 							["dps_started"] = false,
-							["total"] = 158556.005815,
-							["aID"] = "729-052440E9",
+							["end_time"] = 1621260931,
 							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 15,
@@ -2573,31 +5086,31 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[328306] = {
-										["c_amt"] = 1,
+									[321519] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 5074,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 110,
 										["targets"] = {
-											["镇压者泽罗尔斯"] = 5074,
+											["镇压者泽罗尔斯"] = 1054,
 										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 1054,
+										["n_min"] = 102,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 5074,
-										["c_max"] = 5074,
-										["id"] = 328306,
+										["counter"] = 10,
+										["total"] = 1054,
+										["c_max"] = 0,
+										["id"] = 321519,
 										["r_dmg"] = 0,
 										["spellschool"] = 8,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 5074,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 0,
+										["n_amt"] = 10,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
@@ -2631,88 +5144,31 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[321519] = {
-										["c_amt"] = 0,
+									[328306] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 5074,
 										["g_amt"] = 0,
-										["n_max"] = 110,
+										["n_max"] = 0,
 										["targets"] = {
-											["镇压者泽罗尔斯"] = 1054,
+											["镇压者泽罗尔斯"] = 5074,
 										},
-										["n_dmg"] = 1054,
-										["n_min"] = 102,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 1054,
-										["c_max"] = 0,
-										["id"] = 321519,
+										["counter"] = 1,
+										["total"] = 5074,
+										["c_max"] = 5074,
+										["id"] = 328306,
 										["r_dmg"] = 0,
 										["spellschool"] = 8,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 5074,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 10,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[328082] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 18695,
-										["g_amt"] = 0,
-										["n_max"] = 4684,
-										["targets"] = {
-											["镇压者泽罗尔斯"] = 29670,
-										},
-										["n_dmg"] = 10975,
-										["n_min"] = 1785,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 29670,
-										["c_max"] = 9531,
-										["id"] = 328082,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 4311,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[185438] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 20787,
-										["g_amt"] = 0,
-										["n_max"] = 7793,
-										["targets"] = {
-											["噬渊鼠"] = 4598,
-											["镇压者泽罗尔斯"] = 44160,
-										},
-										["n_dmg"] = 27971,
-										["n_min"] = 2572,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 48758,
-										["c_max"] = 12360,
-										["id"] = 185438,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 8427,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
+										["n_amt"] = 0,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
@@ -2745,45 +5201,103 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
+									[185438] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 20787,
+										["g_amt"] = 0,
+										["n_max"] = 7793,
+										["targets"] = {
+											["噬渊鼠"] = 4598,
+											["镇压者泽罗尔斯"] = 44160,
+										},
+										["n_dmg"] = 27971,
+										["n_min"] = 2572,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 48758,
+										["c_max"] = 12360,
+										["id"] = 185438,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 8427,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[328082] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 18695,
+										["g_amt"] = 0,
+										["n_max"] = 4684,
+										["targets"] = {
+											["镇压者泽罗尔斯"] = 29670,
+										},
+										["n_dmg"] = 10975,
+										["n_min"] = 1785,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 29670,
+										["c_max"] = 9531,
+										["id"] = 328082,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 4311,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 8806.709943074926,
-							["custom"] = 0,
+							["total"] = 158556.005815,
 							["last_event"] = 1621260931,
-							["damage_taken"] = 9181.005815,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 8806.709943074926,
 							["start_time"] = 1621260913,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["spec"] = 261,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 2391.003117,
-							["aID"] = "173051",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 4682,
 							},
-							["end_time"] = 1621260931,
+							["serial"] = "Creature-0-3932-2162-20804-173051-0000227A1B",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "173051",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4682.003117,
-							["monster"] = true,
+							["damage_taken"] = 141122.003117,
 							["dps_started"] = false,
-							["total"] = 4682.003117,
+							["end_time"] = 1621260931,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260922,
 							["nome"] = "镇压者泽罗尔斯",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2841,45 +5355,43 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-173051-0000227A1B",
-							["last_dps"] = 0,
+							["total"] = 4682.003117,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260922,
-							["damage_taken"] = 141122.003117,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260915,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.001108,
-							["total"] = 2466.001108,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 2466,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-157583-0000227A1B",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "157583",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2466.001108,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 11665.001108,
+							["monster"] = true,
 							["end_time"] = 1621260931,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260927,
 							["nome"] = "熔炉守护者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[270246] = {
 										["c_amt"] = 0,
@@ -2909,44 +5421,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "157583",
-							["serial"] = "Creature-0-3932-2162-20804-157583-0000227A1B",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260927,
-							["damage_taken"] = 11665.001108,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260927,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 2466.001108,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 320.005943,
-							["total"] = 2033.005943,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 2033,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-151353-0000A27A1B",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "151353",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2033.005943,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 5769.005943,
+							["monster"] = true,
 							["end_time"] = 1621260931,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260931,
 							["nome"] = "噬渊鼠",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2978,22 +5490,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "151353",
-							["serial"] = "Creature-0-3932-2162-20804-151353-0000A27A1B",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260931,
-							["damage_taken"] = 5769.005943,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260917,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 2033.005943,
 						}, -- [4]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 204,
 					["tipo"] = 3,
+					["combatId"] = 204,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -3024,13 +5538,12 @@ _detalhes_database = {
 							["healing_taken"] = 9181.001177,
 							["fight_component"] = true,
 							["end_time"] = 1621260931,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[341530] = {
 										["c_amt"] = 0,
@@ -3050,11 +5563,11 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Reneebaby"] = 2895,
 										},
-										["n_amt"] = 3,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 2895,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 2895,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -3078,28 +5591,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 6286,
 										["totaldenied"] = 0,
 										["n_amt"] = 7,
+										["n_curado"] = 6286,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621260915,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621260931,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.001177,
 							["delay"] = 0,
-							["last_event"] = 1621260931,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 204,
 					["tipo"] = 7,
+					["combatId"] = 204,
 					["_ActorTable"] = {
 						{
 							["received"] = 308.007085,
@@ -3117,17 +5631,7 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
-									[212283] = {
-										["total"] = 34,
-										["id"] = 212283,
-										["totalover"] = 6,
-										["targets"] = {
-											["Reneebaby"] = 34,
-										},
-										["counter"] = 1,
-									},
 									[98440] = {
 										["total"] = 192,
 										["id"] = 98440,
@@ -3136,15 +5640,6 @@ _detalhes_database = {
 											["Reneebaby"] = 192,
 										},
 										["counter"] = 8,
-									},
-									[196911] = {
-										["total"] = 32,
-										["id"] = 196911,
-										["totalover"] = 8,
-										["targets"] = {
-											["Reneebaby"] = 32,
-										},
-										["counter"] = 5,
 									},
 									[196980] = {
 										["total"] = 50,
@@ -3155,69 +5650,87 @@ _detalhes_database = {
 										},
 										["counter"] = 14,
 									},
+									[196911] = {
+										["total"] = 32,
+										["id"] = 196911,
+										["totalover"] = 8,
+										["targets"] = {
+											["Reneebaby"] = 32,
+										},
+										["counter"] = 5,
+									},
+									[212283] = {
+										["total"] = 34,
+										["id"] = 212283,
+										["totalover"] = 6,
+										["targets"] = {
+											["Reneebaby"] = 34,
+										},
+										["counter"] = 1,
+									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.007085,
+							["tipo"] = 3,
 							["last_event"] = 1621260947,
 							["aID"] = "729-052440E9",
-							["tipo"] = 3,
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 14.007085,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 204,
 					["tipo"] = 9,
+					["combatId"] = 204,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[328305] = {
-										["activedamt"] = 0,
-										["id"] = 328305,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 328305,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5760] = {
-										["activedamt"] = -1,
-										["id"] = 5760,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = -1,
 										["uptime"] = 18,
-										["appliedamt"] = 2,
+										["id"] = 5760,
 										["refreshamt"] = 20,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 15,
-										["appliedamt"] = 3,
+										["id"] = 8680,
 										["refreshamt"] = 3,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 7,
-										["appliedamt"] = 2,
+										["id"] = 137619,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -3235,33 +5748,33 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[321519] = {
-										["activedamt"] = 0,
-										["id"] = 321519,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 321519,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[316220] = {
-										["activedamt"] = -1,
-										["id"] = 316220,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
+										["activedamt"] = -1,
 										["uptime"] = 16,
-										["appliedamt"] = 0,
+										["id"] = 316220,
 										["refreshamt"] = 4,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 221,
 							["aID"] = "729-052440E9",
 							["interrupt_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[1766] = {
 										["id"] = 1766,
@@ -3274,313 +5787,314 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[196980] = {
-										["activedamt"] = 2,
-										["id"] = 196980,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 5,
-										["appliedamt"] = 2,
+										["id"] = 196980,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 18,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 18,
-										["appliedamt"] = 1,
+										["id"] = 347600,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[212283] = {
-										["activedamt"] = 1,
-										["id"] = 212283,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 212283,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 18,
-										["appliedamt"] = 1,
+										["id"] = 8679,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[185422] = {
-										["activedamt"] = 1,
-										["id"] = 185422,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 185422,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 115192,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 18,
-										["appliedamt"] = 1,
+										["id"] = 324717,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 342814,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 340094,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 18,
-										["appliedamt"] = 1,
+										["id"] = 341550,
 										["refreshamt"] = 8,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[333507] = {
-										["activedamt"] = 6,
-										["id"] = 333507,
+									[315496] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 10,
-										["appliedamt"] = 6,
-										["refreshamt"] = 8,
+										["activedamt"] = 1,
+										["uptime"] = 18,
+										["id"] = 315496,
+										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347037] = {
-										["activedamt"] = 1,
-										["id"] = 347037,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[227151] = {
-										["activedamt"] = 1,
-										["id"] = 227151,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
-										["targets"] = {
-										},
-										["uptime"] = 18,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
-										["targets"] = {
-										},
-										["uptime"] = 18,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341770] = {
-										["activedamt"] = 0,
-										["id"] = 341770,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["id"] = 347037,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
+										["id"] = 341530,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227151] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 227151,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5761] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 18,
+										["id"] = 5761,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[303003] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 18,
+										["id"] = 303003,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[341770] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 341770,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[343173] = {
-										["activedamt"] = 1,
-										["id"] = 343173,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 343173,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+									[324748] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 18,
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 324748,
 										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[333507] = {
+										["appliedamt"] = 6,
+										["targets"] = {
+										},
+										["activedamt"] = 6,
+										["uptime"] = 10,
+										["id"] = 333507,
+										["refreshamt"] = 8,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
 								[335694] = 1,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 76,
-							["interrupt_targets"] = {
-								["镇压者泽罗尔斯"] = 1,
-							},
-							["interrupt"] = 1.008168,
+							["classe"] = "ROGUE",
 							["nome"] = "Reneebaby",
+							["interrupt"] = 1.008168,
 							["spec"] = 261,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[185313] = 1,
 								[328305] = 1,
 								[1766] = 1,
-								[324748] = 1,
 								[137619] = 2,
+								[324748] = 1,
 								[196819] = 8,
-								[185438] = 7,
 								[212283] = 1,
+								[185438] = 7,
 							},
 							["debuff_uptime_targets"] = {
 							},
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1621260931,
 							["pets"] = {
 							},
-							["classe"] = "ROGUE",
 							["serial"] = "Player-729-052440E9",
-							["tipo"] = 4,
+							["interrupt_targets"] = {
+								["镇压者泽罗尔斯"] = 1,
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "镇压者泽罗尔斯",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[338406] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-173051-0000227A1B",
 							["aID"] = "173051",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "熔炉守护者",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[270246] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-157583-0000227A1B",
 							["aID"] = "157583",
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 204,
 					["tipo"] = 2,
+					["combatId"] = 204,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -3610,39 +6124,21 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					158556, -- [1]
-					9181, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 308,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "scenario",
+				["hasSaved"] = true,
 				["data_fim"] = "22:15:31",
 				["cleu_timeline"] = {
 				},
@@ -3658,14 +6154,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Reneebaby"] = 9181.001177,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -3676,40 +6172,59 @@ _detalhes_database = {
 				["end_time"] = 179956.06,
 				["combat_id"] = 204,
 				["overall_added"] = true,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "22:15:14",
-				["CombatSkillCache"] = {
-				},
 				["frags"] = {
 					["噬渊鼠"] = 1,
 					["熔炉守护者"] = 1,
 					["镇压者泽罗尔斯"] = 1,
 				},
-				["start_time"] = 179938.056,
+				["spells_cast_timeline"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["TimeData"] = {
 				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					158556, -- [1]
+					9181, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 308,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 179938.056,
 				["contra"] = "镇压者泽罗尔斯",
-			}, -- [3]
+				["data_inicio"] = "22:15:14",
+			}, -- [7]
 			{
 				{
-					["combatId"] = 203,
 					["tipo"] = 2,
+					["combatId"] = 203,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.005993,
 							["damage_from"] = {
 								["镇压者泽罗尔斯"] = true,
-								["亡语者"] = true,
-								["熔炉守护者"] = true,
-								["噬渊鼠"] = true,
 								["刻符巨像"] = true,
+								["熔炉守护者"] = true,
+								["亡语者"] = true,
+								["噬渊鼠"] = true,
 								["渊誓哨兵"] = true,
 								["渊誓卫兵"] = true,
 							},
@@ -3726,22 +6241,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["spec"] = 261,
-							["friendlyfire"] = {
-							},
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 46904.005993,
+							["aID"] = "729-052440E9",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 363140.005993,
-							["end_time"] = 1621260913,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-729-052440E9",
 							["dps_started"] = false,
-							["total"] = 363140.005993,
-							["aID"] = "729-052440E9",
+							["end_time"] = 1621260913,
 							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 14,
@@ -3783,10 +6297,10 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 2455,
 										["targets"] = {
+											["刻符巨像"] = 8757,
+											["渊誓哨兵"] = 17422,
 											["亡语者"] = 14290,
 											["噬渊鼠"] = 6797,
-											["渊誓哨兵"] = 17422,
-											["刻符巨像"] = 8757,
 											["灰烬护命匣"] = 12280,
 											["骷髅残骸 <亡语者>"] = 3473,
 										},
@@ -3816,9 +6330,9 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 77,
 										["targets"] = {
-											["亡语者"] = 524,
 											["骷髅残骸 <亡语者>"] = 58,
 											["渊誓哨兵"] = 629,
+											["亡语者"] = 524,
 											["熔炉守护者"] = 100,
 											["刻符巨像"] = 1102,
 											["噬渊鼠"] = 341,
@@ -3906,67 +6420,6 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[321519] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 446,
-										["g_amt"] = 0,
-										["n_max"] = 112,
-										["targets"] = {
-											["亡语者"] = 1549,
-										},
-										["n_dmg"] = 1103,
-										["n_min"] = 99,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 1549,
-										["c_max"] = 223,
-										["id"] = 321519,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 223,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 10,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[319175] = {
-										["c_amt"] = 8,
-										["b_amt"] = 0,
-										["c_dmg"] = 31305,
-										["g_amt"] = 0,
-										["n_max"] = 5561,
-										["targets"] = {
-											["亡语者"] = 13483,
-											["噬渊鼠"] = 2219,
-											["渊誓哨兵"] = 23494,
-											["刻符巨像"] = 17661,
-											["灰烬护命匣"] = 4758,
-											["骷髅残骸 <亡语者>"] = 6222,
-										},
-										["n_dmg"] = 36532,
-										["n_min"] = 915,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 67837,
-										["c_max"] = 9333,
-										["id"] = 319175,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1642,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 12,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
 									[53] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -3996,6 +6449,67 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
+									[319175] = {
+										["c_amt"] = 8,
+										["b_amt"] = 0,
+										["c_dmg"] = 31305,
+										["g_amt"] = 0,
+										["n_max"] = 5561,
+										["targets"] = {
+											["刻符巨像"] = 17661,
+											["渊誓哨兵"] = 23494,
+											["亡语者"] = 13483,
+											["噬渊鼠"] = 2219,
+											["灰烬护命匣"] = 4758,
+											["骷髅残骸 <亡语者>"] = 6222,
+										},
+										["n_dmg"] = 36532,
+										["n_min"] = 915,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 67837,
+										["c_max"] = 9333,
+										["id"] = 319175,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 1642,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 12,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[321519] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 446,
+										["g_amt"] = 0,
+										["n_max"] = 112,
+										["targets"] = {
+											["亡语者"] = 1549,
+										},
+										["n_dmg"] = 1103,
+										["n_min"] = 99,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 1549,
+										["c_max"] = 223,
+										["id"] = 321519,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 223,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 10,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
 									[279043] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -4003,10 +6517,10 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 6997,
 										["targets"] = {
-											["刻符巨像"] = 14924,
-											["灰烬护命匣"] = 5418,
-											["噬渊鼠"] = 927,
 											["亡语者"] = 7228,
+											["灰烬护命匣"] = 5418,
+											["刻符巨像"] = 14924,
+											["噬渊鼠"] = 927,
 											["渊誓哨兵"] = 8306,
 											["骷髅残骸 <亡语者>"] = 1932,
 										},
@@ -4029,30 +6543,30 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[328082] = {
-										["c_amt"] = 1,
+									[333767] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 6430,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 4384,
+										["n_max"] = 16867,
 										["targets"] = {
-											["亡语者"] = 4384,
-											["刻符巨像"] = 10280,
-											["渊誓卫兵"] = 3237,
+											["亡语者"] = 16354,
+											["渊誓哨兵"] = 16463,
+											["刻符巨像"] = 16867,
 										},
-										["n_dmg"] = 11471,
-										["n_min"] = 3237,
+										["n_dmg"] = 49684,
+										["n_min"] = 16354,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 17901,
-										["c_max"] = 6430,
-										["id"] = 328082,
+										["counter"] = 3,
+										["total"] = 49684,
+										["c_max"] = 0,
+										["id"] = 333767,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
+										["spellschool"] = 4,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 6430,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
@@ -4089,30 +6603,30 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[333767] = {
-										["c_amt"] = 0,
+									[328082] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 6430,
 										["g_amt"] = 0,
-										["n_max"] = 16867,
+										["n_max"] = 4384,
 										["targets"] = {
-											["亡语者"] = 16354,
-											["渊誓哨兵"] = 16463,
-											["刻符巨像"] = 16867,
+											["亡语者"] = 4384,
+											["刻符巨像"] = 10280,
+											["渊誓卫兵"] = 3237,
 										},
-										["n_dmg"] = 49684,
-										["n_min"] = 16354,
+										["n_dmg"] = 11471,
+										["n_min"] = 3237,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 49684,
-										["c_max"] = 0,
-										["id"] = 333767,
+										["counter"] = 4,
+										["total"] = 17901,
+										["c_max"] = 6430,
+										["id"] = 328082,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
+										["spellschool"] = 32,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 6430,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
@@ -4120,44 +6634,45 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 9805.438451092508,
-							["custom"] = 0,
+							["total"] = 363140.005993,
 							["last_event"] = 1621260913,
-							["damage_taken"] = 46904.005993,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 9805.438451092508,
 							["start_time"] = 1621260857,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["spec"] = 261,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.005527,
-							["aID"] = "157583",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 16652,
 							},
-							["end_time"] = 1621260893,
+							["serial"] = "Creature-0-3932-2162-20804-157583-0000A27A1B",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "157583",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 16652.005527,
-							["monster"] = true,
+							["damage_taken"] = 4452.005527,
 							["dps_started"] = false,
-							["total"] = 16652.005527,
+							["end_time"] = 1621260893,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260892,
 							["nome"] = "熔炉守护者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[270246] = {
 										["c_amt"] = 0,
@@ -4213,44 +6728,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-157583-0000A27A1B",
-							["last_dps"] = 0,
+							["total"] = 16652.005527,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260892,
-							["damage_taken"] = 4452.005527,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260867,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 2026.001654,
-							["aID"] = "155828",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 9934,
 							},
-							["end_time"] = 1621260893,
+							["serial"] = "Creature-0-3932-2162-20804-155828-0000227A1B",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "155828",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9934.001654,
-							["monster"] = true,
+							["damage_taken"] = 109547.001654,
 							["dps_started"] = false,
-							["total"] = 9934.001654,
+							["end_time"] = 1621260893,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260888,
 							["nome"] = "刻符巨像",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -4336,45 +6851,45 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-155828-0000227A1B",
-							["last_dps"] = 0,
+							["total"] = 9934.001654,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260888,
-							["damage_taken"] = 109547.001654,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260867,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.00449,
-							["aID"] = "155908",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 8608,
 							},
-							["end_time"] = 1621260893,
+							["serial"] = "Creature-0-3932-2162-20804-155908-0000227A1B",
 							["pets"] = {
 								"骷髅残骸 <亡语者>", -- [1]
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "155908",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8608.00449,
-							["monster"] = true,
+							["damage_taken"] = 87132.00448999999,
 							["dps_started"] = false,
-							["total"] = 8608.00449,
+							["end_time"] = 1621260893,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260883,
 							["nome"] = "亡语者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -4485,44 +7000,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-155908-0000227A1B",
-							["last_dps"] = 0,
+							["total"] = 8608.00449,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260883,
-							["damage_taken"] = 87132.00448999999,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260878,
 							["delay"] = 1621260883,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.002409,
-							["aID"] = "153874",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 5698,
 							},
-							["end_time"] = 1621260893,
+							["serial"] = "Creature-0-3932-2162-20804-153874-0000A27A1B",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "153874",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5698.002409,
-							["monster"] = true,
+							["damage_taken"] = 68376.00240900001,
 							["dps_started"] = false,
-							["total"] = 5698.002409,
+							["end_time"] = 1621260893,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260877,
 							["nome"] = "渊誓哨兵",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -4582,44 +7097,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-153874-0000A27A1B",
-							["last_dps"] = 0,
+							["total"] = 5698.002409,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260877,
-							["damage_taken"] = 68376.00240900001,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260883,
 							["delay"] = 1621260877,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [5]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 2780.001871,
-							["aID"] = "150958",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 2780,
 							},
-							["end_time"] = 1621260893,
+							["serial"] = "Creature-0-3932-2162-20804-150958-0000227A1B",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "150958",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2780.001871,
-							["monster"] = true,
+							["damage_taken"] = 34597.001871,
 							["dps_started"] = false,
-							["total"] = 2780.001871,
+							["end_time"] = 1621260893,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260860,
 							["nome"] = "渊誓卫兵",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -4676,44 +7191,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-150958-0000227A1B",
-							["last_dps"] = 0,
+							["total"] = 2780.001871,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260860,
-							["damage_taken"] = 34597.001871,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260890,
 							["delay"] = 1621260860,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [6]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.008043,
-							["aID"] = "151353",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 890,
 							},
-							["end_time"] = 1621260893,
+							["serial"] = "Creature-0-3932-2162-20804-151353-0000227A1B",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "151353",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 890.008043,
-							["monster"] = true,
+							["damage_taken"] = 14724.008043,
 							["dps_started"] = false,
-							["total"] = 890.008043,
+							["end_time"] = 1621260893,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260870,
 							["nome"] = "噬渊鼠",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -4745,44 +7260,43 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-151353-0000227A1B",
-							["last_dps"] = 0,
+							["total"] = 890.008043,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260870,
-							["damage_taken"] = 14724.008043,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260890,
 							["delay"] = 1621260870,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [7]
 						{
 							["flag_original"] = 8776,
 							["totalabsorbed"] = 0.002961,
-							["friendlyfire"] = {
-							},
-							["on_hold"] = false,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 							},
+							["serial"] = "Creature-0-3932-2162-20804-157340-0000227A4A",
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["end_time"] = 1621260893,
-							["classe"] = "PET",
+							["total"] = 0.002961,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002961,
-							["serial"] = "Creature-0-3932-2162-20804-157340-0000227A4A",
+							["fight_component"] = true,
 							["dps_started"] = false,
-							["total"] = 0.002961,
+							["end_time"] = 1621260893,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "亡语者",
 							["nome"] = "骷髅残骸 <亡语者>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -4814,16 +7328,17 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260875,
 							["aID"] = "157340",
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260875,
+							["tipo"] = 1,
 							["damage_taken"] = 11685.002961,
 							["start_time"] = 1621260893,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["classe"] = "PET",
 						}, -- [8]
 						{
 							["flag_original"] = 2600,
@@ -4835,39 +7350,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["aID"] = "164698",
 							["classe"] = "UNKNOW",
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002703,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Creature-0-3932-2162-20804-164698-0005A27A1B",
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["total"] = 0.002703,
 							["end_time"] = 1621260893,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["nome"] = "灰烬护命匣",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["serial"] = "Creature-0-3932-2162-20804-164698-0005A27A1B",
+							["last_event"] = 0,
+							["dps_started"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 22522.002703,
 							["start_time"] = 1621260893,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["aID"] = "164698",
 						}, -- [9]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 203,
 					["tipo"] = 3,
+					["combatId"] = 203,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -4897,13 +7412,12 @@ _detalhes_database = {
 							["healing_taken"] = 31596.004758,
 							["fight_component"] = true,
 							["end_time"] = 1621260893,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[341530] = {
 										["c_amt"] = 0,
@@ -4923,11 +7437,11 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Reneebaby"] = 5163,
 										},
-										["n_amt"] = 4,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 5163,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 4,
+										["n_curado"] = 5163,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -4950,28 +7464,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 26433,
 										["totaldenied"] = 0,
 										["n_amt"] = 13,
+										["n_curado"] = 26433,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621260872,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621260893,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.004758,
 							["delay"] = 1621260871,
-							["last_event"] = 1621260893,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 203,
 					["tipo"] = 7,
+					["combatId"] = 203,
 					["_ActorTable"] = {
 						{
 							["received"] = 500.004739,
@@ -4989,17 +7504,7 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
-									[212283] = {
-										["total"] = 20,
-										["id"] = 212283,
-										["totalover"] = 20,
-										["targets"] = {
-											["Reneebaby"] = 20,
-										},
-										["counter"] = 1,
-									},
 									[98440] = {
 										["total"] = 336,
 										["id"] = 98440,
@@ -5008,15 +7513,6 @@ _detalhes_database = {
 											["Reneebaby"] = 336,
 										},
 										["counter"] = 12,
-									},
-									[196980] = {
-										["total"] = 80,
-										["id"] = 196980,
-										["totalover"] = 1,
-										["targets"] = {
-											["Reneebaby"] = 80,
-										},
-										["counter"] = 24,
 									},
 									[196911] = {
 										["total"] = 64,
@@ -5027,80 +7523,98 @@ _detalhes_database = {
 										},
 										["counter"] = 8,
 									},
+									[196980] = {
+										["total"] = 80,
+										["id"] = 196980,
+										["totalover"] = 1,
+										["targets"] = {
+											["Reneebaby"] = 80,
+										},
+										["counter"] = 24,
+									},
+									[212283] = {
+										["total"] = 20,
+										["id"] = 212283,
+										["totalover"] = 20,
+										["targets"] = {
+											["Reneebaby"] = 20,
+										},
+										["counter"] = 1,
+									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.004739,
+							["tipo"] = 3,
 							["last_event"] = 1621260913,
 							["aID"] = "729-052440E9",
-							["tipo"] = 3,
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 21.004739,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 203,
 					["tipo"] = 9,
+					["combatId"] = 203,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 7,
-										["appliedamt"] = 2,
+										["id"] = 137619,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
+										["appliedamt"] = 9,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 30,
-										["appliedamt"] = 9,
+										["id"] = 8680,
 										["refreshamt"] = 10,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[324260] = {
-										["activedamt"] = 0,
-										["id"] = 324260,
+									[255909] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 255909,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[255909] = {
-										["activedamt"] = 0,
-										["id"] = 255909,
+									[321519] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 13,
+										["id"] = 321519,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[348267] = {
-										["activedamt"] = 0,
-										["id"] = 348267,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 3,
-										["appliedamt"] = 3,
+										["id"] = 348267,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -5118,86 +7632,78 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[316220] = {
-										["activedamt"] = 0,
-										["id"] = 316220,
+										["appliedamt"] = 11,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 23,
-										["appliedamt"] = 11,
+										["id"] = 316220,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[321519] = {
-										["activedamt"] = 0,
-										["id"] = 321519,
+									[333504] = {
+										["appliedamt"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 13,
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 3,
+										["id"] = 333504,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1833] = {
-										["activedamt"] = 0,
-										["id"] = 1833,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 1833,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[333767] = {
-										["activedamt"] = 0,
-										["id"] = 333767,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 3,
-										["appliedamt"] = 3,
+										["id"] = 333767,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5760] = {
-										["activedamt"] = 0,
-										["id"] = 5760,
+										["appliedamt"] = 11,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 31,
-										["appliedamt"] = 11,
+										["id"] = 5760,
 										["refreshamt"] = 41,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[333504] = {
-										["activedamt"] = 0,
-										["id"] = 333504,
+									[324260] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 3,
-										["appliedamt"] = 8,
+										["id"] = 324260,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
-							},
-							["aID"] = "729-052440E9",
-							["cooldowns_defensive_spells"] = {
 								["tipo"] = 9,
-								["_ActorTable"] = {
-									[1856] = {
-										["id"] = 1856,
-										["targets"] = {
-											["Reneebaby"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
 							},
+							["interrupt_targets"] = {
+								["亡语者"] = 1,
+							},
+							["last_event"] = 1621260893,
 							["cooldowns_defensive"] = 1.007467,
 							["buff_uptime"] = 445,
 							["last_cooldown"] = {
@@ -5205,7 +7711,6 @@ _detalhes_database = {
 								1856, -- [2]
 							},
 							["cc_done_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[1833] = {
 										["id"] = 1833,
@@ -5215,10 +7720,10 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
-							},
-							["classe"] = "ROGUE",
-							["interrupt_spells"] = {
 								["tipo"] = 9,
+							},
+							["aID"] = "729-052440E9",
+							["interrupt_spells"] = {
 								["_ActorTable"] = {
 									[1766] = {
 										["id"] = 1766,
@@ -5231,334 +7736,336 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[196980] = {
-										["activedamt"] = 3,
-										["id"] = 196980,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 3,
 										["uptime"] = 7,
-										["appliedamt"] = 3,
+										["id"] = 196980,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[345228] = {
-										["activedamt"] = 1,
-										["id"] = 345228,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 345228,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 36,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 36,
-										["appliedamt"] = 1,
+										["id"] = 347600,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[121471] = {
-										["activedamt"] = 1,
-										["id"] = 121471,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 20,
-										["appliedamt"] = 1,
+										["id"] = 121471,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[212283] = {
-										["activedamt"] = 1,
-										["id"] = 212283,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 212283,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 36,
-										["appliedamt"] = 1,
+										["id"] = 8679,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[185422] = {
-										["activedamt"] = 2,
-										["id"] = 185422,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 18,
-										["appliedamt"] = 2,
+										["id"] = 185422,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[11327] = {
-										["activedamt"] = 1,
-										["id"] = 11327,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[343782] = {
-										["activedamt"] = 1,
-										["id"] = 343782,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 115192,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[336126] = {
-										["activedamt"] = 1,
-										["id"] = 336126,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[1966] = {
-										["activedamt"] = 1,
-										["id"] = 1966,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
-										["targets"] = {
-										},
-										["uptime"] = 29,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340094] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
 										["activedamt"] = 2,
+										["uptime"] = 4,
 										["id"] = 340094,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5277] = {
-										["activedamt"] = 1,
-										["id"] = 5277,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[333507] = {
-										["activedamt"] = 10,
-										["id"] = 333507,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 10,
-										["refreshamt"] = 26,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[36554] = {
-										["activedamt"] = 2,
-										["id"] = 36554,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315496] = {
-										["activedamt"] = 2,
-										["id"] = 315496,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[227151] = {
-										["activedamt"] = 1,
-										["id"] = 227151,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
-										["targets"] = {
-										},
-										["uptime"] = 36,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
-										["targets"] = {
-										},
-										["uptime"] = 36,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
-										["targets"] = {
-										},
-										["uptime"] = 34,
-										["appliedamt"] = 1,
-										["refreshamt"] = 11,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[343173] = {
-										["activedamt"] = 3,
-										["id"] = 343173,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 3,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 36,
+										["id"] = 324717,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[11327] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 11327,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5277] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 5277,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[342814] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 29,
+										["id"] = 342814,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[336126] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 336126,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[333507] = {
+										["appliedamt"] = 10,
+										["targets"] = {
+										},
+										["activedamt"] = 10,
+										["uptime"] = 12,
+										["id"] = 333507,
+										["refreshamt"] = 26,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[303003] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 36,
+										["id"] = 303003,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[36554] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 4,
+										["id"] = 36554,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[315496] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 16,
+										["id"] = 315496,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227151] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 227151,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5761] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 36,
+										["id"] = 5761,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[1966] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 1966,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[341550] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 34,
+										["id"] = 341550,
+										["refreshamt"] = 11,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[343173] = {
+										["appliedamt"] = 3,
+										["targets"] = {
+										},
+										["activedamt"] = 3,
+										["uptime"] = 4,
+										["id"] = 343173,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[341530] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 10,
+										["id"] = 341530,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[343782] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 343782,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["interrupt"] = 1.003796,
+							["buff_uptime_targets"] = {
+							},
 							["interrompeu_oque"] = {
 								[294362] = 1,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 126,
-							["cooldowns_defensive_targets"] = {
-								["Reneebaby"] = 1,
+							["cooldowns_defensive_spells"] = {
+								["_ActorTable"] = {
+									[1856] = {
+										["id"] = 1856,
+										["targets"] = {
+											["Reneebaby"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
 							},
 							["cc_done"] = 1.00385,
 							["debuff_uptime_targets"] = {
 							},
-							["interrupt_targets"] = {
-								["亡语者"] = 1,
-							},
+							["spec"] = 261,
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["cc_done_targets"] = {
-								["刻符巨像"] = 1,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 261,
-							["last_event"] = 1621260893,
 							["spell_cast"] = {
 								[345228] = 1,
 								[1856] = 1,
@@ -5578,45 +8085,54 @@ _detalhes_database = {
 								[1833] = 1,
 								[212283] = 1,
 							},
+							["classe"] = "ROGUE",
+							["cooldowns_defensive_targets"] = {
+								["Reneebaby"] = 1,
+							},
 							["tipo"] = 4,
-							["serial"] = "Player-729-052440E9",
+							["interrupt"] = 1.003796,
 							["nome"] = "Reneebaby",
+							["serial"] = "Player-729-052440E9",
+							["cc_done_targets"] = {
+								["刻符巨像"] = 1,
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "渊誓卫兵",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[292903] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-150958-0000227A1B",
 							["aID"] = "150958",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "熔炉守护者",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[270246] = 6,
 								[330347] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-157583-0000A27A1B",
 							["aID"] = "157583",
 						}, -- [3]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "亡语者",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
@@ -5624,53 +8140,52 @@ _detalhes_database = {
 								[294362] = 2,
 								[304093] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-155908-0000227A1B",
 							["aID"] = "155908",
 						}, -- [4]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "渊誓哨兵",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[298831] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-153874-0000227A1B",
 							["aID"] = "153874",
 						}, -- [5]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "刻符巨像",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[329609] = 1,
 								[329608] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-155828-0000227A1B",
 							["aID"] = "155828",
 						}, -- [6]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 203,
 					["tipo"] = 2,
+					["combatId"] = 203,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -5681,12 +8196,14 @@ _detalhes_database = {
 					"Reneebaby", -- [1]
 				},
 				["CombatStartedAt"] = 179938.056,
-				["overall_added"] = true,
+				["tempo_start"] = 1621260857,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 902,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["totals"] = {
 					407701.991572, -- [1]
 					31596, -- [2]
@@ -5700,54 +8217,16 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 1,
-						["interrupt"] = 1,
 						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					363140, -- [1]
-					31596, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 500,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 1,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "scenario",
-				["data_fim"] = "22:14:53",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "噬渊鼠",
-				["TotalElapsedCombatTime"] = 179917.108,
-				["CombatEndedAt"] = 179917.108,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "22:14:17",
-				["end_time"] = 179917.894,
-				["combat_id"] = 203,
-				["resincked"] = true,
-				["tempo_start"] = 1621260857,
 				["player_last_events"] = {
 					["Reneebaby"] = {
 						{
@@ -5827,22 +8306,26 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["frags"] = {
-					["刻符巨像"] = 1,
-					["亡语者"] = 1,
-					["骷髅残骸"] = 1,
-					["噬渊鼠"] = 3,
-					["渊誓哨兵"] = 3,
-					["渊誓卫兵"] = 1,
+				["frags_need_refresh"] = true,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "22:14:53",
+				["cleu_timeline"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["enemy"] = "噬渊鼠",
+				["TotalElapsedCombatTime"] = 179917.108,
+				["CombatEndedAt"] = 179917.108,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
 				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -5850,27 +8333,60 @@ _detalhes_database = {
 							["Reneebaby"] = 31596.004758,
 						}, -- [1]
 					},
-					["damage_section"] = {
-					},
 					["damage"] = {
 						{
 							["Reneebaby"] = 356684.009582,
 						}, -- [1]
 					},
 				},
-				["CombatSkillCache"] = {
-				},
+				["end_time"] = 179917.894,
+				["combat_id"] = 203,
+				["resincked"] = true,
 				["spells_cast_timeline"] = {
 				},
-				["start_time"] = 179881.89,
 				["contra"] = "噬渊鼠",
+				["frags"] = {
+					["噬渊鼠"] = 3,
+					["刻符巨像"] = 1,
+					["骷髅残骸"] = 1,
+					["亡语者"] = 1,
+					["渊誓哨兵"] = 3,
+					["渊誓卫兵"] = 1,
+				},
+				["combat_counter"] = 902,
+				["data_inicio"] = "22:14:17",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					363140, -- [1]
+					31596, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 500,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 1,
+						["dispell"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 179881.89,
 				["TimeData"] = {
 				},
-			}, -- [4]
+				["overall_added"] = true,
+			}, -- [8]
 			{
 				{
-					["combatId"] = 202,
 					["tipo"] = 2,
+					["combatId"] = 202,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -5886,22 +8402,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 166693.004843,
-							["on_hold"] = false,
 							["aID"] = "729-052440E9",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 166693.004843,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1621260839,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 6,
@@ -5933,34 +8435,6 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									}, -- [1]
-									[328082] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 21211,
-										["g_amt"] = 0,
-										["n_max"] = 4349,
-										["targets"] = {
-											["强化的焰炉大师"] = 25560,
-										},
-										["n_dmg"] = 4349,
-										["n_min"] = 4349,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 25560,
-										["c_max"] = 8788,
-										["id"] = 328082,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 5391,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
 									[328305] = {
 										["c_amt"] = 6,
 										["b_amt"] = 0,
@@ -5989,34 +8463,6 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[53] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 4256,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["强化的焰炉大师"] = 4256,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 4256,
-										["c_max"] = 4256,
-										["id"] = 53,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 4256,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
 									[8680] = {
 										["c_amt"] = 2,
 										["b_amt"] = 0,
@@ -6042,6 +8488,62 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[279043] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3923,
+										["targets"] = {
+											["强化的焰炉大师"] = 15927,
+										},
+										["n_dmg"] = 15927,
+										["n_min"] = 611,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 15927,
+										["c_max"] = 0,
+										["id"] = 279043,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 10,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[328082] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 21211,
+										["g_amt"] = 0,
+										["n_max"] = 4349,
+										["targets"] = {
+											["强化的焰炉大师"] = 25560,
+										},
+										["n_dmg"] = 4349,
+										["n_min"] = 4349,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 25560,
+										["c_max"] = 8788,
+										["id"] = 328082,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 5391,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
@@ -6102,51 +8604,64 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[279043] = {
-										["c_amt"] = 0,
+									[53] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 4256,
 										["g_amt"] = 0,
-										["n_max"] = 3923,
+										["n_max"] = 0,
 										["targets"] = {
-											["强化的焰炉大师"] = 15927,
+											["强化的焰炉大师"] = 4256,
 										},
-										["n_dmg"] = 15927,
-										["n_min"] = 611,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 15927,
-										["c_max"] = 0,
-										["id"] = 279043,
+										["counter"] = 1,
+										["total"] = 4256,
+										["c_max"] = 4256,
+										["id"] = 53,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 4256,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 10,
+										["n_amt"] = 0,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 261,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 166693.004843,
+							["on_hold"] = false,
 							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 20815.80979557518,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 166693.004843,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["end_time"] = 1621260839,
 							["tipo"] = 1,
-							["damage_taken"] = 10163.004843,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1621260839,
+							["last_dps"] = 20815.80979557518,
 							["start_time"] = 1621260808,
 							["delay"] = 0,
-							["last_event"] = 1621260839,
+							["damage_taken"] = 10163.004843,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.006708,
-							["total"] = 6235.006708,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 								["吟树者因德里"] = true,
@@ -6154,23 +8669,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Reneebaby"] = 6235,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-168104-0000227807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "168104",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6235.006708,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 158332.006708,
+							["monster"] = true,
 							["end_time"] = 1621260816,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260815,
 							["nome"] = "强化的焰炉大师",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[347404] = {
 										["c_amt"] = 0,
@@ -6229,22 +8743,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "168104",
-							["serial"] = "Creature-0-3932-2162-20804-168104-0000227807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260815,
-							["damage_taken"] = 158332.006708,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260808,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 6235.006708,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 202,
 					["tipo"] = 3,
+					["combatId"] = 202,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -6274,13 +8790,12 @@ _detalhes_database = {
 							["healing_taken"] = 21438.008512,
 							["fight_component"] = true,
 							["end_time"] = 1621260816,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[158188] = {
 										["c_amt"] = 0,
@@ -6301,9 +8816,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 15832,
 										["totaldenied"] = 0,
 										["n_amt"] = 7,
+										["n_curado"] = 15832,
 										["absorbed"] = 0,
 									},
 									[341530] = {
@@ -6324,31 +8839,32 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Reneebaby"] = 5606,
 										},
-										["n_amt"] = 2,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 5606,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 5606,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621260808,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621260816,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.008512,
 							["delay"] = 0,
-							["last_event"] = 1621260816,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 202,
 					["tipo"] = 7,
+					["combatId"] = 202,
 					["_ActorTable"] = {
 						{
 							["received"] = 194.00538,
@@ -6366,17 +8882,7 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
-									[196911] = {
-										["total"] = 9,
-										["id"] = 196911,
-										["totalover"] = 7,
-										["targets"] = {
-											["Reneebaby"] = 9,
-										},
-										["counter"] = 2,
-									},
 									[98440] = {
 										["total"] = 114,
 										["id"] = 98440,
@@ -6385,15 +8891,6 @@ _detalhes_database = {
 											["Reneebaby"] = 114,
 										},
 										["counter"] = 4,
-									},
-									[212283] = {
-										["total"] = 33,
-										["id"] = 212283,
-										["totalover"] = 7,
-										["targets"] = {
-											["Reneebaby"] = 33,
-										},
-										["counter"] = 1,
 									},
 									[196980] = {
 										["total"] = 38,
@@ -6404,36 +8901,54 @@ _detalhes_database = {
 										},
 										["counter"] = 12,
 									},
+									[212283] = {
+										["total"] = 33,
+										["id"] = 212283,
+										["totalover"] = 7,
+										["targets"] = {
+											["Reneebaby"] = 33,
+										},
+										["counter"] = 1,
+									},
+									[196911] = {
+										["total"] = 9,
+										["id"] = 196911,
+										["totalover"] = 7,
+										["targets"] = {
+											["Reneebaby"] = 9,
+										},
+										["counter"] = 2,
+									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.00538,
+							["tipo"] = 3,
 							["last_event"] = 1621260857,
 							["aID"] = "729-052440E9",
-							["tipo"] = 3,
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 15.00538,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 202,
 					["tipo"] = 9,
+					["combatId"] = 202,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[333504] = {
-										["activedamt"] = 0,
-										["id"] = 333504,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 333504,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -6451,310 +8966,311 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[5760] = {
-										["activedamt"] = -1,
-										["id"] = 5760,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
+										["activedamt"] = -1,
 										["uptime"] = 8,
-										["appliedamt"] = 0,
+										["id"] = 5760,
 										["refreshamt"] = 12,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 7,
-										["appliedamt"] = 1,
+										["id"] = 8680,
 										["refreshamt"] = 2,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 137619,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324260] = {
-										["activedamt"] = 0,
-										["id"] = 324260,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 324260,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[316220] = {
-										["activedamt"] = -1,
-										["id"] = 316220,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
+										["activedamt"] = -1,
 										["uptime"] = 5,
-										["appliedamt"] = 0,
+										["id"] = 316220,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 117,
 							["aID"] = "729-052440E9",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[196980] = {
-										["activedamt"] = 2,
-										["id"] = 196980,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 3,
-										["appliedamt"] = 2,
+										["id"] = 196980,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[345228] = {
-										["activedamt"] = 1,
-										["id"] = 345228,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 345228,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 347600,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[121471] = {
-										["activedamt"] = 1,
-										["id"] = 121471,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 121471,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[212283] = {
-										["activedamt"] = 1,
-										["id"] = 212283,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 212283,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 8679,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[185422] = {
-										["activedamt"] = 1,
-										["id"] = 185422,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 185422,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 115192,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 324717,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 342814,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 340094,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 5761,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[36554] = {
-										["activedamt"] = 1,
-										["id"] = 36554,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[227151] = {
-										["activedamt"] = 1,
-										["id"] = 227151,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 36554,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[343173] = {
-										["activedamt"] = 1,
-										["id"] = 343173,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
+										["id"] = 343173,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227151] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 227151,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[31224] = {
-										["activedamt"] = 1,
-										["id"] = 31224,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 31224,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 303003,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 341530,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[333507] = {
-										["activedamt"] = 3,
-										["id"] = 333507,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 3,
 										["uptime"] = 5,
-										["appliedamt"] = 3,
+										["id"] = 333507,
 										["refreshamt"] = 5,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 341550,
 										["refreshamt"] = 3,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 26,
@@ -6763,46 +9279,46 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spell_cast"] = {
 								[185313] = 1,
-								[36554] = 1,
-								[324260] = 1,
-								[53] = 1,
 								[137619] = 1,
-								[196819] = 4,
 								[212283] = 1,
+								[53] = 1,
+								[36554] = 1,
+								[196819] = 4,
 								[185438] = 2,
+								[324260] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1621260816,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "ROGUE",
 							["serial"] = "Player-729-052440E9",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "强化的焰炉大师",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[270246] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-168104-0000227807",
 							["aID"] = "168104",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 202,
 					["tipo"] = 2,
+					["combatId"] = 202,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -6834,10 +9350,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -6857,16 +9373,17 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "scenario",
+				["hasSaved"] = true,
 				["data_fim"] = "22:13:36",
 				["cleu_timeline"] = {
 				},
@@ -6877,29 +9394,20 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 21931.011837,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 171203.010917,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "22:13:28",
 				["end_time"] = 179840.665,
 				["combat_id"] = 202,
 				["resincked"] = true,
+				["frags"] = {
+					["强化的焰炉大师"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 900,
+				["TimeData"] = {
+				},
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["Reneebaby"] = {
 						{
@@ -6999,24 +9507,33 @@ _detalhes_database = {
 						["n"] = 4,
 					},
 				},
-				["spells_cast_timeline"] = {
-				},
-				["combat_counter"] = 900,
-				["data_inicio"] = "22:13:28",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["强化的焰炉大师"] = 1,
-				},
 				["start_time"] = 179832.657,
-				["TimeData"] = {
-				},
 				["contra"] = "强化的焰炉大师",
-			}, -- [5]
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Reneebaby"] = 21931.011837,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Reneebaby"] = 171203.010917,
+						}, -- [1]
+					},
+				},
+			}, -- [9]
 			{
 				{
-					["combatId"] = 201,
 					["tipo"] = 2,
+					["combatId"] = 201,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -7035,22 +9552,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 111775.001148,
-							["on_hold"] = false,
 							["aID"] = "729-052440E9",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 111775.001148,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1621260808,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 6,
@@ -7114,31 +9617,33 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[185438] = {
-										["c_amt"] = 1,
+									[197835] = {
+										["c_amt"] = 7,
 										["b_amt"] = 0,
-										["c_dmg"] = 10177,
+										["c_dmg"] = 15409,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 1269,
 										["targets"] = {
-											["强化的焰炉大师"] = 10177,
+											["渊誓禁锢者"] = 6448,
+											["焰炉大师"] = 4604,
+											["渊誓护火者"] = 14757,
 										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 10400,
+										["n_min"] = 1090,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 10177,
-										["c_max"] = 10177,
-										["id"] = 185438,
+										["counter"] = 16,
+										["total"] = 25809,
+										["c_max"] = 2338,
+										["id"] = 197835,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 10177,
+										["c_min"] = 1989,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 0,
+										["n_amt"] = 9,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
@@ -7202,65 +9707,6 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[328082] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2514,
-										["g_amt"] = 0,
-										["n_max"] = 1306,
-										["targets"] = {
-											["渊誓禁锢者"] = 1306,
-											["渊誓护火者"] = 2514,
-										},
-										["n_dmg"] = 1306,
-										["n_min"] = 1306,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 3820,
-										["c_max"] = 2514,
-										["id"] = 328082,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 2514,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[197835] = {
-										["c_amt"] = 7,
-										["b_amt"] = 0,
-										["c_dmg"] = 15409,
-										["g_amt"] = 0,
-										["n_max"] = 1269,
-										["targets"] = {
-											["渊誓禁锢者"] = 6448,
-											["焰炉大师"] = 4604,
-											["渊誓护火者"] = 14757,
-										},
-										["n_dmg"] = 10400,
-										["n_min"] = 1090,
-										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 25809,
-										["c_max"] = 2338,
-										["id"] = 197835,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1989,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 9,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
 									[196819] = {
 										["c_amt"] = 2,
 										["b_amt"] = 0,
@@ -7290,23 +9736,93 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
+									[185438] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 10177,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["强化的焰炉大师"] = 10177,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 10177,
+										["c_max"] = 10177,
+										["id"] = 185438,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 10177,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[328082] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2514,
+										["g_amt"] = 0,
+										["n_max"] = 1306,
+										["targets"] = {
+											["渊誓禁锢者"] = 1306,
+											["渊誓护火者"] = 2514,
+										},
+										["n_dmg"] = 1306,
+										["n_min"] = 1306,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3820,
+										["c_max"] = 2514,
+										["id"] = 328082,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 2514,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 261,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 111775.001148,
+							["on_hold"] = false,
 							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 10155.82420023314,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 111775.001148,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["end_time"] = 1621260808,
 							["tipo"] = 1,
-							["damage_taken"] = 36645.001148,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1621260808,
+							["last_dps"] = 10155.82420023314,
 							["start_time"] = 1621260781,
 							["delay"] = 0,
-							["last_event"] = 1621260808,
+							["damage_taken"] = 36645.001148,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.005524,
-							["total"] = 17469.005524,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 								["吟树者因德里"] = true,
@@ -7314,23 +9830,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Reneebaby"] = 17469,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-157571-0001A27807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "157571",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 17469.005524,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 58105.005524,
+							["monster"] = true,
 							["end_time"] = 1621260792,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260790,
 							["nome"] = "渊誓护火者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[347404] = {
 										["c_amt"] = 0,
@@ -7388,16 +9903,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "157571",
-							["serial"] = "Creature-0-3932-2162-20804-157571-0001A27807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260790,
-							["damage_taken"] = 58105.005524,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260784,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 17469.005524,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -7409,21 +9926,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["serial"] = "",
-							["monster"] = true,
-							["aID"] = "",
+							["dps_started"] = false,
+							["total"] = 12865.002929,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 12865.002929,
 							["spellicon"] = 236215,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 12865.002929,
-							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["monster"] = true,
+							["end_time"] = 1621260808,
+							["serial"] = "",
 							["friendlyfire_total"] = 0,
 							["nome"] = "[*] 折磨：魂铸热能",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[326469] = {
 										["c_amt"] = 0,
@@ -7454,46 +9970,45 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["end_time"] = 1621260808,
 							["on_hold"] = false,
+							["fight_component"] = true,
+							["tipo"] = 1,
+							["aID"] = "",
+							["custom"] = 0,
+							["last_event"] = 1621260803,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.002929,
 							["start_time"] = 1621260793,
 							["delay"] = 1621260793,
-							["last_event"] = 1621260803,
+							["damage_taken"] = 0.002929,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 1210.006598,
-							["total"] = 3248.006598,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 3248,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-150965-0000227807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "150965",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3248.006598,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 24648.006598,
+							["monster"] = true,
 							["end_time"] = 1621260792,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260789,
 							["nome"] = "渊誓禁锢者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -7552,21 +10067,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "150965",
-							["serial"] = "Creature-0-3932-2162-20804-150965-0000227807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260789,
-							["damage_taken"] = 24648.006598,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260783,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 3248.006598,
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 561.008517,
-							["total"] = 3063.008517,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 								["吟树者因德里"] = true,
@@ -7574,23 +10090,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Reneebaby"] = 3063,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-157584-0000A27807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "157584",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3063.008517,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 19795.008517,
+							["monster"] = true,
 							["end_time"] = 1621260792,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260786,
 							["nome"] = "焰炉大师",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[347404] = {
 										["c_amt"] = 0,
@@ -7647,22 +10162,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "157584",
-							["serial"] = "Creature-0-3932-2162-20804-157584-0000A27807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260786,
-							["damage_taken"] = 19795.008517,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260782,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 3063.008517,
 						}, -- [5]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 201,
 					["tipo"] = 3,
+					["combatId"] = 201,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -7692,13 +10209,12 @@ _detalhes_database = {
 							["healing_taken"] = 3184.001359,
 							["fight_component"] = true,
 							["end_time"] = 1621260792,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[341530] = {
 										["c_amt"] = 0,
@@ -7718,31 +10234,32 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Reneebaby"] = 3184,
 										},
-										["n_amt"] = 3,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3184,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 3184,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621260782,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621260783,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.001359,
 							["delay"] = 0,
-							["last_event"] = 1621260783,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 201,
 					["tipo"] = 7,
+					["combatId"] = 201,
 					["_ActorTable"] = {
 						{
 							["received"] = 169.003507,
@@ -7760,7 +10277,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[196911] = {
 										["total"] = 16,
@@ -7790,35 +10306,35 @@ _detalhes_database = {
 										["counter"] = 5,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.003507,
+							["tipo"] = 3,
 							["last_event"] = 1621260808,
 							["aID"] = "729-052440E9",
-							["tipo"] = 3,
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 1.003507,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 201,
 					["tipo"] = 9,
+					["combatId"] = 201,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[333504] = {
-										["activedamt"] = 0,
-										["id"] = 333504,
+										["appliedamt"] = 5,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 1,
-										["appliedamt"] = 5,
+										["id"] = 333504,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -7836,23 +10352,23 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
+										["appliedamt"] = 5,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 9,
-										["appliedamt"] = 5,
+										["id"] = 8680,
 										["refreshamt"] = 5,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324260] = {
-										["activedamt"] = 0,
-										["id"] = 324260,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 324260,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -7870,167 +10386,168 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 110,
 							["aID"] = "729-052440E9",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 5761,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 340094,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 303003,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 341550,
 										["refreshamt"] = 4,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[333507] = {
-										["activedamt"] = 5,
-										["id"] = 333507,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 5,
-										["refreshamt"] = 15,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									[36554] = {
-										["activedamt"] = 1,
-										["id"] = 36554,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 36554,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 324717,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+									[333507] = {
+										["appliedamt"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 9,
+										["activedamt"] = 5,
+										["uptime"] = 6,
+										["id"] = 333507,
+										["refreshamt"] = 15,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[315496] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 115192,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5277] = {
-										["activedamt"] = 1,
-										["id"] = 5277,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 5277,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 8679,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 347600,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 341530,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 29,
@@ -8039,78 +10556,78 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spell_cast"] = {
 								[319175] = 3,
-								[196819] = 1,
-								[36554] = 1,
 								[324260] = 1,
-								[197835] = 4,
 								[212743] = 4,
+								[196819] = 1,
+								[197835] = 4,
+								[36554] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1621260792,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "ROGUE",
 							["serial"] = "Player-729-052440E9",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "渊誓护火者",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[347404] = 2,
 								[275983] = 10,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-157571-0001A27807",
 							["aID"] = "157571",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "焰炉大师",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[347404] = 1,
 								[270246] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-157584-0000A27807",
 							["aID"] = "157584",
 						}, -- [3]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "渊誓禁锢者",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[292910] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-150965-0000227807",
 							["aID"] = "150965",
 						}, -- [4]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 201,
 					["tipo"] = 2,
+					["combatId"] = 201,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -8140,76 +10657,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					111775, -- [1]
-					3184, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 169,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "scenario",
-				["data_fim"] = "22:13:12",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "渊誓护火者",
-				["TotalElapsedCombatTime"] = 179815.911,
-				["CombatEndedAt"] = 179815.911,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 3184.001359,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 100797.001148,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 179816.784,
-				["combat_id"] = 201,
-				["overall_added"] = true,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Reneebaby"] = {
@@ -8300,31 +10756,93 @@ _detalhes_database = {
 						["n"] = 3,
 					},
 				},
-				["data_inicio"] = "22:13:01",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "22:13:12",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "渊誓护火者",
+				["TotalElapsedCombatTime"] = 179815.911,
+				["CombatEndedAt"] = 179815.911,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Reneebaby"] = 3184.001359,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Reneebaby"] = 100797.001148,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 179816.784,
+				["combat_id"] = 201,
+				["overall_added"] = true,
 				["frags"] = {
 					["渊誓禁锢者"] = 1,
 					["焰炉大师"] = 1,
 					["渊誓护火者"] = 3,
 				},
-				["start_time"] = 179805.778,
+				["spells_cast_timeline"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["TimeData"] = {
 				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					111775, -- [1]
+					3184, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 169,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 179805.778,
 				["contra"] = "渊誓护火者",
-			}, -- [6]
+				["data_inicio"] = "22:13:01",
+			}, -- [10]
 			{
 				{
-					["combatId"] = 200,
 					["tipo"] = 2,
+					["combatId"] = 200,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.001242,
 							["damage_from"] = {
+								["熔炉守护者"] = true,
 								["[*] 折磨：魂铸热能"] = true,
 								["焰炉执行者"] = true,
-								["熔炉守护者"] = true,
 								["渊誓卫兵"] = true,
 							},
 							["targets"] = {
@@ -8336,22 +10854,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 123187.001242,
-							["on_hold"] = false,
 							["aID"] = "729-052440E9",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 123187.001242,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1621260781,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 9,
@@ -8416,66 +10920,6 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[53] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1742,
-										["g_amt"] = 0,
-										["n_max"] = 2502,
-										["targets"] = {
-											["焰炉执行者"] = 5102,
-											["渊誓卫兵"] = 1954,
-										},
-										["n_dmg"] = 5314,
-										["n_min"] = 858,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 7056,
-										["c_max"] = 1742,
-										["id"] = 53,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1742,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[197835] = {
-										["c_amt"] = 8,
-										["b_amt"] = 0,
-										["c_dmg"] = 17490,
-										["g_amt"] = 0,
-										["n_max"] = 1253,
-										["targets"] = {
-											["渊誓召火者"] = 2154,
-											["焰炉执行者"] = 4356,
-											["渊誓卫兵"] = 10250,
-											["熔炉守护者"] = 4318,
-										},
-										["n_dmg"] = 3588,
-										["n_min"] = 1164,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 21078,
-										["c_max"] = 2414,
-										["id"] = 197835,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1991,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
 									[8680] = {
 										["c_amt"] = 10,
 										["b_amt"] = 0,
@@ -8503,6 +10947,66 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 7,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[197835] = {
+										["c_amt"] = 8,
+										["b_amt"] = 0,
+										["c_dmg"] = 17490,
+										["g_amt"] = 0,
+										["n_max"] = 1253,
+										["targets"] = {
+											["渊誓卫兵"] = 10250,
+											["渊誓召火者"] = 2154,
+											["焰炉执行者"] = 4356,
+											["熔炉守护者"] = 4318,
+										},
+										["n_dmg"] = 3588,
+										["n_min"] = 1164,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 21078,
+										["c_max"] = 2414,
+										["id"] = 197835,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 1991,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[53] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1742,
+										["g_amt"] = 0,
+										["n_max"] = 2502,
+										["targets"] = {
+											["焰炉执行者"] = 5102,
+											["渊誓卫兵"] = 1954,
+										},
+										["n_dmg"] = 5314,
+										["n_min"] = 858,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 7056,
+										["c_max"] = 1742,
+										["id"] = 53,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 1742,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
@@ -8535,32 +11039,32 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[328082] = {
-										["c_amt"] = 3,
+									[196819] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 9083,
+										["c_dmg"] = 2457,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 3162,
 										["targets"] = {
-											["焰炉执行者"] = 2850,
-											["渊誓卫兵"] = 6233,
+											["焰炉执行者"] = 1936,
+											["渊誓卫兵"] = 5619,
 										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 5098,
+										["n_min"] = 1936,
 										["g_dmg"] = 0,
 										["counter"] = 3,
-										["total"] = 9083,
-										["c_max"] = 4415,
-										["id"] = 328082,
+										["total"] = 7555,
+										["c_max"] = 2457,
+										["id"] = 196819,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 1818,
+										["c_min"] = 2457,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 0,
+										["n_amt"] = 2,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
@@ -8593,47 +11097,61 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[196819] = {
-										["c_amt"] = 1,
+									[328082] = {
+										["c_amt"] = 3,
 										["b_amt"] = 0,
-										["c_dmg"] = 2457,
+										["c_dmg"] = 9083,
 										["g_amt"] = 0,
-										["n_max"] = 3162,
+										["n_max"] = 0,
 										["targets"] = {
-											["焰炉执行者"] = 1936,
-											["渊誓卫兵"] = 5619,
+											["焰炉执行者"] = 2850,
+											["渊誓卫兵"] = 6233,
 										},
-										["n_dmg"] = 5098,
-										["n_min"] = 1936,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
 										["counter"] = 3,
-										["total"] = 7555,
-										["c_max"] = 2457,
-										["id"] = 196819,
+										["total"] = 9083,
+										["c_max"] = 4415,
+										["id"] = 328082,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
+										["spellschool"] = 32,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 2457,
+										["c_min"] = 1818,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 0,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 261,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 123187.001242,
+							["on_hold"] = false,
 							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 7244.589581398466,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 123187.001242,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["end_time"] = 1621260781,
 							["tipo"] = 1,
-							["damage_taken"] = 20832.001242,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1621260781,
+							["last_dps"] = 7244.589581398466,
 							["start_time"] = 1621260740,
 							["delay"] = 0,
-							["last_event"] = 1621260781,
+							["damage_taken"] = 20832.001242,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -8645,21 +11163,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["serial"] = "",
-							["monster"] = true,
-							["aID"] = "",
+							["dps_started"] = false,
+							["total"] = 12963.005008,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 12963.005008,
 							["spellicon"] = 236215,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 12963.005008,
-							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["monster"] = true,
+							["end_time"] = 1621260781,
+							["serial"] = "",
 							["friendlyfire_total"] = 0,
 							["nome"] = "[*] 折磨：魂铸热能",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[326469] = {
 										["c_amt"] = 0,
@@ -8690,23 +11207,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["end_time"] = 1621260781,
 							["on_hold"] = false,
+							["fight_component"] = true,
+							["tipo"] = 1,
+							["aID"] = "",
+							["custom"] = 0,
+							["last_event"] = 1621260773,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.005008,
 							["start_time"] = 1621260748,
 							["delay"] = 0,
-							["last_event"] = 1621260773,
+							["damage_taken"] = 0.005008,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.001675,
-							["total"] = 4109.001675,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 								["吟树者因德里"] = true,
@@ -8714,23 +11231,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Reneebaby"] = 4109,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-150958-0001227807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "150958",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4109.001675,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 57470.001675,
+							["monster"] = true,
 							["end_time"] = 1621260757,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260744,
 							["nome"] = "渊誓卫兵",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -8788,21 +11304,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "150958",
-							["serial"] = "Creature-0-3932-2162-20804-150958-0001227807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260744,
-							["damage_taken"] = 57470.001675,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260754,
 							["delay"] = 1621260744,
-							["tipo"] = 1,
+							["total"] = 4109.001675,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.00154,
-							["total"] = 3269.00154,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 								["吟树者因德里"] = true,
@@ -8810,23 +11327,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Reneebaby"] = 3269,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-157634-0003227807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "157634",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3269.00154,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 30175.00154,
+							["monster"] = true,
 							["end_time"] = 1621260757,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260755,
 							["nome"] = "焰炉执行者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -8938,21 +11454,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "157634",
-							["serial"] = "Creature-0-3932-2162-20804-157634-0003227807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260755,
-							["damage_taken"] = 30175.00154,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260755,
 							["delay"] = 1621260741,
-							["tipo"] = 1,
+							["total"] = 3269.00154,
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.001176,
-							["total"] = 1217.001176,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 								["吟树者因德里"] = true,
@@ -8960,23 +11477,22 @@ _detalhes_database = {
 							["targets"] = {
 								["吟树者因德里"] = 1217,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-157572-0003227807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "157572",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1217.001176,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 11007.001176,
+							["monster"] = true,
 							["end_time"] = 1621260757,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260743,
 							["nome"] = "渊誓召火者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[275983] = {
 										["c_amt"] = 0,
@@ -9006,44 +11522,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "157572",
-							["serial"] = "Creature-0-3932-2162-20804-157572-0003227807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260743,
-							["damage_taken"] = 11007.001176,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260756,
 							["delay"] = 1621260743,
-							["tipo"] = 1,
+							["total"] = 1217.001176,
 						}, -- [5]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.004778,
-							["total"] = 491.004778,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 491,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-157583-0004227807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "157583",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 491.004778,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 23137.004778,
+							["monster"] = true,
 							["end_time"] = 1621260757,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260742,
 							["nome"] = "熔炉守护者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[347404] = {
 										["c_amt"] = 0,
@@ -9073,22 +11589,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "157583",
-							["serial"] = "Creature-0-3932-2162-20804-157583-0004227807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260742,
-							["damage_taken"] = 23137.004778,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260756,
 							["delay"] = 1621260742,
-							["tipo"] = 1,
+							["total"] = 491.004778,
 						}, -- [6]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 200,
 					["tipo"] = 3,
+					["combatId"] = 200,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -9118,13 +11636,12 @@ _detalhes_database = {
 							["healing_taken"] = 2720.001385,
 							["fight_component"] = true,
 							["end_time"] = 1621260757,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[158188] = {
 										["c_amt"] = 0,
@@ -9146,28 +11663,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 2720,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+										["n_curado"] = 2720,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621260754,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621260742,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.001385,
 							["delay"] = 1621260742,
-							["last_event"] = 1621260742,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 200,
 					["tipo"] = 7,
+					["combatId"] = 200,
 					["_ActorTable"] = {
 						{
 							["received"] = 171.005573,
@@ -9185,7 +11703,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[196911] = {
 										["total"] = 24,
@@ -9215,289 +11732,290 @@ _detalhes_database = {
 										["counter"] = 5,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.005573,
+							["tipo"] = 3,
 							["last_event"] = 1621260781,
 							["aID"] = "729-052440E9",
-							["tipo"] = 3,
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 2.005573,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 200,
 					["tipo"] = 9,
+					["combatId"] = 200,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[333504] = {
-										["activedamt"] = 0,
-										["id"] = 333504,
+										["appliedamt"] = 6,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 6,
+										["id"] = 333504,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5760] = {
-										["activedamt"] = 0,
-										["id"] = 5760,
+										["appliedamt"] = 6,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 14,
-										["appliedamt"] = 6,
+										["id"] = 5760,
 										["refreshamt"] = 14,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
+										["appliedamt"] = 5,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 15,
-										["appliedamt"] = 5,
+										["id"] = 8680,
 										["refreshamt"] = 7,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 137619,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324260] = {
-										["activedamt"] = 0,
-										["id"] = 324260,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 11,
-										["appliedamt"] = 2,
+										["id"] = 324260,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[316220] = {
-										["activedamt"] = 0,
-										["id"] = 316220,
+										["appliedamt"] = 7,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 14,
-										["appliedamt"] = 7,
+										["id"] = 316220,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 181,
 							["aID"] = "729-052440E9",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 5761,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 347600,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 8679,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 115192,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 324717,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 14,
-										["appliedamt"] = 1,
+										["id"] = 342814,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 340094,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 303003,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[333507] = {
-										["activedamt"] = 5,
-										["id"] = 333507,
+										["appliedamt"] = 5,
 										["targets"] = {
 										},
+										["activedamt"] = 5,
 										["uptime"] = 6,
-										["appliedamt"] = 5,
+										["id"] = 333507,
 										["refreshamt"] = 12,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[31224] = {
-										["activedamt"] = 1,
-										["id"] = 31224,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 14,
-										["appliedamt"] = 1,
+										["id"] = 31224,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115191] = {
-										["activedamt"] = 1,
-										["id"] = 115191,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 115191,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[343173] = {
-										["activedamt"] = 1,
-										["id"] = 343173,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 343173,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[36554] = {
-										["activedamt"] = 1,
-										["id"] = 36554,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 36554,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 16,
-										["appliedamt"] = 1,
+										["id"] = 341550,
 										["refreshamt"] = 4,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 55,
@@ -9517,85 +12035,85 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1621260757,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "ROGUE",
 							["serial"] = "Player-729-052440E9",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "熔炉守护者",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[347404] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-157583-0004227807",
 							["aID"] = "157583",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "渊誓召火者",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[275983] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-157572-0003227807",
 							["aID"] = "157572",
 						}, -- [3]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "焰炉执行者",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[329425] = 1,
 								[308026] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-157634-0003227807",
 							["aID"] = "157634",
 						}, -- [4]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "渊誓卫兵",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[294165] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-150958-0001A27807",
 							["aID"] = "150958",
 						}, -- [5]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 200,
 					["tipo"] = 2,
+					["combatId"] = 200,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -9625,76 +12143,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					123187, -- [1]
-					2720, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 171,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "scenario",
-				["data_fim"] = "22:12:37",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "渊誓卫兵",
-				["TotalElapsedCombatTime"] = 179781.113,
-				["CombatEndedAt"] = 179781.113,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 2720.001385,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 118857.001242,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 179781.403,
-				["combat_id"] = 200,
-				["overall_added"] = true,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Reneebaby"] = {
@@ -9785,24 +12242,86 @@ _detalhes_database = {
 						["n"] = 3,
 					},
 				},
-				["data_inicio"] = "22:12:20",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "22:12:37",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "渊誓卫兵",
+				["TotalElapsedCombatTime"] = 179781.113,
+				["CombatEndedAt"] = 179781.113,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Reneebaby"] = 2720.001385,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Reneebaby"] = 118857.001242,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 179781.403,
+				["combat_id"] = 200,
+				["overall_added"] = true,
 				["frags"] = {
+					["渊誓卫兵"] = 2,
 					["焰炉执行者"] = 1,
 					["渊誓召火者"] = 1,
-					["渊誓卫兵"] = 2,
 					["熔炉守护者"] = 2,
 				},
-				["start_time"] = 179764.399,
+				["spells_cast_timeline"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["TimeData"] = {
 				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					123187, -- [1]
+					2720, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 171,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 179764.399,
 				["contra"] = "渊誓卫兵",
-			}, -- [7]
+				["data_inicio"] = "22:12:20",
+			}, -- [11]
 			{
 				{
-					["combatId"] = 199,
 					["tipo"] = 2,
+					["combatId"] = 199,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -9828,22 +12347,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["spec"] = 261,
-							["friendlyfire"] = {
-							},
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 225426.003803,
+							["aID"] = "729-052440E9",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 138590.003803,
-							["end_time"] = 1621260667,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-729-052440E9",
 							["dps_started"] = false,
-							["total"] = 138590.003803,
-							["aID"] = "729-052440E9",
+							["end_time"] = 1621260667,
 							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 11,
@@ -9907,31 +12425,36 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[53] = {
-										["c_amt"] = 1,
+									[8680] = {
+										["c_amt"] = 12,
 										["b_amt"] = 0,
-										["c_dmg"] = 3864,
+										["c_dmg"] = 1336,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 79,
 										["targets"] = {
-											["噬渊鼠"] = 3864,
+											["渊誓禁锢者"] = 105,
+											["渊誓护火者"] = 312,
+											["折磨之主"] = 883,
+											["强化的焰炉大师"] = 106,
+											["焰炉大师"] = 107,
+											["噬渊鼠"] = 137,
 										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 314,
+										["n_min"] = 78,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 3864,
-										["c_max"] = 3864,
-										["id"] = 53,
+										["counter"] = 16,
+										["total"] = 1650,
+										["c_max"] = 155,
+										["id"] = 8680,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
+										["spellschool"] = 8,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 3864,
+										["c_min"] = 101,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 0,
+										["n_amt"] = 4,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
@@ -9967,36 +12490,31 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[8680] = {
-										["c_amt"] = 12,
+									[53] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 1336,
+										["c_dmg"] = 3864,
 										["g_amt"] = 0,
-										["n_max"] = 79,
+										["n_max"] = 0,
 										["targets"] = {
-											["渊誓禁锢者"] = 105,
-											["渊誓护火者"] = 312,
-											["折磨之主"] = 883,
-											["强化的焰炉大师"] = 106,
-											["焰炉大师"] = 107,
-											["噬渊鼠"] = 137,
+											["噬渊鼠"] = 3864,
 										},
-										["n_dmg"] = 314,
-										["n_min"] = 78,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 1650,
-										["c_max"] = 155,
-										["id"] = 8680,
+										["counter"] = 1,
+										["total"] = 3864,
+										["c_max"] = 3864,
+										["id"] = 53,
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 101,
+										["c_min"] = 3864,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 4,
+										["n_amt"] = 0,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
@@ -10024,62 +12542,6 @@ _detalhes_database = {
 										},
 										["a_dmg"] = 0,
 										["c_min"] = 956,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[328082] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 7384,
-										["g_amt"] = 0,
-										["n_max"] = 3747,
-										["targets"] = {
-											["折磨之主"] = 13378,
-										},
-										["n_dmg"] = 5994,
-										["n_min"] = 2247,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 13378,
-										["c_max"] = 4372,
-										["id"] = 328082,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 3012,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[185438] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 46186,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["折磨之主"] = 46186,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 46186,
-										["c_max"] = 14308,
-										["id"] = 185438,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 4026,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
@@ -10115,18 +12577,75 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
+									[185438] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 46186,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["折磨之主"] = 46186,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 46186,
+										["c_max"] = 14308,
+										["id"] = 185438,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 4026,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[328082] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 7384,
+										["g_amt"] = 0,
+										["n_max"] = 3747,
+										["targets"] = {
+											["折磨之主"] = 13378,
+										},
+										["n_dmg"] = 5994,
+										["n_min"] = 2247,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 13378,
+										["c_max"] = 4372,
+										["id"] = 328082,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 3012,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 6299.545627409091,
-							["custom"] = 0,
+							["total"] = 138590.003803,
 							["last_event"] = 1621260665,
-							["damage_taken"] = 225426.003803,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 6299.545627409091,
 							["start_time"] = 1621260645,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["spec"] = 261,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -10137,22 +12656,21 @@ _detalhes_database = {
 								["Reneebaby"] = 51624,
 							},
 							["spellicon"] = 236215,
-							["serial"] = "",
-							["pets"] = {
-							},
-							["aID"] = "",
+							["monster"] = true,
+							["end_time"] = 1621260740,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 51624.008434,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
 							["fight_component"] = true,
-							["end_time"] = 1621260740,
-							["dps_started"] = false,
 							["total"] = 51624.008434,
-							["classe"] = "UNKNOW",
-							["monster"] = true,
+							["serial"] = "",
+							["friendlyfire_total"] = 0,
 							["nome"] = "[*] 折磨：魂铸热能",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[326469] = {
 										["c_amt"] = 0,
@@ -10183,45 +12701,46 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
 							["on_hold"] = false,
+							["dps_started"] = false,
+							["tipo"] = 1,
+							["aID"] = "",
+							["custom"] = 0,
+							["last_event"] = 1621260738,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.008434,
 							["start_time"] = 1621260661,
 							["delay"] = 1621260710,
-							["last_event"] = 1621260738,
+							["damage_taken"] = 0.008434,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.008315,
-							["aID"] = "157571",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 19793,
 							},
-							["end_time"] = 1621260667,
+							["serial"] = "Creature-0-3932-2162-20804-157571-0001A27807",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "157571",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 19793.008315,
-							["monster"] = true,
+							["damage_taken"] = 14282.008315,
 							["dps_started"] = false,
-							["total"] = 19793.008315,
+							["end_time"] = 1621260667,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260659,
 							["nome"] = "渊誓护火者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[275983] = {
 										["c_amt"] = 0,
@@ -10306,44 +12825,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-157571-0001A27807",
-							["last_dps"] = 0,
+							["total"] = 19793.008315,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260659,
-							["damage_taken"] = 14282.008315,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260649,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.002756,
-							["aID"] = "168104",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 15969,
 							},
-							["end_time"] = 1621260667,
+							["serial"] = "Creature-0-3932-2162-20804-168104-0000227807",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "168104",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 15969.002756,
-							["monster"] = true,
+							["damage_taken"] = 5683.002756,
 							["dps_started"] = false,
-							["total"] = 15969.002756,
+							["end_time"] = 1621260667,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260667,
 							["nome"] = "强化的焰炉大师",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[270246] = {
 										["c_amt"] = 0,
@@ -10375,44 +12894,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-168104-0000227807",
-							["last_dps"] = 0,
+							["total"] = 15969.002756,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260667,
-							["damage_taken"] = 5683.002756,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260651,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.004635,
-							["aID"] = "150965",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 10036,
 							},
-							["end_time"] = 1621260667,
+							["serial"] = "Creature-0-3932-2162-20804-150965-0000227807",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "150965",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10036.004635,
-							["monster"] = true,
+							["damage_taken"] = 2376.004635,
 							["dps_started"] = false,
-							["total"] = 10036.004635,
+							["end_time"] = 1621260667,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260666,
 							["nome"] = "渊誓禁锢者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -10498,44 +13017,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-150965-0000227807",
-							["last_dps"] = 0,
+							["total"] = 10036.004635,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260666,
-							["damage_taken"] = 2376.004635,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260648,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [5]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.00722,
-							["aID"] = "151127",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 9422,
 							},
-							["end_time"] = 1621260667,
+							["serial"] = "Creature-0-3932-2162-20804-151127-0000227807",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "151127",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9422.00722,
-							["monster"] = true,
+							["damage_taken"] = 98522.00722,
 							["dps_started"] = false,
-							["total"] = 9422.00722,
+							["end_time"] = 1621260667,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260653,
 							["nome"] = "折磨之主",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[294362] = {
 										["c_amt"] = 0,
@@ -10592,44 +13111,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-151127-0000227807",
-							["last_dps"] = 0,
+							["total"] = 9422.00722,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260653,
-							["damage_taken"] = 98522.00722,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260660,
 							["delay"] = 1621260653,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [6]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.007658,
-							["aID"] = "157584",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 8239,
 							},
-							["end_time"] = 1621260667,
+							["serial"] = "Creature-0-3932-2162-20804-157584-0000A27807",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "157584",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8239.007658,
-							["monster"] = true,
+							["damage_taken"] = 2558.007658,
 							["dps_started"] = false,
-							["total"] = 8239.007658,
+							["end_time"] = 1621260667,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260666,
 							["nome"] = "焰炉大师",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[270246] = {
 										["c_amt"] = 0,
@@ -10660,22 +13179,21 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-157584-0000A27807",
-							["last_dps"] = 0,
+							["total"] = 8239.007658,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260666,
-							["damage_taken"] = 2558.007658,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260651,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [7]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.004924,
-							["aID"] = "151353",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 								["吟树者因德里"] = true,
@@ -10684,22 +13202,23 @@ _detalhes_database = {
 								["Reneebaby"] = 216,
 								["吟树者因德里"] = 791,
 							},
-							["end_time"] = 1621260667,
+							["serial"] = "Creature-0-3932-2162-20804-151353-0004A27807",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "151353",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1007.004924,
-							["monster"] = true,
+							["damage_taken"] = 16361.004924,
 							["dps_started"] = false,
-							["total"] = 1007.004924,
+							["end_time"] = 1621260667,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260664,
 							["nome"] = "噬渊鼠",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -10732,23 +13251,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-151353-0004A27807",
-							["last_dps"] = 0,
+							["total"] = 1007.004924,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260664,
-							["damage_taken"] = 16361.004924,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260647,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [8]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 199,
 					["tipo"] = 3,
+					["combatId"] = 199,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -10778,13 +13297,12 @@ _detalhes_database = {
 							["healing_taken"] = 25301.006363,
 							["fight_component"] = true,
 							["end_time"] = 1621260667,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[158188] = {
 										["c_amt"] = 0,
@@ -10805,9 +13323,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 15297,
 										["totaldenied"] = 0,
 										["n_amt"] = 9,
+										["n_curado"] = 15297,
 										["absorbed"] = 0,
 									},
 									[185311] = {
@@ -10829,9 +13347,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 9946,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 9946,
 										["absorbed"] = 0,
 									},
 									[341530] = {
@@ -10852,31 +13370,32 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Reneebaby"] = 58,
 										},
-										["n_amt"] = 1,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 58,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 58,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621260647,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621260664,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.006363,
 							["delay"] = 0,
-							["last_event"] = 1621260664,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 199,
 					["tipo"] = 7,
+					["combatId"] = 199,
 					["_ActorTable"] = {
 						{
 							["received"] = 283.004525,
@@ -10894,17 +13413,7 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
-									[212283] = {
-										["total"] = 32,
-										["id"] = 212283,
-										["totalover"] = 8,
-										["targets"] = {
-											["Reneebaby"] = 32,
-										},
-										["counter"] = 1,
-									},
 									[196911] = {
 										["total"] = 40,
 										["id"] = 196911,
@@ -10913,15 +13422,6 @@ _detalhes_database = {
 											["Reneebaby"] = 40,
 										},
 										["counter"] = 5,
-									},
-									[98440] = {
-										["total"] = 174,
-										["id"] = 98440,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 174,
-										},
-										["counter"] = 7,
 									},
 									[196980] = {
 										["total"] = 37,
@@ -10932,74 +13432,93 @@ _detalhes_database = {
 										},
 										["counter"] = 12,
 									},
+									[98440] = {
+										["total"] = 174,
+										["id"] = 98440,
+										["totalover"] = 0,
+										["targets"] = {
+											["Reneebaby"] = 174,
+										},
+										["counter"] = 7,
+									},
+									[212283] = {
+										["total"] = 32,
+										["id"] = 212283,
+										["totalover"] = 8,
+										["targets"] = {
+											["Reneebaby"] = 32,
+										},
+										["counter"] = 1,
+									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.004525,
+							["tipo"] = 3,
 							["last_event"] = 1621260740,
 							["aID"] = "729-052440E9",
-							["tipo"] = 3,
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 10.004525,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 199,
 					["tipo"] = 9,
+					["combatId"] = 199,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
-									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
+									[316220] = {
+										["appliedamt"] = 4,
 										["targets"] = {
 										},
-										["uptime"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 11,
+										["id"] = 316220,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[137619] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 1,
+										["id"] = 137619,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[316220] = {
-										["activedamt"] = 0,
-										["id"] = 316220,
+									[8680] = {
+										["appliedamt"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 11,
-										["appliedamt"] = 4,
+										["activedamt"] = 0,
+										["uptime"] = 17,
+										["id"] = 8680,
 										["refreshamt"] = 2,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5760] = {
-										["activedamt"] = 0,
-										["id"] = 5760,
+										["appliedamt"] = 8,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 15,
-										["appliedamt"] = 8,
+										["id"] = 5760,
 										["refreshamt"] = 15,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 8,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 2.002486,
 							["buff_uptime"] = 300,
@@ -11012,257 +13531,256 @@ _detalhes_database = {
 								["Reneebaby"] = 2,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[310143] = {
-										["activedamt"] = 1,
-										["id"] = 310143,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 310143,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[196980] = {
-										["activedamt"] = 2,
-										["id"] = 196980,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 4,
-										["appliedamt"] = 2,
+										["id"] = 196980,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[345228] = {
-										["activedamt"] = 1,
-										["id"] = 345228,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 345228,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 22,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 22,
-										["appliedamt"] = 1,
+										["id"] = 347600,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[212283] = {
-										["activedamt"] = 1,
-										["id"] = 212283,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 212283,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 22,
-										["appliedamt"] = 1,
+										["id"] = 8679,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[185422] = {
-										["activedamt"] = 1,
-										["id"] = 185422,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 185422,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 115192,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[342309] = {
-										["activedamt"] = 1,
-										["id"] = 342309,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[185311] = {
-										["activedamt"] = 1,
-										["id"] = 185311,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
-										["targets"] = {
-										},
-										["uptime"] = 22,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[2983] = {
-										["activedamt"] = 1,
-										["id"] = 2983,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 342309,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5277] = {
-										["activedamt"] = 1,
-										["id"] = 5277,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 10,
-										["appliedamt"] = 1,
+										["id"] = 5277,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
+									[324717] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 22,
-										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 324717,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[333507] = {
-										["activedamt"] = 6,
-										["id"] = 333507,
+										["appliedamt"] = 6,
 										["targets"] = {
 										},
+										["activedamt"] = 6,
 										["uptime"] = 10,
-										["appliedamt"] = 6,
+										["id"] = 333507,
 										["refreshamt"] = 12,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
+									[2983] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 22,
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 2983,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[342814] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 22,
+										["id"] = 342814,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[340094] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 340094,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[185311] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 185311,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[315496] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 22,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[227151] = {
-										["activedamt"] = 1,
-										["id"] = 227151,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 227151,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 22,
-										["appliedamt"] = 1,
+										["id"] = 5761,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[343173] = {
-										["activedamt"] = 2,
-										["id"] = 343173,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 0,
-										["appliedamt"] = 2,
+										["id"] = 343173,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[31224] = {
-										["activedamt"] = 1,
-										["id"] = 31224,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 31224,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -11280,44 +13798,67 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
+										["id"] = 341530,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[303003] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 22,
+										["id"] = 303003,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 21,
-										["appliedamt"] = 1,
+										["id"] = 341550,
 										["refreshamt"] = 6,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
-										["targets"] = {
-										},
-										["uptime"] = 22,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 44,
+							["debuff_uptime_targets"] = {
+							},
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[5277] = 1,
+								[137619] = 1,
+								[345228] = 1,
+								[212743] = 2,
+								[197835] = 2,
+								[324748] = 2,
+								[196819] = 6,
+								[31224] = 1,
+								[185438] = 3,
+								[2983] = 1,
+								[319175] = 1,
+								[53] = 1,
+								[185311] = 1,
+								[185313] = 1,
+								[212283] = 1,
+								[310143] = 1,
+							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[31224] = {
 										["id"] = 31224,
@@ -11334,58 +13875,37 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
-							},
-							["nome"] = "Reneebaby",
-							["spec"] = 261,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[53] = 1,
-								[137619] = 1,
-								[345228] = 1,
-								[212743] = 2,
-								[197835] = 2,
-								[185311] = 1,
-								[196819] = 6,
-								[31224] = 1,
-								[185438] = 3,
-								[2983] = 1,
-								[319175] = 1,
-								[5277] = 1,
-								[324748] = 2,
-								[212283] = 1,
-								[310143] = 1,
-								[185313] = 1,
-							},
-							["debuff_uptime_targets"] = {
+								["tipo"] = 9,
 							},
 							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1621260667,
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["classe"] = "ROGUE",
+							["last_event"] = 1621260667,
 							["serial"] = "Player-729-052440E9",
-							["tipo"] = 4,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "折磨之主",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[294362] = 1,
 								[292926] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-151127-0000227807",
 							["aID"] = "151127",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "渊誓护火者",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
@@ -11393,69 +13913,68 @@ _detalhes_database = {
 								[329422] = 3,
 								[347404] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-157571-0001227807",
 							["aID"] = "157571",
 						}, -- [3]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "强化的焰炉大师",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[270246] = 5,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-168104-0000227807",
 							["aID"] = "168104",
 						}, -- [4]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "焰炉大师",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[270246] = 4,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-157584-0000A27807",
 							["aID"] = "157584",
 						}, -- [5]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "渊誓禁锢者",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[166766] = 1,
 								[292910] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-150965-0000227807",
 							["aID"] = "150965",
 						}, -- [6]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 199,
 					["tipo"] = 2,
+					["combatId"] = 199,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -11880,76 +14399,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 2,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 1,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					138590, -- [1]
-					25301, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 283,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 2,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "scenario",
-				["data_fim"] = "22:11:07",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "折磨之主",
-				["TotalElapsedCombatTime"] = 179691.355,
-				["CombatEndedAt"] = 179691.355,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 25301.006363,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 138590.003803,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 179691.977,
-				["combat_id"] = 199,
-				["overall_added"] = true,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Reneebaby"] = {
@@ -12190,22 +14648,84 @@ _detalhes_database = {
 						["n"] = 18,
 					},
 				},
-				["data_inicio"] = "22:10:45",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "22:11:07",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "折磨之主",
+				["TotalElapsedCombatTime"] = 179691.355,
+				["CombatEndedAt"] = 179691.355,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Reneebaby"] = 25301.006363,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Reneebaby"] = 138590.003803,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 179691.977,
+				["combat_id"] = 199,
+				["overall_added"] = true,
 				["frags"] = {
 					["折磨之主"] = 1,
 					["噬渊鼠"] = 3,
 				},
-				["start_time"] = 179669.977,
+				["spells_cast_timeline"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["TimeData"] = {
 				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					138590, -- [1]
+					25301, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 283,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 2,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
+					}, -- [4]
+				},
+				["start_time"] = 179669.977,
 				["contra"] = "折磨之主",
-			}, -- [8]
+				["data_inicio"] = "22:10:45",
+			}, -- [12]
 			{
 				{
-					["combatId"] = 198,
 					["tipo"] = 2,
+					["combatId"] = 198,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -12221,22 +14741,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 37996.008317,
-							["on_hold"] = false,
 							["aID"] = "729-052440E9",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 37996.008317,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1621260636,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 5,
@@ -12381,17 +14887,31 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 261,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 37996.008317,
+							["on_hold"] = false,
 							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 4216.625049051813,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 37996.008317,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["end_time"] = 1621260636,
 							["tipo"] = 1,
-							["damage_taken"] = 6172.008317,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1621260635,
+							["last_dps"] = 4216.625049051813,
 							["start_time"] = 1621260627,
 							["delay"] = 0,
-							["last_event"] = 1621260635,
+							["damage_taken"] = 6172.008317,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -12403,21 +14923,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["serial"] = "",
-							["monster"] = true,
-							["aID"] = "",
+							["dps_started"] = false,
+							["total"] = 3603.001196,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3603.001196,
 							["spellicon"] = 236215,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 3603.001196,
-							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["monster"] = true,
+							["end_time"] = 1621260636,
+							["serial"] = "",
 							["friendlyfire_total"] = 0,
 							["nome"] = "[*] 折磨：魂铸热能",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[326469] = {
 										["c_amt"] = 0,
@@ -12448,23 +14967,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["end_time"] = 1621260636,
 							["on_hold"] = false,
+							["fight_component"] = true,
+							["tipo"] = 1,
+							["aID"] = "",
+							["custom"] = 0,
+							["last_event"] = 1621260633,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.001196,
 							["start_time"] = 1621260633,
 							["delay"] = 0,
-							["last_event"] = 1621260633,
+							["damage_taken"] = 0.001196,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.006556,
-							["total"] = 2359.006556,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 								["吟树者因德里"] = true,
@@ -12472,23 +14991,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Reneebaby"] = 2359,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-157583-0003227807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "157583",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2359.006556,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 38526.006556,
+							["monster"] = true,
 							["end_time"] = 1621260636,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260634,
 							["nome"] = "熔炉守护者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[270246] = {
 										["c_amt"] = 0,
@@ -12518,21 +15036,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "157583",
-							["serial"] = "Creature-0-3932-2162-20804-157583-0003227807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260634,
-							["damage_taken"] = 38526.006556,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260634,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 2359.006556,
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 458.004639,
-							["total"] = 788.004639,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 								["吟树者因德里"] = true,
@@ -12541,23 +15060,22 @@ _detalhes_database = {
 								["Reneebaby"] = 210,
 								["吟树者因德里"] = 578,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-151353-0005227807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "151353",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 788.004639,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 1382.004639,
+							["monster"] = true,
 							["end_time"] = 1621260645,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260645,
 							["nome"] = "噬渊鼠",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -12589,22 +15107,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "151353",
-							["serial"] = "Creature-0-3932-2162-20804-151353-0005227807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260645,
-							["damage_taken"] = 1382.004639,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260636,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 788.004639,
 						}, -- [4]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 198,
 					["tipo"] = 3,
+					["combatId"] = 198,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -12635,13 +15155,12 @@ _detalhes_database = {
 							["healing_taken"] = 4112.007553,
 							["fight_component"] = true,
 							["end_time"] = 1621260636,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[158188] = {
 										["c_amt"] = 0,
@@ -12663,9 +15182,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 477,
 										["totaldenied"] = 0,
 										["n_amt"] = 1,
+										["n_curado"] = 477,
 										["absorbed"] = 0,
 									},
 									[341530] = {
@@ -12686,31 +15205,32 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Reneebaby"] = 3635,
 										},
-										["n_amt"] = 1,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3635,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 3635,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621260628,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621260628,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.007553,
 							["delay"] = 0,
-							["last_event"] = 1621260628,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 198,
 					["tipo"] = 7,
+					["combatId"] = 198,
 					["_ActorTable"] = {
 						{
 							["received"] = 101.003783,
@@ -12728,7 +15248,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[98440] = {
 										["total"] = 60,
@@ -12758,57 +15277,57 @@ _detalhes_database = {
 										["counter"] = 2,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.003783,
+							["tipo"] = 3,
 							["last_event"] = 1621260645,
 							["aID"] = "729-052440E9",
-							["tipo"] = 3,
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 0.003783,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 198,
 					["tipo"] = 9,
+					["combatId"] = 198,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[5760] = {
-										["activedamt"] = -1,
-										["id"] = 5760,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = -1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 5760,
 										["refreshamt"] = 4,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[316220] = {
-										["activedamt"] = 0,
-										["id"] = 316220,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 316220,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 137619,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -12826,222 +15345,223 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 8680,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 104,
 							["aID"] = "729-052440E9",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[196980] = {
-										["activedamt"] = 1,
-										["id"] = 196980,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 196980,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 347600,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 8679,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 115192,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 324717,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 342814,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340094] = {
-										["activedamt"] = 2,
-										["id"] = 340094,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 4,
-										["appliedamt"] = 2,
+										["id"] = 340094,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[115191] = {
-										["activedamt"] = 1,
-										["id"] = 115191,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[343173] = {
-										["activedamt"] = 1,
-										["id"] = 343173,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 5761,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
+										["id"] = 303003,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[343173] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 343173,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[115191] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 115191,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341770] = {
-										["activedamt"] = 1,
-										["id"] = 341770,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 341770,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341530] = {
-										["activedamt"] = 2,
-										["id"] = 341530,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 4,
-										["appliedamt"] = 2,
+										["id"] = 341530,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341550] = {
-										["activedamt"] = 2,
-										["id"] = 341550,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 7,
-										["appliedamt"] = 2,
+										["id"] = 341550,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[333507] = {
-										["activedamt"] = 1,
-										["id"] = 333507,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 333507,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 11,
@@ -13057,36 +15577,36 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1621260636,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "ROGUE",
 							["serial"] = "Player-729-052440E9",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "熔炉守护者",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[270246] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-157583-0002A27807",
 							["aID"] = "157583",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 198,
 					["tipo"] = 2,
+					["combatId"] = 198,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -13118,10 +15638,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -13141,16 +15661,17 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "scenario",
+				["hasSaved"] = true,
 				["data_fim"] = "22:10:36",
 				["cleu_timeline"] = {
 				},
@@ -13161,29 +15682,21 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 7962.014019,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 37996.012567,
-						}, -- [1]
-					},
-				},
+				["data_inicio"] = "22:10:27",
 				["end_time"] = 179661.026,
 				["combat_id"] = 198,
 				["resincked"] = true,
+				["frags"] = {
+					["熔炉守护者"] = 2,
+					["噬渊鼠"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 895,
+				["TimeData"] = {
+				},
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["Reneebaby"] = {
 						{
@@ -13263,25 +15776,33 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["spells_cast_timeline"] = {
-				},
-				["combat_counter"] = 895,
-				["data_inicio"] = "22:10:27",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["熔炉守护者"] = 2,
-					["噬渊鼠"] = 1,
-				},
 				["start_time"] = 179652.015,
-				["TimeData"] = {
-				},
 				["contra"] = "噬渊鼠",
-			}, -- [9]
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Reneebaby"] = 7962.014019,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Reneebaby"] = 37996.012567,
+						}, -- [1]
+					},
+				},
+			}, -- [13]
 			{
 				{
-					["combatId"] = 197,
 					["tipo"] = 2,
+					["combatId"] = 197,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -13300,22 +15821,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["spec"] = 261,
-							["friendlyfire"] = {
-							},
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 14019.008832,
+							["aID"] = "729-052440E9",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 59954.008832,
-							["end_time"] = 1621260627,
-							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-729-052440E9",
 							["dps_started"] = false,
-							["total"] = 59954.008832,
-							["aID"] = "729-052440E9",
+							["end_time"] = 1621260627,
 							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 15,
@@ -13405,6 +15925,35 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
+									[328082] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1814,
+										["g_amt"] = 0,
+										["n_max"] = 2626,
+										["targets"] = {
+											["渊誓哨兵"] = 1814,
+											["渊誓禁锢者"] = 4213,
+										},
+										["n_dmg"] = 4213,
+										["n_min"] = 1587,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 6027,
+										["c_max"] = 1814,
+										["id"] = 328082,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 1814,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
 									[196819] = {
 										["c_amt"] = 2,
 										["b_amt"] = 0,
@@ -13432,35 +15981,6 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[328082] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1814,
-										["g_amt"] = 0,
-										["n_max"] = 2626,
-										["targets"] = {
-											["渊誓哨兵"] = 1814,
-											["渊誓禁锢者"] = 4213,
-										},
-										["n_dmg"] = 4213,
-										["n_min"] = 1587,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 6027,
-										["c_max"] = 1814,
-										["id"] = 328082,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1814,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
@@ -13523,17 +16043,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 3727.146110873796,
-							["custom"] = 0,
+							["total"] = 59954.008832,
 							["last_event"] = 1621260627,
-							["damage_taken"] = 14019.008832,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 3727.146110873796,
 							["start_time"] = 1621260607,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["spec"] = 261,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -13545,21 +16066,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["serial"] = "",
-							["monster"] = true,
-							["aID"] = "",
+							["dps_started"] = false,
+							["total"] = 6883.001568,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6883.001568,
 							["spellicon"] = 236215,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 6883.001568,
-							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["monster"] = true,
+							["end_time"] = 1621260622,
+							["serial"] = "",
 							["friendlyfire_total"] = 0,
 							["nome"] = "[*] 折磨：魂铸热能",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[326469] = {
 										["c_amt"] = 0,
@@ -13590,45 +16110,46 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["end_time"] = 1621260622,
 							["on_hold"] = false,
+							["fight_component"] = true,
+							["tipo"] = 1,
+							["aID"] = "",
+							["custom"] = 0,
+							["last_event"] = 1621260618,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.001568,
 							["start_time"] = 1621260613,
 							["delay"] = 0,
-							["last_event"] = 1621260618,
+							["damage_taken"] = 0.001568,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 1148.006111,
-							["aID"] = "153874",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 3906,
 							},
-							["end_time"] = 1621260622,
+							["serial"] = "Creature-0-3932-2162-20804-153874-0001227807",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "153874",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3906.006111,
-							["monster"] = true,
+							["damage_taken"] = 9119.006111,
 							["dps_started"] = false,
-							["total"] = 3906.006111,
+							["end_time"] = 1621260622,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260613,
 							["nome"] = "渊誓哨兵",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -13686,22 +16207,21 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-153874-0001227807",
-							["last_dps"] = 0,
+							["total"] = 3906.006111,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260613,
-							["damage_taken"] = 9119.006111,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260608,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 1383.004157,
-							["aID"] = "150958",
 							["damage_from"] = {
 								["Reneebaby"] = true,
 								["吟树者因德里"] = true,
@@ -13709,22 +16229,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Reneebaby"] = 2972,
 							},
-							["end_time"] = 1621260622,
+							["serial"] = "Creature-0-3932-2162-20804-150958-0000227807",
 							["pets"] = {
 							},
-							["fight_component"] = true,
+							["friendlyfire"] = {
+							},
 							["classe"] = "UNKNOW",
+							["aID"] = "150958",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2972.004157,
-							["monster"] = true,
+							["damage_taken"] = 27749.004157,
 							["dps_started"] = false,
-							["total"] = 2972.004157,
+							["end_time"] = 1621260622,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["last_event"] = 1621260620,
 							["nome"] = "渊誓卫兵",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -13808,17 +16329,17 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-150958-0000227807",
-							["last_dps"] = 0,
+							["total"] = 2972.004157,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260620,
-							["damage_taken"] = 27749.004157,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260618,
 							["delay"] = 1621260609,
-							["tipo"] = 1,
+							["fight_component"] = true,
 						}, -- [4]
 						{
 							["flag_original"] = 68168,
@@ -13829,24 +16350,23 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["total"] = 0.005141,
+							["serial"] = "Creature-0-3932-2162-20804-150965-0000A27807",
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["aID"] = "150965",
+							["monster"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005141,
+							["damage_taken"] = 24430.005141,
 							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1621260622,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1621260612,
 							["nome"] = "渊誓禁锢者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -13878,22 +16398,23 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "150965",
-							["serial"] = "Creature-0-3932-2162-20804-150965-0000A27807",
-							["last_dps"] = 0,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1621260612,
-							["damage_taken"] = 24430.005141,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260622,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 0.005141,
 						}, -- [5]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 197,
 					["tipo"] = 3,
+					["combatId"] = 197,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -13923,13 +16444,12 @@ _detalhes_database = {
 							["healing_taken"] = 7031.004385,
 							["fight_component"] = true,
 							["end_time"] = 1621260622,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[341530] = {
 										["c_amt"] = 0,
@@ -13949,31 +16469,32 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Reneebaby"] = 7031,
 										},
-										["n_amt"] = 4,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 7031,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 4,
+										["n_curado"] = 7031,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621260619,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621260609,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.004385,
 							["delay"] = 1621260609,
-							["last_event"] = 1621260609,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 197,
 					["tipo"] = 7,
+					["combatId"] = 197,
 					["_ActorTable"] = {
 						{
 							["received"] = 207.008271,
@@ -13991,7 +16512,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[98440] = {
 										["total"] = 138,
@@ -14021,79 +16541,79 @@ _detalhes_database = {
 										["counter"] = 10,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008271,
+							["tipo"] = 3,
 							["last_event"] = 1621260627,
 							["aID"] = "729-052440E9",
-							["tipo"] = 3,
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 0.008271,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 197,
 					["tipo"] = 9,
+					["combatId"] = 197,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
-									[328305] = {
-										["activedamt"] = 0,
-										["id"] = 328305,
+									[255909] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = 255909,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[255909] = {
-										["activedamt"] = 0,
-										["id"] = 255909,
+									[328305] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 5,
+										["id"] = 328305,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5760] = {
-										["activedamt"] = -1,
-										["id"] = 5760,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = -1,
 										["uptime"] = 14,
-										["appliedamt"] = 2,
+										["id"] = 5760,
 										["refreshamt"] = 10,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
+									[1833] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 12,
-										["appliedamt"] = 3,
-										["refreshamt"] = 4,
+										["activedamt"] = 0,
+										["uptime"] = 4,
+										["id"] = 1833,
+										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 3,
-										["appliedamt"] = 3,
+										["id"] = 137619,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -14122,22 +16642,22 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[1833] = {
-										["activedamt"] = 0,
-										["id"] = 1833,
+									[8680] = {
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
+										["activedamt"] = 0,
+										["uptime"] = 12,
+										["id"] = 8680,
+										["refreshamt"] = 4,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 156,
 							["cc_done_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[1833] = {
 										["id"] = 1833,
@@ -14147,187 +16667,181 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["aID"] = "729-052440E9",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 5761,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 340094,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 303003,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[196980] = {
-										["activedamt"] = 1,
-										["id"] = 196980,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 1,
-										["appliedamt"] = 1,
+										["id"] = 196980,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 341550,
 										["refreshamt"] = 6,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 342814,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[343782] = {
-										["activedamt"] = 1,
-										["id"] = 343782,
+									[324717] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 15,
+										["id"] = 324717,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
+									[343782] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 343782,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 115192,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[333507] = {
-										["activedamt"] = 4,
-										["id"] = 333507,
+										["appliedamt"] = 4,
 										["targets"] = {
 										},
+										["activedamt"] = 4,
 										["uptime"] = 9,
-										["appliedamt"] = 4,
+										["id"] = 333507,
 										["refreshamt"] = 5,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 8679,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 347600,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 341530,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 46,
-							["cc_done_targets"] = {
-								["渊誓禁锢者"] = 1,
-							},
-							["cc_done"] = 1.004005,
-							["nome"] = "Reneebaby",
-							["spec"] = 261,
-							["grupo"] = true,
 							["spell_cast"] = {
 								[328305] = 1,
 								[53] = 4,
@@ -14335,55 +16849,62 @@ _detalhes_database = {
 								[196819] = 6,
 								[1833] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1621260622,
-							["pets"] = {
+							["cc_done"] = 1.004005,
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["cc_done_targets"] = {
+								["渊誓禁锢者"] = 1,
 							},
 							["classe"] = "ROGUE",
-							["serial"] = "Player-729-052440E9",
+							["buff_uptime_targets"] = {
+							},
 							["tipo"] = 4,
+							["pets"] = {
+							},
+							["last_event"] = 1621260622,
+							["serial"] = "Player-729-052440E9",
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "渊誓哨兵",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[298831] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-153874-0001227807",
 							["aID"] = "153874",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "渊誓卫兵",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[294165] = 1,
 								[292903] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-150958-0000227807",
 							["aID"] = "150958",
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 197,
 					["tipo"] = 2,
+					["combatId"] = 197,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -14413,76 +16934,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					59954, -- [1]
-					7031, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 207,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "scenario",
-				["data_fim"] = "22:10:22",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "渊誓哨兵",
-				["TotalElapsedCombatTime"] = 179646.208,
-				["CombatEndedAt"] = 179646.208,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 7031.004385,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 55937.008832,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 179646.32,
-				["combat_id"] = 197,
-				["overall_added"] = true,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Reneebaby"] = {
@@ -14563,23 +17023,85 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["data_inicio"] = "22:10:07",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "22:10:22",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "渊誓哨兵",
+				["TotalElapsedCombatTime"] = 179646.208,
+				["CombatEndedAt"] = 179646.208,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Reneebaby"] = 7031.004385,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Reneebaby"] = 55937.008832,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 179646.32,
+				["combat_id"] = 197,
+				["overall_added"] = true,
 				["frags"] = {
 					["渊誓禁锢者"] = 1,
 					["渊誓哨兵"] = 1,
 					["渊誓卫兵"] = 1,
 				},
-				["start_time"] = 179631.312,
+				["spells_cast_timeline"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["TimeData"] = {
 				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					59954, -- [1]
+					7031, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 207,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 179631.312,
 				["contra"] = "渊誓哨兵",
-			}, -- [10]
+				["data_inicio"] = "22:10:07",
+			}, -- [14]
 			{
 				{
-					["combatId"] = 196,
 					["tipo"] = 2,
+					["combatId"] = 196,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -14588,28 +17110,14 @@ _detalhes_database = {
 								["[*] 折磨：魂铸热能"] = true,
 							},
 							["targets"] = {
-								["渊誓哨兵"] = 11131,
 								["焰炉大师"] = 10779,
 								["灰烬护命匣"] = 13723,
+								["渊誓哨兵"] = 11131,
 							},
 							["pets"] = {
 							},
-							["end_time"] = 1621260607,
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 35633.005253,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 35633.005253,
-							["aID"] = "729-052440E9",
-							["classe"] = "ROGUE",
-							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 2,
@@ -14618,9 +17126,9 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
-											["渊誓哨兵"] = 855,
 											["焰炉大师"] = 0,
 											["灰烬护命匣"] = 1195,
+											["渊誓哨兵"] = 855,
 										},
 										["n_dmg"] = 0,
 										["n_min"] = 0,
@@ -14705,9 +17213,9 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
-											["渊誓哨兵"] = 10276,
 											["焰炉大师"] = 10779,
 											["灰烬护命匣"] = 5904,
+											["渊誓哨兵"] = 10276,
 										},
 										["n_dmg"] = 0,
 										["n_min"] = 0,
@@ -14729,17 +17237,31 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 261,
+							["classe"] = "ROGUE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 35633.005253,
+							["on_hold"] = false,
 							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 3238.186591516219,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1621260607,
+							["aID"] = "729-052440E9",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["total"] = 35633.005253,
 							["last_event"] = 1621260606,
-							["damage_taken"] = 6497.005252999999,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 3238.186591516219,
 							["start_time"] = 1621260575,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 6497.005252999999,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -14751,21 +17273,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["serial"] = "",
-							["monster"] = true,
-							["aID"] = "",
+							["dps_started"] = false,
+							["total"] = 6497.006708,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6497.006708,
 							["spellicon"] = 236215,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 6497.006708,
-							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["monster"] = true,
+							["end_time"] = 1621260586,
+							["serial"] = "",
 							["friendlyfire_total"] = 0,
 							["nome"] = "[*] 折磨：魂铸热能",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[326469] = {
 										["c_amt"] = 0,
@@ -14796,18 +17317,19 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["end_time"] = 1621260586,
 							["on_hold"] = false,
+							["fight_component"] = true,
+							["tipo"] = 1,
+							["aID"] = "",
+							["custom"] = 0,
+							["last_event"] = 1621260583,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.006708,
 							["start_time"] = 1621260578,
 							["delay"] = 0,
-							["last_event"] = 1621260583,
+							["damage_taken"] = 0.006708,
 						}, -- [2]
 						{
 							["flag_original"] = 68136,
@@ -14819,39 +17341,39 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["dps_started"] = false,
+							["aID"] = "164698",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005326,
+							["serial"] = "Creature-0-3932-2162-20804-164698-0007A27807",
+							["fight_component"] = true,
+							["total"] = 0.005326,
+							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1621260586,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "灰烬护命匣",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "164698",
-							["total"] = 0.005326,
-							["serial"] = "Creature-0-3932-2162-20804-164698-0007A27807",
+							["last_event"] = 0,
+							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["damage_taken"] = 13723.005326,
 							["start_time"] = 1621260586,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1621260586,
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 196,
 					["tipo"] = 3,
+					["combatId"] = 196,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -14882,13 +17404,12 @@ _detalhes_database = {
 							["healing_taken"] = 5770.008456,
 							["fight_component"] = true,
 							["end_time"] = 1621260586,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[158188] = {
 										["c_amt"] = 0,
@@ -14910,9 +17431,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 2592,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+										["n_curado"] = 2592,
 										["absorbed"] = 0,
 									},
 									[341530] = {
@@ -14933,31 +17454,32 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Reneebaby"] = 3178,
 										},
-										["n_amt"] = 1,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3178,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 3178,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621260575,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621260578,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.008456,
 							["delay"] = 0,
-							["last_event"] = 1621260578,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 196,
 					["tipo"] = 7,
+					["combatId"] = 196,
 					["_ActorTable"] = {
 						{
 							["received"] = 15.0063,
@@ -14975,7 +17497,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[196980] = {
 										["total"] = 15,
@@ -14987,245 +17508,246 @@ _detalhes_database = {
 										["counter"] = 8,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.0063,
+							["tipo"] = 3,
 							["last_event"] = 1621260606,
 							["aID"] = "729-052440E9",
-							["tipo"] = 3,
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 2.0063,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 196,
 					["tipo"] = 9,
+					["combatId"] = 196,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[316220] = {
-										["activedamt"] = 0,
-										["id"] = 316220,
+										["appliedamt"] = 4,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 4,
+										["id"] = 316220,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 3,
+										["id"] = 8680,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5760] = {
-										["activedamt"] = 0,
-										["id"] = 5760,
+										["appliedamt"] = 8,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 0,
-										["appliedamt"] = 8,
+										["id"] = 5760,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 110,
 							["aID"] = "729-052440E9",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 5761,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340094] = {
-										["activedamt"] = 2,
-										["id"] = 340094,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 5,
-										["appliedamt"] = 2,
+										["id"] = 340094,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[343173] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
 										["activedamt"] = 2,
+										["uptime"] = 1,
 										["id"] = 343173,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[196980] = {
-										["activedamt"] = 2,
-										["id"] = 196980,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[2983] = {
-										["activedamt"] = 1,
-										["id"] = 2983,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
-										["targets"] = {
-										},
-										["uptime"] = 11,
-										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
-										["appliedamt"] = 1,
+										["id"] = 315496,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[196980] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 1,
+										["id"] = 196980,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 11,
+										["id"] = 347600,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[342814] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 342814,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
+										["uptime"] = 11,
 										["id"] = 225787,
-										["targets"] = {
-										},
-										["uptime"] = 11,
-										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[8679] = {
+									[324717] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["id"] = 8679,
-										["targets"] = {
-										},
 										["uptime"] = 11,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
-										["targets"] = {
-										},
-										["uptime"] = 11,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341530] = {
-										["activedamt"] = 2,
-										["id"] = 341530,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 2,
+										["id"] = 324717,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115191] = {
-										["activedamt"] = 2,
-										["id"] = 115191,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 1,
+										["id"] = 115191,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[115192] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 115192,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 324748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8679] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = 8679,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[2983] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 2983,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[303003] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 11,
+										["id"] = 303003,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[341530] = {
 										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 4,
+										["id"] = 341530,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 0,
@@ -15235,26 +17757,26 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[2983] = 1,
 								[324748] = 1,
-								[115191] = 1,
 								[197835] = 2,
+								[115191] = 1,
 								[212743] = 2,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1621260586,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "ROGUE",
 							["serial"] = "Player-729-052440E9",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 196,
 					["tipo"] = 2,
+					["combatId"] = 196,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -15265,12 +17787,14 @@ _detalhes_database = {
 					"Reneebaby", -- [1]
 				},
 				["CombatStartedAt"] = 179630.702,
-				["overall_added"] = true,
+				["tempo_start"] = 1621260575,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 890,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["totals"] = {
 					42129.970971, -- [1]
 					5770, -- [2]
@@ -15284,15 +17808,62 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "22:09:46",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "灰烬护命匣",
+				["TotalElapsedCombatTime"] = 179609.77,
+				["CombatEndedAt"] = 179609.77,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Reneebaby"] = 10887.01424,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Reneebaby"] = 60890.023029,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 179610.291,
+				["combat_id"] = 196,
+				["resincked"] = true,
+				["data_inicio"] = "22:09:35",
+				["frags"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 890,
+				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
 					35633, -- [1]
@@ -15307,71 +17878,23 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "scenario",
-				["data_fim"] = "22:09:46",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "灰烬护命匣",
-				["TotalElapsedCombatTime"] = 179609.77,
-				["CombatEndedAt"] = 179609.77,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "22:09:35",
-				["end_time"] = 179610.291,
-				["combat_id"] = 196,
-				["resincked"] = true,
-				["tempo_start"] = 1621260575,
-				["frags"] = {
-				},
-				["player_last_events"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 10887.01424,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 60890.023029,
-						}, -- [1]
-					},
-				},
 				["start_time"] = 179599.287,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
-			}, -- [11]
+				["overall_added"] = true,
+			}, -- [15]
 			{
 				{
-					["combatId"] = 195,
 					["tipo"] = 2,
+					["combatId"] = 195,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -15386,22 +17909,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 131943.008119,
-							["on_hold"] = false,
 							["aID"] = "729-052440E9",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 131943.008119,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1621260566,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 8,
@@ -15433,34 +17942,6 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									}, -- [1]
-									[53] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1931,
-										["targets"] = {
-											["荒芜碎击者"] = 2681,
-										},
-										["n_dmg"] = 2681,
-										["n_min"] = 750,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 2681,
-										["c_max"] = 0,
-										["id"] = 53,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
 									[279043] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -15489,31 +17970,31 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[8680] = {
-										["c_amt"] = 4,
+									[53] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 433,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 71,
+										["n_max"] = 1931,
 										["targets"] = {
-											["荒芜碎击者"] = 1093,
+											["荒芜碎击者"] = 2681,
 										},
-										["n_dmg"] = 660,
-										["n_min"] = 52,
+										["n_dmg"] = 2681,
+										["n_min"] = 750,
 										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 1093,
-										["c_max"] = 115,
-										["id"] = 8680,
+										["counter"] = 2,
+										["total"] = 2681,
+										["c_max"] = 0,
+										["id"] = 53,
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 102,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 10,
+										["n_amt"] = 2,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
@@ -15540,6 +18021,35 @@ _detalhes_database = {
 										},
 										["a_dmg"] = 0,
 										["c_min"] = 4819,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[196819] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 11617,
+										["g_amt"] = 0,
+										["n_max"] = 4636,
+										["targets"] = {
+											["渊誓寻猎者"] = 6713,
+											["荒芜碎击者"] = 17861,
+										},
+										["n_dmg"] = 12957,
+										["n_min"] = 3700,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 24574,
+										["c_max"] = 6713,
+										["id"] = 196819,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 4904,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
@@ -15575,52 +18085,64 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
-									[196819] = {
-										["c_amt"] = 2,
+									[8680] = {
+										["c_amt"] = 4,
 										["b_amt"] = 0,
-										["c_dmg"] = 11617,
+										["c_dmg"] = 433,
 										["g_amt"] = 0,
-										["n_max"] = 4636,
+										["n_max"] = 71,
 										["targets"] = {
-											["渊誓寻猎者"] = 6713,
-											["荒芜碎击者"] = 17861,
+											["荒芜碎击者"] = 1093,
 										},
-										["n_dmg"] = 12957,
-										["n_min"] = 3700,
+										["n_dmg"] = 660,
+										["n_min"] = 52,
 										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 24574,
-										["c_max"] = 6713,
-										["id"] = 196819,
+										["counter"] = 14,
+										["total"] = 1093,
+										["c_max"] = 115,
+										["id"] = 8680,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
+										["spellschool"] = 8,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
-										["c_min"] = 4904,
+										["c_min"] = 102,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 3,
+										["n_amt"] = 10,
 										["b_dmg"] = 0,
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 261,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 131943.008119,
+							["on_hold"] = false,
 							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 7760.896895422806,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 131943.008119,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["end_time"] = 1621260566,
 							["tipo"] = 1,
-							["damage_taken"] = 19623.008119,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1621260565,
+							["last_dps"] = 7760.896895422806,
 							["start_time"] = 1621260549,
 							["delay"] = 0,
-							["last_event"] = 1621260565,
+							["damage_taken"] = 19623.008119,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 2229.002849,
-							["total"] = 12421.002849,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 								["吟树者因德里"] = true,
@@ -15629,23 +18151,22 @@ _detalhes_database = {
 								["Reneebaby"] = 10616,
 								["吟树者因德里"] = 1805,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-173136-0000227807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "173136",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 12421.002849,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 130490.002849,
+							["monster"] = true,
 							["end_time"] = 1621260566,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260563,
 							["nome"] = "荒芜碎击者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -15731,16 +18252,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "173136",
-							["serial"] = "Creature-0-3932-2162-20804-173136-0000227807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260563,
-							["damage_taken"] = 130490.002849,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260551,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 12421.002849,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -15752,21 +18275,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["serial"] = "",
-							["monster"] = true,
-							["aID"] = "",
+							["dps_started"] = false,
+							["total"] = 9007.002634,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9007.002634,
 							["spellicon"] = 236215,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 9007.002634,
-							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["monster"] = true,
+							["end_time"] = 1621260575,
+							["serial"] = "",
 							["friendlyfire_total"] = 0,
 							["nome"] = "[*] 折磨：魂铸热能",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[326469] = {
 										["c_amt"] = 0,
@@ -15797,18 +18319,19 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["end_time"] = 1621260575,
 							["on_hold"] = false,
+							["fight_component"] = true,
+							["tipo"] = 1,
+							["aID"] = "",
+							["custom"] = 0,
+							["last_event"] = 1621260568,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.002634,
 							["start_time"] = 1621260553,
 							["delay"] = 0,
-							["last_event"] = 1621260568,
+							["damage_taken"] = 0.002634,
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -15818,42 +18341,42 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["total"] = 0.004651,
+							["serial"] = "Creature-0-3932-2162-20804-152708-0001227807",
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["aID"] = "152708",
+							["monster"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004651,
+							["damage_taken"] = 18079.004651,
 							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1621260566,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
 							["nome"] = "渊誓寻猎者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "152708",
-							["serial"] = "Creature-0-3932-2162-20804-152708-0001227807",
-							["last_dps"] = 0,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 18079.004651,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260566,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 0.004651,
 						}, -- [4]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 195,
 					["tipo"] = 3,
+					["combatId"] = 195,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -15883,13 +18406,12 @@ _detalhes_database = {
 							["healing_taken"] = 13573.003936,
 							["fight_component"] = true,
 							["end_time"] = 1621260566,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[341530] = {
 										["c_amt"] = 0,
@@ -15909,11 +18431,11 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Reneebaby"] = 2240,
 										},
-										["n_amt"] = 2,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 2240,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 2240,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -15936,28 +18458,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 11333,
 										["totaldenied"] = 0,
 										["n_amt"] = 8,
+										["n_curado"] = 11333,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621260551,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621260566,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.003936,
 							["delay"] = 0,
-							["last_event"] = 1621260566,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 195,
 					["tipo"] = 7,
+					["combatId"] = 195,
 					["_ActorTable"] = {
 						{
 							["received"] = 270.008248,
@@ -15975,7 +18498,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[98440] = {
 										["total"] = 168,
@@ -16005,99 +18527,99 @@ _detalhes_database = {
 										["counter"] = 17,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.008248,
+							["tipo"] = 3,
 							["last_event"] = 1621260575,
 							["aID"] = "729-052440E9",
-							["tipo"] = 3,
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 0.008248,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 195,
 					["tipo"] = 9,
+					["combatId"] = 195,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[255909] = {
-										["activedamt"] = 0,
-										["id"] = 255909,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 255909,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5760] = {
-										["activedamt"] = 0,
-										["id"] = 5760,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 14,
-										["appliedamt"] = 2,
+										["id"] = 5760,
 										["refreshamt"] = 11,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 13,
-										["appliedamt"] = 1,
+										["id"] = 8680,
 										["refreshamt"] = 2,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 137619,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[1833] = {
-										["activedamt"] = 0,
-										["id"] = 1833,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 1833,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[316220] = {
-										["activedamt"] = 0,
-										["id"] = 316220,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 14,
-										["appliedamt"] = 2,
+										["id"] = 316220,
 										["refreshamt"] = 4,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 207,
 							["cc_done_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[1833] = {
 										["id"] = 1833,
@@ -16107,295 +18629,296 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["aID"] = "729-052440E9",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 5761,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[345228] = {
-										["activedamt"] = 1,
-										["id"] = 345228,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 345228,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 347600,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[121471] = {
-										["activedamt"] = 1,
-										["id"] = 121471,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 15,
-										["appliedamt"] = 1,
+										["id"] = 121471,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 8679,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[185422] = {
-										["activedamt"] = 1,
-										["id"] = 185422,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 8,
-										["appliedamt"] = 1,
+										["id"] = 185422,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 115192,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 342814,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 340094,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[343782] = {
-										["activedamt"] = 1,
-										["id"] = 343782,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 343782,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 16,
-										["appliedamt"] = 1,
+										["id"] = 341550,
 										["refreshamt"] = 4,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[333507] = {
-										["activedamt"] = 5,
-										["id"] = 333507,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 5,
-										["refreshamt"] = 6,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 341530,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[196980] = {
-										["activedamt"] = 2,
-										["id"] = 196980,
+									[333507] = {
+										["appliedamt"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
+										["activedamt"] = 5,
+										["uptime"] = 8,
+										["id"] = 333507,
+										["refreshamt"] = 6,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[196980] = {
 										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 5,
+										["id"] = 196980,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115191] = {
-										["activedamt"] = 1,
-										["id"] = 115191,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 115191,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[343173] = {
-										["activedamt"] = 2,
-										["id"] = 343173,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 0,
-										["appliedamt"] = 2,
+										["id"] = 343173,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 303003,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 17,
-										["appliedamt"] = 1,
+										["id"] = 324717,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 56,
-							["cc_done_targets"] = {
-								["荒芜碎击者"] = 1,
+							["spell_cast"] = {
+								[185313] = 1,
+								[121471] = 1,
+								[53] = 2,
+								[1833] = 1,
+								[137619] = 1,
+								[315496] = 1,
+								[185438] = 5,
+								[196819] = 5,
 							},
 							["cc_done"] = 1.007339,
 							["nome"] = "Reneebaby",
 							["spec"] = 261,
 							["grupo"] = true,
-							["spell_cast"] = {
-								[185313] = 1,
-								[121471] = 1,
-								[1833] = 1,
-								[53] = 2,
-								[137619] = 1,
-								[196819] = 5,
-								[185438] = 5,
-								[315496] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1621260566,
-							["pets"] = {
+							["cc_done_targets"] = {
+								["荒芜碎击者"] = 1,
 							},
 							["classe"] = "ROGUE",
-							["serial"] = "Player-729-052440E9",
+							["buff_uptime_targets"] = {
+							},
 							["tipo"] = 4,
+							["pets"] = {
+							},
+							["last_event"] = 1621260566,
+							["serial"] = "Player-729-052440E9",
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "荒芜碎击者",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[325605] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-173136-0000227807",
 							["aID"] = "173136",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 195,
 					["tipo"] = 2,
+					["combatId"] = 195,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -16425,76 +18948,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					131943, -- [1]
-					13573, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 270,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "scenario",
-				["data_fim"] = "22:09:26",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "荒芜碎击者",
-				["TotalElapsedCombatTime"] = 179589.968,
-				["CombatEndedAt"] = 179589.968,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 13573.003936,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 131943.008119,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 179590.384,
-				["combat_id"] = 195,
-				["overall_added"] = true,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Reneebaby"] = {
@@ -16575,22 +19037,84 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["data_inicio"] = "22:09:09",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "22:09:26",
+				["cleu_timeline"] = {
 				},
+				["enemy"] = "荒芜碎击者",
+				["TotalElapsedCombatTime"] = 179589.968,
+				["CombatEndedAt"] = 179589.968,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Reneebaby"] = 13573.003936,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Reneebaby"] = 131943.008119,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 179590.384,
+				["combat_id"] = 195,
+				["overall_added"] = true,
 				["frags"] = {
 					["渊誓寻猎者"] = 1,
 					["荒芜碎击者"] = 1,
 				},
-				["start_time"] = 179573.383,
+				["spells_cast_timeline"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["TimeData"] = {
 				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					131943, -- [1]
+					13573, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 270,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 179573.383,
 				["contra"] = "渊誓寻猎者",
-			}, -- [12]
+				["data_inicio"] = "22:09:09",
+			}, -- [16]
 			{
 				{
-					["combatId"] = 194,
 					["tipo"] = 2,
+					["combatId"] = 194,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -16606,22 +19130,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 61246.004101,
-							["on_hold"] = false,
 							["aID"] = "729-052440E9",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 61246.004101,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1621260542,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 7,
@@ -16768,17 +19278,31 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 261,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 61246.004101,
+							["on_hold"] = false,
 							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 6799.822815689585,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 61246.004101,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["end_time"] = 1621260542,
 							["tipo"] = 1,
-							["damage_taken"] = 9776.004101,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1621260540,
+							["last_dps"] = 6799.822815689585,
 							["start_time"] = 1621260533,
 							["delay"] = 0,
-							["last_event"] = 1621260540,
+							["damage_taken"] = 9776.004101,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -16790,21 +19314,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["serial"] = "",
-							["monster"] = true,
-							["aID"] = "",
+							["dps_started"] = false,
+							["total"] = 5058.007798000001,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5058.007798000001,
 							["spellicon"] = 236215,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 5058.007798000001,
-							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["monster"] = true,
+							["end_time"] = 1621260549,
+							["serial"] = "",
 							["friendlyfire_total"] = 0,
 							["nome"] = "[*] 折磨：魂铸热能",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[326469] = {
 										["c_amt"] = 0,
@@ -16835,46 +19358,45 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["end_time"] = 1621260549,
 							["on_hold"] = false,
+							["fight_component"] = true,
+							["tipo"] = 1,
+							["aID"] = "",
+							["custom"] = 0,
+							["last_event"] = 1621260543,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.007798,
 							["start_time"] = 1621260538,
 							["delay"] = 0,
-							["last_event"] = 1621260543,
+							["damage_taken"] = 0.007798,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 2138.002321,
-							["total"] = 4199.002321,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 4199,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-157571-0003227807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "157571",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4199.002321,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 41918.002321,
+							["monster"] = true,
 							["end_time"] = 1621260542,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260538,
 							["nome"] = "渊誓护火者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[347404] = {
 										["c_amt"] = 0,
@@ -16932,21 +19454,22 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "157571",
-							["serial"] = "Creature-0-3932-2162-20804-157571-0003227807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260538,
-							["damage_taken"] = 41918.002321,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260537,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 4199.002321,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.00662,
-							["total"] = 519.00662,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 								["吟树者因德里"] = true,
@@ -16954,23 +19477,22 @@ _detalhes_database = {
 							["targets"] = {
 								["Reneebaby"] = 519,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-157583-0005227807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "157583",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 519.00662,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 20270.00662,
+							["monster"] = true,
 							["end_time"] = 1621260542,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260537,
 							["nome"] = "熔炉守护者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[347404] = {
 										["c_amt"] = 0,
@@ -17000,22 +19522,24 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "157583",
-							["serial"] = "Creature-0-3932-2162-20804-157583-0005227807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260537,
-							["damage_taken"] = 20270.00662,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260537,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 519.00662,
 						}, -- [4]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 194,
 					["tipo"] = 3,
+					["combatId"] = 194,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -17046,13 +19570,12 @@ _detalhes_database = {
 							["healing_taken"] = 10579.0059,
 							["fight_component"] = true,
 							["end_time"] = 1621260542,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[341530] = {
 										["c_amt"] = 0,
@@ -17072,11 +19595,11 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Reneebaby"] = 4940,
 										},
-										["n_amt"] = 3,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 4940,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 4940,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -17100,28 +19623,29 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 5639,
 										["totaldenied"] = 0,
 										["n_amt"] = 4,
+										["n_curado"] = 5639,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621260533,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621260541,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.0059,
 							["delay"] = 0,
-							["last_event"] = 1621260541,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 194,
 					["tipo"] = 7,
+					["combatId"] = 194,
 					["_ActorTable"] = {
 						{
 							["received"] = 163.006574,
@@ -17139,17 +19663,7 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
-									[212283] = {
-										["total"] = 4,
-										["id"] = 212283,
-										["totalover"] = 36,
-										["targets"] = {
-											["Reneebaby"] = 4,
-										},
-										["counter"] = 1,
-									},
 									[98440] = {
 										["total"] = 102,
 										["id"] = 98440,
@@ -17158,15 +19672,6 @@ _detalhes_database = {
 											["Reneebaby"] = 102,
 										},
 										["counter"] = 4,
-									},
-									[196911] = {
-										["total"] = 16,
-										["id"] = 196911,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 16,
-										},
-										["counter"] = 2,
 									},
 									[196980] = {
 										["total"] = 41,
@@ -17177,312 +19682,331 @@ _detalhes_database = {
 										},
 										["counter"] = 12,
 									},
+									[196911] = {
+										["total"] = 16,
+										["id"] = 196911,
+										["totalover"] = 0,
+										["targets"] = {
+											["Reneebaby"] = 16,
+										},
+										["counter"] = 2,
+									},
+									[212283] = {
+										["total"] = 4,
+										["id"] = 212283,
+										["totalover"] = 36,
+										["targets"] = {
+											["Reneebaby"] = 4,
+										},
+										["counter"] = 1,
+									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.006574,
+							["tipo"] = 3,
 							["last_event"] = 1621260549,
 							["aID"] = "729-052440E9",
-							["tipo"] = 3,
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 37.006574,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 194,
 					["tipo"] = 9,
+					["combatId"] = 194,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
-									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									[316220] = {
-										["activedamt"] = 0,
-										["id"] = 316220,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 316220,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
+									[137619] = {
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
-										["uptime"] = 5,
-										["appliedamt"] = 2,
-										["refreshamt"] = 2,
+										["activedamt"] = 0,
+										["uptime"] = 2,
+										["id"] = 137619,
+										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[5760] = {
-										["activedamt"] = 0,
-										["id"] = 5760,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 6,
-										["appliedamt"] = 3,
+										["id"] = 5760,
 										["refreshamt"] = 7,
 										["actived"] = false,
 										["counter"] = 0,
 									},
+									[8680] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 5,
+										["id"] = 8680,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 122,
 							["aID"] = "729-052440E9",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[196980] = {
-										["activedamt"] = 2,
-										["id"] = 196980,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 4,
-										["appliedamt"] = 2,
+										["id"] = 196980,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[345228] = {
-										["activedamt"] = 1,
-										["id"] = 345228,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 345228,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 347600,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[212283] = {
-										["activedamt"] = 1,
-										["id"] = 212283,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 212283,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 8679,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[185422] = {
-										["activedamt"] = 1,
-										["id"] = 185422,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 185422,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 115192,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 324717,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 342814,
 										["refreshamt"] = 2,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 340094,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 303003,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[227151] = {
-										["activedamt"] = 1,
-										["id"] = 227151,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 227151,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[333507] = {
-										["activedamt"] = 2,
-										["id"] = 333507,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 5,
-										["appliedamt"] = 2,
+										["id"] = 333507,
 										["refreshamt"] = 3,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
+									[343173] = {
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["activedamt"] = 2,
+										["uptime"] = 0,
+										["id"] = 343173,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[343173] = {
-										["activedamt"] = 2,
-										["id"] = 343173,
+									[5761] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 0,
-										["appliedamt"] = 2,
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 5761,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 324748,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115191] = {
-										["activedamt"] = 1,
-										["id"] = 115191,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 115191,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 4,
-										["appliedamt"] = 1,
+										["id"] = 341530,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 341550,
 										["refreshamt"] = 4,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 9,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 15,
@@ -17491,62 +20015,62 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spell_cast"] = {
 								[185313] = 1,
-								[185438] = 2,
-								[345228] = 1,
-								[324748] = 2,
-								[196819] = 4,
 								[212283] = 1,
+								[345228] = 1,
 								[137619] = 2,
+								[196819] = 4,
+								[185438] = 2,
+								[324748] = 2,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1621260542,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "ROGUE",
 							["serial"] = "Player-729-052440E9",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "渊誓护火者",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[347404] = 1,
 								[275983] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-157571-0003227807",
 							["aID"] = "157571",
 						}, -- [2]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "熔炉守护者",
 							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[347404] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-157583-0005227807",
 							["aID"] = "157583",
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 194,
 					["tipo"] = 2,
+					["combatId"] = 194,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -17558,15 +20082,12 @@ _detalhes_database = {
 				},
 				["CombatStartedAt"] = 179573.383,
 				["tempo_start"] = 1621260533,
-				["cleu_timeline"] = {
+				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["enemy"] = "渊誓护火者",
 				["cleu_events"] = {
 					["n"] = 1,
-				},
-				["last_events_tables"] = {
 				},
 				["totals"] = {
 					71021.985635, -- [1]
@@ -17581,19 +20102,46 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["TotalElapsedCombatTime"] = 179565.658,
-				["combat_counter"] = 888,
+				["totals_grupo"] = {
+					61246, -- [1]
+					10579, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 163,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
 				["frags_need_refresh"] = true,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "22:09:02",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "渊誓护火者",
+				["TotalElapsedCombatTime"] = 179565.658,
+				["CombatEndedAt"] = 179565.658,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
@@ -17603,14 +20151,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Reneebaby"] = 10579.0059,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -17619,6 +20167,14 @@ _detalhes_database = {
 					},
 				},
 				["end_time"] = 179566.371,
+				["combat_id"] = 194,
+				["combat_counter"] = 888,
+				["spells_cast_timeline"] = {
+				},
+				["frags"] = {
+					["熔炉守护者"] = 1,
+					["渊誓护火者"] = 2,
+				},
 				["player_last_events"] = {
 					["Reneebaby"] = {
 						{
@@ -17698,49 +20254,18 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["combat_id"] = 194,
-				["instance_type"] = "scenario",
-				["CombatEndedAt"] = 179565.658,
-				["data_inicio"] = "22:08:53",
-				["spells_cast_timeline"] = {
-				},
-				["data_fim"] = "22:09:02",
-				["totals_grupo"] = {
-					61246, -- [1]
-					10579, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 163,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
 				["CombatSkillCache"] = {
 				},
-				["frags"] = {
-					["熔炉守护者"] = 1,
-					["渊誓护火者"] = 2,
-				},
-				["start_time"] = 179557.364,
 				["TimeData"] = {
 				},
+				["start_time"] = 179557.364,
 				["contra"] = "渊誓护火者",
-			}, -- [13]
+				["data_inicio"] = "22:08:53",
+			}, -- [17]
 			{
 				{
-					["combatId"] = 193,
 					["tipo"] = 2,
+					["combatId"] = 193,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -17757,22 +20282,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 27768.004278,
-							["on_hold"] = false,
 							["aID"] = "729-052440E9",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 27768.004278,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1621260529,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 5,
@@ -17891,17 +20402,31 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 261,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 27768.004278,
+							["on_hold"] = false,
 							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 5441.505835387968,
-							["custom"] = 0,
+							["dps_started"] = false,
+							["total"] = 27768.004278,
+							["classe"] = "ROGUE",
+							["friendlyfire"] = {
+							},
+							["nome"] = "Reneebaby",
+							["spec"] = 261,
+							["grupo"] = true,
+							["end_time"] = 1621260529,
 							["tipo"] = 1,
-							["damage_taken"] = 3218.004278,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1621260527,
+							["last_dps"] = 5441.505835387968,
 							["start_time"] = 1621260523,
 							["delay"] = 0,
-							["last_event"] = 1621260527,
+							["damage_taken"] = 3218.004278,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -17911,64 +20436,62 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["total"] = 0.006663,
+							["serial"] = "Creature-0-3932-2162-20804-157572-0000227807",
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["aID"] = "157572",
+							["monster"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006663,
+							["damage_taken"] = 7507.006663,
 							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1621260529,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
 							["nome"] = "渊誓召火者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "157572",
-							["serial"] = "Creature-0-3932-2162-20804-157572-0000227807",
-							["last_dps"] = 0,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 7507.006663,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260529,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 0.006663,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 241.003799,
-							["total"] = 241.003799,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 241,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-151353-0003227807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "151353",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 241.003799,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 7011.003799,
+							["monster"] = true,
 							["end_time"] = 1621260529,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260524,
 							["nome"] = "噬渊鼠",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -17999,44 +20522,44 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "151353",
-							["serial"] = "Creature-0-3932-2162-20804-151353-0003227807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260524,
-							["damage_taken"] = 7011.003799,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260524,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 241.003799,
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 493.005392,
-							["total"] = 493.005392,
 							["damage_from"] = {
 								["Reneebaby"] = true,
 							},
 							["targets"] = {
 								["Reneebaby"] = 493,
 							},
+							["serial"] = "Creature-0-3932-2162-20804-157583-0000A27807",
 							["pets"] = {
 							},
-							["monster"] = true,
+							["aID"] = "157583",
 							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 493.005392,
-							["on_hold"] = false,
-							["dps_started"] = false,
+							["damage_taken"] = 13250.005392,
+							["monster"] = true,
 							["end_time"] = 1621260529,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
+							["last_event"] = 1621260526,
 							["nome"] = "熔炉守护者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[347404] = {
 										["c_amt"] = 0,
@@ -18066,16 +20589,18 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "157583",
-							["serial"] = "Creature-0-3932-2162-20804-157583-0000A27807",
-							["last_dps"] = 0,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1621260526,
-							["damage_taken"] = 13250.005392,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1621260526,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["total"] = 493.005392,
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
@@ -18087,21 +20612,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["serial"] = "",
-							["monster"] = true,
-							["aID"] = "",
+							["dps_started"] = false,
+							["total"] = 2484.001437,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2484.001437,
 							["spellicon"] = 236215,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 2484.001437,
-							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["monster"] = true,
+							["end_time"] = 1621260529,
+							["serial"] = "",
 							["friendlyfire_total"] = 0,
 							["nome"] = "[*] 折磨：魂铸热能",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[326469] = {
 										["c_amt"] = 0,
@@ -18132,24 +20656,25 @@ _detalhes_database = {
 										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["end_time"] = 1621260529,
 							["on_hold"] = false,
+							["fight_component"] = true,
+							["tipo"] = 1,
+							["aID"] = "",
+							["custom"] = 0,
+							["last_event"] = 1621260528,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.001437,
 							["start_time"] = 1621260528,
 							["delay"] = 0,
-							["last_event"] = 1621260528,
+							["damage_taken"] = 0.001437,
 						}, -- [5]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 193,
 					["tipo"] = 3,
+					["combatId"] = 193,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -18179,13 +20704,12 @@ _detalhes_database = {
 							["healing_taken"] = 4864.007483,
 							["fight_component"] = true,
 							["end_time"] = 1621260529,
+							["aID"] = "729-052440E9",
 							["healing_from"] = {
 								["Reneebaby"] = true,
 							},
-							["heal_enemy_amt"] = 0,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[158188] = {
 										["c_amt"] = 0,
@@ -18206,9 +20730,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 3119,
 										["totaldenied"] = 0,
 										["n_amt"] = 2,
+										["n_curado"] = 3119,
 										["absorbed"] = 0,
 									},
 									[341530] = {
@@ -18229,31 +20753,32 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Reneebaby"] = 1745,
 										},
-										["n_amt"] = 3,
-										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_curado"] = 1745,
+										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 1745,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
 							["start_time"] = 1621260523,
 							["spec"] = 261,
 							["custom"] = 0,
+							["last_event"] = 1621260528,
 							["tipo"] = 2,
-							["aID"] = "729-052440E9",
 							["totaldenied"] = 0.007483,
 							["delay"] = 0,
-							["last_event"] = 1621260528,
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 193,
 					["tipo"] = 7,
+					["combatId"] = 193,
 					["_ActorTable"] = {
 						{
 							["received"] = 111.007962,
@@ -18271,7 +20796,6 @@ _detalhes_database = {
 							["resource_type"] = 4,
 							["nome"] = "Reneebaby",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[196980] = {
 										["total"] = 13,
@@ -18301,57 +20825,35 @@ _detalhes_database = {
 										["counter"] = 3,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["spec"] = 261,
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.007962,
+							["tipo"] = 3,
 							["last_event"] = 1621260533,
 							["aID"] = "729-052440E9",
-							["tipo"] = 3,
 							["serial"] = "Player-729-052440E9",
 							["totalover"] = 0.007962,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 193,
 					["tipo"] = 9,
+					["combatId"] = 193,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
-									[5760] = {
-										["activedamt"] = 0,
-										["id"] = 5760,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 8680,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
@@ -18368,168 +20870,191 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
+									[5760] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 1,
+										["id"] = 5760,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[137619] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 1,
+										["id"] = 137619,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 67,
 							["aID"] = "729-052440E9",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 5761,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 3,
-										["appliedamt"] = 1,
+										["id"] = 340094,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 303003,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[196980] = {
-										["activedamt"] = 1,
-										["id"] = 196980,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["id"] = 196980,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 341550,
 										["refreshamt"] = 3,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 342814,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 324717,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 315496,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 2,
-										["appliedamt"] = 1,
+										["id"] = 115192,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[333507] = {
-										["activedamt"] = 2,
-										["id"] = 333507,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
 										["uptime"] = 3,
-										["appliedamt"] = 2,
+										["id"] = 333507,
 										["refreshamt"] = 1,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 8679,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 347600,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 6,
-										["appliedamt"] = 1,
+										["id"] = 225787,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
 										["uptime"] = 5,
-										["appliedamt"] = 1,
+										["id"] = 341530,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 4,
@@ -18543,36 +21068,36 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
 							["last_event"] = 1621260529,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["classe"] = "ROGUE",
 							["serial"] = "Player-729-052440E9",
-							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["tipo"] = 4,
 							["nome"] = "熔炉守护者",
 							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[347404] = 1,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
 							["pets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3932-2162-20804-157583-0000A27807",
 							["aID"] = "157583",
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 193,
 					["tipo"] = 2,
+					["combatId"] = 193,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -18584,15 +21109,12 @@ _detalhes_database = {
 				},
 				["CombatStartedAt"] = 179557.364,
 				["tempo_start"] = 1621260523,
-				["cleu_timeline"] = {
+				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["enemy"] = "噬渊鼠",
 				["cleu_events"] = {
 					["n"] = 1,
-				},
-				["last_events_tables"] = {
 				},
 				["totals"] = {
 					30986, -- [1]
@@ -18607,53 +21129,16 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
-				["TotalElapsedCombatTime"] = 179552.702,
-				["combat_counter"] = 887,
-				["frags_need_refresh"] = true,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 4864.007483,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 27768.004278,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 179553.623,
-				["player_last_events"] = {
-				},
-				["combat_id"] = 193,
-				["instance_type"] = "scenario",
-				["CombatEndedAt"] = 179552.702,
-				["data_inicio"] = "22:08:43",
-				["spells_cast_timeline"] = {
-				},
-				["data_fim"] = "22:08:49",
 				["totals_grupo"] = {
 					27768, -- [1]
 					4864, -- [2]
@@ -18667,5917 +21152,66 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "22:08:49",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "噬渊鼠",
+				["TotalElapsedCombatTime"] = 179552.702,
+				["CombatEndedAt"] = 179552.702,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Reneebaby"] = 4864.007483,
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Reneebaby"] = 27768.004278,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 179553.623,
+				["combat_id"] = 193,
+				["combat_counter"] = 887,
+				["spells_cast_timeline"] = {
 				},
 				["frags"] = {
 					["渊誓召火者"] = 1,
 					["噬渊鼠"] = 1,
 					["熔炉守护者"] = 1,
 				},
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["TimeData"] = {
+				},
 				["start_time"] = 179547.623,
-				["TimeData"] = {
-				},
 				["contra"] = "渊誓召火者",
-			}, -- [14]
-			{
-				{
-					["combatId"] = 192,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.004606,
-							["damage_from"] = {
-								["[*] 折磨：魂铸热能"] = true,
-								["渊誓哨兵"] = true,
-								["渊誓护火者"] = true,
-							},
-							["targets"] = {
-								["渊誓召火者"] = 4258,
-								["渊誓哨兵"] = 22821,
-								["渊誓护火者"] = 20105,
-							},
-							["pets"] = {
-							},
-							["total"] = 47184.004606,
-							["on_hold"] = false,
-							["aID"] = "729-052440E9",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 47184.004606,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1621260523,
-							["classe"] = "ROGUE",
-							["friendlyfire_total"] = 0,
-							["nome"] = "Reneebaby",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 8,
-										["b_amt"] = 0,
-										["c_dmg"] = 5794,
-										["g_amt"] = 0,
-										["n_max"] = 439,
-										["targets"] = {
-											["渊誓召火者"] = 0,
-											["渊誓哨兵"] = 1790,
-											["渊誓护火者"] = 4661,
-										},
-										["n_dmg"] = 657,
-										["n_min"] = 218,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 6451,
-										["c_max"] = 918,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["MISS"] = 4,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 433,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[328305] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1651,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["渊誓护火者"] = 1651,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1651,
-										["c_max"] = 1651,
-										["id"] = 328305,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1651,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[8680] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 405,
-										["g_amt"] = 0,
-										["n_max"] = 50,
-										["targets"] = {
-											["渊誓哨兵"] = 405,
-											["渊誓护火者"] = 50,
-										},
-										["n_dmg"] = 50,
-										["n_min"] = 50,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 455,
-										["c_max"] = 102,
-										["id"] = 8680,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 101,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[53] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1475,
-										["g_amt"] = 0,
-										["n_max"] = 1826,
-										["targets"] = {
-											["渊誓护火者"] = 3301,
-										},
-										["n_dmg"] = 1826,
-										["n_min"] = 1826,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 3301,
-										["c_max"] = 1475,
-										["id"] = 53,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1475,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[328082] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 3411,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["渊誓哨兵"] = 3411,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 3411,
-										["c_max"] = 3411,
-										["id"] = 328082,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 3411,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[185438] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 16592,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["渊誓哨兵"] = 12334,
-											["渊誓召火者"] = 4258,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 16592,
-										["c_max"] = 8155,
-										["id"] = 185438,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 4179,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[196819] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 15323,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["渊誓哨兵"] = 4881,
-											["渊誓护火者"] = 10442,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 15323,
-										["c_max"] = 5839,
-										["id"] = 196819,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 4603,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 261,
-							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 5242.667178444444,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 11108.004606,
-							["start_time"] = 1621260511,
-							["delay"] = 0,
-							["last_event"] = 1621260522,
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.008466,
-							["total"] = 6492.008466,
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-								["Reneebaby"] = 6492,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6492.008466,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1621260520,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "渊誓护火者",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[347404] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 629,
-										["targets"] = {
-											["Reneebaby"] = 629,
-										},
-										["n_dmg"] = 629,
-										["n_min"] = 629,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 629,
-										["c_max"] = 0,
-										["id"] = 347404,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 629,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 1,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[275983] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2109,
-										["targets"] = {
-											["Reneebaby"] = 5863,
-										},
-										["n_dmg"] = 5863,
-										["n_min"] = 1684,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 5863,
-										["c_max"] = 0,
-										["id"] = 275983,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 3,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["aID"] = "157571",
-							["serial"] = "Creature-0-3932-2162-20804-157571-0000227807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621260518,
-							["damage_taken"] = 20105.008466,
-							["start_time"] = 1621260513,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.008801,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Reneebaby"] = 2507,
-							},
-							["pets"] = {
-							},
-							["serial"] = "",
-							["monster"] = true,
-							["aID"] = "",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 2507.008801,
-							["spellicon"] = 236215,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 2507.008801,
-							["classe"] = "UNKNOW",
-							["friendlyfire_total"] = 0,
-							["nome"] = "[*] 折磨：魂铸热能",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[326469] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2507,
-										["targets"] = {
-											["Reneebaby"] = 2507,
-										},
-										["n_dmg"] = 2507,
-										["n_min"] = 2507,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2507,
-										["c_max"] = 0,
-										["id"] = 326469,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["end_time"] = 1621260520,
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.008801,
-							["start_time"] = 1621260518,
-							["delay"] = 0,
-							["last_event"] = 1621260518,
-						}, -- [3]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 1138.001999,
-							["total"] = 2109.001999,
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-								["Reneebaby"] = 2109,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 2109.001999,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1621260520,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "渊誓哨兵",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1138,
-										["targets"] = {
-											["Reneebaby"] = 2109,
-										},
-										["n_dmg"] = 2109,
-										["n_min"] = 971,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 2109,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-								},
-							},
-							["aID"] = "153874",
-							["serial"] = "Creature-0-3932-2162-20804-153874-0000A27807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621260513,
-							["damage_taken"] = 22821.001999,
-							["start_time"] = 1621260511,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [4]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 192,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Reneebaby"] = 2500,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
-							["totalover"] = 2500.007124,
-							["total_without_pet"] = 5115.007124,
-							["total"] = 5115.007124,
-							["targets_absorbs"] = {
-								["Reneebaby"] = 4802,
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["serial"] = "Player-729-052440E9",
-							["totalabsorb"] = 4802.007124,
-							["last_hps"] = 2027.351218378269,
-							["targets"] = {
-								["Reneebaby"] = 5115,
-							},
-							["totalover_without_pet"] = 0.007124,
-							["healing_taken"] = 5115.007124,
-							["fight_component"] = true,
-							["end_time"] = 1621260520,
-							["healing_from"] = {
-								["Reneebaby"] = true,
-							},
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Reneebaby",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[341530] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 4802,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 2241,
-										["targets"] = {
-											["Reneebaby"] = 4802,
-										},
-										["n_min"] = 452,
-										["counter"] = 4,
-										["overheal"] = 0,
-										["total"] = 4802,
-										["c_max"] = 0,
-										["id"] = 341530,
-										["targets_absorbs"] = {
-											["Reneebaby"] = 4802,
-										},
-										["n_amt"] = 4,
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 4802,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[158188] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Reneebaby"] = 2500,
-										},
-										["n_max"] = 177,
-										["targets"] = {
-											["Reneebaby"] = 313,
-										},
-										["n_min"] = 136,
-										["counter"] = 2,
-										["overheal"] = 2500,
-										["total"] = 313,
-										["c_max"] = 0,
-										["id"] = 158188,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 313,
-										["totaldenied"] = 0,
-										["n_amt"] = 2,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["start_time"] = 1621260511,
-							["spec"] = 261,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "729-052440E9",
-							["totaldenied"] = 0.007124,
-							["delay"] = 0,
-							["last_event"] = 1621260513,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 192,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["received"] = 127.002773,
-							["resource"] = 16.002773,
-							["targets"] = {
-								["Reneebaby"] = 127,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 3,
-							["classe"] = "ROGUE",
-							["passiveover"] = 0.002773,
-							["fight_component"] = true,
-							["total"] = 127.002773,
-							["resource_type"] = 4,
-							["nome"] = "Reneebaby",
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-									[98440] = {
-										["total"] = 78,
-										["id"] = 98440,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 78,
-										},
-										["counter"] = 3,
-									},
-									[196911] = {
-										["total"] = 16,
-										["id"] = 196911,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 16,
-										},
-										["counter"] = 2,
-									},
-									[196980] = {
-										["total"] = 33,
-										["id"] = 196980,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 33,
-										},
-										["counter"] = 9,
-									},
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 261,
-							["flag_original"] = 1297,
-							["alternatepower"] = 0.002773,
-							["last_event"] = 1621260523,
-							["aID"] = "729-052440E9",
-							["tipo"] = 3,
-							["serial"] = "Player-729-052440E9",
-							["totalover"] = 0.002773,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 192,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[328305] = {
-										["activedamt"] = 0,
-										["id"] = 328305,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5760] = {
-										["activedamt"] = 0,
-										["id"] = 5760,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 2,
-										["refreshamt"] = 8,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 2,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[316220] = {
-										["activedamt"] = 0,
-										["id"] = 316220,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 102,
-							["aID"] = "729-052440E9",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[333507] = {
-										["activedamt"] = 2,
-										["id"] = 333507,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 2,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[343173] = {
-										["activedamt"] = 1,
-										["id"] = 343173,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[196980] = {
-										["activedamt"] = 1,
-										["id"] = 196980,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[115191] = {
-										["activedamt"] = 1,
-										["id"] = 115191,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[2983] = {
-										["activedamt"] = 1,
-										["id"] = 2983,
-										["targets"] = {
-										},
-										["uptime"] = 7,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341550] = {
-										["activedamt"] = 2,
-										["id"] = 341550,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 2,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 17,
-							["nome"] = "Reneebaby",
-							["spec"] = 261,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[328305] = 1,
-								[53] = 2,
-								[137619] = 1,
-								[196819] = 3,
-								[185438] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1621260520,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-729-052440E9",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["monster"] = true,
-							["nome"] = "渊誓护火者",
-							["flag_original"] = 2632,
-							["spell_cast"] = {
-								[347404] = 1,
-								[275983] = 3,
-							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3932-2162-20804-157571-0000227807",
-							["aID"] = "157571",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 192,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Reneebaby"] = true,
-				},
-				["raid_roster_indexed"] = {
-					"Reneebaby", -- [1]
-				},
-				["CombatStartedAt"] = 179546.726,
-				["tempo_start"] = 1621260511,
-				["cleu_timeline"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "渊誓哨兵",
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["last_events_tables"] = {
-				},
-				["totals"] = {
-					58291.992993, -- [1]
-					5115, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 127,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["TotalElapsedCombatTime"] = 179544.189,
-				["combat_counter"] = 886,
-				["frags_need_refresh"] = true,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 5115.007124,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 42926.004606,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 179544.658,
-				["player_last_events"] = {
-				},
-				["combat_id"] = 192,
-				["instance_type"] = "scenario",
-				["CombatEndedAt"] = 179544.189,
-				["data_inicio"] = "22:08:31",
-				["spells_cast_timeline"] = {
-				},
-				["data_fim"] = "22:08:40",
-				["totals_grupo"] = {
-					47184, -- [1]
-					5115, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 127,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["渊誓哨兵"] = 1,
-					["渊誓护火者"] = 1,
-				},
-				["start_time"] = 179535.658,
-				["TimeData"] = {
-				},
-				["contra"] = "渊誓哨兵",
-			}, -- [15]
-			{
-				{
-					["combatId"] = 191,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.006302,
-							["damage_from"] = {
-								["噬渊鼠"] = true,
-								["[*] 折磨：魂铸热能"] = true,
-								["渊誓哨兵"] = true,
-								["焰炉执行者"] = true,
-							},
-							["targets"] = {
-								["噬渊鼠"] = 4916,
-								["焰炉执行者"] = 31038,
-								["渊誓哨兵"] = 21028,
-								["熔炉守护者"] = 12194,
-							},
-							["pets"] = {
-							},
-							["spec"] = 261,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 69176.006302,
-							["end_time"] = 1621260505,
-							["colocacao"] = 1,
-							["dps_started"] = false,
-							["total"] = 69176.006302,
-							["aID"] = "729-052440E9",
-							["classe"] = "ROGUE",
-							["nome"] = "Reneebaby",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 12,
-										["b_amt"] = 0,
-										["c_dmg"] = 9184,
-										["g_amt"] = 0,
-										["n_max"] = 644,
-										["targets"] = {
-											["噬渊鼠"] = 1655,
-											["焰炉执行者"] = 4078,
-											["渊誓哨兵"] = 3696,
-											["熔炉守护者"] = 2460,
-										},
-										["n_dmg"] = 2705,
-										["n_min"] = 310,
-										["g_dmg"] = 0,
-										["counter"] = 21,
-										["total"] = 11889,
-										["c_max"] = 1251,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["MISS"] = 3,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 427,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 6,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[8680] = {
-										["c_amt"] = 8,
-										["b_amt"] = 0,
-										["c_dmg"] = 878,
-										["g_amt"] = 0,
-										["n_max"] = 72,
-										["targets"] = {
-											["焰炉执行者"] = 420,
-											["渊誓哨兵"] = 530,
-											["熔炉守护者"] = 208,
-										},
-										["n_dmg"] = 280,
-										["n_min"] = 68,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 1158,
-										["c_max"] = 140,
-										["id"] = 8680,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 102,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[328082] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 10017,
-										["g_amt"] = 0,
-										["n_max"] = 2711,
-										["targets"] = {
-											["渊誓哨兵"] = 5765,
-											["焰炉执行者"] = 6963,
-										},
-										["n_dmg"] = 2711,
-										["n_min"] = 2711,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 12728,
-										["c_max"] = 4252,
-										["id"] = 328082,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 2164,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[196819] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 10108,
-										["g_amt"] = 0,
-										["n_max"] = 3663,
-										["targets"] = {
-											["噬渊鼠"] = 3261,
-											["焰炉执行者"] = 10145,
-											["渊誓哨兵"] = 6418,
-											["熔炉守护者"] = 5156,
-										},
-										["n_dmg"] = 14872,
-										["n_min"] = 1466,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 24980,
-										["c_max"] = 5156,
-										["id"] = 196819,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 4952,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[185438] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 11954,
-										["g_amt"] = 0,
-										["n_max"] = 2449,
-										["targets"] = {
-											["焰炉执行者"] = 9432,
-											["渊誓哨兵"] = 3013,
-											["熔炉守护者"] = 4370,
-										},
-										["n_dmg"] = 4861,
-										["n_min"] = 2412,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 16815,
-										["c_max"] = 4571,
-										["id"] = 185438,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 3013,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[53] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1606,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["渊誓哨兵"] = 1606,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1606,
-										["c_max"] = 1606,
-										["id"] = 53,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1606,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 4938.321409336946,
-							["custom"] = 0,
-							["last_event"] = 1621260504,
-							["damage_taken"] = 16507.006302,
-							["start_time"] = 1621260491,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.006006,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Reneebaby"] = 8962,
-							},
-							["spellicon"] = 236215,
-							["serial"] = "",
-							["pets"] = {
-							},
-							["aID"] = "",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 8962.006006,
-							["fight_component"] = true,
-							["end_time"] = 1621260511,
-							["dps_started"] = false,
-							["total"] = 8962.006006,
-							["classe"] = "UNKNOW",
-							["monster"] = true,
-							["nome"] = "[*] 折磨：魂铸热能",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[326469] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2241,
-										["targets"] = {
-											["Reneebaby"] = 8962,
-										},
-										["n_dmg"] = 8962,
-										["n_min"] = 2240,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 8962,
-										["c_max"] = 0,
-										["id"] = 326469,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
-										["a_dmg"] = 2241,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 1,
-										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.006006,
-							["start_time"] = 1621260493,
-							["delay"] = 0,
-							["last_event"] = 1621260508,
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.003351,
-							["aID"] = "157634",
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-								["Reneebaby"] = 4126,
-							},
-							["end_time"] = 1621260505,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 4126.003351,
-							["monster"] = true,
-							["dps_started"] = false,
-							["total"] = 4126.003351,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "焰炉执行者",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1517,
-										["targets"] = {
-											["Reneebaby"] = 2813,
-										},
-										["n_dmg"] = 2813,
-										["n_min"] = 1296,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 2813,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["PARRY"] = 1,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[308026] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 308026,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[308030] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1313,
-										["targets"] = {
-											["Reneebaby"] = 1313,
-										},
-										["n_dmg"] = 1313,
-										["n_min"] = 1313,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1313,
-										["c_max"] = 0,
-										["id"] = 308030,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-157634-0000227807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621260499,
-							["damage_taken"] = 31038.003351,
-							["start_time"] = 1621260494,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [3]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 2108.001678,
-							["aID"] = "153874",
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-								["Reneebaby"] = 3209,
-							},
-							["end_time"] = 1621260505,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3209.001678,
-							["monster"] = true,
-							["dps_started"] = false,
-							["total"] = 3209.001678,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "渊誓哨兵",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1137,
-										["targets"] = {
-											["Reneebaby"] = 2204,
-										},
-										["n_dmg"] = 2204,
-										["n_min"] = 1067,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 2204,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["PARRY"] = 1,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[298831] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1005,
-										["targets"] = {
-											["Reneebaby"] = 1005,
-										},
-										["n_dmg"] = 1005,
-										["n_min"] = 1005,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1005,
-										["c_max"] = 0,
-										["id"] = 298831,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-153874-0000227807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621260511,
-							["damage_taken"] = 21028.001678,
-							["start_time"] = 1621260491,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [4]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.002888,
-							["total"] = 210.002888,
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-								["Reneebaby"] = 210,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 210.002888,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1621260505,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "噬渊鼠",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 210,
-										["targets"] = {
-											["Reneebaby"] = 210,
-										},
-										["n_dmg"] = 210,
-										["n_min"] = 210,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 210,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-								},
-							},
-							["aID"] = "151353",
-							["serial"] = "Creature-0-3932-2162-20804-151353-0002A27807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621260502,
-							["damage_taken"] = 4916.002888,
-							["start_time"] = 1621260502,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [5]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.001847,
-							["aID"] = "157583",
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["end_time"] = 1621260505,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.001847,
-							["monster"] = true,
-							["dps_started"] = false,
-							["total"] = 0.001847,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "熔炉守护者",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-157583-0000227807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 12194.001847,
-							["start_time"] = 1621260505,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [6]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 191,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
-							["totalover"] = 0.006706,
-							["total_without_pet"] = 16601.006706,
-							["total"] = 16601.006706,
-							["targets_absorbs"] = {
-								["Reneebaby"] = 2536,
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["serial"] = "Player-729-052440E9",
-							["totalabsorb"] = 2536.006706,
-							["last_hps"] = 1185.108988149491,
-							["targets"] = {
-								["Reneebaby"] = 16601,
-							},
-							["totalover_without_pet"] = 0.006706,
-							["healing_taken"] = 16601.006706,
-							["fight_component"] = true,
-							["end_time"] = 1621260505,
-							["healing_from"] = {
-								["Reneebaby"] = true,
-							},
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Reneebaby",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[341530] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 2536,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1399,
-										["targets"] = {
-											["Reneebaby"] = 2536,
-										},
-										["n_min"] = 1137,
-										["counter"] = 2,
-										["overheal"] = 0,
-										["total"] = 2536,
-										["c_max"] = 0,
-										["id"] = 341530,
-										["targets_absorbs"] = {
-											["Reneebaby"] = 2536,
-										},
-										["n_amt"] = 2,
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 2536,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[158188] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1407,
-										["targets"] = {
-											["Reneebaby"] = 14065,
-										},
-										["n_min"] = 1406,
-										["counter"] = 10,
-										["overheal"] = 0,
-										["total"] = 14065,
-										["c_max"] = 0,
-										["id"] = 158188,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 14065,
-										["totaldenied"] = 0,
-										["n_amt"] = 10,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["start_time"] = 1621260491,
-							["spec"] = 261,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "729-052440E9",
-							["totaldenied"] = 0.006706,
-							["delay"] = 0,
-							["last_event"] = 1621260505,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 191,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["received"] = 289.005467,
-							["resource"] = 32.005467,
-							["targets"] = {
-								["Reneebaby"] = 289,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 3,
-							["classe"] = "ROGUE",
-							["passiveover"] = 0.005467,
-							["fight_component"] = true,
-							["total"] = 289.005467,
-							["resource_type"] = 4,
-							["nome"] = "Reneebaby",
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-									[212283] = {
-										["total"] = 40,
-										["id"] = 212283,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 40,
-										},
-										["counter"] = 1,
-									},
-									[98440] = {
-										["total"] = 192,
-										["id"] = 98440,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 192,
-										},
-										["counter"] = 7,
-									},
-									[196980] = {
-										["total"] = 25,
-										["id"] = 196980,
-										["totalover"] = 1,
-										["targets"] = {
-											["Reneebaby"] = 25,
-										},
-										["counter"] = 8,
-									},
-									[196911] = {
-										["total"] = 32,
-										["id"] = 196911,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 32,
-										},
-										["counter"] = 4,
-									},
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 261,
-							["flag_original"] = 1297,
-							["alternatepower"] = 0.005467,
-							["last_event"] = 1621260511,
-							["aID"] = "729-052440E9",
-							["tipo"] = 3,
-							["serial"] = "Player-729-052440E9",
-							["totalover"] = 1.005467,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 191,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
-										["targets"] = {
-										},
-										["uptime"] = 5,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[316220] = {
-										["activedamt"] = 0,
-										["id"] = 316220,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 3,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 3,
-										["refreshamt"] = 5,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5760] = {
-										["activedamt"] = 0,
-										["id"] = 5760,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 4,
-										["refreshamt"] = 16,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 166,
-							["aID"] = "729-052440E9",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[196980] = {
-										["activedamt"] = 1,
-										["id"] = 196980,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[212283] = {
-										["activedamt"] = 1,
-										["id"] = 212283,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[185422] = {
-										["activedamt"] = 1,
-										["id"] = 185422,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[227151] = {
-										["activedamt"] = 1,
-										["id"] = 227151,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[343173] = {
-										["activedamt"] = 2,
-										["id"] = 343173,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[115191] = {
-										["activedamt"] = 1,
-										["id"] = 115191,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 7,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 33,
-							["nome"] = "Reneebaby",
-							["spec"] = 261,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[185313] = 1,
-								[212283] = 1,
-								[53] = 1,
-								[324748] = 1,
-								[196819] = 7,
-								[185438] = 4,
-								[137619] = 3,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1621260505,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-729-052440E9",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["monster"] = true,
-							["nome"] = "渊誓哨兵",
-							["flag_original"] = 68168,
-							["spell_cast"] = {
-								[298831] = 1,
-							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3932-2162-20804-153874-0000227807",
-							["aID"] = "153874",
-						}, -- [2]
-						{
-							["monster"] = true,
-							["nome"] = "焰炉执行者",
-							["flag_original"] = 68168,
-							["spell_cast"] = {
-								[308026] = 1,
-							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3932-2162-20804-157634-0000227807",
-							["aID"] = "157634",
-						}, -- [3]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 191,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Reneebaby"] = true,
-				},
-				["raid_roster_indexed"] = {
-					"Reneebaby", -- [1]
-				},
-				["CombatStartedAt"] = 179535.658,
-				["tempo_start"] = 1621260491,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 885,
-				["totals"] = {
-					85683, -- [1]
-					16601, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 289,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					69176, -- [1]
-					16601, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 289,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "scenario",
-				["data_fim"] = "22:08:25",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "渊誓哨兵",
-				["TotalElapsedCombatTime"] = 179529.219,
-				["CombatEndedAt"] = 179529.219,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 16601.006706,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 69176.006302,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 179529.94,
-				["combat_id"] = 191,
-				["overall_added"] = true,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-					["Reneebaby"] = {
-						{
-							true, -- [1]
-							326469, -- [2]
-							2240, -- [3]
-							1621260507.987, -- [4]
-							32060, -- [5]
-							"[*] 折磨：魂铸热能", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-						}, -- [2]
-						{
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 2,
-					},
-				},
-				["data_inicio"] = "22:08:11",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["噬渊鼠"] = 1,
-					["焰炉执行者"] = 1,
-					["渊誓哨兵"] = 1,
-					["熔炉守护者"] = 1,
-				},
-				["start_time"] = 179515.932,
-				["TimeData"] = {
-				},
-				["contra"] = "熔炉守护者",
-			}, -- [16]
-			{
-				{
-					["combatId"] = 190,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.00512,
-							["damage_from"] = {
-								["塔楼哨卫"] = true,
-								["[*] 折磨：魂铸热能"] = true,
-								["焰炉大师"] = true,
-								["渊誓寻猎者"] = true,
-							},
-							["targets"] = {
-								["焰炉大师"] = 16187,
-								["塔楼哨卫"] = 60055,
-								["渊誓寻猎者"] = 19351,
-								["熔炉守护者"] = 4467,
-							},
-							["pets"] = {
-							},
-							["spec"] = 261,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 100060.00512,
-							["end_time"] = 1621260481,
-							["colocacao"] = 1,
-							["dps_started"] = false,
-							["total"] = 100060.00512,
-							["aID"] = "729-052440E9",
-							["classe"] = "ROGUE",
-							["nome"] = "Reneebaby",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 12,
-										["b_amt"] = 0,
-										["c_dmg"] = 9618,
-										["g_amt"] = 0,
-										["n_max"] = 621,
-										["targets"] = {
-											["塔楼哨卫"] = 10822,
-											["渊誓寻猎者"] = 3268,
-											["焰炉大师"] = 2397,
-										},
-										["n_dmg"] = 6869,
-										["n_min"] = 203,
-										["g_dmg"] = 0,
-										["counter"] = 34,
-										["total"] = 16487,
-										["c_max"] = 1215,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["MISS"] = 5,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 496,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 17,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[53] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 5273,
-										["g_amt"] = 0,
-										["n_max"] = 929,
-										["targets"] = {
-											["塔楼哨卫"] = 6393,
-											["渊誓寻猎者"] = 690,
-											["焰炉大师"] = 1595,
-										},
-										["n_dmg"] = 3405,
-										["n_min"] = 690,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 8678,
-										["c_max"] = 1840,
-										["id"] = 53,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1595,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[196819] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 17089,
-										["g_amt"] = 0,
-										["n_max"] = 3488,
-										["targets"] = {
-											["塔楼哨卫"] = 15417,
-											["渊誓寻猎者"] = 9064,
-											["焰炉大师"] = 6924,
-										},
-										["n_dmg"] = 14316,
-										["n_min"] = 2214,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 31405,
-										["c_max"] = 6850,
-										["id"] = 196819,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1989,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[328082] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 10621,
-										["g_amt"] = 0,
-										["n_max"] = 2717,
-										["targets"] = {
-											["焰炉大师"] = 4861,
-											["塔楼哨卫"] = 13049,
-										},
-										["n_dmg"] = 7289,
-										["n_min"] = 2100,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 17910,
-										["c_max"] = 3463,
-										["id"] = 328082,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1398,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[185438] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 17875,
-										["g_amt"] = 0,
-										["n_max"] = 2361,
-										["targets"] = {
-											["渊誓寻猎者"] = 6262,
-											["塔楼哨卫"] = 13796,
-											["熔炉守护者"] = 4364,
-										},
-										["n_dmg"] = 6547,
-										["n_min"] = 2085,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 24422,
-										["c_max"] = 4694,
-										["id"] = 185438,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 4161,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[8680] = {
-										["c_amt"] = 7,
-										["b_amt"] = 0,
-										["c_dmg"] = 778,
-										["g_amt"] = 0,
-										["n_max"] = 67,
-										["targets"] = {
-											["焰炉大师"] = 410,
-											["塔楼哨卫"] = 578,
-											["渊誓寻猎者"] = 67,
-											["熔炉守护者"] = 103,
-										},
-										["n_dmg"] = 380,
-										["n_min"] = 60,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 1158,
-										["c_max"] = 135,
-										["id"] = 8680,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 100,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 6,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 3335.333504,
-							["custom"] = 0,
-							["last_event"] = 1621260481,
-							["damage_taken"] = 44332.00512,
-							["start_time"] = 1621260445,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.002574,
-							["total"] = 26429.002574,
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-								["Reneebaby"] = 26429,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 26429.002574,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1621260475,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "塔楼哨卫",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 5354,
-										["g_amt"] = 0,
-										["n_max"] = 2643,
-										["targets"] = {
-											["Reneebaby"] = 18716,
-										},
-										["n_dmg"] = 13362,
-										["n_min"] = 1844,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 18716,
-										["c_max"] = 5354,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["DODGE"] = 1,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 5354,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 6,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[346813] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 4590,
-										["targets"] = {
-											["Reneebaby"] = 7713,
-										},
-										["n_dmg"] = 7713,
-										["n_min"] = 3123,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 7713,
-										["c_max"] = 0,
-										["id"] = 346813,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["aID"] = "152905",
-							["serial"] = "Creature-0-3932-2162-20804-152905-0000227807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621260472,
-							["damage_taken"] = 60055.002574,
-							["start_time"] = 1621260452,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [2]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.00101,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Reneebaby"] = 11291,
-							},
-							["pets"] = {
-							},
-							["serial"] = "",
-							["monster"] = true,
-							["aID"] = "",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 11291.00101,
-							["spellicon"] = 236215,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 11291.00101,
-							["classe"] = "UNKNOW",
-							["friendlyfire_total"] = 0,
-							["nome"] = "[*] 折磨：魂铸热能",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[326469] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2263,
-										["targets"] = {
-											["Reneebaby"] = 11291,
-										},
-										["n_dmg"] = 11291,
-										["n_min"] = 2241,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 11291,
-										["c_max"] = 0,
-										["id"] = 326469,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["end_time"] = 1621260475,
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.00101,
-							["start_time"] = 1621260453,
-							["delay"] = 0,
-							["last_event"] = 1621260473,
-						}, -- [3]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 1761.00605,
-							["aID"] = "152708",
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-								["Reneebaby"] = 6021,
-							},
-							["end_time"] = 1621260475,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6021.00605,
-							["monster"] = true,
-							["dps_started"] = false,
-							["total"] = 6021.00605,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "渊誓寻猎者",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 973,
-										["targets"] = {
-											["Reneebaby"] = 2734,
-										},
-										["n_dmg"] = 2734,
-										["n_min"] = 847,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 2734,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[296523] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3287,
-										["targets"] = {
-											["Reneebaby"] = 3287,
-										},
-										["n_dmg"] = 3287,
-										["n_min"] = 3287,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 3287,
-										["c_max"] = 0,
-										["id"] = 296523,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-152708-0000227807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621260451,
-							["damage_taken"] = 19351.00605,
-							["start_time"] = 1621260469,
-							["delay"] = 1621260451,
-							["tipo"] = 1,
-						}, -- [4]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 591.007844,
-							["aID"] = "157584",
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-								["Reneebaby"] = 591,
-							},
-							["end_time"] = 1621260475,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 591.007844,
-							["monster"] = true,
-							["dps_started"] = false,
-							["total"] = 591.007844,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "焰炉大师",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[347404] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 591,
-										["targets"] = {
-											["Reneebaby"] = 591,
-										},
-										["n_dmg"] = 591,
-										["n_min"] = 591,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 591,
-										["c_max"] = 0,
-										["id"] = 347404,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-157584-0000227807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621260446,
-							["damage_taken"] = 16187.007844,
-							["start_time"] = 1621260474,
-							["delay"] = 1621260446,
-							["tipo"] = 1,
-						}, -- [5]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 190,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
-							["totalover"] = 0.003141,
-							["total_without_pet"] = 22886.003141,
-							["total"] = 22886.003141,
-							["targets_absorbs"] = {
-								["Reneebaby"] = 4593,
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["serial"] = "Player-729-052440E9",
-							["totalabsorb"] = 4593.003141,
-							["last_hps"] = 762.8667713666667,
-							["targets"] = {
-								["Reneebaby"] = 22886,
-							},
-							["totalover_without_pet"] = 0.003141,
-							["healing_taken"] = 22886.003141,
-							["fight_component"] = true,
-							["end_time"] = 1621260475,
-							["healing_from"] = {
-								["Reneebaby"] = true,
-							},
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Reneebaby",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[158188] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1421,
-										["targets"] = {
-											["Reneebaby"] = 11365,
-										},
-										["n_min"] = 1420,
-										["counter"] = 8,
-										["overheal"] = 0,
-										["total"] = 11365,
-										["c_max"] = 0,
-										["id"] = 158188,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 11365,
-										["totaldenied"] = 0,
-										["n_amt"] = 8,
-										["absorbed"] = 0,
-									},
-									[185311] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1732,
-										["targets"] = {
-											["Reneebaby"] = 6928,
-										},
-										["n_min"] = 1732,
-										["counter"] = 4,
-										["overheal"] = 0,
-										["total"] = 6928,
-										["c_max"] = 0,
-										["id"] = 185311,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 6928,
-										["totaldenied"] = 0,
-										["n_amt"] = 4,
-										["absorbed"] = 0,
-									},
-									[341530] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 4593,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 2241,
-										["targets"] = {
-											["Reneebaby"] = 4593,
-										},
-										["n_min"] = 591,
-										["counter"] = 4,
-										["overheal"] = 0,
-										["total"] = 4593,
-										["c_max"] = 0,
-										["id"] = 341530,
-										["targets_absorbs"] = {
-											["Reneebaby"] = 4593,
-										},
-										["n_amt"] = 4,
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 4593,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["start_time"] = 1621260446,
-							["spec"] = 261,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "729-052440E9",
-							["totaldenied"] = 0.003141,
-							["delay"] = 0,
-							["last_event"] = 1621260469,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 190,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["received"] = 409.004937,
-							["resource"] = 43.004937,
-							["targets"] = {
-								["Reneebaby"] = 409,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 3,
-							["classe"] = "ROGUE",
-							["passiveover"] = 0.004937,
-							["fight_component"] = true,
-							["total"] = 409.004937,
-							["resource_type"] = 4,
-							["nome"] = "Reneebaby",
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-									[212283] = {
-										["total"] = 40,
-										["id"] = 212283,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 40,
-										},
-										["counter"] = 1,
-									},
-									[196980] = {
-										["total"] = 87,
-										["id"] = 196980,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 87,
-										},
-										["counter"] = 24,
-									},
-									[196911] = {
-										["total"] = 48,
-										["id"] = 196911,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 48,
-										},
-										["counter"] = 6,
-									},
-									[98440] = {
-										["total"] = 234,
-										["id"] = 98440,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 234,
-										},
-										["counter"] = 9,
-									},
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 261,
-							["flag_original"] = 1297,
-							["alternatepower"] = 0.004937,
-							["last_event"] = 1621260491,
-							["aID"] = "729-052440E9",
-							["tipo"] = 3,
-							["serial"] = "Player-729-052440E9",
-							["totalover"] = 0.004937,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 190,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[5760] = {
-										["activedamt"] = -1,
-										["id"] = 5760,
-										["targets"] = {
-										},
-										["uptime"] = 30,
-										["appliedamt"] = 2,
-										["refreshamt"] = 25,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[8680] = {
-										["activedamt"] = -1,
-										["id"] = 8680,
-										["targets"] = {
-										},
-										["uptime"] = 30,
-										["appliedamt"] = 2,
-										["refreshamt"] = 3,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324260] = {
-										["activedamt"] = 0,
-										["id"] = 324260,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[316220] = {
-										["activedamt"] = -1,
-										["id"] = 316220,
-										["targets"] = {
-										},
-										["uptime"] = 28,
-										["appliedamt"] = 2,
-										["refreshamt"] = 3,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 307,
-							["aID"] = "729-052440E9",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[196980] = {
-										["activedamt"] = 2,
-										["id"] = 196980,
-										["targets"] = {
-										},
-										["uptime"] = 5,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[345228] = {
-										["activedamt"] = 1,
-										["id"] = 345228,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
-										["targets"] = {
-										},
-										["uptime"] = 30,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
-										["targets"] = {
-										},
-										["uptime"] = 30,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[212283] = {
-										["activedamt"] = 1,
-										["id"] = 212283,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
-										["targets"] = {
-										},
-										["uptime"] = 30,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[185422] = {
-										["activedamt"] = 1,
-										["id"] = 185422,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[115192] = {
-										["activedamt"] = 1,
-										["id"] = 115192,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
-										["targets"] = {
-										},
-										["uptime"] = 30,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
-										["targets"] = {
-										},
-										["uptime"] = 30,
-										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[340094] = {
-										["activedamt"] = 1,
-										["id"] = 340094,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315496] = {
-										["activedamt"] = 2,
-										["id"] = 315496,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[227151] = {
-										["activedamt"] = 1,
-										["id"] = 227151,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[185311] = {
-										["activedamt"] = 1,
-										["id"] = 185311,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
-										["targets"] = {
-										},
-										["uptime"] = 30,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
-										["targets"] = {
-										},
-										["uptime"] = 30,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341530] = {
-										["activedamt"] = 1,
-										["id"] = 341530,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
-										["targets"] = {
-										},
-										["uptime"] = 30,
-										["appliedamt"] = 1,
-										["refreshamt"] = 9,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[343173] = {
-										["activedamt"] = 1,
-										["id"] = 343173,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 115,
-							["nome"] = "Reneebaby",
-							["spec"] = 261,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[137619] = 3,
-								[345228] = 1,
-								[196819] = 8,
-								[185438] = 5,
-								[324260] = 1,
-								[53] = 6,
-								[185311] = 1,
-								[185313] = 1,
-								[212283] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1621260475,
-							["pets"] = {
-							},
-							["classe"] = "ROGUE",
-							["serial"] = "Player-729-052440E9",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["monster"] = true,
-							["nome"] = "焰炉大师",
-							["flag_original"] = 68168,
-							["spell_cast"] = {
-								[347404] = 1,
-							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3932-2162-20804-157584-0000227807",
-							["aID"] = "157584",
-						}, -- [2]
-						{
-							["monster"] = true,
-							["nome"] = "渊誓寻猎者",
-							["flag_original"] = 68168,
-							["spell_cast"] = {
-								[296523] = 1,
-							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3932-2162-20804-152708-0000227807",
-							["aID"] = "152708",
-						}, -- [3]
-						{
-							["monster"] = true,
-							["nome"] = "塔楼哨卫",
-							["flag_original"] = 68168,
-							["spell_cast"] = {
-								[346813] = 2,
-							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3932-2162-20804-152905-0000227807",
-							["aID"] = "152905",
-						}, -- [4]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 190,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Reneebaby"] = true,
-				},
-				["raid_roster_indexed"] = {
-					"Reneebaby", -- [1]
-				},
-				["CombatStartedAt"] = 179515.932,
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 883,
-				["totals"] = {
-					144391.991857, -- [1]
-					22886, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 409,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					100060, -- [1]
-					22886, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 409,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "scenario",
-				["data_fim"] = "22:07:56",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "焰炉大师",
-				["TotalElapsedCombatTime"] = 179499.257,
-				["CombatEndedAt"] = 179499.257,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "22:07:26",
-				["end_time"] = 179500.068,
-				["combat_id"] = 190,
-				["resincked"] = true,
-				["tempo_start"] = 1621260445,
-				["player_last_events"] = {
-				},
-				["frags"] = {
-					["塔楼哨卫"] = 1,
-					["渊誓寻猎者"] = 1,
-					["焰炉大师"] = 1,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 29283.009176,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 116868.008451,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["start_time"] = 179470.068,
-				["contra"] = "焰炉大师",
-				["TimeData"] = {
-				},
-			}, -- [17]
-			{
-				{
-					["combatId"] = 189,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.007465,
-							["damage_from"] = {
-								["[*] 折磨：魂铸热能"] = true,
-								["荒芜碎击者"] = true,
-								["熔炉守护者"] = true,
-								["渊誓召火者"] = true,
-								["渊誓寻猎者"] = true,
-								["渊誓卫兵"] = true,
-							},
-							["targets"] = {
-								["焰炉大师"] = 4408,
-								["灰烬护命匣"] = 1496,
-								["荒芜碎击者"] = 100558,
-								["熔炉守护者"] = 8998,
-								["渊誓召火者"] = 4088,
-								["渊誓寻猎者"] = 3972,
-								["渊誓卫兵"] = 4343,
-							},
-							["pets"] = {
-							},
-							["spec"] = 261,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 127863.007465,
-							["end_time"] = 1621260445,
-							["colocacao"] = 1,
-							["dps_started"] = false,
-							["total"] = 127863.007465,
-							["aID"] = "729-052440E9",
-							["classe"] = "ROGUE",
-							["nome"] = "Reneebaby",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 9,
-										["b_amt"] = 0,
-										["c_dmg"] = 7483,
-										["g_amt"] = 0,
-										["n_max"] = 680,
-										["targets"] = {
-											["焰炉大师"] = 0,
-											["荒芜碎击者"] = 15639,
-										},
-										["n_dmg"] = 8156,
-										["n_min"] = 233,
-										["g_dmg"] = 0,
-										["counter"] = 40,
-										["total"] = 15639,
-										["c_max"] = 1143,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["MISS"] = 10,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 500,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 21,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[197835] = {
-										["c_amt"] = 9,
-										["b_amt"] = 0,
-										["c_dmg"] = 11148,
-										["g_amt"] = 0,
-										["n_max"] = 596,
-										["targets"] = {
-											["荒芜碎击者"] = 2445,
-											["熔炉守护者"] = 3476,
-											["渊誓召火者"] = 3019,
-											["渊誓寻猎者"] = 2874,
-											["渊誓卫兵"] = 2205,
-										},
-										["n_dmg"] = 2871,
-										["n_min"] = 409,
-										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 14019,
-										["c_max"] = 1460,
-										["id"] = 197835,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 873,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 6,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[8680] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 726,
-										["g_amt"] = 0,
-										["n_max"] = 72,
-										["targets"] = {
-											["焰炉大师"] = 102,
-											["荒芜碎击者"] = 1252,
-											["渊誓寻猎者"] = 69,
-											["熔炉守护者"] = 162,
-											["灰烬护命匣"] = 60,
-											["渊誓卫兵"] = 61,
-										},
-										["n_dmg"] = 980,
-										["n_min"] = 52,
-										["g_dmg"] = 0,
-										["counter"] = 22,
-										["total"] = 1706,
-										["c_max"] = 151,
-										["id"] = 8680,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 101,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 16,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[196819] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 5782,
-										["g_amt"] = 0,
-										["n_max"] = 4461,
-										["targets"] = {
-											["荒芜碎击者"] = 24592,
-										},
-										["n_dmg"] = 18810,
-										["n_min"] = 2890,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 24592,
-										["c_max"] = 5782,
-										["id"] = 196819,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 5782,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[185438] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 17512,
-										["g_amt"] = 0,
-										["n_max"] = 3318,
-										["targets"] = {
-											["熔炉守护者"] = 4297,
-											["焰炉大师"] = 4306,
-											["荒芜碎击者"] = 18828,
-										},
-										["n_dmg"] = 9919,
-										["n_min"] = 2126,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 27431,
-										["c_max"] = 4936,
-										["id"] = 185438,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 3973,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[328306] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2430,
-										["targets"] = {
-											["荒芜碎击者"] = 2430,
-										},
-										["n_dmg"] = 2430,
-										["n_min"] = 2430,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2430,
-										["c_max"] = 0,
-										["id"] = 328306,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[319175] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 4283,
-										["g_amt"] = 0,
-										["n_max"] = 1436,
-										["targets"] = {
-											["熔炉守护者"] = 1063,
-											["荒芜碎击者"] = 2206,
-											["渊誓寻猎者"] = 1029,
-											["渊誓召火者"] = 1069,
-											["灰烬护命匣"] = 1436,
-											["渊誓卫兵"] = 2077,
-										},
-										["n_dmg"] = 4597,
-										["n_min"] = 1029,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 8880,
-										["c_max"] = 2206,
-										["id"] = 319175,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 2077,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[321519] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 412,
-										["g_amt"] = 0,
-										["n_max"] = 103,
-										["targets"] = {
-											["荒芜碎击者"] = 716,
-										},
-										["n_dmg"] = 304,
-										["n_min"] = 98,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 716,
-										["c_max"] = 206,
-										["id"] = 321519,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 206,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[319190] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 806,
-										["targets"] = {
-											["荒芜碎击者"] = 806,
-										},
-										["n_dmg"] = 806,
-										["n_min"] = 806,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 806,
-										["c_max"] = 0,
-										["id"] = 319190,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[328082] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3147,
-										["targets"] = {
-											["荒芜碎击者"] = 13435,
-										},
-										["n_dmg"] = 13435,
-										["n_min"] = 2123,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 13435,
-										["c_max"] = 0,
-										["id"] = 328082,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[1943] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 4824,
-										["g_amt"] = 0,
-										["n_max"] = 744,
-										["targets"] = {
-											["荒芜碎击者"] = 8151,
-										},
-										["n_dmg"] = 3327,
-										["n_min"] = 541,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 8151,
-										["c_max"] = 1405,
-										["id"] = 1943,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1082,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[328305] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 6343,
-										["g_amt"] = 0,
-										["n_max"] = 989,
-										["targets"] = {
-											["荒芜碎击者"] = 10058,
-										},
-										["n_dmg"] = 3715,
-										["n_min"] = 304,
-										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 10058,
-										["c_max"] = 1986,
-										["id"] = 328305,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 1287,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 6,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-729-052440E9",
-							["last_dps"] = 5112.679733897654,
-							["custom"] = 0,
-							["last_event"] = 1621260445,
-							["damage_taken"] = 67348.007465,
-							["start_time"] = 1621260411,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.008167,
-							["total"] = 20345.008167,
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-								["Reneebaby"] = 20345,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 20345.008167,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1621260436,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "渊誓召火者",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[275983] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1416,
-										["targets"] = {
-											["Reneebaby"] = 20345,
-										},
-										["n_dmg"] = 20345,
-										["n_min"] = 962,
-										["g_dmg"] = 0,
-										["counter"] = 17,
-										["total"] = 20345,
-										["c_max"] = 0,
-										["id"] = 275983,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 17,
-										["a_amt"] = 0,
-										["n_amt"] = 17,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["aID"] = "157572",
-							["serial"] = "Creature-0-3932-2162-20804-157572-0003227807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621260434,
-							["damage_taken"] = 4088.008167,
-							["start_time"] = 1621260415,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.004866,
-							["aID"] = "173136",
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-								["Reneebaby"] = 12968,
-							},
-							["end_time"] = 1621260436,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 12968.004866,
-							["monster"] = true,
-							["dps_started"] = false,
-							["total"] = 12968.004866,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "荒芜碎击者",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 3328,
-										["g_amt"] = 0,
-										["n_max"] = 2635,
-										["targets"] = {
-											["Reneebaby"] = 11759,
-										},
-										["n_dmg"] = 8431,
-										["n_min"] = 1671,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 11759,
-										["c_max"] = 3328,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["DODGE"] = 3,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 3328,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[325605] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 325605,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[325632] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1209,
-										["targets"] = {
-											["Reneebaby"] = 1209,
-										},
-										["n_dmg"] = 1209,
-										["n_min"] = 1209,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 1209,
-										["c_max"] = 0,
-										["id"] = 325632,
-										["r_dmg"] = 0,
-										["DODGE"] = 2,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["serial"] = "Creature-0-3932-2162-20804-173136-0000227807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621260434,
-							["damage_taken"] = 100558.004866,
-							["start_time"] = 1621260411,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [3]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.003936,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Reneebaby"] = 12555,
-							},
-							["pets"] = {
-							},
-							["serial"] = "",
-							["monster"] = true,
-							["aID"] = "",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 12555.003936,
-							["spellicon"] = 236215,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 12555.003936,
-							["classe"] = "UNKNOW",
-							["friendlyfire_total"] = 0,
-							["nome"] = "[*] 折磨：魂铸热能",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[326469] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2529,
-										["targets"] = {
-											["Reneebaby"] = 12555,
-										},
-										["n_dmg"] = 12555,
-										["n_min"] = 2484,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 12555,
-										["c_max"] = 0,
-										["id"] = 326469,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["end_time"] = 1621260436,
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.003936,
-							["start_time"] = 1621260415,
-							["delay"] = 0,
-							["last_event"] = 1621260435,
-						}, -- [4]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.006455,
-							["total"] = 10138.006455,
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-								["Reneebaby"] = 10138,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 10138.006455,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1621260436,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "熔炉守护者",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[270246] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2805,
-										["targets"] = {
-											["Reneebaby"] = 10138,
-										},
-										["n_dmg"] = 10138,
-										["n_min"] = 2267,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 10138,
-										["c_max"] = 0,
-										["id"] = 270246,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 4,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[330347] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 330347,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["aID"] = "157583",
-							["serial"] = "Creature-0-3932-2162-20804-157583-0004A27807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621260431,
-							["damage_taken"] = 8998.006454999999,
-							["start_time"] = 1621260417,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [5]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.00414,
-							["total"] = 8025.00414,
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-								["Reneebaby"] = 8025,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 8025.00414,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1621260436,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "渊誓寻猎者",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1022,
-										["targets"] = {
-											["Reneebaby"] = 2766,
-										},
-										["n_dmg"] = 2766,
-										["n_min"] = 759,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 2766,
-										["c_max"] = 0,
-										["a_dmg"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["DODGE"] = 4,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["PARRY"] = 1,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[296523] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3287,
-										["targets"] = {
-											["Reneebaby"] = 5259,
-										},
-										["n_dmg"] = 5259,
-										["n_min"] = 1972,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 5259,
-										["c_max"] = 0,
-										["id"] = 296523,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["aID"] = "152708",
-							["serial"] = "Creature-0-3932-2162-20804-152708-0001227807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621260433,
-							["damage_taken"] = 3972.00414,
-							["start_time"] = 1621260413,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [6]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.002327,
-							["total"] = 3317.002327,
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-								["Reneebaby"] = 3317,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3317.002327,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1621260436,
-							["friendlyfire_total"] = 0,
-							["friendlyfire"] = {
-							},
-							["nome"] = "渊誓卫兵",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1723,
-										["targets"] = {
-											["Reneebaby"] = 3317,
-										},
-										["n_dmg"] = 3317,
-										["n_min"] = 1594,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 3317,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["DODGE"] = 4,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[292903] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 292903,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[294165] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 294165,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["aID"] = "150958",
-							["serial"] = "Creature-0-3932-2162-20804-150958-0001A27807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1621260434,
-							["damage_taken"] = 4343.002327,
-							["start_time"] = 1621260415,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [7]
-						{
-							["flag_original"] = 2600,
-							["totalabsorbed"] = 0.004651,
-							["damage_from"] = {
-								["Reneebaby"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.004651,
-							["friendlyfire"] = {
-							},
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1621260436,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "灰烬护命匣",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["aID"] = "164698",
-							["total"] = 0.004651,
-							["serial"] = "Creature-0-3932-2162-20804-164698-0009A27807",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 1496.004651,
-							["start_time"] = 1621260436,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [8]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 189,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "ROGUE",
-							["totalover"] = 0.007984,
-							["total_without_pet"] = 29590.007984,
-							["total"] = 29590.007984,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["serial"] = "Player-729-052440E9",
-							["totalabsorb"] = 0.007984,
-							["last_hps"] = 1183.174376584859,
-							["targets"] = {
-								["Reneebaby"] = 29590,
-							},
-							["totalover_without_pet"] = 0.007984,
-							["healing_taken"] = 29590.007984,
-							["fight_component"] = true,
-							["end_time"] = 1621260436,
-							["healing_from"] = {
-								["Reneebaby"] = true,
-							},
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Reneebaby",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[158188] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1588,
-										["targets"] = {
-											["Reneebaby"] = 21881,
-										},
-										["n_min"] = 1421,
-										["counter"] = 14,
-										["overheal"] = 0,
-										["total"] = 21881,
-										["c_max"] = 0,
-										["id"] = 158188,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 21881,
-										["totaldenied"] = 0,
-										["n_amt"] = 14,
-										["absorbed"] = 0,
-									},
-									[185311] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1936,
-										["targets"] = {
-											["Reneebaby"] = 7709,
-										},
-										["n_min"] = 1919,
-										["counter"] = 4,
-										["overheal"] = 0,
-										["total"] = 7709,
-										["c_max"] = 0,
-										["id"] = 185311,
-										["targets_absorbs"] = {
-										},
-										["c_min"] = 0,
-										["c_curado"] = 0,
-										["n_curado"] = 7709,
-										["totaldenied"] = 0,
-										["n_amt"] = 4,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["start_time"] = 1621260412,
-							["spec"] = 261,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "729-052440E9",
-							["totaldenied"] = 0.007984,
-							["delay"] = 0,
-							["last_event"] = 1621260434,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 189,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["received"] = 374.005933,
-							["resource"] = 40.005933,
-							["targets"] = {
-								["Reneebaby"] = 374,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 3,
-							["classe"] = "ROGUE",
-							["passiveover"] = 0.005933,
-							["fight_component"] = true,
-							["total"] = 374.005933,
-							["resource_type"] = 4,
-							["nome"] = "Reneebaby",
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-									[212283] = {
-										["total"] = 40,
-										["id"] = 212283,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 40,
-										},
-										["counter"] = 1,
-									},
-									[98440] = {
-										["total"] = 216,
-										["id"] = 98440,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 216,
-										},
-										["counter"] = 8,
-									},
-									[196980] = {
-										["total"] = 62,
-										["id"] = 196980,
-										["totalover"] = 2,
-										["targets"] = {
-											["Reneebaby"] = 62,
-										},
-										["counter"] = 19,
-									},
-									[196911] = {
-										["total"] = 56,
-										["id"] = 196911,
-										["totalover"] = 0,
-										["targets"] = {
-											["Reneebaby"] = 56,
-										},
-										["counter"] = 7,
-									},
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 261,
-							["flag_original"] = 1297,
-							["alternatepower"] = 0.005933,
-							["last_event"] = 1621260445,
-							["aID"] = "729-052440E9",
-							["tipo"] = 3,
-							["serial"] = "Player-729-052440E9",
-							["totalover"] = 2.005933,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 189,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[137619] = {
-										["activedamt"] = 0,
-										["id"] = 137619,
-										["targets"] = {
-										},
-										["uptime"] = 19,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[8680] = {
-										["activedamt"] = 0,
-										["id"] = 8680,
-										["targets"] = {
-										},
-										["uptime"] = 24,
-										["appliedamt"] = 5,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[321519] = {
-										["activedamt"] = 0,
-										["id"] = 321519,
-										["targets"] = {
-										},
-										["uptime"] = 5,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[255909] = {
-										["activedamt"] = 0,
-										["id"] = 255909,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[1833] = {
-										["activedamt"] = 0,
-										["id"] = 1833,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[316220] = {
-										["activedamt"] = 0,
-										["id"] = 316220,
-										["targets"] = {
-										},
-										["uptime"] = 22,
-										["appliedamt"] = 6,
-										["refreshamt"] = 5,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[333504] = {
-										["activedamt"] = -1,
-										["id"] = 333504,
-										["targets"] = {
-										},
-										["actived_at"] = 1621260411,
-										["uptime"] = 0,
-										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[328305] = {
-										["activedamt"] = 0,
-										["id"] = 328305,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5760] = {
-										["activedamt"] = 0,
-										["id"] = 5760,
-										["targets"] = {
-										},
-										["uptime"] = 24,
-										["appliedamt"] = 6,
-										["refreshamt"] = 31,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[1943] = {
-										["activedamt"] = 0,
-										["id"] = 1943,
-										["targets"] = {
-										},
-										["uptime"] = 20,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324260] = {
-										["activedamt"] = 0,
-										["id"] = 324260,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["aID"] = "729-052440E9",
-							["interrupt_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[1766] = {
-										["id"] = 1766,
-										["interrompeu_oque"] = {
-											[298844] = 1,
-										},
-										["targets"] = {
-											["荒芜碎击者"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["cooldowns_defensive"] = 1.006727,
-							["buff_uptime"] = 309,
-							["last_cooldown"] = {
-								1621260419.392, -- [1]
-								5277, -- [2]
-							},
-							["cc_done_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[1833] = {
-										["id"] = 1833,
-										["targets"] = {
-											["荒芜碎击者"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["classe"] = "ROGUE",
-							["cooldowns_defensive_targets"] = {
-								["Reneebaby"] = 1,
-							},
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[196980] = {
-										["activedamt"] = 2,
-										["id"] = 196980,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[225787] = {
-										["activedamt"] = 1,
-										["id"] = 225787,
-										["targets"] = {
-										},
-										["uptime"] = 25,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5277] = {
-										["activedamt"] = 1,
-										["id"] = 5277,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[212283] = {
-										["activedamt"] = 1,
-										["id"] = 212283,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[8679] = {
-										["activedamt"] = 1,
-										["id"] = 8679,
-										["targets"] = {
-										},
-										["uptime"] = 25,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[185422] = {
-										["activedamt"] = 3,
-										["id"] = 185422,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 2,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[227151] = {
-										["activedamt"] = 1,
-										["id"] = 227151,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[36554] = {
-										["activedamt"] = 1,
-										["id"] = 36554,
-										["targets"] = {
-										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[343782] = {
-										["activedamt"] = 1,
-										["id"] = 343782,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[347037] = {
-										["activedamt"] = 1,
-										["id"] = 347037,
-										["targets"] = {
-										},
-										["uptime"] = 5,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[315496] = {
-										["activedamt"] = 1,
-										["id"] = 315496,
-										["targets"] = {
-										},
-										["uptime"] = 24,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[342814] = {
-										["activedamt"] = 1,
-										["id"] = 342814,
-										["targets"] = {
-										},
-										["uptime"] = 25,
-										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[5761] = {
-										["activedamt"] = 1,
-										["id"] = 5761,
-										["targets"] = {
-										},
-										["uptime"] = 25,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[1966] = {
-										["activedamt"] = 1,
-										["id"] = 1966,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[303003] = {
-										["activedamt"] = 1,
-										["id"] = 303003,
-										["targets"] = {
-										},
-										["uptime"] = 25,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[185311] = {
-										["activedamt"] = 1,
-										["id"] = 185311,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[341550] = {
-										["activedamt"] = 1,
-										["id"] = 341550,
-										["targets"] = {
-										},
-										["uptime"] = 24,
-										["appliedamt"] = 1,
-										["refreshamt"] = 7,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[343173] = {
-										["activedamt"] = 2,
-										["id"] = 343173,
-										["targets"] = {
-										},
-										["uptime"] = 5,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324717] = {
-										["activedamt"] = 1,
-										["id"] = 324717,
-										["targets"] = {
-										},
-										["uptime"] = 25,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[347600] = {
-										["activedamt"] = 1,
-										["id"] = 347600,
-										["targets"] = {
-										},
-										["uptime"] = 25,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["cc_done_targets"] = {
-								["荒芜碎击者"] = 1,
-							},
-							["interrompeu_oque"] = {
-								[298844] = 1,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 144,
-							["interrupt"] = 1.008212,
-							["cc_done"] = 1.003408,
-							["debuff_uptime_targets"] = {
-							},
-							["interrupt_targets"] = {
-								["荒芜碎击者"] = 1,
-							},
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["spell_cast"] = {
-								[212283] = 1,
-								[137619] = 1,
-								[1766] = 1,
-								[212743] = 3,
-								[197835] = 3,
-								[328305] = 1,
-								[196819] = 6,
-								[319175] = 1,
-								[185438] = 5,
-								[1833] = 1,
-								[324260] = 1,
-								[5277] = 1,
-								[185311] = 1,
-								[185313] = 2,
-								[1943] = 1,
-								[324748] = 1,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 261,
-							["last_event"] = 1621260436,
-							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[5277] = {
-										["id"] = 5277,
-										["targets"] = {
-											["Reneebaby"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["tipo"] = 4,
-							["serial"] = "Player-729-052440E9",
-							["nome"] = "Reneebaby",
-						}, -- [1]
-						{
-							["monster"] = true,
-							["nome"] = "渊誓召火者",
-							["flag_original"] = 2632,
-							["spell_cast"] = {
-								[275983] = 17,
-							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3932-2162-20804-157572-0003227807",
-							["aID"] = "157572",
-						}, -- [2]
-						{
-							["monster"] = true,
-							["nome"] = "熔炉守护者",
-							["flag_original"] = 2632,
-							["spell_cast"] = {
-								[270246] = 4,
-								[330347] = 2,
-							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3932-2162-20804-157583-0004A27807",
-							["aID"] = "157583",
-						}, -- [3]
-						{
-							["monster"] = true,
-							["nome"] = "渊誓卫兵",
-							["flag_original"] = 2632,
-							["spell_cast"] = {
-								[292903] = 2,
-								[294165] = 1,
-							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3932-2162-20804-150958-0001A27807",
-							["aID"] = "150958",
-						}, -- [4]
-						{
-							["monster"] = true,
-							["nome"] = "渊誓寻猎者",
-							["flag_original"] = 2632,
-							["spell_cast"] = {
-								[296523] = 2,
-							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3932-2162-20804-152708-0001227807",
-							["aID"] = "152708",
-						}, -- [5]
-						{
-							["monster"] = true,
-							["nome"] = "荒芜碎击者",
-							["flag_original"] = 68168,
-							["spell_cast"] = {
-								[325605] = 1,
-							},
-							["classe"] = "UNKNOW",
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3932-2162-20804-173136-0000227807",
-							["aID"] = "173136",
-						}, -- [6]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 189,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Reneebaby"] = true,
-				},
-				["raid_roster_indexed"] = {
-					"Reneebaby", -- [1]
-				},
-				["CombatStartedAt"] = 179469.107,
-				["overall_added"] = true,
-				["last_events_tables"] = {
-					{
-						{
-							{
-								false, -- [1]
-								158188, -- [2]
-								1574, -- [3]
-								1621260423.823, -- [4]
-								17040, -- [5]
-								"Reneebaby", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [1]
-							{
-								false, -- [1]
-								185311, -- [2]
-								1919, -- [3]
-								1621260423.897, -- [4]
-								18959, -- [5]
-								"Reneebaby", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [2]
-							{
-								true, -- [1]
-								275983, -- [2]
-								1046, -- [3]
-								1621260424.412, -- [4]
-								17913, -- [5]
-								"渊誓召火者", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								true, -- [1]
-								270246, -- [2]
-								2267, -- [3]
-								1621260424.473, -- [4]
-								15646, -- [5]
-								"熔炉守护者", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								false, -- [1]
-								158188, -- [2]
-								1574, -- [3]
-								1621260424.812, -- [4]
-								17220, -- [5]
-								"Reneebaby", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [5]
-							{
-								true, -- [1]
-								326469, -- [2]
-								2507, -- [3]
-								1621260424.846, -- [4]
-								14713, -- [5]
-								"[*] 折磨：魂铸热能", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								false, -- [1]
-								185311, -- [2]
-								1919, -- [3]
-								1621260424.905, -- [4]
-								16632, -- [5]
-								"Reneebaby", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								true, -- [1]
-								275983, -- [2]
-								1125, -- [3]
-								1621260425.633, -- [4]
-								15507, -- [5]
-								"渊誓召火者", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								false, -- [1]
-								158188, -- [2]
-								1573, -- [3]
-								1621260425.809, -- [4]
-								17080, -- [5]
-								"Reneebaby", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [9]
-							{
-								false, -- [1]
-								158188, -- [2]
-								1574, -- [3]
-								1621260426.819, -- [4]
-								18654, -- [5]
-								"Reneebaby", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								true, -- [1]
-								275983, -- [2]
-								962, -- [3]
-								1621260426.866, -- [4]
-								17692, -- [5]
-								"渊誓召火者", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								false, -- [1]
-								158188, -- [2]
-								1574, -- [3]
-								1621260427.837, -- [4]
-								19266, -- [5]
-								"Reneebaby", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [12]
-							{
-								true, -- [1]
-								275983, -- [2]
-								1165, -- [3]
-								1621260428.108, -- [4]
-								18101, -- [5]
-								"渊誓召火者", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								true, -- [1]
-								270246, -- [2]
-								2495, -- [3]
-								1621260428.17, -- [4]
-								15606, -- [5]
-								"熔炉守护者", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								false, -- [1]
-								158188, -- [2]
-								1574, -- [3]
-								1621260428.82, -- [4]
-								17180, -- [5]
-								"Reneebaby", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								275983, -- [2]
-								1189, -- [3]
-								1621260429.129, -- [4]
-								15991, -- [5]
-								"渊誓召火者", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [16]
-							{
-								false, -- [1]
-								158188, -- [2]
-								1574, -- [3]
-								1621260429.827, -- [4]
-								17565, -- [5]
-								"Reneebaby", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [17]
-							{
-								true, -- [1]
-								326469, -- [2]
-								2507, -- [3]
-								1621260429.863, -- [4]
-								15058, -- [5]
-								"[*] 折磨：魂铸热能", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [18]
-							{
-								true, -- [1]
-								275983, -- [2]
-								1416, -- [3]
-								1621260430.341, -- [4]
-								13642, -- [5]
-								"渊誓召火者", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [19]
-							{
-								true, -- [1]
-								296523, -- [2]
-								3287, -- [3]
-								1621260430.341, -- [4]
-								10355, -- [5]
-								"渊誓寻猎者", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [20]
-							{
-								true, -- [1]
-								1, -- [2]
-								759, -- [3]
-								1621260430.39, -- [4]
-								10355, -- [5]
-								"渊誓寻猎者", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [21]
-							{
-								true, -- [1]
-								275983, -- [2]
-								1271, -- [3]
-								1621260431.495, -- [4]
-								8239, -- [5]
-								"渊誓召火者", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [22]
-							{
-								true, -- [1]
-								270246, -- [2]
-								2805, -- [3]
-								1621260431.592, -- [4]
-								5434, -- [5]
-								"熔炉守护者", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [23]
-							{
-								true, -- [1]
-								1, -- [2]
-								2360, -- [3]
-								1621260432.09, -- [4]
-								5434, -- [5]
-								"荒芜碎击者", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [24]
-							{
-								false, -- [1]
-								158188, -- [2]
-								1560, -- [3]
-								1621260432.146, -- [4]
-								4634, -- [5]
-								"Reneebaby", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [25]
-							{
-								true, -- [1]
-								275983, -- [2]
-								1363, -- [3]
-								1621260432.905, -- [4]
-								3271, -- [5]
-								"渊誓召火者", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [26]
-							{
-								false, -- [1]
-								158188, -- [2]
-								1560, -- [3]
-								1621260433.159, -- [4]
-								4831, -- [5]
-								"Reneebaby", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [27]
-							{
-								false, -- [1]
-								158188, -- [2]
-								1560, -- [3]
-								1621260434.157, -- [4]
-								6391, -- [5]
-								"Reneebaby", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [28]
-							{
-								true, -- [1]
-								275983, -- [2]
-								1072, -- [3]
-								1621260434.176, -- [4]
-								5319, -- [5]
-								"渊誓召火者", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [29]
-							{
-								true, -- [1]
-								1, -- [2]
-								2635, -- [3]
-								1621260434.442, -- [4]
-								5319, -- [5]
-								"荒芜碎击者", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [30]
-							{
-								true, -- [1]
-								1, -- [2]
-								1723, -- [3]
-								1621260434.614, -- [4]
-								2684, -- [5]
-								"渊誓卫兵", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [31]
-							{
-								true, -- [1]
-								326469, -- [2]
-								2484, -- [3]
-								1621260434.88, -- [4]
-								200, -- [5]
-								"[*] 折磨：魂铸热能", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								1523, -- [10]
-							}, -- [32]
-							{
-								3, -- [1]
-								5277, -- [2]
-								1, -- [3]
-								1621260419.392, -- [4]
-								0, -- [5]
-								"Reneebaby", -- [6]
-							}, -- [33]
-						}, -- [1]
-						1621260434.906, -- [2]
-						"Reneebaby", -- [3]
-						"ROGUE", -- [4]
-						38035, -- [5]
-						"0m 24s", -- [6]
-						["last_cooldown"] = {
-							1621260419.392, -- [1]
-							5277, -- [2]
-						},
-						["dead_at"] = 24.09799999999814,
-						["dead"] = true,
-					}, -- [1]
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 881,
-				["totals"] = {
-					195210.991522, -- [1]
-					29590, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 374,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 1,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					127863, -- [1]
-					29590, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 374,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 1,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "scenario",
-				["data_fim"] = "22:07:16",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "荒芜碎击者",
-				["TotalElapsedCombatTime"] = 179459.486,
-				["CombatEndedAt"] = 179459.486,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "22:06:51",
-				["end_time"] = 179460.397,
-				["combat_id"] = 189,
-				["resincked"] = true,
-				["tempo_start"] = 1621260411,
-				["player_last_events"] = {
-				},
-				["frags"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Reneebaby"] = 34811.014261,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Reneebaby"] = 125413.014741,
-						}, -- [1]
-					},
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["start_time"] = 179435.388,
-				["contra"] = "荒芜碎击者",
-				["TimeData"] = {
-				},
+				["data_inicio"] = "22:08:43",
 			}, -- [18]
 		},
 	},
@@ -24637,8 +21271,8 @@ _detalhes_database = {
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["animate"] = false,
 			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -24729,17 +21363,6 @@ _detalhes_database = {
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = -2.288818359375e-05,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["author"] = "Details! Team",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -24751,45 +21374,47 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -2.288818359375e-05,
+			["use_spark"] = true,
 			["x"] = -0.00018310546875,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["use_spark"] = true,
-			["main_frame_strata"] = "LOW",
+			["font_size"] = 10,
+			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
+	},
+	["last_day"] = "19",
+	["cached_talents"] = {
 	},
 	["announce_prepots"] = {
 		["enabled"] = false,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "17",
-	["cached_talents"] = {
-		["Player-729-052440E9"] = {
-			19234, -- [1]
-			22332, -- [2]
-			19241, -- [3]
-			22128, -- [4]
-			22115, -- [5]
-			22336, -- [6]
-			22132, -- [7]
-		},
-	},
 	["benchmark_db"] = {
 		["frame"] = {
 		},
 	},
 	["last_realversion"] = 144,
-	["combat_id"] = 206,
+	["combat_id"] = 210,
 	["savedStyles"] = {
 	},
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 906,
+	["combat_counter"] = 912,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -24802,7 +21427,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.188931,
+					["totalabsorbed"] = 943.214652,
 					["damage_from"] = {
 						["强化的焰炉执行者"] = true,
 						["荒芜碎击者"] = true,
@@ -24816,14 +21441,14 @@ _detalhes_database = {
 						["刻符巨像"] = true,
 						["焰炉大师"] = true,
 						["强化的渊誓护火者"] = true,
-						["亡语者"] = true,
-						["渊誓弓手"] = true,
 						["渊誓禁锢者"] = true,
+						["渊誓弓手"] = true,
+						["渊誓卫徒"] = true,
 						["[*] 烈焰喷射"] = true,
 						["折磨之主"] = true,
 						["强化的焰炉大师"] = true,
 						["戈姆蛴喷吐者"] = true,
-						["渊誓卫徒"] = true,
+						["亡语者"] = true,
 						["渊誓卫兵"] = true,
 						["[*] 折磨：魂铸热能"] = true,
 						["镇压者泽罗尔斯"] = true,
@@ -24836,9 +21461,11 @@ _detalhes_database = {
 					["targets"] = {
 						["强化的焰炉执行者"] = 155681,
 						["荒芜碎击者"] = 214422,
+						["Vikluny-霜之哀伤"] = 18979,
 						["噬渊鼠"] = 174536,
 						["渊誓哨兵"] = 123358,
 						["渊誓卫兵"] = 150405,
+						["优秀的阿昆-霜之哀伤"] = 29873,
 						["焰炉执行者"] = 448803,
 						["塔楼哨卫"] = 60055,
 						["熔炉守护者"] = 138269,
@@ -24846,49 +21473,47 @@ _detalhes_database = {
 						["刻符巨像"] = 166790,
 						["焰炉大师"] = 69219,
 						["强化的渊誓护火者"] = 214097,
+						["渊誓寻猎者"] = 41402,
 						["失落的泥仆"] = 7817,
 						["亡语者"] = 87132,
 						["渊誓护火者"] = 151049,
 						["折磨之主"] = 155916,
 						["强化的焰炉大师"] = 104523,
 						["戈姆蛴喷吐者"] = 13769,
-						["渊誓卫徒"] = 148766,
 						["渊誓禁锢者"] = 50584,
-						["渊誓寻猎者"] = 41402,
 						["镇压者泽罗尔斯"] = 257939,
 						["渊誓弓手"] = 13431,
 						["监锁之主"] = 58362,
-						["渊誓召火者"] = 60929,
+						["渊誓卫徒"] = 148766,
 						["灰烬护命匣"] = 50641,
+						["渊誓召火者"] = 60929,
+						["奈奈的無奈-霜之哀伤"] = 24692,
 						["骷髅残骸 <亡语者>"] = 11685,
 					},
-					["on_hold"] = false,
+					["serial"] = "Player-729-052440E9",
 					["pets"] = {
 					},
-					["aID"] = "729-052440E9",
+					["total"] = 3630557.214652,
+					["friendlyfire"] = {
+					},
 					["classe"] = "ROGUE",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 3557013.188931,
-					["end_time"] = 1621259513,
-					["friendlyfire"] = {
-					},
+					["total_without_pet"] = 3630557.214652,
+					["last_dps"] = 0,
 					["dps_started"] = false,
-					["total"] = 3557013.188931,
-					["friendlyfire_total"] = 0,
+					["end_time"] = 1621259513,
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Reneebaby",
-					["spec"] = 261,
-					["grupo"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
-								["c_amt"] = 296,
+								["c_amt"] = 298,
 								["b_amt"] = 0,
-								["c_dmg"] = 230101,
+								["c_dmg"] = 233314,
 								["g_amt"] = 0,
-								["n_max"] = 946,
+								["n_max"] = 1051,
 								["targets"] = {
 									["强化的焰炉执行者"] = 18991,
 									["荒芜碎击者"] = 24685,
@@ -24902,40 +21527,77 @@ _detalhes_database = {
 									["刻符巨像"] = 11689,
 									["焰炉大师"] = 8774,
 									["强化的渊誓护火者"] = 11653,
+									["渊誓禁锢者"] = 5675,
 									["渊誓弓手"] = 2109,
+									["灰烬护命匣"] = 1195,
 									["渊誓护火者"] = 16213,
 									["折磨之主"] = 16031,
 									["强化的焰炉大师"] = 16573,
 									["戈姆蛴喷吐者"] = 723,
 									["亡语者"] = 11977,
-									["渊誓禁锢者"] = 5675,
-									["灰烬护命匣"] = 1195,
 									["监锁之主"] = 11896,
 									["镇压者泽罗尔斯"] = 27199,
 									["失落的泥仆"] = 1740,
-									["渊誓召火者"] = 8350,
-									["渊誓寻猎者"] = 4903,
 									["熔炉守护者"] = 20265,
+									["渊誓寻猎者"] = 4903,
+									["渊誓召火者"] = 8350,
+									["奈奈的無奈-霜之哀伤"] = 3451,
+									["优秀的阿昆-霜之哀伤"] = 13381,
 								},
-								["n_dmg"] = 144782,
+								["n_dmg"] = 158401,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 779,
-								["total"] = 374883,
+								["counter"] = 802,
+								["total"] = 391715,
 								["c_max"] = 1798,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 121,
+								["MISS"] = 124,
+								["extra"] = {
+								},
+								["a_dmg"] = 16832,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 20,
+								["n_amt"] = 380,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[328305] = {
+								["c_amt"] = 19,
+								["b_amt"] = 0,
+								["c_dmg"] = 31340,
+								["g_amt"] = 0,
+								["n_max"] = 1291,
+								["targets"] = {
+									["强化的焰炉执行者"] = 10015,
+									["镇压者泽罗尔斯"] = 8503,
+									["强化的焰炉大师"] = 0,
+									["渊誓卫兵"] = 4473,
+									["焰炉执行者"] = 16168,
+									["巨锤"] = 15659,
+									["刻符巨像"] = 8426,
+									["荒芜碎击者"] = 10058,
+									["渊誓护火者"] = 0,
+								},
+								["n_dmg"] = 41962,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 74,
+								["total"] = 73302,
+								["c_max"] = 2341,
+								["id"] = 328305,
+								["r_dmg"] = 0,
 								["extra"] = {
 								},
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 362,
+								["n_amt"] = 55,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
-							}, -- [1]
+							},
 							[333846] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -24971,8 +21633,9 @@ _detalhes_database = {
 								["n_max"] = 16867,
 								["targets"] = {
 									["亡语者"] = 16354,
-									["渊誓哨兵"] = 16463,
 									["刻符巨像"] = 16867,
+									["渊誓哨兵"] = 16463,
+									["熔炉守护者"] = 0,
 								},
 								["n_dmg"] = 49684,
 								["n_min"] = 0,
@@ -24992,65 +21655,22 @@ _detalhes_database = {
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
-							[53] = {
-								["c_amt"] = 20,
-								["b_amt"] = 0,
-								["c_dmg"] = 39399,
-								["g_amt"] = 0,
-								["n_max"] = 2787,
-								["targets"] = {
-									["强化的焰炉执行者"] = 2854,
-									["荒芜碎击者"] = 2681,
-									["噬渊鼠"] = 6691,
-									["渊誓哨兵"] = 2419,
-									["渊誓卫兵"] = 9094,
-									["焰炉执行者"] = 16728,
-									["塔楼哨卫"] = 6393,
-									["熔炉守护者"] = 1574,
-									["刻符巨像"] = 1397,
-									["焰炉大师"] = 1595,
-									["强化的渊誓护火者"] = 1823,
-									["镇压者泽罗尔斯"] = 1800,
-									["折磨之主"] = 1561,
-									["亡语者"] = 1789,
-									["渊誓禁锢者"] = 8405,
-									["渊誓护火者"] = 1401,
-									["渊誓召火者"] = 3452,
-									["渊誓寻猎者"] = 690,
-									["渊誓卫徒"] = 1292,
-								},
-								["n_dmg"] = 34240,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 52,
-								["total"] = 73639,
-								["c_max"] = 5618,
-								["id"] = 53,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 32,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
 							[197835] = {
-								["c_amt"] = 91,
+								["c_amt"] = 96,
 								["b_amt"] = 0,
-								["c_dmg"] = 137206,
+								["c_dmg"] = 145113,
 								["g_amt"] = 0,
 								["n_max"] = 2455,
 								["targets"] = {
 									["荒芜碎击者"] = 2445,
+									["Vikluny-霜之哀伤"] = 18417,
 									["噬渊鼠"] = 26246,
 									["渊誓哨兵"] = 19049,
 									["渊誓卫兵"] = 13708,
 									["焰炉执行者"] = 12152,
 									["渊誓禁锢者"] = 7494,
 									["熔炉守护者"] = 14934,
+									["优秀的阿昆-霜之哀伤"] = 15676,
 									["刻符巨像"] = 8757,
 									["焰炉大师"] = 5751,
 									["渊誓弓手"] = 1141,
@@ -25059,41 +21679,43 @@ _detalhes_database = {
 									["强化的焰炉大师"] = 3221,
 									["戈姆蛴喷吐者"] = 1223,
 									["渊誓卫徒"] = 36559,
-									["亡语者"] = 14290,
 									["渊誓寻猎者"] = 2874,
+									["亡语者"] = 14290,
 									["失落的泥仆"] = 750,
 									["监锁之主"] = 1109,
-									["渊誓召火者"] = 6882,
 									["灰烬护命匣"] = 31186,
+									["渊誓召火者"] = 6882,
+									["奈奈的無奈-霜之哀伤"] = 20748,
 									["骷髅残骸 <亡语者>"] = 3473,
 								},
-								["n_dmg"] = 108088,
+								["n_dmg"] = 155022,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 259,
-								["total"] = 245294,
+								["counter"] = 314,
+								["total"] = 300135,
 								["c_max"] = 4837,
 								["id"] = 197835,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
+								["a_dmg"] = 53898,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 168,
+								["a_amt"] = 54,
+								["n_amt"] = 218,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 							[8680] = {
-								["c_amt"] = 174,
+								["c_amt"] = 177,
 								["b_amt"] = 0,
-								["c_dmg"] = 19364,
+								["c_dmg"] = 19827,
 								["g_amt"] = 0,
 								["n_max"] = 138,
 								["targets"] = {
 									["强化的焰炉执行者"] = 875,
 									["荒芜碎击者"] = 2345,
+									["Vikluny-霜之哀伤"] = 562,
 									["噬渊鼠"] = 1813,
 									["渊誓哨兵"] = 1627,
 									["渊誓卫兵"] = 2251,
@@ -25104,36 +21726,38 @@ _detalhes_database = {
 									["刻符巨像"] = 1795,
 									["焰炉大师"] = 859,
 									["强化的渊誓护火者"] = 977,
+									["优秀的阿昆-霜之哀伤"] = 816,
 									["渊誓弓手"] = 358,
+									["渊誓寻猎者"] = 136,
 									["渊誓护火者"] = 1768,
 									["折磨之主"] = 1589,
 									["强化的焰炉大师"] = 1696,
 									["戈姆蛴喷吐者"] = 104,
 									["亡语者"] = 524,
-									["渊誓卫徒"] = 2513,
 									["渊誓禁锢者"] = 686,
-									["渊誓寻猎者"] = 136,
 									["镇压者泽罗尔斯"] = 2289,
 									["失落的泥仆"] = 142,
-									["渊誓召火者"] = 523,
+									["渊誓卫徒"] = 2513,
 									["灰烬护命匣"] = 744,
+									["渊誓召火者"] = 523,
+									["奈奈的無奈-霜之哀伤"] = 493,
 									["骷髅残骸 <亡语者>"] = 58,
 								},
-								["n_dmg"] = 16369,
+								["n_dmg"] = 17777,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 447,
-								["total"] = 35733,
+								["counter"] = 467,
+								["total"] = 37604,
 								["c_max"] = 218,
 								["id"] = 8680,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
+								["a_dmg"] = 1542,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 273,
+								["a_amt"] = 16,
+								["n_amt"] = 290,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
@@ -25161,9 +21785,9 @@ _detalhes_database = {
 									["折磨之主"] = 57981,
 									["强化的焰炉大师"] = 31916,
 									["戈姆蛴喷吐者"] = 6562,
-									["亡语者"] = 12574,
 									["渊誓禁锢者"] = 9222,
 									["监锁之主"] = 16128,
+									["亡语者"] = 12574,
 									["镇压者泽罗尔斯"] = 113231,
 									["失落的泥仆"] = 1390,
 									["渊誓召火者"] = 14426,
@@ -25188,28 +21812,41 @@ _detalhes_database = {
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
-							[328305] = {
-								["c_amt"] = 19,
+							[53] = {
+								["c_amt"] = 20,
 								["b_amt"] = 0,
-								["c_dmg"] = 31340,
+								["c_dmg"] = 39399,
 								["g_amt"] = 0,
-								["n_max"] = 1291,
+								["n_max"] = 2787,
 								["targets"] = {
-									["焰炉执行者"] = 16168,
-									["强化的焰炉执行者"] = 10015,
-									["荒芜碎击者"] = 10058,
-									["巨锤"] = 15659,
-									["刻符巨像"] = 8426,
-									["镇压者泽罗尔斯"] = 8503,
-									["渊誓卫兵"] = 4473,
+									["强化的焰炉执行者"] = 2854,
+									["荒芜碎击者"] = 2681,
+									["噬渊鼠"] = 6691,
+									["渊誓哨兵"] = 2419,
+									["渊誓卫兵"] = 9094,
+									["焰炉执行者"] = 16728,
+									["塔楼哨卫"] = 6393,
+									["熔炉守护者"] = 1574,
+									["刻符巨像"] = 1397,
+									["焰炉大师"] = 1595,
+									["强化的渊誓护火者"] = 1823,
+									["镇压者泽罗尔斯"] = 1800,
+									["折磨之主"] = 1561,
+									["强化的焰炉大师"] = 0,
+									["渊誓禁锢者"] = 8405,
+									["渊誓护火者"] = 1401,
+									["亡语者"] = 1789,
+									["渊誓召火者"] = 3452,
+									["渊誓寻猎者"] = 690,
+									["渊誓卫徒"] = 1292,
 								},
-								["n_dmg"] = 41962,
+								["n_dmg"] = 34240,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 74,
-								["total"] = 73302,
-								["c_max"] = 2341,
-								["id"] = 328305,
+								["counter"] = 52,
+								["total"] = 73639,
+								["c_max"] = 5618,
+								["id"] = 53,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -25217,7 +21854,7 @@ _detalhes_database = {
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 55,
+								["n_amt"] = 32,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
@@ -25244,8 +21881,8 @@ _detalhes_database = {
 									["镇压者泽罗尔斯"] = 56526,
 									["监锁之主"] = 14689,
 									["强化的焰炉大师"] = 14559,
-									["灰烬护命匣"] = 5904,
 									["渊誓护火者"] = 23646,
+									["灰烬护命匣"] = 5904,
 									["渊誓召火者"] = 5223,
 									["渊誓寻猎者"] = 11174,
 									["折磨之主"] = 49676,
@@ -25297,36 +21934,43 @@ _detalhes_database = {
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
-							[319190] = {
-								["c_amt"] = 20,
+							[319175] = {
+								["c_amt"] = 63,
 								["b_amt"] = 0,
-								["c_dmg"] = 21802,
+								["c_dmg"] = 234238,
 								["g_amt"] = 0,
-								["n_max"] = 890,
+								["n_max"] = 5754,
 								["targets"] = {
-									["刻符巨像"] = 655,
-									["荒芜碎击者"] = 806,
-									["渊誓护火者"] = 8020,
-									["折磨之主"] = 1536,
-									["噬渊鼠"] = 1980,
-									["渊誓哨兵"] = 2616,
-									["渊誓卫兵"] = 3500,
-									["熔炉守护者"] = 656,
-									["焰炉执行者"] = 5897,
-									["渊誓禁锢者"] = 2233,
-									["渊誓卫徒"] = 12660,
-									["强化的焰炉大师"] = 970,
-									["亡语者"] = 2980,
-									["焰炉大师"] = 1636,
-									["监锁之主"] = 707,
+									["荒芜碎击者"] = 2206,
+									["噬渊鼠"] = 53078,
+									["渊誓哨兵"] = 25059,
+									["渊誓卫兵"] = 26749,
+									["焰炉执行者"] = 43918,
+									["渊誓禁锢者"] = 11350,
+									["渊誓卫徒"] = 70930,
+									["刻符巨像"] = 17661,
+									["焰炉大师"] = 11227,
+									["渊誓弓手"] = 2052,
+									["渊誓护火者"] = 40273,
+									["监锁之主"] = 997,
+									["强化的焰炉大师"] = 1386,
+									["戈姆蛴喷吐者"] = 5157,
+									["折磨之主"] = 2111,
+									["灰烬护命匣"] = 6194,
+									["亡语者"] = 13483,
+									["失落的泥仆"] = 3795,
+									["熔炉守护者"] = 43575,
+									["渊誓召火者"] = 16562,
+									["渊誓寻猎者"] = 1029,
+									["骷髅残骸 <亡语者>"] = 6222,
 								},
-								["n_dmg"] = 25050,
+								["n_dmg"] = 170776,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 60,
-								["total"] = 46852,
-								["c_max"] = 1641,
-								["id"] = 319190,
+								["counter"] = 147,
+								["total"] = 405014,
+								["c_max"] = 9386,
+								["id"] = 319175,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -25334,7 +21978,7 @@ _detalhes_database = {
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 40,
+								["n_amt"] = 84,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
@@ -25345,12 +21989,12 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 137,
 								["targets"] = {
-									["巨锤"] = 137,
-									["荒芜碎击者"] = 716,
 									["监锁之主"] = 210,
-									["亡语者"] = 1549,
-									["镇压者泽罗尔斯"] = 1054,
+									["荒芜碎击者"] = 716,
+									["巨锤"] = 137,
 									["强化的焰炉大师"] = 1800,
+									["镇压者泽罗尔斯"] = 1054,
+									["亡语者"] = 1549,
 								},
 								["n_dmg"] = 4037,
 								["n_min"] = 0,
@@ -25381,9 +22025,9 @@ _detalhes_database = {
 									["荒芜碎击者"] = 25146,
 									["强化的焰炉大师"] = 10013,
 									["渊誓哨兵"] = 8306,
-									["亡语者"] = 7228,
 									["强化的渊誓护火者"] = 26636,
 									["噬渊鼠"] = 927,
+									["亡语者"] = 7228,
 									["巨锤"] = 69213,
 									["刻符巨像"] = 22300,
 									["灰烬护命匣"] = 5418,
@@ -25429,9 +22073,9 @@ _detalhes_database = {
 									["渊誓护火者"] = 8728,
 									["监锁之主"] = 12626,
 									["强化的焰炉大师"] = 22389,
-									["亡语者"] = 4384,
 									["渊誓禁锢者"] = 5519,
 									["镇压者泽罗尔斯"] = 42263,
+									["亡语者"] = 4384,
 									["渊誓召火者"] = 5511,
 									["渊誓寻猎者"] = 4819,
 									["折磨之主"] = 19747,
@@ -25481,43 +22125,36 @@ _detalhes_database = {
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
-							[319175] = {
-								["c_amt"] = 63,
+							[319190] = {
+								["c_amt"] = 20,
 								["b_amt"] = 0,
-								["c_dmg"] = 234238,
+								["c_dmg"] = 21802,
 								["g_amt"] = 0,
-								["n_max"] = 5754,
+								["n_max"] = 890,
 								["targets"] = {
-									["荒芜碎击者"] = 2206,
-									["噬渊鼠"] = 53078,
-									["渊誓哨兵"] = 25059,
-									["渊誓卫兵"] = 26749,
-									["焰炉执行者"] = 43918,
-									["渊誓禁锢者"] = 11350,
-									["渊誓卫徒"] = 70930,
-									["刻符巨像"] = 17661,
-									["焰炉大师"] = 11227,
-									["渊誓弓手"] = 2052,
-									["渊誓护火者"] = 40273,
-									["监锁之主"] = 997,
-									["强化的焰炉大师"] = 1386,
-									["戈姆蛴喷吐者"] = 5157,
-									["折磨之主"] = 2111,
-									["亡语者"] = 13483,
-									["灰烬护命匣"] = 6194,
-									["失落的泥仆"] = 3795,
-									["熔炉守护者"] = 43575,
-									["渊誓召火者"] = 16562,
-									["渊誓寻猎者"] = 1029,
-									["骷髅残骸 <亡语者>"] = 6222,
+									["渊誓护火者"] = 8020,
+									["熔炉守护者"] = 656,
+									["荒芜碎击者"] = 806,
+									["监锁之主"] = 707,
+									["噬渊鼠"] = 1980,
+									["渊誓哨兵"] = 2616,
+									["渊誓卫兵"] = 3500,
+									["刻符巨像"] = 655,
+									["焰炉执行者"] = 5897,
+									["渊誓禁锢者"] = 2233,
+									["渊誓卫徒"] = 12660,
+									["强化的焰炉大师"] = 970,
+									["亡语者"] = 2980,
+									["焰炉大师"] = 1636,
+									["折磨之主"] = 1536,
 								},
-								["n_dmg"] = 170776,
+								["n_dmg"] = 25050,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 147,
-								["total"] = 405014,
-								["c_max"] = 9386,
-								["id"] = 319175,
+								["counter"] = 60,
+								["total"] = 46852,
+								["c_max"] = 1641,
+								["id"] = 319190,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -25525,19 +22162,22 @@ _detalhes_database = {
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 84,
+								["n_amt"] = 40,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-729-052440E9",
+					["grupo"] = true,
+					["spec"] = 261,
+					["aID"] = "729-052440E9",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 772492.188931,
-					["start_time"] = 1621258846,
+					["damage_taken"] = 772492.214652,
+					["start_time"] = 1621258779,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
@@ -25548,24 +22188,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 4448,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3932-2162-20804-151128-00002274BB",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "151128",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4448.012411999999,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1621259513,
 					["dps_started"] = false,
 					["total"] = 4448.012411999999,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "监锁之主",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -25621,16 +22260,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-151128-00002274BB",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 58362.012412,
 					["start_time"] = 1621259500,
 					["delay"] = 0,
-					["damage_taken"] = 58362.012412,
+					["monster"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 2632,
@@ -25640,23 +22280,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 13166,
 					},
-					["dps_started"] = false,
+					["serial"] = "",
 					["pets"] = {
 					},
-					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["monster"] = true,
 					["aID"] = "",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 13166.007281,
-					["on_hold"] = false,
 					["end_time"] = 1621259513,
-					["monster"] = true,
-					["total"] = 13166.007281,
 					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["total"] = 13166.007281,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "[*] 烈焰爆发",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[307115] = {
 								["c_amt"] = 0,
@@ -25686,43 +22326,42 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.007281,
 					["start_time"] = 1621259503,
 					["delay"] = 0,
-					["damage_taken"] = 0.007281,
+					["dps_started"] = false,
 				}, -- [3]
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 0.161529,
-					["monster"] = true,
 					["damage_from"] = {
 					},
 					["targets"] = {
 						["Reneebaby"] = 253277,
 					},
-					["dps_started"] = false,
+					["serial"] = "",
 					["pets"] = {
 					},
-					["last_event"] = 0,
+					["aID"] = "",
+					["dps_started"] = false,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 253277.161529,
-					["on_hold"] = false,
+					["monster"] = true,
 					["fight_component"] = true,
 					["total"] = 253277.161529,
-					["friendlyfire_total"] = 0,
-					["end_time"] = 1621259513,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "[*] 折磨：魂铸热能",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[326469] = {
 								["c_amt"] = 0,
@@ -25752,22 +22391,22 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["aID"] = "",
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "",
+					["end_time"] = 1621259513,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.161529,
 					["start_time"] = 1621259021,
 					["delay"] = 0,
-					["damage_taken"] = 0.161529,
+					["friendlyfire_total"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 2593.082374000001,
-					["monster"] = true,
 					["damage_from"] = {
 						["Reneebaby"] = true,
 						["吟树者因德里"] = true,
@@ -25776,23 +22415,22 @@ _detalhes_database = {
 						["Reneebaby"] = 17696,
 						["吟树者因德里"] = 791,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3932-2162-20804-151353-0008A274BB",
 					["pets"] = {
 					},
+					["aID"] = "151353",
 					["dps_started"] = false,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 18487.08237400001,
-					["friendlyfire"] = {
-					},
+					["monster"] = true,
 					["fight_component"] = true,
 					["total"] = 18487.08237400001,
-					["friendlyfire_total"] = 0,
-					["end_time"] = 1621259513,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "噬渊鼠",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 6,
@@ -25826,13 +22464,15 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["aID"] = "151353",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-151353-0008A274BB",
+					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
+					["end_time"] = 1621259513,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1621259376,
 					["delay"] = 0,
 					["damage_taken"] = 175728.082374,
@@ -25847,24 +22487,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 58785,
 					},
-					["dps_started"] = false,
+					["serial"] = "Creature-0-3932-2162-20804-157571-0000A274BB",
 					["pets"] = {
 					},
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 58785.04225899999,
-					["on_hold"] = false,
-					["friendlyfire"] = {
-					},
+					["dps_started"] = false,
 					["monster"] = true,
 					["total"] = 58785.04225899999,
-					["end_time"] = 1621259560,
-					["aID"] = "157571",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "渊誓护火者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[275983] = {
 								["c_amt"] = 0,
@@ -25950,13 +22588,15 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-157571-0000A274BB",
+					["damage_taken"] = 152024.042259,
+					["end_time"] = 1621259560,
+					["aID"] = "157571",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 152024.042259,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1621259486,
 					["delay"] = 0,
 					["last_dps"] = 0,
@@ -25971,24 +22611,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 58500,
 					},
-					["monster"] = true,
+					["serial"] = "Creature-0-3932-2162-20804-157634-0000A274BB",
 					["pets"] = {
 					},
-					["end_time"] = 1621259560,
+					["aID"] = "157634",
+					["dps_started"] = false,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 58500.07933699999,
-					["dps_started"] = false,
-					["on_hold"] = false,
+					["end_time"] = 1621259560,
 					["fight_component"] = true,
 					["total"] = 58500.07933699999,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "焰炉执行者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 2,
@@ -26128,44 +22766,45 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["aID"] = "157634",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-157634-0000A274BB",
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 450732.079337,
 					["start_time"] = 1621259411,
 					["delay"] = 0,
-					["damage_taken"] = 450732.079337,
+					["monster"] = true,
 				}, -- [7]
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 703.036547,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Reneebaby"] = true,
 					},
 					["targets"] = {
 						["Reneebaby"] = 31470,
 					},
-					["end_time"] = 1621259560,
+					["serial"] = "Creature-0-3932-2162-20804-152661-00002274BB",
 					["pets"] = {
 					},
+					["classe"] = "UNKNOW",
 					["friendlyfire"] = {
 					},
 					["aID"] = "152661",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 31470.036547,
-					["fight_component"] = true,
+					["end_time"] = 1621259560,
 					["dps_started"] = false,
 					["total"] = 31470.036547,
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "渊誓卫徒",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 6,
@@ -26226,44 +22865,44 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-152661-00002274BB",
+					["monster"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 148766.036547,
 					["start_time"] = 1621259497,
 					["delay"] = 0,
-					["damage_taken"] = 148766.036547,
+					["fight_component"] = true,
 				}, -- [8]
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 3354.014016,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Reneebaby"] = true,
 					},
 					["targets"] = {
 						["Reneebaby"] = 17769,
 					},
+					["serial"] = "Creature-0-3932-2162-20804-155828-00002274BB",
 					["pets"] = {
 					},
-					["end_time"] = 1621259579,
+					["classe"] = "UNKNOW",
 					["friendlyfire"] = {
 					},
 					["aID"] = "155828",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 17769.014016,
-					["fight_component"] = true,
+					["end_time"] = 1621259579,
 					["dps_started"] = false,
 					["total"] = 17769.014016,
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "刻符巨像",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -26348,16 +22987,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-155828-00002274BB",
+					["monster"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 166790.014016,
 					["start_time"] = 1621259537,
 					["delay"] = 0,
-					["damage_taken"] = 166790.014016,
+					["fight_component"] = true,
 				}, -- [9]
 				{
 					["flag_original"] = 68168,
@@ -26369,24 +23009,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 17997,
 					},
-					["dps_started"] = false,
+					["serial"] = "Creature-0-3932-2162-20804-157584-00002274BB",
 					["pets"] = {
 					},
+					["classe"] = "UNKNOW",
 					["fight_component"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 17997.042213,
-					["on_hold"] = false,
-					["friendlyfire"] = {
-					},
+					["dps_started"] = false,
 					["monster"] = true,
 					["total"] = 17997.042213,
-					["end_time"] = 1621259641,
-					["aID"] = "157584",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "焰炉大师",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[347404] = {
 								["c_amt"] = 0,
@@ -26444,13 +23082,15 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-157584-00002274BB",
+					["damage_taken"] = 69995.04221300001,
+					["end_time"] = 1621259641,
+					["aID"] = "157584",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 69995.04221300001,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1621259600,
 					["delay"] = 0,
 					["last_dps"] = 0,
@@ -26463,63 +23103,62 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
-					["end_time"] = 1621259668,
 					["pets"] = {
 					},
-					["aID"] = "164698",
 					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.036964,
+					["serial"] = "Creature-0-3932-2162-20804-164698-00042274BB",
 					["fight_component"] = true,
-					["dps_started"] = false,
+					["end_time"] = 1621259668,
 					["total"] = 0.036964,
-					["classe"] = "UNKNOW",
-					["last_event"] = 0,
+					["on_hold"] = false,
 					["nome"] = "灰烬护命匣",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-3932-2162-20804-164698-00042274BB",
+					["dps_started"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 50641.036964,
 					["start_time"] = 1621259665,
 					["delay"] = 0,
-					["damage_taken"] = 50641.036964,
+					["aID"] = "164698",
 				}, -- [11]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 2805.012927,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Reneebaby"] = true,
 					},
 					["targets"] = {
 						["Reneebaby"] = 20689,
 					},
+					["serial"] = "Creature-0-3932-2162-20804-151127-00002274BB",
 					["pets"] = {
 					},
-					["end_time"] = 1621259698,
+					["classe"] = "UNKNOW",
 					["friendlyfire"] = {
 					},
 					["aID"] = "151127",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 20689.012927,
-					["fight_component"] = true,
+					["end_time"] = 1621259698,
 					["dps_started"] = false,
 					["total"] = 20689.012927,
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "折磨之主",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[294362] = {
 								["c_amt"] = 0,
@@ -26576,16 +23215,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-151127-00002274BB",
+					["monster"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 155916.012927,
 					["start_time"] = 1621259677,
 					["delay"] = 0,
-					["damage_taken"] = 155916.012927,
+					["fight_component"] = true,
 				}, -- [12]
 				{
 					["flag_original"] = 2632,
@@ -26598,24 +23238,22 @@ _detalhes_database = {
 						["Reneebaby"] = 40446,
 						["吟树者因德里"] = 1217,
 					},
-					["monster"] = true,
+					["serial"] = "Creature-0-3932-2162-20804-157572-00002274BB",
 					["pets"] = {
 					},
-					["end_time"] = 1621259698,
+					["aID"] = "157572",
+					["dps_started"] = false,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 41663.03544,
-					["dps_started"] = false,
-					["on_hold"] = false,
+					["end_time"] = 1621259698,
 					["fight_component"] = true,
 					["total"] = 41663.03544,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "渊誓召火者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[275983] = {
 								["c_amt"] = 0,
@@ -26674,44 +23312,44 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["aID"] = "157572",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-157572-00002274BB",
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 61342.03543999999,
 					["start_time"] = 1621259644,
 					["delay"] = 0,
-					["damage_taken"] = 61342.03543999999,
+					["monster"] = true,
 				}, -- [13]
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 1106.073195,
-					["monster"] = true,
 					["damage_from"] = {
 						["Reneebaby"] = true,
 					},
 					["targets"] = {
 						["Reneebaby"] = 42038,
 					},
+					["serial"] = "Creature-0-3932-2162-20804-157583-0001A274BB",
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["aID"] = "157583",
 					["dps_started"] = false,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 42038.07319499999,
-					["friendlyfire"] = {
-					},
+					["monster"] = true,
 					["fight_component"] = true,
 					["total"] = 42038.07319499999,
-					["friendlyfire_total"] = 0,
-					["end_time"] = 1621259698,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "熔炉守护者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[347404] = {
 								["c_amt"] = 0,
@@ -26795,13 +23433,15 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["aID"] = "157583",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-157583-0001A274BB",
+					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
+					["end_time"] = 1621259698,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1621259613,
 					["delay"] = 0,
 					["damage_taken"] = 138269.073195,
@@ -26809,17 +23449,16 @@ _detalhes_database = {
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 2285.027768,
-					["dps_started"] = false,
 					["damage_from"] = {
 						["Reneebaby"] = true,
 					},
 					["targets"] = {
 						["Reneebaby"] = 15931,
 					},
+					["serial"] = "Creature-0-3932-2162-20804-153874-00002274BB",
 					["pets"] = {
 					},
-					["friendlyfire"] = {
-					},
+					["classe"] = "UNKNOW",
 					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
@@ -26828,11 +23467,11 @@ _detalhes_database = {
 					["end_time"] = 1621259811,
 					["monster"] = true,
 					["total"] = 15931.027768,
-					["aID"] = "153874",
-					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["last_event"] = 0,
 					["nome"] = "渊誓哨兵",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -26892,16 +23531,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-153874-00002274BB",
+					["damage_taken"] = 123358.027768,
+					["aID"] = "153874",
+					["fight_component"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 123358.027768,
+					["last_dps"] = 0,
 					["start_time"] = 1621259762,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["dps_started"] = false,
 				}, -- [15]
 				{
 					["flag_original"] = 2632,
@@ -26911,23 +23551,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 9291,
 					},
-					["dps_started"] = false,
+					["serial"] = "",
 					["pets"] = {
 					},
-					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["monster"] = true,
 					["aID"] = "",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 9291.005058,
-					["on_hold"] = false,
 					["end_time"] = 1621259811,
-					["monster"] = true,
-					["total"] = 9291.005058,
 					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["total"] = 9291.005058,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "[*] 烈焰喷射",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[325514] = {
 								["c_amt"] = 0,
@@ -26957,45 +23597,44 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.005058,
 					["start_time"] = 1621259808,
 					["delay"] = 0,
-					["damage_taken"] = 0.005058,
+					["dps_started"] = false,
 				}, -- [16]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 0.0128,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Reneebaby"] = true,
 					},
 					["targets"] = {
 						["Reneebaby"] = 25070,
 					},
+					["serial"] = "Creature-0-3932-2162-20804-168104-00002274BB",
 					["pets"] = {
 					},
-					["end_time"] = 1621259853,
+					["classe"] = "UNKNOW",
 					["friendlyfire"] = {
 					},
 					["aID"] = "168104",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 25070.0128,
-					["fight_component"] = true,
+					["end_time"] = 1621259853,
 					["dps_started"] = false,
 					["total"] = 25070.0128,
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "强化的焰炉大师",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[347404] = {
 								["c_amt"] = 0,
@@ -27081,16 +23720,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-168104-00002274BB",
+					["monster"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 104523.0128,
 					["start_time"] = 1621259809,
 					["delay"] = 0,
-					["damage_taken"] = 104523.0128,
+					["fight_component"] = true,
 				}, -- [17]
 				{
 					["flag_original"] = 2632,
@@ -27100,23 +23740,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 946,
 					},
-					["dps_started"] = false,
+					["serial"] = "",
 					["pets"] = {
 					},
-					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["monster"] = true,
 					["aID"] = "",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 946.010662,
-					["on_hold"] = false,
 					["end_time"] = 1621259853,
-					["monster"] = true,
-					["total"] = 946.010662,
 					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["total"] = 946.010662,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "[*] 碾压炼狱",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[308098] = {
 								["c_amt"] = 0,
@@ -27146,22 +23786,21 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.010662,
 					["start_time"] = 1621259844,
 					["delay"] = 0,
-					["damage_taken"] = 0.010662,
+					["dps_started"] = false,
 				}, -- [18]
 				{
 					["flag_original"] = 68136,
 					["totalabsorbed"] = 0.015933,
-					["aID"] = "170419",
 					["damage_from"] = {
 						["Reneebaby"] = true,
 					},
@@ -27169,32 +23808,33 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
 					["classe"] = "UNKNOW",
+					["damage_taken"] = 7817.015933000001,
+					["aID"] = "170419",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.015933,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["serial"] = "Creature-0-3932-2162-20804-170419-0000227657",
+					["fight_component"] = true,
 					["end_time"] = 1621259939,
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["nome"] = "失落的泥仆",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_event"] = 0,
 					["total"] = 0.015933,
-					["serial"] = "Creature-0-3932-2162-20804-170419-0000227657",
+					["dps_started"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 7817.015933000001,
+					["last_dps"] = 0,
 					["start_time"] = 1621259936,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 				}, -- [19]
 				{
 					["flag_original"] = 2632,
@@ -27205,24 +23845,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 7355,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3932-2162-20804-153878-0000227655",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "153878",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 7355.012804,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1621259939,
 					["dps_started"] = false,
 					["total"] = 7355.012804,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "渊誓弓手",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[329706] = {
 								["c_amt"] = 0,
@@ -27252,44 +23891,44 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-153878-0000227655",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 13431.012804,
 					["start_time"] = 1621259914,
 					["delay"] = 0,
-					["damage_taken"] = 13431.012804,
+					["monster"] = true,
 				}, -- [20]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 2391.012929,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Reneebaby"] = true,
 					},
 					["targets"] = {
 						["Reneebaby"] = 11753,
 					},
+					["serial"] = "Creature-0-3932-2162-20804-173051-0000227655",
 					["pets"] = {
 					},
-					["end_time"] = 1621260110,
+					["classe"] = "UNKNOW",
 					["friendlyfire"] = {
 					},
 					["aID"] = "173051",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 11753.012929,
-					["fight_component"] = true,
+					["end_time"] = 1621260110,
 					["dps_started"] = false,
 					["total"] = 11753.012929,
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "镇压者泽罗尔斯",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -27373,16 +24012,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-173051-0000227655",
+					["monster"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 257939.012929,
 					["start_time"] = 1621260081,
 					["delay"] = 0,
-					["damage_taken"] = 257939.012929,
+					["fight_component"] = true,
 				}, -- [21]
 				{
 					["flag_original"] = 68168,
@@ -27393,24 +24033,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 6570,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3932-2162-20804-168001-0000227655",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "168001",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 6570.009223,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1621260193,
 					["dps_started"] = false,
 					["total"] = 6570.009223,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "强化的焰炉执行者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -27548,16 +24187,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-168001-0000227655",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 155681.009223,
 					["start_time"] = 1621260169,
 					["delay"] = 0,
-					["damage_taken"] = 155681.009223,
+					["monster"] = true,
 				}, -- [22]
 				{
 					["flag_original"] = 2632,
@@ -27568,24 +24208,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 4380,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3932-2162-20804-155219-0000227807",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "155219",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4380.003093,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1621260375,
 					["dps_started"] = false,
 					["total"] = 4380.003093,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "戈姆蛴喷吐者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[183263] = {
 								["c_amt"] = 0,
@@ -27615,21 +24254,21 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-155219-0000227807",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 13769.003093,
 					["start_time"] = 1621260368,
 					["delay"] = 0,
-					["damage_taken"] = 13769.003093,
+					["monster"] = true,
 				}, -- [23]
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 4163.015183,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Reneebaby"] = true,
 						["吟树者因德里"] = true,
@@ -27637,23 +24276,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 15976,
 					},
-					["end_time"] = 1621260409,
+					["serial"] = "Creature-0-3932-2162-20804-150958-0000A27807",
 					["pets"] = {
 					},
+					["classe"] = "UNKNOW",
 					["friendlyfire"] = {
 					},
 					["aID"] = "150958",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 15976.015183,
-					["fight_component"] = true,
+					["end_time"] = 1621260409,
 					["dps_started"] = false,
 					["total"] = 15976.015183,
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "渊誓卫兵",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -27737,21 +24376,21 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-150958-0000A27807",
+					["monster"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 155486.015183,
 					["start_time"] = 1621260365,
 					["delay"] = 0,
-					["damage_taken"] = 155486.015183,
+					["fight_component"] = true,
 				}, -- [24]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 2229.010014,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Reneebaby"] = true,
 						["吟树者因德里"] = true,
@@ -27760,23 +24399,23 @@ _detalhes_database = {
 						["Reneebaby"] = 23584,
 						["吟树者因德里"] = 1805,
 					},
+					["serial"] = "Creature-0-3932-2162-20804-173136-0000227807",
 					["pets"] = {
 					},
-					["end_time"] = 1621260436,
+					["classe"] = "UNKNOW",
 					["friendlyfire"] = {
 					},
 					["aID"] = "173136",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 25389.010014,
-					["fight_component"] = true,
+					["end_time"] = 1621260436,
 					["dps_started"] = false,
 					["total"] = 25389.010014,
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "荒芜碎击者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -27862,44 +24501,44 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-173136-0000227807",
+					["monster"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 231048.010014,
 					["start_time"] = 1621260393,
 					["delay"] = 0,
-					["damage_taken"] = 231048.010014,
+					["fight_component"] = true,
 				}, -- [25]
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 1761.023773,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Reneebaby"] = true,
 					},
 					["targets"] = {
 						["Reneebaby"] = 14046,
 					},
+					["serial"] = "Creature-0-3932-2162-20804-152708-0001227807",
 					["pets"] = {
 					},
-					["end_time"] = 1621260436,
+					["classe"] = "UNKNOW",
 					["friendlyfire"] = {
 					},
 					["aID"] = "152708",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 14046.023773,
-					["fight_component"] = true,
+					["end_time"] = 1621260436,
 					["dps_started"] = false,
 					["total"] = 14046.023773,
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "渊誓寻猎者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -27958,16 +24597,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-152708-0001227807",
+					["monster"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 41402.023773,
 					["start_time"] = 1621260404,
 					["delay"] = 0,
-					["damage_taken"] = 41402.023773,
+					["fight_component"] = true,
 				}, -- [26]
 				{
 					["flag_original"] = 2632,
@@ -27978,24 +24618,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 26429,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3932-2162-20804-152905-0000227807",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "152905",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 26429.011259,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1621260476,
 					["dps_started"] = false,
 					["total"] = 26429.011259,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "塔楼哨卫",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 1,
@@ -28053,21 +24692,21 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-152905-0000227807",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 60055.011259,
 					["start_time"] = 1621260450,
 					["delay"] = 0,
-					["damage_taken"] = 60055.011259,
+					["monster"] = true,
 				}, -- [27]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 1210.02222,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Reneebaby"] = true,
 						["吟树者因德里"] = true,
@@ -28075,23 +24714,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 13284,
 					},
+					["serial"] = "Creature-0-3932-2162-20804-150965-0000A27807",
 					["pets"] = {
 					},
-					["end_time"] = 1621260622,
+					["classe"] = "UNKNOW",
 					["friendlyfire"] = {
 					},
 					["aID"] = "150965",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 13284.02222,
-					["fight_component"] = true,
+					["end_time"] = 1621260622,
 					["dps_started"] = false,
 					["total"] = 13284.02222,
-					["classe"] = "UNKNOW",
-					["monster"] = true,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "渊誓禁锢者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -28177,16 +24816,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-150965-0000A27807",
+					["monster"] = true,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 51454.02222,
 					["start_time"] = 1621260591,
 					["delay"] = 0,
-					["damage_taken"] = 51454.02222,
+					["fight_component"] = true,
 				}, -- [28]
 				{
 					["flag_original"] = 2632,
@@ -28197,25 +24837,24 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 8608,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3932-2162-20804-155908-0000227A1B",
 					["pets"] = {
 						"骷髅残骸 <亡语者>", -- [1]
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "155908",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 8608.013047999999,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1621260893,
 					["dps_started"] = false,
 					["total"] = 8608.013047999999,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "亡语者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -28325,43 +24964,42 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-155908-0000227A1B",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 87132.013048,
 					["start_time"] = 1621260875,
 					["delay"] = 0,
-					["damage_taken"] = 87132.013048,
+					["monster"] = true,
 				}, -- [29]
 				{
 					["flag_original"] = 8776,
 					["totalabsorbed"] = 0.009978,
-					["serial"] = "Creature-0-3932-2162-20804-157340-0000227A4A",
-					["fight_component"] = true,
 					["damage_from"] = {
 						["Reneebaby"] = true,
 					},
 					["targets"] = {
 					},
+					["serial"] = "Creature-0-3932-2162-20804-157340-0000227A4A",
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["end_time"] = 1621260893,
+					["last_dps"] = 0,
 					["aID"] = "157340",
+					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.009978,
-					["last_event"] = 0,
+					["fight_component"] = true,
 					["dps_started"] = false,
-					["total"] = 0.009978,
-					["classe"] = "PET",
+					["end_time"] = 1621260893,
+					["on_hold"] = false,
 					["ownerName"] = "亡语者",
 					["nome"] = "骷髅残骸 <亡语者>",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -28392,16 +25030,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["last_event"] = 0,
+					["total"] = 0.009978,
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 11685.009978,
 					["start_time"] = 1621260890,
 					["delay"] = 0,
-					["damage_taken"] = 11685.009978,
+					["friendlyfire_total"] = 0,
 				}, -- [30]
 				{
 					["flag_original"] = 68168,
@@ -28412,24 +25052,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 10747,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3932-2162-20804-168105-0000227A1B",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "168105",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 10747.009679,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1621260960,
 					["dps_started"] = false,
 					["total"] = 10747.009679,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "强化的渊誓护火者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[347404] = {
 								["c_amt"] = 0,
@@ -28486,16 +25125,17 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-168105-0000227A1B",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 214097.009679,
 					["start_time"] = 1621260945,
 					["delay"] = 0,
-					["damage_taken"] = 214097.009679,
+					["monster"] = true,
 				}, -- [31]
 				{
 					["flag_original"] = 68168,
@@ -28506,24 +25146,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Reneebaby"] = 2241,
 					},
-					["on_hold"] = false,
+					["serial"] = "Creature-0-3932-2162-20804-159755-0000227AAD",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "159755",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2241.013687,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1621261040,
 					["dps_started"] = false,
 					["total"] = 2241.013687,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "巨锤",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -28554,17 +25193,147 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-159755-0000227AAD",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 427433.013687,
 					["start_time"] = 1621261022,
 					["delay"] = 0,
-					["damage_taken"] = 427433.013687,
+					["monster"] = true,
 				}, -- [32]
+				{
+					["flag_original"] = 1352,
+					["totalabsorbed"] = 0.024507,
+					["damage_from"] = {
+						["暴走之心"] = true,
+						["Reneebaby"] = true,
+						["Shuker"] = true,
+						["须臾-金色平原"] = true,
+						["渣哥-白银之手"] = true,
+					},
+					["targets"] = {
+					},
+					["enemy"] = true,
+					["pets"] = {
+					},
+					["damage_taken"] = 61480.024507,
+					["fight_component"] = true,
+					["aID"] = "877-05DB4057",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.024507,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1621401677,
+					["classe"] = "UNGROUPPLAYER",
+					["last_dps"] = 0,
+					["nome"] = "优秀的阿昆-霜之哀伤",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["total"] = 0.024507,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1621401674,
+					["serial"] = "Player-877-05DB4057",
+					["on_hold"] = false,
+				}, -- [33]
+				{
+					["flag_original"] = 1352,
+					["totalabsorbed"] = 0.02861800000000001,
+					["damage_from"] = {
+						["暴走之心"] = true,
+						["Reneebaby"] = true,
+						["Shuker"] = true,
+						["须臾-金色平原"] = true,
+						["渣哥-白银之手"] = true,
+					},
+					["targets"] = {
+					},
+					["enemy"] = true,
+					["pets"] = {
+					},
+					["damage_taken"] = 60129.02861799999,
+					["fight_component"] = true,
+					["aID"] = "877-05DB3F6B",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.02861800000000001,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1621401677,
+					["classe"] = "UNGROUPPLAYER",
+					["last_dps"] = 0,
+					["nome"] = "Vikluny-霜之哀伤",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["total"] = 0.02861800000000001,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1621401674,
+					["serial"] = "Player-877-05DB3F6B",
+					["on_hold"] = false,
+				}, -- [34]
+				{
+					["flag_original"] = 1352,
+					["totalabsorbed"] = 0.014309,
+					["damage_from"] = {
+						["暴走之心"] = true,
+						["Reneebaby"] = true,
+						["Shuker"] = true,
+						["须臾-金色平原"] = true,
+						["渣哥-白银之手"] = true,
+					},
+					["targets"] = {
+					},
+					["enemy"] = true,
+					["pets"] = {
+					},
+					["damage_taken"] = 76942.01430899999,
+					["fight_component"] = true,
+					["aID"] = "877-05DB3F66",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.014309,
+					["delay"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1621401677,
+					["classe"] = "UNGROUPPLAYER",
+					["last_dps"] = 0,
+					["nome"] = "奈奈的無奈-霜之哀伤",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["total"] = 0.014309,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1621401674,
+					["serial"] = "Player-877-05DB3F66",
+					["on_hold"] = false,
+				}, -- [35]
 			},
 		}, -- [1]
 		{
@@ -28573,7 +25342,7 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1297,
 					["targets_overheal"] = {
-						["Reneebaby"] = 48220,
+						["Reneebaby"] = 0,
 					},
 					["pets"] = {
 					},
@@ -28583,7 +25352,7 @@ _detalhes_database = {
 					["total_without_pet"] = 478760.1742960001,
 					["total"] = 478760.1742960001,
 					["targets_absorbs"] = {
-						["Reneebaby"] = 94489,
+						["Reneebaby"] = 0,
 					},
 					["heal_enemy"] = {
 					},
@@ -28592,19 +25361,18 @@ _detalhes_database = {
 					["totalabsorb"] = 94489.17429599998,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Reneebaby"] = 478760,
+						["Reneebaby"] = 0,
 					},
 					["totalover_without_pet"] = 0.174296,
 					["healing_taken"] = 478760.1742960001,
 					["fight_component"] = true,
 					["end_time"] = 1621259513,
-					["start_time"] = 1621259015,
 					["healing_from"] = {
 						["Reneebaby"] = true,
 					},
+					["classe"] = "ROGUE",
 					["nome"] = "Reneebaby",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[185311] = {
 								["c_amt"] = 0,
@@ -28626,9 +25394,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 85469,
 								["totaldenied"] = 0,
 								["n_amt"] = 54,
+								["n_curado"] = 85469,
 								["absorbed"] = 0,
 							},
 							[341530] = {
@@ -28651,9 +25419,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 94489,
 								["totaldenied"] = 0,
 								["n_amt"] = 88,
+								["n_curado"] = 94489,
 								["absorbed"] = 0,
 							},
 							[158188] = {
@@ -28676,22 +25444,23 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_curado"] = 298802,
 								["totaldenied"] = 0,
 								["n_amt"] = 216,
+								["n_curado"] = 298802,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
 					["heal_enemy_amt"] = 0,
-					["classe"] = "ROGUE",
+					["start_time"] = 1621259015,
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["spec"] = 261,
 					["totaldenied"] = 0.174296,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 				}, -- [1]
 			},
 		}, -- [2]
@@ -28700,9 +25469,9 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["resource"] = 909.213301,
+					["resource"] = 1731.430682,
 					["targets"] = {
-						["Reneebaby"] = 8473,
+						["Reneebaby"] = 0,
 					},
 					["pets"] = {
 					},
@@ -28710,59 +25479,59 @@ _detalhes_database = {
 					["aID"] = "729-052440E9",
 					["totalover"] = 0.001107,
 					["fight_component"] = true,
-					["alternatepower"] = 0.213301,
-					["received"] = 8473.213301,
+					["alternatepower"] = 0.226571,
+					["received"] = 8506.226571,
 					["nome"] = "Reneebaby",
-					["spec"] = 261,
-					["grupo"] = true,
-					["classe"] = "ROGUE",
-					["passiveover"] = 0.001107,
-					["resource_type"] = 4,
-					["last_event"] = 0,
-					["total"] = 8473.213301,
-					["tipo"] = 3,
-					["serial"] = "Player-729-052440E9",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
-							[196980] = {
-								["total"] = 918,
-								["id"] = 196980,
-								["totalover"] = 0,
-								["targets"] = {
-									["Reneebaby"] = 918,
-								},
-								["counter"] = 255,
-							},
 							[196911] = {
-								["total"] = 1121,
+								["total"] = 1153,
 								["id"] = 196911,
 								["totalover"] = 0,
 								["targets"] = {
-									["Reneebaby"] = 1121,
+									["Reneebaby"] = 0,
 								},
-								["counter"] = 142,
-							},
-							[98440] = {
-								["total"] = 5808,
-								["id"] = 98440,
-								["totalover"] = 0,
-								["targets"] = {
-									["Reneebaby"] = 5808,
-								},
-								["counter"] = 215,
+								["counter"] = 146,
 							},
 							[212283] = {
 								["total"] = 626,
 								["id"] = 212283,
 								["totalover"] = 0,
 								["targets"] = {
-									["Reneebaby"] = 626,
+									["Reneebaby"] = 0,
 								},
 								["counter"] = 19,
 							},
+							[98440] = {
+								["total"] = 5808,
+								["id"] = 98440,
+								["totalover"] = 0,
+								["targets"] = {
+									["Reneebaby"] = 0,
+								},
+								["counter"] = 215,
+							},
+							[196980] = {
+								["total"] = 919,
+								["id"] = 196980,
+								["totalover"] = 0,
+								["targets"] = {
+									["Reneebaby"] = 0,
+								},
+								["counter"] = 256,
+							},
 						},
+						["tipo"] = 7,
 					},
+					["grupo"] = true,
+					["classe"] = "ROGUE",
+					["passiveover"] = 0.001107,
+					["resource_type"] = 4,
+					["tipo"] = 3,
+					["last_event"] = 0,
+					["total"] = 8506.226571,
+					["serial"] = "Player-729-052440E9",
+					["spec"] = 261,
 				}, -- [1]
 			},
 		}, -- [3]
@@ -28772,8 +25541,17 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
+							[328305] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 10,
+								["id"] = 328305,
+								["uptime"] = 74,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 							[137619] = {
 								["refreshamt"] = 0,
 								["activedamt"] = -1,
@@ -28794,6 +25572,47 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							[1943] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 1943,
+								["uptime"] = 20,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[1833] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 9,
+								["id"] = 1833,
+								["uptime"] = 33,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[8680] = {
+								["refreshamt"] = 136,
+								["activedamt"] = 3,
+								["appliedamt"] = 151,
+								["id"] = 8680,
+								["uptime"] = 507,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[3409] = {
+								["counter"] = 0,
+								["refreshamt"] = 6,
+								["activedamt"] = -2,
+								["uptime"] = 35,
+								["id"] = 3409,
+								["appliedamt"] = 11,
+								["targets"] = {
+								},
+								["actived_at"] = 1621401704,
+							},
 							[333504] = {
 								["refreshamt"] = 1,
 								["appliedamt"] = 50,
@@ -28801,6 +25620,16 @@ _detalhes_database = {
 								["uptime"] = 55,
 								["id"] = 333504,
 								["actived_at"] = 9727559737,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[348267] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 3,
+								["id"] = 348267,
+								["uptime"] = 3,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -28816,63 +25645,13 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[8680] = {
-								["refreshamt"] = 130,
-								["activedamt"] = 3,
-								["appliedamt"] = 137,
-								["id"] = 8680,
-								["uptime"] = 491,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[328305] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 10,
-								["id"] = 328305,
-								["uptime"] = 74,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[1943] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 1,
-								["id"] = 1943,
-								["uptime"] = 20,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[348267] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 3,
-								["id"] = 348267,
-								["uptime"] = 3,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[1833] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 9,
-								["id"] = 1833,
-								["uptime"] = 33,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[316220] = {
-								["actived_at"] = 3242521403,
-								["refreshamt"] = 64,
-								["activedamt"] = -4,
-								["appliedamt"] = 119,
-								["id"] = 316220,
-								["uptime"] = 414,
+							[324260] = {
+								["actived_at"] = 3242521536,
+								["refreshamt"] = 1,
+								["activedamt"] = -2,
+								["appliedamt"] = 30,
+								["id"] = 324260,
+								["uptime"] = 120,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -28887,13 +25666,13 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[324260] = {
-								["actived_at"] = 3242521536,
-								["refreshamt"] = 1,
-								["activedamt"] = -2,
-								["appliedamt"] = 27,
-								["id"] = 324260,
-								["uptime"] = 117,
+							[316220] = {
+								["actived_at"] = 3242521403,
+								["refreshamt"] = 64,
+								["activedamt"] = -4,
+								["appliedamt"] = 123,
+								["id"] = 316220,
+								["uptime"] = 423,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -28930,60 +25709,34 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["interrupt"] = 7.041527999999999,
-					["classe"] = "ROGUE",
-					["cooldowns_defensive"] = 6.027792000000001,
+					["cooldowns_defensive"] = 7.032302000000001,
 					["pets"] = {
 					},
-					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[31224] = {
-								["id"] = 31224,
-								["targets"] = {
-									["Reneebaby"] = 2,
-								},
-								["counter"] = 2,
-							},
-							[5277] = {
-								["id"] = 5277,
-								["targets"] = {
-									["Reneebaby"] = 3,
-								},
-								["counter"] = 3,
-							},
-							[1856] = {
-								["id"] = 1856,
-								["targets"] = {
-									["Reneebaby"] = 1,
-								},
-								["counter"] = 1,
-							},
-						},
-					},
+					["tipo"] = 4,
 					["cc_done_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[1833] = {
 								["id"] = 1833,
 								["targets"] = {
-									["巨锤"] = 1,
+									["监锁之主"] = 1,
 									["渊誓弓手"] = 1,
 									["强化的焰炉执行者"] = 1,
-									["镇压者泽罗尔斯"] = 1,
-									["监锁之主"] = 1,
+									["荒芜碎击者"] = 2,
+									["巨锤"] = 1,
 									["刻符巨像"] = 1,
 									["渊誓禁锢者"] = 1,
-									["荒芜碎击者"] = 2,
+									["镇压者泽罗尔斯"] = 1,
 								},
 								["counter"] = 9,
 							},
 						},
-					},
-					["aID"] = "729-052440E9",
-					["interrupt_spells"] = {
 						["tipo"] = 9,
+					},
+					["classe"] = "ROGUE",
+					["interrupt_spells"] = {
 						["_ActorTable"] = {
 							[1766] = {
 								["id"] = 1766,
@@ -28997,27 +25750,27 @@ _detalhes_database = {
 									[335694] = 1,
 								},
 								["targets"] = {
-									["巨锤"] = 1,
-									["镇压者泽罗尔斯"] = 1,
 									["渊誓护火者"] = 1,
 									["监锁之主"] = 1,
-									["强化的焰炉大师"] = 1,
-									["亡语者"] = 1,
 									["荒芜碎击者"] = 1,
+									["巨锤"] = 1,
+									["亡语者"] = 1,
+									["强化的焰炉大师"] = 1,
+									["镇压者泽罗尔斯"] = 1,
 								},
 								["counter"] = 7,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[342814] = {
-								["refreshamt"] = 23,
-								["activedamt"] = 36,
-								["appliedamt"] = 36,
+								["refreshamt"] = 24,
+								["activedamt"] = 41,
+								["appliedamt"] = 41,
 								["id"] = 342814,
-								["uptime"] = 572,
+								["uptime"] = 636,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -29054,10 +25807,10 @@ _detalhes_database = {
 							},
 							[8679] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 37,
-								["appliedamt"] = 37,
+								["activedamt"] = 41,
+								["appliedamt"] = 41,
 								["id"] = 8679,
-								["uptime"] = 668,
+								["uptime"] = 735,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -29072,10 +25825,20 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							[264415] = {
+								["counter"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 264415,
+								["uptime"] = 46,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
 							[196980] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 50,
-								["appliedamt"] = 50,
+								["activedamt"] = 51,
+								["appliedamt"] = 51,
 								["id"] = 196980,
 								["uptime"] = 114,
 								["targets"] = {
@@ -29084,23 +25847,33 @@ _detalhes_database = {
 							},
 							[303003] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 37,
-								["appliedamt"] = 37,
+								["activedamt"] = 41,
+								["appliedamt"] = 41,
 								["id"] = 303003,
-								["uptime"] = 689,
+								["uptime"] = 756,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 							[225787] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 37,
-								["appliedamt"] = 37,
+								["activedamt"] = 41,
+								["appliedamt"] = 41,
 								["id"] = 225787,
-								["uptime"] = 689,
+								["uptime"] = 756,
 								["targets"] = {
 								},
 								["counter"] = 0,
+							},
+							[3408] = {
+								["counter"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 3408,
+								["uptime"] = 67,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 							[336126] = {
 								["refreshamt"] = 0,
@@ -29181,6 +25954,16 @@ _detalhes_database = {
 								["targets"] = {
 								},
 								["counter"] = 0,
+							},
+							[264420] = {
+								["counter"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 264420,
+								["uptime"] = 67,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 							[185422] = {
 								["refreshamt"] = 0,
@@ -29266,8 +26049,8 @@ _detalhes_database = {
 							},
 							[343173] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 51,
-								["appliedamt"] = 51,
+								["activedamt"] = 52,
+								["appliedamt"] = 52,
 								["id"] = 343173,
 								["uptime"] = 24,
 								["targets"] = {
@@ -29284,82 +26067,22 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[347600] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 37,
-								["appliedamt"] = 37,
-								["id"] = 347600,
-								["uptime"] = 689,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							[11327] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
 								["id"] = 11327,
 								["uptime"] = 1,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[340094] = {
+							[347600] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 33,
-								["appliedamt"] = 33,
-								["id"] = 340094,
-								["uptime"] = 119,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[212283] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 22,
-								["appliedamt"] = 22,
-								["id"] = 212283,
-								["uptime"] = 164,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[342309] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 342309,
-								["uptime"] = 2,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[36554] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 22,
-								["appliedamt"] = 22,
-								["id"] = 36554,
-								["uptime"] = 40,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[324748] = {
-								["refreshamt"] = 10,
-								["activedamt"] = 34,
-								["appliedamt"] = 34,
-								["id"] = 324748,
-								["uptime"] = 264,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[324717] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 16,
-								["appliedamt"] = 16,
-								["id"] = 324717,
-								["uptime"] = 292,
+								["activedamt"] = 41,
+								["appliedamt"] = 41,
+								["id"] = 347600,
+								["uptime"] = 756,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -29374,10 +26097,87 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							[212283] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 22,
+								["appliedamt"] = 22,
+								["id"] = 212283,
+								["uptime"] = 164,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[36554] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 22,
+								["appliedamt"] = 22,
+								["id"] = 36554,
+								["uptime"] = 40,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[342309] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 342309,
+								["uptime"] = 2,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[324748] = {
+								["refreshamt"] = 12,
+								["activedamt"] = 38,
+								["appliedamt"] = 38,
+								["id"] = 324748,
+								["uptime"] = 297,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[340094] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 34,
+								["appliedamt"] = 34,
+								["id"] = 340094,
+								["uptime"] = 119,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[324717] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 16,
+								["appliedamt"] = 16,
+								["id"] = 324717,
+								["uptime"] = 292,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[269083] = {
+								["counter"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 269083,
+								["uptime"] = 67,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
 						},
+						["tipo"] = 9,
 					},
-					["cooldowns_defensive_targets"] = {
-						["Reneebaby"] = 6,
+					["interrupt_targets"] = {
+						["渊誓护火者"] = 1,
+						["监锁之主"] = 1,
+						["荒芜碎击者"] = 1,
+						["巨锤"] = 1,
+						["亡语者"] = 1,
+						["强化的焰炉大师"] = 1,
+						["镇压者泽罗尔斯"] = 1,
 					},
 					["interrompeu_oque"] = {
 						[296019] = 1,
@@ -29389,21 +26189,39 @@ _detalhes_database = {
 						[335694] = 1,
 					},
 					["fight_component"] = true,
-					["debuff_uptime"] = 2051,
-					["buff_uptime"] = 7397,
+					["debuff_uptime"] = 2114,
+					["buff_uptime"] = 8009,
 					["cc_done"] = 9.036365,
 					["buff_uptime_targets"] = {
 					},
-					["interrupt_targets"] = {
-						["巨锤"] = 1,
-						["镇压者泽罗尔斯"] = 1,
-						["渊誓护火者"] = 1,
-						["监锁之主"] = 1,
-						["强化的焰炉大师"] = 1,
-						["亡语者"] = 1,
-						["荒芜碎击者"] = 1,
-					},
+					["spec"] = 261,
 					["grupo"] = true,
+					["cooldowns_defensive_spells"] = {
+						["_ActorTable"] = {
+							[31224] = {
+								["id"] = 31224,
+								["targets"] = {
+									["Reneebaby"] = 2,
+								},
+								["counter"] = 2,
+							},
+							[5277] = {
+								["id"] = 5277,
+								["targets"] = {
+									["Reneebaby"] = 3,
+								},
+								["counter"] = 3,
+							},
+							[1856] = {
+								["id"] = 1856,
+								["targets"] = {
+									["Reneebaby"] = 2,
+								},
+								["counter"] = 2,
+							},
+						},
+						["tipo"] = 9,
+					},
 					["spell_cast"] = {
 						[310143] = 1,
 						[5761] = 1,
@@ -29412,23 +26230,23 @@ _detalhes_database = {
 						[121471] = 6,
 						[212283] = 19,
 						[8679] = 1,
-						[315496] = 2,
-						[1856] = 1,
-						[196819] = 181,
+						[1856] = 2,
 						[1833] = 9,
-						[319175] = 29,
-						[185313] = 31,
-						[185438] = 98,
-						[324748] = 32,
-						[324260] = 28,
 						[320109] = 1,
+						[185313] = 31,
+						[319175] = 29,
+						[196819] = 181,
+						[185438] = 98,
+						[324748] = 36,
+						[324260] = 31,
+						[328305] = 10,
 						[36554] = 17,
 						[336126] = 1,
-						[328305] = 10,
 						[185311] = 7,
-						[197835] = 55,
+						[315496] = 2,
+						[197835] = 73,
 						[137619] = 62,
-						[212743] = 54,
+						[212743] = 70,
 						[53] = 49,
 						[31224] = 2,
 						[115191] = 1,
@@ -29436,45 +26254,47 @@ _detalhes_database = {
 						[1943] = 1,
 						[1766] = 8,
 					},
-					["debuff_uptime_targets"] = {
+					["aID"] = "729-052440E9",
+					["cooldowns_defensive_targets"] = {
+						["Reneebaby"] = 7,
 					},
-					["spec"] = 261,
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["cc_done_targets"] = {
-						["巨锤"] = 1,
+						["监锁之主"] = 1,
 						["渊誓弓手"] = 1,
 						["强化的焰炉执行者"] = 1,
-						["镇压者泽罗尔斯"] = 1,
-						["监锁之主"] = 1,
+						["荒芜碎击者"] = 2,
+						["巨锤"] = 1,
 						["刻符巨像"] = 1,
 						["渊誓禁锢者"] = 1,
-						["荒芜碎击者"] = 2,
+						["镇压者泽罗尔斯"] = 1,
 					},
 					["nome"] = "Reneebaby",
 					["serial"] = "Player-729-052440E9",
-					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [1]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[292942] = 1,
-					},
+					["last_event"] = 0,
 					["nome"] = "监锁之主",
 					["pets"] = {
 					},
+					["spell_cast"] = {
+						[292942] = 1,
+					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "151128",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-151128-00002274BB",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3932-2162-20804-151128-00002274BB",
+					["flag_original"] = 68168,
 				}, -- [2]
 				{
 					["flag_original"] = 2632,
-					["last_event"] = 0,
-					["monster"] = true,
+					["aID"] = "157571",
 					["nome"] = "渊誓护火者",
+					["monster"] = true,
 					["pets"] = {
 					},
 					["spell_cast"] = {
@@ -29482,347 +26302,400 @@ _detalhes_database = {
 						[329422] = 3,
 						[347404] = 11,
 					},
-					["fight_component"] = true,
 					["tipo"] = 4,
-					["aID"] = "157571",
-					["serial"] = "Creature-0-3932-2162-20804-157571-0000A274BB",
 					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3932-2162-20804-157571-0000A274BB",
+					["fight_component"] = true,
 				}, -- [3]
 				{
 					["flag_original"] = 68168,
-					["monster"] = true,
-					["aID"] = "155828",
+					["fight_component"] = true,
 					["nome"] = "刻符巨像",
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["spell_cast"] = {
 						[329609] = 2,
 						[329608] = 1,
 					},
+					["classe"] = "UNKNOW",
 					["tipo"] = 4,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3932-2162-20804-155828-00002274BB",
 					["last_event"] = 0,
+					["aID"] = "155828",
+					["serial"] = "Creature-0-3932-2162-20804-155828-00002274BB",
+					["pets"] = {
+					},
 				}, -- [4]
 				{
 					["fight_component"] = true,
-					["aID"] = "157634",
-					["flag_original"] = 68168,
+					["tipo"] = 4,
 					["nome"] = "焰炉执行者",
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["aID"] = "157634",
+					["serial"] = "Creature-0-3932-2162-20804-157634-00002274BB",
 					["spell_cast"] = {
 						[329425] = 8,
 						[308026] = 13,
 					},
-					["monster"] = true,
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["serial"] = "Creature-0-3932-2162-20804-157634-00002274BB",
-					["last_event"] = 0,
 				}, -- [5]
 				{
 					["flag_original"] = 68168,
-					["monster"] = true,
-					["aID"] = "151127",
+					["fight_component"] = true,
 					["nome"] = "折磨之主",
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["spell_cast"] = {
 						[294362] = 2,
 						[292926] = 2,
 					},
+					["classe"] = "UNKNOW",
 					["tipo"] = 4,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3932-2162-20804-151127-00002274BB",
 					["last_event"] = 0,
+					["aID"] = "151127",
+					["serial"] = "Creature-0-3932-2162-20804-151127-00002274BB",
+					["pets"] = {
+					},
 				}, -- [6]
 				{
 					["fight_component"] = true,
-					["flag_original"] = 2632,
+					["tipo"] = 4,
 					["nome"] = "渊誓召火者",
+					["flag_original"] = 2632,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["aID"] = "157572",
+					["serial"] = "Creature-0-3932-2162-20804-157572-00002274BB",
 					["spell_cast"] = {
 						[275983] = 38,
 						[347404] = 3,
 					},
-					["monster"] = true,
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["tipo"] = 4,
-					["serial"] = "Creature-0-3932-2162-20804-157572-00002274BB",
-					["last_event"] = 0,
 				}, -- [7]
 				{
 					["monster"] = true,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "熔炉守护者",
-					["pets"] = {
-					},
-					["aID"] = "157583",
-					["flag_original"] = 2632,
-					["last_event"] = 0,
 					["spell_cast"] = {
 						[347404] = 6,
 						[330347] = 6,
 						[270246] = 19,
 					},
-					["serial"] = "Creature-0-3932-2162-20804-157583-0001A274BB",
+					["nome"] = "熔炉守护者",
+					["fight_component"] = true,
+					["pets"] = {
+					},
+					["aID"] = "157583",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3932-2162-20804-157583-0001A274BB",
+					["flag_original"] = 2632,
 				}, -- [8]
 				{
 					["flag_original"] = 68168,
-					["last_event"] = 0,
-					["monster"] = true,
+					["aID"] = "153874",
 					["nome"] = "渊誓哨兵",
+					["monster"] = true,
 					["pets"] = {
 					},
 					["spell_cast"] = {
 						[298831] = 5,
 					},
-					["fight_component"] = true,
 					["tipo"] = 4,
-					["aID"] = "153874",
-					["serial"] = "Creature-0-3932-2162-20804-153874-00002274BB",
 					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3932-2162-20804-153874-00002274BB",
+					["fight_component"] = true,
 				}, -- [9]
 				{
 					["flag_original"] = 68168,
-					["monster"] = true,
-					["aID"] = "168104",
+					["fight_component"] = true,
 					["nome"] = "强化的焰炉大师",
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["spell_cast"] = {
 						[347404] = 4,
 						[270246] = 7,
 					},
+					["classe"] = "UNKNOW",
 					["tipo"] = 4,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3932-2162-20804-168104-00002274BB",
 					["last_event"] = 0,
+					["aID"] = "168104",
+					["serial"] = "Creature-0-3932-2162-20804-168104-00002274BB",
+					["pets"] = {
+					},
 				}, -- [10]
 				{
 					["flag_original"] = 2632,
-					["monster"] = true,
-					["aID"] = "152661",
+					["fight_component"] = true,
 					["nome"] = "渊誓卫徒",
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["spell_cast"] = {
 						[13584] = 16,
 					},
+					["classe"] = "UNKNOW",
 					["tipo"] = 4,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3932-2162-20804-152661-0001A27655",
 					["last_event"] = 0,
+					["aID"] = "152661",
+					["serial"] = "Creature-0-3932-2162-20804-152661-0001A27655",
+					["pets"] = {
+					},
 				}, -- [11]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[329706] = 9,
-					},
+					["last_event"] = 0,
 					["nome"] = "渊誓弓手",
 					["pets"] = {
 					},
+					["spell_cast"] = {
+						[329706] = 9,
+					},
 					["fight_component"] = true,
-					["flag_original"] = 2632,
 					["aID"] = "153878",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-153878-0000227655",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3932-2162-20804-153878-0000227655",
+					["flag_original"] = 2632,
 				}, -- [12]
 				{
 					["flag_original"] = 68168,
-					["monster"] = true,
-					["aID"] = "173051",
+					["fight_component"] = true,
 					["nome"] = "镇压者泽罗尔斯",
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["spell_cast"] = {
 						[335694] = 2,
 						[338406] = 2,
 					},
+					["classe"] = "UNKNOW",
 					["tipo"] = 4,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3932-2162-20804-173051-0000227655",
 					["last_event"] = 0,
+					["aID"] = "173051",
+					["serial"] = "Creature-0-3932-2162-20804-173051-0000227655",
+					["pets"] = {
+					},
 				}, -- [13]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "强化的焰炉执行者",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[308026] = 1,
 						[329425] = 1,
 					},
-					["nome"] = "强化的焰炉执行者",
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "168001",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-168001-0000227655",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3932-2162-20804-168001-0000227655",
+					["flag_original"] = 68168,
 				}, -- [14]
 				{
 					["flag_original"] = 2632,
-					["monster"] = true,
+					["aID"] = "157584",
 					["nome"] = "焰炉大师",
-					["last_event"] = 0,
+					["monster"] = true,
 					["pets"] = {
 					},
 					["spell_cast"] = {
 						[347404] = 3,
 						[270246] = 7,
 					},
-					["fight_component"] = true,
 					["tipo"] = 4,
-					["aID"] = "157584",
-					["serial"] = "Creature-0-3932-2162-20804-157584-0001227807",
 					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3932-2162-20804-157584-0001227807",
+					["fight_component"] = true,
 				}, -- [15]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[183263] = 6,
-					},
+					["last_event"] = 0,
 					["nome"] = "戈姆蛴喷吐者",
 					["pets"] = {
 					},
+					["spell_cast"] = {
+						[183263] = 6,
+					},
 					["fight_component"] = true,
-					["flag_original"] = 2632,
 					["aID"] = "155219",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-155219-0000227807",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3932-2162-20804-155219-0000227807",
+					["flag_original"] = 2632,
 				}, -- [16]
 				{
 					["flag_original"] = 68168,
-					["monster"] = true,
+					["aID"] = "150958",
 					["nome"] = "渊誓卫兵",
-					["last_event"] = 0,
+					["monster"] = true,
 					["pets"] = {
 					},
 					["spell_cast"] = {
 						[294165] = 4,
 						[292903] = 4,
 					},
-					["fight_component"] = true,
 					["tipo"] = 4,
-					["aID"] = "150958",
-					["serial"] = "Creature-0-3932-2162-20804-150958-0000A27807",
 					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3932-2162-20804-150958-0000A27807",
+					["fight_component"] = true,
 				}, -- [17]
 				{
 					["flag_original"] = 2632,
-					["monster"] = true,
-					["aID"] = "152708",
+					["fight_component"] = true,
 					["nome"] = "渊誓寻猎者",
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["spell_cast"] = {
 						[296523] = 3,
 					},
+					["classe"] = "UNKNOW",
 					["tipo"] = 4,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3932-2162-20804-152708-0001227807",
 					["last_event"] = 0,
+					["aID"] = "152708",
+					["serial"] = "Creature-0-3932-2162-20804-152708-0001227807",
+					["pets"] = {
+					},
 				}, -- [18]
 				{
 					["flag_original"] = 68168,
-					["monster"] = true,
-					["aID"] = "173136",
+					["fight_component"] = true,
 					["nome"] = "荒芜碎击者",
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["spell_cast"] = {
 						[325605] = 2,
 					},
+					["classe"] = "UNKNOW",
 					["tipo"] = 4,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3932-2162-20804-173136-0000227807",
 					["last_event"] = 0,
+					["aID"] = "173136",
+					["serial"] = "Creature-0-3932-2162-20804-173136-0000227807",
+					["pets"] = {
+					},
 				}, -- [19]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[346813] = 2,
-					},
+					["last_event"] = 0,
 					["nome"] = "塔楼哨卫",
 					["pets"] = {
 					},
+					["spell_cast"] = {
+						[346813] = 2,
+					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "152905",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-152905-0000227807",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3932-2162-20804-152905-0000227807",
+					["flag_original"] = 68168,
 				}, -- [20]
 				{
 					["flag_original"] = 2632,
-					["monster"] = true,
-					["aID"] = "150965",
+					["fight_component"] = true,
 					["nome"] = "渊誓禁锢者",
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["spell_cast"] = {
 						[166766] = 1,
 						[292910] = 2,
 					},
+					["classe"] = "UNKNOW",
 					["tipo"] = 4,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3932-2162-20804-150965-0000227807",
 					["last_event"] = 0,
+					["aID"] = "150965",
+					["serial"] = "Creature-0-3932-2162-20804-150965-0000227807",
+					["pets"] = {
+					},
 				}, -- [21]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "亡语者",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[304075] = 1,
 						[294362] = 2,
 						[304093] = 1,
 					},
-					["nome"] = "亡语者",
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "155908",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-155908-0000227A1B",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3932-2162-20804-155908-0000227A1B",
+					["flag_original"] = 68168,
 				}, -- [22]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "强化的渊誓护火者",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[347404] = 3,
 						[275983] = 2,
 					},
-					["nome"] = "强化的渊誓护火者",
+					["fight_component"] = true,
+					["aID"] = "168105",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3932-2162-20804-168105-0000227A1B",
+					["flag_original"] = 68168,
+				}, -- [23]
+				{
+					["flag_original"] = 1047,
+					["buff_uptime_targets"] = {
+					},
+					["grupo"] = true,
+					["nome"] = "诚实的胡志",
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["flag_original"] = 68168,
-					["aID"] = "168105",
 					["last_event"] = 0,
-					["serial"] = "Creature-0-3932-2162-20804-168105-0000227A1B",
+					["buff_uptime"] = 0,
+					["aID"] = "729-05ED2269",
 					["tipo"] = 4,
-				}, -- [23]
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[269083] = {
+								["counter"] = 0,
+								["appliedamt"] = 1,
+								["activedamt"] = 1,
+								["actived_at"] = 1621401647,
+								["id"] = 269083,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[32292] = {
+								["counter"] = 0,
+								["appliedamt"] = 1,
+								["activedamt"] = 1,
+								["actived_at"] = 1621401647,
+								["id"] = 32292,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[264420] = {
+								["counter"] = 0,
+								["appliedamt"] = 1,
+								["activedamt"] = 1,
+								["actived_at"] = 1621401647,
+								["id"] = 264420,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["serial"] = "Player-729-05ED2269",
+					["classe"] = "DEATHKNIGHT",
+				}, -- [24]
 			},
 		}, -- [4]
 		{
@@ -29834,31 +26707,31 @@ _detalhes_database = {
 		},
 		["raid_roster_indexed"] = {
 		},
+		["spells_cast_timeline"] = {
+		},
 		["tempo_start"] = 1621259450,
-		["last_events_tables"] = {
+		["cleu_timeline"] = {
 		},
 		["alternate_power"] = {
 		},
 		["combat_counter"] = 832,
-		["spells_cast_timeline"] = {
-		},
 		["totals"] = {
-			4333318.897005001, -- [1]
-			478760.1567530001, -- [2]
+			4539515.023033002, -- [1]
+			478760.2266800001, -- [2]
 			{
 				0, -- [1]
-				[0] = 0,
+				[0] = 0.021132,
 				["alternatepower"] = 0,
-				[3] = 8473.212194,
+				[3] = 8506.225464,
 				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 6.022483,
-				["interrupt"] = 7.041527999999999,
+				["cooldowns_defensive"] = 7.026993,
 				["dispell"] = 0,
+				["interrupt"] = 7.041527999999999,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
@@ -29873,281 +26746,301 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = "21:51:20",
-		["end_time"] = 180064.411,
+		["end_time"] = 183312.873,
 		["cleu_events"] = {
 			["n"] = 1,
 		},
-		["segments_added"] = {
-			{
-				["elapsed"] = 17,
-				["type"] = 0,
-				["name"] = "巨锤",
-				["clock"] = "22:17:03",
-			}, -- [1]
-			{
-				["elapsed"] = 13.00099999998929,
-				["type"] = 0,
-				["name"] = "强化的渊誓护火者",
-				["clock"] = "22:15:47",
-			}, -- [2]
-			{
-				["elapsed"] = 18.00399999998626,
-				["type"] = 0,
-				["name"] = "镇压者泽罗尔斯",
-				["clock"] = "22:15:14",
-			}, -- [3]
-			{
-				["elapsed"] = 36.00399999998626,
-				["type"] = 0,
-				["name"] = "噬渊鼠",
-				["clock"] = "22:14:17",
-			}, -- [4]
-			{
-				["elapsed"] = 11.00600000002305,
-				["type"] = 0,
-				["name"] = "渊誓护火者",
-				["clock"] = "22:13:01",
-			}, -- [5]
-			{
-				["elapsed"] = 17.00399999998626,
-				["type"] = 0,
-				["name"] = "渊誓卫兵",
-				["clock"] = "22:12:20",
-			}, -- [6]
-			{
-				["elapsed"] = 22,
-				["type"] = 0,
-				["name"] = "折磨之主",
-				["clock"] = "22:10:45",
-			}, -- [7]
-			{
-				["elapsed"] = 15.00800000000163,
-				["type"] = 0,
-				["name"] = "渊誓哨兵",
-				["clock"] = "22:10:07",
-			}, -- [8]
-			{
-				["elapsed"] = 11.00399999998626,
-				["type"] = 0,
-				["name"] = "灰烬护命匣",
-				["clock"] = "22:09:35",
-			}, -- [9]
-			{
-				["elapsed"] = 17.00099999998929,
-				["type"] = 0,
-				["name"] = "荒芜碎击者",
-				["clock"] = "22:09:09",
-			}, -- [10]
-			{
-				["elapsed"] = 14.00800000000163,
-				["type"] = 0,
-				["name"] = "渊誓哨兵",
-				["clock"] = "22:08:11",
-			}, -- [11]
-			{
-				["elapsed"] = 30,
-				["type"] = 0,
-				["name"] = "焰炉大师",
-				["clock"] = "22:07:26",
-			}, -- [12]
-			{
-				["elapsed"] = 25.00899999999092,
-				["type"] = 0,
-				["name"] = "荒芜碎击者",
-				["clock"] = "22:06:51",
-			}, -- [13]
-			{
-				["elapsed"] = 11.01100000002771,
-				["type"] = 0,
-				["name"] = "渊誓卫徒",
-				["clock"] = "22:06:38",
-			}, -- [14]
-			{
-				["elapsed"] = 22.00500000000466,
-				["type"] = 0,
-				["name"] = "噬渊鼠",
-				["clock"] = "22:05:53",
-			}, -- [15]
-			{
-				["elapsed"] = 13.00500000000466,
-				["type"] = 0,
-				["name"] = "焰炉执行者",
-				["clock"] = "22:05:36",
-			}, -- [16]
-			{
-				["elapsed"] = 23.00299999999697,
-				["type"] = 0,
-				["name"] = "强化的焰炉执行者",
-				["clock"] = "22:02:50",
-			}, -- [17]
-			{
-				["elapsed"] = 13.00299999999697,
-				["type"] = 0,
-				["name"] = "焰炉执行者",
-				["clock"] = "22:02:08",
-			}, -- [18]
-			{
-				["elapsed"] = 16.00399999998626,
-				["type"] = 0,
-				["name"] = "镇压者泽罗尔斯",
-				["clock"] = "22:01:34",
-			}, -- [19]
-			{
-				["elapsed"] = 11.00200000000768,
-				["type"] = 0,
-				["name"] = "焰炉执行者",
-				["clock"] = "22:01:20",
-			}, -- [20]
-			{
-				["elapsed"] = 22.00400000001537,
-				["type"] = 0,
-				["name"] = "焰炉执行者",
-				["clock"] = "22:00:37",
-			}, -- [21]
-			{
-				["elapsed"] = 14.00399999998626,
-				["type"] = 0,
-				["name"] = "焰炉执行者",
-				["clock"] = "22:00:17",
-			}, -- [22]
-			{
-				["elapsed"] = 21.00500000000466,
-				["type"] = 0,
-				["name"] = "熔炉守护者",
-				["clock"] = "21:59:50",
-			}, -- [23]
-			{
-				["elapsed"] = 10.00200000000768,
-				["type"] = 0,
-				["name"] = "渊誓卫徒",
-				["clock"] = "21:59:38",
-			}, -- [24]
-			{
-				["elapsed"] = 19.00700000001234,
-				["type"] = 0,
-				["name"] = "渊誓卫徒",
-				["clock"] = "21:58:40",
-			}, -- [25]
-			{
-				["elapsed"] = 13.00200000000768,
-				["type"] = 0,
-				["name"] = "焰炉执行者",
-				["clock"] = "21:58:20",
-			}, -- [26]
-			{
-				["elapsed"] = 10.00500000000466,
-				["type"] = 0,
-				["name"] = "渊誓护火者",
-				["clock"] = "21:57:49",
-			}, -- [27]
-			{
-				["elapsed"] = 26.00499999997555,
-				["type"] = 0,
-				["name"] = "强化的焰炉大师",
-				["clock"] = "21:57:07",
-			}, -- [28]
-			{
-				["elapsed"] = 37.00200000000768,
-				["type"] = 0,
-				["name"] = "噬渊鼠",
-				["clock"] = "21:56:14",
-			}, -- [29]
-			{
-				["elapsed"] = 11.00500000000466,
-				["type"] = 0,
-				["name"] = "焰炉执行者",
-				["clock"] = "21:56:00",
-			}, -- [30]
-			{
-				["elapsed"] = 22.00399999998626,
-				["type"] = 0,
-				["name"] = "焰炉执行者",
-				["clock"] = "21:55:28",
-			}, -- [31]
-			{
-				["elapsed"] = 25.012000000017,
-				["type"] = 0,
-				["name"] = "折磨之主",
-				["clock"] = "21:54:33",
-			}, -- [32]
-			{
-				["elapsed"] = 19.00800000000163,
-				["type"] = 0,
-				["name"] = "噬渊鼠",
-				["clock"] = "21:54:09",
-			}, -- [33]
-			{
-				["elapsed"] = 10.00400000001537,
-				["type"] = 0,
-				["name"] = "焰炉执行者",
-				["clock"] = "21:53:51",
-			}, -- [34]
-			{
-				["elapsed"] = 16,
-				["type"] = 0,
-				["name"] = "焰炉执行者",
-				["clock"] = "21:52:43",
-			}, -- [35]
-			{
-				["elapsed"] = 26.00200000000768,
-				["type"] = 0,
-				["name"] = "渊誓护火者",
-				["clock"] = "21:52:14",
-			}, -- [36]
-			{
-				["elapsed"] = 33.00299999999697,
-				["type"] = 0,
-				["name"] = "监锁之主",
-				["clock"] = "21:51:20",
-			}, -- [37]
-		},
 		["totals_grupo"] = {
-			3557013.182208, -- [1]
+			3630557.207929, -- [1]
 			478760.1723440001, -- [2]
 			{
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[3] = 8473.212194,
+				[3] = 8506.225464,
 				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 6.022483,
-				["interrupt"] = 7.041527999999999,
+				["cooldowns_defensive"] = 7.026993,
 				["dispell"] = 0,
+				["interrupt"] = 7.041527999999999,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
 		},
+		["overall_refreshed"] = true,
 		["frags"] = {
 		},
-		["data_fim"] = "22:17:20",
+		["hasSaved"] = true,
+		["segments_added"] = {
+			{
+				["elapsed"] = 8.75,
+				["type"] = 0,
+				["name"] = "Vikluny-霜之哀伤",
+				["clock"] = "13:21:52",
+			}, -- [1]
+			{
+				["elapsed"] = 5.983000000007451,
+				["type"] = 0,
+				["name"] = "优秀的阿昆-霜之哀伤",
+				["clock"] = "13:21:43",
+			}, -- [2]
+			{
+				["elapsed"] = 24.07199999998557,
+				["type"] = 0,
+				["name"] = "Vikluny-霜之哀伤",
+				["clock"] = "13:21:17",
+			}, -- [3]
+			{
+				["elapsed"] = 28.9660000000149,
+				["type"] = 0,
+				["name"] = "优秀的阿昆-霜之哀伤",
+				["clock"] = "13:20:48",
+			}, -- [4]
+			{
+				["elapsed"] = 17,
+				["type"] = 0,
+				["name"] = "巨锤",
+				["clock"] = "22:17:03",
+			}, -- [5]
+			{
+				["elapsed"] = 13.00099999998929,
+				["type"] = 0,
+				["name"] = "强化的渊誓护火者",
+				["clock"] = "22:15:47",
+			}, -- [6]
+			{
+				["elapsed"] = 18.00399999998626,
+				["type"] = 0,
+				["name"] = "镇压者泽罗尔斯",
+				["clock"] = "22:15:14",
+			}, -- [7]
+			{
+				["elapsed"] = 36.00399999998626,
+				["type"] = 0,
+				["name"] = "噬渊鼠",
+				["clock"] = "22:14:17",
+			}, -- [8]
+			{
+				["elapsed"] = 11.00600000002305,
+				["type"] = 0,
+				["name"] = "渊誓护火者",
+				["clock"] = "22:13:01",
+			}, -- [9]
+			{
+				["elapsed"] = 17.00399999998626,
+				["type"] = 0,
+				["name"] = "渊誓卫兵",
+				["clock"] = "22:12:20",
+			}, -- [10]
+			{
+				["elapsed"] = 22,
+				["type"] = 0,
+				["name"] = "折磨之主",
+				["clock"] = "22:10:45",
+			}, -- [11]
+			{
+				["elapsed"] = 15.00800000000163,
+				["type"] = 0,
+				["name"] = "渊誓哨兵",
+				["clock"] = "22:10:07",
+			}, -- [12]
+			{
+				["elapsed"] = 11.00399999998626,
+				["type"] = 0,
+				["name"] = "灰烬护命匣",
+				["clock"] = "22:09:35",
+			}, -- [13]
+			{
+				["elapsed"] = 17.00099999998929,
+				["type"] = 0,
+				["name"] = "荒芜碎击者",
+				["clock"] = "22:09:09",
+			}, -- [14]
+			{
+				["elapsed"] = 14.00800000000163,
+				["type"] = 0,
+				["name"] = "渊誓哨兵",
+				["clock"] = "22:08:11",
+			}, -- [15]
+			{
+				["elapsed"] = 30,
+				["type"] = 0,
+				["name"] = "焰炉大师",
+				["clock"] = "22:07:26",
+			}, -- [16]
+			{
+				["elapsed"] = 25.00899999999092,
+				["type"] = 0,
+				["name"] = "荒芜碎击者",
+				["clock"] = "22:06:51",
+			}, -- [17]
+			{
+				["elapsed"] = 11.01100000002771,
+				["type"] = 0,
+				["name"] = "渊誓卫徒",
+				["clock"] = "22:06:38",
+			}, -- [18]
+			{
+				["elapsed"] = 22.00500000000466,
+				["type"] = 0,
+				["name"] = "噬渊鼠",
+				["clock"] = "22:05:53",
+			}, -- [19]
+			{
+				["elapsed"] = 13.00500000000466,
+				["type"] = 0,
+				["name"] = "焰炉执行者",
+				["clock"] = "22:05:36",
+			}, -- [20]
+			{
+				["elapsed"] = 23.00299999999697,
+				["type"] = 0,
+				["name"] = "强化的焰炉执行者",
+				["clock"] = "22:02:50",
+			}, -- [21]
+			{
+				["elapsed"] = 13.00299999999697,
+				["type"] = 0,
+				["name"] = "焰炉执行者",
+				["clock"] = "22:02:08",
+			}, -- [22]
+			{
+				["elapsed"] = 16.00399999998626,
+				["type"] = 0,
+				["name"] = "镇压者泽罗尔斯",
+				["clock"] = "22:01:34",
+			}, -- [23]
+			{
+				["elapsed"] = 11.00200000000768,
+				["type"] = 0,
+				["name"] = "焰炉执行者",
+				["clock"] = "22:01:20",
+			}, -- [24]
+			{
+				["elapsed"] = 22.00400000001537,
+				["type"] = 0,
+				["name"] = "焰炉执行者",
+				["clock"] = "22:00:37",
+			}, -- [25]
+			{
+				["elapsed"] = 14.00399999998626,
+				["type"] = 0,
+				["name"] = "焰炉执行者",
+				["clock"] = "22:00:17",
+			}, -- [26]
+			{
+				["elapsed"] = 21.00500000000466,
+				["type"] = 0,
+				["name"] = "熔炉守护者",
+				["clock"] = "21:59:50",
+			}, -- [27]
+			{
+				["elapsed"] = 10.00200000000768,
+				["type"] = 0,
+				["name"] = "渊誓卫徒",
+				["clock"] = "21:59:38",
+			}, -- [28]
+			{
+				["elapsed"] = 19.00700000001234,
+				["type"] = 0,
+				["name"] = "渊誓卫徒",
+				["clock"] = "21:58:40",
+			}, -- [29]
+			{
+				["elapsed"] = 13.00200000000768,
+				["type"] = 0,
+				["name"] = "焰炉执行者",
+				["clock"] = "21:58:20",
+			}, -- [30]
+			{
+				["elapsed"] = 10.00500000000466,
+				["type"] = 0,
+				["name"] = "渊誓护火者",
+				["clock"] = "21:57:49",
+			}, -- [31]
+			{
+				["elapsed"] = 26.00499999997555,
+				["type"] = 0,
+				["name"] = "强化的焰炉大师",
+				["clock"] = "21:57:07",
+			}, -- [32]
+			{
+				["elapsed"] = 37.00200000000768,
+				["type"] = 0,
+				["name"] = "噬渊鼠",
+				["clock"] = "21:56:14",
+			}, -- [33]
+			{
+				["elapsed"] = 11.00500000000466,
+				["type"] = 0,
+				["name"] = "焰炉执行者",
+				["clock"] = "21:56:00",
+			}, -- [34]
+			{
+				["elapsed"] = 22.00399999998626,
+				["type"] = 0,
+				["name"] = "焰炉执行者",
+				["clock"] = "21:55:28",
+			}, -- [35]
+			{
+				["elapsed"] = 25.012000000017,
+				["type"] = 0,
+				["name"] = "折磨之主",
+				["clock"] = "21:54:33",
+			}, -- [36]
+			{
+				["elapsed"] = 19.00800000000163,
+				["type"] = 0,
+				["name"] = "噬渊鼠",
+				["clock"] = "21:54:09",
+			}, -- [37]
+			{
+				["elapsed"] = 10.00400000001537,
+				["type"] = 0,
+				["name"] = "焰炉执行者",
+				["clock"] = "21:53:51",
+			}, -- [38]
+			{
+				["elapsed"] = 16,
+				["type"] = 0,
+				["name"] = "焰炉执行者",
+				["clock"] = "21:52:43",
+			}, -- [39]
+			{
+				["elapsed"] = 26.00200000000768,
+				["type"] = 0,
+				["name"] = "渊誓护火者",
+				["clock"] = "21:52:14",
+			}, -- [40]
+		},
+		["data_fim"] = "13:22:01",
 		["overall_enemy_name"] = "-- x -- x --",
 		["CombatSkillCache"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["start_time"] = 179375.255,
-		["TimeData"] = {
-			["Raid Damage Done"] = {
-			},
 		},
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
+			["damage_section"] = {
+			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
-			["damage_section"] = {
-			},
 			["damage"] = {
 			},
+		},
+		["start_time"] = 182555.946,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["last_events_tables"] = {
 		},
 	},
 	["force_font_outline"] = "",
@@ -30174,10 +27067,10 @@ _detalhes_database = {
 			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -442.3986206054688,
-					["x"] = 618.1729736328125,
-					["w"] = 219.9999389648438,
-					["h"] = 134.8892517089844,
+					["y"] = -442.4443817138672,
+					["x"] = 619.3331298828125,
+					["w"] = 220.0000915527344,
+					["h"] = 134.5555572509766,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -30209,10 +27102,10 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -442.3986206054688,
-					["x"] = 837.0924072265625,
-					["w"] = 217.8387908935547,
-					["h"] = 134.8892517089844,
+					["y"] = -442.4443817138672,
+					["x"] = 837.5833740234375,
+					["w"] = 216.4999542236328,
+					["h"] = 134.5555572509766,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -30224,7 +27117,7 @@ _detalhes_database = {
 		}, -- [2]
 	},
 	["character_data"] = {
-		["logons"] = 33,
+		["logons"] = 35,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,
@@ -30243,5 +27136,10 @@ _detalhes_database = {
 	},
 	["cached_specs"] = {
 		["Player-729-052440E9"] = 261,
+		["Player-729-060654D3"] = 267,
+		["Player-840-018A3788"] = 258,
+		["Player-707-0644A1B9"] = 70,
+		["Player-714-064F1EC0"] = 253,
+		["Player-962-03F46AE5"] = 63,
 	},
 }

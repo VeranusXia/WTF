@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 26832,
+	["session"] = 26840,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -486,5 +486,12 @@ BugGrabberDB = {
 			["session"] = 26816,
 			["counter"] = 2,
 		}, -- [63]
+		{
+			["message"] = "[ADDON_ACTION_FORBIDDEN] 插件 'Veranus' 尝试调用保护功能 'CopyToClipboard()'。",
+			["time"] = "2021/05/19 13:07:22",
+			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `CopyToClipboard'\n[string \"@Interface\\FrameXML\\UnitPopup.lua\"]:2066: in function <Interface\\FrameXML\\UnitPopup.lua:1735>\n[string \"=[C]\"]: in function `func'\n[string \"@Interface\\SharedXML\\UIDropDownMenu.lua\"]:905: in function `UIDropDownMenuButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>",
+			["session"] = 26833,
+			["counter"] = 1,
+		}, -- [64]
 	},
 }

@@ -4,11 +4,11 @@ CliqueDB3 = {
 	["char"] = {
 		["招商中证白酒 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec2_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
@@ -64,16 +64,16 @@ CliqueDB3 = {
 		},
 		["Minpojke - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["fastooc"] = false,
-			["blacklist"] = {
-				["ElvUF_Player"] = true,
-				["ElvUF_Target"] = true,
-			},
 			["spec2_profileKey"] = "Default",
 			["downclick"] = false,
-			["spec4_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
 			["specswap"] = false,
+			["fastooc"] = false,
+			["spec3_profileKey"] = "Default",
+			["spec4_profileKey"] = "Default",
+			["blacklist"] = {
+				["ElvUF_Target"] = true,
+				["ElvUF_Player"] = true,
+			},
 		},
 		["西园寺恋 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
@@ -101,23 +101,23 @@ CliqueDB3 = {
 		},
 		["Reneebaby - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec2_profileKey"] = "Default",
-			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
-			["spec3_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Target"] = true,
 				["ElvUF_Player"] = true,
 			},
+			["spec2_profileKey"] = "Default",
+			["downclick"] = false,
+			["spec3_profileKey"] = "Default",
+			["specswap"] = false,
 		},
 		["殷倾颜 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec2_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
