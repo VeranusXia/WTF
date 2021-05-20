@@ -47,9 +47,6 @@ MEETINGSTONE_CHARACTER_DB = {
 			["minimap"] = {
 				["minimapPos"] = 264.8057964737616,
 			},
-			["lastSearchCode"] = "2-257-683-0",
-			["version"] = "80300.01",
-			["advShine"] = "80200.03",
 			["searchHistoryList"] = {
 				"2-257-683-0", -- [1]
 				"2-142-518-0", -- [2]
@@ -75,6 +72,15 @@ MEETINGSTONE_CHARACTER_DB = {
 				"4-0-0-0", -- [22]
 				"3-0-0-0", -- [23]
 			},
+			["settings"] = {
+				["storage"] = {
+					["y"] = -2.821044921875,
+					["x"] = -160.673583984375,
+					["scale"] = 1,
+				},
+			},
+			["advShine"] = "80200.03",
+			["lastSearchCode"] = "2-257-683-0",
 			["appShine"] = "80200.03",
 			["recent"] = {
 				["9-0-19-0"] = {
@@ -86,46 +92,46 @@ MEETINGSTONE_CHARACTER_DB = {
 						["time"] = 1594902626,
 					}, -- [1]
 					{
-						["role"] = "DAMAGER",
 						["class"] = 8,
-						["time"] = 1594902626,
+						["role"] = "DAMAGER",
 						["name"] = "粥本粥-国王之谷",
+						["time"] = 1594902626,
 					}, -- [2]
 					{
-						["role"] = "DAMAGER",
 						["class"] = 12,
-						["time"] = 1594902626,
+						["role"] = "DAMAGER",
 						["name"] = "一梦再起航一-末日行者",
+						["time"] = 1594902626,
 					}, -- [3]
 					{
-						["role"] = "DAMAGER",
 						["class"] = 2,
-						["time"] = 1594902626,
+						["role"] = "DAMAGER",
 						["name"] = "圣光灬裁决-回音山",
+						["time"] = 1594902626,
 					}, -- [4]
 					{
-						["role"] = "DAMAGER",
 						["class"] = 3,
-						["time"] = 1594902626,
+						["role"] = "DAMAGER",
 						["name"] = "祖安大猎手-主宰之剑",
+						["time"] = 1594902626,
 					}, -- [5]
 					{
-						["role"] = "TANK",
 						["class"] = 11,
-						["time"] = 1594902626,
+						["role"] = "TANK",
 						["name"] = "斯达舒来咯-丽丽（四川）",
+						["time"] = 1594902626,
 					}, -- [6]
 					{
-						["role"] = "DAMAGER",
 						["class"] = 12,
-						["time"] = 1594902626,
+						["role"] = "DAMAGER",
 						["name"] = "芝麻狐丶-国王之谷",
+						["time"] = 1594902626,
 					}, -- [7]
 					{
-						["role"] = "DAMAGER",
 						["class"] = 1,
-						["time"] = 1594902626,
+						["role"] = "DAMAGER",
 						["name"] = "胥先生-主宰之剑",
+						["time"] = 1594902626,
 					}, -- [8]
 				},
 				["2-257-683-0"] = {
@@ -195,13 +201,7 @@ MEETINGSTONE_CHARACTER_DB = {
 					}, -- [8]
 				},
 			},
-			["settings"] = {
-				["storage"] = {
-					["y"] = -2.821044921875,
-					["x"] = -160.673583984375,
-					["scale"] = 1,
-				},
-			},
+			["version"] = "80300.01",
 		},
 	},
 }
