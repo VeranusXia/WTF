@@ -55,15 +55,15 @@ ElvDB = {
 		["Veranus - 燃烧之刃"] = "Default",
 		["放狠话高手 - 死亡之翼"] = "Default",
 		["跨服小能手 - 迪托马斯"] = "Default",
-		["奶凶的小萝莉 - 蜘蛛王国"] = "Default",
-		["禁止白嫖 - 蜘蛛王国"] = "Default",
 		["权宜之计 - 蜘蛛王国"] = "Default",
+		["禁止白嫖 - 蜘蛛王国"] = "Default",
+		["恋绣衾 - 死亡之翼"] = "Default",
 		["只吃大饼 - 末日行者"] = "Default",
 		["卡姆希拉夫 - 燃烧之刃"] = "Default",
-		["但偏偏雨渐渐 - 蜘蛛王国"] = "Default",
+		["拉莱耶 - 蜘蛛王国"] = "Default",
 		["瓦里安微微 - 瓦里安"] = "Default",
 		["Playerywqfve - 瓦里安"] = "Default",
-		["拉莱耶 - 蜘蛛王国"] = "Default",
+		["我好难啊 - 蜘蛛王国"] = "Default",
 		["蔡徐坤 - 蜘蛛王国"] = "Default",
 		["越江吟 - 罗宁"] = "Default",
 		["别浪我们能输 - 金色平原"] = "Default",
@@ -107,9 +107,9 @@ ElvDB = {
 		["花环一号 - 罗宁"] = "Default",
 		["海妖花粉 - 蜘蛛王国"] = "Default",
 		["Superdino - 罗宁"] = "Default",
-		["我好难啊 - 蜘蛛王国"] = "Default",
+		["但偏偏雨渐渐 - 蜘蛛王国"] = "Default",
 		["挖洞蛛小分队 - 蜘蛛王国"] = "Default",
-		["恋绣衾 - 死亡之翼"] = "Default",
+		["奶凶的小萝莉 - 蜘蛛王国"] = "Default",
 		["蕾妮 - 格瑞姆巴托"] = "Default",
 		["暴走的朱雀 - 苏拉玛"] = "Default",
 		["倾颜 - 熊猫酒仙"] = "Default",
@@ -166,12 +166,12 @@ ElvDB = {
 			["实力不够悬殊"] = "ROGUE",
 		},
 		["蜘蛛王国"] = {
-			["王源"] = "DRUID",
+			["Riyuujo"] = "WARLOCK",
 			["禁止白嫖"] = "WARRIOR",
 			["权宜之计"] = "ROGUE",
 			["梨花細雨"] = "DRUID",
 			["奶凶的小萝莉"] = "DEATHKNIGHT",
-			["Riyuujo"] = "WARLOCK",
+			["猪柳蛋帕妮妮"] = "HUNTER",
 			["狂乱合唱"] = "PRIEST",
 			["海妖花粉"] = "SHAMAN",
 			["但偏偏雨渐渐"] = "WARLOCK",
@@ -180,7 +180,7 @@ ElvDB = {
 			["蔡徐坤"] = "HUNTER",
 			["爱你哟"] = "WARRIOR",
 			["须臾洞察"] = "ROGUE",
-			["猪柳蛋帕妮妮"] = "HUNTER",
+			["王源"] = "DRUID",
 		},
 		["白银之手"] = {
 			["西园寺恋"] = "PRIEST",
@@ -651,42 +651,6 @@ ElvDB = {
 					["tank"] = {
 						["enable"] = false,
 					},
-					["boss"] = {
-						["debuffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = -18,
-						},
-						["spacing"] = 22,
-						["castbar"] = {
-							["width"] = 200,
-						},
-						["power"] = {
-							["text_format"] = "[powercolor][curpp]",
-							["xOffset"] = 2,
-						},
-						["width"] = 200,
-						["infoPanel"] = {
-							["height"] = 17,
-						},
-						["name"] = {
-							["xOffset"] = 2,
-						},
-						["height"] = 47,
-						["buffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = 10,
-						},
-					},
-					["targettarget"] = {
-						["debuffs"] = {
-							["enable"] = false,
-						},
-						["width"] = 100,
-						["height"] = 25,
-						["raidicon"] = {
-							["yOffset"] = 14,
-						},
-					},
 					["party"] = {
 						["buffs"] = {
 							["sizeOverride"] = 20,
@@ -735,45 +699,14 @@ ElvDB = {
 							["yOffset"] = -5,
 						},
 					},
-					["raid"] = {
-						["healPrediction"] = {
-							["enable"] = true,
+					["targettarget"] = {
+						["debuffs"] = {
+							["enable"] = false,
 						},
-						["infoPanel"] = {
-							["enable"] = true,
-						},
-						["name"] = {
-							["attachTextTo"] = "InfoPanel",
-							["position"] = "LEFT",
-							["xOffset"] = 15,
-						},
-						["height"] = 35,
-						["visibility"] = "[nogroup][@raid6,noexists][@raid31,exists] hide;show",
+						["width"] = 100,
+						["height"] = 25,
 						["raidicon"] = {
-							["attachTo"] = "TOPRIGHT",
-							["xOffset"] = -2,
-						},
-						["rdebuffs"] = {
-							["font"] = "PT Sans Narrow",
-						},
-						["numGroups"] = 8,
-						["growthDirection"] = "DOWN_LEFT",
-						["roleIcon"] = {
-							["yOffset"] = 0,
-							["attachTo"] = "InfoPanel",
-							["position"] = "LEFT",
-							["xOffset"] = 0,
-							["size"] = 14,
-						},
-						["power"] = {
-							["height"] = 6,
-						},
-						["width"] = 90,
-						["health"] = {
-							["position"] = "TOPLEFT",
-							["xOffset"] = 4,
-							["text_format"] = "",
-							["yOffset"] = -4,
+							["yOffset"] = 14,
 						},
 					},
 					["player"] = {
@@ -857,6 +790,73 @@ ElvDB = {
 							["detachFromFrame"] = true,
 							["enable"] = false,
 							["detachedWidth"] = 225,
+						},
+					},
+					["raid"] = {
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["name"] = {
+							["attachTextTo"] = "InfoPanel",
+							["position"] = "LEFT",
+							["xOffset"] = 15,
+						},
+						["height"] = 35,
+						["visibility"] = "[nogroup][@raid6,noexists][@raid31,exists] hide;show",
+						["raidicon"] = {
+							["attachTo"] = "TOPRIGHT",
+							["xOffset"] = -2,
+						},
+						["rdebuffs"] = {
+							["font"] = "PT Sans Narrow",
+						},
+						["numGroups"] = 8,
+						["growthDirection"] = "DOWN_LEFT",
+						["roleIcon"] = {
+							["yOffset"] = 0,
+							["attachTo"] = "InfoPanel",
+							["position"] = "LEFT",
+							["xOffset"] = 0,
+							["size"] = 14,
+						},
+						["power"] = {
+							["height"] = 6,
+						},
+						["width"] = 90,
+						["health"] = {
+							["position"] = "TOPLEFT",
+							["xOffset"] = 4,
+							["text_format"] = "",
+							["yOffset"] = -4,
+						},
+					},
+					["boss"] = {
+						["debuffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = -18,
+						},
+						["spacing"] = 22,
+						["castbar"] = {
+							["width"] = 200,
+						},
+						["power"] = {
+							["text_format"] = "[powercolor][curpp]",
+							["xOffset"] = 2,
+						},
+						["width"] = 200,
+						["infoPanel"] = {
+							["height"] = 17,
+						},
+						["name"] = {
+							["xOffset"] = 2,
+						},
+						["height"] = 47,
+						["buffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = 10,
 						},
 					},
 					["raid40"] = {
@@ -1256,12 +1256,12 @@ ElvDB = {
 			["实力不够悬殊"] = "Horde",
 		},
 		["蜘蛛王国"] = {
-			["王源"] = "Alliance",
+			["Riyuujo"] = "Alliance",
 			["禁止白嫖"] = "Alliance",
 			["权宜之计"] = "Alliance",
 			["梨花細雨"] = "Alliance",
 			["奶凶的小萝莉"] = "Alliance",
-			["Riyuujo"] = "Alliance",
+			["猪柳蛋帕妮妮"] = "Alliance",
 			["狂乱合唱"] = "Alliance",
 			["海妖花粉"] = "Alliance",
 			["但偏偏雨渐渐"] = "Alliance",
@@ -1270,7 +1270,7 @@ ElvDB = {
 			["蔡徐坤"] = "Alliance",
 			["爱你哟"] = "Alliance",
 			["须臾洞察"] = "Alliance",
-			["猪柳蛋帕妮妮"] = "Alliance",
+			["王源"] = "Alliance",
 		},
 		["白银之手"] = {
 			["西园寺恋"] = "Alliance",
@@ -1401,8 +1401,8 @@ ElvDB = {
 			["我把你画成花"] = 22708444,
 			["维莉雅蕾妮"] = 163130886,
 			["西瓜味泡泡糖"] = 311547866,
-			["殷倾颜"] = 704613718,
-			["招商中证白酒"] = 2416952624,
+			["殷倾颜"] = 704608618,
+			["招商中证白酒"] = 2418961504,
 			["她会的我也会"] = 431850502,
 			["龙小二"] = 10023623,
 			["西园寺恋"] = 667341221,
@@ -1410,8 +1410,8 @@ ElvDB = {
 			["欧欧蕾蕾"] = 2370492,
 			["焊接机器人"] = 1521480980,
 			["大球球"] = 33766943,
-			["Reneebaby"] = 2543682887,
-			["Minpojke"] = 37639089,
+			["Reneebaby"] = 2380948376,
+			["Minpojke"] = 80065474,
 			["Boogaloo"] = 261910639,
 			["小微微"] = 52827490,
 		},
@@ -1430,7 +1430,7 @@ ElvDB = {
 			["沈琴愉"] = 22209604,
 			["Cena"] = 52394600,
 			["蕾妮"] = 2333512,
-			["西园寺恋"] = 3547354579,
+			["西园寺恋"] = 3552751679,
 		},
 	},
 	["global"] = {
@@ -1644,31 +1644,31 @@ ElvDB = {
 		["datatexts"] = {
 			["customCurrencies"] = {
 				[1560] = {
-					["SHOW_MAX"] = false,
 					["DISPLAY_STYLE"] = "ICON",
+					["NAME"] = "战争物资",
 					["USE_TOOLTIP"] = true,
 					["ID"] = 1560,
 					["DISPLAY_IN_MAIN_TOOLTIP"] = true,
 					["ICON"] = "|T2032600:16:16:0:0:64:64:4:60:4:60|t",
-					["NAME"] = "战争物资",
+					["SHOW_MAX"] = false,
 				},
 				[1813] = {
-					["DISPLAY_STYLE"] = "ICON",
 					["NAME"] = "贮藏心能",
+					["SHOW_MAX"] = false,
 					["USE_TOOLTIP"] = true,
 					["ID"] = 1813,
 					["DISPLAY_IN_MAIN_TOOLTIP"] = true,
 					["ICON"] = "|T3528288:16:16:0:0:64:64:4:60:4:60|t",
-					["SHOW_MAX"] = false,
+					["DISPLAY_STYLE"] = "ICON",
 				},
 				[1767] = {
-					["NAME"] = "冥殇",
 					["SHOW_MAX"] = false,
+					["DISPLAY_STYLE"] = "ICON",
 					["USE_TOOLTIP"] = true,
 					["ID"] = 1767,
 					["ICON"] = "|T3743739:16:16:0:0:64:64:4:60:4:60|t",
 					["DISPLAY_IN_MAIN_TOOLTIP"] = true,
-					["DISPLAY_STYLE"] = "ICON",
+					["NAME"] = "冥殇",
 				},
 			},
 			["settings"] = {
@@ -1879,10 +1879,10 @@ ElvPrivateDB = {
 		["西瓜味醒目 - 安苏"] = "西瓜味醒目 - 安苏",
 		["欧欧蕾蕾 - 罗宁"] = "欧欧蕾蕾 - 罗宁",
 		["拔剑乱杀 - 燃烧之刃"] = "拔剑乱杀 - 燃烧之刃",
-		["招商中证白酒 - 罗宁"] = "招商中证白酒 - 罗宁",
-		["拂霓裳 - 蜘蛛王国"] = "拂霓裳 - 蜘蛛王国",
-		["电压守 - 瓦拉纳"] = "电压守 - 瓦拉纳",
 		["实力不够悬殊 - 金色平原"] = "实力不够悬殊 - 金色平原",
+		["拂霓裳 - 蜘蛛王国"] = "拂霓裳 - 蜘蛛王国",
+		["招商中证白酒 - 罗宁"] = "招商中证白酒 - 罗宁",
+		["电压守 - 瓦拉纳"] = "电压守 - 瓦拉纳",
 		["卡姆希拉夫 - 燃烧之刃"] = "卡姆希拉夫 - 燃烧之刃",
 		["都放弃速度灭 - 奈萨里奥"] = "都放弃速度灭 - 奈萨里奥",
 		["蕾妮 - 蜘蛛王国"] = "蕾妮 - 蜘蛛王国",
@@ -2071,15 +2071,15 @@ ElvPrivateDB = {
 		["拔剑乱杀 - 燃烧之刃"] = {
 			["install_complete"] = 12.21,
 		},
-		["招商中证白酒 - 罗宁"] = {
-			["install_complete"] = 12.16,
+		["实力不够悬殊 - 金色平原"] = {
 		},
 		["拂霓裳 - 蜘蛛王国"] = {
 			["install_complete"] = 11.41,
 		},
-		["电压守 - 瓦拉纳"] = {
+		["招商中证白酒 - 罗宁"] = {
+			["install_complete"] = 12.16,
 		},
-		["实力不够悬殊 - 金色平原"] = {
+		["电压守 - 瓦拉纳"] = {
 		},
 		["卡姆希拉夫 - 燃烧之刃"] = {
 			["install_complete"] = 11.41,

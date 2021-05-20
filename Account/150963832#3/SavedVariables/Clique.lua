@@ -4,23 +4,23 @@ CliqueDB3 = {
 	["char"] = {
 		["招商中证白酒 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec2_profileKey"] = "Default",
-			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
-			["spec3_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Target"] = true,
 				["ElvUF_Player"] = true,
 			},
+			["spec2_profileKey"] = "Default",
+			["downclick"] = false,
+			["spec3_profileKey"] = "Default",
+			["specswap"] = false,
 		},
 		["西园寺恋 - 布兰卡德"] = {
 			["spec1_profileKey"] = "Default",
-			["spec2_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec3_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
@@ -65,12 +65,12 @@ CliqueDB3 = {
 		},
 		["Minpojke - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec2_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["downclick"] = false,
 			["specswap"] = false,
 			["fastooc"] = false,
 			["spec4_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
@@ -125,15 +125,15 @@ CliqueDB3 = {
 		},
 		["焊接机器人 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
+			["downclick"] = false,
 			["fastooc"] = false,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
 			},
-			["spec3_profileKey"] = "Default",
-			["downclick"] = false,
-			["spec2_profileKey"] = "Default",
-			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {

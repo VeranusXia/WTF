@@ -55,15 +55,15 @@ ElvDB = {
 		["Veranus - 燃烧之刃"] = "Default",
 		["放狠话高手 - 死亡之翼"] = "Default",
 		["蕾妮 - 格瑞姆巴托"] = "Default",
-		["恋绣衾 - 死亡之翼"] = "Default",
-		["禁止白嫖 - 蜘蛛王国"] = "Default",
 		["奶凶的小萝莉 - 蜘蛛王国"] = "Default",
+		["禁止白嫖 - 蜘蛛王国"] = "Default",
+		["权宜之计 - 蜘蛛王国"] = "Default",
 		["只吃大饼 - 末日行者"] = "Default",
 		["卡姆希拉夫 - 燃烧之刃"] = "Default",
-		["我好难啊 - 蜘蛛王国"] = "Default",
+		["但偏偏雨渐渐 - 蜘蛛王国"] = "Default",
 		["瓦里安微微 - 瓦里安"] = "Default",
 		["Playerywqfve - 瓦里安"] = "Default",
-		["但偏偏雨渐渐 - 蜘蛛王国"] = "Default",
+		["拉莱耶 - 蜘蛛王国"] = "Default",
 		["蔡徐坤 - 蜘蛛王国"] = "Default",
 		["越江吟 - 罗宁"] = "Default",
 		["Superdino - 罗宁"] = "Default",
@@ -107,9 +107,9 @@ ElvDB = {
 		["凤楼吟 - 死亡之翼"] = "Default",
 		["沈琴愉 - 布兰卡德"] = "Default",
 		["别浪我们能输 - 金色平原"] = "Default",
-		["拉莱耶 - 蜘蛛王国"] = "Default",
+		["我好难啊 - 蜘蛛王国"] = "Default",
 		["挖洞蛛小分队 - 蜘蛛王国"] = "Default",
-		["权宜之计 - 蜘蛛王国"] = "Default",
+		["恋绣衾 - 死亡之翼"] = "Default",
 		["跨服小能手 - 迪托马斯"] = "Default",
 		["暴走的朱雀 - 苏拉玛"] = "Default",
 		["梨花細雨 - 蜘蛛王国"] = "Default",
@@ -166,12 +166,12 @@ ElvDB = {
 			["我来抓人了"] = "ROGUE",
 		},
 		["蜘蛛王国"] = {
-			["猪柳蛋帕妮妮"] = "HUNTER",
+			["王源"] = "DRUID",
 			["禁止白嫖"] = "WARRIOR",
 			["权宜之计"] = "ROGUE",
 			["海妖花粉"] = "SHAMAN",
 			["奶凶的小萝莉"] = "DEATHKNIGHT",
-			["王源"] = "DRUID",
+			["Riyuujo"] = "WARLOCK",
 			["爱你哟"] = "WARRIOR",
 			["梨花細雨"] = "DRUID",
 			["但偏偏雨渐渐"] = "WARLOCK",
@@ -180,7 +180,7 @@ ElvDB = {
 			["只吃大饼"] = "WARRIOR",
 			["狂乱合唱"] = "PRIEST",
 			["须臾洞察"] = "ROGUE",
-			["Riyuujo"] = "WARLOCK",
+			["猪柳蛋帕妮妮"] = "HUNTER",
 		},
 		["白银之手"] = {
 			["西园寺恋"] = "PRIEST",
@@ -754,30 +754,52 @@ ElvDB = {
 							["yOffset"] = 10,
 						},
 					},
-					["boss"] = {
+					["party"] = {
+						["verticalSpacing"] = 5,
+						["buffIndicator"] = {
+							["size"] = 11,
+						},
 						["debuffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = -18,
-						},
-						["spacing"] = 22,
-						["castbar"] = {
-							["width"] = 200,
-						},
-						["power"] = {
-							["text_format"] = "[powercolor][curpp]",
+							["sizeOverride"] = 25,
 							["xOffset"] = 2,
+							["priority"] = "Blacklist,Boss,RaidDebuffs,CCDebuffs,Dispellable,Whitelist,CastByNPC",
+							["perrow"] = 5,
 						},
-						["width"] = 200,
-						["infoPanel"] = {
-							["height"] = 17,
+						["healPrediction"] = {
+							["enable"] = true,
 						},
 						["name"] = {
-							["xOffset"] = 2,
+							["position"] = "TOP",
+							["yOffset"] = -5,
 						},
-						["height"] = 47,
+						["height"] = 60,
 						["buffs"] = {
-							["sizeOverride"] = 27,
+							["sizeOverride"] = 20,
+							["enable"] = true,
+							["yOffset"] = 22,
+							["xOffset"] = -2,
+						},
+						["rdebuffs"] = {
+							["enable"] = false,
 							["yOffset"] = 10,
+							["xOffset"] = 68,
+							["size"] = 20,
+						},
+						["growthDirection"] = "DOWN_RIGHT",
+						["groupBy"] = "ROLE",
+						["roleIcon"] = {
+							["xOffset"] = 0,
+							["position"] = "TOPLEFT",
+						},
+						["power"] = {
+							["text_format"] = "[powercolor]",
+							["position"] = "BOTTOMRIGHT",
+						},
+						["width"] = 160,
+						["health"] = {
+							["position"] = "TOPRIGHT",
+							["text_format"] = "[healthcolor][health:current:shortvalue]",
+							["yOffset"] = -5,
 						},
 					},
 					["raid40"] = {
@@ -837,6 +859,32 @@ ElvDB = {
 							["xOffset"] = 4,
 							["text_format"] = "",
 							["yOffset"] = -4,
+						},
+					},
+					["boss"] = {
+						["debuffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = -18,
+						},
+						["spacing"] = 22,
+						["castbar"] = {
+							["width"] = 200,
+						},
+						["power"] = {
+							["text_format"] = "[powercolor][curpp]",
+							["xOffset"] = 2,
+						},
+						["width"] = 200,
+						["infoPanel"] = {
+							["height"] = 17,
+						},
+						["name"] = {
+							["xOffset"] = 2,
+						},
+						["height"] = 47,
+						["buffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = 10,
 						},
 					},
 					["player"] = {
@@ -920,54 +968,6 @@ ElvDB = {
 							["detachFromFrame"] = true,
 							["enable"] = false,
 							["detachedWidth"] = 225,
-						},
-					},
-					["party"] = {
-						["verticalSpacing"] = 5,
-						["buffIndicator"] = {
-							["size"] = 11,
-						},
-						["debuffs"] = {
-							["sizeOverride"] = 25,
-							["xOffset"] = 2,
-							["priority"] = "Blacklist,Boss,RaidDebuffs,CCDebuffs,Dispellable,Whitelist,CastByNPC",
-							["perrow"] = 5,
-						},
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["name"] = {
-							["position"] = "TOP",
-							["yOffset"] = -5,
-						},
-						["height"] = 60,
-						["buffs"] = {
-							["sizeOverride"] = 20,
-							["enable"] = true,
-							["yOffset"] = 22,
-							["xOffset"] = -2,
-						},
-						["rdebuffs"] = {
-							["enable"] = false,
-							["yOffset"] = 10,
-							["xOffset"] = 68,
-							["size"] = 20,
-						},
-						["growthDirection"] = "DOWN_RIGHT",
-						["groupBy"] = "ROLE",
-						["roleIcon"] = {
-							["xOffset"] = 0,
-							["position"] = "TOPLEFT",
-						},
-						["power"] = {
-							["text_format"] = "[powercolor]",
-							["position"] = "BOTTOMRIGHT",
-						},
-						["width"] = 160,
-						["health"] = {
-							["position"] = "TOPRIGHT",
-							["text_format"] = "[healthcolor][health:current:shortvalue]",
-							["yOffset"] = -5,
 						},
 					},
 				},
@@ -1476,31 +1476,31 @@ ElvDB = {
 		["datatexts"] = {
 			["customCurrencies"] = {
 				[1560] = {
-					["NAME"] = "战争物资",
 					["SHOW_MAX"] = false,
+					["DISPLAY_STYLE"] = "ICON",
 					["ICON"] = "|T2032600:16:16:0:0:64:64:4:60:4:60|t",
 					["ID"] = 1560,
 					["DISPLAY_IN_MAIN_TOOLTIP"] = true,
 					["USE_TOOLTIP"] = true,
-					["DISPLAY_STYLE"] = "ICON",
+					["NAME"] = "战争物资",
 				},
 				[1813] = {
-					["SHOW_MAX"] = false,
 					["DISPLAY_STYLE"] = "ICON",
+					["NAME"] = "贮藏心能",
 					["ICON"] = "|T3528288:16:16:0:0:64:64:4:60:4:60|t",
 					["ID"] = 1813,
 					["DISPLAY_IN_MAIN_TOOLTIP"] = true,
 					["USE_TOOLTIP"] = true,
-					["NAME"] = "贮藏心能",
+					["SHOW_MAX"] = false,
 				},
 				[1767] = {
-					["DISPLAY_STYLE"] = "ICON",
 					["NAME"] = "冥殇",
+					["SHOW_MAX"] = false,
 					["DISPLAY_IN_MAIN_TOOLTIP"] = true,
 					["ID"] = 1767,
 					["ICON"] = "|T3743739:16:16:0:0:64:64:4:60:4:60|t",
 					["USE_TOOLTIP"] = true,
-					["SHOW_MAX"] = false,
+					["DISPLAY_STYLE"] = "ICON",
 				},
 			},
 			["settings"] = {
@@ -1519,67 +1519,36 @@ ElvDB = {
 							nil, -- [3]
 							true, -- [4]
 						}, -- [8]
-						nil, -- [9]
-						nil, -- [10]
-						{
+						[11] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [11]
-						nil, -- [12]
-						{
+						},
+						[13] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [13]
-						nil, -- [14]
-						{
+						},
+						[15] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [15]
-						nil, -- [16]
-						nil, -- [17]
-						nil, -- [18]
-						nil, -- [19]
-						nil, -- [20]
-						nil, -- [21]
-						nil, -- [22]
-						nil, -- [23]
-						nil, -- [24]
-						{
+						},
+						[24] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [25]
-						nil, -- [26]
-						nil, -- [27]
-						nil, -- [28]
-						{
+						},
+						[36] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [29]
-						nil, -- [30]
-						nil, -- [31]
-						{
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							true, -- [4]
-						}, -- [32]
-						nil, -- [33]
-						{
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							true, -- [4]
-						}, -- [34]
+						},
 						[42] = {
 							nil, -- [1]
 							nil, -- [2]
@@ -1707,8 +1676,8 @@ ElvDB = {
 			["我把你画成花"] = 22708444,
 			["维莉雅蕾妮"] = 163130886,
 			["西瓜味泡泡糖"] = 311547866,
-			["殷倾颜"] = 704613718,
-			["招商中证白酒"] = 2416952624,
+			["殷倾颜"] = 704608618,
+			["招商中证白酒"] = 2418956504,
 			["她会的我也会"] = 431850502,
 			["龙小二"] = 10023623,
 			["西园寺恋"] = 667341221,
@@ -1716,8 +1685,8 @@ ElvDB = {
 			["欧欧蕾蕾"] = 2370492,
 			["焊接机器人"] = 1521480980,
 			["大球球"] = 33766943,
-			["Reneebaby"] = 2543682887,
-			["Minpojke"] = 37639089,
+			["Reneebaby"] = 2380948376,
+			["Minpojke"] = 80065474,
 			["Boogaloo"] = 261910639,
 			["小微微"] = 52827490,
 		},
@@ -1728,7 +1697,7 @@ ElvDB = {
 		},
 		["布兰卡德"] = {
 			["沈琴愉"] = 22209604,
-			["西园寺恋"] = 3547354579,
+			["西园寺恋"] = 3552751679,
 			["蕾妮"] = 2333512,
 			["Cena"] = 52394600,
 		},
@@ -1778,12 +1747,12 @@ ElvDB = {
 			["我来抓人了"] = "Horde",
 		},
 		["蜘蛛王国"] = {
-			["猪柳蛋帕妮妮"] = "Alliance",
+			["王源"] = "Alliance",
 			["禁止白嫖"] = "Alliance",
 			["权宜之计"] = "Alliance",
 			["海妖花粉"] = "Alliance",
 			["奶凶的小萝莉"] = "Alliance",
-			["王源"] = "Alliance",
+			["Riyuujo"] = "Alliance",
 			["爱你哟"] = "Alliance",
 			["梨花細雨"] = "Alliance",
 			["但偏偏雨渐渐"] = "Alliance",
@@ -1792,7 +1761,7 @@ ElvDB = {
 			["只吃大饼"] = "Alliance",
 			["狂乱合唱"] = "Alliance",
 			["须臾洞察"] = "Alliance",
-			["Riyuujo"] = "Alliance",
+			["猪柳蛋帕妮妮"] = "Alliance",
 		},
 		["白银之手"] = {
 			["西园寺恋"] = "Alliance",
@@ -1910,10 +1879,10 @@ ElvPrivateDB = {
 		["我来抓人了 - 金色平原"] = "我来抓人了 - 金色平原",
 		["欧欧蕾蕾 - 罗宁"] = "欧欧蕾蕾 - 罗宁",
 		["拂霓裳 - 蜘蛛王国"] = "拂霓裳 - 蜘蛛王国",
-		["电压守 - 瓦拉纳"] = "电压守 - 瓦拉纳",
-		["拔剑乱杀 - 燃烧之刃"] = "拔剑乱杀 - 燃烧之刃",
-		["实力不够悬殊 - 金色平原"] = "实力不够悬殊 - 金色平原",
 		["招商中证白酒 - 罗宁"] = "招商中证白酒 - 罗宁",
+		["拔剑乱杀 - 燃烧之刃"] = "拔剑乱杀 - 燃烧之刃",
+		["电压守 - 瓦拉纳"] = "电压守 - 瓦拉纳",
+		["实力不够悬殊 - 金色平原"] = "实力不够悬殊 - 金色平原",
 		["夜迷糊 - 罗宁"] = "夜迷糊 - 罗宁",
 		["都放弃速度灭 - 奈萨里奥"] = "都放弃速度灭 - 奈萨里奥",
 		["Amilus - 燃烧之刃"] = "Amilus - 燃烧之刃",
@@ -2102,15 +2071,15 @@ ElvPrivateDB = {
 		["拂霓裳 - 蜘蛛王国"] = {
 			["install_complete"] = 11.41,
 		},
-		["电压守 - 瓦拉纳"] = {
+		["招商中证白酒 - 罗宁"] = {
+			["install_complete"] = 12.16,
 		},
 		["拔剑乱杀 - 燃烧之刃"] = {
 			["install_complete"] = 12.21,
 		},
-		["实力不够悬殊 - 金色平原"] = {
+		["电压守 - 瓦拉纳"] = {
 		},
-		["招商中证白酒 - 罗宁"] = {
-			["install_complete"] = 12.16,
+		["实力不够悬殊 - 金色平原"] = {
 		},
 		["夜迷糊 - 罗宁"] = {
 			["install_complete"] = 11.46,

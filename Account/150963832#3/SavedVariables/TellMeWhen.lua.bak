@@ -2301,7 +2301,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[50] = {
+					[199] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -2400,7 +2400,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[199] = {
+					[397] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -3566,7 +3566,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[397] = {
+					[50] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -8497,7 +8497,6 @@ TellMeWhenDB = {
 		},
 		["战士"] = {
 			["Locked"] = true,
-			["Version"] = 90701,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -11775,10 +11774,13 @@ TellMeWhenDB = {
 					},
 				},
 			},
+			["Version"] = 90701,
 			["NumGroups"] = 0,
 		},
 		["法师"] = {
 			["Locked"] = true,
+			["Version"] = 90701,
+			["NumGroups"] = 0,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -12417,8 +12419,6 @@ TellMeWhenDB = {
 					},
 				}, -- [5]
 			},
-			["Version"] = 90701,
-			["NumGroups"] = 0,
 		},
 		["恶魔猎手"] = {
 			["Groups"] = {
@@ -14533,8 +14533,6 @@ TellMeWhenDB = {
 			["TextureName"] = "ElvUI Norm",
 		},
 		["武僧"] = {
-			["Version"] = 90701,
-			["NumGroups"] = 0,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -15089,6 +15087,8 @@ TellMeWhenDB = {
 					},
 				}, -- [6]
 			},
+			["NumGroups"] = 0,
+			["Version"] = 90701,
 			["Locked"] = true,
 		},
 		["猎人"] = {
@@ -15190,8 +15190,8 @@ TellMeWhenDB = {
 		},
 		["术士"] = {
 			["Locked"] = true,
-			["NumGroups"] = 0,
 			["Version"] = 90701,
+			["NumGroups"] = 0,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -15894,6 +15894,8 @@ TellMeWhenDB = {
 		},
 		["德鲁伊"] = {
 			["Locked"] = true,
+			["Version"] = 90601,
+			["NumGroups"] = 0,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -16598,8 +16600,6 @@ TellMeWhenDB = {
 					},
 				}, -- [5]
 			},
-			["Version"] = 90601,
-			["NumGroups"] = 0,
 		},
 		["放狠话高手 - 安苏"] = {
 			["Version"] = 90701,
@@ -16711,7 +16711,6 @@ TellMeWhenDB = {
 		},
 		["盗贼"] = {
 			["Locked"] = true,
-			["NumGroups"] = 0,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -17712,10 +17711,10 @@ TellMeWhenDB = {
 				}, -- [10]
 			},
 			["Version"] = 90701,
+			["NumGroups"] = 0,
 		},
 		["骑士"] = {
 			["Locked"] = true,
-			["NumGroups"] = 0,
 			["Version"] = 90701,
 			["Groups"] = {
 				{
@@ -18382,10 +18381,10 @@ TellMeWhenDB = {
 					},
 				}, -- [9]
 			},
+			["NumGroups"] = 0,
 		},
 		["萨满"] = {
 			["Locked"] = true,
-			["Version"] = 90701,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -18437,10 +18436,10 @@ TellMeWhenDB = {
 				}, -- [1]
 			},
 			["NumGroups"] = 0,
+			["Version"] = 90701,
 		},
 		["死亡骑士"] = {
 			["Locked"] = true,
-			["Version"] = 90601,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -22992,6 +22991,7 @@ TellMeWhenDB = {
 				}, -- [26]
 			},
 			["NumGroups"] = 0,
+			["Version"] = 90601,
 		},
 	},
 }

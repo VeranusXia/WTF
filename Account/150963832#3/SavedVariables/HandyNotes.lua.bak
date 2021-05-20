@@ -477,9 +477,9 @@ HandyNotes_HandyNotesDB = {
 	["global"] = {
 		[107] = {
 			[10773817] = {
+				["title"] = "",
 				["cont"] = false,
 				["icon"] = 1,
-				["title"] = "",
 				["desc"] = "",
 			},
 		},
