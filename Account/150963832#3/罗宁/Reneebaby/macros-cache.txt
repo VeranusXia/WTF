@@ -24,7 +24,6 @@ END
 VER 3 0100000000000026 "潜行鬼魅攻击" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [nostealth,nocombat] 潜行
-/cast [nostealth,combat,talent:6/2]淬毒之刃
 /cast [nostealth,combat,talent:6/3]抽血
 /cast [talent:3/3,exists,harm]死亡标记
 END

@@ -6,15 +6,15 @@ tdBattlePetScript_Ext: disabled
 zPetBattleLevelUpMonitor: disabled
 Rematch: disabled
 EasyDelete: disabled
-AutoBattleGround: disabled
+AutoBattleGround: enabled
 AutoTradeSkill: disabled
 AdvancedInterfaceOptions: disabled
 Altcon: disabled
 AngryKeystones: disabled
 BagSync: disabled
 BattlePetBreedID: disabled
-!BugGrabber: disabled
-BugSack: disabled
+!BugGrabber: enabled
+BugSack: enabled
 CanIMogIt: disabled
 Clique: disabled
 ExRT: disabled
@@ -119,7 +119,7 @@ BigDebuffs: disabled
 GladiusEx: disabled
 BigFootBank: disabled
 AzerPUG's ToolTips: disabled
-REFlex: disabled
+REFlex: enabled
 Details: disabled
 Details_EncounterDetails: disabled
 Details_RaidCheck: disabled

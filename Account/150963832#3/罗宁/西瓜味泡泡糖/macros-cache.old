@@ -12,6 +12,11 @@ VER 3 0100000000000007 "大招" "INV_MISC_QUESTIONMARK"
 /cast  [@cursor]恶魔变形
 /use 14
 END
+VER 3 0100000000000009 "大招" "INV_Misc_QuestionMark"
+#showtooltip
+/cast  [@cursor]恶魔变形
+/use 14
+END
 VER 3 0100000000000002 "大跳" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@cursor]地狱火撞击

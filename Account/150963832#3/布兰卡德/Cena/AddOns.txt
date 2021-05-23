@@ -10,13 +10,13 @@ WeakAurasArchive: disabled
 ElvUI_OptionsUI: disabled
 Veranus: disabled
 EasyDelete: disabled
-AutoBattleGround: disabled
+AutoBattleGround: enabled
 AdvancedInterfaceOptions: disabled
 Altcon: disabled
 zAutoLoadPetTeam_Rematch: disabled
 BattlePetBreedID: disabled
-!BugGrabber: disabled
-BugSack: disabled
+!BugGrabber: enabled
+BugSack: enabled
 Clique: disabled
 ExRT: disabled
 FarmHud: disabled
@@ -140,7 +140,7 @@ BigDebuffs: disabled
 GladiusEx: disabled
 BigFootBank: disabled
 AzerPUG's ToolTips: disabled
-REFlex: disabled
+REFlex: enabled
 Details: disabled
 Details_EncounterDetails: disabled
 Details_RaidCheck: disabled
