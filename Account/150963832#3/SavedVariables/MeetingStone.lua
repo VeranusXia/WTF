@@ -29,6 +29,7 @@ MEETINGSTONE_UI_DB = {
 		["永恒岛无部落 - 回音山"] = "Default",
 		["甄冰瑜 - 罗宁"] = "Default",
 		["只吃大饼 - 蜘蛛王国"] = "Default",
+		["西园寺恋 - 白银之手"] = "Default",
 		["Reneelol - 轻风之语"] = "Default",
 		["王源 - 蜘蛛王国"] = "Default",
 		["焊接小猫啊 - 回音山"] = "Default",
@@ -699,8 +700,8 @@ MEETINGSTONE_UI_DB = {
 				["PvPRating"] = 0,
 				["HonorLevel"] = 0,
 			},
-			["阿塔达萨（史诗钥石）"] = {
-				["ItemLevel"] = 460,
+			["达萨罗之战（史诗）"] = {
+				["ItemLevel"] = 470,
 				["HonorLevel"] = 0,
 			},
 			["暗夜要塞（普通）"] = {
@@ -711,20 +712,16 @@ MEETINGSTONE_UI_DB = {
 				["MinLevel"] = 110,
 				["HonorLevel"] = 0,
 			},
-			["随机海岛（史诗）"] = {
+			["维克雷斯庄园（史诗）"] = {
+				["ItemLevel"] = 335,
+				["HonorLevel"] = 0,
+			},
+			["阿塔达萨（史诗钥石）"] = {
 				["ItemLevel"] = 460,
 				["HonorLevel"] = 0,
 			},
-			["世界首领（军团再临）"] = {
-				["ItemLevel"] = 0,
-				["Summary"] = "冰封之王 50%",
-				["MinLevel"] = 110,
-				["MaxLevel"] = 110,
-				["PvPRating"] = 0,
-				["HonorLevel"] = 0,
-			},
-			["地渊孢林（史诗钥石）"] = {
-				["ItemLevel"] = 440,
+			["随机海岛（史诗）"] = {
+				["ItemLevel"] = 460,
 				["HonorLevel"] = 0,
 			},
 			["苏拉玛"] = {
@@ -751,12 +748,16 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 340,
 				["HonorLevel"] = 0,
 			},
-			["维克雷斯庄园（史诗）"] = {
-				["ItemLevel"] = 335,
+			["地渊孢林（史诗钥石）"] = {
+				["ItemLevel"] = 440,
 				["HonorLevel"] = 0,
 			},
-			["达萨罗之战（史诗）"] = {
-				["ItemLevel"] = 470,
+			["世界首领（军团再临）"] = {
+				["ItemLevel"] = 0,
+				["Summary"] = "冰封之王 50%",
+				["MinLevel"] = 110,
+				["MaxLevel"] = 110,
+				["PvPRating"] = 0,
 				["HonorLevel"] = 0,
 			},
 			["黑心林地（史诗钥石）"] = {
@@ -819,6 +820,11 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["max"] = 0,
 				},
+				["Members"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
+				},
 				["ItemLevel"] = {
 					["min"] = 0,
 					["enable"] = false,
@@ -829,16 +835,16 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["max"] = 0,
 				},
-				["Members"] = {
-					["min"] = 0,
-					["enable"] = false,
-					["max"] = 0,
-				},
 			}, -- [1]
 			{
 				["BossKilled"] = {
 					["min"] = 0,
 					["max"] = 0,
+					["enable"] = false,
+				},
+				["Members"] = {
+					["min"] = 1,
+					["max"] = 4,
 					["enable"] = false,
 				},
 				["ItemLevel"] = {
@@ -851,16 +857,16 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["enable"] = false,
 				},
-				["Members"] = {
-					["min"] = 1,
-					["max"] = 4,
-					["enable"] = false,
-				},
 			}, -- [2]
 			{
 				["BossKilled"] = {
 					["min"] = 0,
 					["max"] = 1,
+					["enable"] = false,
+				},
+				["ItemLevel"] = {
+					["min"] = 0,
+					["max"] = 0,
 					["enable"] = false,
 				},
 				["Age"] = {
@@ -869,11 +875,6 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 				},
 				["Members"] = {
-					["min"] = 0,
-					["max"] = 0,
-					["enable"] = false,
-				},
-				["ItemLevel"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
@@ -885,17 +886,17 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["enable"] = false,
 				},
+				["ItemLevel"] = {
+					["min"] = 0,
+					["max"] = 0,
+					["enable"] = false,
+				},
 				["Age"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
 				},
 				["Members"] = {
-					["min"] = 0,
-					["max"] = 0,
-					["enable"] = false,
-				},
-				["ItemLevel"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
@@ -908,17 +909,17 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["max"] = 0,
 				},
+				["ItemLevel"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
+				},
 				["Age"] = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
 				},
 				["Members"] = {
-					["min"] = 0,
-					["enable"] = false,
-					["max"] = 0,
-				},
-				["ItemLevel"] = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
@@ -927,23 +928,23 @@ MEETINGSTONE_UI_DB = {
 			[9] = {
 				["BossKilled"] = {
 					["min"] = 0,
-					["enable"] = false,
 					["max"] = 0,
-				},
-				["ItemLevel"] = {
-					["min"] = 0,
 					["enable"] = false,
-					["max"] = 100,
-				},
-				["Age"] = {
-					["min"] = 0,
-					["enable"] = false,
-					["max"] = 10,
 				},
 				["Members"] = {
 					["min"] = 5,
-					["enable"] = true,
 					["max"] = 9,
+					["enable"] = false,
+				},
+				["ItemLevel"] = {
+					["min"] = 0,
+					["max"] = 100,
+					["enable"] = false,
+				},
+				["Age"] = {
+					["min"] = 0,
+					["max"] = 10,
+					["enable"] = false,
 				},
 			},
 			[111] = {
@@ -952,17 +953,17 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["max"] = 0,
 				},
+				["Members"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
+				},
 				["ItemLevel"] = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
 				},
 				["Age"] = {
-					["min"] = 0,
-					["enable"] = false,
-					["max"] = 0,
-				},
-				["Members"] = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
@@ -972,10 +973,10 @@ MEETINGSTONE_UI_DB = {
 	},
 }
 MEETINGSTONE_UI_E_POINTS = {
-	["y"] = 78.63701629638672,
-	["x"] = 169.7696533203125,
-	["a2"] = "LEFT",
-	["a1"] = "LEFT",
+	["y"] = 153.3783416748047,
+	["x"] = 24.14155769348145,
+	["a2"] = "CENTER",
+	["a1"] = "CENTER",
 	["QuickJoin"] = true,
 }
 MEETINGSTONE_UI_BLACKLISTEDLEADERS = {

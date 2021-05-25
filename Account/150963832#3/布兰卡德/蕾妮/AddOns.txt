@@ -7,8 +7,8 @@ AzeriteTooltip: disabled
 BagSync: disabled
 BattlePetBreedID: disabled
 BattlegroundTargets: disabled
-!BugGrabber: enabled
-BugSack: enabled
+!BugGrabber: disabled
+BugSack: disabled
 Clique: disabled
 ExRT: disabled
 FarmHud: disabled
@@ -139,7 +139,7 @@ HeroRotation_Priest: disabled
 DBM-CastleNathria: disabled
 DBM-Party-Shadowlands: disabled
 tdBattlePetScript_Ext: disabled
-AutoBattleGround: enabled
+AutoBattleGround: disabled
 CorruptionTooltips: disabled
 ElvUI_DTBars2: disabled
 AllTheThings: disabled
@@ -176,7 +176,7 @@ BigDebuffs: disabled
 GladiusEx: disabled
 BigFootBank: disabled
 AzerPUG's ToolTips: disabled
-REFlex: enabled
+REFlex: disabled
 Details: disabled
 Details_EncounterDetails: disabled
 Details_RaidCheck: disabled

@@ -22,22 +22,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "WARLOCK",
-							["last_dps"] = 1994.734537656398,
+							["spec"] = 267,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 20075.008387,
-							["last_event"] = 1621773983,
+							["damage_taken"] = 3585.008387,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773985,
 							["aID"] = "729-053F389D",
-							["damage_taken"] = 3585.008387,
+							["last_dps"] = 1994.734537656398,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["total"] = 20075.008387,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[17962] = {
@@ -183,13 +179,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 20075.008387,
+							["last_event"] = 1621773983,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773975,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -208,17 +208,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
+							["total"] = 3335.008896,
+							["aID"] = "166437",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3335.008896,
-							["end_time"] = 1621773985,
 							["fight_component"] = true,
-							["total"] = 3335.008896,
-							["damage_taken"] = 140449.008896,
-							["on_hold"] = false,
+							["monster"] = true,
+							["end_time"] = 1621773985,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "纳修",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -281,16 +281,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["aID"] = "166437",
-							["custom"] = 0,
-							["last_event"] = 1621773983,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 1621773983,
+							["damage_taken"] = 140449.008896,
 							["start_time"] = 1621773976,
 							["serial"] = "Creature-0-3929-2222-17016-166437-00002A4E89",
-							["monster"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -435,9 +435,9 @@ _detalhes_database = {
 								[152108] = 1,
 								[324748] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1621773985,
 							["classe"] = "WARLOCK",
 							["pets"] = {
@@ -448,17 +448,17 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "纳修",
 							["aID"] = "166437",
 							["spell_cast"] = {
 								[319957] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3929-2222-17016-166437-00002A4E89",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -487,10 +487,10 @@ _detalhes_database = {
 				["playing_solo"] = true,
 				["totals"] = {
 					23409.89688300001, -- [1]
-					-0.05808499999992131, -- [2]
+					-0.0708599999999213, -- [2]
 					{
 						0, -- [1]
-						[0] = -0.005531,
+						[0] = -0.01758,
 						["alternatepower"] = 0,
 						[6] = 0,
 						[3] = -0.012076,
@@ -542,9 +542,35 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:46:15",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["殷倾颜"] = 20075.008387,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
 				["end_time"] = 693015.557,
 				["combat_id"] = 114,
+				["data_inicio"] = "20:46:15",
+				["tempo_start"] = 1621773975,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "纳修",
+				["combat_counter"] = 1279,
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["殷倾颜"] = {
 						{
@@ -624,32 +650,6 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["tempo_start"] = 1621773975,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "纳修",
-				["combat_counter"] = 1279,
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["殷倾颜"] = 20075.008387,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
 				["start_time"] = 693005.493,
 				["TimeData"] = {
 				},
@@ -674,22 +674,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "WARLOCK",
-							["last_dps"] = 806.0461847013529,
+							["spec"] = 267,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2614.007777,
-							["last_event"] = 1621773957,
+							["damage_taken"] = 0.007777,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773961,
 							["aID"] = "729-053F389D",
-							["damage_taken"] = 0.007777,
+							["last_dps"] = 806.0461847013529,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["total"] = 2614.007777,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[17962] = {
@@ -723,13 +719,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 2614.007777,
+							["last_event"] = 1621773957,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773957,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -746,17 +746,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 536.005231,
+							["aID"] = "173026",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 536.005231,
-							["end_time"] = 1621773961,
 							["monster"] = true,
-							["total"] = 536.005231,
-							["damage_taken"] = 11106.005231,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773961,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "魂选步兵",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -791,16 +792,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "173026",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773958,
-							["on_hold"] = false,
+							["damage_taken"] = 11106.005231,
 							["start_time"] = 1621773958,
 							["serial"] = "Creature-0-3929-2222-17016-173026-00002A4E78",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1012,9 +1012,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["魂选步兵"] = 1,
-					["魂选弓手"] = 2,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1278,
 				["player_last_events"] = {
@@ -1024,7 +1022,9 @@ _detalhes_database = {
 				["data_inicio"] = "20:45:58",
 				["start_time"] = 692988.203,
 				["contra"] = "魂选步兵",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["魂选步兵"] = 1,
+					["魂选弓手"] = 2,
 				},
 			}, -- [2]
 			{
@@ -1044,22 +1044,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "WARLOCK",
-							["last_dps"] = 635.5418763797855,
+							["spec"] = 267,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4077.001137,
-							["last_event"] = 1621773943,
+							["damage_taken"] = 0.001137,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773944,
 							["aID"] = "729-053F389D",
-							["damage_taken"] = 0.001137,
+							["last_dps"] = 635.5418763797855,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["total"] = 4077.001137,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[348] = {
@@ -1149,13 +1145,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 4077.001137,
+							["last_event"] = 1621773943,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773937,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -1172,17 +1172,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 2436.006537,
+							["aID"] = "173018",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2436.006537,
-							["end_time"] = 1621773957,
 							["monster"] = true,
-							["total"] = 2436.006537,
-							["damage_taken"] = 15750.006537,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773957,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "魂选弓手",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1244,16 +1245,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "173018",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773956,
-							["on_hold"] = false,
+							["damage_taken"] = 15750.006537,
 							["start_time"] = 1621773939,
 							["serial"] = "Creature-0-3929-2222-17016-173018-00002A4E64",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -1270,17 +1270,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 2233.00862,
+							["aID"] = "173026",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2233.00862,
-							["end_time"] = 1621773957,
 							["monster"] = true,
-							["total"] = 2233.00862,
-							["damage_taken"] = 12449.00862,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773957,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "魂选步兵",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1315,16 +1316,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "173026",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773956,
-							["on_hold"] = false,
+							["damage_taken"] = 12449.00862,
 							["start_time"] = 1621773939,
 							["serial"] = "Creature-0-3929-2222-17016-173026-00002A4E64",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -1454,9 +1454,9 @@ _detalhes_database = {
 								[348] = 1,
 								[324748] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1621773944,
 							["classe"] = "WARLOCK",
 							["pets"] = {
@@ -1467,17 +1467,17 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "魂选弓手",
 							["aID"] = "173018",
 							["spell_cast"] = {
 								[275984] = 2,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3929-2222-17016-173018-00002A4E64",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -1586,9 +1586,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["魂选步兵"] = 1,
-					["魂选弓手"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1277,
 				["player_last_events"] = {
@@ -1598,7 +1596,9 @@ _detalhes_database = {
 				["data_inicio"] = "20:45:38",
 				["start_time"] = 692968.281,
 				["contra"] = "魂选步兵",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["魂选步兵"] = 1,
+					["魂选弓手"] = 1,
 				},
 			}, -- [3]
 			{
@@ -1618,22 +1618,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "WARLOCK",
-							["last_dps"] = 1045.36882659542,
+							["spec"] = 267,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2719.004318,
-							["last_event"] = 1621773922,
+							["damage_taken"] = 727.004318,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773924,
 							["aID"] = "729-053F389D",
-							["damage_taken"] = 727.004318,
+							["last_dps"] = 1045.36882659542,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["total"] = 2719.004318,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[17962] = {
@@ -1667,13 +1663,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 2719.004318,
+							["last_event"] = 1621773922,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773922,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -1694,17 +1694,18 @@ _detalhes_database = {
 							["delay"] = 1621773924,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 2293.003078,
+							["aID"] = "173018",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2293.003078,
-							["end_time"] = 1621773937,
 							["monster"] = true,
-							["total"] = 2293.003078,
-							["damage_taken"] = 12274.003078,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773937,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "魂选弓手",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1768,16 +1769,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "173018",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773937,
-							["on_hold"] = false,
+							["damage_taken"] = 12274.003078,
 							["start_time"] = 1621773934,
 							["serial"] = "Creature-0-3929-2222-17016-173018-00002A4E4F",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1864,17 +1864,17 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "魂选弓手",
 							["aID"] = "173018",
 							["spell_cast"] = {
 								[275984] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3929-2222-17016-173018-00002A4E4F",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -1983,8 +1983,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["魂选弓手"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1276,
 				["player_last_events"] = {
@@ -2071,7 +2070,8 @@ _detalhes_database = {
 				["data_inicio"] = "20:45:23",
 				["start_time"] = 692952.53,
 				["contra"] = "魂选弓手",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["魂选弓手"] = 1,
 				},
 			}, -- [4]
 			{
@@ -2095,16 +2095,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["tipo"] = 1,
-							["aID"] = "729-053F389D",
+							["damage_taken"] = 848.003273,
+							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003273,
-							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773888,
-							["damage_taken"] = 848.003273,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["tipo"] = 1,
 							["nome"] = "殷倾颜",
 							["spec"] = 267,
 							["grupo"] = true,
@@ -2116,7 +2116,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1621773888,
 							["serial"] = "Player-729-053F389D",
-							["classe"] = "WARLOCK",
+							["aID"] = "729-053F389D",
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2129,17 +2129,17 @@ _detalhes_database = {
 							["delay"] = 1621773873,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "158040",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 848.006229,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773888,
 							["damage_taken"] = 0.006229,
-							["total"] = 848.006229,
+							["dps_started"] = false,
+							["end_time"] = 1621773888,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "不羁的死亡行者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2200,16 +2200,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 848.006229,
 							["custom"] = 0,
 							["last_event"] = 1621773873,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773887,
 							["serial"] = "Creature-0-3929-2222-17016-158040-00002A4CBA",
-							["classe"] = "UNKNOW",
+							["aID"] = "158040",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2245,8 +2245,10 @@ _detalhes_database = {
 							["healing_taken"] = 21.004732,
 							["fight_component"] = true,
 							["end_time"] = 1621773888,
+							["healing_from"] = {
+								["殷倾颜"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1621773873,
 							["nome"] = "殷倾颜",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2270,9 +2272,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 1,
 										["n_curado"] = 21,
 										["totaldenied"] = 0,
-										["n_amt"] = 1,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -2281,15 +2283,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.004732,
-							["aID"] = "729-053F389D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1621773873,
 							["spec"] = 267,
 							["start_time"] = 1621773887,
 							["delay"] = 1621773873,
-							["healing_from"] = {
-								["殷倾颜"] = true,
-							},
+							["aID"] = "729-053F389D",
 						}, -- [1]
 					},
 				}, -- [2]
@@ -2314,9 +2314,9 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["buff_uptime"] = 45,
-							["last_event"] = 1621773888,
 							["aID"] = "729-053F389D",
-							["classe"] = "WARLOCK",
+							["last_event"] = 1621773888,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[186406] = {
@@ -2356,21 +2356,21 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-729-053F389D",
-							["tipo"] = 4,
+							["classe"] = "WARLOCK",
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "不羁的死亡行者",
 							["aID"] = "158040",
 							["spell_cast"] = {
 								[330574] = 4,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3929-2222-17016-158040-00002A4D2D",
 							["flag_original"] = 2632,
 						}, -- [2]
@@ -2480,7 +2480,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1275,
 				["player_last_events"] = {
@@ -2490,7 +2490,7 @@ _detalhes_database = {
 				["data_inicio"] = "20:44:34",
 				["start_time"] = 692904.004,
 				["contra"] = "不羁的死亡行者",
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 			}, -- [5]
 			{
@@ -2510,22 +2510,18 @@ _detalhes_database = {
 								"地狱火爪牙 <殷倾颜>", -- [1]
 							},
 							["classe"] = "WARLOCK",
-							["last_dps"] = 4982.423555050351,
+							["spec"] = 267,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 98347.00586199999,
-							["last_event"] = 1621773819,
+							["damage_taken"] = 0.005862,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773819,
 							["aID"] = "729-053F389D",
-							["damage_taken"] = 0.005862,
+							["last_dps"] = 4982.423555050351,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["total"] = 133230.005862,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[17962] = {
@@ -2755,13 +2751,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 133230.005862,
+							["last_event"] = 1621773819,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773792,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -2774,17 +2774,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["friendlyfire_total"] = 0,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["aID"] = "89",
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 34883.007582,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773819,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "地狱火爪牙 <殷倾颜>",
 							["spells"] = {
@@ -2848,15 +2847,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 1102.007582,
+							["friendlyfire"] = {
+							},
 							["total"] = 34883.007582,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773818,
-							["on_hold"] = false,
+							["damage_taken"] = 1102.007582,
 							["start_time"] = 1621773802,
 							["serial"] = "Creature-0-3929-2222-17016-89-00002A4DE9",
-							["classe"] = "PET",
+							["aID"] = "89",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -2865,15 +2865,15 @@ _detalhes_database = {
 								["弗特莱"] = true,
 								["深牙"] = true,
 								["哈提"] = true,
-								["殷倾颜"] = true,
-								["沐慕灬"] = true,
 								["嘎嘣丶嘎嘣脆"] = true,
+								["殷倾颜"] = true,
+								["竞技场挑战者"] = true,
 								["海龟"] = true,
 								["弗特莱 <嘎嘣丶嘎嘣脆>"] = true,
 								["Coldclouds"] = true,
 								["强橹灰飞烟灭"] = true,
 								["地狱火爪牙 <殷倾颜>"] = true,
-								["竞技场挑战者"] = true,
+								["沐慕灬"] = true,
 							},
 							["targets"] = {
 								["Coldclouds"] = 7470,
@@ -2881,17 +2881,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 7470.006249,
+							["aID"] = "162872",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7470.006249,
-							["end_time"] = 1621773819,
 							["monster"] = true,
-							["total"] = 7470.006249,
-							["damage_taken"] = 359215.006249,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773819,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "凋落者赞图斯",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3006,16 +3007,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "162872",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773819,
-							["on_hold"] = false,
+							["damage_taken"] = 359215.006249,
 							["start_time"] = 1621773794,
 							["serial"] = "Creature-0-3929-2222-17016-162872-00002A4CB3",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -3079,28 +3079,6 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[324748] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 324748,
-										["uptime"] = 10,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[117828] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 4,
-										["refreshamt"] = 0,
-										["id"] = 117828,
-										["uptime"] = 18,
-										["targets"] = {
-										},
-										["appliedamt"] = 4,
-									},
 									[126434] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -3112,6 +3090,17 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
+									[342814] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 342814,
+										["uptime"] = 20,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
 									[333889] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -3119,6 +3108,17 @@ _detalhes_database = {
 										["refreshamt"] = 0,
 										["id"] = 333889,
 										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[324748] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 324748,
+										["uptime"] = 10,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -3189,16 +3189,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[342814] = {
+									[117828] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
+										["activedamt"] = 4,
 										["refreshamt"] = 0,
-										["id"] = 342814,
-										["uptime"] = 20,
+										["id"] = 117828,
+										["uptime"] = 18,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["appliedamt"] = 4,
 									},
 								},
 								["tipo"] = 9,
@@ -3211,19 +3211,19 @@ _detalhes_database = {
 								[1122] = 1,
 								[345228] = 1,
 								[333889] = 1,
-								[688] = 1,
+								[325640] = 1,
 								[152108] = 1,
 								[17962] = 4,
-								[325640] = 1,
-								[116858] = 5,
+								[688] = 1,
+								[113858] = 1,
 								[324748] = 1,
 								[348] = 1,
 								[29722] = 2,
-								[113858] = 1,
+								[116858] = 5,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1621773819,
 							["classe"] = "WARLOCK",
 							["pets"] = {
@@ -3235,7 +3235,8 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "凋落者赞图斯",
 							["aID"] = "162872",
 							["spell_cast"] = {
@@ -3244,10 +3245,9 @@ _detalhes_database = {
 								[337131] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3929-2222-17016-162872-00002A4CB3",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -3255,12 +3255,12 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "地狱火爪牙 <殷倾颜>",
-							["aID"] = "89",
+							["classe"] = "PET",
 							["pets"] = {
 							},
 							["last_event"] = 0,
-							["classe"] = "PET",
 							["tipo"] = 4,
+							["aID"] = "89",
 							["serial"] = "Creature-0-3929-2222-17016-89-00002A4DE9",
 							["spell_cast"] = {
 								[19483] = 3,
@@ -3371,10 +3371,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["竞技场挑战者"] = 3,
-					["凋落者赞图斯"] = 1,
-					["冲刷粘液"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1274,
 				["player_last_events"] = {
@@ -3384,7 +3381,10 @@ _detalhes_database = {
 				["data_inicio"] = "20:43:13",
 				["start_time"] = 692823.23,
 				["contra"] = "凋落者赞图斯",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["竞技场挑战者"] = 3,
+					["凋落者赞图斯"] = 1,
+					["冲刷粘液"] = 1,
 				},
 			}, -- [6]
 			{
@@ -3403,22 +3403,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "WARLOCK",
-							["last_dps"] = 589.8567774314291,
+							["spec"] = 267,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2547.001565,
-							["last_event"] = 1621773739,
+							["damage_taken"] = 0.001565,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773743,
 							["aID"] = "729-053F389D",
-							["damage_taken"] = 0.001565,
+							["last_dps"] = 589.8567774314291,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["total"] = 2547.001565,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[17962] = {
@@ -3452,13 +3448,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 2547.001565,
+							["last_event"] = 1621773739,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773739,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -3470,13 +3470,13 @@ _detalhes_database = {
 								["哈提"] = true,
 								["尼伊娜"] = true,
 								["蛮迈"] = true,
-								["竞技场挑战者"] = true,
+								["沐慕灬"] = true,
 								["海龟"] = true,
 								["驱魔骚年"] = true,
 								["殷倾颜"] = true,
 								["强橹灰飞烟灭"] = true,
 								["符文武器"] = true,
-								["沐慕灬"] = true,
+								["竞技场挑战者"] = true,
 							},
 							["targets"] = {
 								["弗特莱"] = 2531,
@@ -3484,17 +3484,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 2531.008337,
+							["aID"] = "168147",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2531.008337,
-							["end_time"] = 1621773743,
 							["monster"] = true,
-							["total"] = 2531.008337,
-							["damage_taken"] = 60197.008337,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773743,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "劈骨者莎布蕾尔",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3556,16 +3557,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "168147",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773742,
-							["on_hold"] = false,
+							["damage_taken"] = 60197.008337,
 							["start_time"] = 1621773740,
 							["serial"] = "Creature-0-3929-2222-17016-168147-00002A4C1E",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -3592,15 +3592,15 @@ _detalhes_database = {
 							["nome"] = "殷倾颜",
 							["spec"] = 267,
 							["grupo"] = true,
-							["buff_uptime"] = 20,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[324748] = 1,
 							},
-							["last_event"] = 1621773743,
+							["buff_uptime"] = 20,
+							["pets"] = {
+							},
 							["aID"] = "729-053F389D",
-							["classe"] = "WARLOCK",
+							["last_event"] = 1621773743,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[126434] = {
@@ -3662,21 +3662,21 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-729-053F389D",
-							["tipo"] = 4,
+							["classe"] = "WARLOCK",
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "劈骨者莎布蕾尔",
 							["aID"] = "168147",
 							["spell_cast"] = {
 								[344966] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3929-2222-17016-168147-00002A4C1E",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -3785,8 +3785,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["劈骨者莎布蕾尔"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 1273,
 				["player_last_events"] = {
@@ -3796,7 +3795,8 @@ _detalhes_database = {
 				["data_inicio"] = "20:42:20",
 				["start_time"] = 692769.877,
 				["contra"] = "劈骨者莎布蕾尔",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["劈骨者莎布蕾尔"] = 1,
 				},
 			}, -- [7]
 			{
@@ -3817,22 +3817,20 @@ _detalhes_database = {
 								"克伦卡高格 <殷倾颜>", -- [1]
 								"地狱火爪牙 <殷倾颜>", -- [2]
 							},
-							["classe"] = "WARLOCK",
-							["last_dps"] = 6480.859025766061,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["aID"] = "729-053F389D",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 95745.001259,
-							["tipo"] = 1,
+							["spec"] = 267,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 136111.001259,
 							["friendlyfire_total"] = 0,
-							["damage_taken"] = 1326.001259,
+							["last_dps"] = 6480.859025766061,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["end_time"] = 1621773528,
 							["spells"] = {
 								["_ActorTable"] = {
 									[17962] = {
@@ -4062,14 +4060,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["end_time"] = 1621773528,
+							["tipo"] = 1,
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["last_event"] = 1621773527,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 1326.001259,
 							["start_time"] = 1621773507,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["classe"] = "WARLOCK",
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -4082,16 +4082,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 22819.008298,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773528,
-							["total"] = 22819.008298,
+							["friendlyfire"] = {
+							},
 							["ownerName"] = "殷倾颜",
 							["nome"] = "地狱火爪牙 <殷倾颜>",
 							["spells"] = {
@@ -4160,11 +4161,10 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773527,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773511,
 							["serial"] = "Creature-0-3915-2162-25832-89-0000AA4CC7",
-							["on_hold"] = false,
+							["total"] = 22819.008298,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -4177,9 +4177,9 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
 							["aID"] = "Pet-0-3915-2162-25832-1860-060212E3E1",
+							["tipo"] = 1,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 17547.007266,
@@ -4259,7 +4259,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1621773507,
 							["serial"] = "Pet-0-3915-2162-25832-1860-060212E3E1",
-							["classe"] = "PET",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -4276,17 +4276,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "175234",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4777.003710999999,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773528,
 							["damage_taken"] = 136111.003711,
-							["total"] = 4777.003710999999,
+							["dps_started"] = false,
+							["end_time"] = 1621773528,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "破冰者特拉克图斯",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4410,16 +4410,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 4777.003710999999,
 							["custom"] = 0,
 							["last_event"] = 1621773527,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773507,
 							["serial"] = "Creature-0-3915-2162-25832-175234-00002A4C98",
-							["classe"] = "UNKNOW",
+							["aID"] = "175234",
 						}, -- [4]
 					},
 				}, -- [1]
@@ -4458,8 +4458,10 @@ _detalhes_database = {
 							["healing_taken"] = 6144.007231,
 							["fight_component"] = true,
 							["end_time"] = 1621773528,
+							["healing_from"] = {
+								["殷倾颜"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1621773527,
 							["nome"] = "殷倾颜",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4483,9 +4485,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 8,
 										["n_curado"] = 2630,
 										["totaldenied"] = 0,
-										["n_amt"] = 8,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -4509,9 +4511,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
 										["n_curado"] = 6144,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 								},
@@ -4519,15 +4521,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.007231,
-							["aID"] = "729-053F389D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1621773527,
 							["spec"] = 267,
 							["start_time"] = 1621773507,
 							["delay"] = 0,
-							["healing_from"] = {
-								["殷倾颜"] = true,
-							},
+							["aID"] = "729-053F389D",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -4562,16 +4562,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["classe"] = "PET",
 							["targets_overheal"] = {
 							},
-							["last_event"] = 0,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 0,
 							["totaldenied"] = 0.007199,
 							["start_time"] = 1621773528,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -4663,13 +4663,35 @@ _detalhes_database = {
 							["aID"] = "729-053F389D",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
-									[324748] = {
+									[186406] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 324748,
-										["uptime"] = 9,
+										["id"] = 186406,
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 3,
+										["id"] = 117828,
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[126434] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 126434,
+										["uptime"] = 21,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -4685,35 +4707,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[345228] = {
+									[324748] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 345228,
-										["uptime"] = 15,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[342814] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 342814,
-										["uptime"] = 19,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 21,
+										["id"] = 324748,
+										["uptime"] = 9,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -4729,13 +4729,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[117828] = {
+									[342814] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
-										["refreshamt"] = 3,
-										["id"] = 117828,
-										["uptime"] = 21,
+										["refreshamt"] = 1,
+										["id"] = 342814,
+										["uptime"] = 19,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -4817,6 +4817,17 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
+									[345228] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 345228,
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
 									[331623] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -4828,34 +4839,34 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[126434] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 126434,
-										["uptime"] = 21,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
 								},
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 48,
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 							["cc_done"] = 1.007915,
 							["nome"] = "殷倾颜",
 							["spec"] = 267,
 							["grupo"] = true,
-							["cc_done_targets"] = {
-								["破冰者特拉克图斯"] = 1,
-							},
-							["debuff_uptime_targets"] = {
+							["spell_cast"] = {
+								[1122] = 1,
+								[345228] = 1,
+								[116858] = 4,
+								[17962] = 4,
+								[152108] = 1,
+								[1714] = 1,
+								[325640] = 1,
+								[113858] = 1,
+								[6789] = 1,
+								[348] = 1,
+								[29722] = 1,
+								[119907] = 1,
 							},
 							["classe"] = "WARLOCK",
 							["last_event"] = 1621773528,
+							["tipo"] = 4,
 							["pets"] = {
 								"克伦卡高格 <殷倾颜>", -- [1]
 								"地狱火爪牙 <殷倾颜>", -- [2]
@@ -4863,19 +4874,8 @@ _detalhes_database = {
 							["buff_uptime_targets"] = {
 							},
 							["serial"] = "Player-729-053F389D",
-							["spell_cast"] = {
-								[1122] = 1,
-								[345228] = 1,
-								[113858] = 1,
-								[17962] = 4,
-								[152108] = 1,
-								[1714] = 1,
-								[325640] = 1,
-								[116858] = 4,
-								[6789] = 1,
-								[348] = 1,
-								[29722] = 1,
-								[119907] = 1,
+							["cc_done_targets"] = {
+								["破冰者特拉克图斯"] = 1,
 							},
 						}, -- [1]
 						{
@@ -4900,12 +4900,12 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "地狱火爪牙 <殷倾颜>",
-							["aID"] = "89",
+							["classe"] = "PET",
 							["pets"] = {
 							},
 							["last_event"] = 0,
-							["classe"] = "PET",
 							["tipo"] = 4,
+							["aID"] = "89",
 							["serial"] = "Creature-0-3915-2162-25832-89-00002A4CC7",
 							["spell_cast"] = {
 								[19483] = 3,
@@ -4913,7 +4913,8 @@ _detalhes_database = {
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "破冰者特拉克图斯",
 							["aID"] = "175234",
 							["spell_cast"] = {
@@ -4921,10 +4922,9 @@ _detalhes_database = {
 								[335528] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-175234-00002A4C98",
 							["flag_original"] = 68168,
 						}, -- [4]
@@ -5008,10 +5008,36 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:38:28",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["殷倾颜"] = 136111.001259,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["殷倾颜"] = 8774.007231,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
 				["end_time"] = 692558.569,
 				["combat_id"] = 107,
 				["tempo_start"] = 1621773507,
+				["data_inicio"] = "20:38:28",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1272,
+				["contra"] = "破冰者特拉克图斯",
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["殷倾颜"] = {
 						{
@@ -5091,32 +5117,6 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["spells_cast_timeline"] = {
-				},
-				["combat_counter"] = 1272,
-				["contra"] = "破冰者特拉克图斯",
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["殷倾颜"] = 136111.001259,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["殷倾颜"] = 8774.007231,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
 				["start_time"] = 692537.567,
 				["TimeData"] = {
 				},
@@ -5144,22 +5144,18 @@ _detalhes_database = {
 								"地狱火爪牙 <殷倾颜>", -- [2]
 							},
 							["aID"] = "729-053F389D",
-							["last_dps"] = 10628.78460426107,
+							["spec"] = 267,
 							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 92742.001863,
-							["tipo"] = 1,
+							["damage_taken"] = 0.001863,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 116906.001863,
 							["friendlyfire_total"] = 0,
-							["damage_taken"] = 0.001863,
+							["last_dps"] = 10628.78460426107,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["end_time"] = 1621773507,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[17962] = {
@@ -5363,13 +5359,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["end_time"] = 1621773507,
+							["tipo"] = 1,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["last_event"] = 1621773506,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773442,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -5383,15 +5383,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 1,
 							["aID"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 13051.003891,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 13051.003891,
+							["end_time"] = 1621773453,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "克伦卡高格 <殷倾颜>",
@@ -5466,7 +5466,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1621773442,
 							["serial"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
-							["end_time"] = 1621773453,
+							["total"] = 13051.003891,
 						}, -- [2]
 						{
 							["flag_original"] = 8465,
@@ -5478,17 +5478,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["friendlyfire_total"] = 0,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["aID"] = "89",
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 11113.007593,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773453,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "地狱火爪牙 <殷倾颜>",
 							["spells"] = {
@@ -5552,15 +5551,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.007593,
+							["friendlyfire"] = {
+							},
 							["total"] = 11113.007593,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773452,
-							["on_hold"] = false,
+							["damage_taken"] = 0.007593,
 							["start_time"] = 1621773444,
 							["serial"] = "Creature-0-3915-2162-25832-89-00002A4C83",
-							["classe"] = "PET",
+							["aID"] = "89",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -5576,17 +5576,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 5589.005048999999,
+							["aID"] = "168104",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5589.005048999999,
-							["end_time"] = 1621773453,
 							["monster"] = true,
-							["total"] = 5589.005048999999,
-							["damage_taken"] = 108944.005049,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773453,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "强化的焰炉大师",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5620,16 +5621,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "168104",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773452,
-							["on_hold"] = false,
+							["damage_taken"] = 108944.005049,
 							["start_time"] = 1621773449,
 							["serial"] = "Creature-0-3915-2162-25832-168104-00002A4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [4]
 						{
 							["flag_original"] = 2600,
@@ -5642,16 +5642,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["total"] = 0.003229,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1621773453,
+							["friendlyfire_total"] = 0,
+							["aID"] = "164698",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003229,
 							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.003229,
 							["fight_component"] = true,
-							["end_time"] = 1621773453,
-							["friendlyfire_total"] = 0,
 							["damage_taken"] = 3205.003229,
 							["nome"] = "灰烬护命匣",
 							["spells"] = {
@@ -5659,7 +5659,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["aID"] = "164698",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["on_hold"] = false,
 							["custom"] = 0,
@@ -5668,7 +5668,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1621773453,
 							["serial"] = "Creature-0-3915-2162-25832-164698-00022A4BBC",
-							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 						}, -- [5]
 					},
 				}, -- [1]
@@ -5707,8 +5707,10 @@ _detalhes_database = {
 							["healing_taken"] = 6069.00392,
 							["fight_component"] = true,
 							["end_time"] = 1621773453,
+							["healing_from"] = {
+								["殷倾颜"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1621773452,
 							["nome"] = "殷倾颜",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5732,9 +5734,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 6069,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 									[108366] = {
@@ -5757,9 +5759,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 2,
 										["n_curado"] = 4217,
 										["totaldenied"] = 0,
-										["n_amt"] = 2,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -5768,15 +5770,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.00392,
-							["aID"] = "729-053F389D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1621773452,
 							["spec"] = 267,
 							["start_time"] = 1621773444,
 							["delay"] = 0,
-							["healing_from"] = {
-								["殷倾颜"] = true,
-							},
+							["aID"] = "729-053F389D",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -5811,16 +5811,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["classe"] = "PET",
 							["targets_overheal"] = {
 							},
-							["last_event"] = 0,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 0,
 							["totaldenied"] = 0.001055,
 							["start_time"] = 1621773453,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -5901,24 +5901,24 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[48018] = {
+									[117828] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 117828,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[324717] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 48018,
+										["id"] = 324717,
 										["uptime"] = 11,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[324748] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 2,
-										["id"] = 324748,
-										["uptime"] = 9,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -5945,23 +5945,23 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[117828] = {
+									[324748] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 117828,
-										["uptime"] = 8,
+										["activedamt"] = 1,
+										["refreshamt"] = 2,
+										["id"] = 324748,
+										["uptime"] = 9,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["appliedamt"] = 1,
 									},
-									[324717] = {
+									[48018] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 324717,
+										["id"] = 48018,
 										["uptime"] = 11,
 										["targets"] = {
 										},
@@ -6062,9 +6062,9 @@ _detalhes_database = {
 								[345228] = 1,
 								[29722] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1621773453,
 							["classe"] = "WARLOCK",
 							["pets"] = {
@@ -6095,12 +6095,12 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "地狱火爪牙 <殷倾颜>",
-							["aID"] = "89",
+							["classe"] = "PET",
 							["pets"] = {
 							},
 							["last_event"] = 0,
-							["classe"] = "PET",
 							["tipo"] = 4,
+							["aID"] = "89",
 							["serial"] = "Creature-0-3915-2162-25832-89-00002A4C83",
 							["spell_cast"] = {
 								[19483] = 1,
@@ -6108,17 +6108,17 @@ _detalhes_database = {
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "强化的焰炉大师",
 							["aID"] = "168104",
 							["spell_cast"] = {
 								[270246] = 2,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-168104-00002A4BBC",
 							["flag_original"] = 68168,
 						}, -- [4]
@@ -6202,18 +6202,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:37:23",
-				["end_time"] = 692483.724,
-				["combat_id"] = 106,
-				["tempo_start"] = 1621773442,
-				["player_last_events"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["combat_counter"] = 1271,
-				["contra"] = "强化的焰炉大师",
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -6233,6 +6221,18 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
+				},
+				["end_time"] = 692483.724,
+				["combat_id"] = 106,
+				["tempo_start"] = 1621773442,
+				["data_inicio"] = "20:37:23",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1271,
+				["contra"] = "强化的焰炉大师",
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
 				},
 				["start_time"] = 692472.725,
 				["TimeData"] = {
@@ -6258,52 +6258,20 @@ _detalhes_database = {
 								"克伦卡高格 <殷倾颜>", -- [1]
 							},
 							["classe"] = "WARLOCK",
-							["last_dps"] = 5331.935908394826,
+							["spec"] = 267,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 22806.007286,
-							["last_event"] = 1621773416,
+							["damage_taken"] = 0.007286,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773417,
 							["aID"] = "729-053F389D",
-							["damage_taken"] = 0.007286,
+							["last_dps"] = 5331.935908394826,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["total"] = 26681.007286,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
-									[29722] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 6178,
-										["targets"] = {
-											["焰炉执行者"] = 6178,
-										},
-										["n_dmg"] = 6178,
-										["n_min"] = 6178,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 6178,
-										["c_max"] = 0,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 4,
-									},
 									[116858] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
@@ -6360,16 +6328,48 @@ _detalhes_database = {
 										},
 										["spellschool"] = 4,
 									},
+									[29722] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6178,
+										["targets"] = {
+											["焰炉执行者"] = 6178,
+										},
+										["n_dmg"] = 6178,
+										["n_min"] = 6178,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 6178,
+										["c_max"] = 0,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
+									},
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 26681.007286,
+							["last_event"] = 1621773416,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773412,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -6382,15 +6382,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 1,
 							["aID"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3875.001397,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 3875.001397,
+							["end_time"] = 1621773417,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "克伦卡高格 <殷倾颜>",
@@ -6464,7 +6464,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1621773412,
 							["serial"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
-							["end_time"] = 1621773417,
+							["total"] = 3875.001397,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -6479,17 +6479,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 694.008643,
+							["aID"] = "157634",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 694.008643,
-							["end_time"] = 1621773417,
 							["monster"] = true,
-							["total"] = 694.008643,
-							["damage_taken"] = 26681.008643,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773417,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "焰炉执行者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6524,16 +6525,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "157634",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773415,
-							["on_hold"] = false,
+							["damage_taken"] = 26681.008643,
 							["start_time"] = 1621773413,
 							["serial"] = "Creature-0-3915-2162-25832-157634-0001AA4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -6553,9 +6553,7 @@ _detalhes_database = {
 							["totalover"] = 0.005568,
 							["total_without_pet"] = 694.005568,
 							["total"] = 694.005568,
-							["targets_absorbs"] = {
-								["克伦卡高格 <殷倾颜>"] = 694,
-							},
+							["spec"] = 267,
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
@@ -6571,7 +6569,7 @@ _detalhes_database = {
 							["end_time"] = 1621773417,
 							["targets_overheal"] = {
 							},
-							["last_event"] = 1621773415,
+							["tipo"] = 2,
 							["nome"] = "殷倾颜",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6595,9 +6593,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 2,
 										["n_curado"] = 694,
 										["totaldenied"] = 0,
-										["n_amt"] = 2,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -6608,11 +6606,13 @@ _detalhes_database = {
 							["classe"] = "WARLOCK",
 							["totaldenied"] = 0.005568,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1621773415,
 							["aID"] = "729-053F389D",
 							["start_time"] = 1621773413,
 							["delay"] = 0,
-							["spec"] = 267,
+							["targets_absorbs"] = {
+								["克伦卡高格 <殷倾颜>"] = 694,
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -6647,16 +6647,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["classe"] = "PET",
 							["targets_overheal"] = {
 							},
-							["last_event"] = 0,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 0,
 							["totaldenied"] = 0.007614,
 							["start_time"] = 1621773417,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -6693,23 +6693,23 @@ _detalhes_database = {
 							["aID"] = "729-053F389D",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
-									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 5,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
 									[126434] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
 										["id"] = 126434,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
 										["uptime"] = 5,
 										["targets"] = {
 										},
@@ -6726,13 +6726,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[338949] = {
+									[48018] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 338949,
-										["uptime"] = 4,
+										["refreshamt"] = 0,
+										["id"] = 48018,
+										["uptime"] = 5,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -6770,13 +6770,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[48018] = {
+									[338949] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 48018,
-										["uptime"] = 5,
+										["refreshamt"] = 1,
+										["id"] = 338949,
+										["uptime"] = 4,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -6792,9 +6792,9 @@ _detalhes_database = {
 								[29722] = 1,
 								[116858] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1621773417,
 							["classe"] = "WARLOCK",
 							["pets"] = {
@@ -6864,29 +6864,6 @@ _detalhes_database = {
 					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
 				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "scenario",
-				["hasSaved"] = true,
-				["data_fim"] = "20:36:58",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "焰炉执行者",
-				["TotalElapsedCombatTime"] = 692446.861,
-				["CombatEndedAt"] = 692446.861,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "20:36:53",
-				["end_time"] = 692447.807,
-				["combat_id"] = 105,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
-				},
 				["totals_grupo"] = {
 					22806, -- [1]
 					694, -- [2]
@@ -6908,8 +6885,18 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["contra"] = "焰炉执行者",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "20:36:58",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "焰炉执行者",
+				["TotalElapsedCombatTime"] = 692446.861,
+				["CombatEndedAt"] = 692446.861,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -6931,11 +6918,24 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["start_time"] = 692442.803,
-				["TimeData"] = {
+				["end_time"] = 692447.807,
+				["combat_id"] = 105,
+				["player_last_events"] = {
 				},
 				["frags"] = {
 					["焰炉执行者"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["data_inicio"] = "20:36:53",
+				["CombatSkillCache"] = {
+				},
+				["contra"] = "焰炉执行者",
+				["start_time"] = 692442.803,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
 				},
 			}, -- [10]
 			{
@@ -6947,10 +6947,10 @@ _detalhes_database = {
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.005205,
 							["damage_from"] = {
-								["渊誓护火者"] = true,
-								["焰炉执行者"] = true,
-								["猎魂者弗拉莱"] = true,
 								["熔炉守护者"] = true,
+								["焰炉执行者"] = true,
+								["渊誓护火者"] = true,
+								["猎魂者弗拉莱"] = true,
 								["渊誓召火者"] = true,
 								["噬渊鼠"] = true,
 								["渊誓哨兵"] = true,
@@ -6971,18 +6971,6 @@ _detalhes_database = {
 								"克伦卡高格 <殷倾颜>", -- [1]
 							},
 							["classe"] = "WARLOCK",
-							["last_dps"] = 4434.406589852261,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 217390.005205,
-							["last_event"] = 1621773411,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 306045.005205,
-							["aID"] = "729-053F389D",
-							["damage_taken"] = 24843.005205,
-							["nome"] = "殷倾颜",
 							["spells"] = {
 								["_ActorTable"] = {
 									[17962] = {
@@ -7198,17 +7186,29 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 217390.005205,
+							["damage_taken"] = 24843.005205,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 306045.005205,
+							["aID"] = "729-053F389D",
+							["last_dps"] = 4434.406589852261,
+							["nome"] = "殷倾颜",
+							["spec"] = 267,
 							["grupo"] = true,
 							["end_time"] = 1621773412,
+							["last_event"] = 1621773411,
 							["custom"] = 0,
-							["spec"] = 267,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773345,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -7222,10 +7222,10 @@ _detalhes_database = {
 								["渊誓卫兵"] = true,
 							},
 							["targets"] = {
-								["渊誓护火者"] = 25003,
-								["焰炉执行者"] = 10165,
-								["猎魂者弗拉莱"] = 21566,
 								["熔炉守护者"] = 909,
+								["焰炉执行者"] = 10165,
+								["渊誓护火者"] = 25003,
+								["猎魂者弗拉莱"] = 21566,
 								["噬渊鼠"] = 10687,
 								["渊誓召火者"] = 3180,
 								["灰烬护命匣"] = 1816,
@@ -7233,9 +7233,9 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
 							["aID"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
+							["tipo"] = 1,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 88655.002652,
@@ -7286,10 +7286,10 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 477,
 										["targets"] = {
-											["渊誓护火者"] = 13677,
-											["焰炉执行者"] = 5909,
-											["猎魂者弗拉莱"] = 6106,
 											["熔炉守护者"] = 909,
+											["焰炉执行者"] = 5909,
+											["渊誓护火者"] = 13677,
+											["猎魂者弗拉莱"] = 6106,
 											["噬渊鼠"] = 9267,
 											["渊誓召火者"] = 3180,
 											["灰烬护命匣"] = 1816,
@@ -7326,7 +7326,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1621773345,
 							["serial"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
-							["classe"] = "PET",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -7344,17 +7344,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "157572",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 39264.006074,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773402,
 							["damage_taken"] = 20460.006074,
-							["total"] = 39264.006074,
+							["dps_started"] = false,
+							["end_time"] = 1621773402,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓召火者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7417,16 +7417,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 39264.006074,
 							["custom"] = 0,
 							["last_event"] = 1621773397,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773341,
 							["serial"] = "Creature-0-3915-2162-25832-157572-00002A4BBC",
-							["classe"] = "UNKNOW",
+							["aID"] = "157572",
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
@@ -7443,17 +7443,17 @@ _detalhes_database = {
 							["delay"] = 1621773356,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "157571",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 35366.003387,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773402,
 							["damage_taken"] = 46666.003387,
-							["total"] = 35366.003387,
+							["dps_started"] = false,
+							["end_time"] = 1621773402,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓护火者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7541,16 +7541,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 35366.003387,
 							["custom"] = 0,
 							["last_event"] = 1621773398,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773358,
 							["serial"] = "Creature-0-3915-2162-25832-157571-00002A4BBC",
-							["classe"] = "UNKNOW",
+							["aID"] = "157571",
 						}, -- [4]
 						{
 							["flag_original"] = 68168,
@@ -7566,17 +7566,17 @@ _detalhes_database = {
 							["delay"] = 1621773375,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "173191",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10298.0045,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773402,
 							["damage_taken"] = 153402.0045,
-							["total"] = 10298.0045,
+							["dps_started"] = false,
+							["end_time"] = 1621773402,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "猎魂者弗拉莱",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7612,6 +7612,32 @@ _detalhes_database = {
 										["MISS"] = 5,
 										["a_dmg"] = 2653,
 									}, -- [1]
+									[338865] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 338865,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
+									},
 									[338871] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -7641,29 +7667,31 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									},
-									[338865] = {
+									[183347] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 647,
 										["targets"] = {
+											["殷倾颜"] = 647,
+											["克伦卡高格 <殷倾颜>"] = 587,
 										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 1234,
+										["n_min"] = 587,
 										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
+										["counter"] = 2,
+										["total"] = 1234,
 										["c_max"] = 0,
-										["id"] = 338865,
+										["id"] = 183347,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 2,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
+										["a_amt"] = 2,
+										["n_amt"] = 2,
+										["a_dmg"] = 1234,
 										["extra"] = {
 										},
 									},
@@ -7694,47 +7722,19 @@ _detalhes_database = {
 										["extra"] = {
 										},
 									},
-									[183347] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 647,
-										["targets"] = {
-											["殷倾颜"] = 647,
-											["克伦卡高格 <殷倾颜>"] = 587,
-										},
-										["n_dmg"] = 1234,
-										["n_min"] = 587,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1234,
-										["c_max"] = 0,
-										["id"] = 183347,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 2,
-										["a_amt"] = 2,
-										["n_amt"] = 2,
-										["a_dmg"] = 1234,
-										["extra"] = {
-										},
-									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 10298.0045,
 							["custom"] = 0,
 							["last_event"] = 1621773375,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773378,
 							["serial"] = "Creature-0-3915-2162-25832-173191-00002A4BBC",
-							["classe"] = "UNKNOW",
+							["aID"] = "173191",
 						}, -- [5]
 						{
 							["flag_original"] = 2632,
@@ -7750,17 +7750,17 @@ _detalhes_database = {
 							["delay"] = 1621773376,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "150958",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8512.002894000001,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773402,
 							["damage_taken"] = 28837.002894,
-							["total"] = 8512.002894000001,
+							["dps_started"] = false,
+							["end_time"] = 1621773402,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓卫兵",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7848,16 +7848,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 8512.002894000001,
 							["custom"] = 0,
 							["last_event"] = 1621773394,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773365,
 							["serial"] = "Creature-0-3915-2162-25832-150958-00002A4BBC",
-							["classe"] = "UNKNOW",
+							["aID"] = "150958",
 						}, -- [6]
 						{
 							["flag_original"] = 2632,
@@ -7874,17 +7874,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 3844.007072,
+							["aID"] = "157634",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3844.007072,
-							["end_time"] = 1621773402,
 							["monster"] = true,
-							["total"] = 3844.007072,
-							["damage_taken"] = 26280.007072,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773402,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "焰炉执行者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8029,16 +8030,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "157634",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773400,
-							["on_hold"] = false,
+							["damage_taken"] = 26280.007072,
 							["start_time"] = 1621773380,
 							["serial"] = "Creature-0-3915-2162-25832-157634-0000AA4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [7]
 						{
 							["flag_original"] = 2632,
@@ -8055,17 +8055,17 @@ _detalhes_database = {
 							["delay"] = 1621773377,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "151353",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2609.001344,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773402,
 							["damage_taken"] = 13461.001344,
-							["total"] = 2609.001344,
+							["dps_started"] = false,
+							["end_time"] = 1621773402,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "噬渊鼠",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8104,16 +8104,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 2609.001344,
 							["custom"] = 0,
 							["last_event"] = 1621773377,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773368,
 							["serial"] = "Creature-0-3915-2162-25832-151353-00022A4BBC",
-							["classe"] = "UNKNOW",
+							["aID"] = "151353",
 						}, -- [8]
 						{
 							["flag_original"] = 2632,
@@ -8128,17 +8128,18 @@ _detalhes_database = {
 							["delay"] = 1621773385,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 1650.002709,
+							["aID"] = "157583",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1650.002709,
-							["end_time"] = 1621773402,
 							["monster"] = true,
-							["total"] = 1650.002709,
-							["damage_taken"] = 10296.002709,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773402,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "熔炉守护者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8198,16 +8199,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "157583",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773385,
-							["on_hold"] = false,
+							["damage_taken"] = 10296.002709,
 							["start_time"] = 1621773401,
 							["serial"] = "Creature-0-3915-2162-25832-157583-00022A4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [9]
 						{
 							["flag_original"] = 2632,
@@ -8221,17 +8221,17 @@ _detalhes_database = {
 							["delay"] = 1621773355,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "153874",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1451.007412,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773402,
 							["damage_taken"] = 11877.007412,
-							["total"] = 1451.007412,
+							["dps_started"] = false,
+							["end_time"] = 1621773402,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓哨兵",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8293,16 +8293,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 1451.007412,
 							["custom"] = 0,
 							["last_event"] = 1621773355,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773400,
 							["serial"] = "Creature-0-3915-2162-25832-153874-0000AA4BBC",
-							["classe"] = "UNKNOW",
+							["aID"] = "153874",
 						}, -- [10]
 						{
 							["flag_original"] = 2600,
@@ -8314,9 +8314,10 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
 							["aID"] = "164698",
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005127,
@@ -8331,16 +8332,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["dps_started"] = false,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773402,
 							["serial"] = "Creature-0-3915-2162-25832-164698-00082A4BBC",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [11]
 					},
 				}, -- [1]
@@ -8381,8 +8381,10 @@ _detalhes_database = {
 							["healing_taken"] = 25221.006807,
 							["fight_component"] = true,
 							["end_time"] = 1621773402,
+							["healing_from"] = {
+								["殷倾颜"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1621773400,
 							["nome"] = "殷倾颜",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8409,9 +8411,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 69,
 										["n_curado"] = 19213,
 										["totaldenied"] = 0,
-										["n_amt"] = 69,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -8435,9 +8437,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 2800,
-										["n_amt"] = 8,
 										["n_curado"] = 11400,
 										["totaldenied"] = 0,
+										["n_amt"] = 8,
 										["absorbed"] = 0,
 									},
 									[77220] = {
@@ -8460,9 +8462,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 35,
 										["n_curado"] = 3897,
 										["totaldenied"] = 0,
-										["n_amt"] = 35,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -8486,9 +8488,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 								},
@@ -8496,15 +8498,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.006807,
-							["aID"] = "729-053F389D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1621773400,
 							["spec"] = 267,
 							["start_time"] = 1621773333,
 							["delay"] = 0,
-							["healing_from"] = {
-								["殷倾颜"] = true,
-							},
+							["aID"] = "729-053F389D",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -8539,16 +8539,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["classe"] = "PET",
 							["targets_overheal"] = {
 							},
-							["last_event"] = 0,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 0,
 							["totaldenied"] = 0.00609,
 							["start_time"] = 1621773402,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -8651,16 +8651,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[324748] = {
+									[186406] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 1,
-										["id"] = 324748,
-										["uptime"] = 19,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 69,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["appliedamt"] = 1,
 									},
 									[322455] = {
 										["counter"] = 0,
@@ -8740,16 +8740,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[186406] = {
+									[324748] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 69,
+										["activedamt"] = 2,
+										["refreshamt"] = 1,
+										["id"] = 324748,
+										["uptime"] = 19,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["appliedamt"] = 2,
 									},
 									[48018] = {
 										["counter"] = 0,
@@ -8789,35 +8789,35 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 100,
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 							["cc_done"] = 1.001265,
 							["nome"] = "殷倾颜",
 							["spec"] = 267,
 							["grupo"] = true,
-							["cc_done_targets"] = {
-								["渊誓护火者"] = 1,
-							},
-							["debuff_uptime_targets"] = {
+							["spell_cast"] = {
+								[152108] = 2,
+								[29722] = 9,
+								[6789] = 1,
+								[348] = 4,
+								[325640] = 1,
+								[116858] = 4,
+								[324748] = 2,
+								[1714] = 6,
+								[17962] = 7,
+								[80240] = 1,
 							},
 							["classe"] = "WARLOCK",
 							["last_event"] = 1621773402,
+							["tipo"] = 4,
 							["pets"] = {
 								"克伦卡高格 <殷倾颜>", -- [1]
 							},
 							["buff_uptime_targets"] = {
 							},
 							["serial"] = "Player-729-053F389D",
-							["spell_cast"] = {
-								[348] = 4,
-								[29722] = 9,
-								[80240] = 1,
-								[152108] = 2,
-								[325640] = 1,
-								[116858] = 4,
-								[324748] = 2,
-								[1714] = 6,
-								[17962] = 7,
-								[6789] = 1,
+							["cc_done_targets"] = {
+								["渊誓护火者"] = 1,
 							},
 						}, -- [1]
 						{
@@ -8839,7 +8839,8 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "渊誓召火者",
 							["aID"] = "157572",
 							["spell_cast"] = {
@@ -8847,16 +8848,16 @@ _detalhes_database = {
 								[275983] = 47,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-157572-00002A4BBC",
 							["flag_original"] = 2632,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "渊誓卫兵",
 							["aID"] = "150958",
 							["spell_cast"] = {
@@ -8864,16 +8865,16 @@ _detalhes_database = {
 								[292903] = 3,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-150958-00002A4BBC",
 							["flag_original"] = 2632,
 						}, -- [4]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "渊誓护火者",
 							["aID"] = "157571",
 							["spell_cast"] = {
@@ -8882,50 +8883,50 @@ _detalhes_database = {
 								[329422] = 3,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-157571-0000AA4BBC",
 							["flag_original"] = 68168,
 						}, -- [5]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "猎魂者弗拉莱",
 							["aID"] = "173191",
 							["spell_cast"] = {
-								[338865] = 2,
 								[186380] = 1,
 								[183347] = 2,
+								[338865] = 2,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-173191-00002A4BBC",
 							["flag_original"] = 68168,
 						}, -- [6]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "渊誓哨兵",
 							["aID"] = "153874",
 							["spell_cast"] = {
 								[298831] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-153874-0000AA4BBC",
 							["flag_original"] = 2632,
 						}, -- [7]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "熔炉守护者",
 							["aID"] = "157583",
 							["spell_cast"] = {
@@ -8933,16 +8934,16 @@ _detalhes_database = {
 								[330347] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-157583-00022A4BBC",
 							["flag_original"] = 2632,
 						}, -- [8]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "焰炉执行者",
 							["aID"] = "157634",
 							["spell_cast"] = {
@@ -8950,10 +8951,9 @@ _detalhes_database = {
 								[329425] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-157634-0000AA4BBC",
 							["flag_original"] = 2632,
 						}, -- [9]
@@ -9037,18 +9037,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:35:34",
-				["end_time"] = 692432.59,
-				["combat_id"] = 104,
-				["tempo_start"] = 1621773333,
-				["player_last_events"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["combat_counter"] = 1269,
-				["contra"] = "噬渊鼠",
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -9069,14 +9057,26 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
+				["end_time"] = 692432.59,
+				["combat_id"] = 104,
+				["tempo_start"] = 1621773333,
+				["data_inicio"] = "20:35:34",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1269,
+				["contra"] = "噬渊鼠",
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
 				["start_time"] = 692363.574,
 				["TimeData"] = {
 				},
 				["frags"] = {
-					["猎魂者弗拉莱"] = 1,
-					["焰炉执行者"] = 1,
-					["熔炉守护者"] = 1,
 					["渊誓护火者"] = 3,
+					["焰炉执行者"] = 1,
+					["猎魂者弗拉莱"] = 1,
+					["熔炉守护者"] = 1,
 					["噬渊鼠"] = 5,
 					["渊誓召火者"] = 2,
 					["渊誓哨兵"] = 1,
@@ -9109,22 +9109,18 @@ _detalhes_database = {
 								"克伦卡高格 <殷倾颜>", -- [1]
 							},
 							["classe"] = "WARLOCK",
-							["last_dps"] = 4722.357479,
+							["spec"] = 267,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 53877.004706,
-							["last_event"] = 1621773324,
+							["damage_taken"] = 9265.004706,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773326,
 							["aID"] = "729-053F389D",
-							["damage_taken"] = 9265.004706,
+							["last_dps"] = 4722.357479,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["total"] = 66113.004706,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[17962] = {
@@ -9280,13 +9276,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 66113.004706,
+							["last_event"] = 1621773324,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773315,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -9303,15 +9303,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 1,
 							["aID"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 12236.008462,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 12236.008462,
+							["end_time"] = 1621773326,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "克伦卡高格 <殷倾颜>",
@@ -9389,7 +9389,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1621773315,
 							["serial"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
-							["end_time"] = 1621773326,
+							["total"] = 12236.008462,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -9405,17 +9405,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 3028.00211,
+							["aID"] = "150959",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3028.00211,
-							["end_time"] = 1621773326,
 							["monster"] = true,
-							["total"] = 3028.00211,
-							["damage_taken"] = 13249.00211,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773326,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓拦截者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9450,16 +9451,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "150959",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773322,
-							["on_hold"] = false,
+							["damage_taken"] = 13249.00211,
 							["start_time"] = 1621773315,
 							["serial"] = "Creature-0-3915-2162-25832-150959-00002A4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
@@ -9474,17 +9474,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 2905.001781,
+							["aID"] = "157634",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2905.001781,
-							["end_time"] = 1621773326,
 							["monster"] = true,
-							["total"] = 2905.001781,
-							["damage_taken"] = 22093.001781,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773326,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "焰炉执行者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9546,16 +9547,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "157634",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773320,
-							["on_hold"] = false,
+							["damage_taken"] = 22093.001781,
 							["start_time"] = 1621773312,
 							["serial"] = "Creature-0-3915-2162-25832-157634-00012A4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
@@ -9570,17 +9570,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 2542.008618,
+							["aID"] = "152708",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2542.008618,
-							["end_time"] = 1621773326,
 							["monster"] = true,
-							["total"] = 2542.008618,
-							["damage_taken"] = 9227.008618,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773326,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓寻猎者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9615,16 +9616,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "152708",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773320,
-							["on_hold"] = false,
+							["damage_taken"] = 9227.008618,
 							["start_time"] = 1621773312,
 							["serial"] = "Creature-0-3915-2162-25832-152708-0000AA4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [5]
 						{
 							["flag_original"] = 68168,
@@ -9640,17 +9640,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 1632.008812,
+							["aID"] = "150958",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1632.008812,
-							["end_time"] = 1621773326,
 							["monster"] = true,
-							["total"] = 1632.008812,
-							["damage_taken"] = 16613.008812,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773326,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓卫兵",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9712,16 +9713,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "150958",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773320,
-							["on_hold"] = false,
+							["damage_taken"] = 16613.008812,
 							["start_time"] = 1621773314,
 							["serial"] = "Creature-0-3915-2162-25832-150958-0000AA4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [6]
 						{
 							["flag_original"] = 2632,
@@ -9735,17 +9735,18 @@ _detalhes_database = {
 							["delay"] = 1621773314,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 326.00858,
+							["aID"] = "151353",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 326.00858,
-							["end_time"] = 1621773326,
 							["monster"] = true,
-							["total"] = 326.00858,
-							["damage_taken"] = 4931.00858,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773326,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "噬渊鼠",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9780,16 +9781,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "151353",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773333,
-							["on_hold"] = false,
+							["damage_taken"] = 4931.00858,
 							["start_time"] = 1621773323,
 							["serial"] = "Creature-0-3915-2162-25832-151353-0001AA4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [7]
 					},
 				}, -- [1]
@@ -9829,8 +9829,10 @@ _detalhes_database = {
 							["healing_taken"] = 7895.003392000001,
 							["fight_component"] = true,
 							["end_time"] = 1621773326,
+							["healing_from"] = {
+								["殷倾颜"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1621773322,
 							["nome"] = "殷倾颜",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9856,9 +9858,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 12,
 										["n_curado"] = 4382,
 										["totaldenied"] = 0,
-										["n_amt"] = 12,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -9882,9 +9884,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 2113,
 										["c_curado"] = 2113,
-										["n_amt"] = 3,
 										["n_curado"] = 1136,
 										["totaldenied"] = 0,
+										["n_amt"] = 3,
 										["absorbed"] = 0,
 									},
 									[77220] = {
@@ -9907,9 +9909,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 12,
 										["n_curado"] = 1432,
 										["totaldenied"] = 0,
-										["n_amt"] = 12,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -9918,15 +9920,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.003392,
-							["aID"] = "729-053F389D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1621773322,
 							["spec"] = 267,
 							["start_time"] = 1621773312,
 							["delay"] = 0,
-							["healing_from"] = {
-								["殷倾颜"] = true,
-							},
+							["aID"] = "729-053F389D",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -9961,16 +9961,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["classe"] = "PET",
 							["targets_overheal"] = {
 							},
-							["last_event"] = 0,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 0,
 							["totaldenied"] = 0.007412,
 							["start_time"] = 1621773326,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -10136,27 +10136,12 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 12,
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 							["cc_done"] = 4.005946,
 							["nome"] = "殷倾颜",
 							["spec"] = 267,
 							["grupo"] = true,
-							["cc_done_targets"] = {
-								["渊誓拦截者"] = 1,
-								["焰炉执行者"] = 1,
-								["渊誓寻猎者"] = 1,
-								["渊誓卫兵"] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["classe"] = "WARLOCK",
-							["last_event"] = 1621773326,
-							["pets"] = {
-								"克伦卡高格 <殷倾颜>", -- [1]
-							},
-							["buff_uptime_targets"] = {
-							},
-							["serial"] = "Player-729-053F389D",
 							["spell_cast"] = {
 								[17962] = 2,
 								[30283] = 1,
@@ -10165,20 +10150,35 @@ _detalhes_database = {
 								[324748] = 1,
 								[5740] = 1,
 							},
+							["classe"] = "WARLOCK",
+							["last_event"] = 1621773326,
+							["tipo"] = 4,
+							["pets"] = {
+								"克伦卡高格 <殷倾颜>", -- [1]
+							},
+							["buff_uptime_targets"] = {
+							},
+							["serial"] = "Player-729-053F389D",
+							["cc_done_targets"] = {
+								["渊誓拦截者"] = 1,
+								["焰炉执行者"] = 1,
+								["渊誓寻猎者"] = 1,
+								["渊誓卫兵"] = 1,
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "渊誓拦截者",
 							["aID"] = "150959",
 							["spell_cast"] = {
 								[329706] = 3,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-150959-00002A4BBC",
 							["flag_original"] = 2632,
 						}, -- [2]
@@ -10201,33 +10201,33 @@ _detalhes_database = {
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "焰炉执行者",
 							["aID"] = "157634",
 							["spell_cast"] = {
 								[308026] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-157634-00012A4BBC",
 							["flag_original"] = 2632,
 						}, -- [4]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "渊誓卫兵",
 							["aID"] = "150958",
 							["spell_cast"] = {
 								[292903] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-150958-0000AA4BBC",
 							["flag_original"] = 68168,
 						}, -- [5]
@@ -10311,18 +10311,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:35:12",
-				["end_time"] = 692356.399,
-				["combat_id"] = 103,
-				["tempo_start"] = 1621773312,
-				["player_last_events"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["combat_counter"] = 1268,
-				["contra"] = "噬渊鼠",
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -10342,6 +10330,18 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
+				},
+				["end_time"] = 692356.399,
+				["combat_id"] = 103,
+				["tempo_start"] = 1621773312,
+				["data_inicio"] = "20:35:12",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1268,
+				["contra"] = "噬渊鼠",
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
 				},
 				["start_time"] = 692342.399,
 				["TimeData"] = {
@@ -10373,17 +10373,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 1976.005451,
+							["aID"] = "153874",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1976.005451,
-							["end_time"] = 1621773306,
 							["monster"] = true,
-							["total"] = 1976.005451,
-							["damage_taken"] = 12518.005451,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773306,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓哨兵",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10448,16 +10449,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "153874",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773304,
-							["on_hold"] = false,
+							["damage_taken"] = 12518.005451,
 							["start_time"] = 1621773297,
 							["serial"] = "Creature-0-3915-2162-25832-153874-00002A4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -10474,22 +10474,18 @@ _detalhes_database = {
 								"克伦卡高格 <殷倾颜>", -- [1]
 							},
 							["classe"] = "WARLOCK",
-							["last_dps"] = 5856.342802608072,
+							["spec"] = 267,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 33549.001991,
-							["last_event"] = 1621773305,
+							["damage_taken"] = 1392.001991,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773306,
 							["aID"] = "729-053F389D",
-							["damage_taken"] = 1392.001991,
+							["last_dps"] = 5856.342802608072,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["total"] = 43905.001991,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[348] = {
@@ -10583,13 +10579,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 43905.001991,
+							["last_event"] = 1621773305,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773298,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -10606,15 +10606,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 1,
 							["aID"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10356.002975,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 10356.002975,
+							["end_time"] = 1621773306,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "克伦卡高格 <殷倾颜>",
@@ -10691,7 +10691,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1621773298,
 							["serial"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
-							["end_time"] = 1621773306,
+							["total"] = 10356.002975,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
@@ -10706,17 +10706,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 936.00352,
+							["aID"] = "157634",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 936.00352,
-							["end_time"] = 1621773306,
 							["monster"] = true,
-							["total"] = 936.00352,
-							["damage_taken"] = 19125.00352,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773306,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "焰炉执行者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10751,16 +10752,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "157634",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773301,
-							["on_hold"] = false,
+							["damage_taken"] = 19125.00352,
 							["start_time"] = 1621773299,
 							["serial"] = "Creature-0-3915-2162-25832-157634-00002A4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [4]
 						{
 							["flag_original"] = 68168,
@@ -10775,17 +10775,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 1496.00186,
+							["aID"] = "157584",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1496.00186,
-							["end_time"] = 1621773306,
 							["monster"] = true,
-							["total"] = 1496.00186,
-							["damage_taken"] = 12262.00186,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773306,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "焰炉大师",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10819,16 +10820,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "157584",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773301,
-							["on_hold"] = false,
+							["damage_taken"] = 12262.00186,
 							["start_time"] = 1621773301,
 							["serial"] = "Creature-0-3915-2162-25832-157584-00002A4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [5]
 					},
 				}, -- [1]
@@ -10868,8 +10868,10 @@ _detalhes_database = {
 							["healing_taken"] = 6141.008242,
 							["fight_component"] = true,
 							["end_time"] = 1621773306,
+							["healing_from"] = {
+								["殷倾颜"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1621773305,
 							["nome"] = "殷倾颜",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10895,9 +10897,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 7,
 										["n_curado"] = 3826,
 										["totaldenied"] = 0,
-										["n_amt"] = 7,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -10921,9 +10923,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 46,
 										["c_curado"] = 46,
-										["n_amt"] = 2,
 										["n_curado"] = 4802,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 									[77220] = {
@@ -10946,9 +10948,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 2,
 										["n_curado"] = 195,
 										["totaldenied"] = 0,
-										["n_amt"] = 2,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -10957,15 +10959,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.008242,
-							["aID"] = "729-053F389D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1621773305,
 							["spec"] = 267,
 							["start_time"] = 1621773297,
 							["delay"] = 0,
-							["healing_from"] = {
-								["殷倾颜"] = true,
-							},
+							["aID"] = "729-053F389D",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -11000,16 +11000,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["classe"] = "PET",
 							["targets_overheal"] = {
 							},
-							["last_event"] = 0,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 0,
 							["totaldenied"] = 0.006172,
 							["start_time"] = 1621773306,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -11176,14 +11176,14 @@ _detalhes_database = {
 							["spec"] = 267,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[116858] = 1,
-								[348] = 1,
 								[17962] = 2,
 								[1714] = 2,
+								[116858] = 1,
+								[348] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1621773306,
 							["classe"] = "WARLOCK",
 							["pets"] = {
@@ -11212,33 +11212,33 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "焰炉大师",
 							["aID"] = "157584",
 							["spell_cast"] = {
 								[270246] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-157584-00002A4BBC",
 							["flag_original"] = 2632,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "渊誓哨兵",
 							["aID"] = "153874",
 							["spell_cast"] = {
 								[298831] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-153874-00002A4BBC",
 							["flag_original"] = 2632,
 						}, -- [4]
@@ -11286,29 +11286,6 @@ _detalhes_database = {
 					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
 				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "scenario",
-				["hasSaved"] = true,
-				["data_fim"] = "20:35:07",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "渊誓哨兵",
-				["TotalElapsedCombatTime"] = 692336.351,
-				["CombatEndedAt"] = 692336.351,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "20:34:58",
-				["end_time"] = 692336.8420000001,
-				["combat_id"] = 102,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
-				},
 				["totals_grupo"] = {
 					33549, -- [1]
 					8869, -- [2]
@@ -11330,8 +11307,18 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["contra"] = "渊誓哨兵",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "20:35:07",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "渊誓哨兵",
+				["TotalElapsedCombatTime"] = 692336.351,
+				["CombatEndedAt"] = 692336.351,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -11353,13 +11340,26 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["start_time"] = 692327.837,
-				["TimeData"] = {
+				["end_time"] = 692336.8420000001,
+				["combat_id"] = 102,
+				["player_last_events"] = {
 				},
 				["frags"] = {
 					["焰炉执行者"] = 1,
 					["渊誓哨兵"] = 1,
 					["焰炉大师"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["data_inicio"] = "20:34:58",
+				["CombatSkillCache"] = {
+				},
+				["contra"] = "渊誓哨兵",
+				["start_time"] = 692327.837,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
 				},
 			}, -- [13]
 			{
@@ -11381,17 +11381,17 @@ _detalhes_database = {
 							["delay"] = 1621773282,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "151353",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 759.003642,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773292,
 							["damage_taken"] = 14062.003642,
-							["total"] = 759.003642,
+							["dps_started"] = false,
+							["end_time"] = 1621773292,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "噬渊鼠",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11428,16 +11428,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 759.003642,
 							["custom"] = 0,
 							["last_event"] = 1621773282,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773276,
 							["serial"] = "Creature-0-3915-2162-25832-151353-00032A4BBC",
-							["classe"] = "UNKNOW",
+							["aID"] = "151353",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -11456,40 +11456,38 @@ _detalhes_database = {
 							["pets"] = {
 								"克伦卡高格 <殷倾颜>", -- [1]
 							},
-							["classe"] = "WARLOCK",
-							["last_dps"] = 1952.26974762236,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["aID"] = "729-053F389D",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 38442.001311,
-							["tipo"] = 1,
+							["spec"] = 267,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 46792.001311,
 							["friendlyfire_total"] = 0,
-							["damage_taken"] = 10564.001311,
+							["last_dps"] = 1952.26974762236,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["end_time"] = 1621773292,
 							["spells"] = {
 								["_ActorTable"] = {
-									[29722] = {
+									[17962] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 4121,
+										["n_max"] = 4166,
 										["targets"] = {
-											["渊誓寻猎者"] = 7506,
+											["渊誓寻猎者"] = 4166,
 										},
-										["n_dmg"] = 7506,
-										["n_min"] = 3385,
+										["n_dmg"] = 4166,
+										["n_min"] = 4166,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 7506,
+										["counter"] = 1,
+										["total"] = 4166,
 										["c_max"] = 0,
-										["id"] = 29722,
+										["id"] = 17962,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -11497,7 +11495,7 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 1,
 										["extra"] = {
 										},
 										["spellschool"] = 4,
@@ -11532,34 +11530,6 @@ _detalhes_database = {
 										},
 										["spellschool"] = 4,
 									},
-									[17962] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 4166,
-										["targets"] = {
-											["渊誓寻猎者"] = 4166,
-										},
-										["n_dmg"] = 4166,
-										["n_min"] = 4166,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 4166,
-										["c_max"] = 0,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 4,
-									},
 									[152108] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -11589,17 +11559,47 @@ _detalhes_database = {
 										},
 										["spellschool"] = 36,
 									},
+									[29722] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4121,
+										["targets"] = {
+											["渊誓寻猎者"] = 7506,
+										},
+										["n_dmg"] = 7506,
+										["n_min"] = 3385,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 7506,
+										["c_max"] = 0,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
+									},
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["end_time"] = 1621773292,
+							["tipo"] = 1,
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["last_event"] = 1621773291,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 10564.001311,
 							["start_time"] = 1621773268,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["classe"] = "WARLOCK",
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -11613,9 +11613,9 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
 							["aID"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
+							["tipo"] = 1,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8350.003707,
@@ -11697,7 +11697,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1621773280,
 							["serial"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
-							["classe"] = "PET",
+							["friendlyfire_total"] = 0,
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -11712,17 +11712,17 @@ _detalhes_database = {
 							["delay"] = 1621773272,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "157583",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1515.008066,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773292,
 							["damage_taken"] = 9977.008066,
-							["total"] = 1515.008066,
+							["dps_started"] = false,
+							["end_time"] = 1621773292,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "熔炉守护者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11756,16 +11756,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 1515.008066,
 							["custom"] = 0,
 							["last_event"] = 1621773272,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773291,
 							["serial"] = "Creature-0-3915-2162-25832-157583-0002AA4BBC",
-							["classe"] = "UNKNOW",
+							["aID"] = "157583",
 						}, -- [4]
 						{
 							["flag_original"] = 68168,
@@ -11779,17 +11779,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "152708",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8503.006608,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773292,
 							["damage_taken"] = 21892.006608,
-							["total"] = 8503.006608,
+							["dps_started"] = false,
+							["end_time"] = 1621773292,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓寻猎者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11851,16 +11851,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 8503.006608,
 							["custom"] = 0,
 							["last_event"] = 1621773289,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773279,
 							["serial"] = "Creature-0-3915-2162-25832-152708-00012A4BBC",
-							["classe"] = "UNKNOW",
+							["aID"] = "152708",
 						}, -- [5]
 						{
 							["flag_original"] = 2600,
@@ -11872,9 +11872,10 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
 							["aID"] = "164698",
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003205,
@@ -11889,16 +11890,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["dps_started"] = false,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773292,
 							["serial"] = "Creature-0-3915-2162-25832-164698-0007AA4BBC",
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
 						}, -- [6]
 					},
 				}, -- [1]
@@ -11938,8 +11938,10 @@ _detalhes_database = {
 							["healing_taken"] = 5577.007772,
 							["fight_component"] = true,
 							["end_time"] = 1621773292,
+							["healing_from"] = {
+								["殷倾颜"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1621773289,
 							["nome"] = "殷倾颜",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11965,9 +11967,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 8,
 										["n_curado"] = 2205,
 										["totaldenied"] = 0,
-										["n_amt"] = 8,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -11991,9 +11993,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 1635,
 										["c_curado"] = 1635,
-										["n_amt"] = 6,
 										["n_curado"] = 493,
 										["totaldenied"] = 0,
+										["n_amt"] = 6,
 										["absorbed"] = 0,
 									},
 									[77220] = {
@@ -12016,9 +12018,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 14,
 										["n_curado"] = 1457,
 										["totaldenied"] = 0,
-										["n_amt"] = 14,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -12027,15 +12029,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.007772,
-							["aID"] = "729-053F389D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1621773289,
 							["spec"] = 267,
 							["start_time"] = 1621773267,
 							["delay"] = 0,
-							["healing_from"] = {
-								["殷倾颜"] = true,
-							},
+							["aID"] = "729-053F389D",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -12070,16 +12070,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["classe"] = "PET",
 							["targets_overheal"] = {
 							},
-							["last_event"] = 0,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 0,
 							["totaldenied"] = 0.00341,
 							["start_time"] = 1621773292,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -12240,9 +12240,9 @@ _detalhes_database = {
 								[5740] = 1,
 								[17962] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1621773292,
 							["classe"] = "WARLOCK",
 							["pets"] = {
@@ -12271,33 +12271,33 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "熔炉守护者",
 							["aID"] = "157583",
 							["spell_cast"] = {
 								[270246] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-157583-0002AA4BBC",
 							["flag_original"] = 2632,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "渊誓寻猎者",
 							["aID"] = "152708",
 							["spell_cast"] = {
 								[296523] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-152708-00002A4BBC",
 							["flag_original"] = 68168,
 						}, -- [4]
@@ -12381,18 +12381,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:34:27",
-				["end_time"] = 692322.481,
-				["combat_id"] = 101,
-				["tempo_start"] = 1621773267,
-				["player_last_events"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["combat_counter"] = 1266,
-				["contra"] = "噬渊鼠",
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -12412,6 +12400,18 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
+				},
+				["end_time"] = 692322.481,
+				["combat_id"] = 101,
+				["tempo_start"] = 1621773267,
+				["data_inicio"] = "20:34:27",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1266,
+				["contra"] = "噬渊鼠",
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
 				},
 				["start_time"] = 692297.481,
 				["TimeData"] = {
@@ -12442,52 +12442,48 @@ _detalhes_database = {
 								"克伦卡高格 <殷倾颜>", -- [1]
 							},
 							["classe"] = "WARLOCK",
-							["last_dps"] = 7389.887474667435,
+							["spec"] = 267,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 25952.004962,
-							["last_event"] = 1621773261,
+							["damage_taken"] = 1718.004962,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773262,
 							["aID"] = "729-053F389D",
-							["damage_taken"] = 1718.004962,
+							["last_dps"] = 7389.887474667435,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["total"] = 29227.004962,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
-									[157736] = {
-										["c_amt"] = 0,
+									[116858] = {
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 16884,
 										["g_amt"] = 0,
-										["n_max"] = 740,
+										["n_max"] = 0,
 										["targets"] = {
-											["渊誓护火者"] = 737,
-											["渊誓召火者"] = 740,
+											["渊誓护火者"] = 11077,
+											["渊誓召火者"] = 5807,
 										},
-										["n_dmg"] = 1477,
-										["n_min"] = 737,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
 										["counter"] = 2,
-										["total"] = 1477,
-										["c_max"] = 0,
-										["id"] = 157736,
+										["total"] = 16884,
+										["c_max"] = 11077,
+										["id"] = 116858,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 5807,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 0,
 										["extra"] = {
 										},
-										["spellschool"] = 4,
+										["spellschool"] = 124,
 									},
 									[348] = {
 										["c_amt"] = 0,
@@ -12518,35 +12514,6 @@ _detalhes_database = {
 										},
 										["spellschool"] = 4,
 									},
-									[116858] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 16884,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["渊誓护火者"] = 11077,
-											["渊誓召火者"] = 5807,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 16884,
-										["c_max"] = 11077,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 5807,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["spellschool"] = 124,
-									},
 									[17962] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -12576,16 +12543,49 @@ _detalhes_database = {
 										},
 										["spellschool"] = 4,
 									},
+									[157736] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 740,
+										["targets"] = {
+											["渊誓护火者"] = 737,
+											["渊誓召火者"] = 740,
+										},
+										["n_dmg"] = 1477,
+										["n_min"] = 737,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1477,
+										["c_max"] = 0,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
+									},
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 29227.004962,
+							["last_event"] = 1621773261,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773257,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -12600,17 +12600,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 1171.007786,
+							["aID"] = "157572",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1171.007786,
-							["end_time"] = 1621773262,
 							["monster"] = true,
-							["total"] = 1171.007786,
-							["damage_taken"] = 10419.007786,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773262,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓召火者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12671,16 +12672,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "157572",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773261,
-							["on_hold"] = false,
+							["damage_taken"] = 10419.007786,
 							["start_time"] = 1621773259,
 							["serial"] = "Creature-0-3915-2162-25832-157572-00012A4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -12696,17 +12696,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 1464.002926,
+							["aID"] = "157571",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1464.002926,
-							["end_time"] = 1621773262,
 							["monster"] = true,
-							["total"] = 1464.002926,
-							["damage_taken"] = 18808.002926,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773262,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓护火者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12767,16 +12768,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "157571",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773261,
-							["on_hold"] = false,
+							["damage_taken"] = 18808.002926,
 							["start_time"] = 1621773259,
 							["serial"] = "Creature-0-3915-2162-25832-157571-0001AA4BBC",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -12790,15 +12790,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 1,
 							["aID"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3275.006811,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 3275.006811,
+							["end_time"] = 1621773262,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "克伦卡高格 <殷倾颜>",
@@ -12873,7 +12873,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1621773258,
 							["serial"] = "Pet-0-3915-2162-25832-1860-050212E3E1",
-							["end_time"] = 1621773262,
+							["total"] = 3275.006811,
 						}, -- [4]
 					},
 				}, -- [1]
@@ -12914,8 +12914,10 @@ _detalhes_database = {
 							["healing_taken"] = 881.0077220000001,
 							["fight_component"] = true,
 							["end_time"] = 1621773262,
+							["healing_from"] = {
+								["殷倾颜"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1621773261,
 							["nome"] = "殷倾颜",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12942,9 +12944,9 @@ _detalhes_database = {
 										},
 										["c_min"] = -62,
 										["c_curado"] = -62,
-										["n_amt"] = 4,
 										["n_curado"] = 1269,
 										["totaldenied"] = 0,
+										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 									[295967] = {
@@ -12967,9 +12969,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 									[77220] = {
@@ -12992,9 +12994,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 3,
 										["n_curado"] = 220,
 										["totaldenied"] = 0,
-										["n_amt"] = 3,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -13003,15 +13005,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.007722,
-							["aID"] = "729-053F389D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1621773261,
 							["spec"] = 267,
 							["start_time"] = 1621773257,
 							["delay"] = 0,
-							["healing_from"] = {
-								["殷倾颜"] = true,
-							},
+							["aID"] = "729-053F389D",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -13046,16 +13046,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["classe"] = "PET",
 							["targets_overheal"] = {
 							},
-							["last_event"] = 0,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 0,
 							["totaldenied"] = 0.002582,
 							["start_time"] = 1621773262,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -13084,9 +13084,9 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spec"] = 267,
-							["tipo"] = 3,
 							["aID"] = "729-053F389D",
 							["last_event"] = 1621773261,
+							["tipo"] = 3,
 							["alternatepower"] = 0.005099,
 							["flag_original"] = 1297,
 							["serial"] = "Player-729-053F389D",
@@ -13244,9 +13244,9 @@ _detalhes_database = {
 								[1714] = 1,
 								[116858] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1621773262,
 							["classe"] = "WARLOCK",
 							["pets"] = {
@@ -13276,7 +13276,8 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "渊誓护火者",
 							["aID"] = "157571",
 							["spell_cast"] = {
@@ -13284,16 +13285,16 @@ _detalhes_database = {
 								[275983] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-157571-0001AA4BBC",
 							["flag_original"] = 68168,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "渊誓召火者",
 							["aID"] = "157572",
 							["spell_cast"] = {
@@ -13301,10 +13302,9 @@ _detalhes_database = {
 								[275983] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-157572-00012A4BBC",
 							["flag_original"] = 2632,
 						}, -- [4]
@@ -13352,29 +13352,6 @@ _detalhes_database = {
 					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
 				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "scenario",
-				["hasSaved"] = true,
-				["data_fim"] = "20:34:23",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "渊誓召火者",
-				["TotalElapsedCombatTime"] = 692292.665,
-				["CombatEndedAt"] = 692292.665,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "20:34:18",
-				["end_time"] = 692292.909,
-				["combat_id"] = 100,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["spells_cast_timeline"] = {
-				},
 				["totals_grupo"] = {
 					25952, -- [1]
 					1427, -- [2]
@@ -13396,8 +13373,18 @@ _detalhes_database = {
 						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["contra"] = "渊誓召火者",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = true,
+				["instance_type"] = "scenario",
+				["hasSaved"] = true,
+				["data_fim"] = "20:34:23",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "渊誓召火者",
+				["TotalElapsedCombatTime"] = 692292.665,
+				["CombatEndedAt"] = 692292.665,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
 				},
 				["PhaseData"] = {
 					{
@@ -13419,12 +13406,25 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["start_time"] = 692287.9010000001,
-				["TimeData"] = {
+				["end_time"] = 692292.909,
+				["combat_id"] = 100,
+				["player_last_events"] = {
 				},
 				["frags"] = {
 					["渊誓护火者"] = 1,
 					["渊誓召火者"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["data_inicio"] = "20:34:18",
+				["CombatSkillCache"] = {
+				},
+				["contra"] = "渊誓召火者",
+				["start_time"] = 692287.9010000001,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
 				},
 			}, -- [15]
 			{
@@ -13442,29 +13442,32 @@ _detalhes_database = {
 								["强化的焰炉大师"] = true,
 							},
 							["targets"] = {
-								["强化的焰炉大师"] = 95341,
 								["噬渊鼠"] = 2334,
-								["灰烬护命匣"] = 32284,
 								["焰炉执行者"] = 21008,
+								["灰烬护命匣"] = 32284,
+								["强化的焰炉大师"] = 95341,
 							},
-							["custom"] = 0,
+							["dps_started"] = false,
 							["pets"] = {
 								"克伦卡高格 <殷倾颜>", -- [1]
 								"地狱火爪牙 <殷倾颜>", -- [2]
 							},
 							["damage_taken"] = 11668.006699,
-							["dps_started"] = false,
-							["aID"] = "729-053F389D",
+							["classe"] = "WARLOCK",
+							["friendlyfire_total"] = 2432,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 120825.006699,
-							["tipo"] = 1,
-							["classe"] = "WARLOCK",
+							["last_dps"] = 6558.934991486678,
+							["aID"] = "729-053F389D",
 							["fight_component"] = true,
 							["end_time"] = 1621773231,
 							["delay"] = 0,
 							["total"] = 150967.006699,
 							["nome"] = "殷倾颜",
+							["spec"] = 267,
+							["grupo"] = true,
+							["tipo"] = 1,
 							["spells"] = {
 								["_ActorTable"] = {
 									[17962] = {
@@ -13698,10 +13701,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["friendlyfire_total"] = 2432,
-							["spec"] = 267,
-							["last_dps"] = 6558.934991486678,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["last_event"] = 1621773230,
 							["on_hold"] = false,
@@ -13727,16 +13727,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["total"] = 0.003363,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1621773231,
+							["friendlyfire_total"] = 0,
+							["aID"] = "164698",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003363,
 							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.003363,
 							["fight_component"] = true,
-							["end_time"] = 1621773231,
-							["friendlyfire_total"] = 0,
 							["damage_taken"] = 32284.003363,
 							["nome"] = "灰烬护命匣",
 							["spells"] = {
@@ -13744,7 +13744,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["aID"] = "164698",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["on_hold"] = false,
 							["custom"] = 0,
@@ -13753,7 +13753,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1621773231,
 							["serial"] = "Creature-0-3915-2162-25832-164698-000DAA4B25",
-							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -13769,17 +13769,18 @@ _detalhes_database = {
 							["delay"] = 1621773215,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 1718.008902,
+							["aID"] = "157634",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1718.008902,
-							["end_time"] = 1621773231,
 							["monster"] = true,
-							["total"] = 1718.008902,
-							["damage_taken"] = 21008.008902,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773231,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "焰炉执行者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -13867,16 +13868,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "157634",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773215,
-							["on_hold"] = false,
+							["damage_taken"] = 21008.008902,
 							["start_time"] = 1621773226,
 							["serial"] = "Creature-0-3915-2162-25832-157634-00002A4B25",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -13885,22 +13885,22 @@ _detalhes_database = {
 								["焰炉执行者"] = true,
 							},
 							["targets"] = {
-								["噬渊鼠"] = 302,
 								["强化的焰炉大师"] = 7020,
-								["灰烬护命匣"] = 606,
 								["焰炉执行者"] = 3103,
+								["灰烬护命匣"] = 606,
+								["噬渊鼠"] = 302,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 1,
 							["aID"] = "Pet-0-3915-2162-25832-1860-040212E3E1",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 11031.007862,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 11031.007862,
+							["end_time"] = 1621773231,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "克伦卡高格 <殷倾颜>",
@@ -13942,10 +13942,10 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 303,
 										["targets"] = {
-											["噬渊鼠"] = 302,
 											["强化的焰炉大师"] = 1817,
-											["灰烬护命匣"] = 606,
 											["焰炉执行者"] = 1211,
+											["灰烬护命匣"] = 606,
+											["噬渊鼠"] = 302,
 										},
 										["n_dmg"] = 3936,
 										["n_min"] = 302,
@@ -13978,7 +13978,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1621773211,
 							["serial"] = "Pet-0-3915-2162-25832-1860-040212E3E1",
-							["end_time"] = 1621773231,
+							["total"] = 11031.007862,
 						}, -- [4]
 						{
 							["flag_original"] = 68168,
@@ -13993,17 +13993,18 @@ _detalhes_database = {
 							["delay"] = 1621773217,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 344.008247,
+							["aID"] = "151353",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 344.008247,
-							["end_time"] = 1621773231,
 							["monster"] = true,
-							["total"] = 344.008247,
-							["damage_taken"] = 2334.008247,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773231,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "噬渊鼠",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14039,16 +14040,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "151353",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773217,
-							["on_hold"] = false,
+							["damage_taken"] = 2334.008247,
 							["start_time"] = 1621773228,
 							["serial"] = "Creature-0-3915-2162-25832-151353-0001AA4B25",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [5]
 						{
 							["flag_original"] = 68168,
@@ -14064,17 +14064,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 7908.006590999999,
+							["aID"] = "168104",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7908.006590999999,
-							["end_time"] = 1621773231,
 							["monster"] = true,
-							["total"] = 7908.006590999999,
-							["damage_taken"] = 95341.006591,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773231,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "强化的焰炉大师",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14108,16 +14109,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "168104",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773229,
-							["on_hold"] = false,
+							["damage_taken"] = 95341.006591,
 							["start_time"] = 1621773223,
 							["serial"] = "Creature-0-3915-2162-25832-168104-00002A4B25",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [6]
 						{
 							["flag_original"] = 8465,
@@ -14129,17 +14129,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["friendlyfire_total"] = 0,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["aID"] = "89",
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 19111.002908,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1621773231,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "地狱火爪牙 <殷倾颜>",
 							["spells"] = {
@@ -14203,15 +14202,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.002908,
+							["friendlyfire"] = {
+							},
 							["total"] = 19111.002908,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773230,
-							["on_hold"] = false,
+							["damage_taken"] = 0.002908,
 							["start_time"] = 1621773219,
 							["serial"] = "Creature-0-3915-2162-25832-89-00002A4BA2",
-							["classe"] = "PET",
+							["aID"] = "89",
 						}, -- [7]
 					},
 				}, -- [1]
@@ -14251,8 +14251,10 @@ _detalhes_database = {
 							["healing_taken"] = 11259.008425,
 							["fight_component"] = true,
 							["end_time"] = 1621773231,
+							["healing_from"] = {
+								["殷倾颜"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1621773229,
 							["nome"] = "殷倾颜",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14276,9 +14278,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 6,
 										["n_curado"] = 1366,
 										["totaldenied"] = 0,
-										["n_amt"] = 6,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -14302,9 +14304,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 5,
 										["n_curado"] = 6385,
 										["totaldenied"] = 0,
+										["n_amt"] = 5,
 										["absorbed"] = 0,
 									},
 									[108366] = {
@@ -14329,9 +14331,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 7,
 										["n_curado"] = 4242,
 										["totaldenied"] = 0,
-										["n_amt"] = 7,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -14340,15 +14342,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.008425,
-							["aID"] = "729-053F389D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1621773229,
 							["spec"] = 267,
 							["start_time"] = 1621773207,
 							["delay"] = 0,
-							["healing_from"] = {
-								["殷倾颜"] = true,
-							},
+							["aID"] = "729-053F389D",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -14383,16 +14383,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["classe"] = "PET",
 							["targets_overheal"] = {
 							},
-							["last_event"] = 0,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 0,
 							["totaldenied"] = 0.007969,
 							["start_time"] = 1621773231,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -14421,9 +14421,9 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spec"] = 267,
-							["tipo"] = 3,
 							["aID"] = "729-053F389D",
 							["last_event"] = 1621773227,
+							["tipo"] = 3,
 							["alternatepower"] = 0.006462,
 							["flag_original"] = 1297,
 							["serial"] = "Player-729-053F389D",
@@ -14524,12 +14524,12 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[48018] = {
+									[324717] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 48018,
+										["id"] = 324717,
 										["uptime"] = 24,
 										["targets"] = {
 										},
@@ -14557,23 +14557,23 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[266087] = {
+									[324748] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 266087,
-										["uptime"] = 14,
+										["id"] = 324748,
+										["uptime"] = 6,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
 									},
-									[324717] = {
+									[48018] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 324717,
+										["id"] = 48018,
 										["uptime"] = 24,
 										["targets"] = {
 										},
@@ -14601,6 +14601,17 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
+									[266087] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 266087,
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
 									[186406] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -14608,17 +14619,6 @@ _detalhes_database = {
 										["refreshamt"] = 0,
 										["id"] = 186406,
 										["uptime"] = 24,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[324748] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 324748,
-										["uptime"] = 6,
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
@@ -14666,19 +14666,19 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spell_cast"] = {
 								[1122] = 1,
-								[1714] = 3,
+								[348] = 1,
 								[80240] = 1,
 								[17962] = 2,
 								[325640] = 1,
 								[116858] = 3,
 								[324748] = 1,
-								[348] = 1,
-								[29722] = 1,
 								[111400] = 1,
+								[29722] = 1,
+								[1714] = 3,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1621773231,
 							["classe"] = "WARLOCK",
 							["pets"] = {
@@ -14708,7 +14708,8 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "焰炉执行者",
 							["aID"] = "157634",
 							["spell_cast"] = {
@@ -14716,10 +14717,9 @@ _detalhes_database = {
 								[329425] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-157634-00002A4B25",
 							["flag_original"] = 2632,
 						}, -- [3]
@@ -14727,12 +14727,12 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "地狱火爪牙 <殷倾颜>",
-							["aID"] = "89",
+							["classe"] = "PET",
 							["pets"] = {
 							},
 							["last_event"] = 0,
-							["classe"] = "PET",
 							["tipo"] = 4,
+							["aID"] = "89",
 							["serial"] = "Creature-0-3915-2162-25832-89-00002A4BA2",
 							["spell_cast"] = {
 								[19483] = 2,
@@ -14740,17 +14740,17 @@ _detalhes_database = {
 						}, -- [4]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "强化的焰炉大师",
 							["aID"] = "168104",
 							["spell_cast"] = {
 								[270246] = 3,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-168104-00002A4B25",
 							["flag_original"] = 68168,
 						}, -- [5]
@@ -14814,19 +14814,38 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:33:28",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["殷倾颜"] = 150967.006699,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["殷倾颜"] = 11993.008425,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
 				["end_time"] = 692261.841,
 				["combat_id"] = 99,
 				["tempo_start"] = 1621773207,
 				["spells_cast_timeline"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
 				["frags"] = {
 					["噬渊鼠"] = 1,
 					["焰炉执行者"] = 1,
 					["强化的焰炉大师"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
 				},
 				["CombatSkillCache"] = {
 				},
@@ -14854,26 +14873,7 @@ _detalhes_database = {
 				["start_time"] = 692237.839,
 				["TimeData"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["殷倾颜"] = 150967.006699,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["殷倾颜"] = 11993.008425,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
+				["data_inicio"] = "20:33:28",
 			}, -- [16]
 			{
 				{
@@ -14890,32 +14890,30 @@ _detalhes_database = {
 								["渊誓拦截者"] = true,
 							},
 							["targets"] = {
-								["渊誓护火者"] = 10632,
 								["渊誓拦截者"] = 11842,
+								["熔炉守护者"] = 13996,
 								["哀嚎的幽灵"] = 77074,
 								["噬渊鼠"] = 20859,
 								["渊誓哨兵"] = 10703,
-								["熔炉守护者"] = 13996,
+								["渊誓护火者"] = 10632,
 							},
 							["pets"] = {
 								"克伦卡高格 <殷倾颜>", -- [1]
 							},
-							["classe"] = "WARLOCK",
-							["last_dps"] = 3153.518590358121,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["aID"] = "729-053F389D",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 116358.004417,
-							["tipo"] = 1,
+							["spec"] = 267,
 							["delay"] = 1621773152,
 							["dps_started"] = false,
 							["total"] = 145106.004417,
 							["friendlyfire_total"] = 0,
-							["damage_taken"] = 16170.004417,
+							["last_dps"] = 3153.518590358121,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["end_time"] = 1621773199,
 							["spells"] = {
 								["_ActorTable"] = {
 									[17962] = {
@@ -15096,14 +15094,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["end_time"] = 1621773199,
+							["tipo"] = 1,
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["last_event"] = 1621773198,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 16170.004417,
 							["start_time"] = 1621773164,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["classe"] = "WARLOCK",
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -15117,33 +15117,33 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "157583",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00562,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773199,
 							["damage_taken"] = 13996.00562,
-							["total"] = 0.00562,
+							["dps_started"] = false,
+							["end_time"] = 1621773199,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "熔炉守护者",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 0.00562,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773199,
 							["serial"] = "Creature-0-3915-2162-25832-157583-0000AA4B25",
-							["classe"] = "UNKNOW",
+							["aID"] = "157583",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -15159,17 +15159,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "151353",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3399.006625,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773199,
 							["damage_taken"] = 20859.006625,
-							["total"] = 3399.006625,
+							["dps_started"] = false,
+							["end_time"] = 1621773199,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "噬渊鼠",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15207,16 +15207,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 3399.006625,
 							["custom"] = 0,
 							["last_event"] = 1621773195,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773153,
 							["serial"] = "Creature-0-3915-2162-25832-151353-00022A4B25",
-							["classe"] = "UNKNOW",
+							["aID"] = "151353",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -15232,17 +15232,17 @@ _detalhes_database = {
 							["delay"] = 1621773171,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "153874",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1944.003183,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773199,
 							["damage_taken"] = 10703.003183,
-							["total"] = 1944.003183,
+							["dps_started"] = false,
+							["end_time"] = 1621773199,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓哨兵",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15305,16 +15305,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 1944.003183,
 							["custom"] = 0,
 							["last_event"] = 1621773171,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773194,
 							["serial"] = "Creature-0-3915-2162-25832-153874-00002A4B25",
-							["classe"] = "UNKNOW",
+							["aID"] = "153874",
 						}, -- [4]
 						{
 							["flag_original"] = 4369,
@@ -15335,9 +15335,9 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
 							["aID"] = "Pet-0-3915-2162-25832-1860-040212E3E1",
+							["tipo"] = 1,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 28748.003943,
@@ -15423,7 +15423,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1621773164,
 							["serial"] = "Pet-0-3915-2162-25832-1860-040212E3E1",
-							["classe"] = "PET",
+							["friendlyfire_total"] = 0,
 						}, -- [5]
 						{
 							["flag_original"] = 68168,
@@ -15439,17 +15439,17 @@ _detalhes_database = {
 							["delay"] = 1621773189,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["aID"] = "170414",
+							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6227.0022,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1621773199,
 							["damage_taken"] = 77074.0022,
-							["total"] = 6227.0022,
+							["dps_started"] = false,
+							["end_time"] = 1621773199,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "哀嚎的幽灵",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15566,16 +15566,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["total"] = 6227.0022,
 							["custom"] = 0,
 							["last_event"] = 1621773189,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1621773178,
 							["serial"] = "Creature-0-3915-2162-25832-170414-00002A4B25",
-							["classe"] = "UNKNOW",
+							["aID"] = "170414",
 						}, -- [6]
 						{
 							["flag_original"] = 2632,
@@ -15591,17 +15591,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 10339.006028,
+							["aID"] = "150959",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10339.006028,
-							["end_time"] = 1621773199,
 							["monster"] = true,
-							["total"] = 10339.006028,
-							["damage_taken"] = 11842.006028,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773199,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓拦截者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15689,16 +15690,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "150959",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773196,
-							["on_hold"] = false,
+							["damage_taken"] = 11842.006028,
 							["start_time"] = 1621773170,
 							["serial"] = "Creature-0-3915-2162-25832-150959-00002A4B25",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [7]
 						{
 							["flag_original"] = 2632,
@@ -15711,33 +15711,33 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
+							["total"] = 0.005665,
+							["aID"] = "157571",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005665,
-							["end_time"] = 1621773199,
 							["fight_component"] = true,
-							["total"] = 0.005665,
-							["damage_taken"] = 10632.005665,
-							["on_hold"] = false,
+							["monster"] = true,
+							["end_time"] = 1621773199,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓护火者",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["aID"] = "157571",
-							["custom"] = 0,
-							["last_event"] = 0,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 10632.005665,
 							["start_time"] = 1621773199,
 							["serial"] = "Creature-0-3915-2162-25832-157571-00002A4B25",
-							["monster"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [8]
 					},
 				}, -- [1]
@@ -15777,8 +15777,10 @@ _detalhes_database = {
 							["healing_taken"] = 14871.005824,
 							["fight_component"] = true,
 							["end_time"] = 1621773199,
+							["healing_from"] = {
+								["殷倾颜"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1621773196,
 							["nome"] = "殷倾颜",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15802,9 +15804,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 25,
 										["n_curado"] = 2391,
 										["totaldenied"] = 0,
-										["n_amt"] = 25,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -15828,9 +15830,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 498,
 										["c_curado"] = 498,
-										["n_amt"] = 6,
 										["n_curado"] = 5994,
 										["totaldenied"] = 0,
+										["n_amt"] = 6,
 										["absorbed"] = 0,
 									},
 									[108366] = {
@@ -15855,9 +15857,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 50,
 										["n_curado"] = 11037,
 										["totaldenied"] = 0,
-										["n_amt"] = 50,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -15866,15 +15868,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.005824,
-							["aID"] = "729-053F389D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1621773196,
 							["spec"] = 267,
 							["start_time"] = 1621773152,
 							["delay"] = 0,
-							["healing_from"] = {
-								["殷倾颜"] = true,
-							},
+							["aID"] = "729-053F389D",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -15909,16 +15909,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["classe"] = "PET",
 							["targets_overheal"] = {
 							},
-							["last_event"] = 0,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 0,
 							["totaldenied"] = 0.003615,
 							["start_time"] = 1621773199,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -16115,9 +16115,9 @@ _detalhes_database = {
 								[80240] = 1,
 								[29722] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1621773199,
 							["classe"] = "WARLOCK",
 							["pets"] = {
@@ -16146,23 +16146,24 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "渊誓哨兵",
 							["aID"] = "153874",
 							["spell_cast"] = {
 								[298831] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-153874-00002A4B25",
 							["flag_original"] = 2632,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "渊誓拦截者",
 							["aID"] = "150959",
 							["spell_cast"] = {
@@ -16171,16 +16172,16 @@ _detalhes_database = {
 								[329706] = 9,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-150959-00002A4B25",
 							["flag_original"] = 2632,
 						}, -- [4]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "哀嚎的幽灵",
 							["aID"] = "170414",
 							["spell_cast"] = {
@@ -16189,10 +16190,9 @@ _detalhes_database = {
 								[274968] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-170414-00002A4B25",
 							["flag_original"] = 68168,
 						}, -- [5]
@@ -16276,18 +16276,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:32:32",
-				["end_time"] = 692229.1950000001,
-				["combat_id"] = 98,
-				["tempo_start"] = 1621773152,
-				["player_last_events"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["combat_counter"] = 1263,
-				["contra"] = "熔炉守护者",
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -16308,16 +16296,28 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
+				["end_time"] = 692229.1950000001,
+				["combat_id"] = 98,
+				["tempo_start"] = 1621773152,
+				["data_inicio"] = "20:32:32",
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 1263,
+				["contra"] = "熔炉守护者",
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
 				["start_time"] = 692182.193,
 				["TimeData"] = {
 				},
 				["frags"] = {
-					["渊誓护火者"] = 1,
 					["渊誓拦截者"] = 1,
+					["熔炉守护者"] = 2,
 					["哀嚎的幽灵"] = 1,
 					["噬渊鼠"] = 5,
 					["渊誓哨兵"] = 1,
-					["熔炉守护者"] = 2,
+					["渊誓护火者"] = 1,
 				},
 			}, -- [17]
 			{
@@ -16343,22 +16343,18 @@ _detalhes_database = {
 								"克伦卡高格 <殷倾颜>", -- [1]
 							},
 							["aID"] = "729-053F389D",
-							["last_dps"] = 2870.949833973823,
+							["spec"] = 267,
 							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 18445.003587,
-							["tipo"] = 1,
+							["damage_taken"] = 692.003587,
 							["delay"] = 1621773130,
 							["dps_started"] = false,
 							["total"] = 20111.003587,
 							["friendlyfire_total"] = 0,
-							["damage_taken"] = 692.003587,
+							["last_dps"] = 2870.949833973823,
 							["nome"] = "殷倾颜",
-							["spec"] = 267,
-							["grupo"] = true,
-							["end_time"] = 1621773147,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[348] = {
@@ -16450,13 +16446,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["end_time"] = 1621773147,
+							["tipo"] = 1,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["last_event"] = 1621773147,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1621773111,
 							["serial"] = "Player-729-053F389D",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -16472,15 +16472,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 1,
 							["aID"] = "Pet-0-3915-2162-25832-1860-040212E3E1",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1666.007745,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 1666.007745,
+							["end_time"] = 1621773108,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "殷倾颜",
 							["nome"] = "克伦卡高格 <殷倾颜>",
@@ -16556,7 +16556,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1621773102,
 							["serial"] = "Pet-0-3915-2162-25832-1860-040212E3E1",
-							["end_time"] = 1621773108,
+							["total"] = 1666.007745,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -16572,17 +16572,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 1596.005396,
+							["aID"] = "157572",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1596.005396,
-							["end_time"] = 1621773108,
 							["monster"] = true,
-							["total"] = 1596.005396,
-							["damage_taken"] = 6063.005396000001,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773108,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "渊誓召火者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16643,16 +16644,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "157572",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773105,
-							["on_hold"] = false,
+							["damage_taken"] = 6063.005396000001,
 							["start_time"] = 1621773103,
 							["serial"] = "Creature-0-3915-2162-25832-157572-00002A4B25",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -16667,17 +16667,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 270.001816,
+							["aID"] = "157583",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 270.001816,
-							["end_time"] = 1621773108,
 							["monster"] = true,
-							["total"] = 270.001816,
-							["damage_taken"] = 7526.001816,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773108,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "熔炉守护者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16711,16 +16712,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "157583",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773103,
-							["on_hold"] = false,
+							["damage_taken"] = 7526.001816,
 							["start_time"] = 1621773103,
 							["serial"] = "Creature-0-3915-2162-25832-157583-0001AA4B25",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
@@ -16736,17 +16736,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 241.0085,
+							["aID"] = "151353",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 241.0085,
-							["end_time"] = 1621773108,
 							["monster"] = true,
-							["total"] = 241.0085,
-							["damage_taken"] = 5245.0085,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1621773108,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "噬渊鼠",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16784,16 +16785,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "151353",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1621773105,
-							["on_hold"] = false,
+							["damage_taken"] = 5245.0085,
 							["start_time"] = 1621773101,
 							["serial"] = "Creature-0-3915-2162-25832-151353-0003AA4B25",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [5]
 					},
 				}, -- [1]
@@ -16833,8 +16833,10 @@ _detalhes_database = {
 							["healing_taken"] = 692.002167,
 							["fight_component"] = true,
 							["end_time"] = 1621773108,
+							["healing_from"] = {
+								["殷倾颜"] = true,
+							},
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1621773106,
 							["nome"] = "殷倾颜",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16860,9 +16862,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 3,
 										["n_curado"] = 60,
 										["totaldenied"] = 0,
-										["n_amt"] = 3,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -16886,9 +16888,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 577,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 									[77220] = {
@@ -16911,9 +16913,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 3,
 										["n_curado"] = 95,
 										["totaldenied"] = 0,
-										["n_amt"] = 3,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -16922,15 +16924,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["totaldenied"] = 0.002167,
-							["aID"] = "729-053F389D",
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1621773106,
 							["spec"] = 267,
 							["start_time"] = 1621773101,
 							["delay"] = 0,
-							["healing_from"] = {
-								["殷倾颜"] = true,
-							},
+							["aID"] = "729-053F389D",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -16965,16 +16965,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["classe"] = "PET",
 							["targets_overheal"] = {
 							},
-							["last_event"] = 0,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
 							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 0,
 							["totaldenied"] = 0.001898,
 							["start_time"] = 1621773108,
 							["delay"] = 0,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -17066,17 +17066,6 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[108366] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 108366,
-										["uptime"] = 5,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
 									[324717] = {
 										["counter"] = 0,
 										["actived"] = false,
@@ -17087,6 +17076,17 @@ _detalhes_database = {
 										["targets"] = {
 										},
 										["appliedamt"] = 1,
+									},
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
 									},
 								},
 								["tipo"] = 9,
@@ -17100,9 +17100,9 @@ _detalhes_database = {
 								[1714] = 2,
 								[152108] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1621773108,
 							["classe"] = "WARLOCK",
 							["pets"] = {
@@ -17131,23 +17131,24 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "熔炉守护者",
 							["aID"] = "157583",
 							["spell_cast"] = {
 								[347404] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-157583-0001AA4B25",
 							["flag_original"] = 68168,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "渊誓召火者",
 							["aID"] = "157572",
 							["spell_cast"] = {
@@ -17155,10 +17156,9 @@ _detalhes_database = {
 								[275983] = 2,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3915-2162-25832-157572-00002A4B25",
 							["flag_original"] = 2632,
 						}, -- [4]
@@ -17240,20 +17240,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "20:31:41",
-				["end_time"] = 692138.18,
-				["combat_id"] = 97,
-				["resincked"] = true,
-				["player_last_events"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["contra"] = "噬渊鼠",
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -17274,13 +17260,27 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["start_time"] = 692131.175,
-				["TimeData"] = {
-				},
+				["end_time"] = 692138.18,
+				["combat_id"] = 97,
+				["resincked"] = true,
+				["data_inicio"] = "20:31:41",
 				["frags"] = {
 					["噬渊鼠"] = 1,
 					["渊誓召火者"] = 1,
 					["熔炉守护者"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["contra"] = "噬渊鼠",
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
+				},
+				["start_time"] = 692131.175,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
 				},
 			}, -- [18]
 		},
@@ -17388,7 +17388,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -17397,7 +17397,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["showamount"] = false,
+			["animate"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -17469,6 +17469,26 @@ _detalhes_database = {
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
+			["font_size"] = 10,
+			["main_frame_strata"] = "LOW",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["y"] = -2.288818359375e-05,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -17480,36 +17500,18 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["main_frame_strata"] = "LOW",
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["font_size"] = 10,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["author"] = "Details! Team",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["use_spark"] = true,
-			["y"] = -2.288818359375e-05,
 			["x"] = -0.00018310546875,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Details! Team",
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
 		},
 	},
+	["last_encounter"] = "顽石军团干将",
+	["last_day"] = "25",
 	["cached_talents"] = {
 	},
 	["announce_prepots"] = {
@@ -17517,14 +17519,12 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_encounter"] = "顽石军团干将",
-	["last_day"] = "25",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 58,
+		["logons"] = 60,
 	},
 	["combat_id"] = 114,
 	["savedStyles"] = {
@@ -17552,10 +17552,10 @@ _detalhes_database = {
 			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -442.4443817138672,
-					["x"] = 619.3331298828125,
-					["w"] = 220.0000915527344,
-					["h"] = 134.5555572509766,
+					["y"] = -442.3986206054688,
+					["x"] = 618.1729736328125,
+					["w"] = 219.9999389648438,
+					["h"] = 134.8892517089844,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -17587,10 +17587,10 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -442.4443817138672,
-					["x"] = 837.5833740234375,
-					["w"] = 216.4999542236328,
-					["h"] = 134.5555572509766,
+					["y"] = -442.3986206054688,
+					["x"] = 837.0924072265625,
+					["w"] = 217.8387908935547,
+					["h"] = 134.8892517089844,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -17648,8 +17648,8 @@ _detalhes_database = {
 						["渊誓护火者"] = 54395,
 						["哀嚎的幽灵"] = 77074,
 						["强化的焰炉大师"] = 264878,
-						["渊誓寻猎者"] = 40022,
 						["灰烬护命匣"] = 43274,
+						["渊誓寻猎者"] = 40022,
 						["魂选弓手"] = 4139,
 						["劈骨者莎布蕾尔"] = 2547,
 						["渊誓拦截者"] = 25091,
@@ -17663,23 +17663,19 @@ _detalhes_database = {
 						"克伦卡高格 <殷倾颜>", -- [1]
 						"地狱火爪牙 <殷倾颜>", -- [2]
 					},
-					["total"] = 1529271.12719,
-					["dps_started"] = false,
 					["aID"] = "729-053F389D",
+					["last_dps"] = 0,
+					["friendlyfire_total"] = 2432,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1198787.12719,
-					["damage_taken"] = 104756.12719,
-					["delay"] = 0,
-					["fight_component"] = true,
-					["end_time"] = 1621772655,
-					["friendlyfire_total"] = 2432,
-					["last_dps"] = 0,
-					["nome"] = "殷倾颜",
-					["spec"] = 267,
-					["grupo"] = true,
-					["tipo"] = 1,
 					["classe"] = "WARLOCK",
+					["delay"] = 0,
+					["dps_started"] = false,
+					["total"] = 1529271.12719,
+					["damage_taken"] = 104756.12719,
+					["fight_component"] = true,
+					["nome"] = "殷倾颜",
 					["spells"] = {
 						["_ActorTable"] = {
 							[157736] = {
@@ -17778,8 +17774,8 @@ _detalhes_database = {
 									["猎魂者弗拉莱"] = 10570,
 									["灰烬护命匣"] = 31678,
 									["渊誓召火者"] = 19740,
-									["凋落者赞图斯"] = 3759,
 									["渊誓寻猎者"] = 5558,
+									["凋落者赞图斯"] = 3759,
 								},
 								["n_dmg"] = 170291,
 								["n_min"] = 0,
@@ -17795,67 +17791,6 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 36,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[327909] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["灰烬护命匣"] = 0,
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 327909,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-							[325640] = {
-								["c_amt"] = 20,
-								["b_amt"] = 0,
-								["c_dmg"] = 78013,
-								["g_amt"] = 0,
-								["n_max"] = 2962,
-								["targets"] = {
-									["凋落者赞图斯"] = 12221,
-									["渊誓哨兵"] = 2096,
-									["破冰者特拉克图斯"] = 24767,
-									["猎魂者弗拉莱"] = 19116,
-									["纳修"] = 2981,
-									["强化的焰炉大师"] = 54743,
-									["灰烬护命匣"] = 2208,
-									["强化的渊誓护火者"] = 20311,
-								},
-								["n_dmg"] = 60430,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 52,
-								["total"] = 138443,
-								["c_max"] = 6436,
-								["id"] = 325640,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 32,
 								["a_dmg"] = 0,
 								["extra"] = {
 								},
@@ -17900,6 +17835,67 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["extra"] = {
 								},
+							},
+							[325640] = {
+								["c_amt"] = 20,
+								["b_amt"] = 0,
+								["c_dmg"] = 78013,
+								["g_amt"] = 0,
+								["n_max"] = 2962,
+								["targets"] = {
+									["灰烬护命匣"] = 2208,
+									["凋落者赞图斯"] = 12221,
+									["破冰者特拉克图斯"] = 24767,
+									["猎魂者弗拉莱"] = 19116,
+									["纳修"] = 2981,
+									["强化的焰炉大师"] = 54743,
+									["渊誓哨兵"] = 2096,
+									["强化的渊誓护火者"] = 20311,
+								},
+								["n_dmg"] = 60430,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 52,
+								["total"] = 138443,
+								["c_max"] = 6436,
+								["id"] = 325640,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 32,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[327909] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["灰烬护命匣"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 327909,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[17962] = {
 								["c_amt"] = 9,
@@ -17949,75 +17945,6 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[42223] = {
-								["c_amt"] = 11,
-								["b_amt"] = 0,
-								["c_dmg"] = 9324,
-								["g_amt"] = 0,
-								["n_max"] = 543,
-								["targets"] = {
-									["焰炉执行者"] = 2601,
-									["渊誓寻猎者"] = 10689,
-									["渊誓拦截者"] = 1291,
-									["渊誓哨兵"] = 15945,
-									["噬渊鼠"] = 6835,
-									["灰烬护命匣"] = 2387,
-									["渊誓卫兵"] = 2599,
-								},
-								["n_dmg"] = 33023,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 98,
-								["total"] = 42347,
-								["c_max"] = 1033,
-								["id"] = 42223,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 87,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[29722] = {
-								["c_amt"] = 8,
-								["b_amt"] = 0,
-								["c_dmg"] = 36337,
-								["g_amt"] = 0,
-								["n_max"] = 4121,
-								["targets"] = {
-									["渊誓弓手"] = 2706,
-									["破冰者特拉克图斯"] = 91,
-									["哀嚎的幽灵"] = 2044,
-									["强化的焰炉大师"] = 7205,
-									["焰炉执行者"] = 10457,
-									["渊誓卫徒"] = 4119,
-									["猎魂者弗拉莱"] = 36270,
-									["渊誓召火者"] = 10652,
-									["凋落者赞图斯"] = 6629,
-									["渊誓寻猎者"] = 10023,
-								},
-								["n_dmg"] = 53859,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 32,
-								["total"] = 90196,
-								["c_max"] = 7296,
-								["id"] = 29722,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 24,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
 							[348] = {
 								["c_amt"] = 3,
 								["b_amt"] = 0,
@@ -18036,9 +17963,9 @@ _detalhes_database = {
 									["渊誓护火者"] = 4971,
 									["哀嚎的幽灵"] = 1163,
 									["强化的焰炉大师"] = 1155,
-									["渊誓寻猎者"] = 530,
-									["猎魂者弗拉莱"] = 1366,
 									["熔炉守护者"] = 4221,
+									["猎魂者弗拉莱"] = 1366,
+									["渊誓寻猎者"] = 530,
 									["渊誓召火者"] = 4644,
 									["凋落者赞图斯"] = 1721,
 									["渊誓卫徒"] = 774,
@@ -18061,11 +17988,87 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
+							[29722] = {
+								["c_amt"] = 8,
+								["b_amt"] = 0,
+								["c_dmg"] = 36337,
+								["g_amt"] = 0,
+								["n_max"] = 4121,
+								["targets"] = {
+									["渊誓弓手"] = 2706,
+									["破冰者特拉克图斯"] = 91,
+									["哀嚎的幽灵"] = 2044,
+									["强化的焰炉大师"] = 7205,
+									["焰炉执行者"] = 10457,
+									["渊誓卫徒"] = 4119,
+									["猎魂者弗拉莱"] = 36270,
+									["渊誓召火者"] = 10652,
+									["渊誓寻猎者"] = 10023,
+									["凋落者赞图斯"] = 6629,
+								},
+								["n_dmg"] = 53859,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 32,
+								["total"] = 90196,
+								["c_max"] = 7296,
+								["id"] = 29722,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 24,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[42223] = {
+								["c_amt"] = 11,
+								["b_amt"] = 0,
+								["c_dmg"] = 9324,
+								["g_amt"] = 0,
+								["n_max"] = 543,
+								["targets"] = {
+									["焰炉执行者"] = 2601,
+									["灰烬护命匣"] = 2387,
+									["渊誓拦截者"] = 1291,
+									["渊誓寻猎者"] = 10689,
+									["噬渊鼠"] = 6835,
+									["渊誓哨兵"] = 15945,
+									["渊誓卫兵"] = 2599,
+								},
+								["n_dmg"] = 33023,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 98,
+								["total"] = 42347,
+								["c_max"] = 1033,
+								["id"] = 42223,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 87,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
 						},
 						["tipo"] = 2,
 					},
+					["grupo"] = true,
+					["end_time"] = 1621772655,
+					["tipo"] = 1,
+					["spec"] = 267,
 					["custom"] = 0,
 					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1621772254,
+					["serial"] = "Player-729-053F389D",
 					["friendlyfire"] = {
 						["殷倾颜"] = {
 							["total"] = 2432,
@@ -18074,9 +18077,6 @@ _detalhes_database = {
 							},
 						},
 					},
-					["start_time"] = 1621772254,
-					["serial"] = "Player-729-053F389D",
-					["on_hold"] = false,
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
@@ -18092,16 +18092,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
-					["last_dps"] = 0,
-					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
+					["dps_started"] = false,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 7985.056716000001,
 					["total"] = 7985.056716000001,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1621772655,
-					["damage_taken"] = 85699.05671599999,
+					["last_dps"] = 0,
 					["tipo"] = 1,
 					["nome"] = "熔炉守护者",
 					["spells"] = {
@@ -18192,16 +18192,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["fight_component"] = true,
-					["aID"] = "157583",
-					["classe"] = "UNKNOW",
-					["custom"] = 0,
-					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
+					["aID"] = "157583",
+					["damage_taken"] = 85699.05671599999,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1621772624,
 					["serial"] = "Creature-0-3915-2162-25832-157583-0001AA4940",
-					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
 				}, -- [2]
 				{
 					["flag_original"] = 4369,
@@ -18238,25 +18238,25 @@ _detalhes_database = {
 						["渊誓护火者"] = 25003,
 						["哀嚎的幽灵"] = 10899,
 						["强化的焰炉大师"] = 22681,
-						["渊誓寻猎者"] = 3153,
-						["猎魂者弗拉莱"] = 21566,
 						["渊誓拦截者"] = 5904,
+						["猎魂者弗拉莱"] = 21566,
+						["渊誓寻猎者"] = 3153,
 						["渊誓召火者"] = 14340,
 						["灰烬护命匣"] = 4483,
 						["熔炉守护者"] = 13410,
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
 					["tipo"] = 1,
-					["aID"] = "Pet-0-3915-2162-25832-1860-010212E3E1",
+					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 225178.087853,
 					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 225178.087853,
-					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["ownerName"] = "殷倾颜",
 					["nome"] = "克伦卡高格 <殷倾颜>",
 					["spells"] = {
@@ -18324,9 +18324,9 @@ _detalhes_database = {
 									["渊誓护火者"] = 13677,
 									["哀嚎的幽灵"] = 3331,
 									["强化的焰炉大师"] = 6605,
-									["渊誓寻猎者"] = 2428,
-									["猎魂者弗拉莱"] = 6106,
 									["渊誓拦截者"] = 2120,
+									["猎魂者弗拉莱"] = 6106,
+									["渊誓寻猎者"] = 2428,
 									["渊誓召火者"] = 10083,
 									["灰烬护命匣"] = 4155,
 									["熔炉守护者"] = 7316,
@@ -18352,16 +18352,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 106749.087853,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
 					["end_time"] = 1621772655,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 106749.087853,
 					["start_time"] = 1621772343,
 					["serial"] = "Pet-0-3915-2162-25832-1860-010212E3E1",
-					["classe"] = "PET",
+					["aID"] = "Pet-0-3915-2162-25832-1860-010212E3E1",
 				}, -- [3]
 				{
 					["flag_original"] = 2632,
@@ -18379,16 +18379,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
-					["last_dps"] = 0,
-					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
+					["dps_started"] = false,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 9459.059455999999,
 					["total"] = 9459.059455999999,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1621772655,
-					["damage_taken"] = 82358.059456,
+					["last_dps"] = 0,
 					["tipo"] = 1,
 					["nome"] = "噬渊鼠",
 					["spells"] = {
@@ -18428,16 +18428,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["fight_component"] = true,
-					["aID"] = "151353",
-					["classe"] = "UNKNOW",
-					["custom"] = 0,
-					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
+					["aID"] = "151353",
+					["damage_taken"] = 82358.059456,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1621772480,
 					["serial"] = "Creature-0-3915-2162-25832-151353-0005AA4940",
-					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 2632,
@@ -18453,16 +18453,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 24091.022759,
-					["aID"] = "152661",
+					["monster"] = true,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1356.022759,
 					["total"] = 1356.022759,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1621772689,
-					["last_dps"] = 0,
+					["damage_taken"] = 24091.022759,
 					["tipo"] = 1,
 					["nome"] = "渊誓卫徒",
 					["spells"] = {
@@ -18529,16 +18529,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621772642,
-					["serial"] = "Creature-0-3915-2162-25832-152661-0000AA4940",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621772642,
+					["serial"] = "Creature-0-3915-2162-25832-152661-0000AA4940",
+					["aID"] = "152661",
 				}, -- [5]
 				{
 					["flag_original"] = 2632,
@@ -18554,16 +18554,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
-					["last_dps"] = 0,
-					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
+					["dps_started"] = false,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 18033.034567,
 					["total"] = 18033.034567,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1621772705,
-					["damage_taken"] = 102109.034567,
+					["last_dps"] = 0,
 					["tipo"] = 1,
 					["nome"] = "渊誓哨兵",
 					["spells"] = {
@@ -18628,16 +18628,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["fight_component"] = true,
-					["aID"] = "153874",
-					["classe"] = "UNKNOW",
-					["custom"] = 0,
-					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
+					["aID"] = "153874",
+					["damage_taken"] = 102109.034567,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1621772658,
 					["serial"] = "Creature-0-3915-2162-25832-153874-0001AA4940",
-					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
 				}, -- [6]
 				{
 					["flag_original"] = 2632,
@@ -18655,17 +18655,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["friendlyfire"] = {
-					},
+					["aID"] = "157572",
 					["last_dps"] = 0,
-					["friendlyfire_total"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 63514.03597100001,
-					["monster"] = true,
 					["dps_started"] = false,
+					["fight_component"] = true,
 					["total"] = 63514.03597100001,
-					["damage_taken"] = 81825.035971,
+					["friendlyfire"] = {
+					},
 					["tipo"] = 1,
 					["nome"] = "渊誓召火者",
 					["spells"] = {
@@ -18730,15 +18730,15 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["aID"] = "157572",
+					["monster"] = true,
 					["end_time"] = 1621772705,
-					["classe"] = "UNKNOW",
+					["damage_taken"] = 81825.035971,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["on_hold"] = false,
 					["start_time"] = 1621772587,
 					["serial"] = "Creature-0-3915-2162-25832-157572-0001AA4940",
-					["fight_component"] = true,
+					["friendlyfire_total"] = 0,
 				}, -- [7]
 				{
 					["flag_original"] = 68168,
@@ -18755,16 +18755,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 264878.025989,
-					["aID"] = "168104",
+					["monster"] = true,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 16178.025989,
 					["total"] = 16178.025989,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1621772730,
-					["last_dps"] = 0,
+					["damage_taken"] = 264878.025989,
 					["tipo"] = 1,
 					["nome"] = "强化的焰炉大师",
 					["spells"] = {
@@ -18800,16 +18800,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621772710,
-					["serial"] = "Creature-0-3915-2162-25832-168104-00002A4940",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621772710,
+					["serial"] = "Creature-0-3915-2162-25832-168104-00002A4940",
+					["aID"] = "168104",
 				}, -- [8]
 				{
 					["flag_original"] = 8465,
@@ -18826,16 +18826,16 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 1796.037889,
+					["classe"] = "PET",
 					["tipo"] = 1,
-					["aID"] = "89",
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 105306.037889,
 					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 105306.037889,
-					["classe"] = "PET",
+					["on_hold"] = false,
 					["ownerName"] = "殷倾颜",
 					["nome"] = "地狱火爪牙 <殷倾颜>",
 					["spells"] = {
@@ -18903,16 +18903,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["damage_taken"] = 1796.037889,
 					["end_time"] = 1621772730,
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["start_time"] = 1621772655,
 					["serial"] = "Creature-0-3915-2162-25832-89-00002A49B0",
-					["friendlyfire_total"] = 0,
+					["aID"] = "89",
 				}, -- [9]
 				{
 					["flag_original"] = 68168,
@@ -18928,16 +18928,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 7724.014921,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "153878",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 765.0149210000001,
 					["total"] = 765.0149210000001,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1621772809,
-					["last_dps"] = 0,
+					["damage_taken"] = 7724.014921,
 					["tipo"] = 1,
 					["nome"] = "渊誓弓手",
 					["spells"] = {
@@ -18973,16 +18973,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621772804,
-					["serial"] = "Creature-0-3915-2162-25832-153878-00002A49C5",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621772804,
+					["serial"] = "Creature-0-3915-2162-25832-153878-00002A49C5",
+					["dps_started"] = false,
 				}, -- [10]
 				{
 					["flag_original"] = 2632,
@@ -18998,16 +18998,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 40022.031764,
-					["aID"] = "152708",
+					["monster"] = true,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 13750.031764,
 					["total"] = 13750.031764,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1621772845,
-					["last_dps"] = 0,
+					["damage_taken"] = 40022.031764,
 					["tipo"] = 1,
 					["nome"] = "渊誓寻猎者",
 					["spells"] = {
@@ -19070,16 +19070,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621772809,
-					["serial"] = "Creature-0-3915-2162-25832-152708-00002A49C5",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621772809,
+					["serial"] = "Creature-0-3915-2162-25832-152708-00002A49C5",
+					["aID"] = "152708",
 				}, -- [11]
 				{
 					["flag_original"] = 2600,
@@ -19092,9 +19092,9 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 43274.022904,
-					["classe"] = "UNKNOW",
 					["aID"] = "164698",
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.022904,
@@ -19102,7 +19102,7 @@ _detalhes_database = {
 					["fight_component"] = true,
 					["end_time"] = 1621772845,
 					["total"] = 0.022904,
-					["last_dps"] = 0,
+					["damage_taken"] = 43274.022904,
 					["nome"] = "灰烬护命匣",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -19115,10 +19115,10 @@ _detalhes_database = {
 					},
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["start_time"] = 1621772842,
 					["serial"] = "Creature-0-3915-2162-25832-164698-00042A49C5",
-					["friendlyfire_total"] = 0,
+					["classe"] = "UNKNOW",
 				}, -- [12]
 				{
 					["flag_original"] = 68168,
@@ -19135,16 +19135,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 76497.013968,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "168105",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3251.013968,
 					["total"] = 3251.013968,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1621773023,
-					["last_dps"] = 0,
+					["damage_taken"] = 76497.013968,
 					["tipo"] = 1,
 					["nome"] = "强化的渊誓护火者",
 					["spells"] = {
@@ -19207,16 +19207,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773009,
-					["serial"] = "Creature-0-3915-2162-25832-168105-00002A49C5",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773009,
+					["serial"] = "Creature-0-3915-2162-25832-168105-00002A49C5",
+					["dps_started"] = false,
 				}, -- [13]
 				{
 					["flag_original"] = 68168,
@@ -19232,16 +19232,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 77074.00879,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "170414",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 6227.00879,
 					["total"] = 6227.00879,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1621773199,
-					["last_dps"] = 0,
+					["damage_taken"] = 77074.00879,
 					["tipo"] = 1,
 					["nome"] = "哀嚎的幽灵",
 					["spells"] = {
@@ -19358,16 +19358,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773175,
-					["serial"] = "Creature-0-3915-2162-25832-170414-00002A4B25",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773175,
+					["serial"] = "Creature-0-3915-2162-25832-170414-00002A4B25",
+					["dps_started"] = false,
 				}, -- [14]
 				{
 					["flag_original"] = 2632,
@@ -19383,16 +19383,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 25091.015372,
-					["aID"] = "150959",
+					["monster"] = true,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 13367.015372,
 					["total"] = 13367.015372,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1621773199,
-					["last_dps"] = 0,
+					["damage_taken"] = 25091.015372,
 					["tipo"] = 1,
 					["nome"] = "渊誓拦截者",
 					["spells"] = {
@@ -19481,16 +19481,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773156,
-					["serial"] = "Creature-0-3915-2162-25832-150959-00002A4B25",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773156,
+					["serial"] = "Creature-0-3915-2162-25832-150959-00002A4B25",
+					["aID"] = "150959",
 				}, -- [15]
 				{
 					["flag_original"] = 2632,
@@ -19507,16 +19507,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 57298.011635,
-					["aID"] = "157571",
+					["monster"] = true,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 35366.011635,
 					["total"] = 35366.011635,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1621773199,
-					["last_dps"] = 0,
+					["damage_taken"] = 57298.011635,
 					["tipo"] = 1,
 					["nome"] = "渊誓护火者",
 					["spells"] = {
@@ -19606,16 +19606,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773152,
-					["serial"] = "Creature-0-3915-2162-25832-157571-00002A4B25",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773152,
+					["serial"] = "Creature-0-3915-2162-25832-157571-00002A4B25",
+					["aID"] = "157571",
 				}, -- [16]
 				{
 					["flag_original"] = 2632,
@@ -19632,16 +19632,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 68156.02634499999,
-					["aID"] = "157634",
+					["monster"] = true,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 8467.026345,
 					["total"] = 8467.026345,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1621773232,
-					["last_dps"] = 0,
+					["damage_taken"] = 68156.02634499999,
 					["tipo"] = 1,
 					["nome"] = "焰炉执行者",
 					["spells"] = {
@@ -19785,16 +19785,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773188,
-					["serial"] = "Creature-0-3915-2162-25832-157634-00002A4B25",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773188,
+					["serial"] = "Creature-0-3915-2162-25832-157634-00002A4B25",
+					["aID"] = "157634",
 				}, -- [17]
 				{
 					["flag_original"] = 68168,
@@ -19810,16 +19810,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 45450.015761,
-					["aID"] = "150958",
+					["monster"] = true,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 10144.015761,
 					["total"] = 10144.015761,
-					["fight_component"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1621773326,
-					["last_dps"] = 0,
+					["damage_taken"] = 45450.015761,
 					["tipo"] = 1,
 					["nome"] = "渊誓卫兵",
 					["spells"] = {
@@ -19907,16 +19907,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773274,
-					["serial"] = "Creature-0-3915-2162-25832-150958-0000AA4BBC",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773274,
+					["serial"] = "Creature-0-3915-2162-25832-150958-0000AA4BBC",
+					["aID"] = "150958",
 				}, -- [18]
 				{
 					["flag_original"] = 68168,
@@ -19932,16 +19932,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 153402.006476,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "173191",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 10298.006476,
 					["total"] = 10298.006476,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1621773403,
-					["last_dps"] = 0,
+					["damage_taken"] = 153402.006476,
 					["tipo"] = 1,
 					["nome"] = "猎魂者弗拉莱",
 					["spells"] = {
@@ -19977,6 +19977,34 @@ _detalhes_database = {
 								["MISS"] = 5,
 								["a_dmg"] = 2653,
 							}, -- [1]
+							[183347] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 647,
+								["targets"] = {
+									["殷倾颜"] = 647,
+									["克伦卡高格 <殷倾颜>"] = 587,
+								},
+								["n_dmg"] = 1234,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 1234,
+								["c_max"] = 0,
+								["id"] = 183347,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["a_amt"] = 2,
+								["n_amt"] = 2,
+								["a_dmg"] = 1234,
+								["extra"] = {
+								},
+							},
 							[186380] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -20004,31 +20032,29 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[183347] = {
+							[338865] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 647,
+								["n_max"] = 0,
 								["targets"] = {
-									["殷倾颜"] = 647,
-									["克伦卡高格 <殷倾颜>"] = 587,
 								},
-								["n_dmg"] = 1234,
+								["n_dmg"] = 0,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 1234,
+								["counter"] = 0,
+								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 183347,
+								["id"] = 338865,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 2,
-								["a_amt"] = 2,
-								["n_amt"] = 2,
-								["a_dmg"] = 1234,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
 							},
@@ -20060,45 +20086,19 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[338865] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 338865,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 2,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773376,
-					["serial"] = "Creature-0-3915-2162-25832-173191-00002A4BBC",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773376,
+					["serial"] = "Creature-0-3915-2162-25832-173191-00002A4BBC",
+					["dps_started"] = false,
 				}, -- [19]
 				{
 					["flag_original"] = 68168,
@@ -20115,16 +20115,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 136111.007457,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "175234",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4777.007457,
 					["total"] = 4777.007457,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1621773529,
-					["last_dps"] = 0,
+					["damage_taken"] = 136111.007457,
 					["tipo"] = 1,
 					["nome"] = "破冰者特拉克图斯",
 					["spells"] = {
@@ -20247,16 +20247,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773505,
-					["serial"] = "Creature-0-3915-2162-25832-175234-00002A4C98",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773505,
+					["serial"] = "Creature-0-3915-2162-25832-175234-00002A4C98",
+					["dps_started"] = false,
 				}, -- [20]
 				{
 					["flag_original"] = 68168,
@@ -20266,9 +20266,9 @@ _detalhes_database = {
 						["弗特莱"] = true,
 						["奥丶佛丁"] = true,
 						["哈提"] = true,
-						["沐慕灬"] = true,
-						["蛮迈"] = true,
 						["竞技场挑战者"] = true,
+						["蛮迈"] = true,
+						["沐慕灬"] = true,
 						["海龟"] = true,
 						["符文武器"] = true,
 						["殷倾颜"] = true,
@@ -20282,16 +20282,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 60197.009472,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "168147",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2531.009472,
 					["total"] = 2531.009472,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1621773744,
-					["last_dps"] = 0,
+					["damage_taken"] = 60197.009472,
 					["tipo"] = 1,
 					["nome"] = "劈骨者莎布蕾尔",
 					["spells"] = {
@@ -20353,16 +20353,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773738,
-					["serial"] = "Creature-0-3929-2222-17016-168147-00002A4C1E",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773738,
+					["serial"] = "Creature-0-3929-2222-17016-168147-00002A4C1E",
+					["dps_started"] = false,
 				}, -- [21]
 				{
 					["flag_original"] = 68168,
@@ -20371,15 +20371,15 @@ _detalhes_database = {
 						["弗特莱"] = true,
 						["深牙"] = true,
 						["哈提"] = true,
-						["竞技场挑战者"] = true,
-						["Coldclouds"] = true,
 						["沐慕灬"] = true,
+						["Coldclouds"] = true,
+						["嘎嘣丶嘎嘣脆"] = true,
 						["海龟"] = true,
 						["强橹灰飞烟灭"] = true,
 						["殷倾颜"] = true,
 						["弗特莱 <嘎嘣丶嘎嘣脆>"] = true,
 						["地狱火爪牙 <殷倾颜>"] = true,
-						["嘎嘣丶嘎嘣脆"] = true,
+						["竞技场挑战者"] = true,
 					},
 					["targets"] = {
 						["Coldclouds"] = 7470,
@@ -20387,16 +20387,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 359215.009125,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "162872",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 7470.009125,
 					["total"] = 7470.009125,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1621773820,
-					["last_dps"] = 0,
+					["damage_taken"] = 359215.009125,
 					["tipo"] = 1,
 					["nome"] = "凋落者赞图斯",
 					["spells"] = {
@@ -20511,16 +20511,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773792,
-					["serial"] = "Creature-0-3929-2222-17016-162872-00002A4CB3",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773792,
+					["serial"] = "Creature-0-3929-2222-17016-162872-00002A4CB3",
+					["dps_started"] = false,
 				}, -- [22]
 				{
 					["flag_original"] = 68168,
@@ -20533,16 +20533,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.012173,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "158040",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 848.012173,
 					["total"] = 848.012173,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1621773889,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.012173,
 					["tipo"] = 1,
 					["nome"] = "不羁的死亡行者",
 					["spells"] = {
@@ -20603,16 +20603,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773885,
-					["serial"] = "Creature-0-3929-2222-17016-158040-00002A4CBA",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773885,
+					["serial"] = "Creature-0-3929-2222-17016-158040-00002A4CBA",
+					["dps_started"] = false,
 				}, -- [23]
 				{
 					["flag_original"] = 68168,
@@ -20633,16 +20633,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 72348.021126,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "173018",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 5359.021126,
 					["total"] = 5359.021126,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1621773925,
-					["last_dps"] = 0,
+					["damage_taken"] = 72348.021126,
 					["tipo"] = 1,
 					["nome"] = "魂选弓手",
 					["spells"] = {
@@ -20709,16 +20709,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773906,
-					["serial"] = "Creature-0-3929-2222-17016-173018-00002A4E4F",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773906,
+					["serial"] = "Creature-0-3929-2222-17016-173018-00002A4E4F",
+					["dps_started"] = false,
 				}, -- [24]
 				{
 					["flag_original"] = 68168,
@@ -20737,16 +20737,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 22241.015297,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "173026",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2210.015297,
 					["total"] = 2210.015297,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1621773945,
-					["last_dps"] = 0,
+					["damage_taken"] = 22241.015297,
 					["tipo"] = 1,
 					["nome"] = "魂选步兵",
 					["spells"] = {
@@ -20782,16 +20782,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773934,
-					["serial"] = "Creature-0-3929-2222-17016-173026-00002A4E64",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773934,
+					["serial"] = "Creature-0-3929-2222-17016-173026-00002A4E64",
+					["dps_started"] = false,
 				}, -- [25]
 				{
 					["flag_original"] = 68168,
@@ -20810,16 +20810,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 140449.011469,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "166437",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3335.011469000001,
 					["total"] = 3335.011469000001,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1621773986,
-					["last_dps"] = 0,
+					["damage_taken"] = 140449.011469,
 					["tipo"] = 1,
 					["nome"] = "纳修",
 					["spells"] = {
@@ -20882,16 +20882,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1621773974,
-					["serial"] = "Creature-0-3929-2222-17016-166437-00002A4E89",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1621773974,
+					["serial"] = "Creature-0-3929-2222-17016-166437-00002A4E89",
+					["dps_started"] = false,
 				}, -- [26]
 				{
 					["flag_original"] = 68168,
@@ -20901,22 +20901,22 @@ _detalhes_database = {
 					["targets"] = {
 						["克伦卡高格 <殷倾颜>"] = 0,
 					},
+					["serial"] = "Creature-0-3915-2162-25832-157584-00002A4BBC",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "157584",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.004026,
 					["end_time"] = 1621915384,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.004026,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "焰炉大师",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[270246] = {
 								["c_amt"] = 0,
@@ -20946,18 +20946,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-3915-2162-25832-157584-00002A4BBC",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.004026,
 					["start_time"] = 1621915381,
 					["delay"] = 0,
-					["damage_taken"] = 0.004026,
+					["monster"] = true,
 				}, -- [27]
 			},
 		}, -- [1]
@@ -20973,7 +20973,7 @@ _detalhes_database = {
 						"克伦卡高格 <殷倾颜>", -- [1]
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "WARLOCK",
 					["totalover"] = 383900.1254789999,
 					["total_without_pet"] = 124183.125479,
 					["total"] = 124183.125479,
@@ -20999,7 +20999,7 @@ _detalhes_database = {
 						["殷倾颜"] = 0,
 						["克伦卡高格 <殷倾颜>"] = 0,
 					},
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["nome"] = "殷倾颜",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -21026,9 +21026,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 267,
 								["n_curado"] = 66853,
 								["totaldenied"] = 0,
+								["n_amt"] = 267,
 								["absorbed"] = 0,
 							},
 							[295967] = {
@@ -21051,9 +21051,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 7046,
-								["n_amt"] = 30,
 								["n_curado"] = 31477,
 								["totaldenied"] = 0,
+								["n_amt"] = 30,
 								["absorbed"] = 0,
 							},
 							[77220] = {
@@ -21076,9 +21076,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 156,
 								["n_curado"] = 12663,
 								["totaldenied"] = 0,
+								["n_amt"] = 156,
 								["absorbed"] = 0,
 							},
 							[108396] = {
@@ -21101,9 +21101,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 2,
 								["n_curado"] = 6144,
 								["totaldenied"] = 0,
+								["n_amt"] = 2,
 								["absorbed"] = 0,
 							},
 						},
@@ -21113,11 +21113,11 @@ _detalhes_database = {
 					["aID"] = "729-053F389D",
 					["totaldenied"] = 0.125479,
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["spec"] = 267,
 					["start_time"] = 1621772312,
 					["delay"] = 0,
-					["classe"] = "WARLOCK",
+					["heal_enemy_amt"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 4369,
@@ -21152,16 +21152,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 3,
 					},
+					["aID"] = "Pet-0-3915-2162-25832-1860-010212E3E1",
 					["targets_overheal"] = {
 					},
+					["tipo"] = 2,
+					["custom"] = 0,
 					["last_event"] = 0,
 					["totaldenied"] = 0.10342,
-					["custom"] = 0,
-					["tipo"] = 2,
-					["heal_enemy_amt"] = 0,
 					["start_time"] = 1621772652,
 					["delay"] = 0,
-					["aID"] = "Pet-0-3915-2162-25832-1860-010212E3E1",
+					["heal_enemy_amt"] = 0,
 				}, -- [2]
 			},
 		}, -- [2]
@@ -21170,7 +21170,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["received"] = 0.027266,
-					["resource"] = 12.038827,
+					["resource"] = 20.061949,
 					["targets"] = {
 					},
 					["pets"] = {
@@ -21189,9 +21189,9 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["aID"] = "729-053F389D",
-					["last_event"] = 0,
 					["alternatepower"] = 0.027266,
 					["tipo"] = 3,
+					["last_event"] = 0,
 					["flag_original"] = 1297,
 					["spec"] = 267,
 					["serial"] = "Player-729-053F389D",
@@ -21424,16 +21424,6 @@ _detalhes_database = {
 								},
 								["refreshamt"] = 4,
 							},
-							[342814] = {
-								["counter"] = 0,
-								["activedamt"] = 24,
-								["appliedamt"] = 24,
-								["id"] = 342814,
-								["uptime"] = 290,
-								["targets"] = {
-								},
-								["refreshamt"] = 9,
-							},
 							[331623] = {
 								["counter"] = 0,
 								["refreshamt"] = 0,
@@ -21444,6 +21434,16 @@ _detalhes_database = {
 								["targets"] = {
 								},
 								["actived_at"] = 3243546996,
+							},
+							[342814] = {
+								["counter"] = 0,
+								["activedamt"] = 24,
+								["appliedamt"] = 24,
+								["id"] = 342814,
+								["uptime"] = 290,
+								["targets"] = {
+								},
+								["refreshamt"] = 9,
 							},
 							[322455] = {
 								["counter"] = 0,
@@ -21572,7 +21572,7 @@ _detalhes_database = {
 					},
 					["fight_component"] = true,
 					["debuff_uptime"] = 458,
-					["last_event"] = 0,
+					["classe"] = "WARLOCK",
 					["cc_done"] = 13.023305,
 					["buff_uptime_targets"] = {
 					},
@@ -21599,10 +21599,10 @@ _detalhes_database = {
 						[119907] = 1,
 						[688] = 1,
 					},
-					["classe"] = "WARLOCK",
 					["debuff_uptime_targets"] = {
 					},
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["nome"] = "殷倾颜",
 					["cc_done_targets"] = {
 						["渊誓拦截者"] = 1,
@@ -21640,9 +21640,9 @@ _detalhes_database = {
 				}, -- [2]
 				{
 					["flag_original"] = 2632,
-					["fight_component"] = true,
+					["tipo"] = 4,
 					["nome"] = "熔炉守护者",
-					["classe"] = "UNKNOW",
+					["fight_component"] = true,
 					["pets"] = {
 					},
 					["spell_cast"] = {
@@ -21650,58 +21650,58 @@ _detalhes_database = {
 						[330347] = 3,
 						[270246] = 6,
 					},
-					["aID"] = "157583",
 					["last_event"] = 0,
-					["tipo"] = 4,
+					["aID"] = "157583",
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-3915-2162-25832-157583-0000AA4940",
 					["monster"] = true,
 				}, -- [3]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
+					["nome"] = "渊誓卫徒",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[13584] = 3,
 					},
-					["nome"] = "渊誓卫徒",
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["fight_component"] = true,
-					["aID"] = "152661",
-					["tipo"] = 4,
-					["serial"] = "Creature-0-3915-2162-25832-152661-0000AA4940",
 					["monster"] = true,
+					["aID"] = "152661",
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3915-2162-25832-152661-0000AA4940",
+					["fight_component"] = true,
 				}, -- [4]
 				{
 					["flag_original"] = 68168,
-					["fight_component"] = true,
+					["tipo"] = 4,
 					["nome"] = "渊誓召火者",
-					["classe"] = "UNKNOW",
+					["fight_component"] = true,
 					["pets"] = {
 					},
 					["spell_cast"] = {
 						[275983] = 93,
 						[347404] = 4,
 					},
-					["aID"] = "157572",
 					["last_event"] = 0,
-					["tipo"] = 4,
+					["aID"] = "157572",
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-3915-2162-25832-157572-00022A4940",
 					["monster"] = true,
 				}, -- [5]
 				{
 					["fight_component"] = true,
-					["monster"] = true,
+					["classe"] = "UNKNOW",
 					["nome"] = "渊誓哨兵",
-					["aID"] = "153874",
+					["monster"] = true,
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[298831] = 10,
 					},
-					["last_event"] = 0,
-					["pets"] = {
-					},
 					["tipo"] = 4,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["aID"] = "153874",
 					["serial"] = "Creature-0-3915-2162-25832-153874-0001AA4940",
 					["flag_original"] = 68168,
 				}, -- [6]
@@ -21709,12 +21709,12 @@ _detalhes_database = {
 					["flag_original"] = 8465,
 					["ownerName"] = "殷倾颜",
 					["nome"] = "地狱火爪牙 <殷倾颜>",
-					["classe"] = "PET",
+					["tipo"] = 4,
 					["pets"] = {
 					},
 					["aID"] = "89",
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["classe"] = "PET",
 					["serial"] = "Creature-0-3915-2162-25832-89-00002A49B0",
 					["spell_cast"] = {
 						[19483] = 12,
@@ -21722,289 +21722,289 @@ _detalhes_database = {
 				}, -- [7]
 				{
 					["flag_original"] = 68168,
-					["fight_component"] = true,
+					["tipo"] = 4,
 					["nome"] = "强化的焰炉大师",
-					["classe"] = "UNKNOW",
+					["fight_component"] = true,
 					["pets"] = {
 					},
 					["spell_cast"] = {
 						[270246] = 7,
 					},
-					["aID"] = "168104",
 					["last_event"] = 0,
-					["tipo"] = 4,
+					["aID"] = "168104",
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-3915-2162-25832-168104-00002A4940",
 					["monster"] = true,
 				}, -- [8]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "153878",
 					["nome"] = "渊誓弓手",
-					["tipo"] = 4,
-					["spell_cast"] = {
-						[329706] = 1,
+					["flag_original"] = 68168,
+					["pets"] = {
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
-					["aID"] = "153878",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3915-2162-25832-153878-00002A49C5",
-					["pets"] = {
+					["spell_cast"] = {
+						[329706] = 1,
 					},
 				}, -- [9]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
+					["nome"] = "渊誓寻猎者",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[296523] = 2,
 					},
-					["nome"] = "渊誓寻猎者",
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["fight_component"] = true,
-					["aID"] = "152708",
-					["tipo"] = 4,
-					["serial"] = "Creature-0-3915-2162-25832-152708-00002A49C5",
 					["monster"] = true,
+					["aID"] = "152708",
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3915-2162-25832-152708-00002A49C5",
+					["fight_component"] = true,
 				}, -- [10]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "168105",
 					["nome"] = "强化的渊誓护火者",
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-3915-2162-25832-168105-00002A49C5",
 					["spell_cast"] = {
 						[275983] = 2,
 						[347404] = 2,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "168105",
-					["serial"] = "Creature-0-3915-2162-25832-168105-00002A49C5",
-					["pets"] = {
-					},
 				}, -- [11]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
+					["nome"] = "渊誓拦截者",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[315802] = 1,
 						[294171] = 2,
 						[329706] = 12,
 					},
-					["nome"] = "渊誓拦截者",
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["fight_component"] = true,
-					["aID"] = "150959",
-					["tipo"] = 4,
-					["serial"] = "Creature-0-3915-2162-25832-150959-00002A4B25",
 					["monster"] = true,
+					["aID"] = "150959",
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3915-2162-25832-150959-00002A4B25",
+					["fight_component"] = true,
 				}, -- [12]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "170414",
 					["nome"] = "哀嚎的幽灵",
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-3915-2162-25832-170414-00002A4B25",
 					["spell_cast"] = {
 						[330118] = 1,
 						[332165] = 1,
 						[274968] = 1,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "170414",
-					["serial"] = "Creature-0-3915-2162-25832-170414-00002A4B25",
-					["pets"] = {
-					},
 				}, -- [13]
 				{
 					["flag_original"] = 2632,
+					["tipo"] = 4,
+					["nome"] = "焰炉执行者",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[308026] = 3,
 						[329425] = 2,
 					},
-					["nome"] = "焰炉执行者",
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["fight_component"] = true,
-					["aID"] = "157634",
-					["tipo"] = 4,
-					["serial"] = "Creature-0-3915-2162-25832-157634-00002A4B25",
 					["monster"] = true,
+					["aID"] = "157634",
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3915-2162-25832-157634-00002A4B25",
+					["fight_component"] = true,
 				}, -- [14]
 				{
 					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["nome"] = "渊誓卫兵",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[292903] = 4,
 						[294165] = 3,
 					},
-					["nome"] = "渊誓卫兵",
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["fight_component"] = true,
-					["aID"] = "150958",
-					["tipo"] = 4,
-					["serial"] = "Creature-0-3915-2162-25832-150958-0000AA4BBC",
 					["monster"] = true,
+					["aID"] = "150958",
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3915-2162-25832-150958-0000AA4BBC",
+					["fight_component"] = true,
 				}, -- [15]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "157571",
 					["nome"] = "渊誓护火者",
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-3915-2162-25832-157571-0000AA4BBC",
 					["spell_cast"] = {
 						[329422] = 3,
 						[275983] = 31,
 						[347404] = 1,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "157571",
-					["serial"] = "Creature-0-3915-2162-25832-157571-0000AA4BBC",
-					["pets"] = {
-					},
 				}, -- [16]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "173191",
 					["nome"] = "猎魂者弗拉莱",
-					["tipo"] = 4,
-					["spell_cast"] = {
-						[186380] = 1,
-						[338865] = 2,
-						[183347] = 2,
+					["flag_original"] = 68168,
+					["pets"] = {
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
-					["aID"] = "173191",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3915-2162-25832-173191-00002A4BBC",
-					["pets"] = {
+					["spell_cast"] = {
+						[338865] = 2,
+						[183347] = 2,
+						[186380] = 1,
 					},
 				}, -- [17]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "175234",
 					["nome"] = "破冰者特拉克图斯",
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-3915-2162-25832-175234-00002A4C98",
 					["spell_cast"] = {
 						[330118] = 1,
 						[335528] = 1,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "175234",
-					["serial"] = "Creature-0-3915-2162-25832-175234-00002A4C98",
-					["pets"] = {
-					},
 				}, -- [18]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "168147",
 					["nome"] = "劈骨者莎布蕾尔",
-					["tipo"] = 4,
-					["spell_cast"] = {
-						[344966] = 1,
+					["flag_original"] = 68168,
+					["pets"] = {
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
-					["aID"] = "168147",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3929-2222-17016-168147-00002A4C1E",
-					["pets"] = {
+					["spell_cast"] = {
+						[344966] = 1,
 					},
 				}, -- [19]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "162872",
 					["nome"] = "凋落者赞图斯",
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-3929-2222-17016-162872-00002A4CB3",
 					["spell_cast"] = {
 						[336910] = 1,
 						[337982] = 1,
 						[337131] = 1,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "162872",
-					["serial"] = "Creature-0-3929-2222-17016-162872-00002A4CB3",
-					["pets"] = {
-					},
 				}, -- [20]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["aID"] = "158040",
 					["nome"] = "不羁的死亡行者",
-					["tipo"] = 4,
-					["spell_cast"] = {
-						[330574] = 4,
+					["flag_original"] = 2632,
+					["pets"] = {
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
-					["aID"] = "158040",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3929-2222-17016-158040-00002A4D2D",
-					["pets"] = {
+					["spell_cast"] = {
+						[330574] = 4,
 					},
 				}, -- [21]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "173018",
 					["nome"] = "魂选弓手",
-					["tipo"] = 4,
-					["spell_cast"] = {
-						[275984] = 10,
+					["flag_original"] = 68168,
+					["pets"] = {
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
-					["aID"] = "173018",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3929-2222-17016-173018-00002A4E4F",
-					["pets"] = {
+					["spell_cast"] = {
+						[275984] = 10,
 					},
 				}, -- [22]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "166437",
 					["nome"] = "纳修",
-					["tipo"] = 4,
-					["spell_cast"] = {
-						[319957] = 1,
+					["flag_original"] = 68168,
+					["pets"] = {
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
-					["aID"] = "166437",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3929-2222-17016-166437-00002A4E89",
-					["pets"] = {
+					["spell_cast"] = {
+						[319957] = 1,
 					},
 				}, -- [23]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["nome"] = "焰炉大师",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[270246] = 0,
 					},
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 2632,
 					["aID"] = "157584",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3915-2162-25832-157584-00002A4BBC",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3915-2162-25832-157584-00002A4BBC",
+					["flag_original"] = 2632,
 				}, -- [24]
 			},
 		}, -- [4]
@@ -22016,82 +22016,6 @@ _detalhes_database = {
 		["raid_roster"] = {
 		},
 		["raid_roster_indexed"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["tempo_start"] = 1621772608,
-		["last_events_tables"] = {
-		},
-		["alternate_power"] = {
-		},
-		["combat_counter"] = 1236,
-		["totals"] = {
-			2725076.807893, -- [1]
-			145868.279421, -- [2]
-			{
-				40.01235500000001, -- [1]
-				[0] = 0.040482,
-				["alternatepower"] = 0,
-				[6] = 30.006155,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-			["voidzone_damage"] = 0,
-			["frags_total"] = 0,
-		},
-		["player_last_events"] = {
-		},
-		["frags_need_refresh"] = false,
-		["aura_timeline"] = {
-		},
-		["__call"] = {
-		},
-		["data_inicio"] = "20:24:05",
-		["end_time"] = 693015.557,
-		["totals_grupo"] = {
-			1529271.120689, -- [1]
-			124183.122618, -- [2]
-			{
-				0, -- [1]
-				[0] = 0.019466,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-		},
-		["overall_refreshed"] = true,
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["damage"] = {
-			},
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
 		},
 		["segments_added"] = {
 			{
@@ -22245,6 +22169,82 @@ _detalhes_database = {
 				["clock"] = "20:24:05",
 			}, -- [25]
 		},
+		["tempo_start"] = 1621772608,
+		["cleu_timeline"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 1236,
+		["totals"] = {
+			2725076.807893, -- [1]
+			145868.279421, -- [2]
+			{
+				40.01235500000001, -- [1]
+				[0] = 0.040482,
+				["alternatepower"] = 0,
+				[6] = 30.006155,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "20:24:05",
+		["end_time"] = 693015.557,
+		["last_events_tables"] = {
+		},
+		["totals_grupo"] = {
+			1529271.120689, -- [1]
+			124183.122618, -- [2]
+			{
+				0, -- [1]
+				[0] = 0.019466,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+		},
 		["hasSaved"] = true,
 		["spells_cast_timeline"] = {
 		},
@@ -22263,7 +22263,7 @@ _detalhes_database = {
 			["n"] = 1,
 		},
 	},
-	["combat_counter"] = 1280,
+	["combat_counter"] = 1282,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -22285,6 +22285,7 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
+		["Player-729-05FAB912"] = 258,
 		["Player-729-053F389D"] = 267,
 	},
 }

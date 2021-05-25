@@ -13,7 +13,7 @@ Rematch: disabled
 tdBattlePetScript: disabled
 tdBattlePetScript_Rematch: disabled
 tdBattlePetScript_Ext: disabled
-AutoBattleGround: enabled
+AutoBattleGround: disabled
 AdvancedInterfaceOptions: disabled
 Altcon: disabled
 Amilus: enabled
@@ -22,8 +22,8 @@ AzeriteTooltip: disabled
 BagSync: disabled
 BattlePetBreedID: disabled
 BattlegroundTargets: disabled
-!BugGrabber: enabled
-BugSack: enabled
+!BugGrabber: disabled
+BugSack: disabled
 Clique: disabled
 CorruptionTooltips: disabled
 ExRT: disabled
@@ -156,7 +156,7 @@ BigDebuffs: disabled
 GladiusEx: disabled
 BigFootBank: disabled
 AzerPUG's ToolTips: disabled
-REFlex: enabled
+REFlex: disabled
 Details: disabled
 Details_EncounterDetails: disabled
 Details_RaidCheck: disabled

@@ -29,6 +29,7 @@ DraenorTreasuresDB = {
 		["永恒岛无部落 - 回音山"] = "Default",
 		["奶凶的小萝莉 - 死亡之翼"] = "Default",
 		["只吃大饼 - 蜘蛛王国"] = "Default",
+		["西园寺恋 - 白银之手"] = "Default",
 		["Reneelol - 轻风之语"] = "Default",
 		["王源 - 蜘蛛王国"] = "Default",
 		["阿萨德啊是 - 黑手军团"] = "Default",

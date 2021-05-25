@@ -58,7 +58,30 @@ _detalhes_database = {
 			}, -- [6]
 			7, -- [7]
 		},
-		["nextreset"] = 1623163369,
+		["魔法蔷薇"] = {
+			"枯法着队长", -- [1]
+			"", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"", -- [4]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			22, -- [7]
+		},
+		["last_version"] = 14,
 		["筱雁芷丶"] = {
 			"筱雁芷丶", -- [1]
 			"", -- [2]
@@ -82,7 +105,7 @@ _detalhes_database = {
 			}, -- [6]
 			5, -- [7]
 		},
-		["last_version"] = 14,
+		["nextreset"] = 1623163369,
 	},
 	["last_instance_id"] = 2291,
 	["announce_interrupts"] = {
@@ -99,17 +122,17 @@ _detalhes_database = {
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
+			["enabled"] = true,
 			["showamount"] = false,
-			["animate"] = false,
 			["useplayercolor"] = false,
-			["useclasscolors"] = false,
 			["author"] = "Details! Team",
+			["useclasscolors"] = false,
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["enabled"] = true,
+			["animate"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -146,11 +169,11 @@ _detalhes_database = {
 			["last_section_selected"] = "main",
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["hide_on_combat"] = false,
-			["show_icon"] = 5,
-			["opened"] = 0,
 			["encounter_timers_dbm"] = {
 			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["use_square_mode"] = false,
@@ -171,36 +194,16 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = false,
 			},
-			["scale"] = 1,
+			["arrow_anchor_y"] = 0,
 			["arrow_anchor_x"] = 0,
-			["row_height"] = 20,
+			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["font_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
 			},
-			["point"] = "CENTER",
-			["main_frame_strata"] = "LOW",
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["use_spark"] = true,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["author"] = "Details! Team",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
-			["y"] = -2.288818359375e-05,
-			["x"] = -0.00018310546875,
-			["font_face"] = "Friz Quadrata TT",
-			["square_size"] = 32,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -208,26 +211,40 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 1.52587890625e-05,
 				["x"] = -3.0517578125e-05,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
 			},
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -2.288818359375e-05,
+			["use_spark"] = true,
+			["x"] = -0.00018310546875,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["point"] = "CENTER",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 	},
-	["announce_prepots"] = {
-		["enabled"] = false,
-		["channel"] = "SELF",
-		["reverse"] = false,
-	},
-	["last_day"] = "25",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "彼界",
 		["started"] = false,
@@ -239,275 +256,22 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 2291,
 		["previous_boss_killed_at"] = 1621436653,
 	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["last_day"] = "25",
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["benchmark_db"] = {
-		["frame"] = {
-		},
+	["character_data"] = {
+		["logons"] = 64,
 	},
 	["combat_id"] = 0,
 	["savedStyles"] = {
 	},
-	["combat_counter"] = 1061,
-	["cached_talents"] = {
-		["Player-721-030D5476"] = {
-			21854, -- [1]
-			21857, -- [2]
-			21862, -- [3]
-			21863, -- [4]
-			21866, -- [5]
-			22767, -- [6]
-			21900, -- [7]
-		},
-		["Player-729-05E4E771"] = {
-			23106, -- [1]
-			19302, -- [2]
-			19771, -- [3]
-			19995, -- [4]
-			20175, -- [5]
-			22102, -- [6]
-			22105, -- [7]
-		},
-		["Player-817-055BC1C1"] = {
-			22371, -- [1]
-			22789, -- [2]
-			22380, -- [3]
-			15757, -- [4]
-			22391, -- [5]
-			22397, -- [6]
-			22407, -- [7]
-		},
-		["Player-707-04A62BAF"] = {
-			22460, -- [1]
-			22443, -- [2]
-			22447, -- [3]
-			22452, -- [4]
-			22446, -- [5]
-			23176, -- [6]
-			22309, -- [7]
-		},
-		["Player-729-05FBAB01"] = {
-			22416, -- [1]
-			22799, -- [2]
-			22494, -- [3]
-			21863, -- [4]
-			21866, -- [5]
-			21870, -- [6]
-			21901, -- [7]
-		},
-		["Player-1955-01C9D277"] = {
-			21854, -- [1]
-			21857, -- [2]
-			21862, -- [3]
-			21863, -- [4]
-			21866, -- [5]
-			22767, -- [6]
-			21900, -- [7]
-		},
-		["Player-729-05FB66CB"] = {
-			22024, -- [1]
-			22027, -- [2]
-			22516, -- [3]
-			22522, -- [4]
-			23373, -- [5]
-			22534, -- [6]
-			22030, -- [7]
-		},
-		["Player-707-064AE484"] = {
-			22491, -- [1]
-			19676, -- [2]
-			22379, -- [3]
-			22382, -- [4]
-			19140, -- [5]
-			22400, -- [6]
-			22405, -- [7]
-		},
-		["Player-729-05C26C31"] = {
-			22136, -- [1]
-			22315, -- [2]
-			23127, -- [3]
-			21752, -- [4]
-			21755, -- [5]
-			21719, -- [6]
-			21978, -- [7]
-		},
-		["Player-707-064E4A46"] = {
-			22503, -- [1]
-			22507, -- [2]
-			22541, -- [3]
-			22770, -- [4]
-			22510, -- [5]
-			22513, -- [6]
-			22543, -- [7]
-		},
-		["Player-1939-06E2A440"] = {
-			22459, -- [1]
-			23071, -- [2]
-			22447, -- [3]
-			22465, -- [4]
-			22471, -- [5]
-			23362, -- [6]
-			21633, -- [7]
-		},
-		["Player-1687-02A137EF"] = {
-			22462, -- [1]
-			22443, -- [2]
-			22447, -- [3]
-			22450, -- [4]
-			22471, -- [5]
-			23362, -- [6]
-			21631, -- [7]
-		},
-		["Player-826-05411718"] = {
-			22360, -- [1]
-			22372, -- [2]
-			22380, -- [3]
-			15757, -- [4]
-			22391, -- [5]
-			22397, -- [6]
-			21204, -- [7]
-		},
-		["Player-1955-02907FAC"] = {
-			17567, -- [1]
-			22176, -- [2]
-			21811, -- [3]
-			22434, -- [4]
-			17597, -- [5]
-			23191, -- [6]
-			21671, -- [7]
-		},
-	},
-	["announce_deaths"] = {
-		["enabled"] = false,
-		["last_hits"] = 1,
-		["only_first"] = 5,
-		["where"] = 1,
-	},
-	["tabela_overall"] = {
-		{
-			["tipo"] = 2,
-			["_ActorTable"] = {
-			},
-		}, -- [1]
-		{
-			["tipo"] = 3,
-			["_ActorTable"] = {
-			},
-		}, -- [2]
-		{
-			["tipo"] = 7,
-			["_ActorTable"] = {
-			},
-		}, -- [3]
-		{
-			["tipo"] = 9,
-			["_ActorTable"] = {
-			},
-		}, -- [4]
-		{
-			["tipo"] = 2,
-			["_ActorTable"] = {
-			},
-		}, -- [5]
-		["raid_roster"] = {
-		},
-		["raid_roster_indexed"] = {
-		},
-		["tempo_start"] = 1621914249,
-		["last_events_tables"] = {
-		},
-		["alternate_power"] = {
-		},
-		["combat_counter"] = 1058,
-		["frags"] = {
-		},
-		["totals"] = {
-			0, -- [1]
-			0, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-			["voidzone_damage"] = 0,
-			["frags_total"] = 0,
-		},
-		["player_last_events"] = {
-		},
-		["frags_need_refresh"] = false,
-		["aura_timeline"] = {
-		},
-		["__call"] = {
-		},
-		["data_inicio"] = 0,
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["damage"] = {
-			},
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
-		},
-		["overall_refreshed"] = true,
-		["hasSaved"] = true,
-		["spells_cast_timeline"] = {
-		},
-		["data_fim"] = 0,
-		["cleu_events"] = {
-			["n"] = 1,
-		},
-		["CombatSkillCache"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["start_time"] = 0,
-		["TimeData"] = {
-			["Raid Damage Done"] = {
-			},
-		},
-		["totals_grupo"] = {
-			0, -- [1]
-			0, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-		},
-	},
-	["force_font_outline"] = "",
 	["local_instances_config"] = {
 		{
 			["modo"] = 2,
@@ -580,13 +344,272 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["character_data"] = {
-		["logons"] = 63,
+	["force_font_outline"] = "",
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["raid_roster_indexed"] = {
+		},
+		["tempo_start"] = 1621914249,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 1058,
+		["spells_cast_timeline"] = {
+		},
+		["totals"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = 0,
+		["totals_grupo"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["hasSaved"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = 0,
+		["cleu_timeline"] = {
+		},
+		["CombatSkillCache"] = {
+		},
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["start_time"] = 0,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage_section"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage"] = {
+			},
+		},
+	},
+	["cached_talents"] = {
+		["Player-721-030D5476"] = {
+			21854, -- [1]
+			21857, -- [2]
+			21862, -- [3]
+			21863, -- [4]
+			21866, -- [5]
+			22767, -- [6]
+			21900, -- [7]
+		},
+		["Player-729-05E4E771"] = {
+			23106, -- [1]
+			19302, -- [2]
+			19771, -- [3]
+			19995, -- [4]
+			20175, -- [5]
+			22102, -- [6]
+			22105, -- [7]
+		},
+		["Player-817-055BC1C1"] = {
+			22371, -- [1]
+			22789, -- [2]
+			22380, -- [3]
+			15757, -- [4]
+			22391, -- [5]
+			22397, -- [6]
+			22407, -- [7]
+		},
+		["Player-707-04A62BAF"] = {
+			22460, -- [1]
+			22443, -- [2]
+			22447, -- [3]
+			22452, -- [4]
+			22446, -- [5]
+			23176, -- [6]
+			22309, -- [7]
+		},
+		["Player-729-05FBAB01"] = {
+			22416, -- [1]
+			22799, -- [2]
+			22494, -- [3]
+			21863, -- [4]
+			21866, -- [5]
+			21870, -- [6]
+			21901, -- [7]
+		},
+		["Player-1955-01C9D277"] = {
+			21854, -- [1]
+			21857, -- [2]
+			21862, -- [3]
+			21863, -- [4]
+			21866, -- [5]
+			22767, -- [6]
+			21900, -- [7]
+		},
+		["Player-707-064AE484"] = {
+			22491, -- [1]
+			19676, -- [2]
+			22379, -- [3]
+			22382, -- [4]
+			19140, -- [5]
+			22400, -- [6]
+			22405, -- [7]
+		},
+		["Player-729-05FB66CB"] = {
+			22024, -- [1]
+			22027, -- [2]
+			22516, -- [3]
+			22522, -- [4]
+			23373, -- [5]
+			22534, -- [6]
+			22030, -- [7]
+		},
+		["Player-826-05411718"] = {
+			22360, -- [1]
+			22372, -- [2]
+			22380, -- [3]
+			15757, -- [4]
+			22391, -- [5]
+			22397, -- [6]
+			21204, -- [7]
+		},
+		["Player-707-064E4A46"] = {
+			22503, -- [1]
+			22507, -- [2]
+			22541, -- [3]
+			22770, -- [4]
+			22510, -- [5]
+			22513, -- [6]
+			22543, -- [7]
+		},
+		["Player-1939-06E2A440"] = {
+			22459, -- [1]
+			23071, -- [2]
+			22447, -- [3]
+			22465, -- [4]
+			22471, -- [5]
+			23362, -- [6]
+			21633, -- [7]
+		},
+		["Player-1687-02A137EF"] = {
+			22462, -- [1]
+			22443, -- [2]
+			22447, -- [3]
+			22450, -- [4]
+			22471, -- [5]
+			23362, -- [6]
+			21631, -- [7]
+		},
+		["Player-1955-02907FAC"] = {
+			17567, -- [1]
+			22176, -- [2]
+			21811, -- [3]
+			22434, -- [4]
+			17597, -- [5]
+			23191, -- [6]
+			21671, -- [7]
+		},
+		["Player-729-05C26C31"] = {
+			22136, -- [1]
+			22315, -- [2]
+			23127, -- [3]
+			21752, -- [4]
+			21755, -- [5]
+			21719, -- [6]
+			21978, -- [7]
+		},
+	},
+	["combat_counter"] = 1063,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
 	},
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
