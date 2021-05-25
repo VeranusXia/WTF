@@ -4583,8 +4583,6 @@ DBMPvP_AllSavedVars = {
 			{
 				["TimerRemaining"] = true,
 				["TimerFlagCVoice"] = 0,
-				["ShowBasesToWin"] = false,
-				["ShowEstimatedPoints"] = true,
 				["Timer34709next"] = true,
 				["ShowRelativeGameTime"] = true,
 				["Timer110310castTColor"] = 0,
