@@ -6,5 +6,5 @@ QBar_Config = {
 	["userList"] = {
 	},
 	["left"] = 1442.406494140625,
-	["lastItem"] = 174040,
+	["lastItem"] = 132120,
 }

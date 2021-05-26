@@ -21,21 +21,21 @@ Details_StreamerDB = {
 		["不是吧不是 - 阿古斯"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["维莉雅蕾妮 - 罗宁"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["放狠话高手 - 安苏"] = "但偏偏雨渐渐 - 蜘蛛王国",
-		["震击机器人 - 罗宁"] = "但偏偏雨渐渐 - 蜘蛛王国",
+		["奶凶的小萝莉 - 蜘蛛王国"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["殷倾颜 - 罗宁"] = "但偏偏雨渐渐 - 蜘蛛王国",
-		["但偏偏雨渐渐 - 蜘蛛王国"] = "但偏偏雨渐渐 - 蜘蛛王国",
+		["西园寺恋 - 白银之手"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["蕾妮 - 格瑞姆巴托"] = "但偏偏雨渐渐 - 蜘蛛王国",
-		["Amilus - 燃烧之刃"] = "但偏偏雨渐渐 - 蜘蛛王国",
-		["西园寺恋 - 布兰卡德"] = "但偏偏雨渐渐 - 蜘蛛王国",
-		["她会的我也会 - 罗宁"] = "但偏偏雨渐渐 - 蜘蛛王国",
-		["王源 - 蜘蛛王国"] = "但偏偏雨渐渐 - 蜘蛛王国",
+		["蕾妮 - 蜘蛛王国"] = "但偏偏雨渐渐 - 蜘蛛王国",
+		["瓦拉纳微微 - 瓦拉纳"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["蕾妮 - 布兰卡德"] = "但偏偏雨渐渐 - 蜘蛛王国",
+		["王源 - 蜘蛛王国"] = "但偏偏雨渐渐 - 蜘蛛王国",
+		["她会的我也会 - 罗宁"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["海潮茎秆 - 罗宁"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["西园寺恋 - 罗宁"] = "但偏偏雨渐渐 - 蜘蛛王国",
-		["瓦拉纳微微 - 瓦拉纳"] = "但偏偏雨渐渐 - 蜘蛛王国",
-		["蕾妮 - 蜘蛛王国"] = "但偏偏雨渐渐 - 蜘蛛王国",
-		["西园寺恋 - 白银之手"] = "但偏偏雨渐渐 - 蜘蛛王国",
-		["奶凶的小萝莉 - 蜘蛛王国"] = "但偏偏雨渐渐 - 蜘蛛王国",
+		["西园寺恋 - 布兰卡德"] = "但偏偏雨渐渐 - 蜘蛛王国",
+		["Amilus - 燃烧之刃"] = "但偏偏雨渐渐 - 蜘蛛王国",
+		["但偏偏雨渐渐 - 蜘蛛王国"] = "但偏偏雨渐渐 - 蜘蛛王国",
+		["震击机器人 - 罗宁"] = "但偏偏雨渐渐 - 蜘蛛王国",
 	},
 	["profiles"] = {
 		["但偏偏雨渐渐 - 蜘蛛王国"] = {
@@ -62,31 +62,21 @@ Details_StreamerDB = {
 				["radius"] = 160,
 				["hide"] = false,
 			},
-			["use_square_mode"] = false,
+			["scale"] = 1,
 			["arrow_anchor_x"] = 0,
-			["main_frame_locked"] = false,
+			["row_height"] = 20,
 			["row_texture"] = "Details Serenity",
-			["arrow_anchor_y"] = 0,
-			["font_size"] = 10,
-			["main_frame_strata"] = "LOW",
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["y"] = -2.288818359375e-05,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
+			["point"] = "CENTER",
+			["author"] = "Details! Team",
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -94,18 +84,28 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = 1.52587890625e-05,
 				["x"] = -3.0517578125e-05,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
 				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["use_spark"] = true,
+			["font_size"] = 10,
 			["x"] = -0.00018310546875,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["author"] = "Details! Team",
-			["point"] = "CENTER",
-			["row_height"] = 20,
-			["scale"] = 1,
+			["y"] = -2.288818359375e-05,
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = false,
+			["use_square_mode"] = false,
 		},
 	},
 }
