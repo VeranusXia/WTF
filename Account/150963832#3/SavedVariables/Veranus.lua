@@ -38,9 +38,9 @@ StatusSave = {
 	}, -- [5]
 	["Threshold"] = "0.2",
 	["Xpos"] = -437.7777099609375,
+	["Version"] = "9.0.2",
 	["Scale"] = "1",
-	["Relay"] = "BOTTOM",
 	["Ypos"] = 120.5174102783203,
 	["Point"] = "BOTTOM",
-	["Version"] = "9.0.2",
+	["Relay"] = "BOTTOM",
 }

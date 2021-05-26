@@ -1,18 +1,5 @@
 
 BPBID_Options = {
-	["ManualChange"] = "v1.17.5",
-	["BattleFontFix"] = false,
-	["Breedtip"] = {
-		["Current"] = true,
-		["Possible"] = true,
-		["SpeciesBase"] = false,
-		["CurrentStats25"] = true,
-		["CurrentStats25Rare"] = true,
-		["AllStats25Rare"] = true,
-		["CurrentStats"] = false,
-		["AllStats"] = false,
-		["AllStats25"] = true,
-	},
 	["format"] = 3,
 	["Tooltips"] = {
 		["Enabled"] = true,
@@ -21,14 +8,27 @@ BPBID_Options = {
 		["BPT"] = true,
 		["BattleTooltip"] = true,
 	},
+	["ManualChange"] = "v1.17.5",
+	["Breedtip"] = {
+		["Current"] = true,
+		["Possible"] = true,
+		["SpeciesBase"] = false,
+		["CurrentStats25"] = true,
+		["CurrentStats25Rare"] = true,
+		["AllStats25Rare"] = true,
+		["AllStats"] = false,
+		["CurrentStats"] = false,
+		["AllStats25"] = true,
+	},
+	["BattleFontFix"] = false,
 	["Names"] = {
 		["HSFUpdateRarity"] = true,
 		["PJT"] = true,
 		["FBPT"] = true,
-		["PJTRarity"] = false,
+		["BPT"] = true,
 		["PrimaryBattle"] = true,
 		["HSFUpdate"] = true,
-		["BPT"] = true,
+		["PJTRarity"] = false,
 		["BattleTooltip"] = true,
 	},
 }

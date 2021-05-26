@@ -8,10 +8,6 @@ REFlexSettings = {
 	["ShowServerName"] = false,
 	["CurrentTab"] = 1,
 	["LDBMode"] = 3,
-	["LDBSide"] = "A",
-	["ArenaStatsLimit"] = 3,
-	["ConfigVersion"] = 313,
-	["FirstTime"] = false,
 	["Filters"] = {
 		["Map"] = 1,
 		["Bracket"] = 1,
@@ -23,10 +19,54 @@ REFlexSettings = {
 		["Season"] = 0,
 		["DateMode"] = 1,
 	},
+	["ArenaStatsLimit"] = 3,
+	["FirstTime"] = false,
+	["ConfigVersion"] = 313,
+	["LDBSide"] = "A",
 }
 REFlexDatabase = {
 	{
 		["Map"] = 761,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["Time"] = 1615706884,
+		["PlayersNum"] = 20,
+		["Duration"] = 188,
+		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				4, -- [2]
+				11, -- [3]
+				5, -- [4]
+				5, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -48,89 +88,9 @@ REFlexDatabase = {
 				807, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 188,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1615706884,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				4, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				4, -- [2]
-				11, -- [3]
-				5, -- [4]
-				5, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
 	}, -- [1]
 	{
 		["Map"] = 761,
-		["Duration"] = 159,
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 11,
-		["BGComposition"] = {
-			{
-				3, -- [1]
-				0, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				0, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1615708268,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -152,9 +112,89 @@ REFlexDatabase = {
 				807, -- [17]
 			}, -- [1]
 		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 11,
+		["Duration"] = 159,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["Time"] = 1615708268,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
+		["BGComposition"] = {
+			{
+				3, -- [1]
+				0, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				0, -- [3]
+			}, -- [2]
+		},
 	}, -- [2]
 	{
 		["Map"] = 2245,
+		["Duration"] = 291,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615755324,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				10, -- [2]
+				12, -- [3]
+				7, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -176,13 +216,17 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615755324,
+	}, -- [3]
+	{
+		["Map"] = 1035,
+		["Duration"] = 150,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				0, -- [2]
+				0, -- [1]
+				1, -- [2]
 				9, -- [3]
 			}, -- [1]
 			{
@@ -191,34 +235,30 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615755777,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				10, -- [2]
-				12, -- [3]
-				7, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 291,
-	}, -- [3]
-	{
-		["Map"] = 1035,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -240,8 +280,12 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615755777,
+	}, -- [4]
+	{
+		["Map"] = 1035,
+		["Duration"] = 155,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -250,39 +294,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				0, -- [2]
+				0, -- [1]
+				2, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615756358,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				4, -- [1]
+				11, -- [2]
+				11, -- [3]
+				9, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 150,
-	}, -- [4]
-	{
-		["Map"] = 1035,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -304,49 +344,49 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615756358,
+	}, -- [5]
+	{
+		["Map"] = 1035,
+		["Duration"] = 230,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
 				8, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
+			}, -- [1]
 			{
 				1, -- [1]
 				1, -- [2]
-				1, -- [3]
-				2, -- [4]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615757991,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				5, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				11, -- [2]
-				11, -- [3]
-				9, -- [4]
-				4, -- [5]
+				4, -- [2]
+				4, -- [3]
+				7, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 155,
-	}, -- [5]
-	{
-		["Map"] = 1035,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -368,8 +408,12 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615757991,
+	}, -- [6]
+	{
+		["Map"] = 2106,
+		["Duration"] = 308,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -379,38 +423,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615758454,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				5, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				4, -- [2]
-				4, -- [3]
-				7, -- [4]
-				3, -- [5]
+				8, -- [1]
+				11, -- [2]
+				11, -- [3]
+				12, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 230,
-	}, -- [6]
-	{
-		["Map"] = 2106,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -432,8 +472,12 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615758454,
+	}, -- [7]
+	{
+		["Map"] = 726,
+		["Duration"] = 594,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -442,39 +486,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615759209,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
 				3, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				8, -- [1]
-				11, -- [2]
-				11, -- [3]
-				12, -- [4]
-				2, -- [5]
+				4, -- [1]
+				5, -- [2]
+				4, -- [3]
+				5, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 308,
-	}, -- [7]
-	{
-		["Map"] = 726,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -496,13 +536,17 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615759209,
+	}, -- [8]
+	{
+		["Map"] = 2245,
+		["Duration"] = 308,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				1, -- [2]
+				0, -- [1]
+				2, -- [2]
 				8, -- [3]
 			}, -- [1]
 			{
@@ -511,34 +555,30 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615760213,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				5, -- [2]
-				4, -- [3]
-				5, -- [4]
-				3, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 594,
-	}, -- [8]
-	{
-		["Map"] = 2245,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -560,8 +600,12 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615760213,
+	}, -- [9]
+	{
+		["Map"] = 1035,
+		["Duration"] = 895,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -571,38 +615,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615761264,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [3]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				3, -- [1]
+				3, -- [2]
+				12, -- [3]
+				3, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 308,
-	}, -- [9]
-	{
-		["Map"] = 1035,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -624,49 +664,49 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615761264,
+	}, -- [10]
+	{
+		["Map"] = 727,
+		["Duration"] = 346,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
 				1, -- [2]
 				9, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615761848,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
-				2, -- [3]
+				1, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				3, -- [2]
-				12, -- [3]
-				3, -- [4]
-				3, -- [5]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 895,
-	}, -- [10]
-	{
-		["Map"] = 727,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -688,49 +728,49 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615761848,
+	}, -- [11]
+	{
+		["Map"] = 2245,
+		["Duration"] = 185,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				1, -- [2]
 				9, -- [3]
-			}, -- [1]
-			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615762261,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				1, -- [5]
+				3, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
+				2, -- [1]
+				8, -- [2]
 				11, -- [3]
-				4, -- [4]
-				2, -- [5]
+				5, -- [4]
+				5, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 346,
-	}, -- [11]
-	{
-		["Map"] = 2245,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -752,8 +792,12 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615762261,
+	}, -- [12]
+	{
+		["Map"] = 726,
+		["Duration"] = 544,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -763,38 +807,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615762992,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
+				2, -- [4]
 				3, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				8, -- [2]
+				3, -- [1]
+				11, -- [2]
 				11, -- [3]
-				5, -- [4]
-				5, -- [5]
+				4, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 185,
-	}, -- [12]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -816,49 +856,49 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615762992,
-		["PlayersNum"] = 20,
+	}, -- [13]
+	{
+		["Map"] = 2107,
+		["Duration"] = 190,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 18,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				0, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
+				1, -- [1]
+				0, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615763502,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				3, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
-				11, -- [3]
-				4, -- [4]
-				4, -- [5]
+				2, -- [1]
+				3, -- [2]
+				10, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 544,
-	}, -- [13]
-	{
-		["Map"] = 2107,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -880,49 +920,49 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615763502,
-		["PlayersNum"] = 18,
+	}, -- [14]
+	{
+		["Map"] = 761,
+		["Duration"] = 155,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
 				0, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615763911,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
+				3, -- [1]
 				3, -- [2]
-				10, -- [3]
-				2, -- [4]
-				1, -- [5]
+				11, -- [3]
+				5, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 190,
-	}, -- [14]
-	{
-		["Map"] = 761,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -944,49 +984,49 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615763911,
+	}, -- [15]
+	{
+		["Map"] = 2245,
+		["Duration"] = 210,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				4, -- [1]
+				1, -- [2]
+				5, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615764474,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
+				1, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
-				11, -- [3]
-				5, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 155,
-	}, -- [15]
-	{
-		["Map"] = 2245,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1008,8 +1048,12 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615764474,
+	}, -- [16]
+	{
+		["Map"] = 2106,
+		["Duration"] = 952,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1018,39 +1062,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				4, -- [1]
-				1, -- [2]
+				2, -- [1]
+				3, -- [2]
 				5, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615765683,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
+				2, -- [1]
+				2, -- [2]
+				3, -- [3]
+				2, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
+				2, -- [1]
+				2, -- [2]
+				3, -- [3]
+				3, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 210,
-	}, -- [16]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1072,49 +1112,49 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615765683,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				2, -- [1]
-				3, -- [2]
-				5, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				2, -- [2]
-				3, -- [3]
-				3, -- [4]
-				4, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 952,
 	}, -- [17]
 	{
 		["Map"] = 727,
+		["Duration"] = 338,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				2, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615766168,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				11, -- [2]
+				11, -- [3]
+				8, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1136,26 +1176,30 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615766168,
+	}, -- [18]
+	{
+		["Map"] = 761,
+		["Duration"] = 245,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				2, -- [2]
+				0, -- [1]
+				3, -- [2]
 				7, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				6, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615766597,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -1163,22 +1207,18 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-				2, -- [5]
+				3, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				11, -- [2]
+				2, -- [1]
+				3, -- [2]
 				11, -- [3]
-				8, -- [4]
-				2, -- [5]
+				2, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 338,
-	}, -- [18]
-	{
-		["Map"] = 761,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1200,49 +1240,49 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615766597,
+	}, -- [19]
+	{
+		["Map"] = 2245,
+		["Duration"] = 436,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
 				0, -- [2]
 				10, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
+			}, -- [1]
 			{
 				1, -- [1]
 				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				3, -- [2]
-				11, -- [3]
-				2, -- [4]
-				3, -- [5]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 245,
-	}, -- [19]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615767221,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				2, -- [2]
+				3, -- [3]
+				4, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				2, -- [2]
+				3, -- [3]
+				5, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1264,8 +1304,12 @@ REFlexDatabase = {
 				808, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615767221,
+	}, -- [20]
+	{
+		["Map"] = 566,
+		["Duration"] = 214,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1275,38 +1319,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				2, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615767603,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				2, -- [2]
-				3, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				4, -- [4]
-				2, -- [5]
+				3, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				2, -- [2]
-				3, -- [3]
-				5, -- [4]
-				2, -- [5]
+				5, -- [1]
+				10, -- [2]
+				11, -- [3]
+				10, -- [4]
+				6, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 436,
-	}, -- [20]
-	{
-		["Map"] = 566,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1328,8 +1368,12 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615767603,
+	}, -- [21]
+	{
+		["Map"] = 1035,
+		["Duration"] = 375,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1339,38 +1383,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615768605,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				3, -- [1]
+				5, -- [2]
+				5, -- [3]
 				4, -- [4]
-				3, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				10, -- [2]
-				11, -- [3]
-				10, -- [4]
-				6, -- [5]
+				4, -- [1]
+				7, -- [2]
+				5, -- [3]
+				6, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 214,
-	}, -- [21]
-	{
-		["Map"] = 1035,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1392,8 +1432,12 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615768605,
+	}, -- [22]
+	{
+		["Map"] = 2106,
+		["Duration"] = 268,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1402,39 +1446,35 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615769094,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				5, -- [2]
-				5, -- [3]
-				4, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				7, -- [2]
-				5, -- [3]
+				11, -- [2]
+				11, -- [3]
 				6, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 375,
-	}, -- [22]
-	{
-		["Map"] = 2106,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1456,8 +1496,12 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615769094,
+	}, -- [23]
+	{
+		["Map"] = 2106,
+		["Duration"] = 313,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1467,38 +1511,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615769567,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [1]
+				3, -- [2]
+				4, -- [3]
 				2, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				11, -- [2]
-				11, -- [3]
-				6, -- [4]
-				1, -- [5]
+				13, -- [2]
+				14, -- [3]
+				5, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 268,
-	}, -- [23]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1520,8 +1560,12 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615769567,
+	}, -- [24]
+	{
+		["Map"] = 2245,
+		["Duration"] = 507,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1535,34 +1579,30 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615770356,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				3, -- [1]
 				3, -- [2]
-				4, -- [3]
-				2, -- [4]
-				2, -- [5]
+				3, -- [3]
+				4, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				13, -- [2]
-				14, -- [3]
-				5, -- [4]
-				3, -- [5]
+				6, -- [1]
+				12, -- [2]
+				13, -- [3]
+				8, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 313,
-	}, -- [24]
-	{
-		["Map"] = 2245,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1584,8 +1624,12 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615770356,
+	}, -- [25]
+	{
+		["Map"] = 1035,
+		["Duration"] = 165,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1595,38 +1639,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615770787,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				12, -- [2]
-				13, -- [3]
-				8, -- [4]
-				2, -- [5]
+				2, -- [1]
+				5, -- [2]
+				11, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 507,
-	}, -- [25]
-	{
-		["Map"] = 1035,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1648,49 +1688,49 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615770787,
+	}, -- [26]
+	{
+		["Map"] = 2106,
+		["Duration"] = 430,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
+				1, -- [1]
+				0, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615771468,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				5, -- [2]
+				3, -- [1]
+				3, -- [2]
 				11, -- [3]
-				2, -- [4]
-				1, -- [5]
+				3, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 165,
-	}, -- [26]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1712,89 +1752,9 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615771468,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				3, -- [2]
-				11, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 430,
 	}, -- [27]
 	{
 		["Map"] = 2245,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 172,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615791066,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				6, -- [2]
-				11, -- [3]
-				5, -- [4]
-				5, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1816,49 +1776,49 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [28]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
+		["Time"] = 1615791066,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				2, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 270,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615791572,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
+				2, -- [4]
 				3, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				4, -- [2]
-				10, -- [3]
+				6, -- [2]
+				11, -- [3]
 				5, -- [4]
-				4, -- [5]
+				5, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 172,
+	}, -- [28]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1880,9 +1840,9 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [29]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
+		["Time"] = 1615791572,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -1890,39 +1850,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 180,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615791911,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
+				3, -- [1]
+				4, -- [2]
+				10, -- [3]
+				5, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 270,
+	}, -- [29]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -1944,9 +1904,9 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [30]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
+		["Time"] = 1615791911,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -1955,38 +1915,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 737,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615793076,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				4, -- [5]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				10, -- [2]
-				11, -- [3]
-				5, -- [4]
-				5, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 180,
+	}, -- [30]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2008,49 +1968,49 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [31]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615793076,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 243,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615793637,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
 				4, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				7, -- [2]
-				4, -- [3]
-				6, -- [4]
-				4, -- [5]
+				10, -- [2]
+				11, -- [3]
+				5, -- [4]
+				5, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 737,
+	}, -- [31]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2072,14 +2032,14 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [32]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615793637,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -2088,14 +2048,10 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 771,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615794811,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -2103,18 +2059,22 @@ REFlexDatabase = {
 				4, -- [2]
 				4, -- [3]
 				4, -- [4]
-				1, -- [5]
+				4, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				14, -- [2]
-				5, -- [3]
-				5, -- [4]
-				2, -- [5]
+				7, -- [2]
+				4, -- [3]
+				6, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 243,
+	}, -- [32]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2136,9 +2096,9 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [33]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615794811,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2146,39 +2106,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 827,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615795798,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				3, -- [2]
-				3, -- [3]
+				3, -- [1]
+				14, -- [2]
+				5, -- [3]
 				5, -- [4]
-				3, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 771,
+	}, -- [33]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2200,9 +2160,9 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [34]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615795798,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2210,39 +2170,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				6, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 170,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615796146,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
 				3, -- [4]
-				3, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				7, -- [2]
-				11, -- [3]
-				7, -- [4]
+				5, -- [1]
+				3, -- [2]
+				3, -- [3]
+				5, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 827,
+	}, -- [34]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2264,49 +2224,49 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [35]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
+		["Time"] = 1615796146,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				2, -- [1]
+				0, -- [1]
 				0, -- [2]
-				8, -- [3]
+				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [1]
+				2, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 216,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615796592,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				3, -- [4]
-				1, -- [5]
+				3, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
+				4, -- [1]
+				7, -- [2]
+				11, -- [3]
+				7, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 170,
+	}, -- [35]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2328,49 +2288,49 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [36]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
+		["Time"] = 1615796592,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				0, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				7, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 19,
-		["Duration"] = 169,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615796927,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				3, -- [1]
-				4, -- [2]
-				4, -- [3]
+				3, -- [2]
+				3, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				4, -- [2]
-				4, -- [3]
+				3, -- [2]
+				3, -- [3]
 				3, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 216,
+	}, -- [36]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2392,9 +2352,9 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [37]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615796927,
+		["PlayersNum"] = 19,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -2402,39 +2362,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [1]
+				1, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 140,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615797739,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				4, -- [4]
-				3, -- [5]
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				10, -- [2]
-				11, -- [3]
-				10, -- [4]
-				3, -- [5]
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 169,
+	}, -- [37]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2456,49 +2416,49 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [38]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615797739,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 321,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615798225,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				4, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				13, -- [2]
-				13, -- [3]
-				7, -- [4]
-				2, -- [5]
+				10, -- [2]
+				11, -- [3]
+				10, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 140,
+	}, -- [38]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2520,49 +2480,49 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [39]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
+		["Time"] = 1615798225,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 1200,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615799729,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
 				3, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				6, -- [2]
-				4, -- [3]
-				6, -- [4]
-				3, -- [5]
+				4, -- [1]
+				13, -- [2]
+				13, -- [3]
+				7, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 321,
+	}, -- [39]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2584,49 +2544,49 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [40]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615799729,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 348,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615800270,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				11, -- [2]
-				11, -- [3]
-				10, -- [4]
-				2, -- [5]
+				5, -- [1]
+				6, -- [2]
+				4, -- [3]
+				6, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 1200,
+	}, -- [40]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2648,9 +2608,9 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [41]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615800270,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2658,39 +2618,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 252,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615800836,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
+				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				4, -- [4]
+				6, -- [1]
+				11, -- [2]
+				11, -- [3]
+				10, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 348,
+	}, -- [41]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2712,9 +2672,9 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [42]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1615800836,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2728,33 +2688,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 396,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615801503,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				3, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				5, -- [2]
-				4, -- [3]
-				5, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				4, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 252,
+	}, -- [42]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2776,9 +2736,9 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [43]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615801503,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2786,39 +2746,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
+				1, -- [1]
 				0, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 194,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615801858,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
+				4, -- [2]
+				4, -- [3]
 				3, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				6, -- [2]
-				12, -- [3]
-				6, -- [4]
-				3, -- [5]
+				3, -- [1]
+				5, -- [2]
+				4, -- [3]
+				5, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 396,
+	}, -- [43]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2840,9 +2800,9 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [44]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615801858,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2850,39 +2810,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				4, -- [1]
+				2, -- [1]
 				0, -- [2]
-				6, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 630,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615802645,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
 				2, -- [2]
-				9, -- [3]
+				2, -- [3]
 				3, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				5, -- [2]
-				19, -- [3]
-				5, -- [4]
-				1, -- [5]
+				6, -- [2]
+				12, -- [3]
+				6, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 194,
+	}, -- [44]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2904,9 +2864,9 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [45]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
+		["Time"] = 1615802645,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2914,39 +2874,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				4, -- [1]
 				0, -- [2]
-				10, -- [3]
+				6, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 580,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615803418,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				4, -- [2]
-				4, -- [3]
+				2, -- [2]
+				9, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
+				4, -- [1]
+				5, -- [2]
+				19, -- [3]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 630,
+	}, -- [45]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -2968,9 +2928,9 @@ REFlexDatabase = {
 				809, -- [17]
 			}, -- [1]
 		},
-	}, -- [46]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615803418,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -2978,39 +2938,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 485,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615804059,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
 				3, -- [4]
-				3, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
+				2, -- [1]
 				4, -- [2]
-				11, -- [3]
-				5, -- [4]
-				3, -- [5]
+				4, -- [3]
+				3, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 580,
+	}, -- [46]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3032,30 +2992,26 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [47]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615804059,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				2, -- [2]
-				7, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
+				1, -- [1]
+				0, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 184,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615804431,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -3063,18 +3019,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				3, -- [4]
-				2, -- [5]
+				3, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
 				4, -- [2]
 				11, -- [3]
 				5, -- [4]
-				2, -- [5]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 485,
+	}, -- [47]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3096,49 +3056,49 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [48]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
+		["Time"] = 1615804431,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				2, -- [2]
-				8, -- [3]
+				7, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
+				0, -- [1]
+				1, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 161,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615804859,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				4, -- [5]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				6, -- [2]
+				3, -- [1]
+				4, -- [2]
 				11, -- [3]
-				6, -- [4]
-				4, -- [5]
+				5, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 184,
+	}, -- [48]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3160,9 +3120,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [49]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615804859,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -3170,39 +3130,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
+				1, -- [1]
+				0, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 306,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615805383,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				1, -- [5]
+				4, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				2, -- [2]
+				4, -- [1]
+				6, -- [2]
 				11, -- [3]
-				3, -- [4]
-				1, -- [5]
+				6, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 161,
+	}, -- [49]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3224,49 +3184,49 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [50]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615805383,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 293,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615805925,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				14, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
+				2, -- [2]
+				11, -- [3]
+				3, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 306,
+	}, -- [50]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3288,9 +3248,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [51]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615805925,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -3304,33 +3264,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 474,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615806589,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				11, -- [3]
+				3, -- [1]
+				14, -- [2]
+				4, -- [3]
 				4, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 293,
+	}, -- [51]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3352,9 +3312,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [52]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615806589,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -3363,38 +3323,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				2, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 13,
-		["Duration"] = 346,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615807222,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				2, -- [2]
+				11, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 474,
+	}, -- [52]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3416,49 +3376,49 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [53]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
+		["Time"] = 1615807222,
+		["PlayersNum"] = 13,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [1]
 			{
-				3, -- [1]
-				0, -- [2]
-				7, -- [3]
+				0, -- [1]
+				1, -- [2]
+				2, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 162,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615807542,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
-				3, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				4, -- [2]
-				11, -- [3]
-				5, -- [4]
-				3, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 346,
+	}, -- [53]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3480,9 +3440,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [54]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615807542,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -3490,39 +3450,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				3, -- [1]
 				0, -- [2]
-				10, -- [3]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 475,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615808178,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				3, -- [4]
-				1, -- [5]
+				3, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				6, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
+				4, -- [2]
+				11, -- [3]
+				5, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 162,
+	}, -- [54]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3544,9 +3504,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [55]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615808178,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -3554,39 +3514,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 415,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615808749,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				11, -- [2]
-				11, -- [3]
+				3, -- [1]
+				6, -- [2]
+				4, -- [3]
 				4, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 475,
+	}, -- [55]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3608,9 +3568,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [56]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615808749,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -3618,39 +3578,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 343,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615809250,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
+				4, -- [1]
+				11, -- [2]
 				11, -- [3]
-				3, -- [4]
-				1, -- [5]
+				4, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 415,
+	}, -- [56]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3672,9 +3632,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [57]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615809250,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -3688,14 +3648,10 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 243,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615809649,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -3706,15 +3662,19 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
+				2, -- [1]
 				3, -- [2]
 				11, -- [3]
-				4, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 343,
+	}, -- [57]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3736,14 +3696,14 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [58]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1615809649,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -3752,33 +3712,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 1200,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615811432,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				6, -- [2]
-				6, -- [3]
+				3, -- [2]
+				11, -- [3]
 				4, -- [4]
-				3, -- [5]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 243,
+	}, -- [58]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3800,9 +3760,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [59]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615811432,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -3810,39 +3770,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 559,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615812310,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				4, -- [2]
+				4, -- [3]
+				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
+				3, -- [1]
 				6, -- [2]
-				13, -- [3]
-				5, -- [4]
+				6, -- [3]
+				4, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 1200,
+	}, -- [59]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3864,9 +3824,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [60]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615812310,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -3875,38 +3835,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 233,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615812926,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
+				3, -- [2]
+				3, -- [3]
 				3, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
-				12, -- [3]
-				6, -- [4]
+				4, -- [1]
+				6, -- [2]
+				13, -- [3]
+				5, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 559,
+	}, -- [60]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3928,9 +3888,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [61]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615812926,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -3938,39 +3898,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 420,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615813610,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
-				1, -- [5]
+				3, -- [1]
+				3, -- [2]
+				12, -- [3]
+				6, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 233,
+	}, -- [61]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -3992,9 +3952,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [62]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
+		["Time"] = 1615813610,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4002,39 +3962,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				1, -- [2]
-				7, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 174,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615813948,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				3, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 420,
+	}, -- [62]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4056,9 +4016,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [63]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
+		["Time"] = 1615813948,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4066,39 +4026,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				2, -- [1]
+				1, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 504,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615814665,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
+				2, -- [1]
+				2, -- [2]
 				11, -- [3]
 				3, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 174,
+	}, -- [63]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4120,9 +4080,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [64]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
+		["Time"] = 1615814665,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4130,39 +4090,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
+				0, -- [1]
 				0, -- [2]
-				8, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 407,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615815304,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				4, -- [2]
-				13, -- [3]
-				4, -- [4]
+				11, -- [2]
+				11, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 504,
+	}, -- [64]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4184,9 +4144,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [65]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615815304,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4194,39 +4154,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 257,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615815719,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
+				3, -- [1]
+				4, -- [2]
+				13, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 407,
+	}, -- [65]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4248,9 +4208,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [66]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
+		["Time"] = 1615815719,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4258,39 +4218,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 437,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615816335,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				3, -- [2]
-				3, -- [3]
+				2, -- [2]
+				2, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				4, -- [2]
-				3, -- [3]
-				4, -- [4]
-				4, -- [5]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				3, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 257,
+	}, -- [66]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4312,9 +4272,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [67]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615816335,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4328,33 +4288,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 347,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615816898,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				3, -- [1]
+				4, -- [2]
+				3, -- [3]
+				4, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 437,
+	}, -- [67]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4376,9 +4336,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [68]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615816898,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4386,39 +4346,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
+				0, -- [1]
 				0, -- [2]
-				8, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 965,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615818022,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 347,
+	}, -- [68]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4440,49 +4400,49 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [69]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615818022,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
 			{
 				0, -- [1]
 				1, -- [2]
 				9, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 418,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615818909,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				11, -- [2]
-				11, -- [3]
-				5, -- [4]
-				4, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 965,
+	}, -- [69]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4504,49 +4464,49 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [70]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615818909,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 1066,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615820443,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				3, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				3, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				5, -- [1]
+				11, -- [2]
 				11, -- [3]
-				1, -- [4]
-				1, -- [5]
+				5, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 418,
+	}, -- [70]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4568,14 +4528,14 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [71]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
+		["Time"] = 1615820443,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -4584,33 +4544,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 161,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615821198,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 1066,
+	}, -- [71]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4632,49 +4592,49 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [72]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
+		["Time"] = 1615821198,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				2, -- [1]
+				0, -- [1]
 				0, -- [2]
-				8, -- [3]
+				10, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 218,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615821621,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 161,
+	}, -- [72]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4696,9 +4656,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [73]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615821621,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				2, -- [1]
@@ -4706,20 +4666,16 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 1309,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615823197,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -4732,13 +4688,17 @@ REFlexDatabase = {
 			{
 				1, -- [1]
 				1, -- [2]
-				11, -- [3]
+				1, -- [3]
 				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 218,
+	}, -- [73]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4760,30 +4720,26 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [74]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615823197,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				0, -- [2]
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				2, -- [1]
 				0, -- [2]
-				10, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 303,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615823675,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -4791,18 +4747,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
 				1, -- [1]
 				1, -- [2]
 				11, -- [3]
 				1, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 1309,
+	}, -- [74]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4824,49 +4784,49 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [75]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615823675,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				1, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 550,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615824476,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 303,
+	}, -- [75]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4888,9 +4848,9 @@ REFlexDatabase = {
 				810, -- [17]
 			}, -- [1]
 		},
-	}, -- [76]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
+		["Time"] = 1615824476,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -4899,19 +4859,15 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 821,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615825454,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -4919,18 +4875,22 @@ REFlexDatabase = {
 				3, -- [2]
 				3, -- [3]
 				3, -- [4]
-				3, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				6, -- [2]
-				13, -- [3]
-				6, -- [4]
-				4, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 550,
+	}, -- [76]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -4952,49 +4912,49 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [77]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615825454,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 646,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615826388,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
 				2, -- [1]
 				3, -- [2]
-				11, -- [3]
-				4, -- [4]
-				2, -- [5]
+				3, -- [3]
+				3, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				6, -- [2]
+				13, -- [3]
+				6, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 821,
+	}, -- [77]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5016,9 +4976,9 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [78]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
+		["Time"] = 1615826388,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -5032,14 +4992,10 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 676,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615827223,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -5052,13 +5008,17 @@ REFlexDatabase = {
 			{
 				2, -- [1]
 				3, -- [2]
-				1, -- [3]
-				3, -- [4]
+				11, -- [3]
+				4, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 646,
+	}, -- [78]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5080,9 +5040,9 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [79]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615827223,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -5090,20 +5050,16 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 165,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615827545,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -5115,14 +5071,18 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				2, -- [1]
-				5, -- [2]
-				11, -- [3]
-				4, -- [4]
+				3, -- [2]
+				1, -- [3]
+				3, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 676,
+	}, -- [79]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5144,9 +5104,9 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [80]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
+		["Time"] = 1615827545,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -5154,39 +5114,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				2, -- [1]
 				0, -- [2]
-				10, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 525,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615828228,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				5, -- [2]
+				11, -- [3]
+				4, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 165,
+	}, -- [80]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5208,9 +5168,9 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [81]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615828228,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -5224,33 +5184,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 620,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615829006,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
-				11, -- [3]
-				4, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 525,
+	}, -- [81]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5272,49 +5232,49 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [82]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
+		["Time"] = 1615829006,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 224,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615831265,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				10, -- [2]
+				3, -- [1]
+				3, -- [2]
 				11, -- [3]
-				8, -- [4]
-				1, -- [5]
+				4, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 620,
+	}, -- [82]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5336,9 +5296,9 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [83]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
+		["Time"] = 1615831265,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -5346,20 +5306,16 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 291,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615831711,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -5370,15 +5326,19 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				7, -- [2]
+				5, -- [1]
+				10, -- [2]
 				11, -- [3]
-				5, -- [4]
+				8, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 224,
+	}, -- [83]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5400,12 +5360,8 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [84]
-	{
-		["Map"] = 727,
-		["Duration"] = 346,
 		["Season"] = 30,
-		["Time"] = 1615836617,
+		["Time"] = 1615831711,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -5414,15 +5370,15 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
@@ -5430,19 +5386,23 @@ REFlexDatabase = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
+				3, -- [1]
+				7, -- [2]
 				11, -- [3]
-				3, -- [4]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
 		["Hidden"] = false,
+		["Duration"] = 291,
+	}, -- [84]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5464,13 +5424,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [85]
-	{
-		["Map"] = 761,
-		["Duration"] = 247,
-		["Season"] = 30,
-		["Time"] = 1615837078,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 346,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615836617,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -5478,35 +5459,14 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+	}, -- [85]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5528,13 +5488,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [86]
-	{
-		["Map"] = 2107,
-		["Duration"] = 182,
-		["Season"] = 30,
-		["Time"] = 1615837461,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 247,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615837078,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -5543,34 +5524,13 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				4, -- [2]
-				11, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+	}, -- [86]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5592,13 +5552,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [87]
-	{
-		["Map"] = 2106,
-		["Duration"] = 465,
-		["Season"] = 30,
-		["Time"] = 1615838117,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 182,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615837461,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				4, -- [2]
+				11, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -5607,34 +5588,13 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+	}, -- [87]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5656,30 +5616,15 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [88]
-	{
-		["Map"] = 2107,
-		["Duration"] = 815,
-		["Season"] = 30,
-		["Time"] = 1615839084,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
+		["Hidden"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 465,
+		["Season"] = 30,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615838117,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -5691,14 +5636,29 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				3, -- [1]
-				4, -- [2]
+				2, -- [2]
 				2, -- [3]
-				4, -- [4]
-				3, -- [5]
+				3, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+	}, -- [88]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5720,13 +5680,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [89]
-	{
-		["Map"] = 2107,
-		["Duration"] = 166,
-		["Season"] = 30,
-		["Time"] = 1615839407,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 815,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615839084,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				4, -- [2]
+				2, -- [3]
+				4, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -5734,35 +5715,14 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
 				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-			}, -- [1]
-			{
-				8, -- [1]
-				9, -- [2]
-				11, -- [3]
-				11, -- [4]
-				3, -- [5]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+	}, -- [89]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5784,13 +5744,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [90]
-	{
-		["Map"] = 1035,
-		["Duration"] = 455,
-		["Season"] = 30,
-		["Time"] = 1615840010,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 166,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615839407,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				8, -- [1]
+				9, -- [2]
+				11, -- [3]
+				11, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -5798,35 +5779,14 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				4, -- [2]
-				11, -- [3]
-				4, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+	}, -- [90]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5848,13 +5808,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [91]
-	{
-		["Map"] = 1035,
-		["Duration"] = 170,
-		["Season"] = 30,
-		["Time"] = 1615840363,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 455,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615840010,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				4, -- [2]
+				11, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -5862,35 +5843,14 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
 				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				4, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+	}, -- [91]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5912,13 +5872,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [92]
-	{
-		["Map"] = 726,
-		["Duration"] = 490,
-		["Season"] = 30,
-		["Time"] = 1615841028,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 170,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615840363,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				4, -- [2]
+				11, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -5927,34 +5908,13 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				7, -- [1]
-				11, -- [2]
-				11, -- [3]
-				8, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+	}, -- [92]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -5976,13 +5936,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [93]
-	{
-		["Map"] = 2106,
-		["Duration"] = 667,
-		["Season"] = 30,
-		["Time"] = 1615841927,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 490,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615841028,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				7, -- [1]
+				11, -- [2]
+				11, -- [3]
+				8, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -5990,35 +5971,14 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
+				0, -- [1]
+				1, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				11, -- [2]
-				1, -- [3]
-				4, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+	}, -- [93]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6040,30 +6000,15 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [94]
-	{
-		["Map"] = 726,
-		["Duration"] = 463,
-		["Season"] = 30,
-		["Time"] = 1615842612,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
+		["Hidden"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 667,
+		["Season"] = 30,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615841927,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -6074,15 +6019,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
+				3, -- [1]
 				11, -- [2]
-				11, -- [3]
-				3, -- [4]
-				1, -- [5]
+				1, -- [3]
+				4, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [94]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6104,13 +6064,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [95]
-	{
-		["Map"] = 1035,
-		["Duration"] = 650,
-		["Season"] = 30,
-		["Time"] = 1615843412,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 463,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615842612,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -6118,35 +6099,14 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+	}, -- [95]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6168,13 +6128,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [96]
-	{
-		["Map"] = 566,
-		["Duration"] = 267,
-		["Season"] = 30,
-		["Time"] = 1615843869,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 650,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615843412,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -6182,35 +6163,14 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				5, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+	}, -- [96]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6232,13 +6192,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [97]
-	{
-		["Map"] = 2107,
-		["Duration"] = 233,
-		["Season"] = 30,
-		["Time"] = 1615844268,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 267,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615843869,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				5, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -6246,35 +6227,14 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				6, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				4, -- [4]
-				5, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				7, -- [2]
-				1, -- [3]
-				10, -- [4]
-				8, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+	}, -- [97]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6296,13 +6256,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [98]
-	{
-		["Map"] = 727,
-		["Duration"] = 356,
-		["Season"] = 30,
-		["Time"] = 1615844852,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 233,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615844268,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				4, -- [4]
+				5, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				7, -- [2]
+				1, -- [3]
+				10, -- [4]
+				8, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -6310,35 +6291,14 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				2, -- [1]
+				2, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				7, -- [1]
-				11, -- [2]
-				11, -- [3]
-				9, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+	}, -- [98]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6360,13 +6320,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [99]
-	{
-		["Map"] = 2106,
-		["Duration"] = 376,
-		["Season"] = 30,
-		["Time"] = 1615845449,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 356,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615844852,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				7, -- [1]
+				11, -- [2]
+				11, -- [3]
+				9, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -6375,34 +6356,13 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				11, -- [2]
-				11, -- [3]
-				7, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+	}, -- [99]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6424,13 +6384,34 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [100]
-	{
-		["Map"] = 761,
-		["Duration"] = 1047,
-		["Season"] = 30,
-		["Time"] = 1615846647,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 376,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615845449,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				11, -- [2]
+				11, -- [3]
+				7, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -6439,34 +6420,13 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				12, -- [2]
-				12, -- [3]
-				4, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+	}, -- [100]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6488,49 +6448,49 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [101]
-	{
-		["Map"] = 1035,
-		["Duration"] = 140,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
 		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615847603,
-		["isBrawl"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 1047,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615846647,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				3, -- [5]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				11, -- [2]
-				11, -- [3]
-				5, -- [4]
-				4, -- [5]
+				3, -- [1]
+				12, -- [2]
+				12, -- [3]
+				4, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+	}, -- [101]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6552,49 +6512,49 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [102]
-	{
-		["Map"] = 726,
-		["Duration"] = 284,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1615847603,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615848339,
+		["Duration"] = 140,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				1, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				7, -- [1]
+				5, -- [1]
 				11, -- [2]
 				11, -- [3]
-				10, -- [4]
-				3, -- [5]
+				5, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+	}, -- [102]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6616,30 +6576,15 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [103]
-	{
-		["Map"] = 2245,
-		["Duration"] = 219,
+		["Season"] = 30,
+		["Time"] = 1615848339,
+		["PlayersNum"] = 20,
+		["Duration"] = 284,
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 19,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615848705,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -6650,15 +6595,30 @@ REFlexDatabase = {
 				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
+				7, -- [1]
+				11, -- [2]
 				11, -- [3]
-				4, -- [4]
+				10, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [103]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6680,18 +6640,39 @@ REFlexDatabase = {
 				811, -- [17]
 			}, -- [1]
 		},
-	}, -- [104]
-	{
-		["Map"] = 1035,
-		["Duration"] = 185,
+		["Season"] = 30,
+		["Time"] = 1615848705,
+		["PlayersNum"] = 19,
+		["Duration"] = 219,
 		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
 		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				4, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
@@ -6699,30 +6680,9 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615849320,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				6, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
+	}, -- [104]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6744,30 +6704,15 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [105]
-	{
-		["Map"] = 2106,
-		["Duration"] = 1200,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1615849320,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615850667,
+		["Duration"] = 185,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -6779,14 +6724,29 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				2, -- [1]
-				11, -- [2]
-				10, -- [3]
+				6, -- [2]
+				11, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [105]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6808,30 +6768,15 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [106]
-	{
-		["Map"] = 727,
-		["Duration"] = 374,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1615850667,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615851190,
+		["Duration"] = 1200,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -6844,13 +6789,28 @@ REFlexDatabase = {
 			{
 				2, -- [1]
 				11, -- [2]
-				11, -- [3]
+				10, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+	}, -- [106]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6872,30 +6832,15 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [107]
-	{
-		["Map"] = 566,
-		["Duration"] = 226,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1615851190,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615851603,
+		["Duration"] = 374,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -6906,15 +6851,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				5, -- [2]
+				2, -- [1]
+				11, -- [2]
 				11, -- [3]
-				4, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+	}, -- [107]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -6936,30 +6896,15 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [108]
-	{
-		["Map"] = 727,
-		["Duration"] = 485,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1615851603,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615852246,
+		["Duration"] = 226,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -6970,15 +6915,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
-				1, -- [3]
-				2, -- [4]
+				3, -- [1]
+				5, -- [2]
+				11, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [108]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -7000,30 +6960,15 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [109]
-	{
-		["Map"] = 727,
-		["Duration"] = 346,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1615852246,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615852773,
+		["Duration"] = 485,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -7034,15 +6979,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
+				2, -- [1]
+				11, -- [2]
+				1, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [109]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -7064,30 +7024,15 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [110]
-	{
-		["Map"] = 2245,
-		["Duration"] = 251,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1615852773,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615853815,
+		["Duration"] = 346,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -7098,15 +7043,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				5, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				3, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [110]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -7128,30 +7088,15 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [111]
-	{
-		["Map"] = 1035,
-		["Duration"] = 195,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1615853815,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615854185,
+		["Duration"] = 251,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -7162,15 +7107,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				10, -- [2]
+				3, -- [1]
+				5, -- [2]
 				11, -- [3]
-				2, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+	}, -- [111]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -7192,30 +7152,15 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [112]
-	{
-		["Map"] = 2245,
-		["Duration"] = 199,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1615854185,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615857193,
+		["Duration"] = 195,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -7223,18 +7168,33 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
+				2, -- [1]
 				10, -- [2]
 				11, -- [3]
-				6, -- [4]
-				2, -- [5]
+				2, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [112]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -7256,49 +7216,49 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [113]
-	{
-		["Map"] = 726,
-		["Duration"] = 810,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1615857193,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615858160,
+		["Duration"] = 199,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				12, -- [2]
+				6, -- [1]
+				10, -- [2]
 				11, -- [3]
-				5, -- [4]
-				3, -- [5]
+				6, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+	}, -- [113]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -7319,6 +7279,46 @@ REFlexDatabase = {
 				"狂怒", -- [16]
 				812, -- [17]
 			}, -- [1]
+		},
+		["Season"] = 30,
+		["Time"] = 1615858160,
+		["PlayersNum"] = 20,
+		["Duration"] = 810,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				12, -- [2]
+				11, -- [3]
+				5, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
 		},
 	}, -- [114]
 	{
@@ -7728,7 +7728,7 @@ REFlexDatabase = {
 		},
 		["Hidden"] = false,
 		["Map"] = 566,
-		["Season"] = 30,
+		["isArena"] = false,
 		["PlayerSide"] = 1,
 		["Version"] = 313,
 		["isRated"] = true,
@@ -7749,7 +7749,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["isArena"] = false,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -7769,46 +7769,6 @@ REFlexDatabase = {
 	}, -- [115]
 	{
 		["Map"] = 2245,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 194,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615879752,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				8, -- [2]
-				7, -- [3]
-				5, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				11, -- [1]
-				17, -- [2]
-				17, -- [3]
-				14, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -7830,49 +7790,49 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [116]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615879752,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				1, -- [2]
+				0, -- [1]
+				2, -- [2]
 				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 185,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615880251,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				4, -- [4]
+				8, -- [2]
+				7, -- [3]
+				5, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				12, -- [2]
-				12, -- [3]
-				8, -- [4]
+				11, -- [1]
+				17, -- [2]
+				17, -- [3]
+				14, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 194,
+	}, -- [116]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -7894,9 +7854,9 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [117]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615880251,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -7904,39 +7864,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
+				0, -- [1]
+				1, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 654,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615881117,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
 				4, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				5, -- [2]
-				4, -- [3]
-				6, -- [4]
-				4, -- [5]
+				12, -- [2]
+				12, -- [3]
+				8, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 185,
+	}, -- [117]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -7958,9 +7918,9 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [118]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615881117,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -7968,39 +7928,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
+				1, -- [1]
+				0, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 565,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615883869,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
-				3, -- [5]
-			}, -- [1]
-			{
 				3, -- [1]
 				4, -- [2]
-				13, -- [3]
+				4, -- [3]
 				4, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				5, -- [2]
+				4, -- [3]
+				6, -- [4]
 				4, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 654,
+	}, -- [118]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8022,49 +7982,49 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [119]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615883869,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				1, -- [2]
 				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 160,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615884185,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				9, -- [2]
-				11, -- [3]
+				3, -- [1]
+				4, -- [2]
+				13, -- [3]
 				4, -- [4]
-				2, -- [5]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 565,
+	}, -- [119]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8086,30 +8046,26 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [120]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
+		["Time"] = 1615884185,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				3, -- [2]
-				7, -- [3]
+				6, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 253,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615884777,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -8117,18 +8073,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-				3, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				9, -- [2]
 				11, -- [3]
-				1, -- [4]
-				3, -- [5]
+				4, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 160,
+	}, -- [120]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8150,49 +8110,49 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [121]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1615884777,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 542,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615885572,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				4, -- [5]
+				1, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				4, -- [4]
-				5, -- [5]
+				1, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 253,
+	}, -- [121]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8214,49 +8174,49 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [122]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615885572,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 461,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615886319,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				2, -- [4]
-				3, -- [5]
+				4, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				13, -- [2]
-				3, -- [3]
-				3, -- [4]
-				4, -- [5]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
+				5, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 542,
+	}, -- [122]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8278,49 +8238,49 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [123]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1615886319,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				6, -- [3]
-			}, -- [1]
-			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 684,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615887190,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
 			{
 				1, -- [1]
 				1, -- [2]
-				1, -- [3]
-				4, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				11, -- [2]
-				11, -- [3]
-				5, -- [4]
-				3, -- [5]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				13, -- [2]
+				3, -- [3]
+				3, -- [4]
+				4, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 461,
+	}, -- [123]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8342,14 +8302,14 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [124]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615887190,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				2, -- [1]
-				3, -- [2]
-				5, -- [3]
+				2, -- [2]
+				6, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -8358,33 +8318,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 346,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615887864,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				4, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
+				2, -- [1]
 				11, -- [2]
 				11, -- [3]
 				5, -- [4]
-				2, -- [5]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 684,
+	}, -- [124]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8406,49 +8366,49 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [125]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615887864,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				2, -- [1]
+				3, -- [2]
+				5, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 198,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615888519,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				5, -- [1]
-				10, -- [2]
-				10, -- [3]
-				7, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				10, -- [2]
-				10, -- [3]
-				8, -- [4]
-				4, -- [5]
+				4, -- [1]
+				11, -- [2]
+				11, -- [3]
+				5, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 346,
+	}, -- [125]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8470,9 +8430,9 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [126]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615888519,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -8481,38 +8441,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 418,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615889131,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				4, -- [1]
-				4, -- [2]
-				5, -- [3]
-				10, -- [4]
-				6, -- [5]
+				5, -- [1]
+				10, -- [2]
+				10, -- [3]
+				7, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				13, -- [1]
-				14, -- [2]
-				15, -- [3]
-				20, -- [4]
-				13, -- [5]
+				5, -- [1]
+				10, -- [2]
+				10, -- [3]
+				8, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 198,
+	}, -- [126]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8534,13 +8494,13 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [127]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615889131,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
-				2, -- [2]
+				1, -- [1]
+				1, -- [2]
 				8, -- [3]
 			}, -- [1]
 			{
@@ -8550,33 +8510,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 178,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615889629,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				7, -- [2]
-				7, -- [3]
-				5, -- [4]
-				3, -- [5]
+				4, -- [1]
+				4, -- [2]
+				5, -- [3]
+				10, -- [4]
+				6, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				7, -- [2]
-				7, -- [3]
-				6, -- [4]
-				3, -- [5]
+				13, -- [1]
+				14, -- [2]
+				15, -- [3]
+				20, -- [4]
+				13, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 418,
+	}, -- [127]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8598,49 +8558,49 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [128]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615889629,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				1, -- [2]
+				0, -- [1]
+				3, -- [2]
 				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 265,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615890467,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
+				7, -- [2]
+				7, -- [3]
+				5, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
 				2, -- [1]
-				2, -- [2]
-				12, -- [3]
-				5, -- [4]
-				2, -- [5]
+				7, -- [2]
+				7, -- [3]
+				6, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 178,
+	}, -- [128]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8662,9 +8622,9 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [129]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615890467,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -8672,20 +8632,16 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				2, -- [1]
+				1, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 1051,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615891702,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -8696,15 +8652,19 @@ REFlexDatabase = {
 				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				4, -- [2]
+				2, -- [1]
+				2, -- [2]
 				12, -- [3]
-				4, -- [4]
+				5, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 265,
+	}, -- [129]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8726,49 +8686,49 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [130]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615891702,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 340,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615892806,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				11, -- [2]
-				11, -- [3]
-				10, -- [4]
-				4, -- [5]
+				4, -- [2]
+				12, -- [3]
+				4, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 1051,
+	}, -- [130]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8790,9 +8750,9 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [131]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615892806,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -8800,39 +8760,39 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [1]
 			{
-				4, -- [1]
+				1, -- [1]
 				0, -- [2]
-				6, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 221,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615893286,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
+				4, -- [1]
+				11, -- [2]
+				11, -- [3]
+				10, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 340,
+	}, -- [131]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8854,9 +8814,9 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [132]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615893286,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -8864,39 +8824,39 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				4, -- [1]
 				0, -- [2]
-				10, -- [3]
+				6, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 273,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615893960,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				4, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				4, -- [2]
-				4, -- [3]
-				5, -- [4]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 221,
+	}, -- [132]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8918,9 +8878,9 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [133]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615893960,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -8929,38 +8889,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 404,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615894717,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				4, -- [1]
-				1, -- [2]
-				1, -- [3]
+				4, -- [2]
+				4, -- [3]
 				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				1, -- [2]
-				1, -- [3]
-				4, -- [4]
+				4, -- [2]
+				4, -- [3]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 273,
+	}, -- [133]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -8982,9 +8942,9 @@ REFlexDatabase = {
 				812, -- [17]
 			}, -- [1]
 		},
-	}, -- [134]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1615894717,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -8992,39 +8952,39 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 275,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615895393,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				4, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				7, -- [1]
-				10, -- [2]
-				11, -- [3]
-				9, -- [4]
+				4, -- [1]
+				1, -- [2]
+				1, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 404,
+	}, -- [134]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9046,49 +9006,49 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [135]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615895393,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				2, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 234,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615895886,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				3, -- [5]
+				3, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
+				7, -- [1]
+				10, -- [2]
 				11, -- [3]
-				3, -- [4]
-				3, -- [5]
+				9, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 275,
+	}, -- [135]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9110,30 +9070,26 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [136]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1615895886,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 368,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615897009,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -9141,18 +9097,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				2, -- [5]
+				3, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				5, -- [2]
+				2, -- [1]
+				3, -- [2]
 				11, -- [3]
-				5, -- [4]
+				3, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 234,
+	}, -- [136]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9174,30 +9134,26 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [137]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615897009,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 174,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615897847,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -9205,18 +9161,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				11, -- [2]
+				3, -- [1]
+				5, -- [2]
 				11, -- [3]
-				8, -- [4]
+				5, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 368,
+	}, -- [137]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9238,30 +9198,26 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [138]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615897847,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
-			{
-				2, -- [1]
-				1, -- [2]
-				7, -- [3]
-			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 671,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615900888,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -9269,18 +9225,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
+				5, -- [1]
+				11, -- [2]
 				11, -- [3]
-				3, -- [4]
-				2, -- [5]
+				8, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 174,
+	}, -- [138]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9302,30 +9262,26 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [139]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1615900888,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				2, -- [1]
 				1, -- [2]
-				9, -- [3]
+				7, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 463,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615901520,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -9333,18 +9289,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
 				2, -- [1]
-				11, -- [2]
+				3, -- [2]
 				11, -- [3]
-				4, -- [4]
-				1, -- [5]
+				3, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 671,
+	}, -- [139]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9366,9 +9326,9 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [140]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
+		["Time"] = 1615901520,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -9377,19 +9337,15 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 338,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615902139,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -9401,14 +9357,18 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				2, -- [1]
-				4, -- [2]
+				11, -- [2]
 				11, -- [3]
-				3, -- [4]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 463,
+	}, -- [140]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9430,9 +9390,9 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [141]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615902139,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -9446,33 +9406,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 346,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615903774,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				4, -- [2]
 				11, -- [3]
-				1, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 338,
+	}, -- [141]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9494,9 +9454,9 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [142]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1615903774,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -9504,39 +9464,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 473,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615905393,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				10, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				3, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 346,
+	}, -- [142]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9558,49 +9518,49 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [143]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
+		["Time"] = 1615905393,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				1, -- [2]
-				7, -- [3]
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 462,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615906194,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				4, -- [2]
+				2, -- [1]
+				10, -- [2]
 				11, -- [3]
-				4, -- [4]
-				3, -- [5]
+				3, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 473,
+	}, -- [143]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9622,9 +9582,9 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [144]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
+		["Time"] = 1615906194,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -9632,39 +9592,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				2, -- [1]
 				1, -- [2]
-				9, -- [3]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 668,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615907444,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
+				4, -- [1]
+				4, -- [2]
 				11, -- [3]
-				3, -- [4]
-				1, -- [5]
+				4, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 462,
+	}, -- [144]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9686,9 +9646,9 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [145]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615907444,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -9702,33 +9662,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 351,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615908113,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				3, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				2, -- [2]
-				3, -- [3]
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 668,
+	}, -- [145]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9750,9 +9710,9 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [146]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615908113,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -9761,38 +9721,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 208,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615908565,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				2, -- [2]
+				3, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				4, -- [2]
-				11, -- [3]
+				2, -- [2]
+				3, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 351,
+	}, -- [146]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9814,30 +9774,26 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [147]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
+		["Time"] = 1615908565,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 523,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615909292,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -9848,15 +9804,19 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
+				3, -- [1]
+				4, -- [2]
 				11, -- [3]
-				2, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 208,
+	}, -- [147]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9878,9 +9838,9 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [148]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615909292,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -9889,38 +9849,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 950,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615910400,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				4, -- [2]
-				3, -- [3]
-				3, -- [4]
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 523,
+	}, -- [148]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -9942,49 +9902,49 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [149]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615910400,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
+				0, -- [1]
 				1, -- [2]
-				7, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 646,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615911280,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				3, -- [1]
+				4, -- [2]
+				3, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 950,
+	}, -- [149]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10006,9 +9966,9 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [150]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615911280,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -10016,39 +9976,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				2, -- [1]
+				1, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 344,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615911996,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 646,
+	}, -- [150]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10070,49 +10030,49 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [151]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
+		["Time"] = 1615911996,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
 				1, -- [2]
-				9, -- [3]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
 				2, -- [1]
 				1, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 326,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615912540,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				7, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				4, -- [2]
-				11, -- [3]
-				3, -- [4]
-				7, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 344,
+	}, -- [151]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10134,49 +10094,49 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [152]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615912540,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				2, -- [1]
+				1, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 337,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615913132,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				1, -- [5]
+				1, -- [4]
+				7, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				11, -- [2]
+				3, -- [1]
+				4, -- [2]
 				11, -- [3]
-				10, -- [4]
-				1, -- [5]
+				3, -- [4]
+				7, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 326,
+	}, -- [152]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10198,9 +10158,9 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [153]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615913132,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -10209,38 +10169,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 346,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615914260,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
+				6, -- [1]
 				11, -- [2]
 				11, -- [3]
-				3, -- [4]
+				10, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 337,
+	}, -- [153]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10262,9 +10222,9 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [154]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615914260,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -10272,39 +10232,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
+				1, -- [1]
+				0, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 640,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615915160,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
+				11, -- [2]
+				11, -- [3]
+				3, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 346,
+	}, -- [154]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10326,49 +10286,49 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [155]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1615915160,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 394,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615915938,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
-				11, -- [3]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
 				4, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 640,
+	}, -- [155]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10390,9 +10350,9 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [156]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615915938,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -10406,14 +10366,10 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 768,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615916870,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -10421,18 +10377,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
 				11, -- [2]
 				11, -- [3]
 				4, -- [4]
-				3, -- [5]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 394,
+	}, -- [156]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10454,9 +10414,9 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [157]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1615916870,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -10465,38 +10425,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 335,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615917397,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				3, -- [1]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 768,
+	}, -- [157]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10518,49 +10478,49 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [158]
-	{
-		["Map"] = 727,
-		["Duration"] = 483,
 		["Season"] = 30,
-		["Time"] = 1615922328,
+		["Time"] = 1615917397,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				1, -- [2]
 				9, -- [3]
-			}, -- [1]
-			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				4, -- [4]
-				3, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
 		["Hidden"] = false,
+		["Duration"] = 335,
+	}, -- [158]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10582,13 +10542,34 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [159]
-	{
-		["Map"] = 2245,
-		["Duration"] = 930,
-		["Season"] = 30,
-		["Time"] = 1615923589,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 483,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615922328,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				1, -- [2]
+				1, -- [3]
+				4, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -10596,35 +10577,14 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				2, -- [1]
 				0, -- [2]
-				10, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				4, -- [2]
-				2, -- [3]
-				5, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+	}, -- [159]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10646,49 +10606,49 @@ REFlexDatabase = {
 				813, -- [17]
 			}, -- [1]
 		},
-	}, -- [160]
-	{
-		["Map"] = 1035,
-		["Duration"] = 154,
-		["Season"] = 30,
-		["Time"] = 1615924842,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
+		["Duration"] = 930,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615923589,
+		["isRated"] = false,
+		["BGPlace"] = {
 			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				3, -- [1]
+				2, -- [2]
+				2, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
+			{
+				4, -- [1]
+				4, -- [2]
+				2, -- [3]
+				5, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
 			{
 				0, -- [1]
 				1, -- [2]
 				9, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				5, -- [2]
-				11, -- [3]
-				4, -- [4]
-				1, -- [5]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+	}, -- [160]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10710,30 +10670,15 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-	}, -- [161]
-	{
-		["Map"] = 2106,
-		["Duration"] = 277,
-		["Season"] = 30,
-		["Time"] = 1615925305,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
+		["Hidden"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 154,
+		["Season"] = 30,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615924842,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -10741,18 +10686,33 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				11, -- [2]
+				2, -- [1]
+				5, -- [2]
 				11, -- [3]
-				10, -- [4]
-				2, -- [5]
+				4, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [161]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10774,49 +10734,49 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-	}, -- [162]
-	{
-		["Map"] = 1035,
-		["Duration"] = 475,
-		["Season"] = 30,
-		["Time"] = 1615928743,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
+		["Hidden"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 277,
+		["Season"] = 30,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615925305,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				12, -- [2]
-				12, -- [3]
-				5, -- [4]
-				4, -- [5]
+				5, -- [1]
+				11, -- [2]
+				11, -- [3]
+				10, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+	}, -- [162]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10838,13 +10798,34 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-	}, -- [163]
-	{
-		["Map"] = 1035,
-		["Duration"] = 140,
-		["Season"] = 30,
-		["Time"] = 1615929110,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 475,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615928743,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				12, -- [2]
+				12, -- [3]
+				5, -- [4]
+				4, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -10852,35 +10833,14 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				11, -- [2]
-				11, -- [3]
-				5, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+	}, -- [163]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10902,30 +10862,15 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-	}, -- [164]
-	{
-		["Map"] = 2106,
-		["Duration"] = 481,
-		["Season"] = 30,
-		["Time"] = 1615929793,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
+		["Hidden"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 140,
+		["Season"] = 30,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615929110,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -10937,14 +10882,29 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				2, -- [1]
-				3, -- [2]
+				11, -- [2]
 				11, -- [3]
-				3, -- [4]
-				2, -- [5]
+				5, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+	}, -- [164]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -10966,30 +10926,15 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-	}, -- [165]
-	{
-		["Map"] = 2245,
-		["Duration"] = 392,
-		["Season"] = 30,
-		["Time"] = 1615930550,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
+		["Hidden"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 481,
+		["Season"] = 30,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615929793,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -11004,11 +10949,26 @@ REFlexDatabase = {
 				3, -- [2]
 				11, -- [3]
 				3, -- [4]
-				3, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [165]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11030,9 +10990,89 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 392,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1615930550,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				3, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
 	}, -- [166]
 	{
 		["Map"] = 566,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 348,
+		["Season"] = 30,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1615932082,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				4, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11054,49 +11094,49 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1615932082,
-		["PlayersNum"] = 20,
-		["Duration"] = 348,
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				3, -- [2]
-				11, -- [3]
-				4, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
 	}, -- [167]
 	{
 		["Map"] = 566,
+		["Duration"] = 236,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1615935951,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				5, -- [1]
+				10, -- [2]
+				10, -- [3]
+				6, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				10, -- [2]
+				10, -- [3]
+				7, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11118,8 +11158,12 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [168]
+	{
+		["Map"] = 2107,
+		["Duration"] = 168,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -11128,39 +11172,35 @@ REFlexDatabase = {
 				6, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1615935951,
+		["Time"] = 1615936320,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				5, -- [1]
-				10, -- [2]
-				10, -- [3]
-				6, -- [4]
-				1, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				10, -- [2]
-				10, -- [3]
-				7, -- [4]
-				2, -- [5]
+				2, -- [1]
+				8, -- [2]
+				11, -- [3]
+				4, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 236,
-	}, -- [168]
-	{
-		["Map"] = 2107,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11182,8 +11222,12 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [169]
+	{
+		["Map"] = 726,
+		["Duration"] = 498,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -11193,38 +11237,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1615936320,
+		["Time"] = 1615937001,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
+				4, -- [1]
+				10, -- [2]
+				10, -- [3]
+				8, -- [4]
+				8, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				8, -- [2]
-				11, -- [3]
-				4, -- [4]
-				3, -- [5]
+				6, -- [1]
+				19, -- [2]
+				10, -- [3]
+				16, -- [4]
+				17, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 168,
-	}, -- [169]
-	{
-		["Map"] = 726,
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11246,89 +11286,9 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1615937001,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				4, -- [1]
-				10, -- [2]
-				10, -- [3]
-				8, -- [4]
-				8, -- [5]
-			}, -- [1]
-			{
-				6, -- [1]
-				19, -- [2]
-				10, -- [3]
-				16, -- [4]
-				17, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 498,
 	}, -- [170]
 	{
 		["Map"] = 566,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 886,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615947145,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11350,30 +11310,26 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-	}, -- [171]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1615947145,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
-				1, -- [2]
+				1, -- [1]
+				0, -- [2]
 				9, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				2, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 368,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615947891,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -11386,13 +11342,17 @@ REFlexDatabase = {
 			{
 				1, -- [1]
 				1, -- [2]
-				1, -- [3]
+				11, -- [3]
 				1, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 886,
+	}, -- [171]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11414,49 +11374,49 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-	}, -- [172]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1615947891,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				3, -- [1]
-				0, -- [2]
-				7, -- [3]
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 494,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615951182,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				12, -- [2]
-				3, -- [3]
-				7, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 368,
+	}, -- [172]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11478,9 +11438,9 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-	}, -- [173]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1615951182,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -11488,39 +11448,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				3, -- [1]
 				0, -- [2]
-				10, -- [3]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 162,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615951515,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				10, -- [2]
-				11, -- [3]
+				4, -- [1]
+				12, -- [2]
+				3, -- [3]
 				7, -- [4]
-				3, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 494,
+	}, -- [173]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11542,9 +11502,9 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-	}, -- [174]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
+		["Time"] = 1615951515,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -11553,38 +11513,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 422,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1615952248,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				2, -- [4]
-				2, -- [5]
+				3, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
+				5, -- [1]
+				10, -- [2]
+				11, -- [3]
+				7, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 162,
+	}, -- [174]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11606,49 +11566,49 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-	}, -- [175]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1615952248,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["Time"] = 1616009998,
-		["PlayersNum"] = 20,
-		["Duration"] = 626,
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
 				2, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
 				2, -- [1]
-				3, -- [2]
-				11, -- [3]
+				2, -- [2]
+				2, -- [3]
 				3, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
+		["Winner"] = 1,
 		["Hidden"] = false,
+		["Duration"] = 422,
+	}, -- [175]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11670,49 +11630,49 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-	}, -- [176]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
+				1, -- [1]
+				0, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616010611,
-		["PlayersNum"] = 20,
-		["Duration"] = 409,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616009998,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
+				2, -- [1]
 				3, -- [2]
-				2, -- [3]
-				4, -- [4]
+				11, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 626,
+	}, -- [176]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11734,14 +11694,14 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-	}, -- [177]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -11750,33 +11710,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616011628,
-		["PlayersNum"] = 20,
-		["Duration"] = 715,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616010611,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				3, -- [2]
-				3, -- [3]
+				2, -- [2]
+				2, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
 				3, -- [2]
-				3, -- [3]
-				5, -- [4]
+				2, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 409,
+	}, -- [177]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11798,9 +11758,9 @@ REFlexDatabase = {
 				814, -- [17]
 			}, -- [1]
 		},
-	}, -- [178]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -11808,39 +11768,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				2, -- [2]
-				6, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616013473,
-		["PlayersNum"] = 19,
-		["Duration"] = 140,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616011628,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				8, -- [2]
-				10, -- [3]
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
 				5, -- [4]
-				3, -- [5]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 715,
+	}, -- [178]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11862,49 +11822,49 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [179]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 19,
 		["BGComposition"] = {
 			{
-				0, -- [1]
-				1, -- [2]
+				1, -- [1]
+				0, -- [2]
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
-				8, -- [3]
+				1, -- [1]
+				2, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616014082,
-		["PlayersNum"] = 19,
-		["Duration"] = 205,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616013473,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				4, -- [2]
-				3, -- [3]
-				3, -- [4]
-				4, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				13, -- [2]
-				12, -- [3]
-				11, -- [4]
-				4, -- [5]
+				4, -- [1]
+				8, -- [2]
+				10, -- [3]
+				5, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 140,
+	}, -- [179]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11926,49 +11886,49 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [180]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 19,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				0, -- [2]
+				0, -- [1]
+				1, -- [2]
 				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616014681,
-		["PlayersNum"] = 20,
-		["Duration"] = 316,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616014082,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				1, -- [2]
-				1, -- [3]
+				4, -- [2]
+				3, -- [3]
 				3, -- [4]
-				2, -- [5]
+				4, -- [5]
 			}, -- [1]
 			{
-				7, -- [1]
-				10, -- [2]
-				10, -- [3]
-				10, -- [4]
-				3, -- [5]
+				6, -- [1]
+				13, -- [2]
+				12, -- [3]
+				11, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 205,
+	}, -- [180]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -11990,49 +11950,49 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [181]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				3, -- [2]
-				6, -- [3]
+				7, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616015117,
-		["PlayersNum"] = 20,
-		["Duration"] = 245,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616014681,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				5, -- [2]
-				5, -- [3]
-				4, -- [4]
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				8, -- [1]
-				13, -- [2]
-				15, -- [3]
+				7, -- [1]
+				10, -- [2]
+				10, -- [3]
 				10, -- [4]
-				5, -- [5]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 316,
+	}, -- [181]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12054,9 +12014,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [182]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12064,39 +12024,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616015887,
-		["PlayersNum"] = 20,
-		["Duration"] = 565,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616015117,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
+				5, -- [2]
+				5, -- [3]
+				4, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				4, -- [2]
-				4, -- [3]
-				6, -- [4]
-				4, -- [5]
+				8, -- [1]
+				13, -- [2]
+				15, -- [3]
+				10, -- [4]
+				5, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 245,
+	}, -- [182]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12118,9 +12078,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [183]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12128,39 +12088,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616016358,
-		["PlayersNum"] = 20,
-		["Duration"] = 151,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616015887,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				4, -- [4]
-				1, -- [5]
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				6, -- [2]
-				11, -- [3]
-				8, -- [4]
-				1, -- [5]
+				5, -- [1]
+				4, -- [2]
+				4, -- [3]
+				6, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 565,
+	}, -- [183]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12182,9 +12142,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [184]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12198,14 +12158,10 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616016868,
-		["PlayersNum"] = 20,
-		["Duration"] = 355,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616016358,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -12213,18 +12169,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				4, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				11, -- [2]
+				4, -- [1]
+				6, -- [2]
 				11, -- [3]
-				13, -- [4]
-				4, -- [5]
+				8, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 151,
+	}, -- [184]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12246,9 +12206,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [185]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12257,38 +12217,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616017574,
-		["PlayersNum"] = 20,
-		["Duration"] = 434,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616016868,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
 				4, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
 				6, -- [1]
-				9, -- [2]
-				14, -- [3]
-				8, -- [4]
-				5, -- [5]
+				11, -- [2]
+				11, -- [3]
+				13, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 355,
+	}, -- [185]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12310,9 +12270,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [186]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12320,39 +12280,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616017909,
-		["PlayersNum"] = 20,
-		["Duration"] = 160,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616017574,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				3, -- [1]
-				5, -- [2]
-				5, -- [3]
+				4, -- [2]
+				4, -- [3]
 				4, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				5, -- [2]
-				5, -- [3]
-				6, -- [4]
-				2, -- [5]
+				6, -- [1]
+				9, -- [2]
+				14, -- [3]
+				8, -- [4]
+				5, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 434,
+	}, -- [186]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12374,9 +12334,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [187]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12385,38 +12345,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616018259,
-		["PlayersNum"] = 20,
-		["Duration"] = 174,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616017909,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				3, -- [1]
 				5, -- [2]
 				5, -- [3]
-				3, -- [4]
-				1, -- [5]
+				4, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
 				5, -- [2]
 				5, -- [3]
-				4, -- [4]
-				1, -- [5]
+				6, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 160,
+	}, -- [187]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12438,9 +12398,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [188]
-	{
-		["Map"] = 726,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12448,39 +12408,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
+				0, -- [1]
 				1, -- [2]
-				7, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616019328,
-		["PlayersNum"] = 20,
-		["Duration"] = 473,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616018259,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				4, -- [1]
-				7, -- [2]
-				7, -- [3]
-				4, -- [4]
-				2, -- [5]
+				3, -- [1]
+				5, -- [2]
+				5, -- [3]
+				3, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				16, -- [2]
-				17, -- [3]
-				6, -- [4]
-				3, -- [5]
+				3, -- [1]
+				5, -- [2]
+				5, -- [3]
+				4, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 174,
+	}, -- [188]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12502,9 +12462,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [189]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12512,39 +12472,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				2, -- [1]
+				1, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616020283,
-		["PlayersNum"] = 20,
-		["Duration"] = 722,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616019328,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
+				4, -- [1]
+				7, -- [2]
+				7, -- [3]
 				4, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				4, -- [2]
-				2, -- [3]
+				6, -- [1]
+				16, -- [2]
+				17, -- [3]
 				6, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 473,
+	}, -- [189]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12566,9 +12526,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [190]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12576,39 +12536,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616020772,
-		["PlayersNum"] = 20,
-		["Duration"] = 273,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616020283,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				4, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				11, -- [2]
-				11, -- [3]
-				10, -- [4]
-				1, -- [5]
+				3, -- [1]
+				4, -- [2]
+				2, -- [3]
+				6, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 722,
+	}, -- [190]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12630,9 +12590,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [191]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12646,21 +12606,17 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616021895,
-		["PlayersNum"] = 20,
-		["Duration"] = 337,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616020772,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
@@ -12672,7 +12628,11 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 273,
+	}, -- [191]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12694,9 +12654,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [192]
-	{
-		["Map"] = 2107,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12704,20 +12664,16 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				3, -- [2]
-				7, -- [3]
+				6, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616022349,
-		["PlayersNum"] = 20,
-		["Duration"] = 158,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616021895,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -12728,15 +12684,19 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				4, -- [2]
+				6, -- [1]
+				11, -- [2]
 				11, -- [3]
-				5, -- [4]
+				10, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 337,
+	}, -- [192]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12758,9 +12718,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [193]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12769,19 +12729,15 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				0, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616022937,
-		["PlayersNum"] = 10,
-		["Duration"] = 349,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616022349,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -12792,15 +12748,19 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				4, -- [2]
+				11, -- [3]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 158,
+	}, -- [193]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12822,9 +12782,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [194]
-	{
-		["Map"] = 2107,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 10,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12832,39 +12792,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616023314,
-		["PlayersNum"] = 20,
-		["Duration"] = 176,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616022937,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				9, -- [2]
-				11, -- [3]
-				9, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 349,
+	}, -- [194]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12886,9 +12846,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [195]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12897,38 +12857,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616023794,
-		["PlayersNum"] = 20,
-		["Duration"] = 293,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616023314,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
 				6, -- [1]
-				10, -- [2]
-				10, -- [3]
-				7, -- [4]
-				1, -- [5]
+				9, -- [2]
+				11, -- [3]
+				9, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 176,
+	}, -- [195]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -12950,9 +12910,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [196]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12966,14 +12926,10 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616024259,
-		["PlayersNum"] = 20,
-		["Duration"] = 210,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616023794,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -12984,15 +12940,19 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				6, -- [1]
+				10, -- [2]
+				10, -- [3]
+				7, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 293,
+	}, -- [196]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13014,30 +12974,26 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [197]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616024975,
-		["PlayersNum"] = 20,
-		["Duration"] = 329,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616024259,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -13051,12 +13007,16 @@ REFlexDatabase = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 210,
+	}, -- [197]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13078,14 +13038,14 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [198]
-	{
-		["Map"] = 2107,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -13094,33 +13054,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616028193,
-		["PlayersNum"] = 20,
-		["Duration"] = 220,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616024975,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				11, -- [3]
-				3, -- [4]
-				3, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 329,
+	}, -- [198]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13142,9 +13102,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [199]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -13152,20 +13112,16 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616028781,
-		["PlayersNum"] = 20,
-		["Duration"] = 347,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616028193,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -13173,18 +13129,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				3, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				11, -- [2]
+				2, -- [1]
+				2, -- [2]
 				11, -- [3]
-				5, -- [4]
-				5, -- [5]
+				3, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 220,
+	}, -- [199]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13206,9 +13166,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [200]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -13222,33 +13182,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616029621,
-		["PlayersNum"] = 20,
-		["Duration"] = 696,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616028781,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				2, -- [4]
 				3, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				12, -- [3]
-				3, -- [4]
-				3, -- [5]
+				4, -- [1]
+				11, -- [2]
+				11, -- [3]
+				5, -- [4]
+				5, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 347,
+	}, -- [200]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13270,9 +13230,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [201]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -13286,33 +13246,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616030879,
-		["PlayersNum"] = 20,
-		["Duration"] = 1034,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616029621,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
+				2, -- [1]
+				2, -- [2]
+				12, -- [3]
+				3, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 696,
+	}, -- [201]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13334,9 +13294,9 @@ REFlexDatabase = {
 				815, -- [17]
 			}, -- [1]
 		},
-	}, -- [202]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -13344,39 +13304,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
+				1, -- [1]
+				0, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616031723,
-		["PlayersNum"] = 20,
-		["Duration"] = 581,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616030879,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				3, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				4, -- [2]
-				12, -- [3]
-				4, -- [4]
-				4, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 1034,
+	}, -- [202]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13398,9 +13358,9 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-	}, -- [203]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -13414,33 +13374,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616032283,
-		["PlayersNum"] = 20,
-		["Duration"] = 386,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616031723,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [2]
+				2, -- [3]
 				2, -- [4]
-				1, -- [5]
+				3, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				1, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
+				4, -- [1]
+				4, -- [2]
+				12, -- [3]
+				4, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 581,
+	}, -- [203]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13462,9 +13422,9 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-	}, -- [204]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -13473,38 +13433,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616032877,
-		["PlayersNum"] = 20,
-		["Duration"] = 399,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616032283,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				11, -- [3]
-				3, -- [4]
-				2, -- [5]
+				2, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 386,
+	}, -- [204]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13526,49 +13486,49 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-	}, -- [205]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1616033455,
-		["PlayersNum"] = 20,
-		["Duration"] = 286,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616032877,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				1, -- [1]
 				1, -- [2]
 				11, -- [3]
-				1, -- [4]
-				1, -- [5]
+				3, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 399,
+	}, -- [205]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13590,9 +13550,89 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616033455,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 286,
 	}, -- [206]
 	{
 		["Map"] = 2106,
+		["Duration"] = 567,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616053180,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13614,26 +13654,30 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616053180,
+	}, -- [207]
+	{
+		["Map"] = 726,
+		["Duration"] = 434,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
+				1, -- [1]
 				0, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616054482,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -13641,22 +13685,18 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
+				4, -- [1]
 				11, -- [2]
 				11, -- [3]
-				3, -- [4]
-				1, -- [5]
+				7, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 567,
-	}, -- [207]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13678,8 +13718,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616054482,
+	}, -- [208]
+	{
+		["Map"] = 726,
+		["Duration"] = 1201,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -13693,34 +13737,30 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616055884,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				11, -- [2]
+				2, -- [1]
+				10, -- [2]
 				11, -- [3]
-				7, -- [4]
-				3, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 434,
-	}, -- [208]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13742,8 +13782,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616055884,
+	}, -- [209]
+	{
+		["Map"] = 761,
+		["Duration"] = 226,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -13753,15 +13797,15 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616056274,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -13769,22 +13813,18 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				10, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				2, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 1201,
-	}, -- [209]
-	{
-		["Map"] = 761,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13806,8 +13846,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616056274,
+	}, -- [210]
+	{
+		["Map"] = 726,
+		["Duration"] = 461,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -13816,39 +13860,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				0, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616056915,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				11, -- [2]
 				11, -- [3]
-				1, -- [4]
-				1, -- [5]
+				3, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 226,
-	}, -- [210]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13870,8 +13910,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616056915,
+	}, -- [211]
+	{
+		["Map"] = 2245,
+		["Duration"] = 932,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -13880,39 +13924,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				0, -- [2]
+				0, -- [1]
+				2, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616058147,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				3, -- [4]
-				3, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 461,
-	}, -- [211]
-	{
-		["Map"] = 2245,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13934,8 +13974,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616058147,
+	}, -- [212]
+	{
+		["Map"] = 1035,
+		["Duration"] = 480,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -13945,38 +13989,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616058813,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
+				4, -- [1]
+				4, -- [2]
+				4, -- [3]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 932,
-	}, -- [212]
-	{
-		["Map"] = 1035,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -13998,9 +14038,13 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616058813,
-		["PlayersNum"] = 20,
+	}, -- [213]
+	{
+		["Map"] = 1035,
+		["Duration"] = 1206,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 19,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -14010,37 +14054,33 @@ REFlexDatabase = {
 			{
 				0, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616060439,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				4, -- [2]
-				4, -- [3]
-				5, -- [4]
-				1, -- [5]
+				12, -- [2]
+				12, -- [3]
+				4, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 480,
-	}, -- [213]
-	{
-		["Map"] = 1035,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14062,9 +14102,13 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616060439,
-		["PlayersNum"] = 19,
+	}, -- [214]
+	{
+		["Map"] = 566,
+		["Duration"] = 307,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -14072,39 +14116,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616061091,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				12, -- [2]
-				12, -- [3]
-				4, -- [4]
+				2, -- [1]
+				4, -- [2]
+				11, -- [3]
+				3, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 1206,
-	}, -- [214]
-	{
-		["Map"] = 566,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14126,49 +14166,49 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616061091,
+	}, -- [215]
+	{
+		["Map"] = 2106,
+		["Duration"] = 645,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616061977,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				4, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				4, -- [2]
+				4, -- [1]
+				11, -- [2]
 				11, -- [3]
-				3, -- [4]
-				3, -- [5]
+				8, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 307,
-	}, -- [215]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14190,49 +14230,49 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616061977,
+	}, -- [216]
+	{
+		["Map"] = 727,
+		["Duration"] = 346,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616062535,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				4, -- [4]
+				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
+				3, -- [1]
 				11, -- [2]
 				11, -- [3]
-				8, -- [4]
-				4, -- [5]
+				6, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 645,
-	}, -- [216]
-	{
-		["Map"] = 727,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14254,49 +14294,49 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616062535,
+	}, -- [217]
+	{
+		["Map"] = 761,
+		["Duration"] = 173,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616062911,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				4, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				11, -- [2]
-				11, -- [3]
+				5, -- [2]
+				3, -- [3]
 				6, -- [4]
-				3, -- [5]
+				5, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 346,
-	}, -- [217]
-	{
-		["Map"] = 761,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14318,8 +14358,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616062911,
+	}, -- [218]
+	{
+		["Map"] = 2245,
+		["Duration"] = 285,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14328,39 +14372,35 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				2, -- [1]
 				0, -- [2]
-				10, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616063516,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				5, -- [2]
-				3, -- [3]
-				6, -- [4]
-				5, -- [5]
+				4, -- [2]
+				11, -- [3]
+				5, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 173,
-	}, -- [218]
-	{
-		["Map"] = 2245,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14382,8 +14422,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616063516,
+	}, -- [219]
+	{
+		["Map"] = 2107,
+		["Duration"] = 422,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14392,39 +14436,35 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				0, -- [2]
+				0, -- [1]
+				2, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616064196,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
 				3, -- [4]
-				2, -- [5]
+				3, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				4, -- [2]
-				11, -- [3]
+				12, -- [2]
+				13, -- [3]
 				5, -- [4]
-				3, -- [5]
+				5, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 285,
-	}, -- [219]
-	{
-		["Map"] = 2107,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14446,8 +14486,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616064196,
+	}, -- [220]
+	{
+		["Map"] = 2106,
+		["Duration"] = 502,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14457,38 +14501,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616065321,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				4, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				12, -- [2]
-				13, -- [3]
-				5, -- [4]
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				3, -- [4]
 				5, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 422,
-	}, -- [220]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14510,8 +14550,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616065321,
+	}, -- [221]
+	{
+		["Map"] = 727,
+		["Duration"] = 445,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14521,38 +14565,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616066441,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				4, -- [5]
+				1, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				3, -- [4]
-				5, -- [5]
+				1, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 502,
-	}, -- [221]
-	{
-		["Map"] = 727,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14574,8 +14614,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616066441,
+	}, -- [222]
+	{
+		["Map"] = 727,
+		["Duration"] = 418,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14584,16 +14628,16 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616067054,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -14606,17 +14650,13 @@ REFlexDatabase = {
 			{
 				1, -- [1]
 				1, -- [2]
-				11, -- [3]
+				1, -- [3]
 				1, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 445,
-	}, -- [222]
-	{
-		["Map"] = 727,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14638,8 +14678,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616067054,
+	}, -- [223]
+	{
+		["Map"] = 1035,
+		["Duration"] = 545,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14648,39 +14692,35 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616067745,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
+				2, -- [1]
+				4, -- [2]
+				11, -- [3]
+				3, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 418,
-	}, -- [223]
-	{
-		["Map"] = 1035,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14702,8 +14742,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616067745,
+	}, -- [224]
+	{
+		["Map"] = 726,
+		["Duration"] = 774,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14717,34 +14761,30 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616068665,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				4, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				3, -- [4]
-				3, -- [5]
+				1, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 545,
-	}, -- [224]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14766,8 +14806,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616068665,
+	}, -- [225]
+	{
+		["Map"] = 566,
+		["Duration"] = 726,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14777,38 +14821,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
-		["PlayerSide"] = 1,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
+		["Time"] = 1616070055,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				3, -- [1]
+				4, -- [2]
 				11, -- [3]
-				1, -- [4]
+				5, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 774,
-	}, -- [225]
-	{
-		["Map"] = 566,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14830,8 +14870,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616070055,
+	}, -- [226]
+	{
+		["Map"] = 2107,
+		["Duration"] = 1214,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14845,34 +14889,30 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
-		["PlayerSide"] = 0,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616071409,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
 				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				4, -- [2]
-				11, -- [3]
-				5, -- [4]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 726,
-	}, -- [226]
-	{
-		["Map"] = 2107,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14894,8 +14934,12 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616071409,
+	}, -- [227]
+	{
+		["Map"] = 566,
+		["Duration"] = 286,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14905,38 +14949,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1616071836,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
+				3, -- [2]
+				11, -- [3]
+				3, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 1214,
-	}, -- [227]
-	{
-		["Map"] = 566,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -14958,49 +14998,49 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1616071836,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				3, -- [2]
-				11, -- [3]
-				3, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 286,
 	}, -- [228]
 	{
 		["Map"] = 727,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 503,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1616082785,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				3, -- [2]
+				13, -- [3]
+				5, -- [4]
+				4, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15022,49 +15062,49 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 503,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1616082785,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				3, -- [2]
-				13, -- [3]
-				5, -- [4]
-				4, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+	}, -- [229]
+	{
+		["Map"] = 566,
 		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				1, -- [2]
 				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
 			}, -- [2]
 		},
-	}, -- [229]
-	{
-		["Map"] = 566,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 1141,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1616084307,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				7, -- [2]
+				4, -- [3]
+				6, -- [4]
+				5, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15086,49 +15126,49 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 1141,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1616084307,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
-				3, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				7, -- [2]
-				4, -- [3]
-				6, -- [4]
-				5, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+	}, -- [230]
+	{
+		["Map"] = 726,
 		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
 			{
 				0, -- [1]
 				1, -- [2]
 				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-	}, -- [230]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 577,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1616085219,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				4, -- [1]
+				5, -- [2]
+				5, -- [3]
+				5, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				5, -- [2]
+				5, -- [3]
+				8, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15150,34 +15190,9 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 577,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1616085219,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				4, -- [1]
-				5, -- [2]
-				5, -- [3]
-				5, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				5, -- [2]
-				5, -- [3]
-				8, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+	}, -- [231]
+	{
+		["Map"] = 761,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -15185,14 +15200,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-	}, -- [231]
-	{
-		["Map"] = 761,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 597,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1616086205,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15214,34 +15254,9 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 597,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1616086205,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				3, -- [2]
-				11, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+	}, -- [232]
+	{
+		["Map"] = 761,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -15249,14 +15264,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-	}, -- [232]
-	{
-		["Map"] = 761,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 367,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1616086723,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15278,49 +15318,49 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 367,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1616086723,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
 	}, -- [233]
 	{
 		["Map"] = 726,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 295,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1616088177,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				3, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				7, -- [1]
+				9, -- [2]
+				12, -- [3]
+				10, -- [4]
+				6, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15342,49 +15382,49 @@ REFlexDatabase = {
 				816, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 295,
+	}, -- [234]
+	{
+		["Map"] = 726,
+		["Duration"] = 434,
 		["Season"] = 30,
+		["Time"] = 1616102168,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1616088177,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
-				4, -- [5]
+				5, -- [2]
+				3, -- [3]
+				9, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				7, -- [1]
-				9, -- [2]
-				12, -- [3]
-				10, -- [4]
-				6, -- [5]
+				6, -- [1]
+				15, -- [2]
+				13, -- [3]
+				18, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-	}, -- [234]
-	{
-		["Map"] = 726,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15406,13 +15446,17 @@ REFlexDatabase = {
 				817, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [235]
+	{
+		["Map"] = 726,
+		["Duration"] = 457,
+		["Season"] = 30,
+		["Time"] = 1616102867,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				0, -- [2]
+				0, -- [1]
+				1, -- [2]
 				9, -- [3]
 			}, -- [1]
 			{
@@ -15421,34 +15465,30 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1616102168,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				5, -- [2]
-				3, -- [3]
-				9, -- [4]
-				1, -- [5]
+				4, -- [1]
+				10, -- [2]
+				10, -- [3]
+				8, -- [4]
+				4, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				15, -- [2]
-				13, -- [3]
-				18, -- [4]
-				3, -- [5]
+				5, -- [1]
+				12, -- [2]
+				10, -- [3]
+				12, -- [4]
+				7, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 434,
-	}, -- [235]
-	{
-		["Map"] = 726,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15470,49 +15510,49 @@ REFlexDatabase = {
 				817, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1616102867,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				4, -- [1]
-				10, -- [2]
-				10, -- [3]
-				8, -- [4]
-				4, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				12, -- [2]
-				10, -- [3]
-				12, -- [4]
-				7, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 457,
 	}, -- [236]
 	{
 		["Map"] = 727,
+		["Duration"] = 346,
+		["Season"] = 30,
+		["Time"] = 1616103534,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				1, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				6, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				6, -- [1]
+				11, -- [2]
+				11, -- [3]
+				16, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15534,49 +15574,49 @@ REFlexDatabase = {
 				817, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [237]
+	{
+		["Map"] = 727,
+		["Duration"] = 343,
+		["Season"] = 30,
+		["Time"] = 1616104171,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				1, -- [2]
-				7, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1616103534,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				6, -- [4]
+				3, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
+				3, -- [1]
 				11, -- [2]
 				11, -- [3]
-				16, -- [4]
+				7, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 346,
-	}, -- [237]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15598,8 +15638,12 @@ REFlexDatabase = {
 				817, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [238]
+	{
+		["Map"] = 2106,
+		["Duration"] = 463,
+		["Season"] = 30,
+		["Time"] = 1616105449,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -15609,38 +15653,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1616104171,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
+				4, -- [1]
+				6, -- [2]
+				6, -- [3]
+				5, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
-				11, -- [3]
+				5, -- [1]
+				8, -- [2]
+				6, -- [3]
 				7, -- [4]
-				3, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 343,
-	}, -- [238]
-	{
-		["Map"] = 2106,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15662,8 +15702,12 @@ REFlexDatabase = {
 				817, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [239]
+	{
+		["Map"] = 2107,
+		["Duration"] = 227,
+		["Season"] = 30,
+		["Time"] = 1616105895,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -15672,39 +15716,35 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1616105449,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				4, -- [1]
-				6, -- [2]
-				6, -- [3]
-				5, -- [4]
-				1, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				6, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
 				5, -- [1]
-				8, -- [2]
-				6, -- [3]
-				7, -- [4]
-				2, -- [5]
+				10, -- [2]
+				11, -- [3]
+				14, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 463,
-	}, -- [239]
-	{
-		["Map"] = 2107,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15726,8 +15766,12 @@ REFlexDatabase = {
 				817, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [240]
+	{
+		["Map"] = 1035,
+		["Duration"] = 350,
+		["Season"] = 30,
+		["Time"] = 1616107466,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -15741,34 +15785,30 @@ REFlexDatabase = {
 				6, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1616105895,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				6, -- [4]
-				2, -- [5]
+				2, -- [1]
+				5, -- [2]
+				5, -- [3]
+				5, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				10, -- [2]
-				11, -- [3]
-				14, -- [4]
-				3, -- [5]
+				8, -- [1]
+				15, -- [2]
+				15, -- [3]
+				13, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 227,
-	}, -- [240]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15790,8 +15830,12 @@ REFlexDatabase = {
 				817, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [241]
+	{
+		["Map"] = 2245,
+		["Duration"] = 223,
+		["Season"] = 30,
+		["Time"] = 1616108183,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -15805,34 +15849,30 @@ REFlexDatabase = {
 				6, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1616107466,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				5, -- [2]
-				5, -- [3]
-				5, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				8, -- [1]
-				15, -- [2]
-				15, -- [3]
-				13, -- [4]
+				5, -- [1]
+				9, -- [2]
+				11, -- [3]
+				10, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 350,
-	}, -- [241]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15854,8 +15894,12 @@ REFlexDatabase = {
 				817, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [242]
+	{
+		["Map"] = 2245,
+		["Duration"] = 292,
+		["Season"] = 30,
+		["Time"] = 1616108670,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -15865,38 +15909,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1616108183,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				4, -- [4]
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				9, -- [2]
-				11, -- [3]
-				10, -- [4]
-				2, -- [5]
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 223,
-	}, -- [242]
-	{
-		["Map"] = 2245,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -15918,46 +15958,6 @@ REFlexDatabase = {
 				817, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1616108670,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 292,
 	}, -- [243]
 	{
 		["Map"] = 617,
@@ -16077,18 +16077,18 @@ REFlexDatabase = {
 				21, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["PlayersNum"] = 6,
 		["Duration"] = 58,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isArena"] = true,
 		["Time"] = 1616221104,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 0,
+		["Version"] = 313,
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16224,18 +16224,18 @@ REFlexDatabase = {
 				817, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 6,
 		["PlayersNum"] = 6,
 		["Duration"] = 97,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isArena"] = true,
 		["Time"] = 1616221321,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 0,
+		["Version"] = 313,
 		["Winner"] = 0,
-		["PlayerNum"] = 6,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16371,18 +16371,18 @@ REFlexDatabase = {
 				107, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 5,
 		["PlayersNum"] = 6,
 		["Duration"] = 97,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isArena"] = true,
 		["Time"] = 1616221505,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["Winner"] = 0,
-		["PlayerNum"] = 5,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16518,18 +16518,18 @@ REFlexDatabase = {
 				497, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["PlayersNum"] = 6,
 		["Duration"] = 26,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isArena"] = true,
 		["Time"] = 1616221655,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 0,
+		["Version"] = 313,
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16665,18 +16665,18 @@ REFlexDatabase = {
 				107, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 5,
 		["PlayersNum"] = 6,
 		["Duration"] = 185,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isArena"] = true,
 		["Time"] = 1616221929,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["Winner"] = 0,
-		["PlayerNum"] = 5,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16774,18 +16774,18 @@ REFlexDatabase = {
 				65, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 153,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1616222213,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1616222213,
+		["PlayerSide"] = 0,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16883,18 +16883,18 @@ REFlexDatabase = {
 				49, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 60,
-		["PlayerNum"] = 3,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1616222379,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1616222379,
+		["PlayerSide"] = 0,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 3,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16992,18 +16992,18 @@ REFlexDatabase = {
 				10, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 73,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1616222564,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1616222564,
+		["PlayerSide"] = 0,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17101,18 +17101,18 @@ REFlexDatabase = {
 				30, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 100,
-		["PlayerNum"] = 2,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1616222757,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1616222757,
+		["PlayerSide"] = 1,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 2,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17210,18 +17210,18 @@ REFlexDatabase = {
 				818, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 142,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1616222998,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1616222998,
+		["PlayerSide"] = 0,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17319,18 +17319,18 @@ REFlexDatabase = {
 				818, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 92,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1616223189,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1616223189,
+		["PlayerSide"] = 1,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17428,18 +17428,18 @@ REFlexDatabase = {
 				124, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 86,
-		["PlayerNum"] = 2,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1616223372,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1616223372,
+		["PlayerSide"] = 1,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 2,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17537,18 +17537,18 @@ REFlexDatabase = {
 				818, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 74,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1616223533,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1616223533,
+		["PlayerSide"] = 0,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17646,18 +17646,18 @@ REFlexDatabase = {
 				818, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 117,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1616223736,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1616223736,
+		["PlayerSide"] = 1,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17755,18 +17755,18 @@ REFlexDatabase = {
 				818, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 70,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1616223903,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1616223903,
+		["PlayerSide"] = 0,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17786,6 +17786,18 @@ REFlexDatabase = {
 	}, -- [258]
 	{
 		["Map"] = 1552,
+		["Hidden"] = false,
+		["PlayersNum"] = 4,
+		["Duration"] = 39,
+		["Season"] = 30,
+		["PlayerNum"] = 4,
+		["Time"] = 1616305236,
+		["isArena"] = true,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 0,
+		["isBrawl"] = false,
 		["Players"] = {
 			{
 				"月亮是个哑巴-死亡之翼", -- [1]
@@ -17864,21 +17876,21 @@ REFlexDatabase = {
 				818, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 39,
-		["Season"] = 30,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1616305236,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 0,
-		["PlayerNum"] = 4,
-		["Hidden"] = false,
 	}, -- [259]
 	{
 		["Map"] = 572,
+		["Hidden"] = false,
+		["PlayersNum"] = 4,
+		["Duration"] = 16,
+		["Season"] = 30,
+		["PlayerNum"] = 4,
+		["Time"] = 1616305752,
+		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 1,
+		["isBrawl"] = false,
 		["Players"] = {
 			{
 				"嘴炮丶-萨格拉斯", -- [1]
@@ -17957,61 +17969,9 @@ REFlexDatabase = {
 				818, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 16,
-		["Season"] = 30,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1616305752,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 1,
-		["PlayerNum"] = 4,
-		["Hidden"] = false,
 	}, -- [260]
 	{
 		["Map"] = 2107,
-		["Duration"] = 174,
-		["Season"] = 30,
-		["Time"] = 1616607456,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				4, -- [1]
-				7, -- [2]
-				7, -- [3]
-				5, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				8, -- [2]
-				7, -- [3]
-				6, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18033,13 +17993,34 @@ REFlexDatabase = {
 				818, -- [17]
 			}, -- [1]
 		},
-	}, -- [261]
-	{
-		["Map"] = 2106,
-		["Duration"] = 290,
-		["Season"] = 30,
-		["Time"] = 1616608064,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 174,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616607456,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				4, -- [1]
+				7, -- [2]
+				7, -- [3]
+				5, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				8, -- [2]
+				7, -- [3]
+				6, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -18047,35 +18028,14 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				6, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				5, -- [1]
-				9, -- [2]
-				9, -- [3]
-				7, -- [4]
-				3, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				9, -- [2]
-				9, -- [3]
-				9, -- [4]
-				4, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+	}, -- [261]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18097,49 +18057,49 @@ REFlexDatabase = {
 				818, -- [17]
 			}, -- [1]
 		},
-	}, -- [262]
-	{
-		["Map"] = 726,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
 		["Hidden"] = false,
 		["Version"] = 313,
 		["PlayersNum"] = 20,
-		["Duration"] = 361,
+		["Duration"] = 290,
 		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1616620165,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1616608064,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				6, -- [2]
-				5, -- [3]
-				5, -- [4]
-				8, -- [5]
+				5, -- [1]
+				9, -- [2]
+				9, -- [3]
+				7, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				9, -- [1]
-				16, -- [2]
-				15, -- [3]
-				14, -- [4]
-				14, -- [5]
+				5, -- [1]
+				9, -- [2]
+				9, -- [3]
+				9, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
+		["Winner"] = 1,
 		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				2, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+	}, -- [262]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18161,49 +18121,49 @@ REFlexDatabase = {
 				819, -- [17]
 			}, -- [1]
 		},
-	}, -- [263]
-	{
-		["Map"] = 2107,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 341,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1616620698,
+		["Time"] = 1616620165,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
+				3, -- [1]
+				6, -- [2]
+				5, -- [3]
+				5, -- [4]
+				8, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				2, -- [2]
-				11, -- [3]
-				3, -- [4]
-				2, -- [5]
+				9, -- [1]
+				16, -- [2]
+				15, -- [3]
+				14, -- [4]
+				14, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 361,
+	}, -- [263]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18225,29 +18185,25 @@ REFlexDatabase = {
 				819, -- [17]
 			}, -- [1]
 		},
-	}, -- [264]
-	{
-		["Map"] = 566,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
 		["PlayerNum"] = 1,
 		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
-		["Duration"] = 615,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
 		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617411401,
 		["isBrawl"] = false,
+		["Time"] = 1616620698,
+		["isArena"] = false,
 		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
@@ -18255,19 +18211,23 @@ REFlexDatabase = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				4, -- [4]
-				3, -- [5]
+				2, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				4, -- [2]
+				1, -- [1]
+				2, -- [2]
 				11, -- [3]
-				7, -- [4]
-				5, -- [5]
+				3, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
 		["Season"] = 30,
+		["Duration"] = 341,
+	}, -- [264]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18289,13 +18249,13 @@ REFlexDatabase = {
 				824, -- [17]
 			}, -- [1]
 		},
-	}, -- [265]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1617411401,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				0, -- [2]
+				0, -- [1]
+				1, -- [2]
 				9, -- [3]
 			}, -- [1]
 			{
@@ -18305,33 +18265,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 437,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617412031,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				6, -- [1]
-				9, -- [2]
-				9, -- [3]
-				8, -- [4]
-				6, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				4, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				9, -- [1]
-				12, -- [2]
-				9, -- [3]
-				11, -- [4]
-				9, -- [5]
+				4, -- [1]
+				4, -- [2]
+				11, -- [3]
+				7, -- [4]
+				5, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 615,
+	}, -- [265]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18353,49 +18313,49 @@ REFlexDatabase = {
 				824, -- [17]
 			}, -- [1]
 		},
-	}, -- [266]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1617412031,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 668,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617417357,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				2, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
+				6, -- [1]
+				9, -- [2]
+				9, -- [3]
+				8, -- [4]
+				6, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				2, -- [2]
-				3, -- [3]
-				4, -- [4]
-				5, -- [5]
+				9, -- [1]
+				12, -- [2]
+				9, -- [3]
+				11, -- [4]
+				9, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 437,
+	}, -- [266]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18417,9 +18377,9 @@ REFlexDatabase = {
 				825, -- [17]
 			}, -- [1]
 		},
-	}, -- [267]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1617417357,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -18427,39 +18387,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 192,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617418021,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
+				3, -- [1]
+				2, -- [2]
+				3, -- [3]
+				3, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
-				2, -- [5]
+				3, -- [1]
+				2, -- [2]
+				3, -- [3]
+				4, -- [4]
+				5, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 668,
+	}, -- [267]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18481,9 +18441,9 @@ REFlexDatabase = {
 				825, -- [17]
 			}, -- [1]
 		},
-	}, -- [268]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
+		["Time"] = 1617418021,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -18492,19 +18452,15 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 510,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617418683,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -18512,18 +18468,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-				3, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				3, -- [4]
-				4, -- [5]
+				1, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 192,
+	}, -- [268]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18545,30 +18505,26 @@ REFlexDatabase = {
 				825, -- [17]
 			}, -- [1]
 		},
-	}, -- [269]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
+		["Time"] = 1617418683,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				1, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 572,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617419594,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -18580,14 +18536,18 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				3, -- [1]
-				3, -- [2]
+				11, -- [2]
 				11, -- [3]
 				3, -- [4]
-				3, -- [5]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 510,
+	}, -- [269]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18609,30 +18569,26 @@ REFlexDatabase = {
 				825, -- [17]
 			}, -- [1]
 		},
-	}, -- [270]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1617419594,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				2, -- [2]
+				7, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				0, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 10,
-		["Duration"] = 603,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617420401,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -18640,18 +18596,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-				2, -- [5]
+				3, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
+				3, -- [1]
+				3, -- [2]
+				11, -- [3]
+				3, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 572,
+	}, -- [270]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18673,9 +18633,9 @@ REFlexDatabase = {
 				825, -- [17]
 			}, -- [1]
 		},
-	}, -- [271]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
+		["Time"] = 1617420401,
+		["PlayersNum"] = 10,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -18684,38 +18644,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				0, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 208,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617420875,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				3, -- [5]
+				1, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				11, -- [3]
-				3, -- [4]
-				4, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 603,
+	}, -- [271]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18737,29 +18697,25 @@ REFlexDatabase = {
 				825, -- [17]
 			}, -- [1]
 		},
-	}, -- [272]
-	{
-		["Map"] = 2106,
-		["Duration"] = 248,
 		["Season"] = 30,
-		["Time"] = 1617766296,
+		["Time"] = 1617420875,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
 		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
@@ -18767,19 +18723,23 @@ REFlexDatabase = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
-				4, -- [5]
+				2, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				7, -- [1]
-				11, -- [2]
+				2, -- [1]
+				2, -- [2]
 				11, -- [3]
-				10, -- [4]
-				7, -- [5]
+				3, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
 		["Hidden"] = false,
+		["Duration"] = 208,
+	}, -- [272]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18801,49 +18761,49 @@ REFlexDatabase = {
 				834, -- [17]
 			}, -- [1]
 		},
-	}, -- [273]
-	{
-		["Map"] = 2106,
-		["Duration"] = 516,
-		["Season"] = 30,
-		["Time"] = 1617766997,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
+		["Hidden"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 248,
+		["Season"] = 30,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1617766296,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				4, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
-				5, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				4, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				4, -- [2]
-				4, -- [3]
-				8, -- [4]
-				8, -- [5]
+				7, -- [1]
+				11, -- [2]
+				11, -- [3]
+				10, -- [4]
+				7, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [273]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18865,13 +18825,34 @@ REFlexDatabase = {
 				835, -- [17]
 			}, -- [1]
 		},
-	}, -- [274]
-	{
-		["Map"] = 2245,
-		["Duration"] = 830,
-		["Season"] = 30,
-		["Time"] = 1617768016,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
+		["Duration"] = 516,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1617766997,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				4, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
+				5, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				4, -- [2]
+				4, -- [3]
+				8, -- [4]
+				8, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -18879,35 +18860,14 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				4, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
-				4, -- [5]
-			}, -- [1]
-			{
-				6, -- [1]
-				5, -- [2]
-				12, -- [3]
-				6, -- [4]
-				6, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+	}, -- [274]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18929,9 +18889,89 @@ REFlexDatabase = {
 				835, -- [17]
 			}, -- [1]
 		},
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 830,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1617768016,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				4, -- [1]
+				3, -- [2]
+				3, -- [3]
+				4, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				6, -- [1]
+				5, -- [2]
+				12, -- [3]
+				6, -- [4]
+				6, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
 	}, -- [275]
 	{
 		["Map"] = 2245,
+		["Duration"] = 655,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1617904020,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				12, -- [2]
+				11, -- [3]
+				4, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -18953,49 +18993,49 @@ REFlexDatabase = {
 				836, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [276]
+	{
+		["Map"] = 2245,
+		["Duration"] = 236,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [1]
 			{
 				0, -- [1]
 				3, -- [2]
 				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1617904020,
+		["Time"] = 1617904464,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
+				1, -- [1]
+				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				12, -- [2]
-				11, -- [3]
-				4, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 655,
-	}, -- [276]
-	{
-		["Map"] = 2245,
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -19017,26 +19057,30 @@ REFlexDatabase = {
 				836, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [277]
+	{
+		["Map"] = 727,
+		["Duration"] = 346,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
+				1, -- [1]
+				0, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1617904464,
+		["Time"] = 1617904996,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -19047,19 +19091,15 @@ REFlexDatabase = {
 				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
+				2, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 236,
-	}, -- [277]
-	{
-		["Map"] = 727,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -19081,8 +19121,12 @@ REFlexDatabase = {
 				836, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [278]
+	{
+		["Map"] = 2107,
+		["Duration"] = 294,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -19091,16 +19135,16 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
+				0, -- [1]
+				1, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1617904996,
+		["Time"] = 1617905488,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -19111,19 +19155,15 @@ REFlexDatabase = {
 				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
+				3, -- [1]
+				3, -- [2]
 				11, -- [3]
-				2, -- [4]
+				3, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 346,
-	}, -- [278]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -19145,8 +19185,12 @@ REFlexDatabase = {
 				836, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [279]
+	{
+		["Map"] = 2106,
+		["Duration"] = 503,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -19156,15 +19200,15 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1617905488,
+		["Time"] = 1617906223,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -19175,19 +19219,15 @@ REFlexDatabase = {
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
-				11, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 294,
-	}, -- [279]
-	{
-		["Map"] = 2106,
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -19209,8 +19249,12 @@ REFlexDatabase = {
 				836, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [280]
+	{
+		["Map"] = 2106,
+		["Duration"] = 588,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -19220,38 +19264,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1617906223,
+		["Time"] = 1617907140,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				3, -- [1]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 503,
-	}, -- [280]
-	{
-		["Map"] = 2106,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -19273,49 +19313,49 @@ REFlexDatabase = {
 				836, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [281]
+	{
+		["Map"] = 2107,
+		["Duration"] = 532,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1617907140,
+		["Time"] = 1617908341,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
+				2, -- [1]
 				11, -- [2]
 				11, -- [3]
-				4, -- [4]
-				2, -- [5]
+				3, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 588,
-	}, -- [281]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -19337,14 +19377,18 @@ REFlexDatabase = {
 				836, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [282]
+	{
+		["Map"] = 1035,
+		["Duration"] = 165,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -19352,34 +19396,30 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1617908341,
+		["Time"] = 1617910083,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
-				11, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 532,
-	}, -- [282]
-	{
-		["Map"] = 1035,
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -19401,9 +19441,13 @@ REFlexDatabase = {
 				836, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
+	}, -- [283]
+	{
+		["Map"] = 761,
+		["Duration"] = 155,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 11,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -19413,14 +19457,14 @@ REFlexDatabase = {
 			{
 				0, -- [1]
 				0, -- [2]
-				10, -- [3]
+				1, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1617910083,
+		["Time"] = 1617910525,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -19434,16 +19478,12 @@ REFlexDatabase = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 165,
-	}, -- [283]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -19465,9 +19505,13 @@ REFlexDatabase = {
 				836, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 11,
+	}, -- [284]
+	{
+		["Map"] = 1035,
+		["Duration"] = 200,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -19475,16 +19519,16 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				1, -- [3]
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1617910525,
+		["Time"] = 1617911088,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -19492,22 +19536,18 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [1]
+				7, -- [2]
+				11, -- [3]
+				2, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 155,
-	}, -- [284]
-	{
-		["Map"] = 1035,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -19529,49 +19569,49 @@ REFlexDatabase = {
 				837, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1617911088,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				7, -- [2]
-				11, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 200,
 	}, -- [285]
 	{
 		["Map"] = 566,
+		["Duration"] = 284,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				3, -- [1]
+				0, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1617911730,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				4, -- [1]
+				6, -- [2]
+				6, -- [3]
+				4, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				6, -- [1]
+				8, -- [2]
+				6, -- [3]
+				8, -- [4]
+				7, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -19593,49 +19633,49 @@ REFlexDatabase = {
 				837, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				3, -- [1]
-				0, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1617911730,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				4, -- [1]
-				6, -- [2]
-				6, -- [3]
-				4, -- [4]
-				4, -- [5]
-			}, -- [1]
-			{
-				6, -- [1]
-				8, -- [2]
-				6, -- [3]
-				8, -- [4]
-				7, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 284,
 	}, -- [286]
 	{
 		["Map"] = 566,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 298,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1618189467,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				4, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				6, -- [2]
+				13, -- [3]
+				6, -- [4]
+				4, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -19657,34 +19697,9 @@ REFlexDatabase = {
 				843, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 298,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1618189467,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				6, -- [2]
-				13, -- [3]
-				6, -- [4]
-				4, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+	}, -- [287]
+	{
+		["Map"] = 2106,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -19693,13 +19708,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-	}, -- [287]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 352,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1618190058,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				13, -- [2]
+				13, -- [3]
+				6, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -19720,46 +19760,6 @@ REFlexDatabase = {
 				"狂怒", -- [16]
 				843, -- [17]
 			}, -- [1]
-		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 352,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1618190058,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				13, -- [2]
-				13, -- [3]
-				6, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
 		},
 	}, -- [288]
 	{
@@ -20167,7 +20167,7 @@ REFlexDatabase = {
 		},
 		["Hidden"] = false,
 		["Map"] = 727,
-		["isArena"] = false,
+		["Season"] = 30,
 		["PlayerSide"] = 1,
 		["Version"] = 313,
 		["isRated"] = true,
@@ -20188,7 +20188,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["isArena"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -20208,46 +20208,6 @@ REFlexDatabase = {
 	}, -- [289]
 	{
 		["Map"] = 726,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["Time"] = 1618906356,
-		["PlayersNum"] = 20,
-		["Duration"] = 355,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -20269,9 +20229,9 @@ REFlexDatabase = {
 				852, -- [17]
 			}, -- [1]
 		},
-	}, -- [290]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -20281,37 +20241,37 @@ REFlexDatabase = {
 			{
 				0, -- [1]
 				0, -- [2]
-				1, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618907190,
-		["PlayersNum"] = 11,
-		["Duration"] = 389,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618906356,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 355,
+	}, -- [290]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -20333,9 +20293,9 @@ REFlexDatabase = {
 				852, -- [17]
 			}, -- [1]
 		},
-	}, -- [291]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 11,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -20343,39 +20303,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
+				0, -- [1]
 				0, -- [2]
-				8, -- [3]
+				1, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618907899,
-		["PlayersNum"] = 20,
-		["Duration"] = 565,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["PlayerSide"] = 0,
+		["isArena"] = false,
+		["Time"] = 1618907190,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				10, -- [2]
-				10, -- [3]
-				3, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				20, -- [2]
-				20, -- [3]
-				7, -- [4]
-				4, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 389,
+	}, -- [291]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -20397,9 +20357,9 @@ REFlexDatabase = {
 				852, -- [17]
 			}, -- [1]
 		},
-	}, -- [292]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -20407,39 +20367,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				2, -- [1]
 				0, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618908530,
-		["PlayersNum"] = 20,
-		["Duration"] = 415,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618907899,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
+				2, -- [1]
+				10, -- [2]
+				10, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				4, -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
+				5, -- [1]
+				20, -- [2]
+				20, -- [3]
+				7, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 565,
+	}, -- [292]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -20461,9 +20421,9 @@ REFlexDatabase = {
 				852, -- [17]
 			}, -- [1]
 		},
-	}, -- [293]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -20471,20 +20431,16 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618908907,
-		["PlayersNum"] = 20,
-		["Duration"] = 159,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618908530,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -20496,14 +20452,18 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				3, -- [1]
-				6, -- [2]
-				11, -- [3]
-				4, -- [4]
+				4, -- [2]
+				1, -- [3]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 415,
+	}, -- [293]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -20525,9 +20485,9 @@ REFlexDatabase = {
 				852, -- [17]
 			}, -- [1]
 		},
-	}, -- [294]
-	{
-		["Map"] = 2107,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -20535,39 +20495,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618909413,
-		["PlayersNum"] = 20,
-		["Duration"] = 336,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618908907,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				3, -- [1]
+				6, -- [2]
+				11, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 159,
+	}, -- [294]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -20589,9 +20549,9 @@ REFlexDatabase = {
 				852, -- [17]
 			}, -- [1]
 		},
-	}, -- [295]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -20600,38 +20560,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618910688,
-		["PlayersNum"] = 20,
-		["Duration"] = 1094,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618909413,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
+				2, -- [1]
 				3, -- [2]
 				3, -- [3]
 				3, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
+				2, -- [1]
 				3, -- [2]
-				13, -- [3]
-				5, -- [4]
-				3, -- [5]
+				3, -- [3]
+				3, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 336,
+	}, -- [295]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -20653,9 +20613,9 @@ REFlexDatabase = {
 				852, -- [17]
 			}, -- [1]
 		},
-	}, -- [296]
-	{
-		["Map"] = 726,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -20663,39 +20623,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
+				1, -- [1]
 				2, -- [2]
-				6, -- [3]
+				7, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618911856,
-		["PlayersNum"] = 20,
-		["Duration"] = 448,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618910688,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
+				3, -- [1]
 				3, -- [2]
 				3, -- [3]
 				3, -- [4]
-				1, -- [5]
+				2, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				3, -- [2]
+				13, -- [3]
+				5, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 1094,
+	}, -- [296]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -20717,9 +20677,9 @@ REFlexDatabase = {
 				852, -- [17]
 			}, -- [1]
 		},
-	}, -- [297]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -20727,39 +20687,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [1]
+				2, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618913124,
-		["PlayersNum"] = 20,
-		["Duration"] = 1119,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618911856,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
 				3, -- [2]
 				3, -- [3]
-				3, -- [4]
-				2, -- [5]
+				2, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				5, -- [2]
-				4, -- [3]
-				5, -- [4]
-				3, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 448,
+	}, -- [297]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -20781,9 +20741,9 @@ REFlexDatabase = {
 				852, -- [17]
 			}, -- [1]
 		},
-	}, -- [298]
-	{
-		["Map"] = 726,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -20791,39 +20751,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				6, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618914529,
-		["PlayersNum"] = 20,
-		["Duration"] = 1200,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618913124,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
 				3, -- [2]
 				3, -- [3]
-				2, -- [4]
+				3, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				4, -- [2]
-				6, -- [3]
+				4, -- [1]
+				5, -- [2]
+				4, -- [3]
 				5, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 255,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 1119,
+	}, -- [298]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -20845,49 +20805,49 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [299]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["Time"] = 1618915021,
-		["PlayersNum"] = 20,
-		["Duration"] = 214,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
 			}, -- [1]
 			{
 				2, -- [1]
-				3, -- [2]
-				11, -- [3]
-				3, -- [4]
-				1, -- [5]
+				2, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618914529,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				4, -- [2]
+				6, -- [3]
+				5, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 255,
+		["PlayerNum"] = 1,
+		["Duration"] = 1200,
+	}, -- [299]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -20909,49 +20869,49 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [300]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618915498,
-		["PlayersNum"] = 20,
-		["Duration"] = 249,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618915021,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				2, -- [1]
 				3, -- [2]
-				3, -- [3]
-				4, -- [4]
+				11, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 214,
+	}, -- [300]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -20973,9 +20933,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [301]
-	{
-		["Map"] = 726,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -20983,39 +20943,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
+				1, -- [1]
+				1, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618916545,
-		["PlayersNum"] = 20,
-		["Duration"] = 850,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618915498,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				1, -- [2]
-				1, -- [3]
+				3, -- [2]
+				3, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
-				11, -- [3]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
 				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 249,
+	}, -- [301]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21037,9 +20997,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [302]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -21047,39 +21007,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				2, -- [2]
-				7, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618917200,
-		["PlayersNum"] = 20,
-		["Duration"] = 418,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618916545,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
 				3, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
+				3, -- [1]
 				11, -- [2]
 				11, -- [3]
-				5, -- [4]
-				3, -- [5]
+				4, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 850,
+	}, -- [302]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21101,9 +21061,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [303]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -21111,39 +21071,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618918072,
-		["PlayersNum"] = 20,
-		["Duration"] = 624,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618917200,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				3, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				1, -- [2]
-				1, -- [3]
-				4, -- [4]
-				2, -- [5]
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
+				5, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 418,
+	}, -- [303]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21165,9 +21125,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [304]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -21175,39 +21135,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618918412,
-		["PlayersNum"] = 20,
-		["Duration"] = 193,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618918072,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
 				3, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
-				11, -- [3]
+				3, -- [1]
+				1, -- [2]
+				1, -- [3]
 				4, -- [4]
-				3, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 624,
+	}, -- [304]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21229,9 +21189,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [305]
-	{
-		["Map"] = 726,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -21240,38 +21200,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618919182,
-		["PlayersNum"] = 20,
-		["Duration"] = 563,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618918412,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				4, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 193,
+	}, -- [305]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21293,9 +21253,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [306]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -21304,38 +21264,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618920071,
-		["PlayersNum"] = 20,
-		["Duration"] = 325,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618919182,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 563,
+	}, -- [306]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21357,49 +21317,49 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [307]
-	{
-		["Map"] = 726,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618920694,
-		["PlayersNum"] = 19,
-		["Duration"] = 352,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618920071,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
-				11, -- [3]
-				5, -- [4]
-				1, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				4, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 325,
+	}, -- [307]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21421,30 +21381,26 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [308]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 19,
 		["BGComposition"] = {
 			{
 				0, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618921672,
-		["PlayersNum"] = 20,
-		["Duration"] = 575,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618920694,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -21455,7 +21411,7 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
+				3, -- [1]
 				11, -- [2]
 				11, -- [3]
 				5, -- [4]
@@ -21463,7 +21419,11 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 352,
+	}, -- [308]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21485,9 +21445,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [309]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -21496,38 +21456,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618922994,
-		["PlayersNum"] = 20,
-		["Duration"] = 1099,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618921672,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				4, -- [2]
-				3, -- [3]
-				6, -- [4]
-				2, -- [5]
+				11, -- [2]
+				11, -- [3]
+				5, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 575,
+	}, -- [309]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21549,9 +21509,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [310]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -21560,19 +21520,15 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618924352,
-		["PlayersNum"] = 20,
-		["Duration"] = 1135,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618922994,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -21580,18 +21536,22 @@ REFlexDatabase = {
 				3, -- [2]
 				3, -- [3]
 				3, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				5, -- [2]
-				13, -- [3]
-				5, -- [4]
-				3, -- [5]
+				4, -- [2]
+				3, -- [3]
+				6, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 1099,
+	}, -- [310]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21613,9 +21573,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [311]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -21623,39 +21583,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618925035,
-		["PlayersNum"] = 20,
-		["Duration"] = 447,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618924352,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				2, -- [2]
+				3, -- [2]
 				3, -- [3]
 				3, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				2, -- [2]
-				3, -- [3]
-				4, -- [4]
+				4, -- [1]
+				5, -- [2]
+				13, -- [3]
+				5, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 1135,
+	}, -- [311]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21677,49 +21637,49 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [312]
-	{
-		["Map"] = 2107,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
 				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
 				10, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["Time"] = 1618925455,
-		["PlayersNum"] = 19,
-		["Duration"] = 279,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
+			}, -- [1]
 			{
 				1, -- [1]
 				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618925035,
+		["isRated"] = false,
+		["BGPlace"] = {
 			{
 				2, -- [1]
 				2, -- [2]
-				11, -- [3]
+				3, -- [3]
 				3, -- [4]
-				1, -- [5]
+				2, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				2, -- [2]
+				3, -- [3]
+				4, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 447,
+	}, -- [312]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21741,49 +21701,49 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [313]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 19,
 		["BGComposition"] = {
 			{
 				0, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618926156,
-		["PlayersNum"] = 20,
-		["Duration"] = 410,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618925455,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				11, -- [2]
+				2, -- [1]
+				2, -- [2]
 				11, -- [3]
-				4, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 279,
+	}, -- [313]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21805,9 +21765,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [314]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -21815,39 +21775,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618927023,
-		["PlayersNum"] = 20,
-		["Duration"] = 567,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618926156,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
+				4, -- [1]
+				11, -- [2]
+				11, -- [3]
 				4, -- [4]
-				3, -- [5]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 410,
+	}, -- [314]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21869,9 +21829,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [315]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -21879,39 +21839,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618927861,
-		["PlayersNum"] = 20,
-		["Duration"] = 602,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618927023,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
-				11, -- [3]
-				3, -- [4]
-				1, -- [5]
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
+				4, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 567,
+	}, -- [315]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21933,9 +21893,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [316]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -21943,39 +21903,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618928722,
-		["PlayersNum"] = 20,
-		["Duration"] = 696,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618927861,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				11, -- [2]
 				11, -- [3]
-				1, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 602,
+	}, -- [316]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -21997,9 +21957,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [317]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -22013,33 +21973,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618929548,
-		["PlayersNum"] = 20,
-		["Duration"] = 662,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618928722,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
-				3, -- [5]
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 696,
+	}, -- [317]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22061,9 +22021,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [318]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -22072,19 +22032,15 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618930315,
-		["PlayersNum"] = 20,
-		["Duration"] = 623,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618929548,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -22092,18 +22048,22 @@ REFlexDatabase = {
 				3, -- [2]
 				3, -- [3]
 				3, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				5, -- [2]
-				13, -- [3]
-				5, -- [4]
-				2, -- [5]
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
+				4, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 662,
+	}, -- [318]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22125,49 +22085,49 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [319]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
-				8, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618931282,
-		["PlayersNum"] = 18,
-		["Duration"] = 639,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618930315,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				10, -- [3]
-				1, -- [4]
-				1, -- [5]
+				4, -- [1]
+				5, -- [2]
+				13, -- [3]
+				5, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 623,
+	}, -- [319]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22189,49 +22149,49 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [320]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 18,
 		["BGComposition"] = {
 			{
 				0, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618931786,
-		["PlayersNum"] = 20,
-		["Duration"] = 325,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618931282,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				5, -- [2]
-				13, -- [3]
-				5, -- [4]
-				3, -- [5]
+				1, -- [1]
+				1, -- [2]
+				10, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 639,
+	}, -- [320]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22253,9 +22213,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [321]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -22263,20 +22223,16 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618933018,
-		["PlayersNum"] = 20,
-		["Duration"] = 830,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618931786,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -22284,18 +22240,22 @@ REFlexDatabase = {
 				3, -- [2]
 				3, -- [3]
 				3, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				4, -- [2]
-				3, -- [3]
+				4, -- [1]
+				5, -- [2]
+				13, -- [3]
 				5, -- [4]
-				1, -- [5]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 325,
+	}, -- [321]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22317,9 +22277,9 @@ REFlexDatabase = {
 				853, -- [17]
 			}, -- [1]
 		},
-	}, -- [322]
-	{
-		["Map"] = 2107,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -22333,33 +22293,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618933558,
-		["PlayersNum"] = 20,
-		["Duration"] = 209,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["PlayerSide"] = 0,
+		["isArena"] = false,
+		["Time"] = 1618933018,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
 				4, -- [2]
-				11, -- [3]
-				4, -- [4]
+				3, -- [3]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 830,
+	}, -- [322]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22381,9 +22341,9 @@ REFlexDatabase = {
 				854, -- [17]
 			}, -- [1]
 		},
-	}, -- [323]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -22391,20 +22351,16 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618934059,
-		["PlayersNum"] = 20,
-		["Duration"] = 189,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618933558,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -22412,18 +22368,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
+				3, -- [1]
+				4, -- [2]
 				11, -- [3]
-				3, -- [4]
-				2, -- [5]
+				4, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 209,
+	}, -- [323]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22445,9 +22405,9 @@ REFlexDatabase = {
 				854, -- [17]
 			}, -- [1]
 		},
-	}, -- [324]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -22456,38 +22416,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618934544,
-		["PlayersNum"] = 20,
-		["Duration"] = 213,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618934059,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
+				3, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 189,
+	}, -- [324]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22509,21 +22469,49 @@ REFlexDatabase = {
 				854, -- [17]
 			}, -- [1]
 		},
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618934544,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 213,
 	}, -- [325]
 	{
 		["Map"] = 2373,
-		["Season"] = 30,
-		["PlayersNum"] = 4,
-		["Duration"] = 56,
-		["Hidden"] = false,
-		["PlayerNum"] = 1,
-		["Time"] = 1618990911,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 0,
-		["isArena"] = true,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22602,21 +22590,21 @@ REFlexDatabase = {
 				40, -- [17]
 			}, -- [4]
 		},
+		["PlayersNum"] = 4,
+		["Duration"] = 56,
+		["Season"] = 30,
+		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
+		["Time"] = 1618990911,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Hidden"] = false,
 	}, -- [326]
 	{
 		["Map"] = 1504,
-		["Season"] = 30,
-		["PlayersNum"] = 4,
-		["Duration"] = 156,
-		["Hidden"] = false,
-		["PlayerNum"] = 4,
-		["Time"] = 1618991500,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 1,
-		["isArena"] = true,
 		["Players"] = {
 			{
 				"奈瓦辛里-奥特兰克", -- [1]
@@ -22695,9 +22683,61 @@ REFlexDatabase = {
 				854, -- [17]
 			}, -- [4]
 		},
+		["PlayersNum"] = 4,
+		["Duration"] = 156,
+		["Season"] = 30,
+		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
+		["Time"] = 1618991500,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 1,
+		["PlayerNum"] = 4,
+		["Hidden"] = false,
 	}, -- [327]
 	{
 		["Map"] = 566,
+		["BGComposition"] = {
+			{
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 239,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619190558,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22719,49 +22759,49 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 239,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619190558,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
 	}, -- [328]
 	{
 		["Map"] = 2245,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 645,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619191392,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				4, -- [2]
+				11, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22783,49 +22823,49 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 645,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619191392,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				4, -- [2]
-				11, -- [3]
-				4, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
 	}, -- [329]
 	{
 		["Map"] = 761,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 308,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619191968,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22847,15 +22887,30 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 308,
-		["Season"] = 30,
-		["isBrawl"] = false,
+	}, -- [330]
+	{
+		["Map"] = 566,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 1096,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619191968,
+		["Time"] = 1619193299,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -22866,30 +22921,15 @@ REFlexDatabase = {
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
+				5, -- [1]
+				7, -- [2]
+				14, -- [3]
+				6, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-	}, -- [330]
-	{
-		["Map"] = 566,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22911,49 +22951,49 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 1096,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619193299,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				7, -- [2]
-				14, -- [3]
-				6, -- [4]
-				4, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+	}, -- [331]
+	{
+		["Map"] = 727,
 		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
 			{
 				1, -- [1]
 				0, -- [2]
 				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
 			}, -- [2]
 		},
-	}, -- [331]
-	{
-		["Map"] = 727,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 346,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619193839,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				11, -- [2]
+				11, -- [3]
+				5, -- [4]
+				4, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -22975,49 +23015,49 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 346,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619193839,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				3, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				11, -- [2]
-				11, -- [3]
-				5, -- [4]
-				4, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+	}, -- [332]
+	{
+		["Map"] = 1035,
 		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
 			}, -- [2]
 		},
-	}, -- [332]
-	{
-		["Map"] = 1035,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 500,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619194635,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				4, -- [2]
+				4, -- [3]
+				5, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23039,49 +23079,49 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 500,
-		["Season"] = 30,
-		["isBrawl"] = false,
+	}, -- [333]
+	{
+		["Map"] = 1035,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 210,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619194635,
+		["Time"] = 1619195140,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				3, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				4, -- [2]
-				4, -- [3]
-				5, -- [4]
-				2, -- [5]
+				5, -- [2]
+				11, -- [3]
+				7, -- [4]
+				5, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-	}, -- [333]
-	{
-		["Map"] = 1035,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23103,49 +23143,49 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 210,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619195140,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				5, -- [2]
-				11, -- [3]
-				7, -- [4]
-				5, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
 	}, -- [334]
 	{
 		["Map"] = 2106,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 1032,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619196323,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				7, -- [2]
+				7, -- [3]
+				4, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				17, -- [2]
+				17, -- [3]
+				7, -- [4]
+				4, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23167,49 +23207,49 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 1032,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619196323,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				7, -- [2]
-				7, -- [3]
-				4, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				17, -- [2]
-				17, -- [3]
-				7, -- [4]
-				4, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+	}, -- [335]
+	{
+		["Map"] = 761,
 		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
 			}, -- [2]
 		},
-	}, -- [335]
-	{
-		["Map"] = 761,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 190,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619196712,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				1, -- [2]
+				11, -- [3]
+				7, -- [4]
+				5, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23231,39 +23271,14 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 190,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619196712,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				1, -- [2]
-				11, -- [3]
-				7, -- [4]
-				5, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+	}, -- [336]
+	{
+		["Map"] = 1035,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -23271,9 +23286,34 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-	}, -- [336]
-	{
-		["Map"] = 1035,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 1161,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619198022,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				6, -- [1]
+				7, -- [2]
+				14, -- [3]
+				6, -- [4]
+				6, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23295,49 +23335,49 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 1161,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619198022,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
-				3, -- [5]
-			}, -- [1]
-			{
-				6, -- [1]
-				7, -- [2]
-				14, -- [3]
-				6, -- [4]
-				6, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
 	}, -- [337]
 	{
 		["Map"] = 566,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 295,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619198510,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23359,34 +23399,9 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 295,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619198510,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+	}, -- [338]
+	{
+		["Map"] = 727,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -23394,14 +23409,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
-	}, -- [338]
-	{
-		["Map"] = 727,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 339,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619200417,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				11, -- [2]
+				11, -- [3]
+				10, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23423,49 +23463,49 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 339,
-		["Season"] = 30,
-		["isBrawl"] = false,
+	}, -- [339]
+	{
+		["Map"] = 566,
+		["BGComposition"] = {
+			{
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 218,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619200417,
+		["Time"] = 1619200832,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				11, -- [2]
+				3, -- [1]
+				5, -- [2]
 				11, -- [3]
-				10, -- [4]
-				1, -- [5]
+				5, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
-	}, -- [339]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23487,49 +23527,49 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 218,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619200832,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				5, -- [2]
-				11, -- [3]
-				5, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+	}, -- [340]
+	{
+		["Map"] = 761,
 		["BGComposition"] = {
-			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
-			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-	}, -- [340]
-	{
-		["Map"] = 761,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 676,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619201713,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				5, -- [2]
+				13, -- [3]
+				5, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23551,34 +23591,9 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 676,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619201713,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				5, -- [2]
-				13, -- [3]
-				5, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+	}, -- [341]
+	{
+		["Map"] = 726,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23586,14 +23601,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-	}, -- [341]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 465,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619202541,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				3, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				2, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23615,39 +23655,14 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 465,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619202541,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				2, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+	}, -- [342]
+	{
+		["Map"] = 2106,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -23655,9 +23670,34 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [2]
 		},
-	}, -- [342]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 379,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619204294,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23679,15 +23719,30 @@ REFlexDatabase = {
 				863, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 379,
-		["Season"] = 30,
-		["isBrawl"] = false,
+	}, -- [343]
+	{
+		["Map"] = 1035,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 140,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619204294,
+		["Time"] = 1619204583,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23698,30 +23753,15 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				4, -- [1]
+				13, -- [2]
+				13, -- [3]
+				7, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-	}, -- [343]
-	{
-		["Map"] = 1035,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23743,49 +23783,49 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 140,
-		["Season"] = 30,
-		["isBrawl"] = false,
+	}, -- [344]
+	{
+		["Map"] = 761,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 222,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619204583,
+		["Time"] = 1619205016,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				13, -- [2]
-				13, -- [3]
-				7, -- [4]
-				1, -- [5]
+				3, -- [1]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-	}, -- [344]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23807,34 +23847,9 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 222,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619205016,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				11, -- [2]
-				11, -- [3]
-				4, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+	}, -- [345]
+	{
+		["Map"] = 2106,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -23842,14 +23857,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
+				0, -- [1]
+				1, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
-	}, -- [345]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 1140,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619206363,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				13, -- [2]
+				3, -- [3]
+				3, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23871,49 +23911,49 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 1140,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619206363,
-		["isRated"] = false,
-		["BGPlace"] = {
+	}, -- [346]
+	{
+		["Map"] = 2106,
+		["BGComposition"] = {
 			{
 				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
+				0, -- [2]
+				8, -- [3]
 			}, -- [1]
-			{
-				3, -- [1]
-				13, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				8, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
 			}, -- [2]
 		},
-	}, -- [346]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 1012,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619207713,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				5, -- [2]
+				5, -- [3]
+				4, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				6, -- [1]
+				15, -- [2]
+				15, -- [3]
+				7, -- [4]
+				7, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23935,49 +23975,49 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 1012,
-		["Season"] = 30,
-		["isBrawl"] = false,
+	}, -- [347]
+	{
+		["Map"] = 1035,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 435,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619207713,
+		["Time"] = 1619208586,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				3, -- [1]
 				5, -- [2]
-				5, -- [3]
+				4, -- [3]
 				4, -- [4]
-				4, -- [5]
+				5, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				15, -- [2]
-				15, -- [3]
-				7, -- [4]
-				7, -- [5]
+				4, -- [1]
+				7, -- [2]
+				4, -- [3]
+				6, -- [4]
+				6, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-	}, -- [347]
-	{
-		["Map"] = 1035,
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -23999,49 +24039,49 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 435,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619208586,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				5, -- [2]
-				4, -- [3]
-				4, -- [4]
-				5, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				7, -- [2]
-				4, -- [3]
-				6, -- [4]
-				6, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
 	}, -- [348]
 	{
 		["Map"] = 726,
+		["BGComposition"] = {
+			{
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 311,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619209121,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				6, -- [1]
+				11, -- [2]
+				11, -- [3]
+				9, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -24063,49 +24103,49 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 311,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619209121,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				6, -- [1]
-				11, -- [2]
-				11, -- [3]
-				9, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
 	}, -- [349]
 	{
 		["Map"] = 1035,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 961,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619210302,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				6, -- [1]
+				4, -- [2]
+				4, -- [3]
+				6, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -24127,49 +24167,49 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 961,
-		["Season"] = 30,
-		["isBrawl"] = false,
+	}, -- [350]
+	{
+		["Map"] = 2106,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 398,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619210302,
+		["Time"] = 1619211069,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				3, -- [1]
-				4, -- [2]
-				4, -- [3]
+				10, -- [2]
+				10, -- [3]
 				3, -- [4]
-				2, -- [5]
+				4, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				4, -- [2]
-				4, -- [3]
+				5, -- [1]
+				13, -- [2]
+				20, -- [3]
 				6, -- [4]
-				2, -- [5]
+				6, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-	}, -- [350]
-	{
-		["Map"] = 2106,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -24191,49 +24231,21 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 398,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619211069,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				10, -- [2]
-				10, -- [3]
-				3, -- [4]
-				4, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				13, -- [2]
-				20, -- [3]
-				6, -- [4]
-				6, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
 	}, -- [351]
 	{
 		["Map"] = 1505,
+		["Season"] = 30,
+		["PlayersNum"] = 4,
+		["Duration"] = 30,
+		["Hidden"] = false,
+		["PlayerNum"] = 3,
+		["Time"] = 1619730548,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 1,
+		["isArena"] = true,
 		["Players"] = {
 			{
 				"晓晓薄荷糖-死亡之翼", -- [1]
@@ -24312,21 +24324,21 @@ REFlexDatabase = {
 				49, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 30,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = true,
-		["Time"] = 1619730548,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 1,
-		["PlayerNum"] = 3,
-		["Season"] = 30,
 	}, -- [352]
 	{
 		["Map"] = 1552,
+		["Season"] = 30,
+		["PlayersNum"] = 4,
+		["Duration"] = 67,
+		["Hidden"] = false,
+		["PlayerNum"] = 3,
+		["Time"] = 1619730893,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 0,
+		["isArena"] = true,
 		["Players"] = {
 			{
 				"圣光燃尽-玛洛加尔", -- [1]
@@ -24405,21 +24417,21 @@ REFlexDatabase = {
 				37, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 67,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = true,
-		["Time"] = 1619730893,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 0,
-		["PlayerNum"] = 3,
-		["Season"] = 30,
 	}, -- [353]
 	{
 		["Map"] = 980,
+		["Season"] = 30,
+		["PlayersNum"] = 4,
+		["Duration"] = 88,
+		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Time"] = 1619731199,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 0,
+		["isArena"] = true,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -24498,21 +24510,21 @@ REFlexDatabase = {
 				84, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 88,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = true,
-		["Time"] = 1619731199,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Season"] = 30,
 	}, -- [354]
 	{
 		["Map"] = 2167,
+		["Season"] = 30,
+		["PlayersNum"] = 4,
+		["Duration"] = 47,
+		["Hidden"] = false,
+		["PlayerNum"] = 3,
+		["Time"] = 1619731425,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 1,
+		["isArena"] = true,
 		["Players"] = {
 			{
 				"冰冷的狼-桑德兰", -- [1]
@@ -24591,21 +24603,21 @@ REFlexDatabase = {
 				55, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 47,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = true,
-		["Time"] = 1619731425,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 1,
-		["PlayerNum"] = 3,
-		["Season"] = 30,
 	}, -- [355]
 	{
 		["Map"] = 1825,
+		["Season"] = 30,
+		["PlayersNum"] = 4,
+		["Duration"] = 39,
+		["Hidden"] = false,
+		["PlayerNum"] = 3,
+		["Time"] = 1619731644,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 1,
+		["isArena"] = true,
 		["Players"] = {
 			{
 				"狠法很天真-死亡之翼", -- [1]
@@ -24684,21 +24696,21 @@ REFlexDatabase = {
 				55, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 39,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = true,
-		["Time"] = 1619731644,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 1,
-		["PlayerNum"] = 3,
-		["Season"] = 30,
 	}, -- [356]
 	{
 		["Map"] = 1911,
+		["Season"] = 30,
+		["PlayersNum"] = 4,
+		["Duration"] = 125,
+		["Hidden"] = false,
+		["PlayerNum"] = 4,
+		["Time"] = 1619731917,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 1,
+		["isArena"] = true,
 		["Players"] = {
 			{
 				"Vermóuth-海克泰尔", -- [1]
@@ -24777,21 +24789,21 @@ REFlexDatabase = {
 				872, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 125,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = true,
-		["Time"] = 1619731917,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 1,
-		["PlayerNum"] = 4,
-		["Season"] = 30,
 	}, -- [357]
 	{
 		["Map"] = 617,
+		["Season"] = 30,
+		["PlayersNum"] = 3,
+		["Duration"] = 10,
+		["Hidden"] = false,
+		["PlayerNum"] = 2,
+		["Time"] = 1619732097,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 0,
+		["isArena"] = true,
 		["Players"] = {
 			{
 				"Galzars-白银之手", -- [1]
@@ -24851,21 +24863,49 @@ REFlexDatabase = {
 				30, -- [17]
 			}, -- [3]
 		},
-		["PlayersNum"] = 3,
-		["Duration"] = 10,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = true,
-		["Time"] = 1619732097,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 0,
-		["PlayerNum"] = 2,
-		["Season"] = 30,
 	}, -- [358]
 	{
 		["Map"] = 1035,
+		["Duration"] = 160,
+		["Season"] = 30,
+		["Time"] = 1619939598,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				5, -- [4]
+				6, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				10, -- [2]
+				11, -- [3]
+				14, -- [4]
+				12, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -24887,49 +24927,49 @@ REFlexDatabase = {
 				874, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [359]
+	{
+		["Map"] = 2245,
+		["Duration"] = 585,
+		["Season"] = 30,
+		["Time"] = 1619940497,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				0, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1619939598,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				5, -- [4]
-				6, -- [5]
+				4, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				10, -- [2]
-				11, -- [3]
-				14, -- [4]
-				12, -- [5]
+				6, -- [1]
+				8, -- [2]
+				14, -- [3]
+				7, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 160,
-	}, -- [359]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -24951,49 +24991,49 @@ REFlexDatabase = {
 				874, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1619940497,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				4, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				6, -- [1]
-				8, -- [2]
-				14, -- [3]
-				7, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 585,
 	}, -- [360]
 	{
 		["Map"] = 2106,
+		["Duration"] = 346,
+		["Season"] = 30,
+		["Time"] = 1619941234,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				5, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				6, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				6, -- [1]
+				11, -- [2]
+				11, -- [3]
+				15, -- [4]
+				11, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -25015,49 +25055,49 @@ REFlexDatabase = {
 				874, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
+	}, -- [361]
+	{
+		["Map"] = 2106,
+		["Duration"] = 284,
+		["Season"] = 30,
+		["Time"] = 1619942218,
+		["PlayersNum"] = 19,
 		["BGComposition"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				0, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
-				5, -- [3]
+				1, -- [1]
+				2, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1619941234,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				6, -- [4]
-				4, -- [5]
+				2, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				11, -- [2]
-				11, -- [3]
-				15, -- [4]
-				11, -- [5]
+				5, -- [1]
+				10, -- [2]
+				10, -- [3]
+				8, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 346,
-	}, -- [361]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -25079,9 +25119,13 @@ REFlexDatabase = {
 				874, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 19,
+	}, -- [362]
+	{
+		["Map"] = 2245,
+		["Duration"] = 560,
+		["Season"] = 30,
+		["Time"] = 1619942939,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -25089,39 +25133,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				2, -- [2]
-				6, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1619942218,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
 				2, -- [4]
-				3, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				10, -- [2]
-				10, -- [3]
-				8, -- [4]
-				4, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 284,
-	}, -- [362]
-	{
-		["Map"] = 2245,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -25143,26 +25183,30 @@ REFlexDatabase = {
 				874, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [363]
+	{
+		["Map"] = 1035,
+		["Duration"] = 650,
+		["Season"] = 30,
+		["Time"] = 1619943819,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1619942939,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -25170,22 +25214,18 @@ REFlexDatabase = {
 				3, -- [2]
 				3, -- [3]
 				2, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
+				3, -- [1]
 				3, -- [2]
 				3, -- [3]
-				2, -- [4]
-				1, -- [5]
+				3, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 560,
-	}, -- [363]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -25207,8 +25247,12 @@ REFlexDatabase = {
 				874, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [364]
+	{
+		["Map"] = 566,
+		["Duration"] = 422,
+		["Season"] = 30,
+		["Time"] = 1619946527,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -25218,38 +25262,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1619943819,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				3, -- [2]
-				3, -- [3]
+				2, -- [2]
+				2, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 650,
-	}, -- [364]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -25271,49 +25311,21 @@ REFlexDatabase = {
 				875, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1619946527,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 422,
 	}, -- [365]
 	{
 		["Map"] = 1134,
+		["Season"] = 30,
+		["PlayersNum"] = 4,
+		["Duration"] = 109,
+		["Hidden"] = false,
+		["PlayerNum"] = 4,
+		["Time"] = 1620174455,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 1,
+		["isArena"] = true,
 		["Players"] = {
 			{
 				"无为静-影之哀伤", -- [1]
@@ -25392,21 +25404,21 @@ REFlexDatabase = {
 				875, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 109,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = true,
-		["Time"] = 1620174455,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 1,
-		["PlayerNum"] = 4,
-		["Season"] = 30,
 	}, -- [366]
 	{
 		["Map"] = 617,
+		["Season"] = 30,
+		["PlayersNum"] = 4,
+		["Duration"] = 140,
+		["Hidden"] = false,
+		["PlayerNum"] = 4,
+		["Time"] = 1620174729,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 0,
+		["isArena"] = true,
 		["Players"] = {
 			{
 				"在线秀胸毛", -- [1]
@@ -25485,21 +25497,21 @@ REFlexDatabase = {
 				875, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 140,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = true,
-		["Time"] = 1620174729,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 0,
-		["PlayerNum"] = 4,
-		["Season"] = 30,
 	}, -- [367]
 	{
 		["Map"] = 2167,
+		["Season"] = 30,
+		["PlayersNum"] = 4,
+		["Duration"] = 44,
+		["Hidden"] = false,
+		["PlayerNum"] = 4,
+		["Time"] = 1620174915,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 1,
+		["isArena"] = true,
 		["Players"] = {
 			{
 				"水过無痕", -- [1]
@@ -25578,21 +25590,21 @@ REFlexDatabase = {
 				875, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 44,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = true,
-		["Time"] = 1620174915,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 1,
-		["PlayerNum"] = 4,
-		["Season"] = 30,
 	}, -- [368]
 	{
 		["Map"] = 1825,
+		["Season"] = 30,
+		["PlayersNum"] = 4,
+		["Duration"] = 39,
+		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Time"] = 1620175204,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 1,
+		["isArena"] = true,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -25671,21 +25683,21 @@ REFlexDatabase = {
 				357, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 39,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = true,
-		["Time"] = 1620175204,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Season"] = 30,
 	}, -- [369]
 	{
 		["Map"] = 572,
+		["Season"] = 30,
+		["PlayersNum"] = 4,
+		["Duration"] = 109,
+		["Hidden"] = false,
+		["PlayerNum"] = 4,
+		["Time"] = 1620175492,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 0,
+		["isArena"] = true,
 		["Players"] = {
 			{
 				"清风阵阵", -- [1]
@@ -25764,21 +25776,21 @@ REFlexDatabase = {
 				876, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 109,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = true,
-		["Time"] = 1620175492,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 0,
-		["PlayerNum"] = 4,
-		["Season"] = 30,
 	}, -- [370]
 	{
 		["Map"] = 1504,
+		["Season"] = 30,
+		["PlayersNum"] = 4,
+		["Duration"] = 44,
+		["Hidden"] = false,
+		["PlayerNum"] = 2,
+		["Time"] = 1620175733,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["Version"] = 313,
+		["Winner"] = 1,
+		["isArena"] = true,
 		["Players"] = {
 			{
 				"清风阵阵", -- [1]
@@ -25857,61 +25869,9 @@ REFlexDatabase = {
 				102, -- [17]
 			}, -- [4]
 		},
-		["PlayersNum"] = 4,
-		["Duration"] = 44,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = true,
-		["Time"] = 1620175733,
-		["isRated"] = false,
-		["Version"] = 313,
-		["Winner"] = 1,
-		["PlayerNum"] = 2,
-		["Season"] = 30,
 	}, -- [371]
 	{
 		["Map"] = 761,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["Time"] = 1620180008,
-		["PlayersNum"] = 20,
-		["Duration"] = 444,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				6, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				7, -- [4]
-				10, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -25933,9 +25893,9 @@ REFlexDatabase = {
 				876, -- [17]
 			}, -- [1]
 		},
-	}, -- [372]
-	{
-		["Map"] = 2107,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -25949,14 +25909,10 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1620180848,
-		["PlayersNum"] = 20,
-		["Duration"] = 663,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620180008,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -25964,18 +25920,22 @@ REFlexDatabase = {
 				3, -- [2]
 				3, -- [3]
 				3, -- [4]
-				4, -- [5]
+				6, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				13, -- [2]
-				13, -- [3]
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
 				7, -- [4]
-				6, -- [5]
+				10, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 444,
+	}, -- [372]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -25997,49 +25957,49 @@ REFlexDatabase = {
 				876, -- [17]
 			}, -- [1]
 		},
-	}, -- [373]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1620181249,
-		["PlayersNum"] = 20,
-		["Duration"] = 145,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620180848,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				10, -- [3]
-				1, -- [4]
-				1, -- [5]
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				4, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				20, -- [3]
-				1, -- [4]
-				1, -- [5]
+				5, -- [1]
+				13, -- [2]
+				13, -- [3]
+				7, -- [4]
+				6, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 663,
+	}, -- [373]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -26061,9 +26021,9 @@ REFlexDatabase = {
 				876, -- [17]
 			}, -- [1]
 		},
-	}, -- [374]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -26077,33 +26037,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1620181747,
-		["PlayersNum"] = 20,
-		["Duration"] = 214,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620181249,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
-				1, -- [3]
+				10, -- [3]
 				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				1, -- [1]
 				1, -- [2]
-				11, -- [3]
+				20, -- [3]
 				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 145,
+	}, -- [374]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -26125,9 +26085,9 @@ REFlexDatabase = {
 				876, -- [17]
 			}, -- [1]
 		},
-	}, -- [375]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -26141,33 +26101,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1620182173,
-		["PlayersNum"] = 20,
-		["Duration"] = 237,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620181747,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				4, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 214,
+	}, -- [375]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -26189,9 +26149,9 @@ REFlexDatabase = {
 				876, -- [17]
 			}, -- [1]
 		},
-	}, -- [376]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -26200,38 +26160,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1620182466,
-		["PlayersNum"] = 20,
-		["Duration"] = 145,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620182173,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
+				4, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
+				4, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 237,
+	}, -- [376]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -26253,9 +26213,9 @@ REFlexDatabase = {
 				876, -- [17]
 			}, -- [1]
 		},
-	}, -- [377]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -26263,39 +26223,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				0, -- [1]
+				3, -- [2]
 				7, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1620183099,
-		["PlayersNum"] = 19,
-		["Duration"] = 372,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620182466,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 145,
+	}, -- [377]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -26317,49 +26277,49 @@ REFlexDatabase = {
 				876, -- [17]
 			}, -- [1]
 		},
-	}, -- [378]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 19,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				1, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1620183709,
-		["PlayersNum"] = 20,
-		["Duration"] = 340,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620183099,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 372,
+	}, -- [378]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -26381,49 +26341,49 @@ REFlexDatabase = {
 				876, -- [17]
 			}, -- [1]
 		},
-	}, -- [379]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1620184330,
-		["PlayersNum"] = 20,
-		["Duration"] = 430,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620183709,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				5, -- [1]
-				5, -- [2]
-				5, -- [3]
-				5, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				7, -- [2]
-				5, -- [3]
-				8, -- [4]
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 340,
+	}, -- [379]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -26445,9 +26405,9 @@ REFlexDatabase = {
 				876, -- [17]
 			}, -- [1]
 		},
-	}, -- [380]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -26456,38 +26416,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1620184703,
-		["PlayersNum"] = 20,
-		["Duration"] = 200,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620184330,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				5, -- [1]
+				5, -- [2]
+				5, -- [3]
+				5, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
+				6, -- [1]
+				7, -- [2]
+				5, -- [3]
+				8, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 430,
+	}, -- [380]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -26509,49 +26469,49 @@ REFlexDatabase = {
 				876, -- [17]
 			}, -- [1]
 		},
-	}, -- [381]
-	{
-		["Map"] = 726,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
+				0, -- [1]
 				2, -- [2]
-				6, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1620185458,
-		["PlayersNum"] = 20,
-		["Duration"] = 605,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620184703,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				4, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				7, -- [1]
-				13, -- [2]
-				13, -- [3]
-				9, -- [4]
-				4, -- [5]
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 200,
+	}, -- [381]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -26573,9 +26533,9 @@ REFlexDatabase = {
 				876, -- [17]
 			}, -- [1]
 		},
-	}, -- [382]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -26583,39 +26543,39 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				2, -- [1]
 				2, -- [2]
-				8, -- [3]
+				6, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1620186152,
-		["PlayersNum"] = 20,
-		["Duration"] = 525,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620185458,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				5, -- [1]
-				5, -- [2]
-				5, -- [3]
-				5, -- [4]
-				4, -- [5]
+				4, -- [1]
+				3, -- [2]
+				3, -- [3]
+				4, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				8, -- [2]
-				5, -- [3]
-				8, -- [4]
-				6, -- [5]
+				7, -- [1]
+				13, -- [2]
+				13, -- [3]
+				9, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 605,
+	}, -- [382]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -26637,9 +26597,89 @@ REFlexDatabase = {
 				876, -- [17]
 			}, -- [1]
 		},
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1620186152,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				5, -- [1]
+				5, -- [2]
+				5, -- [3]
+				5, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				6, -- [1]
+				8, -- [2]
+				5, -- [3]
+				8, -- [4]
+				6, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 525,
 	}, -- [383]
 	{
 		["Map"] = 726,
+		["Duration"] = 451,
+		["Season"] = 30,
+		["Time"] = 1621308531,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				2, -- [2]
+				2, -- [3]
+				1, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -26661,46 +26701,6 @@ REFlexDatabase = {
 				894, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1621308531,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				2, -- [2]
-				2, -- [3]
-				1, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 451,
 	}, -- [384]
 	{
 		["PlayerStats"] = {
@@ -27108,7 +27108,7 @@ REFlexDatabase = {
 		},
 		["Hidden"] = false,
 		["Map"] = 2106,
-		["isArena"] = false,
+		["Season"] = 30,
 		["PlayerSide"] = 1,
 		["Version"] = 313,
 		["isRated"] = true,
@@ -27129,7 +27129,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["isArena"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -27149,6 +27149,46 @@ REFlexDatabase = {
 	}, -- [385]
 	{
 		["Map"] = 2245,
+		["Duration"] = 178,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1621809735,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				8, -- [2]
+				11, -- [3]
+				6, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -27170,8 +27210,12 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1621809735,
+	}, -- [386]
+	{
+		["Map"] = 2107,
+		["Duration"] = 186,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -27181,38 +27225,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1621810076,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				8, -- [2]
+				4, -- [1]
+				9, -- [2]
 				11, -- [3]
-				6, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 178,
-	}, -- [386]
-	{
-		["Map"] = 2107,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -27234,8 +27274,12 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1621810076,
+	}, -- [387]
+	{
+		["Map"] = 726,
+		["Duration"] = 447,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -27245,38 +27289,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1621810689,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				9, -- [2]
+				3, -- [1]
+				4, -- [2]
 				11, -- [3]
-				3, -- [4]
+				6, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 186,
-	}, -- [387]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"焊接机器人", -- [1]
@@ -27298,47 +27338,1342 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1621810689,
+	}, -- [388]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+			0, -- [2]
+		},
 		["PlayersNum"] = 20,
+		["Duration"] = 169,
+		["PlayerNum"] = 15,
+		["isBrawl"] = false,
+		["Time"] = 1621921979,
+		["Players"] = {
+			{
+				"性感的泥玛-通灵学院", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				241, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1359, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				16, -- [17]
+			}, -- [1]
+			{
+				"幸福且安康-凤凰之神", -- [1]
+				1, -- [2]
+				2, -- [3]
+				1, -- [4]
+				246, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				29833, -- [10]
+				0, -- [11]
+				1355, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				5, -- [17]
+			}, -- [2]
+			{
+				"Aline-无尽之海", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				241, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1340, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				166, -- [17]
+			}, -- [3]
+			{
+				"稀饭先生-外域", -- [1]
+				1, -- [2]
+				2, -- [3]
+				0, -- [4]
+				246, -- [5]
+				0, -- [6]
+				"巨魔", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				43264, -- [10]
+				2237, -- [11]
+				1321, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				32, -- [17]
+			}, -- [4]
+			{
+				"灬炼狱-埃德萨拉", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				243, -- [5]
+				0, -- [6]
+				"巨魔", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1303, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				300, -- [17]
+			}, -- [5]
+			{
+				"西门飙血-燃烧之刃", -- [1]
+				0, -- [2]
+				2, -- [3]
+				1, -- [4]
+				246, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				23181, -- [10]
+				14107, -- [11]
+				1293, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"元素", -- [16]
+				50, -- [17]
+			}, -- [6]
+			{
+				"小手乱麼-诺森德", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				243, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1280, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"暗影", -- [16]
+				167, -- [17]
+			}, -- [7]
+			{
+				"光头能战火-国王之谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"黑铁矮人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1199, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"元素", -- [16]
+				42, -- [17]
+			}, -- [8]
+			{
+				"清淺-主宰之剑", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1199, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				36, -- [17]
+			}, -- [9]
+			{
+				"西楼楼-白银之手", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1199, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野性", -- [16]
+				61, -- [17]
+			}, -- [10]
+			{
+				"鸡翅儿-主宰之剑", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1176, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				10, -- [17]
+			}, -- [11]
+			{
+				"关关之霖-国王之谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1165, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				136, -- [17]
+			}, -- [12]
+			{
+				"董一刀-石锤", -- [1]
+				0, -- [2]
+				4, -- [3]
+				1, -- [4]
+				94, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				6109, -- [10]
+				74542, -- [11]
+				1127, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				143, -- [17]
+			}, -- [13]
+			{
+				"送你小红花-熔火之心", -- [1]
+				0, -- [2]
+				2, -- [3]
+				1, -- [4]
+				246, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				32817, -- [10]
+				217, -- [11]
+				1113, -- [12]
+				94, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				109, -- [17]
+			}, -- [14]
+			{
+				"焊接机器人", -- [1]
+				4, -- [2]
+				4, -- [3]
+				1, -- [4]
+				94, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				133280, -- [10]
+				17413, -- [11]
+				1106, -- [12]
+				-7, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				897, -- [17]
+			}, -- [15]
+			{
+				"麦兜狠坚强-基尔罗格", -- [1]
+				0, -- [2]
+				2, -- [3]
+				0, -- [4]
+				246, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				18439, -- [10]
+				900, -- [11]
+				764, -- [12]
+				181, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				7, -- [17]
+			}, -- [16]
+			{
+				"少灬司命-刺骨利刃", -- [1]
+				0, -- [2]
+				3, -- [3]
+				0, -- [4]
+				90, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				764, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				11, -- [17]
+			}, -- [17]
+			{
+				"又见小刀-伊森利恩", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				241, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				10328, -- [10]
+				0, -- [11]
+				384, -- [12]
+				191, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				20, -- [17]
+			}, -- [18]
+			{
+				"恶魔火柴", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				384, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恶魔学识", -- [16]
+				79, -- [17]
+			}, -- [19]
+			{
+				"你媳妇突然-朵丹尼尔", -- [1]
+				0, -- [2]
+				4, -- [3]
+				0, -- [4]
+				94, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				152, -- [17]
+			}, -- [20]
+		},
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = false,
+		["Hidden"] = false,
+		["Map"] = 761,
+		["Season"] = 30,
 		["PlayerSide"] = 1,
-		["isRated"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				4, -- [4]
+				1, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["isArena"] = false,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1267, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1243, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [389]
+	{
+		["PlayerStats"] = {
+			1, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 166,
+		["PlayerNum"] = 15,
+		["isBrawl"] = false,
+		["Time"] = 1621922330,
+		["Players"] = {
+			{
+				"子夜乀深寒-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				10, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1517, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"鲜血", -- [16]
+				83, -- [17]
+			}, -- [1]
+			{
+				"冰缘灬辰-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				170, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1483, -- [12]
+				71, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奥术", -- [16]
+				2, -- [17]
+			}, -- [2]
+			{
+				"直接大跳冲锋-白银之手", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				170, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1483, -- [12]
+				70, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"复仇", -- [16]
+				5, -- [17]
+			}, -- [3]
+			{
+				"云端栖鸾-血色十字军", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				10, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1480, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				493, -- [17]
+			}, -- [4]
+			{
+				"蒳緋-主宰之剑", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				170, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1470, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				47, -- [17]
+			}, -- [5]
+			{
+				"莫莉貔貔-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				170, -- [5]
+				1, -- [6]
+				"侏儒", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1466, -- [12]
+				60, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恶魔学识", -- [16]
+				14, -- [17]
+			}, -- [6]
+			{
+				"熊丷魃-国王之谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				170, -- [5]
+				1, -- [6]
+				"库尔提拉斯人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				19014, -- [11]
+				1455, -- [12]
+				53, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				85, -- [17]
+			}, -- [7]
+			{
+				"上帝的神猎手", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				170, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1428, -- [12]
+				14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				78, -- [17]
+			}, -- [8]
+			{
+				"playerkesejr-血色十字军", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				10, -- [5]
+				0, -- [6]
+				"夜之子", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1421, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				29, -- [17]
+			}, -- [9]
+			{
+				"乂灬憔悴-白银之手", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				170, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1417, -- [12]
+				35, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂怒", -- [16]
+				220, -- [17]
+			}, -- [10]
+			{
+				"有故事嘚男人-风暴之怒", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				10, -- [5]
+				0, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1280, -- [12]
+				-6, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				205, -- [17]
+			}, -- [11]
+			{
+				"Äçæç-影之哀伤", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				10, -- [5]
+				0, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1279, -- [12]
+				-6, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"踏风", -- [16]
+				134, -- [17]
+			}, -- [12]
+			{
+				"盗珠窃玉-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				10, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1135, -- [12]
+				-3, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				2, -- [17]
+			}, -- [13]
+			{
+				"妖妖零-阿古斯", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				170, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1132, -- [12]
+				170, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				122, -- [17]
+			}, -- [14]
+			{
+				"焊接机器人", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				170, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1099, -- [12]
+				22, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				897, -- [17]
+			}, -- [15]
+			{
+				"灬费德提克灬-阿纳克洛斯", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				10, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				763, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"痛苦", -- [16]
+				119, -- [17]
+			}, -- [16]
+			{
+				"夜丶黑煞-无尽之海", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				10, -- [5]
+				0, -- [6]
+				"熊猫人", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				0, -- [10]
+				0, -- [11]
+				575, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				75, -- [17]
+			}, -- [17]
+			{
+				"春卷灬大师-白银之手", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				170, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				384, -- [12]
+				192, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				21, -- [17]
+			}, -- [18]
+			{
+				"丨烈萨丨-埃德萨拉", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				10, -- [5]
+				0, -- [6]
+				"巨魔", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				12443, -- [10]
+				0, -- [11]
+				384, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"元素", -- [16]
+				2, -- [17]
+			}, -- [19]
+			{
+				"浪漫娇娇-金色平原", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				10, -- [5]
+				0, -- [6]
+				"地精", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				0, -- [10]
+				0, -- [11]
+				192, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"邪恶", -- [16]
+				841, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 2245,
+		["Season"] = 30,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["isArena"] = false,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1490, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1488, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [390]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 163,
+		["PlayerNum"] = 19,
+		["isBrawl"] = false,
+		["Time"] = 1621922845,
+		["Players"] = {
+			{
+				"Grovedruid-伊森利恩", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				241, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1653, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"平衡", -- [16]
+				133, -- [17]
+			}, -- [1]
+			{
+				"曾經最噯-伊森利恩", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				241, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				7356, -- [10]
+				0, -- [11]
+				1578, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"元素", -- [16]
+				85, -- [17]
+			}, -- [2]
+			{
+				"冰缘灬辰-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1554, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奥术", -- [16]
+				3, -- [17]
+			}, -- [3]
+			{
+				"醉清照-凤凰之神", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				241, -- [5]
+				0, -- [6]
+				"赞达拉巨魔", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1553, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂怒", -- [16]
+				36, -- [17]
+			}, -- [4]
+			{
+				"直接大跳冲锋-白银之手", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1553, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"复仇", -- [16]
+				5, -- [17]
+			}, -- [5]
+			{
+				"苍白式灬回忆-壁炉谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1550, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				89, -- [17]
+			}, -- [6]
+			{
+				"莫莉貔貔-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"侏儒", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1526, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恶魔学识", -- [16]
+				14, -- [17]
+			}, -- [7]
+			{
+				"仰望丨天堂-血色十字军", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				241, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1513, -- [12]
+				14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				95, -- [17]
+			}, -- [8]
+			{
+				"冰阔落丶-无尽之海", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				241, -- [5]
+				0, -- [6]
+				"巨魔", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1506, -- [12]
+				14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"平衡", -- [16]
+				123, -- [17]
+			}, -- [9]
+			{
+				"海鸟於鱼-燃烧之刃", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				241, -- [5]
+				0, -- [6]
+				"狐人", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1504, -- [12]
+				14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				33, -- [17]
+			}, -- [10]
+			{
+				"蒳緋-主宰之剑", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1483, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				47, -- [17]
+			}, -- [11]
+			{
+				"信条刺客-亚雷戈斯", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				241, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1465, -- [12]
+				66, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				7, -- [17]
+			}, -- [12]
+			{
+				"乂灬憔悴-白银之手", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1452, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂怒", -- [16]
+				220, -- [17]
+			}, -- [13]
+			{
+				"上帝的神猎手", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1442, -- [12]
+				-8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				78, -- [17]
+			}, -- [14]
+			{
+				"呆小只-芬里斯", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				241, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1323, -- [12]
+				152, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"射击", -- [16]
+				17, -- [17]
+			}, -- [15]
+			{
+				"妖妖零-阿古斯", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1302, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				122, -- [17]
+			}, -- [16]
+			{
+				"小明白-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				241, -- [5]
+				0, -- [6]
+				"夜之子", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1275, -- [12]
+				127, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奥术", -- [16]
+				22, -- [17]
+			}, -- [17]
+			{
+				"白银奔雷-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				241, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1139, -- [12]
+				176, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				94, -- [17]
+			}, -- [18]
+			{
+				"焊接机器人", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1121, -- [12]
+				-2, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				897, -- [17]
+			}, -- [19]
+			{
+				"春卷灬大师-白银之手", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				81, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				576, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				21, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 761,
+		["Season"] = 30,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				4, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				6, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 447,
-	}, -- [388]
+		["isArena"] = false,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1548, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1557, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [391]
 }
 REFlexHonorDatabase = {
 	[1617724800] = 1269,
@@ -27353,8 +28688,9 @@ REFlexHonorDatabase = {
 	[1618675200] = 28,
 	[1615996800] = 27130,
 	[1619107200] = 948,
-	[1619884800] = 15330,
-	[1616169600] = 2010,
+	[1620144000] = 5248,
+	[1621267200] = 2544,
+	[1621872000] = 7151,
 	[1615651200] = 1302,
 	[1618156800] = 1174,
 	[1619971200] = 750,
@@ -27362,6 +28698,6 @@ REFlexHonorDatabase = {
 	[1615737600] = 30828,
 	[1616601600] = 4712,
 	[1618848000] = 11785,
-	[1620144000] = 5248,
-	[1621267200] = 2544,
+	[1616169600] = 2010,
+	[1619884800] = 15330,
 }

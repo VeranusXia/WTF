@@ -2,8 +2,9 @@
 OmniCDDB = {
 	["profileKeys"] = {
 		["奶凶的小萝莉 - 蜘蛛王国"] = "Default",
-		["招商中证白酒 - 罗宁"] = "Default",
 		["西园寺恋 - 布兰卡德"] = "Default",
+		["殷倾颜 - 罗宁"] = "Default",
+		["额尔古纳右岸 - 白银之手"] = "Default",
 		["倾颜 - 熊猫酒仙"] = "Default",
 		["狂乱合唱 - 蜘蛛王国"] = "Default",
 		["Amilus - 燃烧之刃"] = "Default",
@@ -14,7 +15,7 @@ OmniCDDB = {
 		["西园寺恋 - 罗宁"] = "Default",
 		["安苏宠物批发 - 安苏"] = "Default",
 		["Reneebaby - 罗宁"] = "Default",
-		["殷倾颜 - 罗宁"] = "Default",
+		["招商中证白酒 - 罗宁"] = "Default",
 		["焊接机器人 - 罗宁"] = "Default",
 	},
 	["global"] = {

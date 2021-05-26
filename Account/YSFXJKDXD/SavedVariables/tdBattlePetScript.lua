@@ -104,8 +104,8 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 		["额尔古纳右岸 - 白银之手"] = "Default",
 		["晋升实力 - 金色平原"] = "Default",
 		["西园寺恋 - 布兰卡德"] = "Default",
-		["蕾妮 - 蜘蛛王国"] = "Default",
 		["别浪我们能输 - 金色平原"] = "Default",
+		["蕾妮 - 蜘蛛王国"] = "Default",
 		["小微微 - 罗宁"] = "Default",
 		["越江吟 - 安苏"] = "Default",
 		["雷文实力 - 金色平原"] = "Default",
@@ -264,6 +264,10 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "拉希奥",
 					["code"] = "change(next) [ self.dead ]\nability(#1) [ round=1 ]\nability(#2) [ round=2 ]\nability(#3) [ round=3 ]\nability(#1) [ round=6 ]\nstandby [ round=7 ]\nability(#3) [ self(#1).active ]\nif [ self(#2).active & enemy(#2).active ]\nability(#3)\nability(#1)\nendif\nif [ enemy(#3).active ]\nchange(#3) [ enemy.round=1 ]\nchange(#2) [ enemy.round=2 ]\nability(#2) [ enemy.round=3 ]\nability(#3) [ enemy.round=4 ]\nability(#1)\nendif",
 				},
+				["奥多格06"] = {
+					["name"] = "奥多格06",
+					["code"] = "quit [self.level<25 & round=1]\nchange(next) [self.dead]\nchange(#3) [self(#2).played]\nability(邪恶飞升)\nability(#2) [round=3]\nability(#3) [enemy(#2).active]\nability(#1)\nstandby",
+				},
 				[85519] = {
 					["name"] = "克里斯托弗·冯·费舍尔",
 					["code"] = "ability(原始嗥叫) [round = 1]\nability(黑爪) [round = 2]\nability(狩猎小队) [round = 3]\nability(原始嗥叫)\nability(黑爪)\nchange(#2)\nability(雷区)\nability(自爆) [enemy(奥图:1475).hp<500]\nability(猛击)",
@@ -276,53 +280,37 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "罗伯特·克雷格4",
 					["code"] = "quit [ self.level<25 & round=1 ]\nchange(next) [self.dead]\nif [ self(#1).active ]\nuse(雷区) [ self.round = 1 ]\nuse(自爆) [enemy(#2).active] \nuse(猛击)\nendif\nif [ self(#2).active ]\nchange(#3) [ enemy(#2).active ]\nstandby [self.round=1] \nchange(#3) [self.round=2] \nendif\nif [ self(#3).active ]\nstandby [self.aura(水晶牢笼:734).exists ]\nuse(诱饵) [enemy(#3).active & enemy.round=1]\nuse(错乱) [enemy(#3).active]\nuse(空袭)\nendif\nquit",
 				},
-				["奥利尔001"] = {
-					["name"] = "奥利尔100",
-					["code"] = "quit [self(守望者猫头鹰雏鸟).active &round=1]\nquit [self(钢铁星弹).active &round=1]\nchange(next) [self.dead]\nability(#3) [round=1]\nif [ self(#2).active & enemy(#1).active  ]\nability(#3)\nability(#2)\nability(#1)\nendif\n\nif [ self(#2).active & enemy(#2).active  ]\nstandby [enemy.aura(795).exists]\nstandby [enemy.hp<=400 &enemy.ability(794).usable]\nability(#2)\nability(#1)\nendif\n\nif [ self(#2).active & enemy(#3).active  ]\nability(#2)\nability(#1)\nendif\n\nif [ self(守望者猫头鹰雏鸟).active & enemy(#2).active  ]\nstandby [enemy.aura(795).exists]\nstandby [enemy.hp<=400 &enemy.ability(794).usable]\nability(#2)\nability(#1)\nendif\n\n\nif [ self(守望者猫头鹰雏鸟).active & enemy(#3).active  ]\nability(#2)\nability(#3)\nability(#1)\nendif\n\nif [ self(钢铁星弹).active & enemy(#2).active  ]\nability(#1) [self.round=1]\nstandby [enemy.aura(795).exists]\nstandby [enemy.hp<=400 &enemy.ability(794).usable]\nability(#2) [enemy.hp<=243]\nability(#1)\nendif\n\nif [ self(钢铁星弹).active & enemy(#3).active  ]\nability(#3) [self.aura(旋紧发条).exists]\nability(#2) [enemy.hp<=243]\nability(#1)\nendif\n\nability(#1)",
-				},
-				["奥多格06"] = {
-					["name"] = "奥多格06",
-					["code"] = "quit [self.level<25 & round=1]\nchange(next) [self.dead]\nchange(#3) [self(#2).played]\nability(邪恶飞升)\nability(#2) [round=3]\nability(#3) [enemy(#2).active]\nability(#1)\nstandby",
-				},
-				["奥利尔01"] = {
-					["name"] = "奥利尔1",
-					["code"] = "quit [self(#2).level<25 &round=1] \nquit [self(#3).active &self(#2).dead] \nchange(#1) [self(#3).played] \nchange(#2) [self(#1).dead & enemy(#2).hp>400]   \nchange(#2) [self(#1).dead &self(#3).played ] \nchange(#3) [enemy(#3).active & enemy.round=2 &!self(#3).played] \n\nif [ self(#1).active & enemy(#1).active  ] \nability(#3) \nability(#2) \nability(#1) \nendif \n\nif [ self(#1).active & enemy(#2).active  ] \nchange(#3) [enemy.hp<=400 &!self(#3).played] \nstandby [enemy.aura(795).exists] \nstandby [enemy.hp<=400 &enemy.ability(794).usable] \nstandby [enemy.hp<=400] \nability(#1) \nendif \n\nif [ self(#2).active & enemy(#2).active  ] \nstandby [enemy.aura(795).exists] \nstandby [enemy.hp<=400 &enemy.ability(794).usable] \nability(#2) \nability(#1) \nendif \n\nif [ self(#2).active & enemy(#3).active  ] \nability(#2) \nability(#3) \nability(#1) \nendif \nability(#1)",
-				},
-				["幸运的小艺8"] = {
-					["name"] = "幸运的小艺8",
-					["code"] = "quit [self.level < 25]\nchange(next) [self.dead]\nability(伤口外露) [round = 1]\nability(狩猎小队) [round = 2]\nability(#1) [self(#2).active]\nability(跳跃)\nquit",
-				},
 				["博迪·日轨02"] = {
 					["name"] = "博迪·日轨00",
 					["code"] = "quit [self.count<3]\nchange(next) [self.dead]\nstandby [round=1]\nchange(#2) [round=2]\nuse(虚空新星)\nuse(自动毒弹)\nuse(腐蚀)\nuse(奥术风暴)\nuse(法力澎湃)",
 				},
-				[72290] = {
-					["name"] = "皂皂，砮皂的幼犊",
-					["code"] = "change(next) [ self.dead ]\nability(#3) [ round=1 ]\nability(#1) [ round=2 ]\nability(#1)",
+				["奥利尔001"] = {
+					["name"] = "奥利尔100",
+					["code"] = "quit [self(守望者猫头鹰雏鸟).active &round=1]\nquit [self(钢铁星弹).active &round=1]\nchange(next) [self.dead]\nability(#3) [round=1]\nif [ self(#2).active & enemy(#1).active  ]\nability(#3)\nability(#2)\nability(#1)\nendif\n\nif [ self(#2).active & enemy(#2).active  ]\nstandby [enemy.aura(795).exists]\nstandby [enemy.hp<=400 &enemy.ability(794).usable]\nability(#2)\nability(#1)\nendif\n\nif [ self(#2).active & enemy(#3).active  ]\nability(#2)\nability(#1)\nendif\n\nif [ self(守望者猫头鹰雏鸟).active & enemy(#2).active  ]\nstandby [enemy.aura(795).exists]\nstandby [enemy.hp<=400 &enemy.ability(794).usable]\nability(#2)\nability(#1)\nendif\n\n\nif [ self(守望者猫头鹰雏鸟).active & enemy(#3).active  ]\nability(#2)\nability(#3)\nability(#1)\nendif\n\nif [ self(钢铁星弹).active & enemy(#2).active  ]\nability(#1) [self.round=1]\nstandby [enemy.aura(795).exists]\nstandby [enemy.hp<=400 &enemy.ability(794).usable]\nability(#2) [enemy.hp<=243]\nability(#1)\nendif\n\nif [ self(钢铁星弹).active & enemy(#3).active  ]\nability(#3) [self.aura(旋紧发条).exists]\nability(#2) [enemy.hp<=243]\nability(#1)\nendif\n\nability(#1)",
 				},
 				[119341] = {
 					["name"] = "2-2-3挖矿的猴子",
 					["code"] = "use(强力球:566) [enemy.hp<=270]\nuse(强力球:566) [self.aura(机械:244).exists & !self.aura(旋紧发条:458).exists]\nuse(旋紧发条:459) [!self.aura(旋紧发条:458).exists]\nuse(增压:208)\nuse(#1)\nchange(next)",
 				},
-				[71927] = {
-					["name"] = "陈·风暴烈酒",
-					["code"] = "quit [ self(#1).aura(昏迷:927).exists ]\nchange(#2) [ self(#1).dead ]\nability(#2) [ round=1 ]\nability(#1) [ round=3 ]\nchange(#3) [ round=4 ]\nchange(#1) [ round=5 ]\nability(#3) [ round=6 ]\nability(#2) [ round=8 ]\nif [ self(#1).active & enemy(#3).active ]\nability(#3)\nability(#2)\nability(#1)\nendif\nability(#1) [ self(#2).active & enemy(#2).active ]\nif [ self(#2).active ]\nstandby [ self(#2).aura(昏睡:926).exists ]\nability(#2) [ self(#2).ability(#2).usable & self(#2).hp<1300 ]\nability(#3) [ self(#2).aura(甲壳护盾:309).duration<2 & self(#2).ability(#3).usable ]\nability(#1)\nendif\nstandby [ self(#1).active ]",
+				["幸运的小艺8"] = {
+					["name"] = "幸运的小艺8",
+					["code"] = "quit [self.level < 25]\nchange(next) [self.dead]\nability(伤口外露) [round = 1]\nability(狩猎小队) [round = 2]\nability(#1) [self(#2).active]\nability(跳跃)\nquit",
 				},
 				[94638] = {
 					["name"] = "~15混沌狼崽",
 					["code"] = "use(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(原始嗥叫:920)\nuse(狩猎小队:921)\n\nuse(自爆:282) [self.hpp<=20]\nuse(雷区:634) [self.round=2]\nuse(猛击:455)\n\nuse(诱饵:334)\nuse(错乱:916) [enemy.type!=水栖]\nuse(空袭:504)\n\nstandby\nchange(next)",
 				},
+				["奥利尔01"] = {
+					["name"] = "奥利尔1",
+					["code"] = "quit [self(#2).level<25 &round=1] \nquit [self(#3).active &self(#2).dead] \nchange(#1) [self(#3).played] \nchange(#2) [self(#1).dead & enemy(#2).hp>400]   \nchange(#2) [self(#1).dead &self(#3).played ] \nchange(#3) [enemy(#3).active & enemy.round=2 &!self(#3).played] \n\nif [ self(#1).active & enemy(#1).active  ] \nability(#3) \nability(#2) \nability(#1) \nendif \n\nif [ self(#1).active & enemy(#2).active  ] \nchange(#3) [enemy.hp<=400 &!self(#3).played] \nstandby [enemy.aura(795).exists] \nstandby [enemy.hp<=400 &enemy.ability(794).usable] \nstandby [enemy.hp<=400] \nability(#1) \nendif \n\nif [ self(#2).active & enemy(#2).active  ] \nstandby [enemy.aura(795).exists] \nstandby [enemy.hp<=400 &enemy.ability(794).usable] \nability(#2) \nability(#1) \nendif \n\nif [ self(#2).active & enemy(#3).active  ] \nability(#2) \nability(#3) \nability(#1) \nendif \nability(#1)",
+				},
 				["海难俘虏14"] = {
 					["name"] = "海难俘虏6",
 					["code"] = "quit [round = 1 & self(#1).hp != 1546]\nchange(next) [self.dead] \nif [self(#1).active] \nchange(#2) [enemy.aura(亡灵).exists] \nability(#3) [round > 1] \nability(#2) [round = 5] \nability(#1) \nendif \nif [self(#2).active] \nstandby [enemy.aura(亡灵).exists] \nability(#3) \nability(#1) \nendif \nif [self(#3).active] \nability(#3) [enemy.aura(躲闪).exists] \nability(#1) \nendif \nquit",
 				},
-				["加尔维斯顿先生13"] = {
-					["name"] = "加尔维斯顿先生04",
-					["code"] = "quit [self(#3).active & round=1] \nchange(next) [self.dead] \nability(#2) [round=1] \nstandby [round=3] \nability(#3) \nability(#2) \nability(#1)",
-				},
-				["海难俘虏06"] = {
-					["name"] = "海难俘虏",
-					["code"] = "quit [round = 1 & self(#2).hpp < 100] \nchange(next) [self.dead] \nchange(#3) [enemy.aura(亡灵).exists] \nstandby [self(#3).active & enemy.aura(亡灵).exists] \nability(黑爪) [round = 1] \nchange(#2) [round = 2] \nability(奔踏) [round = 3] \nability(卷土重来) [round = 6] \nability(抓挠) [round = 7]   \nability(增压) [enemy.aura(遁地).exists] \nability(突袭) \nquit",
+				[71927] = {
+					["name"] = "陈·风暴烈酒",
+					["code"] = "quit [ self(#1).aura(昏迷:927).exists ]\nchange(#2) [ self(#1).dead ]\nability(#2) [ round=1 ]\nability(#1) [ round=3 ]\nchange(#3) [ round=4 ]\nchange(#1) [ round=5 ]\nability(#3) [ round=6 ]\nability(#2) [ round=8 ]\nif [ self(#1).active & enemy(#3).active ]\nability(#3)\nability(#2)\nability(#1)\nendif\nability(#1) [ self(#2).active & enemy(#2).active ]\nif [ self(#2).active ]\nstandby [ self(#2).aura(昏睡:926).exists ]\nability(#2) [ self(#2).ability(#2).usable & self(#2).hp<1300 ]\nability(#3) [ self(#2).aura(甲壳护盾:309).duration<2 & self(#2).ability(#3).usable ]\nability(#1)\nendif\nstandby [ self(#1).active ]",
 				},
 				["奥多格10"] = {
 					["name"] = "奥多格10",
@@ -332,17 +320,17 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "阿玛利亚005",
 					["code"] = "quit [self(#1).dead & enemy(#2).active]\nstandby [round=8 & enemy.hp<=1206]\nchange(next) [self.dead]\nchange(#3) [round=5]\nchange(#1) [round=6]\nchange(#2) [enemy(#3).active]\nability(增压) [self.aura(旋紧发条).exists & enemy.hp>1206]\nability(强力球) [round=4]\nability(旋紧发条)\nability(湍流旋涡)\nability(抽水)\nstandby",
 				},
-				["阿玛利亚003"] = {
-					["name"] = "阿玛利亚003",
-					["code"] = "quit [count < 3]\nchange(next) [self.dead]\n\nif [enemy(#1).active]\nchange(next) [round = 5]\nuse(虚空新星)\nuse(腐蚀) [round = 2]\nuse(自动毒弹)\nuse(雷区)\nuse(自爆)\nendif\n\nif [enemy(#2).active]\nuse(腐蚀)\nuse(自爆)\nuse(铁拳)\nendif\n\nuse(能量涌动) [enemy(#3).active]\nuse(#1)\nquit",
+				[72290] = {
+					["name"] = "皂皂，砮皂的幼犊",
+					["code"] = "change(next) [ self.dead ]\nability(#3) [ round=1 ]\nability(#1) [ round=2 ]\nability(#1)",
 				},
 				["梅瑞尔003"] = {
 					["name"] = "梅瑞尔01",
 					["code"] = "change(next) [self.dead]\nstandby [enemy.aura(亡灵).exists]\nability(#3)\nability(#2)\nability(#1)\nstandby",
 				},
-				["蒂梵妮·尼尔森22"] = {
-					["name"] = "蒂梵妮·尼尔森7",
-					["code"] = "quit [ self(#2).level<25  & round=1 ] \nchange(#3) [self(#2).dead &!self(#3).played] \nchange(#1) [self(#3).played] \nchange(#2) [round=3] \nability(#2) [ round=1 ] \nability(飞羽) [ enemy(#1).active & self.round=1 ] \nability(黑爪) [ !enemy.aura(黑爪).exists ] \nability(群殴) \nability(错乱) \nability(#1)",
+				["阿玛利亚003"] = {
+					["name"] = "阿玛利亚003",
+					["code"] = "quit [count < 3]\nchange(next) [self.dead]\n\nif [enemy(#1).active]\nchange(next) [round = 5]\nuse(虚空新星)\nuse(腐蚀) [round = 2]\nuse(自动毒弹)\nuse(雷区)\nuse(自爆)\nendif\n\nif [enemy(#2).active]\nuse(腐蚀)\nuse(自爆)\nuse(铁拳)\nendif\n\nuse(能量涌动) [enemy(#3).active]\nuse(#1)\nquit",
 				},
 				[124617] = {
 					["name"] = "环境学者伯特",
@@ -352,29 +340,29 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "肿嘴",
 					["code"] = "change(next) [self.dead]\nability(自爆)\nability(#2) [self.round=1]\nability(#3)",
 				},
-				[150858] = {
-					["name"] = "0-11黑鬃01",
-					["code"] = "standby [enemy.aura(亡灵:242).exists]\nuse(#2) [self.round=1]\nuse(金币雨:985)\nuse(#1)\nchange(next)",
+				["加尔维斯顿先生13"] = {
+					["name"] = "加尔维斯顿先生04",
+					["code"] = "quit [self(#3).active & round=1] \nchange(next) [self.dead] \nability(#2) [round=1] \nstandby [round=3] \nability(#3) \nability(#2) \nability(#1)",
 				},
 				["瑟尼亚01"] = {
 					["name"] = "瑟尼亚01",
 					["code"] = "quit [ self.count <3 ]\nquit [enemy(#1).hp>1 & round=4]\nquit [self(#3).active & enemy(#2).hp>1]\nchange(next) [ self.dead ]\nchange(#2) [round=4]\nchange(#3) [enemy(#3).active]\nability(#2) [round=3]\nability(增压)\nability(嚎叫)\nability(#3)\nability(#1)\nstandby\nquit",
 				},
-				["奥多格01"] = {
-					["name"] = "奥多格01",
-					["code"] = "quit [self.level<25 & round=1]\nchange(next) [self.dead]\nchange(#3) [self(#2).played]\nability(原始嗥叫) [enemy(#1).active]\nability(#3)\nability(#1)\nstandby",
+				["海难俘虏06"] = {
+					["name"] = "海难俘虏",
+					["code"] = "quit [round = 1 & self(#2).hpp < 100] \nchange(next) [self.dead] \nchange(#3) [enemy.aura(亡灵).exists] \nstandby [self(#3).active & enemy.aura(亡灵).exists] \nability(黑爪) [round = 1] \nchange(#2) [round = 2] \nability(奔踏) [round = 3] \nability(卷土重来) [round = 6] \nability(抓挠) [round = 7]   \nability(增压) [enemy.aura(遁地).exists] \nability(突袭) \nquit",
 				},
 				[119342] = {
 					["name"] = "2-2-2愤怒的晶簇",
 					["code"] = "use(治疗波:123) [self.hp<=916]\nuse(#3)\nuse(法力澎湃:489)\nuse(#1)\nstandby\nchange(next)",
 				},
+				["蒂梵妮·尼尔森22"] = {
+					["name"] = "蒂梵妮·尼尔森7",
+					["code"] = "quit [ self(#2).level<25  & round=1 ] \nchange(#3) [self(#2).dead &!self(#3).played] \nchange(#1) [self(#3).played] \nchange(#2) [round=3] \nability(#2) [ round=1 ] \nability(飞羽) [ enemy(#1).active & self.round=1 ] \nability(黑爪) [ !enemy.aura(黑爪).exists ] \nability(群殴) \nability(错乱) \nability(#1)",
+				},
 				[94639] = {
 					["name"] = "~12诅咒之魂",
 					["code"] = "use(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(狩猎小队:921)\nuse(原始嗥叫:920)\n\nuse(自爆:282) [self.hpp<=20]\nuse(雷区:634) [self.round=2]\nuse(猛击:455)\n\nuse(诱饵:334)\nuse(错乱:916) [enemy.type!=水栖]\nuse(空袭:504)\n\nstandby\nchange(next)",
-				},
-				[146181] = {
-					["name"] = "1-2-3活体永冻之霜",
-					["code"] = "if [self(#1).active]\nuse(甲壳护盾:310) [round~2,5]\nuse(甲壳护盾:310) [enemy.aura(躲闪:2060).exists]\nuse(甲壳护盾:310) [enemy.aura(亡灵:242).exists]\nuse(割裂:803) [enemy(自动钻探机:2490).active & enemy.ability(烟云:2239).usable]\nstandby [enemy.aura(躲闪:2060).exists]\nstandby [enemy.aura(亡灵:242).exists]\nuse(沐血:423) [enemy.aura(流血:491).exists]\nuse(割裂:803)\nendif\n\nif [self(#2).active]\nuse(强力球:566) [!self.speed.fast]\nuse(增压:208) [enemy.aura(躲闪:2060).exists & enemy.hp<=540 & enemy.hp>270]\nuse(强力球:566) [enemy.hp<=540 & !enemy.aura(躲闪:2060).exists &!enemy.aura(亡灵:242).exists]\nuse(强力球:566) [self.aura(机械:244).exists & !self.aura(旋紧发条:458).exists]\nuse(旋紧发条:459) [!self.aura(旋紧发条:458).exists]\nuse(强力球:566) [enemy(自动钻探机:2490).active & enemy.ability(烟云:2239).usable]\nuse(增压:208) [self.aura(旋紧发条:458).exists & !self.aura(机械:244).exists & enemy.hp>974]\nuse(增压:208) [enemy.hp>812 & enemy.aura(躲闪:2060).exists]\nuse(强力球:566) [enemy.aura(躲闪:2060).exists]\nuse(旋紧发条:459) [self.aura(旋紧发条:458).exists & !enemy.aura(躲闪:2060).exists]\nuse(强力球:566)\nendif\n\nif [self(#3).active]\nuse(献祭:178)\nuse(焚烧:179)\nuse(燃烧:113)\nendif\n\nchange(next)",
 				},
 				[67370] = {
 					["name"] = "杰里米·费舍尔",
@@ -383,6 +371,18 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 				["瑟尼亚04"] = {
 					["name"] = "瑟尼亚00",
 					["code"] = "quit [ self.count <3 ]\nquit [enemy(#1).hp>1 & round=4]\nquit [self(#3).active & enemy(#2).hp>1]\nchange(next) [ self.dead ]\nchange(#2) [round=4]\nchange(#3) [enemy(#3).active]\nability(#2) [round=3]\nability(#1) [round=5]\nability(增压)\nability(#3)\nability(#1)\nstandby\nquit",
+				},
+				[150858] = {
+					["name"] = "0-11黑鬃01",
+					["code"] = "standby [enemy.aura(亡灵:242).exists]\nuse(#2) [self.round=1]\nuse(金币雨:985)\nuse(#1)\nchange(next)",
+				},
+				["奥多格01"] = {
+					["name"] = "奥多格01",
+					["code"] = "quit [self.level<25 & round=1]\nchange(next) [self.dead]\nchange(#3) [self(#2).played]\nability(原始嗥叫) [enemy(#1).active]\nability(#3)\nability(#1)\nstandby",
+				},
+				[146181] = {
+					["name"] = "1-2-3活体永冻之霜",
+					["code"] = "if [self(#1).active]\nuse(甲壳护盾:310) [round~2,5]\nuse(甲壳护盾:310) [enemy.aura(躲闪:2060).exists]\nuse(甲壳护盾:310) [enemy.aura(亡灵:242).exists]\nuse(割裂:803) [enemy(自动钻探机:2490).active & enemy.ability(烟云:2239).usable]\nstandby [enemy.aura(躲闪:2060).exists]\nstandby [enemy.aura(亡灵:242).exists]\nuse(沐血:423) [enemy.aura(流血:491).exists]\nuse(割裂:803)\nendif\n\nif [self(#2).active]\nuse(强力球:566) [!self.speed.fast]\nuse(增压:208) [enemy.aura(躲闪:2060).exists & enemy.hp<=540 & enemy.hp>270]\nuse(强力球:566) [enemy.hp<=540 & !enemy.aura(躲闪:2060).exists &!enemy.aura(亡灵:242).exists]\nuse(强力球:566) [self.aura(机械:244).exists & !self.aura(旋紧发条:458).exists]\nuse(旋紧发条:459) [!self.aura(旋紧发条:458).exists]\nuse(强力球:566) [enemy(自动钻探机:2490).active & enemy.ability(烟云:2239).usable]\nuse(增压:208) [self.aura(旋紧发条:458).exists & !self.aura(机械:244).exists & enemy.hp>974]\nuse(增压:208) [enemy.hp>812 & enemy.aura(躲闪:2060).exists]\nuse(强力球:566) [enemy.aura(躲闪:2060).exists]\nuse(旋紧发条:459) [self.aura(旋紧发条:458).exists & !enemy.aura(躲闪:2060).exists]\nuse(强力球:566)\nendif\n\nif [self(#3).active]\nuse(献祭:178)\nuse(焚烧:179)\nuse(燃烧:113)\nendif\n\nchange(next)",
 				},
 				[160207] = {
 					["name"] = "4-4-1瑟林·天歌",
@@ -396,33 +396,21 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "1-2-2活体淤泥",
 					["code"] = "if [self(#1).active]\nuse(蛙鸣:932) [round=2]\nuse(蛙鸣:932) [self.hp<=434 & !self.aura(抽水:296).exists]\nuse(蒸汽喷吐:1060) [self.hp<=434 & !self.aura(抽水:296).exists]\nuse(蛙鸣:932) [enemy.hp<=304 & !enemy.aura(躲闪:2060).exists &!enemy.aura(亡灵:242).exists]\nuse(蒸汽喷吐:1060) [enemy.hp<=234 & !enemy.aura(躲闪:2060).exists &!enemy.aura(亡灵:242).exists]\nuse(抽水:297) [!self.aura(抽水:296).exists]\nstandby [enemy.aura(躲闪:2060).exists]\nstandby [enemy.aura(亡灵:242).exists]\nuse(抽水:297) [self.aura(抽水:296).exists & !enemy.aura(躲闪:2060).exists]\nendif\n\nif [self(#2).active]\nuse(强力球:566) [!self.speed.fast]\nuse(增压:208) [enemy.aura(躲闪:2060).exists & enemy.hp<=486 & enemy.hp>243]\nuse(强力球:566) [enemy.hp<=486 & !enemy.aura(躲闪:2060).exists &!enemy.aura(亡灵:242).exists]\nuse(强力球:566) [self.aura(机械:244).exists & !self.aura(旋紧发条:458).exists]\nuse(旋紧发条:459) [!self.aura(旋紧发条:458).exists]\nuse(强力球:566) [enemy(自动钻探机:2490).active & enemy.ability(烟云:2239).usable]\nuse(增压:208) [self.aura(旋紧发条:458).exists & !self.aura(机械:244).exists & enemy.hp>974]\nuse(增压:208) [enemy.hp>731 & enemy.aura(躲闪:2060).exists]\nuse(强力球:566) [enemy.aura(躲闪:2060).exists]\nuse(旋紧发条:459) [self.aura(旋紧发条:458).exists]\nuse(强力球:566)\nendif\n\nif [self(#3).active]\nuse(蜷伏:165) [enemy(#2).active]\nuse(刨花:411) [self.ability(刨花:411).strong]\nuse(烈焰喷射:503)\nendif\n\nchange(next)",
 				},
-				[104553] = {
-					["name"] = "奥多格00",
-					["code"] = "quit [self.level<25 & round=1]\nchange(next) [self.dead]\nchange(#3) [self(#2).played]\nability(#2) [round=4]\nability(#3)\nstandby",
-				},
-				["海难俘虏11"] = {
-					["name"] = "海难俘虏7",
-					["code"] = "quit [round = 1 & self.hpp < 100] \nchange(next) [self.dead] \nchange(#3) [enemy.aura(亡灵).exists] \nstandby [self(#3).active & enemy.aura(亡灵).exists] \nability(原始嗥叫) [round = 1] \nability(黑爪) [round = 2] \nchange(#2) [round = 3] \nability(奔踏) [round = 4] \nability(卷土重来) [self(#2).active] \nability(掷桶) \nquit",
-				},
 				["加尔维斯顿先生11"] = {
 					["name"] = "加尔维斯顿先生06",
 					["code"] = "quit [self(克洛玛尼斯).active & round=1 ]\nquit [self(迷路的虚空狼崽).active & round=1 ]\nability(#3) [round=1]\nchange(#3) [round=6 & enemy(#1).hp=90]\nchange(next) [self.dead]\nif [self(#1).active & enemy(#2).active]\nability(#2) [enemy.round=1]\nendif\nif [self(#2).active]\nability(#1) [self.round=1]\nability(#2)\nability(#3)\nendif\nif [self(#3).active]\nability(#3)\nability(#2)\nability(#1)\nendif\nability(#1)\nquit",
 				},
-				["罗伯特·克雷格91"] = {
-					["name"] = "罗伯特·克雷格1",
-					["code"] = "quit [ self.level<25  & round=1 ] \nchange(next) [self.dead] \nif [ self(#1).active  ] \nability(#3) [round=1] \nability(#2) \nstandby \nendif \nif [ self(#2).active  ] \nability(#3) [enemy(#3).active & enemy.round=3] \nability(#2) [self.round=2] \nability(#2) [enemy(#3).active & enemy.round<=2] \nability(#1) \nendif \nquit",
-				},
-				["维雷尼03"] = {
-					["name"] = "维雷尼03",
-					["code"] = "quit [ self.level<25  & round=1 ] \nquit [self(#3).dead ] \nquit [self(#3).hp<900 & round=1 ] \nquit [self(#3).hp<500  &self(#3).active & enemy.round=3 ] \nchange(next) [self.dead] \nchange(#3) [self(#2).played] \nif [ self(#1).active  ] \nability(#2) [round=2] \nability(#3) [round=3] \nability(#1) \nendif \nif [ self(#3).active & enemy(#2).active  ] \nability(#2) \nability(#1) \nendif \nif [ self(#3).active & enemy(#3).active  ] \nability(#1) [enemy.round<=2] \nability(#3) \nstandby \nendif",
+				[104553] = {
+					["name"] = "奥多格00",
+					["code"] = "quit [self.level<25 & round=1]\nchange(next) [self.dead]\nchange(#3) [self(#2).played]\nability(#2) [round=4]\nability(#3)\nstandby",
 				},
 				[99150] = {
 					["name"] = "格里克斯·微泡",
 					["code"] = "quit [ self.count <3 ]\nquit [ self.hp <= 683 & round=2]\nquit [self(#1).dead & enemy(#1).active]\nquit [self(#3).active & enemy(#3).active]\nchange(#2) [enemy(#2).active & !self(#2).played]\nchange(#1) [self(#2).dead ]\n\nuse(闪电之盾) [!self.aura(闪电之盾).exists]\n\nuse(麻痹震击) [enemy(#3).active]\nuse(释能) [enemy(#3).active]\nuse(雷霆之箭) [enemy(#3).active]\nuse(召唤闪电) [enemy(#3).active]\n\nuse(穿刺创伤) [enemy.aura(中毒).exists]\nuse(#1)\n\nstandby",
 				},
-				[146183] = {
-					["name"] = "1-2-1活体汽油弹",
-					["code"] = "if [self(#1).active]\nuse(水流喷射:118) [round=2]\nuse(水流喷射:118) [self.hp<=434 & !self.aura(抽水:296).exists]\nuse(水流喷射:118) [enemy.hp<=293 & !enemy.aura(躲闪:2060).exists &!enemy.aura(亡灵:242).exists]\nuse(抽水:297) [!self.aura(抽水:296).exists]\nuse(净化之雨:230) [enemy.aura(躲闪:2060).exists]\nuse(净化之雨:230) [enemy.aura(亡灵:242).exists]\nstandby [enemy.aura(躲闪:2060).exists]\nstandby [enemy.aura(亡灵:242).exists]\nuse(抽水:297) [self.aura(抽水:296).exists & !enemy.aura(躲闪:2060).exists]\nuse(水流喷射:118)\nendif\n\nif [self(#2).active]\nuse(强力球:566) [!self.speed.fast]\nuse(增压:208) [enemy.aura(躲闪:2060).exists & enemy.hp<=486 & enemy.hp>243]\nuse(强力球:566) [enemy.hp<=486 &!enemy.aura(躲闪:2060).exists &!enemy.aura(亡灵:242).exists]\nuse(强力球:566) [self.aura(机械:244).exists & !self.aura(旋紧发条:458).exists]\nuse(旋紧发条:459) [!self.aura(旋紧发条:458).exists]\nuse(强力球:566) [enemy(自动钻探机:2490).active & enemy.ability(烟云:2239).usable]\nuse(增压:208) [self.aura(旋紧发条:458).exists & !self.aura(机械:244).exists & enemy.hp>974]\nuse(增压:208) [enemy.hp>731 & enemy.aura(躲闪:2060).exists]\nuse(强力球:566) [enemy.aura(躲闪:2060).exists]\nuse(旋紧发条:459) [self.aura(旋紧发条:458).exists]\nuse(强力球:566)\nendif\n\nif [self(#3).active]\nuse(寒冰之墓:624) [enemy.hp>369]\nstandby [enemy.aura(躲闪:2060).exists]\nuse(奥术风暴:589) [!self.ability(奥术风暴:589).weak]\nuse(爪击:429)\nendif\n\nstandby\nchange(next)",
+				["海难俘虏11"] = {
+					["name"] = "海难俘虏7",
+					["code"] = "quit [round = 1 & self.hpp < 100] \nchange(next) [self.dead] \nchange(#3) [enemy.aura(亡灵).exists] \nstandby [self(#3).active & enemy.aura(亡灵).exists] \nability(原始嗥叫) [round = 1] \nability(黑爪) [round = 2] \nchange(#2) [round = 3] \nability(奔踏) [round = 4] \nability(卷土重来) [self(#2).active] \nability(掷桶) \nquit",
 				},
 				[155267] = {
 					["name"] = "0-07复活的卫兵",
@@ -432,9 +420,29 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "2-5-1克鲁兹的战鼠",
 					["code"] = "use(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(翡翠灵气:597) [!self.aura(翡翠灵气:823).exists]\nuse(#1)\nuse(#2)\nchange(next)",
 				},
+				["维雷尼03"] = {
+					["name"] = "维雷尼03",
+					["code"] = "quit [ self.level<25  & round=1 ] \nquit [self(#3).dead ] \nquit [self(#3).hp<900 & round=1 ] \nquit [self(#3).hp<500  &self(#3).active & enemy.round=3 ] \nchange(next) [self.dead] \nchange(#3) [self(#2).played] \nif [ self(#1).active  ] \nability(#2) [round=2] \nability(#3) [round=3] \nability(#1) \nendif \nif [ self(#3).active & enemy(#2).active  ] \nability(#2) \nability(#1) \nendif \nif [ self(#3).active & enemy(#3).active  ] \nability(#1) [enemy.round<=2] \nability(#3) \nstandby \nendif",
+				},
+				[146183] = {
+					["name"] = "1-2-1活体汽油弹",
+					["code"] = "if [self(#1).active]\nuse(水流喷射:118) [round=2]\nuse(水流喷射:118) [self.hp<=434 & !self.aura(抽水:296).exists]\nuse(水流喷射:118) [enemy.hp<=293 & !enemy.aura(躲闪:2060).exists &!enemy.aura(亡灵:242).exists]\nuse(抽水:297) [!self.aura(抽水:296).exists]\nuse(净化之雨:230) [enemy.aura(躲闪:2060).exists]\nuse(净化之雨:230) [enemy.aura(亡灵:242).exists]\nstandby [enemy.aura(躲闪:2060).exists]\nstandby [enemy.aura(亡灵:242).exists]\nuse(抽水:297) [self.aura(抽水:296).exists & !enemy.aura(躲闪:2060).exists]\nuse(水流喷射:118)\nendif\n\nif [self(#2).active]\nuse(强力球:566) [!self.speed.fast]\nuse(增压:208) [enemy.aura(躲闪:2060).exists & enemy.hp<=486 & enemy.hp>243]\nuse(强力球:566) [enemy.hp<=486 &!enemy.aura(躲闪:2060).exists &!enemy.aura(亡灵:242).exists]\nuse(强力球:566) [self.aura(机械:244).exists & !self.aura(旋紧发条:458).exists]\nuse(旋紧发条:459) [!self.aura(旋紧发条:458).exists]\nuse(强力球:566) [enemy(自动钻探机:2490).active & enemy.ability(烟云:2239).usable]\nuse(增压:208) [self.aura(旋紧发条:458).exists & !self.aura(机械:244).exists & enemy.hp>974]\nuse(增压:208) [enemy.hp>731 & enemy.aura(躲闪:2060).exists]\nuse(强力球:566) [enemy.aura(躲闪:2060).exists]\nuse(旋紧发条:459) [self.aura(旋紧发条:458).exists]\nuse(强力球:566)\nendif\n\nif [self(#3).active]\nuse(寒冰之墓:624) [enemy.hp>369]\nstandby [enemy.aura(躲闪:2060).exists]\nuse(奥术风暴:589) [!self.ability(奥术风暴:589).weak]\nuse(爪击:429)\nendif\n\nstandby\nchange(next)",
+				},
+				["罗伯特·克雷格91"] = {
+					["name"] = "罗伯特·克雷格1",
+					["code"] = "quit [ self.level<25  & round=1 ] \nchange(next) [self.dead] \nif [ self(#1).active  ] \nability(#3) [round=1] \nability(#2) \nstandby \nendif \nif [ self(#2).active  ] \nability(#3) [enemy(#3).active & enemy.round=3] \nability(#2) [self.round=2] \nability(#2) [enemy(#3).active & enemy.round<=2] \nability(#1) \nendif \nquit",
+				},
+				["阿玛利亚001"] = {
+					["name"] = "阿玛利亚001",
+					["code"] = "change(next) [self.dead]\nchange(#2) [round=3]\nchange(#3) [enemy(#3).hpp<100]\nuse(抽水)\nuse(#2)\nuse(#3)\nuse(#1)\nquit",
+				},
 				[71929] = {
 					["name"] = "“腌菜”苏利·麦克莱利",
 					["code"] = "ability(#1) [ round=1 ]\nability(#3) [ round=2 ]\nability(#1) [ round=3 ]\nability(#1) [ round=4 ]\nability(#2) [ round=5 ]\nability(#3) [ round=6 ]\nability(#1) [ round=7 ]\nstandby [ round=8 ]\nchange(#2) [ !self(#2).played ]\nchange(#3) [ self(#2).played ]\nability(#2) [ !enemy.aura(黑爪).exists ]\nability(#3)",
+				},
+				[72009] = {
+					["name"] = "雪福，雪怒的幼崽",
+					["code"] = "change(next) [ self.dead ]\nability(黑爪) [ round=1 ]\nability(狩猎小队) [ round=2 ]\nability(自我复制)",
 				},
 				[160208] = {
 					["name"] = "4-7-1祖娜·裂颅者",
@@ -444,29 +452,9 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "诱捕者贾伦",
 					["code"] = "quit [ self.level<25 & round=1 ] \nchange(next) [self.dead] \nability(增压) [!self.aura(增压).exists & self.aura(旋紧发条).exists]\nability(旋紧发条) [self.hp <=350]\nability(旋紧发条) [!self.aura(旋紧发条).exists & self.aura(加速).exists]\nability(旋紧发条) [self.aura(旋紧发条).exists & self.aura(增压).exists]\nability(自爆) [enemy(#3).hp.can_explode]\nability(自爆) [self.hpp<=20]\nability(强力球)\nability(#1)\nability(#2)",
 				},
-				["阿玛利亚001"] = {
-					["name"] = "阿玛利亚001",
-					["code"] = "change(next) [self.dead]\nchange(#2) [round=3]\nchange(#3) [enemy(#3).hpp<100]\nuse(抽水)\nuse(#2)\nuse(#3)\nuse(#1)\nquit",
-				},
 				[145988] = {
 					["name"] = "1-9-1粉碎机器人Mk6001型",
 					["code"] = "use(自我复制:1002)\nuse(闪电之盾:906)\nstandby\nchange(#1)",
-				},
-				[72009] = {
-					["name"] = "雪福，雪怒的幼崽",
-					["code"] = "change(next) [ self.dead ]\nability(黑爪) [ round=1 ]\nability(狩猎小队) [ round=2 ]\nability(自我复制)",
-				},
-				[72291] = {
-					["name"] = "玉兰，玉珑的子嗣",
-					["code"] = "ability(#2) [ round=1 ] \nchange(#2)\nability(#3) [ round=3 ] \nchange(#3) \nability(#3) [ round=4 ]",
-				},
-				[150925] = {
-					["name"] = "0-04讯问者莉兹",
-					["code"] = "use(#2) [!enemy.aura(黑爪:918).exists]\nuse(自爆:282) [enemy.aura(蠕行真菌:742).exists]\nuse(#1)\nchange(next)",
-				},
-				[94649] = {
-					["name"] = "9斯格里克斯",
-					["code"] = "use(自爆:282)\n\nuse(强力球:566) [!self.aura(旋紧发条:458).exists & self.aura(机械:244).exists]\nuse(旋紧发条:459) [!self.aura(旋紧发条:458).exists]\nuse(增压:208) [enemy(#1).active]\nuse(旋紧发条:459)\n\nuse(翡翠灵气:597) [!self.aura(翡翠灵气:823).exists]\nuse(翡翠灵气:597) [self.aura(翡翠灵气:823).duration<=1 & enemy.speed>=244]\nuse(翡翠梦境:598) [self.hpp<=40]\nuse(翡翠之咬:525)\n\nstandby\nchange(next)",
 				},
 				[160209] = {
 					["name"] = "4-2-1霍鲁·观云",
@@ -476,21 +464,21 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "幸运的小艺9",
 					["code"] = "quit [self.level < 25]\nchange(next) [self.dead]\nability(黑爪) [round = 1]\nability(群殴) [round = 2]\nability(#1) [self(#2).active]\nability(#1) [self(#3).active]\nability(野蛮之爪)\nquit",
 				},
-				[94641] = {
-					["name"] = "1污秽巨螯蟹",
-					["code"] = "use(飞羽:184) [enemy.aura(破碎防御:542).exists]\nuse(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(群殴:581)\n\nuse(雷区:634) [!enemy.aura(黑爪:918).exists & !enemy(#3).active]\nuse(自爆:282) [enemy(#3).hp.can_explode]\nuse(自爆:282) [self.hpp<20]\nuse(猛击:455)\n\nuse(诱饵:334)\nuse(错乱:916)\nuse(空袭:504)\n\nstandby\nchange(next)",
+				[72291] = {
+					["name"] = "玉兰，玉珑的子嗣",
+					["code"] = "ability(#2) [ round=1 ] \nchange(#2)\nability(#3) [ round=3 ] \nchange(#3) \nability(#3) [ round=4 ]",
 				},
-				[97709] = {
-					["name"] = "驯宠大师弗鲁莫斯0",
-					["code"] = "quit [ self.level<25  & round=1 ] \nchange(next) [ self.dead ] \nability(黑爪) [ !enemy.aura(黑爪).exists & self(#2).active ] \nability(#2) [self(#1).active] \nability(#1) [round=2] \nability(#3)",
+				[150925] = {
+					["name"] = "0-04讯问者莉兹",
+					["code"] = "use(#2) [!enemy.aura(黑爪:918).exists]\nuse(自爆:282) [enemy.aura(蠕行真菌:742).exists]\nuse(#1)\nchange(next)",
 				},
 				["奥多格90"] = {
 					["name"] = "奥多格00",
 					["code"] = "quit [ self.level<25  & round=1 ] \nchange(next) [ self.dead ] \nif [self(#1).active & enemy(#1).active] \nability(#3) [self.aura(旋紧发条).exists] \nability(#2) [enemy.hp<=288] \nability(#1) \nendif \nif [self(#1).active & enemy(#2).active] \nability(#3) [self.aura(旋紧发条).exists] \nability(#2) [enemy.hp<=288] \nability(#1) \nendif \nif [self(#1).active & enemy(#3).active] \nability(#2) [enemy.round>2 & !self.aura(旋紧发条).exists] \nability(#1) [enemy.hpp>70] \nendif \nif [self(#2).active ] \nability(自爆) [  enemy.hp.can_explode & !enemy.aura(潜水).exists] \nability(#1) \nendif \nstandby",
 				},
-				["罗伯特·克雷格02"] = {
-					["name"] = "罗伯特·克雷格02",
-					["code"] = "quit [self.count<3]\nquit [round=5 & self(#2).dead]\nquit [round=10]\n\nchange(next) [self.dead]\nchange(#2) [round=2]\nchange(#3) [self(#2).active & enemy(#2).aura(休眠).exists]\nchange(#1) [self(#3).played]\n\nuse(#2) [self(#1).active & enemy(#2).active]\nuse(#3)\nuse(#2)\nuse(#1)\nstandby",
+				[160210] = {
+					["name"] = "4-8-1泰莎·莱利",
+					["code"] = "standby [enemy.aura(亡灵:242).exists]\nuse(飞掠:626) [enemy.hp<295]\nuse(蜂拥:706) [enemy.aura(黑爪).duration>=2]\nuse(蜂拥:706) [enemy(#3).active]\nuse(飞掠:626) [enemy.aura(破碎防御:542).exists]\nuse(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(蜂拥:706)\nuse(增压:208)\nuse(离子炮:209)\nuse(#1)\nchange(next)",
 				},
 				[119344] = {
 					["name"] = "2-5-3克鲁兹的战禽",
@@ -500,9 +488,9 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "海难俘虏02",
 					["code"] = "quit [self.dead & enemy(#1).active]\nchange(next) [self.dead]\nchange(#2) [round = 4]\nstandby [self(#3).active & enemy.aura(亡灵).exists]\nability(信息素)\nability(抱摔)\nability(原始嗥叫) [enemy.aura(减速).duration < 2]\nability(#1) [enemy(#2).active]\nability(迎头冲撞) [enemy(#3).active & enemy.aura(减速).exists]\nability(#3)\nability(#2)\nquit",
 				},
-				[160210] = {
-					["name"] = "4-8-1泰莎·莱利",
-					["code"] = "standby [enemy.aura(亡灵:242).exists]\nuse(飞掠:626) [enemy.hp<295]\nuse(蜂拥:706) [enemy.aura(黑爪).duration>=2]\nuse(蜂拥:706) [enemy(#3).active]\nuse(飞掠:626) [enemy.aura(破碎防御:542).exists]\nuse(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(蜂拥:706)\nuse(增压:208)\nuse(离子炮:209)\nuse(#1)\nchange(next)",
+				[94641] = {
+					["name"] = "1污秽巨螯蟹",
+					["code"] = "use(飞羽:184) [enemy.aura(破碎防御:542).exists]\nuse(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(群殴:581)\n\nuse(雷区:634) [!enemy.aura(黑爪:918).exists & !enemy(#3).active]\nuse(自爆:282) [enemy(#3).hp.can_explode]\nuse(自爆:282) [self.hpp<20]\nuse(猛击:455)\n\nuse(诱饵:334)\nuse(错乱:916)\nuse(空袭:504)\n\nstandby\nchange(next)",
 				},
 				["梅瑞尔6"] = {
 					["name"] = "梅瑞尔2",
@@ -512,13 +500,13 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "电压吞噬者00",
 					["code"] = "use(312)\nuse(163)\nquit",
 				},
-				["奥利尔02"] = {
-					["name"] = "奥利尔3",
-					["code"] = "quit [self(#2).level<25 &round=1] \nquit [self(#3).active &self(#2).dead] \nchange(#2) [self(#1).dead] \n\nif [ self(#1).active & enemy(#1).active  ] \nability(#3) \nability(#1) \nendif \n\nif [ self(#1).active & enemy(#2).active  ] \nstandby [enemy.hp<=400 & enemy.ability(794).usable] \nstandby [enemy.aura(795).exists] \nstandby [enemy.round=1 & self.hp>=850] \nability(#2) [enemy.round=1 & self.hp<850] \nability(#2) [enemy.round=2] \nability(#1) \nendif \n\n\nif [ self(#2).active & enemy(#2).active  ] \nstandby [enemy.hp<=400 & enemy.ability(794).usable] \nstandby [enemy.aura(795).exists] \nability(#1) \nendif \n\nif [ self(#2).active & enemy(#3).active  ] \nability(#3) [enemy.hp<=560] \nability(#2) [enemy.round=1] \nability(#1) \nendif \n\nability(#1)",
+				[94649] = {
+					["name"] = "9斯格里克斯",
+					["code"] = "use(自爆:282)\n\nuse(强力球:566) [!self.aura(旋紧发条:458).exists & self.aura(机械:244).exists]\nuse(旋紧发条:459) [!self.aura(旋紧发条:458).exists]\nuse(增压:208) [enemy(#1).active]\nuse(旋紧发条:459)\n\nuse(翡翠灵气:597) [!self.aura(翡翠灵气:823).exists]\nuse(翡翠灵气:597) [self.aura(翡翠灵气:823).duration<=1 & enemy.speed>=244]\nuse(翡翠梦境:598) [self.hpp<=40]\nuse(翡翠之咬:525)\n\nstandby\nchange(next)",
 				},
-				["格里克斯·微泡02"] = {
-					["name"] = "格里克斯·微泡02",
-					["code"] = "quit [ self.count <3 ]\nquit [ self.hp <= 683 & round=2]\nquit [self(#1).dead & enemy(#1).active]\nquit [self(#3).active & enemy(#3).active]\nchange(#2) [enemy(#2).active & !self(#2).played]\nchange(#1) [self(#2).dead ]\n\nuse(闪电之盾) [!self.aura(闪电之盾).exists]\n\nuse(麻痹震击) [enemy(#3).active]\nuse(释能) [enemy(#3).active]\nuse(雷霆之箭) [enemy(#3).active]\nuse(召唤闪电) [enemy(#3).active]\n\nuse(穿刺创伤) [enemy.aura(中毒).exists]\nuse(#1)\n\nstandby",
+				[97709] = {
+					["name"] = "驯宠大师弗鲁莫斯0",
+					["code"] = "quit [ self.level<25  & round=1 ] \nchange(next) [ self.dead ] \nability(黑爪) [ !enemy.aura(黑爪).exists & self(#2).active ] \nability(#2) [self(#1).active] \nability(#1) [round=2] \nability(#3)",
 				},
 				["海难俘虏04"] = {
 					["name"] = "海难俘虏0",
@@ -528,13 +516,21 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "加尔维斯顿先生02",
 					["code"] = "quit [self.count<3]\nchange(next) [self.dead]\nstandby [round=3]\nability(#1) [round~1,2,5]\nability(#3) [round~6,7,9]\nability(#2)\nquit",
 				},
+				["罗伯特·克雷格02"] = {
+					["name"] = "罗伯特·克雷格02",
+					["code"] = "quit [self.count<3]\nquit [round=5 & self(#2).dead]\nquit [round=10]\n\nchange(next) [self.dead]\nchange(#2) [round=2]\nchange(#3) [self(#2).active & enemy(#2).aura(休眠).exists]\nchange(#1) [self(#3).played]\n\nuse(#2) [self(#1).active & enemy(#2).active]\nuse(#3)\nuse(#2)\nuse(#1)\nstandby",
+				},
+				["奥利尔02"] = {
+					["name"] = "奥利尔3",
+					["code"] = "quit [self(#2).level<25 &round=1] \nquit [self(#3).active &self(#2).dead] \nchange(#2) [self(#1).dead] \n\nif [ self(#1).active & enemy(#1).active  ] \nability(#3) \nability(#1) \nendif \n\nif [ self(#1).active & enemy(#2).active  ] \nstandby [enemy.hp<=400 & enemy.ability(794).usable] \nstandby [enemy.aura(795).exists] \nstandby [enemy.round=1 & self.hp>=850] \nability(#2) [enemy.round=1 & self.hp<850] \nability(#2) [enemy.round=2] \nability(#1) \nendif \n\n\nif [ self(#2).active & enemy(#2).active  ] \nstandby [enemy.hp<=400 & enemy.ability(794).usable] \nstandby [enemy.aura(795).exists] \nability(#1) \nendif \n\nif [ self(#2).active & enemy(#3).active  ] \nability(#3) [enemy.hp<=560] \nability(#2) [enemy.round=1] \nability(#1) \nendif \n\nability(#1)",
+				},
+				["格里克斯·微泡02"] = {
+					["name"] = "格里克斯·微泡02",
+					["code"] = "quit [ self.count <3 ]\nquit [ self.hp <= 683 & round=2]\nquit [self(#1).dead & enemy(#1).active]\nquit [self(#3).active & enemy(#3).active]\nchange(#2) [enemy(#2).active & !self(#2).played]\nchange(#1) [self(#2).dead ]\n\nuse(闪电之盾) [!self.aura(闪电之盾).exists]\n\nuse(麻痹震击) [enemy(#3).active]\nuse(释能) [enemy(#3).active]\nuse(雷霆之箭) [enemy(#3).active]\nuse(召唤闪电) [enemy(#3).active]\n\nuse(穿刺创伤) [enemy.aura(中毒).exists]\nuse(#1)\n\nstandby",
+				},
 				["罗伯特·克雷格97"] = {
 					["name"] = "罗伯特·克雷格97",
 					["code"] = "quit [self.count<3]\nchange(next) [self.dead]\nability(自爆) [enemy(#1).hp<=650]\nability(末日决战) [enemy(#2).active & round=2]\nability(#2)\nability(#1) [self(#1).active]\nability(#3)\nstandby\nquit",
-				},
-				["驯宠大师弗鲁莫斯04"] = {
-					["name"] = "驯宠大师弗鲁莫斯04",
-					["code"] = "quit [ self.hpp<100  & round=1 ] \nchange(next) [ self.dead ] \nchange(#3) [self(#2).played] \nability(#3) [self(#1).active] \nability(黑爪) [ !enemy.aura(黑爪).exists & self(#3).active ] \nability(#1)",
 				},
 				["蒂梵妮·尼尔森11"] = {
 					["name"] = "蒂梵妮·尼尔森3",
@@ -556,29 +552,21 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "艾恩·戈德布鲁姆博士",
 					["code"] = "change(next) [ self.dead ]\nability(#3) [ round=1 ]\nability(#1) [ round=2 ]\nability(#2) [ round=3 ]\nability(#2) [ round=5 ]\nability(#3) [ round=6 ]\nability(#2) [ round=8 ]\nability(#2) [ round=10 ]\nability(#1) [ self(#2).active ]\nability(#2)\nability(#3)\nability(#1)",
 				},
-				[85685] = {
-					["name"] = "缝合二世0",
-					["code"] = "change(next) [self.dead] \nstandby [round=4]\nstandby [round=7] \nability(增压) [round=5]\nability(旋紧发条)\nquit",
-				},
-				[71931] = {
-					["name"] = "祝踏岚",
-					["code"] = "ability(#3) [ round=1 ]\nability(#2) [ round=2 ]\nchange(#2) [ round=3 ]\nability(#2) [ round=4 ]\nchange(#1) [ round=5 ]\nability(#2) [ round=6 ]\nchange(#2) [ round=7 ]\nability(#2) [ round=8 ]\nchange(#1) [ round=9 ]\nif [ self(#1).active & enemy(#3).active ]\nability(#2)\nability(#1)\nendif\nchange(#3) [!self(#3).played]\nchange(#2) [self(#3).played]\nstandby [self(#2).aura(昏迷:174).exists]\nability(#2)\nability(#3)\nability(#1)",
-				},
 				[94642] = {
 					["name"] = "6灾火",
 					["code"] = "quit [enemy(#1).active & self(#1).dead]\n\nuse(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(狩猎小队:921)\nuse(原始嗥叫:920)\n\nuse(自爆:282) [self.hpp<=20]\nuse(雷区:634) [self.round=2]\nuse(猛击:455)\n\nuse(诱饵:334)\nuse(错乱:916) [enemy.type!=水栖]\nuse(空袭:504)\n\nstandby\nchange(next)",
 				},
-				[160205] = {
-					["name"] = "4-9-1皮克茜·威兹",
-					["code"] = "use(光合作用:268) [!self.aura(光合作用:267).exists]\nuse(太阳光:404)\nchange(#2) [self(#1).active]\nuse(吸血:1043)\nchange(#3) [self(#2).active]\nchange(#2) [self(#3).active]\nuse(#1)",
+				[119345] = {
+					["name"] = "2-5-2克鲁兹的战猴",
+					["code"] = "use(强力球:566) [enemy.hp<=270]\nuse(强力球:566) [self.aura(机械:244).exists & !self.aura(旋紧发条:458).exists]\nuse(旋紧发条:459) [!self.aura(旋紧发条:458).exists]\nuse(增压:208) [enemy(#1).active]\nuse(翡翠灵气:597) [!self.aura(翡翠灵气:823).exists]\nuse(#1)\nchange(next)",
 				},
 				[119409] = {
 					["name"] = "2-1灭敌死神50型",
 					["code"] = "use(蠕行真菌:743) [round=1]\nuse(#2) [!enemy.aura(黑爪:918).exists]\nuse(#3)\nchange(next)",
 				},
-				["博迪·日轨98"] = {
-					["name"] = "博迪·日轨5",
-					["code"] = "ability(吞噬魔法) [ self(#1).active & enemy(#2).active ]\nability(自爆) [ self(#2).active & enemy(#3).hp.can_explode ]\nability(梦魇) [ enemy.aura(复苏之雾).exists ]\nstandby [ self(#1).active & enemy(#3).hp<=572 ]\nability(梦魇) [ enemy(#3).active ]\nquit [ self.level<25 ]\nquit [ self(#3).active ]\nchange(next) [ self.dead ]\nability(虚空冲击)\nability(蠕行真菌) [ !enemy.aura(蠕行真菌).exists ]\nability(尖刺体肤) [ !self.aura(尖刺体肤).exists ]\nability(#1)\nstandby",
+				[85685] = {
+					["name"] = "缝合二世0",
+					["code"] = "change(next) [self.dead] \nstandby [round=4]\nstandby [round=7] \nability(增压) [round=5]\nability(旋紧发条)\nquit",
 				},
 				["幸运的小艺2"] = {
 					["name"] = "幸运的小艺2",
@@ -588,9 +576,9 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "电压吞噬者03",
 					["code"] = "change(next) [ self.dead ]\nuse(515) [ round = 1 ]\nuse(743) [ round = 3 ]\nuse(282)\nquit",
 				},
-				["海难俘虏02"] = {
-					["name"] = "海难俘虏02",
-					["code"] = "quit [round = 1 & self.hpp < 100]\nchange(#2) [round = 3]\nchange(#3) [enemy.aura(亡灵).exists]\nability(#2)\nability(#3)\nquit",
+				[71931] = {
+					["name"] = "祝踏岚",
+					["code"] = "ability(#3) [ round=1 ]\nability(#2) [ round=2 ]\nchange(#2) [ round=3 ]\nability(#2) [ round=4 ]\nchange(#1) [ round=5 ]\nability(#2) [ round=6 ]\nchange(#2) [ round=7 ]\nability(#2) [ round=8 ]\nchange(#1) [ round=9 ]\nif [ self(#1).active & enemy(#3).active ]\nability(#2)\nability(#1)\nendif\nchange(#3) [!self(#3).played]\nchange(#2) [self(#3).played]\nstandby [self(#2).aura(昏迷:174).exists]\nability(#2)\nability(#3)\nability(#1)",
 				},
 				["驯宠大师弗鲁莫斯10"] = {
 					["name"] = "驯宠大师弗鲁莫斯10",
@@ -608,37 +596,41 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "格里克斯·微泡01",
 					["code"] = "quit [ self.count <3 ]\nquit [ self.hp <= 683 & round=2]\nquit [self(#1).dead & enemy(#1).active]\nquit [self(#3).active & enemy(#3).active]\nchange(#2) [enemy(#2).active & !self(#2).played]\nchange(#1) [self(#2).dead ]\n\nuse(闪电之盾) [!self.aura(闪电之盾).exists]\n\nuse(麻痹震击) [enemy(#3).active]\nuse(释能) [enemy(#3).active]\nuse(雷霆之箭) [enemy(#3).active]\nuse(召唤闪电) [enemy(#3).active]\n\nuse(穿刺创伤) [enemy.aura(中毒).exists]\nuse(#1)\n\nstandby",
 				},
-				[71932] = {
-					["name"] = "贤者马里",
-					["code"] = "change(next) [ self.dead ]\nif [self(#1).active&enemy(#1).active]\nability(#2) [enemy.round=1]\nability(#1)\nendif\nif [self(#1).active&enemy(#2).active]\nability(#2) [!enemy.aura(黑爪).exists]\nability(#3)\nability(#1)\nendif\nif [self(#1).active&enemy(#3).active]\nability(#2) [!enemy.aura(黑爪).exists]\nstandby\nendif\nability(#1) [self(#1).dead&enemy(#2).active]\nif [self(#2).active&enemy(#3).active]\nability(#2)\nability(#3) [enemy.hp<560]\nability(#1)\nendif",
+				["维雷尼01"] = {
+					["name"] = "维雷尼01",
+					["code"] = "quit [ self.level<25 & round=1 ] \nquit [self(#3).dead ] \nchange(next) [self.dead] \nchange(#3) [self(#2).played] \nif [ self(#1).active & enemy(#1).active ]\nability(#2) [self.round=2]\nability(#3)\nendif\n\nif [ self(#1).active & enemy(#2).active ]\nability(#1)\nendif\n\nif [ self(#3).active & enemy(#2).active ] \nability(#3)\nendif \nif [ self(#3).active & enemy(#3).active ] \nability(黑爪) [ !enemy.aura(黑爪).exists ] \nability(#1)\nability(#3)\nstandby \nendif\nstandby",
 				},
-				["电压吞噬者04"] = {
-					["name"] = "电压吞噬者04",
-					["code"] = "change(next) [ self.dead ]\nuse(515) [ round = 1 ]\nuse(743) [ round = 3 ]\nuse(282)\nquit",
-				},
-				[119346] = {
-					["name"] = "2-2-1倒霉的迪菲亚强盗",
-					["code"] = "standby [enemy.aura(亡灵:242).exists]\nuse(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(月火术:595)\nuse(#1)\nuse(#2)\nchange(next)",
-				},
-				["奥利尔101"] = {
-					["name"] = "奥利尔101",
-					["code"] = "change(next) [self.dead]\n\nif [ self(#1).active & enemy(#1).active  ]\nability(#3)\nability(#1)\nendif\n\nif [ self(#1).active & enemy(#2).active  ]\nstandby [enemy.hp<=400 &enemy.ability(794).usable]\nstandby [enemy.aura(795).exists]\nability(#2) [enemy.round=1 & self.hp<850]\nability(#2) [enemy.round=2]\nability(#1)\nendif\n\n\nif [ self(#2).active & enemy(#2).active  ]\nstandby [enemy.hp<=400 &enemy.ability(794).usable]\nstandby [enemy.aura(795).exists]\nability(#2)\nability(#1)\nendif\n\nif [ self(#2).active & enemy(#3).active  ]\nability(#3)\nendif\n\nif [ self(#3).active & enemy(#3).active  ]\nability(#3)\nability(#1)\nendif\n\nability(#1)",
+				["博迪·日轨98"] = {
+					["name"] = "博迪·日轨5",
+					["code"] = "ability(吞噬魔法) [ self(#1).active & enemy(#2).active ]\nability(自爆) [ self(#2).active & enemy(#3).hp.can_explode ]\nability(梦魇) [ enemy.aura(复苏之雾).exists ]\nstandby [ self(#1).active & enemy(#3).hp<=572 ]\nability(梦魇) [ enemy(#3).active ]\nquit [ self.level<25 ]\nquit [ self(#3).active ]\nchange(next) [ self.dead ]\nability(虚空冲击)\nability(蠕行真菌) [ !enemy.aura(蠕行真菌).exists ]\nability(尖刺体肤) [ !self.aura(尖刺体肤).exists ]\nability(#1)\nstandby",
 				},
 				["斯特拉提欧斯11"] = {
 					["name"] = "斯特拉提欧斯11",
 					["code"] = "quit [self.count<3]\nchange(next) [self.dead]\nchange(#2) [round=4]\nability(琥珀监牢) [enemy(#1).hp>293]\nability(#1) [round=1]\nability(#2) [round!=2 & !enemy(#3).active & !self(#2).active]\nability(#3)\nquit",
 				},
-				["索瓦斯克4"] = {
-					["name"] = "索瓦斯克001",
-					["code"] = "quit [ self.level<25 & round=1 ] \nquit [self(#1).dead &enemy(#2).active &enemy.round=1] \nchange(next) [self.dead]\nif [self(#1).active & enemy(#1).active]\nability(#2) [round=2]\nability(#3) [round=4]\nability(#1)\nendif\nif [self(#1).active & enemy(#2).active]\nstandby [self.aura(昏迷).exists]\nability(#3) [self.aura(亡灵).exists]\nability(#2)\nability(#1)\nendif\nif [self(#2).active] \nability(自爆) [ enemy(#3).hp<=560] \nability(#2) [enemy(#3).active & enemy.hp<=1048] \nability(#1) \nendif\nquit",
+				[119346] = {
+					["name"] = "2-2-1倒霉的迪菲亚强盗",
+					["code"] = "standby [enemy.aura(亡灵:242).exists]\nuse(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(月火术:595)\nuse(#1)\nuse(#2)\nchange(next)",
+				},
+				["海难俘虏02"] = {
+					["name"] = "海难俘虏02",
+					["code"] = "quit [round = 1 & self.hpp < 100]\nchange(#2) [round = 3]\nchange(#3) [enemy.aura(亡灵).exists]\nability(#2)\nability(#3)\nquit",
+				},
+				["格里克斯·微泡04"] = {
+					["name"] = "格里克斯·微泡04",
+					["code"] = "quit [ self.level<25  & round=1 ]\nchange(next) [ self.dead]\nif [self(#1).active]\nstandby [round=5 & enemy(#1).dead]\nability(#2) [round=1]\nability(#1) [round<=4]\nability(#3) [round=5]\nability(#2) [round=6]\nability(#1) [round=7]\nability(#3)\nability(#1)\nendif\nif [self(#2).active &enemy(#3).active]\nquit [enemy(#2).hp>528]\nability(#2)\nability(#3) [enemy(#3).hp<=923]\nability(#1)\nendif\nstandby",
+				},
+				["电压吞噬者04"] = {
+					["name"] = "电压吞噬者04",
+					["code"] = "change(next) [ self.dead ]\nuse(515) [ round = 1 ]\nuse(743) [ round = 3 ]\nuse(282)\nquit",
 				},
 				[94643] = {
 					["name"] = "3泥蛙",
 					["code"] = "change(#2) [round=2]\nstandby [enemy.aura(昏睡:926).duration=2]\n\nuse(进食昏迷:580) [round=1]\nuse(进食昏迷:580) [enemy.aura(邪能腐蚀:1516).duration>=2]\nuse(尖鸣:524) [!enemy.aura(攻击减免:494).exists]\nuse(啄击:112)\n\nuse(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(群殴:581)\nchange(#1)\n\nuse(诱饵:334)\nuse(错乱:916)\nuse(空袭:504)\n\nstandby\nchange(next)",
 				},
-				["幸运的小艺1"] = {
-					["name"] = "幸运的小艺1",
-					["code"] = "quit [self.level < 25]\nchange(next) [self.dead]\nability(黑爪) [round = 1]\nability(狩猎小队) [round = 2]\nability(#1) [self(#2).active]\nability(血牙) \nquit",
+				["奥多格12"] = {
+					["name"] = "奥多格12",
+					["code"] = "quit [self.level<25 & round=1]\nchange(next) [self.dead]\nability(邪恶飞升)\nability(#2) [round=2]\nability(#1)\nstandby",
 				},
 				["海难俘虏10"] = {
 					["name"] = "海难俘虏8",
@@ -648,9 +640,9 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "4-3-3暴怒",
 					["code"] = "use(黑爪:919) [round=1]\nuse(黑爪:919) [enemy.hpp=100 & round=3]\nuse(群殴:581)\nuse(离子炮:209) [enemy.aura(破碎防御).exists]\nuse(离子炮:209) [enemy.hp < 576]\nuse(#2)\nuse(#1)\nstandby\nchange(next)",
 				},
-				["奥多格12"] = {
-					["name"] = "奥多格12",
-					["code"] = "quit [self.level<25 & round=1]\nchange(next) [self.dead]\nability(邪恶飞升)\nability(#2) [round=2]\nability(#1)\nstandby",
+				["幸运的小艺1"] = {
+					["name"] = "幸运的小艺1",
+					["code"] = "quit [self.level < 25]\nchange(next) [self.dead]\nability(黑爪) [round = 1]\nability(狩猎小队) [round = 2]\nability(#1) [self(#2).active]\nability(血牙) \nquit",
 				},
 				["匿踪大师琪麟01"] = {
 					["name"] = "匿踪大师琪麟",
@@ -660,13 +652,13 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "幸运的小艺6",
 					["code"] = "quit [self.level < 25]\nchange(next) [self.dead]\nability(伤口外露) [round = 1]\nability(狩猎小队) [round = 2]\nability(#3) [self(#2).active]\nability(跳跃)\nquit",
 				},
-				[161658] = {
-					["name"] = "4-5-5碎屑",
-					["code"] = "change(#3) [round=1 & enemy(斯普林特:2818).active]\nuse(#2) [!enemy.aura(黑爪:918).exists & !self(#2).dead]\nuse(#3) [!self(#2).dead]\nuse(#1)\nchange(next)",
+				["索瓦斯克4"] = {
+					["name"] = "索瓦斯克001",
+					["code"] = "quit [ self.level<25 & round=1 ] \nquit [self(#1).dead &enemy(#2).active &enemy.round=1] \nchange(next) [self.dead]\nif [self(#1).active & enemy(#1).active]\nability(#2) [round=2]\nability(#3) [round=4]\nability(#1)\nendif\nif [self(#1).active & enemy(#2).active]\nstandby [self.aura(昏迷).exists]\nability(#3) [self.aura(亡灵).exists]\nability(#2)\nability(#1)\nendif\nif [self(#2).active] \nability(自爆) [ enemy(#3).hp<=560] \nability(#2) [enemy(#3).active & enemy.hp<=1048] \nability(#1) \nendif\nquit",
 				},
-				["海难俘虏12"] = {
-					["name"] = "海难俘虏3",
-					["code"] = "quit [round = 1 & self.hpp < 100] \nchange(next) [self.dead] \nchange(#3) [enemy.aura(亡灵).exists] \nstandby [self(#3).active & enemy.aura(亡灵).exists] \nability(原始嗥叫) [round = 1] \nability(黑爪) [round = 2] \nchange(#2) [round = 3] \nability(奔踏) [round = 4] \nability(卷土重来) [self(#2).active] \nability(潜行)\nability(喂食)\nquit",
+				[107489] = {
+					["name"] = "阿玛利亚",
+					["code"] = "quit [self(#1).dead & self(#2).dead]\nquit [self(#3).dead]\nchange(next) [self.dead]\nchange(#2) [self(#3).active]\nuse(#2) [round=1]\nuse(#3) [round=2]\nif [self(#1).active]\nstandby [enemy(#3).active]\nuse(#1)\nendif\nif [self(#2).active]\nuse(#2) [!weather(净化之雨)]\nuse(#1) [enemy(#2).active]\nuse(#1) [enemy.hp<420]\nuse(#3) [!self.aura(抽水).exists]\nuse(#3) [!enemy.aura(无法攻击).exists]\nendif\nuse(#1)",
 				},
 				["梅瑞尔004"] = {
 					["name"] = "梅瑞尔001",
@@ -676,13 +668,13 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "罗伯特·克雷格04",
 					["code"] = "quit [ self.level<25 & round=1 ]\nchange(next) [self.dead]\nchange(#3) [enemy(#3).active & enemy.round=1]\nchange(#2) [self(#3).played]\nability(黑爪) [!enemy.aura(黑爪).exists]\nability(#1) [!enemy(#3).active]\nability(增压)\nability(#3) [!enemy(#2).active]\nstandby\nquit",
 				},
+				["海难俘虏12"] = {
+					["name"] = "海难俘虏3",
+					["code"] = "quit [round = 1 & self.hpp < 100] \nchange(next) [self.dead] \nchange(#3) [enemy.aura(亡灵).exists] \nstandby [self(#3).active & enemy.aura(亡灵).exists] \nability(原始嗥叫) [round = 1] \nability(黑爪) [round = 2] \nchange(#2) [round = 3] \nability(奔踏) [round = 4] \nability(卷土重来) [self(#2).active] \nability(潜行)\nability(喂食)\nquit",
+				},
 				[161650] = {
 					["name"] = "4-3-1利兹",
 					["code"] = "use(黑爪:919) [round=1]\nuse(黑爪:919) [enemy.hpp=100 & round=3]\nuse(群殴:581)\nuse(离子炮:209) [enemy.aura(破碎防御).exists]\nuse(离子炮:209) [enemy.hp < 576]\nuse(#2)\nuse(#1)\nstandby\nchange(next)",
-				},
-				["驯宠大师弗鲁莫斯05"] = {
-					["name"] = "驯宠大师弗鲁莫斯05",
-					["code"] = "quit [ self.hpp<100  & round=1 ] \nchange(next) [ self.dead ] \nchange(#3) [self(#2).played] \nability(#3) [self(#1).active] \nability(黑爪) [ !enemy.aura(黑爪).exists & self(#3).active ] \nability(#1)",
 				},
 				["奥多格95"] = {
 					["name"] = "奥多格05",
@@ -700,89 +692,93 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "瑞迪尔",
 					["code"] = "quit [enemy(迷你麝牛).active]\nchange(#3) [enemy.aura(嚎叫).exists]\nchange(next) [self.dead]\nability(嚎叫)\nability(离子炮)\nchange(#2)\nquit",
 				},
+				[161658] = {
+					["name"] = "4-5-5碎屑",
+					["code"] = "change(#3) [round=1 & enemy(斯普林特:2818).active]\nuse(#2) [!enemy.aura(黑爪:918).exists & !self(#2).dead]\nuse(#3) [!self(#2).dead]\nuse(#1)\nchange(next)",
+				},
 				["诱捕者贾伦2"] = {
 					["name"] = "诱捕者贾伦2",
 					["code"] = "quit [ self.level<25  & round=1 ] \nchange(next) [ self.dead ] \nability(#1) [ round =3] \nability(#3) [ round =6] \nability(#1) [ round >=7 &round<=9] \nability(#2) [ self(#1).active ] \nability(自爆) [ self(#2).active & enemy.hp<=560] \nability(#1)",
-				},
-				["斯特拉提欧斯13"] = {
-					["name"] = "斯特拉提欧斯12",
-					["code"] = "quit [self.count<3]\nchange(next) [self.dead]\nchange(#2) [round=3]\nability(#1) [self.round=1 & !self(#2).active & enemy(#1).active]\nability(#2) [round!=2 & !self.aura(龙类).exists]\nability(#3)\nquit",
 				},
 				[161651] = {
 					["name"] = "4-3-2拉尔夫",
 					["code"] = "use(黑爪:919) [round=1]\nuse(黑爪:919) [enemy.hpp=100 & round=3]\nuse(群殴:581)\nuse(离子炮:209) [enemy.aura(破碎防御).exists]\nuse(离子炮:209) [enemy.hp < 576]\nuse(#2)\nuse(#1)\nstandby\nchange(next)",
 				},
-				["奥多格91"] = {
-					["name"] = "奥多格01",
-					["code"] = "quit [ self.level<25  & round=1 ] \nchange(next) [ self.dead ] \nif [self(#1).active & enemy(#1).active] \nability(#3) [self.aura(旋紧发条).exists] \nability(#2) [enemy.round>3] \nability(#1) \nendif \nif [self(#1).active & enemy(#2).active] \nability(#3) [self.aura(旋紧发条).exists] \nability(#2) [enemy.round>3 &!self.aura(旋紧发条).exists] \nability(#1) \nendif \nif [self(#1).active & enemy(#3).active] \nability(#2) \nendif \nif [self(#2).active & enemy(#2).active] \nability(#2) [self.round=1 ] \nability(#1) \nendif \nif [self(#2).active & enemy(#3).active] \nability(自爆) [  enemy.hp.can_explode & !enemy.aura(潜水).exists] \nability(#2) [enemy.round=1 ] \nability(#1) \nendif \nstandby",
+				[71933] = {
+					["name"] = "布林顿4000",
+					["code"] = "quit [self(小水花).dead & !enemy(小布).dead]\nif [enemy(小布).active]\nuse(毒牙)\n\nuse(冰霜震击) [!enemy.aura(冰霜震击).exists & enemy.aura(离奇好运).duration = 3]\nuse(喷泉) [enemy.aura(冰霜震击).exists & enemy.aura(离奇好运).duration = 2]\nuse(冰霜震击) [enemy.aura(冰霜震击).exists & enemy.aura(离奇好运).duration =1]\nuse(冰霜震击) [enemy.aura(强化护甲).duration =1 & enemy.aura(冰霜震击).duration = 2 & enemy.aura(喷泉).duration = 2]\nuse(冰霜震击) [enemy.aura(昏迷).exists]\n\nuse(喷泉) [!enemy.aura(机械).exists & enemy(小布).hp > 333]\nuse(冰霜震击) [!enemy.aura(冰霜震击).exists]\nuse(冰霜震击) [!enemy.aura(机械).exists & enemy.hp <=111]\nuse(冰枪术)\nendif\n\nuse(毒牙) [round=1]\nuse(致盲剧毒)\nuse(穿刺创伤)\nuse(毒牙)\nchange(#2) [self(紫红泰斑蛇).dead & !self(#2).played]\nchange(小水花) [self(紫红泰斑蛇).dead & self(#2).played]\nuse(冰枪术)",
 				},
-				["奥利尔03"] = {
-					["name"] = "奥利尔0",
-					["code"] = "quit [self(#2).level<25 &round=1] \nquit [self(#3).active &self(#2).dead] \nchange(#1) [self(#3).played] \nchange(#2) [self(#1).dead & enemy(#2).hp>400]   \nchange(#2) [self(#1).dead &self(#3).played ] \nchange(#3) [enemy(#3).active & enemy.round=2 &!self(#3).played] \n\nif [ self(#1).active & enemy(#1).active  ] \nability(#3) \nability(#2) \nability(#1) \nendif \n\nif [ self(#1).active & enemy(#2).active  ] \nchange(#3) [enemy.hp<=400 &!self(#3).played] \nstandby [enemy.aura(795).exists] \nstandby [enemy.hp<=400 &enemy.ability(794).usable] \nstandby [enemy.hp<=400] \nability(#1)   \nendif \n\n\nif [ self(#2).active & enemy(#2).active  ] \nability(#1) [self.round=1] \nstandby [enemy.aura(795).exists] \nstandby [enemy.hp<=400 &enemy.ability(794).usable] \nability(#2) [enemy.hp<=243] \nability(#1) \nendif \n\nif [ self(#2).active & enemy(#3).active  ] \nability(#3) [self.aura(旋紧发条).exists] \nability(#2) [enemy.hp<=243] \nability(#1) \nendif \nability(#1)",
+				["斯特拉提欧斯13"] = {
+					["name"] = "斯特拉提欧斯12",
+					["code"] = "quit [self.count<3]\nchange(next) [self.dead]\nchange(#2) [round=3]\nability(#1) [self.round=1 & !self(#2).active & enemy(#1).active]\nability(#2) [round!=2 & !self.aura(龙类).exists]\nability(#3)\nquit",
 				},
-				["加尔维斯顿先生05"] = {
-					["name"] = "加尔维斯顿先生08",
-					["code"] = "quit [self.level<25 & round=1]\nchange(next) [self.dead]\nstandby [round=3]\nability(暮光陨星) [self.aura(龙类).exists]\nability(#2)\nability(#1)\nstandby",
+				["驯宠大师弗鲁莫斯03"] = {
+					["name"] = "驯宠大师弗鲁莫斯03",
+					["code"] = "quit [ self.hpp<100  & round=1 ] \nchange(next) [ self.dead ] \nchange(#3) [self(#2).played] \nability(#3) [self(#1).active] \nability(黑爪) [ !enemy.aura(黑爪).exists & self(#3).active ] \nability(#1)",
 				},
-				[161657] = {
-					["name"] = "4-5-4韧·哲",
-					["code"] = "change(#3) [round=1 & enemy(斯普林特:2818).active]\nuse(#2) [!enemy.aura(黑爪:918).exists & !self(#2).dead]\nuse(#3) [!self(#2).dead]\nuse(#1)\nchange(next)",
+				[119407] = {
+					["name"] = "2-7曲奇的剩菜",
+					["code"] = "use(鬼影缠身:652)\nuse(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(#1)\nuse(#3)\nchange(next)",
 				},
 				[146001] = {
 					["name"] = "1-1-1吵吵机器人原型机",
 					["code"] = "change(#2) [round=2]\n\nuse(孢子菇:746)\n\nuse(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(狩猎小队:921)\n\nuse(离子炮:209)\nuse(反射护盾:1105)\nuse(猛击:455)\n\nchange(next)",
 				},
+				["加尔维斯顿先生05"] = {
+					["name"] = "加尔维斯顿先生08",
+					["code"] = "quit [self.level<25 & round=1]\nchange(next) [self.dead]\nstandby [round=3]\nability(暮光陨星) [self.aura(龙类).exists]\nability(#2)\nability(#1)\nstandby",
+				},
 				[105674] = {
 					["name"] = "维雷尼0",
 					["code"] = "quit [ self.level<25 & round=1 ] \nquit [self(#3).dead ] \nchange(next) [self.dead] \nchange(#3) [self(#2).played] \nif [ self(#1).active & enemy(#1).active ]\nability(#2) [self.round=2]\nability(#3)\nendif\n\nif [ self(#1).active & enemy(#2).active ]\nability(#1)\nendif\n\nif [ self(#3).active & enemy(#2).active ] \nability(#3)\nendif \nif [ self(#3).active & enemy(#3).active ] \nability(黑爪) [ !enemy.aura(黑爪).exists ] \nability(#1)\nability(#3)\nstandby \nendif\nstandby",
 				},
-				[72285] = {
-					["name"] = "赤芝，赤精的雏鸟",
-					["code"] = "change(next) [ self.dead ]\nability(#2) [ round=1 ]\nability(#1) [ round=2 ]\nif [ self(#1).dead ]\nability(#3) \nability(#1) \nendif\nif [ self(#1).active ]\nability(#3) \nability(#1) \nendif\nchange(#2)\nability(#3) [ round=7 ]\nability(#1) [ round=8 ]",
-				},
-				["电压吞噬者01"] = {
-					["name"] = "电压吞噬者01",
-					["code"] = "use(163)",
+				["奥利尔03"] = {
+					["name"] = "奥利尔0",
+					["code"] = "quit [self(#2).level<25 &round=1] \nquit [self(#3).active &self(#2).dead] \nchange(#1) [self(#3).played] \nchange(#2) [self(#1).dead & enemy(#2).hp>400]   \nchange(#2) [self(#1).dead &self(#3).played ] \nchange(#3) [enemy(#3).active & enemy.round=2 &!self(#3).played] \n\nif [ self(#1).active & enemy(#1).active  ] \nability(#3) \nability(#2) \nability(#1) \nendif \n\nif [ self(#1).active & enemy(#2).active  ] \nchange(#3) [enemy.hp<=400 &!self(#3).played] \nstandby [enemy.aura(795).exists] \nstandby [enemy.hp<=400 &enemy.ability(794).usable] \nstandby [enemy.hp<=400] \nability(#1)   \nendif \n\n\nif [ self(#2).active & enemy(#2).active  ] \nability(#1) [self.round=1] \nstandby [enemy.aura(795).exists] \nstandby [enemy.hp<=400 &enemy.ability(794).usable] \nability(#2) [enemy.hp<=243] \nability(#1) \nendif \n\nif [ self(#2).active & enemy(#3).active  ] \nability(#3) [self.aura(旋紧发条).exists] \nability(#2) [enemy.hp<=243] \nability(#1) \nendif \nability(#1)",
 				},
 				["加尔维斯顿先生001"] = {
 					["name"] = "加尔维斯顿先生002",
 					["code"] = "quit [ self.level<25 & round=1 ]\nchange(next) [self.dead]\nability(自爆) [enemy(#3).hp.can_explode]\nability(自动毒弹:1954) [round=3]\nability(腐蚀) [!enemy.aura(腐蚀:446).exists]\nability(#2)",
 				},
-				["奥多格03"] = {
-					["name"] = "奥多格03",
-					["code"] = "quit [self.level<25 & round=1]\nchange(next) [self.dead]\nchange(#3) [self(#2).played]\nability(邪恶飞升)\nability(#2) [round=3]\nability(#1)\nstandby",
+				[161657] = {
+					["name"] = "4-5-4韧·哲",
+					["code"] = "change(#3) [round=1 & enemy(斯普林特:2818).active]\nuse(#2) [!enemy.aura(黑爪:918).exists & !self(#2).dead]\nuse(#3) [!self(#2).dead]\nuse(#1)\nchange(next)",
 				},
 				[94645] = {
 					["name"] = "~14荒爪",
 					["code"] = "use(暗影震击:422) [round=1]\nuse(鬼影缠身:652) [round=3]\nuse(幽冥之声:1397)\nuse(暗影震击:422)\n\nuse(飞羽:184) [enemy.aura(破碎防御:542).exists]\nuse(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(群殴:581)\n\nuse(翡翠灵气:597) [!self.aura(翡翠灵气:823).exists]\nuse(翡翠灵气:597) [self.aura(翡翠灵气:823).duration<=1 & enemy.speed>=244]\nuse(翡翠梦境:598) [self.hpp<=40]\nuse(翡翠之咬:525)\n\nstandby\nchange(#1)\nchange(next)",
 				},
-				["阿玛利亚002"] = {
-					["name"] = "阿玛利亚002",
-					["code"] = "quit [self.count < 3]\nchange(next) [self.dead]\nchange(next) [round = 4]\nstandby [round ~ 8,9]\nuse(邪恶飞升)\nuse(雷区)\nuse(黏性手雷)\nuse(魔法增效) [round = 5]\nuse(梦魇) [round = 6]\nuse(水流喷射)",
+				["奥多格03"] = {
+					["name"] = "奥多格03",
+					["code"] = "quit [self.level<25 & round=1]\nchange(next) [self.dead]\nchange(#3) [self(#2).played]\nability(邪恶飞升)\nability(#2) [round=3]\nability(#1)\nstandby",
 				},
 				[146002] = {
 					["name"] = "1-7-1诺莫瑞根护卫狼",
 					["code"] = "use(飞羽:184) [enemy.aura(破碎防御:542).exists & enemy.hp<=684]\nuse(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(群殴:581)\n\nuse(专注:426) [!self.aura(专注:425).exists]\nuse(狂暴:124)\nuse(迅猛突袭:713)\n\nuse(烈焰喷射:503) [!enemy.aura(烈焰喷射:502).exists]\nuse(焚烧:179) [enemy.hp>221]\nuse(烈焰喷射:503) [self.ability(烈焰喷射:503).strong]\nuse(爪击:429)\n\nchange(#3) [self(#3).ability(#3).strong]\nchange(next)",
 				},
-				["博迪·日轨99"] = {
-					["name"] = "博迪·日轨3",
-					["code"] = "quit [ self.level<25  & round=1 ] \nquit [ self(#2).level<25  & round=1 ] \n\nchange(next) [ self.dead ] \nability(#1) [self(#1).active & enemy(#1).active] \nif [self(#1).active & enemy(#2).active] \nability(#2) [enemy.round=1] \nability(#3) [enemy.round=2] \nability(#1) \nendif \n\nif [self(#1).active & enemy(#3).active] \nability(#3) [enemy.round=1] \nability(#1) \nendif \n\nability(自爆) [self(#2).active & enemy(#3).hp<=560] \nability(毒烟) [!enemy.aura(毒烟).exists] \nability(铁钻冲锋) \nability(雷霆之箭) \nability(#1)",
+				["梅瑞尔5"] = {
+					["name"] = "梅瑞尔5",
+					["code"] = "quit [self.level<25  & round=1 ] \nquit [self(#3).dead ] \nchange(next) [self.dead] \nif [self(#1).active & enemy(#1).active] \nability(#3) [round=1] \nability(#1) \nendif \nif [self(#1).active & enemy(#2).active] \nstandby [enemy.aura(亡灵).exists] \nability(#2) \nability(#1) \nendif \nif [self(#1).active & enemy(#3).active] \nability(#3) \nability(#1) \nendif \nif [self(#2).active & enemy(#3).active] \nability(自爆) [enemy.hp<=560] \nability(#1) \nendif",
 				},
 				[150911] = {
 					["name"] = "0-03-2地穴恶魔",
 					["code"] = "use(躲闪:312) [enemy.aura(亡灵:242).exists]\nstandby [enemy.aura(亡灵:242).exists]\nuse(#1) [round=1]\nuse(乱舞:360) [enemy.aura(破碎防御:542).exists]\nuse(奔踏:163)\nuse(#1)\nchange(next)",
 				},
-				["索瓦斯克3"] = {
-					["name"] = "索瓦斯克2",
-					["code"] = "quit [ self(#2).level<25 & round=1 ] \nchange(#2) [self(#1).dead] \nchange(#3) [round=2] \nif [self(#1).active] \nability(#1) [round=1] \nability(#3) [round=3] \nability(#2) [round=6] \nability(#1) \nendif \nif [self(#2).active] \nability(#3) [enemy(#3).active &enemy.round=2] \nability(#2) [ self.round=2] \nability(#2) [enemy(#3).active &enemy.round>=4] \nability(#1) \nendif \nstandby",
+				[72285] = {
+					["name"] = "赤芝，赤精的雏鸟",
+					["code"] = "change(next) [ self.dead ]\nability(#2) [ round=1 ]\nability(#1) [ round=2 ]\nif [ self(#1).dead ]\nability(#3) \nability(#1) \nendif\nif [ self(#1).active ]\nability(#3) \nability(#1) \nendif\nchange(#2)\nability(#3) [ round=7 ]\nability(#1) [ round=8 ]",
 				},
-				["罗伯特·克雷格05"] = {
-					["name"] = "罗伯特·克雷格03",
-					["code"] = "quit [ self.level<25 & round=1 ]\nchange(next) [self.dead]\nchange(#3) [enemy(#3).active & enemy.round=1]\nchange(#2) [self(#3).played]\nability(黑爪) [round=1]\nability(#1) [self(#2).active & enemy(#2).active]\nability(震慑)\nability(#3)\nstandby\nquit",
+				["博迪·日轨97"] = {
+					["name"] = "博迪·日轨0",
+					["code"] = "quit [ self.level<25  & round=1 ] \nstandby [self(#1).active & enemy(#3).hp<=560] \nchange(next) [ self.dead ] \nability(#1) [enemy(#1).active] \nif [self(#1).active & enemy(#2).active] \nability(#2) [round=7] \nability(#1) \nendif \n\nability(自爆) [self(#2).active & enemy(#3).hp.can_explode] \nability(#1) \nability(#1)",
 				},
-				[173129] = {
-					["name"] = "瑟尼亚001",
-					["code"] = "change(next) [self.dead]\nchange(#2) [enemy(#2).active]\nchange(#3) [enemy(#3).active]\nability(撕咬:110) [enemy(#1).active]\nability(增压:208)\nability(潜行:536)\nability(#3)\nability(#2)\nability(#1)\nquit",
+				["驯宠大师弗鲁莫斯06"] = {
+					["name"] = "驯宠大师弗鲁莫斯06",
+					["code"] = "quit [ self.hpp<100  & round=1 ] \nchange(next) [ self.dead ] \nchange(#3) [self(#2).played] \nability(#3) [self(#1).active] \nability(黑爪) [ !enemy.aura(黑爪).exists & self(#3).active ] \nability(#1)",
+				},
+				["瑟尼亚004"] = {
+					["name"] = "瑟尼亚01",
+					["code"] = "ability(能量涌动) [enemy(#3).active]\nchange(#3) [enemy(#3).active]\nchange(next) [self.dead]\nability(离子炮) [enemy.hp<=1151]\nability(熔流) [enemy.hp<=267]\nability(灵魂奔袭) [self(#2).active]\nability(离子炮) [self.aura(增压).exists]\nability(#2)\nability(#1)\nstandby",
 				},
 				[145971] = {
 					["name"] = "1-5-1蟑螂",
@@ -796,21 +792,21 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "瑟尼亚",
 					["code"] = "quit [self.count<3]\nchange(#3) [enemy(#3).active & !self(#3).active]\nchange(#2) [!enemy(#3).active & self(#3).active]\nchange(#1) [self(#2).dead & !enemy(#3).active]\nchange(#2) [self(#1).dead & !enemy(#3).active]\nchange(next) [self.dead]\nability(#1) [enemy.hp<=292]\nability(离子炮) [self(#3).active & enemy(#3).hp<=1151]\nability(能量涌动) [enemy(#1).active & weather(奥术之风) & self(#1).active]\nability(奥术风暴) [self(#1).active]\nability(法力澎湃)\nability(增压)\nability(离子炮)\nability(召唤闪电)\nability(#1)\nability(#3)\nability(#2)\nstandby",
 				},
-				["梅瑞尔5"] = {
-					["name"] = "梅瑞尔5",
-					["code"] = "quit [self.level<25  & round=1 ] \nquit [self(#3).dead ] \nchange(next) [self.dead] \nif [self(#1).active & enemy(#1).active] \nability(#3) [round=1] \nability(#1) \nendif \nif [self(#1).active & enemy(#2).active] \nstandby [enemy.aura(亡灵).exists] \nability(#2) \nability(#1) \nendif \nif [self(#1).active & enemy(#3).active] \nability(#3) \nability(#1) \nendif \nif [self(#2).active & enemy(#3).active] \nability(自爆) [enemy.hp<=560] \nability(#1) \nendif",
+				["阿玛利亚002"] = {
+					["name"] = "阿玛利亚002",
+					["code"] = "quit [self.count < 3]\nchange(next) [self.dead]\nchange(next) [round = 4]\nstandby [round ~ 8,9]\nuse(邪恶飞升)\nuse(雷区)\nuse(黏性手雷)\nuse(魔法增效) [round = 5]\nuse(梦魇) [round = 6]\nuse(水流喷射)",
 				},
-				["驯宠大师弗鲁莫斯06"] = {
-					["name"] = "驯宠大师弗鲁莫斯06",
-					["code"] = "quit [ self.hpp<100  & round=1 ] \nchange(next) [ self.dead ] \nchange(#3) [self(#2).played] \nability(#3) [self(#1).active] \nability(黑爪) [ !enemy.aura(黑爪).exists & self(#3).active ] \nability(#1)",
+				["梅瑞尔002"] = {
+					["name"] = "梅瑞尔02",
+					["code"] = "quit [ self(#1).hpp<80 & round=1 ]\nchange(next) [ self.dead ]\nif [ self(#1).active ]\n    change(#2) [ enemy.aura(亡灵).exists ]\n    change(#2) [ enemy(#3).active ]\n    ability(#3) [ !weather(奥术之风) ]\n    ability(#2) [ enemy(#2).active ]\nendif\nability(能量涌动)\nability(#1)\nstandby",
 				},
-				[173131] = {
-					["name"] = "斯特拉提欧斯00",
-					["code"] = "quit [self.count<3]\nchange(next) [self.dead]\nchange(#2) [round=3]\nstandby [enemy(#1).hp<700 & round<5]\nuse(回馈) [enemy(#1).hp>720]\nuse(#2) [!enemy(#3).active]\nuse(#3)\nquit",
+				["博迪·日轨99"] = {
+					["name"] = "博迪·日轨3",
+					["code"] = "quit [ self.level<25  & round=1 ] \nquit [ self(#2).level<25  & round=1 ] \n\nchange(next) [ self.dead ] \nability(#1) [self(#1).active & enemy(#1).active] \nif [self(#1).active & enemy(#2).active] \nability(#2) [enemy.round=1] \nability(#3) [enemy.round=2] \nability(#1) \nendif \n\nif [self(#1).active & enemy(#3).active] \nability(#3) [enemy.round=1] \nability(#1) \nendif \n\nability(自爆) [self(#2).active & enemy(#3).hp<=560] \nability(毒烟) [!enemy.aura(毒烟).exists] \nability(铁钻冲锋) \nability(雷霆之箭) \nability(#1)",
 				},
-				[150914] = {
-					["name"] = "0-03-1游荡幻影",
-					["code"] = "use(躲闪:312) [enemy.aura(亡灵:242).exists]\nstandby [enemy.aura(亡灵:242).exists]\nuse(躲闪:312)\nuse(毁灭:802) [enemy(#3).hp<=309]\nuse(#1)\nstandby\nchange(next)",
+				["罗伯特·克雷格05"] = {
+					["name"] = "罗伯特·克雷格03",
+					["code"] = "quit [ self.level<25 & round=1 ]\nchange(next) [self.dead]\nchange(#3) [enemy(#3).active & enemy.round=1]\nchange(#2) [self(#3).played]\nability(黑爪) [round=1]\nability(#1) [self(#2).active & enemy(#2).active]\nability(震慑)\nability(#3)\nstandby\nquit",
 				},
 				[94646] = {
 					["name"] = "~11德拉诺污血怪",
@@ -824,25 +820,25 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "1-7-2诺莫瑞根护卫机械陆行鸟",
 					["code"] = "use(躲闪:312) [round=1]\nuse(奔踏:163) [round=2]\nuse(奔踏:163) [!enemy(#1).active & !enemy.aura(甲壳护盾:309).exists]\nuse(乱舞:360)\n\nuse(尖啸:357) [!self.speed.fast & !enemy.aura(减速:154).exists]\nuse(潜水:564) [enemy.aura(躲闪:2060).exists & self.speed.fast & !enemy.ability(铁钻冲锋:1921).usable]\nuse(潜水:564) [enemy.aura(亡灵:242).exists]\nuse(潜水:564) [enemy.aura(烈焰射击就绪:1863).exists]\nuse(啮咬:412)\n\nuse(吞食尸体:665) [self.hpp<=50]\nuse(离地升空:170) [enemy.aura(躲闪:2060).exists]\nuse(离地升空:170) [enemy.aura(亡灵:242).exists]\nuse(离地升空:170) [enemy.aura(烈焰射击就绪:1863).exists]\nuse(染疫之爪:117)\n\nchange(next)",
 				},
-				[106552] = {
-					["name"] = "梅瑞尔02",
-					["code"] = "quit [self.level<25  & round=1 ] \nquit [self(#3).dead ] \nchange(next) [self.dead] \nif [self(#1).active & enemy(#1).active] \nability(#3) [round=1] \nability(#1) \nendif \nif [self(#1).active & enemy(#2).active] \nstandby [enemy.aura(亡灵).exists] \nability(#2) \nability(#1) \nendif \nif [self(#1).active & enemy(#3).active] \nability(#3) \nability(#1) \nendif \nif [self(#2).active & enemy(#3).active] \nability(自爆) [enemy.hp<=560] \nability(#1) \nendif",
-				},
-				["梅瑞尔002"] = {
-					["name"] = "梅瑞尔02",
-					["code"] = "quit [ self(#1).hpp<80 & round=1 ]\nchange(next) [ self.dead ]\nif [ self(#1).active ]\n    change(#2) [ enemy.aura(亡灵).exists ]\n    change(#2) [ enemy(#3).active ]\n    ability(#3) [ !weather(奥术之风) ]\n    ability(#2) [ enemy(#2).active ]\nendif\nability(能量涌动)\nability(#1)\nstandby",
-				},
-				["驯宠大师弗鲁莫斯01"] = {
-					["name"] = "驯宠大师弗鲁莫斯01",
-					["code"] = "quit [ self.level<25  & round=1 ] \nchange(next) [ self.dead ] \nability(黑爪) [ !enemy.aura(黑爪).exists & self(#2).active ] \nability(#2) [self(#1).active] \nability(#1) [round=2] \nability(喂食)\nability(#3)",
+				[173131] = {
+					["name"] = "斯特拉提欧斯00",
+					["code"] = "quit [self.count<3]\nchange(next) [self.dead]\nchange(#2) [round=3]\nstandby [enemy(#1).hp<700 & round<5]\nuse(回馈) [enemy(#1).hp>720]\nuse(#2) [!enemy(#3).active]\nuse(#3)\nquit",
 				},
 				[161656] = {
 					["name"] = "4-5-6斯普林特",
 					["code"] = "change(#3) [round=1 & enemy(斯普林特:2818).active]\nuse(#2) [!enemy.aura(黑爪:918).exists & !self(#2).dead]\nuse(#3) [!self(#2).dead]\nuse(#1)\nchange(next)",
 				},
-				["加尔维斯顿先生14"] = {
-					["name"] = "加尔维斯顿先生02",
-					["code"] = "quit [self(#3).active & round=1] \nchange(next) [self.dead] \nability(#2) [round=1] \nstandby [round=3] \nability(#3) \nability(#2) \nability(#1)",
+				["驯宠大师弗鲁莫斯01"] = {
+					["name"] = "驯宠大师弗鲁莫斯01",
+					["code"] = "quit [ self.level<25  & round=1 ] \nchange(next) [ self.dead ] \nability(黑爪) [ !enemy.aura(黑爪).exists & self(#2).active ] \nability(#2) [self(#1).active] \nability(#1) [round=2] \nability(喂食)\nability(#3)",
+				},
+				[150914] = {
+					["name"] = "0-03-1游荡幻影",
+					["code"] = "use(躲闪:312) [enemy.aura(亡灵:242).exists]\nstandby [enemy.aura(亡灵:242).exists]\nuse(躲闪:312)\nuse(毁灭:802) [enemy(#3).hp<=309]\nuse(#1)\nstandby\nchange(next)",
+				},
+				[106552] = {
+					["name"] = "梅瑞尔02",
+					["code"] = "quit [self.level<25  & round=1 ] \nquit [self(#3).dead ] \nchange(next) [self.dead] \nif [self(#1).active & enemy(#1).active] \nability(#3) [round=1] \nability(#1) \nendif \nif [self(#1).active & enemy(#2).active] \nstandby [enemy.aura(亡灵).exists] \nability(#2) \nability(#1) \nendif \nif [self(#1).active & enemy(#3).active] \nability(#3) \nability(#1) \nendif \nif [self(#2).active & enemy(#3).active] \nability(自爆) [enemy.hp<=560] \nability(#1) \nendif",
 				},
 				[97324] = {
 					["name"] = "幽灵织网蛛",
@@ -864,13 +860,13 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "斯特拉提欧斯01",
 					["code"] = "quit [self.count<3]\nquit [enemy(#1).active & self(#2).dead]\nchange(next) [self.dead]\nuse(能量涌动)\nuse(#2)\nuse(#3)\nquit",
 				},
+				["加尔维斯顿先生14"] = {
+					["name"] = "加尔维斯顿先生02",
+					["code"] = "quit [self(#3).active & round=1] \nchange(next) [self.dead] \nability(#2) [round=1] \nstandby [round=3] \nability(#3) \nability(#2) \nability(#1)",
+				},
 				["阿玛利亚03"] = {
 					["name"] = "阿玛利亚0",
 					["code"] = "quit [ self.level<25  & round=1 ]   \nchange(#2) [ self(#1).dead & !self(#2).played ] \nchange(#3) [self(#2).played] \nif [self(#1).active &enemy(#1).active] \nability(#1) [round=1] \nability(#1) [round=3] \nability(#1) [round=4] \nability(#2) \nendif \nif [self(#1).active &enemy(#2).active] \nability(#1) [self.aura(旋紧发条).exists & !enemy.aura(灵动).exists] \nability(#1) [!self.aura(旋紧发条).exists &enemy.hpp>50] \nability(#2) \nendif \nability(#3) [self(#1).active &enemy(#3).active] \nif [self(#3).active &enemy(#3).active] \nability(抽水) [!enemy.aura(1358).exists &self.aura(抽水).exists] \nability(抽水) [ !self.aura(抽水).exists ] \nability(治疗波) [enemy.hp<=1098] \nstandby [enemy.hp<=1098] \nendif \nability(#1)",
-				},
-				["瑟尼亚004"] = {
-					["name"] = "瑟尼亚01",
-					["code"] = "ability(能量涌动) [enemy(#3).active]\nchange(#3) [enemy(#3).active]\nchange(next) [self.dead]\nability(离子炮) [enemy.hp<=1151]\nability(熔流) [enemy.hp<=267]\nability(灵魂奔袭) [self(#2).active]\nability(离子炮) [self.aura(增压).exists]\nability(#2)\nability(#1)\nstandby",
 				},
 				[115286] = {
 					["name"] = "克丽萨",
@@ -884,9 +880,9 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "维努",
 					["code"] = "quit [ self.level<25  & round=1 ] \nquit [self(#3).dead ] \nchange(next) [self.dead] \nability(黑爪) [ !enemy.aura(黑爪).exists ] \nability(群殴) \nability(#1) \nstandby",
 				},
-				["博迪·日轨97"] = {
-					["name"] = "博迪·日轨0",
-					["code"] = "quit [ self.level<25  & round=1 ] \nstandby [self(#1).active & enemy(#3).hp<=560] \nchange(next) [ self.dead ] \nability(#1) [enemy(#1).active] \nif [self(#1).active & enemy(#2).active] \nability(#2) [round=7] \nability(#1) \nendif \n\nability(自爆) [self(#2).active & enemy(#3).hp.can_explode] \nability(#1) \nability(#1)",
+				[173129] = {
+					["name"] = "瑟尼亚001",
+					["code"] = "change(next) [self.dead]\nchange(#2) [enemy(#2).active]\nchange(#3) [enemy(#3).active]\nability(撕咬:110) [enemy(#1).active]\nability(增压:208)\nability(潜行:536)\nability(#3)\nability(#2)\nability(#1)\nquit",
 				},
 				["加尔维斯顿先生12"] = {
 					["name"] = "加尔维斯顿先生05",
@@ -900,13 +896,13 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "梅瑞尔000",
 					["code"] = "change(next) [self.dead]\nuse(能量涌动)\nuse(#2) [round~3,7]\nuse(#3) [round~2,8] \nuse(#1)\nstandby",
 				},
-				[119407] = {
-					["name"] = "2-7曲奇的剩菜",
-					["code"] = "use(鬼影缠身:652)\nuse(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(#1)\nuse(#3)\nchange(next)",
+				["索瓦斯克3"] = {
+					["name"] = "索瓦斯克2",
+					["code"] = "quit [ self(#2).level<25 & round=1 ] \nchange(#2) [self(#1).dead] \nchange(#3) [round=2] \nif [self(#1).active] \nability(#1) [round=1] \nability(#3) [round=3] \nability(#2) [round=6] \nability(#1) \nendif \nif [self(#2).active] \nability(#3) [enemy(#3).active &enemy.round=2] \nability(#2) [ self.round=2] \nability(#2) [enemy(#3).active &enemy.round>=4] \nability(#1) \nendif \nstandby",
 				},
-				["驯宠大师弗鲁莫斯03"] = {
-					["name"] = "驯宠大师弗鲁莫斯03",
-					["code"] = "quit [ self.hpp<100  & round=1 ] \nchange(next) [ self.dead ] \nchange(#3) [self(#2).played] \nability(#3) [self(#1).active] \nability(黑爪) [ !enemy.aura(黑爪).exists & self(#3).active ] \nability(#1)",
+				["电压吞噬者01"] = {
+					["name"] = "电压吞噬者01",
+					["code"] = "use(163)",
 				},
 				["斯特拉提欧斯10"] = {
 					["name"] = "斯特拉提欧斯10",
@@ -916,9 +912,9 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "新手小汤米",
 					["code"] = "change(next) [ self.dead ]\nability(黑爪) [ round=1 ]\nability(#1)",
 				},
-				[71933] = {
-					["name"] = "布林顿4000",
-					["code"] = "quit [self(小水花).dead & !enemy(小布).dead]\nif [enemy(小布).active]\nuse(毒牙)\n\nuse(冰霜震击) [!enemy.aura(冰霜震击).exists & enemy.aura(离奇好运).duration = 3]\nuse(喷泉) [enemy.aura(冰霜震击).exists & enemy.aura(离奇好运).duration = 2]\nuse(冰霜震击) [enemy.aura(冰霜震击).exists & enemy.aura(离奇好运).duration =1]\nuse(冰霜震击) [enemy.aura(强化护甲).duration =1 & enemy.aura(冰霜震击).duration = 2 & enemy.aura(喷泉).duration = 2]\nuse(冰霜震击) [enemy.aura(昏迷).exists]\n\nuse(喷泉) [!enemy.aura(机械).exists & enemy(小布).hp > 333]\nuse(冰霜震击) [!enemy.aura(冰霜震击).exists]\nuse(冰霜震击) [!enemy.aura(机械).exists & enemy.hp <=111]\nuse(冰枪术)\nendif\n\nuse(毒牙) [round=1]\nuse(致盲剧毒)\nuse(穿刺创伤)\nuse(毒牙)\nchange(#2) [self(紫红泰斑蛇).dead & !self(#2).played]\nchange(小水花) [self(紫红泰斑蛇).dead & self(#2).played]\nuse(冰枪术)",
+				["奥多格91"] = {
+					["name"] = "奥多格01",
+					["code"] = "quit [ self.level<25  & round=1 ] \nchange(next) [ self.dead ] \nif [self(#1).active & enemy(#1).active] \nability(#3) [self.aura(旋紧发条).exists] \nability(#2) [enemy.round>3] \nability(#1) \nendif \nif [self(#1).active & enemy(#2).active] \nability(#3) [self.aura(旋紧发条).exists] \nability(#2) [enemy.round>3 &!self.aura(旋紧发条).exists] \nability(#1) \nendif \nif [self(#1).active & enemy(#3).active] \nability(#2) \nendif \nif [self(#2).active & enemy(#2).active] \nability(#2) [self.round=1 ] \nability(#1) \nendif \nif [self(#2).active & enemy(#3).active] \nability(自爆) [  enemy.hp.can_explode & !enemy.aura(潜水).exists] \nability(#2) [enemy.round=1 ] \nability(#1) \nendif \nstandby",
 				},
 				["奥多格13"] = {
 					["name"] = "奥多格11",
@@ -932,9 +928,9 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "驯宠大师弗鲁莫斯07",
 					["code"] = "quit [ self.hpp<100  & round=1 ] \nchange(next) [ self.dead ] \nchange(#3) [self(#2).played] \nability(#3) [self(#1).active] \nability(黑爪) [ !enemy.aura(黑爪).exists & self(#3).active ] \nability(#1)",
 				},
-				[107489] = {
-					["name"] = "阿玛利亚",
-					["code"] = "quit [self(#1).dead & self(#2).dead]\nquit [self(#3).dead]\nchange(next) [self.dead]\nchange(#2) [self(#3).active]\nuse(#2) [round=1]\nuse(#3) [round=2]\nif [self(#1).active]\nstandby [enemy(#3).active]\nuse(#1)\nendif\nif [self(#2).active]\nuse(#2) [!weather(净化之雨)]\nuse(#1) [enemy(#2).active]\nuse(#1) [enemy.hp<420]\nuse(#3) [!self.aura(抽水).exists]\nuse(#3) [!enemy.aura(无法攻击).exists]\nendif\nuse(#1)",
+				["驯宠大师弗鲁莫斯05"] = {
+					["name"] = "驯宠大师弗鲁莫斯05",
+					["code"] = "quit [ self.hpp<100  & round=1 ] \nchange(next) [ self.dead ] \nchange(#3) [self(#2).played] \nability(#3) [self(#1).active] \nability(黑爪) [ !enemy.aura(黑爪).exists & self(#3).active ] \nability(#1)",
 				},
 				[146932] = {
 					["name"] = "1-3大门控制台2",
@@ -952,29 +948,29 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "蒂梵妮·尼尔森01",
 					["code"] = "quit [enemy(#2).active & round=2]\nchange(#2) [round=3]\nchange(#3) [round=4]\nchange(#1) [enemy(#3).active]\nuse(#3)\nuse(#2)\nuse(#1)\nquit",
 				},
-				["格里克斯·微泡04"] = {
-					["name"] = "格里克斯·微泡04",
-					["code"] = "quit [ self.level<25  & round=1 ]\nchange(next) [ self.dead]\nif [self(#1).active]\nstandby [round=5 & enemy(#1).dead]\nability(#2) [round=1]\nability(#1) [round<=4]\nability(#3) [round=5]\nability(#2) [round=6]\nability(#1) [round=7]\nability(#3)\nability(#1)\nendif\nif [self(#2).active &enemy(#3).active]\nquit [enemy(#2).hp>528]\nability(#2)\nability(#3) [enemy(#3).hp<=923]\nability(#1)\nendif\nstandby",
+				["奥利尔101"] = {
+					["name"] = "奥利尔101",
+					["code"] = "change(next) [self.dead]\n\nif [ self(#1).active & enemy(#1).active  ]\nability(#3)\nability(#1)\nendif\n\nif [ self(#1).active & enemy(#2).active  ]\nstandby [enemy.hp<=400 &enemy.ability(794).usable]\nstandby [enemy.aura(795).exists]\nability(#2) [enemy.round=1 & self.hp<850]\nability(#2) [enemy.round=2]\nability(#1)\nendif\n\n\nif [ self(#2).active & enemy(#2).active  ]\nstandby [enemy.hp<=400 &enemy.ability(794).usable]\nstandby [enemy.aura(795).exists]\nability(#2)\nability(#1)\nendif\n\nif [ self(#2).active & enemy(#3).active  ]\nability(#3)\nendif\n\nif [ self(#3).active & enemy(#3).active  ]\nability(#3)\nability(#1)\nendif\n\nability(#1)",
 				},
 				[150917] = {
 					["name"] = "0-10-2驼背者",
 					["code"] = "change(#2) [round=2]\nuse(太阳光:404) [round=1]\nuse(自爆:282)\nuse(#3)\nchange(next)",
 				},
-				["维雷尼01"] = {
-					["name"] = "维雷尼01",
-					["code"] = "quit [ self.level<25 & round=1 ] \nquit [self(#3).dead ] \nchange(next) [self.dead] \nchange(#3) [self(#2).played] \nif [ self(#1).active & enemy(#1).active ]\nability(#2) [self.round=2]\nability(#3)\nendif\n\nif [ self(#1).active & enemy(#2).active ]\nability(#1)\nendif\n\nif [ self(#3).active & enemy(#2).active ] \nability(#3)\nendif \nif [ self(#3).active & enemy(#3).active ] \nability(黑爪) [ !enemy.aura(黑爪).exists ] \nability(#1)\nability(#3)\nstandby \nendif\nstandby",
+				[71932] = {
+					["name"] = "贤者马里",
+					["code"] = "change(next) [ self.dead ]\nif [self(#1).active&enemy(#1).active]\nability(#2) [enemy.round=1]\nability(#1)\nendif\nif [self(#1).active&enemy(#2).active]\nability(#2) [!enemy.aura(黑爪).exists]\nability(#3)\nability(#1)\nendif\nif [self(#1).active&enemy(#3).active]\nability(#2) [!enemy.aura(黑爪).exists]\nstandby\nendif\nability(#1) [self(#1).dead&enemy(#2).active]\nif [self(#2).active&enemy(#3).active]\nability(#2)\nability(#3) [enemy.hp<560]\nability(#1)\nendif",
 				},
 				[97804] = {
 					["name"] = "蒂梵妮·尼尔森00",
 					["code"] = "change(next) [self.dead]\nchange(#3) [enemy(#3).aura(昏迷).exists]\nchange(#1) [self(#3).played]\nchange(#2) [round=3]\nstandby [self(#2).active &enemy(#3).hp<700]\nuse(#2) [round=1]\nuse(清扫) [enemy(#2).active]\nuse(魔法刃) [enemy(#1).active]\nuse(魔法刃) [enemy(#2).hp<328 & enemy.round=2]\nuse(#3)\nuse(#1)\nquit",
 				},
+				[160205] = {
+					["name"] = "4-9-1皮克茜·威兹",
+					["code"] = "use(光合作用:268) [!self.aura(光合作用:267).exists]\nuse(太阳光:404)\nchange(#2) [self(#1).active]\nuse(吸血:1043)\nchange(#3) [self(#2).active]\nchange(#2) [self(#3).active]\nuse(#1)",
+				},
 				["诱捕者贾伦4"] = {
 					["name"] = "诱捕者贾伦3",
 					["code"] = "quit [ self.level<25 & round=1 ] \nchange(next) [self.dead] \nchange(next) [self.level<25] \nability(咀嚼) [enemy.aura(躲闪).exists]\nability(奔踏) [self.aura(咀嚼).exists]\nstandby [enemy.aura(亡灵).exists]\nability(黑爪) [!enemy.aura(黑爪).exists]\nability(卷土重来)\nability(狩猎小队)\nability(#1)\nability(#2)",
-				},
-				[119345] = {
-					["name"] = "2-5-2克鲁兹的战猴",
-					["code"] = "use(强力球:566) [enemy.hp<=270]\nuse(强力球:566) [self.aura(机械:244).exists & !self.aura(旋紧发条:458).exists]\nuse(旋紧发条:459) [!self.aura(旋紧发条:458).exists]\nuse(增压:208) [enemy(#1).active]\nuse(翡翠灵气:597) [!self.aura(翡翠灵气:823).exists]\nuse(#1)\nchange(next)",
 				},
 				["罗伯特·克雷格06"] = {
 					["name"] = "罗伯特·克雷格02",
@@ -1000,13 +996,17 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 					["name"] = "奥多格02",
 					["code"] = "quit [ self.level<25  & round=1 ] \nchange(next) [ self.dead ] \nif [self(#1).active & enemy(#1).active] \nability(#3) [self.aura(旋紧发条).exists] \nability(#2) [enemy.round>3] \nability(#1) \nendif \nif [self(#1).active & enemy(#2).active] \nability(#3) [self.aura(旋紧发条).exists] \nability(#2) [enemy.round>3 &!self.aura(旋紧发条).exists] \nability(#1) \nendif \nif [self(#1).active & enemy(#3).active] \nability(#2) \nendif \nif [self(#2).active & enemy(#2).active] \nability(#2) [self.round=1 ] \nability(#1) \nendif \nif [self(#2).active & enemy(#3).active] \nability(自爆) [  enemy.hp.can_explode & !enemy.aura(潜水).exists] \nability(#2) [enemy.round=1 ] \nability(#1) \nendif \nstandby",
 				},
-				[119408] = {
-					["name"] = "2-4“船长”克鲁兹",
-					["code"] = "use(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(#3)\nchange(next)",
+				["驯宠大师弗鲁莫斯04"] = {
+					["name"] = "驯宠大师弗鲁莫斯04",
+					["code"] = "quit [ self.hpp<100  & round=1 ] \nchange(next) [ self.dead ] \nchange(#3) [self(#2).played] \nability(#3) [self(#1).active] \nability(黑爪) [ !enemy.aura(黑爪).exists & self(#3).active ] \nability(#1)",
 				},
 				["索瓦斯克6"] = {
 					["name"] = "索瓦斯克0",
 					["code"] = "quit [ self.level<25 & round=1 ] \nquit [self(#1).dead &enemy(#2).active &enemy.round=1] \nchange(next) [self.dead] \nif [self(#1).active] \nability(#2) [round=1] \nability(#3) [round=2] \nability(#2) [enemy(#2).active] \nability(#1) \nendif \nif [self(#2).active] \nability(自爆) [ enemy(#3).hp<=560] \nability(#2) [enemy(#3).active & enemy.hp<=1048] \nability(#1) \nendif \nquit",
+				},
+				[119408] = {
+					["name"] = "2-4“船长”克鲁兹",
+					["code"] = "use(黑爪:919) [!enemy.aura(黑爪:918).exists]\nuse(#3)\nchange(next)",
 				},
 				["幸运的小艺4"] = {
 					["name"] = "幸运的小艺4",
