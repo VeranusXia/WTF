@@ -105,9 +105,9 @@ GladiusExDB = {
 		},
 		["party_Clicks"] = {
 		},
-		["party_Interrupts"] = {
-		},
 		["Announcements"] = {
+		},
+		["party_Interrupts"] = {
 		},
 		["Alerts"] = {
 		},
@@ -152,11 +152,11 @@ GladiusExDB = {
 		["奶凶的小萝莉 - 蜘蛛王国"] = "Default",
 		["放狠话高手 - 安苏"] = "Default",
 		["焊接机器人 - 罗宁"] = "Default",
-		["倾颜 - 熊猫酒仙"] = "Default",
+		["蕾妮 - 格瑞姆巴托"] = "Default",
 		["Amilus - 燃烧之刃"] = "Default",
 		["殷倾颜 - 罗宁"] = "Default",
-		["西园寺恋 - 布兰卡德"] = "Default",
-		["蕾妮 - 格瑞姆巴托"] = "Default",
+		["倾颜 - 熊猫酒仙"] = "Default",
+		["西园寺恋 - 白银之手"] = "Default",
 		["狂乱合唱 - 蜘蛛王国"] = "Default",
 		["小微微 - 熊猫酒仙"] = "Default",
 		["小微微 - 罗宁"] = "Default",
@@ -166,7 +166,7 @@ GladiusExDB = {
 		["西园寺恋 - 罗宁"] = "Default",
 		["安苏宠物批发 - 安苏"] = "Default",
 		["Reneebaby - 罗宁"] = "Default",
-		["西园寺恋 - 白银之手"] = "Default",
+		["西园寺恋 - 布兰卡德"] = "Default",
 		["震击机器人 - 罗宁"] = "Default",
 	},
 	["profiles"] = {

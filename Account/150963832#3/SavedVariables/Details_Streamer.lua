@@ -23,8 +23,8 @@ Details_StreamerDB = {
 		["放狠话高手 - 安苏"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["奶凶的小萝莉 - 蜘蛛王国"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["殷倾颜 - 罗宁"] = "但偏偏雨渐渐 - 蜘蛛王国",
-		["西园寺恋 - 白银之手"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["蕾妮 - 格瑞姆巴托"] = "但偏偏雨渐渐 - 蜘蛛王国",
+		["西园寺恋 - 白银之手"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["蕾妮 - 蜘蛛王国"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["瓦拉纳微微 - 瓦拉纳"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["蕾妮 - 布兰卡德"] = "但偏偏雨渐渐 - 蜘蛛王国",
@@ -39,12 +39,7 @@ Details_StreamerDB = {
 	},
 	["profiles"] = {
 		["但偏偏雨渐渐 - 蜘蛛王国"] = {
-			["font_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["use_square_mode"] = false,
 			["is_first_run"] = false,
 			["grow_direction"] = "right",
 			["arrow_color"] = {
@@ -62,32 +57,22 @@ Details_StreamerDB = {
 				["radius"] = 160,
 				["hide"] = false,
 			},
-			["scale"] = 1,
+			["arrow_anchor_y"] = 0,
 			["arrow_anchor_x"] = 0,
-			["row_height"] = 20,
+			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["point"] = "CENTER",
-			["author"] = "Details! Team",
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
+			["use_spark"] = true,
+			["author"] = "Details! Team",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
-				["scale"] = 1,
-				["font_shadow"] = true,
-				["y"] = 1.52587890625e-05,
-				["x"] = -3.0517578125e-05,
-				["size"] = 32,
-				["update_speed"] = 0.05,
-				["attribute_type"] = 1,
-			},
+			["y"] = -2.288818359375e-05,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -97,15 +82,30 @@ Details_StreamerDB = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
 			["font_size"] = 10,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 1.52587890625e-05,
+				["x"] = -3.0517578125e-05,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
 			["x"] = -0.00018310546875,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["y"] = -2.288818359375e-05,
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = false,
-			["use_square_mode"] = false,
+			["point"] = "CENTER",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 	},
 }
