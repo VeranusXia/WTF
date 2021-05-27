@@ -2,8 +2,6 @@
 ACP_Data = {
 	["sorter"] = "名称",
 	["NoRecurse"] = false,
-	["NoChildren"] = true,
-	["scale"] = 0.6903577384757563,
 	["AddonSet"] = {
 		{
 			"zAutoLoadPetTeam_Rematch", -- [1]
@@ -295,6 +293,8 @@ ACP_Data = {
 			["name"] = "PVP",
 		}, -- [5]
 	},
+	["scale"] = 0.6903577384757563,
+	["NoChildren"] = true,
 	["collapsed"] = {
 	},
 	["ProtectedAddons"] = {

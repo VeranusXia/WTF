@@ -160,3 +160,10 @@ QBar: enabled
 QuestPlates: enabled
 PlateColor: enabled
 DBM-SanctumOfDomination: enabled
+Blizzard_PetJournal: enabled
+SharedMedia: enabled
+Tukui: enabled
+SunnArt: enabled
+Gatherer: enabled
+AceGUI-3.0_SFX-Widgets: enabled
+LibDualSpec-1.0: enabled

@@ -1,10 +1,10 @@
 
 GatherMate2DB = {
-	["profileKeys"] = {
-		["额尔古纳右岸 - 白银之手"] = "Default",
-	},
 	["global"] = {
 		["data_version"] = 6,
+	},
+	["profileKeys"] = {
+		["额尔古纳右岸 - 白银之手"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -1,7 +1,7 @@
 
 AltconDB = {
 	["showMinimapButton"] = 1,
-	["weeklyReset"] = 1622069999,
+	["weeklyReset"] = 1622674799,
 	["minimapButton"] = {
 	},
 	["profiles"] = {
@@ -9,7 +9,7 @@ AltconDB = {
 			["profile"] = "额尔古纳右岸 - 白银之手",
 			["challenge"] = {
 			},
-			["ilevel"] = "169.9",
+			["ilevel"] = "171.9",
 			["class"] = "HUNTER",
 		},
 	},
