@@ -896,12 +896,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "格拉夏尔将军",
 		},
-		[327464] = {
-			["school"] = 32,
+		[334094] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "蕾茉妮雅",
+			["source"] = "格拉夏尔将军",
 		},
 		[328276] = {
 			["school"] = 32,
@@ -1006,13 +1007,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "啸翼",
 		},
-		[334094] = {
-			["school"] = 8,
+		[326699] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "格拉夏尔将军",
+			["source"] = "德纳修斯大帝",
 		},
 		[344663] = {
 			["school"] = 32,
@@ -1062,14 +1063,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "大地之墙图腾",
 		},
-		[329875] = {
+		[343135] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "蕾茉妮雅",
+			["source"] = "格拉夏尔将军",
 		},
 		[298701] = {
 			["school"] = 32,
@@ -1079,16 +1080,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "奴隶主奥洛克",
 		},
-		[45029] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[329875] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "腐蚀者萨索瓦尔",
+			["source"] = "蕾茉妮雅",
 		},
 		[123996] = {
 			["school"] = 8,
@@ -1161,12 +1160,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "啸翼",
 		},
-		[55078] = {
-			["school"] = 32,
+		[34933] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "符文武器",
+			["source"] = "法力蛭",
 		},
 		[298704] = {
 			["school"] = 32,
@@ -1183,12 +1182,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "治疗之泉图腾",
 		},
-		[335297] = {
-			["school"] = 1,
+		[55078] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "泥拳",
+			["source"] = "符文武器",
 		},
 		[335298] = {
 			["school"] = 1,
@@ -1352,12 +1351,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "啸翼",
 		},
-		[34933] = {
-			["school"] = 64,
+		[335297] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "法力蛭",
+			["source"] = "泥拳",
 		},
 		[332619] = {
 			["school"] = 1,
@@ -1417,14 +1416,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "王庭鹰眼射手",
 		},
-		[343135] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[45029] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "格拉夏尔将军",
+			["source"] = "腐蚀者萨索瓦尔",
 		},
 		[260793] = {
 			["school"] = 32,
@@ -1451,13 +1452,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "卡尔将军",
 		},
-		[326699] = {
+		[327464] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "德纳修斯大帝",
+			["source"] = "蕾茉妮雅",
 		},
 		[46680] = {
 			["school"] = 1,
