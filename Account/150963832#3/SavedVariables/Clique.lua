@@ -4,11 +4,11 @@ CliqueDB3 = {
 	["char"] = {
 		["招商中证白酒 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec2_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec3_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Target"] = true,
 				["ElvUF_Player"] = true,
@@ -28,22 +28,23 @@ CliqueDB3 = {
 		},
 		["殷倾颜 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec2_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Target"] = true,
 				["ElvUF_Player"] = true,
 			},
 		},
-		["西瓜味泡泡糖 - 罗宁"] = {
+		["Amilus - 燃烧之刃"] = {
 			["spec1_profileKey"] = "Default",
-			["spec2_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
+			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Target"] = true,
 				["ElvUF_Player"] = true,
@@ -99,13 +100,12 @@ CliqueDB3 = {
 				["ElvUF_Target"] = true,
 			},
 		},
-		["Amilus - 燃烧之刃"] = {
+		["西瓜味泡泡糖 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Target"] = true,
 				["ElvUF_Player"] = true,
@@ -113,23 +113,23 @@ CliqueDB3 = {
 		},
 		["Reneebaby - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
-			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
-			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
 			},
+			["spec2_profileKey"] = "Default",
+			["downclick"] = false,
+			["spec3_profileKey"] = "Default",
+			["specswap"] = false,
 		},
 		["西园寺恋 - 白银之手"] = {
 			["spec1_profileKey"] = "Default",
-			["spec2_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec3_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
@@ -137,15 +137,15 @@ CliqueDB3 = {
 		},
 		["焊接机器人 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
+			["downclick"] = false,
 			["fastooc"] = false,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
 			},
-			["spec2_profileKey"] = "Default",
-			["downclick"] = false,
-			["spec3_profileKey"] = "Default",
-			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
@@ -159,7 +159,7 @@ CliqueDB3 = {
 		["放狠话高手 - 安苏"] = "Default",
 		["殷倾颜 - 罗宁"] = "Default",
 		["蕾妮 - 格瑞姆巴托"] = "Default",
-		["西园寺恋 - 白银之手"] = "Default",
+		["西园寺恋 - 布兰卡德"] = "Default",
 		["狂乱合唱 - 蜘蛛王国"] = "Default",
 		["安苏宠物批发 - 安苏"] = "Default",
 		["片桐夏向 - 罗宁"] = "Default",
@@ -169,7 +169,7 @@ CliqueDB3 = {
 		["西园寺恋 - 罗宁"] = "Default",
 		["Amilus - 燃烧之刃"] = "Default",
 		["Reneebaby - 罗宁"] = "Default",
-		["西园寺恋 - 布兰卡德"] = "Default",
+		["西园寺恋 - 白银之手"] = "Default",
 		["奶凶的小萝莉 - 蜘蛛王国"] = "Default",
 	},
 	["profiles"] = {
