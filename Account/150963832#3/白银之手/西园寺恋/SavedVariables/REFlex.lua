@@ -8,10 +8,6 @@ REFlexSettings = {
 	["ShowServerName"] = false,
 	["CurrentTab"] = 1,
 	["LDBMode"] = 3,
-	["LDBSide"] = "A",
-	["ArenaStatsLimit"] = 3,
-	["ConfigVersion"] = 313,
-	["FirstTime"] = false,
 	["Filters"] = {
 		["Map"] = 1,
 		["Bracket"] = 1,
@@ -23,50 +19,14 @@ REFlexSettings = {
 		["Season"] = 0,
 		["DateMode"] = 1,
 	},
+	["ArenaStatsLimit"] = 3,
+	["FirstTime"] = false,
+	["ConfigVersion"] = 313,
+	["LDBSide"] = "A",
 }
 REFlexDatabase = {
 	{
 		["Map"] = 727,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 346,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617127209,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				11, -- [2]
-				11, -- [3]
-				4, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -88,30 +48,26 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [1]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1617127209,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 185,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617127541,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -123,14 +79,18 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				2, -- [1]
-				2, -- [2]
+				11, -- [2]
 				11, -- [3]
-				3, -- [4]
+				4, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 346,
+	}, -- [1]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -152,49 +112,49 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [2]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
+		["Time"] = 1617127541,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["Duration"] = 490,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617128418,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				2, -- [2]
 				11, -- [3]
-				1, -- [4]
-				1, -- [5]
+				3, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 185,
+	}, -- [2]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -216,49 +176,49 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [3]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1617128418,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["Duration"] = 414,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617129153,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				1, -- [1]
 				1, -- [2]
 				11, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 490,
+	}, -- [3]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -280,49 +240,49 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [4]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
+		["Time"] = 1617129153,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				2, -- [2]
-				8, -- [3]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["Duration"] = 707,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617130254,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				3, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 414,
+	}, -- [4]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -344,49 +304,49 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [5]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1617130254,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				0, -- [1]
+				2, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["Duration"] = 465,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617130888,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				2, -- [1]
-				11, -- [2]
+				3, -- [2]
 				11, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 707,
+	}, -- [5]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -408,49 +368,49 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [6]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
+		["Time"] = 1617130888,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
+				1, -- [1]
+				1, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["Duration"] = 196,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617131230,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				11, -- [2]
 				11, -- [3]
-				1, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 465,
+	}, -- [6]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -472,49 +432,49 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [7]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1617131230,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				0, -- [2]
+				0, -- [1]
+				2, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["Duration"] = 419,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617132032,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				5, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 196,
+	}, -- [7]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -536,49 +496,49 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [8]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1617132032,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["Duration"] = 225,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617132776,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				3, -- [1]
+				11, -- [2]
+				11, -- [3]
+				5, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 419,
+	}, -- [8]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -600,14 +560,14 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [9]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1617132776,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -616,14 +576,10 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["Duration"] = 666,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617133872,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -642,7 +598,11 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 225,
+	}, -- [9]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -664,49 +624,49 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [10]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1617133872,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				1, -- [2]
 				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["Duration"] = 709,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617134940,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				10, -- [2]
-				11, -- [3]
-				4, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 666,
+	}, -- [10]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -728,30 +688,26 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [11]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1617134940,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 419,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617135603,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -762,15 +718,19 @@ REFlexDatabase = {
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
+				2, -- [1]
+				10, -- [2]
 				11, -- [3]
 				4, -- [4]
-				3, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 709,
+	}, -- [11]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -792,49 +752,49 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [12]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
+		["Time"] = 1617135603,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				0, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 10,
-		["Duration"] = 700,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617136603,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				3, -- [1]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 419,
+	}, -- [12]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -856,49 +816,49 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [13]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1617136603,
+		["PlayersNum"] = 10,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 348,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617137122,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
-				10, -- [3]
-				2, -- [4]
-				2, -- [5]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
-				20, -- [3]
-				4, -- [4]
-				3, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 700,
+	}, -- [13]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -920,49 +880,49 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [14]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
+		["Time"] = 1617137122,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
-				3, -- [1]
-				0, -- [2]
-				7, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["Duration"] = 424,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617137913,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				10, -- [3]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [1]
+				11, -- [2]
+				20, -- [3]
+				4, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 348,
+	}, -- [14]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -984,9 +944,9 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
-	}, -- [15]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1617137913,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -994,39 +954,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				3, -- [1]
+				0, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["Duration"] = 584,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1617138833,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				4, -- [1]
-				4, -- [2]
-				4, -- [3]
-				5, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				8, -- [1]
-				8, -- [2]
-				14, -- [3]
-				9, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 424,
+	}, -- [15]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1048,9 +1008,89 @@ REFlexDatabase = {
 				822, -- [17]
 			}, -- [1]
 		},
+		["Season"] = 30,
+		["Time"] = 1617138833,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				4, -- [1]
+				4, -- [2]
+				4, -- [3]
+				5, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				8, -- [1]
+				8, -- [2]
+				14, -- [3]
+				9, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 584,
 	}, -- [16]
 	{
 		["Map"] = 2107,
+		["Duration"] = 198,
+		["Season"] = 30,
+		["Time"] = 1618078101,
+		["PlayersNum"] = 10,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1072,49 +1112,49 @@ REFlexDatabase = {
 				840, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 10,
+	}, -- [17]
+	{
+		["Map"] = 761,
+		["Duration"] = 261,
+		["Season"] = 30,
+		["Time"] = 1618078701,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				1, -- [2]
 				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618078101,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				2, -- [2]
 				1, -- [3]
-				1, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 198,
-	}, -- [17]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1136,8 +1176,12 @@ REFlexDatabase = {
 				840, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [18]
+	{
+		["Map"] = 2245,
+		["Duration"] = 222,
+		["Season"] = 30,
+		["Time"] = 1618079178,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1147,38 +1191,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618078701,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				1, -- [3]
+				3, -- [1]
+				3, -- [2]
+				11, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 261,
-	}, -- [18]
-	{
-		["Map"] = 2245,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1200,8 +1240,12 @@ REFlexDatabase = {
 				840, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [19]
+	{
+		["Map"] = 2106,
+		["Duration"] = 681,
+		["Season"] = 30,
+		["Time"] = 1618080116,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1210,39 +1254,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618079178,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
+				4, -- [1]
+				11, -- [2]
 				11, -- [3]
-				3, -- [4]
+				7, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 222,
-	}, -- [19]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1264,8 +1304,12 @@ REFlexDatabase = {
 				840, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [20]
+	{
+		["Map"] = 2107,
+		["Duration"] = 902,
+		["Season"] = 30,
+		["Time"] = 1618081166,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1274,39 +1318,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
+				0, -- [1]
+				1, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618080116,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				4, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				11, -- [2]
-				11, -- [3]
-				7, -- [4]
+				3, -- [1]
+				3, -- [2]
+				1, -- [3]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 681,
-	}, -- [20]
-	{
-		["Map"] = 2107,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1328,8 +1368,12 @@ REFlexDatabase = {
 				840, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [21]
+	{
+		["Map"] = 727,
+		["Duration"] = 483,
+		["Season"] = 30,
+		["Time"] = 1618081951,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1339,15 +1383,15 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618081166,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -1355,22 +1399,18 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				3, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				3, -- [2]
-				1, -- [3]
+				11, -- [2]
+				11, -- [3]
 				5, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 902,
-	}, -- [21]
-	{
-		["Map"] = 727,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1392,49 +1432,49 @@ REFlexDatabase = {
 				840, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [22]
+	{
+		["Map"] = 726,
+		["Duration"] = 472,
+		["Season"] = 30,
+		["Time"] = 1618082696,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618081951,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
 				11, -- [2]
-				11, -- [3]
-				5, -- [4]
+				3, -- [3]
+				4, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 483,
-	}, -- [22]
-	{
-		["Map"] = 726,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1456,8 +1496,12 @@ REFlexDatabase = {
 				840, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [23]
+	{
+		["Map"] = 2245,
+		["Duration"] = 416,
+		["Season"] = 30,
+		["Time"] = 1618083319,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1466,39 +1510,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618082696,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
-				3, -- [3]
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
 				4, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 472,
-	}, -- [23]
-	{
-		["Map"] = 2245,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1520,8 +1560,12 @@ REFlexDatabase = {
 				840, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [24]
+	{
+		["Map"] = 2106,
+		["Duration"] = 1023,
+		["Season"] = 30,
+		["Time"] = 1618084721,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1530,39 +1574,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618083319,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
-				11, -- [3]
-				4, -- [4]
+				4, -- [1]
+				8, -- [2]
+				13, -- [3]
+				5, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 416,
-	}, -- [24]
-	{
-		["Map"] = 2106,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1584,49 +1624,49 @@ REFlexDatabase = {
 				840, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618084721,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				8, -- [2]
-				13, -- [3]
-				5, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 1023,
 	}, -- [25]
 	{
 		["Map"] = 1035,
+		["Duration"] = 1030,
+		["Season"] = 30,
+		["Time"] = 1618085947,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				6, -- [2]
+				6, -- [3]
+				5, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1648,8 +1688,12 @@ REFlexDatabase = {
 				840, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [26]
+	{
+		["Map"] = 2245,
+		["Duration"] = 608,
+		["Season"] = 30,
+		["Time"] = 1618086738,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1658,39 +1702,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618085947,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				4, -- [2]
-				4, -- [3]
+				2, -- [2]
+				2, -- [3]
 				4, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				6, -- [2]
-				6, -- [3]
-				5, -- [4]
-				3, -- [5]
+				4, -- [1]
+				12, -- [2]
+				12, -- [3]
+				6, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 1030,
-	}, -- [26]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1712,8 +1752,12 @@ REFlexDatabase = {
 				840, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [27]
+	{
+		["Map"] = 566,
+		["Duration"] = 1012,
+		["Season"] = 30,
+		["Time"] = 1618088023,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1722,39 +1766,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618086738,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
+				4, -- [2]
+				4, -- [3]
 				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				12, -- [2]
-				12, -- [3]
+				3, -- [1]
+				14, -- [2]
+				5, -- [3]
 				6, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 608,
-	}, -- [27]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1776,8 +1816,12 @@ REFlexDatabase = {
 				840, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [28]
+	{
+		["Map"] = 2245,
+		["Duration"] = 667,
+		["Season"] = 30,
+		["Time"] = 1618089014,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1786,39 +1830,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618088023,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				14, -- [2]
-				5, -- [3]
-				6, -- [4]
+				5, -- [1]
+				11, -- [2]
+				11, -- [3]
+				7, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 1012,
-	}, -- [28]
-	{
-		["Map"] = 2245,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1840,8 +1880,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [29]
+	{
+		["Map"] = 566,
+		["Duration"] = 367,
+		["Season"] = 30,
+		["Time"] = 1618089585,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1850,39 +1894,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618089014,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				11, -- [2]
+				3, -- [1]
+				7, -- [2]
 				11, -- [3]
-				7, -- [4]
+				6, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 667,
-	}, -- [29]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1904,8 +1944,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [30]
+	{
+		["Map"] = 566,
+		["Duration"] = 1085,
+		["Season"] = 30,
+		["Time"] = 1618090851,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1914,39 +1958,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				3, -- [1]
+				0, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618089585,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				4, -- [4]
-				1, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				7, -- [2]
-				11, -- [3]
-				6, -- [4]
-				1, -- [5]
+				4, -- [1]
+				4, -- [2]
+				1, -- [3]
+				5, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 367,
-	}, -- [30]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -1968,8 +2008,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [31]
+	{
+		["Map"] = 566,
+		["Duration"] = 359,
+		["Season"] = 30,
+		["Time"] = 1618091503,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -1978,39 +2022,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				3, -- [1]
-				0, -- [2]
-				7, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618090851,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				4, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				4, -- [2]
-				1, -- [3]
-				5, -- [4]
-				3, -- [5]
+				3, -- [1]
+				5, -- [2]
+				3, -- [3]
+				7, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 1085,
-	}, -- [31]
-	{
-		["Map"] = 566,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2032,8 +2072,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [32]
+	{
+		["Map"] = 2245,
+		["Duration"] = 313,
+		["Season"] = 30,
+		["Time"] = 1618092005,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2047,34 +2091,30 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618091503,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
 				5, -- [2]
-				3, -- [3]
-				7, -- [4]
-				2, -- [5]
+				11, -- [3]
+				6, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 359,
-	}, -- [32]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2096,8 +2136,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [33]
+	{
+		["Map"] = 726,
+		["Duration"] = 353,
+		["Season"] = 30,
+		["Time"] = 1618092674,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2107,38 +2151,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618092005,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				5, -- [2]
-				11, -- [3]
-				6, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 313,
-	}, -- [33]
-	{
-		["Map"] = 726,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2160,8 +2200,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [34]
+	{
+		["Map"] = 761,
+		["Duration"] = 198,
+		["Season"] = 30,
+		["Time"] = 1618093162,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2175,34 +2219,30 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618092674,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 353,
-	}, -- [34]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2224,8 +2264,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [35]
+	{
+		["Map"] = 2107,
+		["Duration"] = 187,
+		["Season"] = 30,
+		["Time"] = 1618093563,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2234,39 +2278,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
+				2, -- [1]
+				0, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618093162,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				2, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 198,
-	}, -- [35]
-	{
-		["Map"] = 2107,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2288,8 +2328,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [36]
+	{
+		["Map"] = 2107,
+		["Duration"] = 575,
+		["Season"] = 30,
+		["Time"] = 1618094424,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2298,39 +2342,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618093563,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				4, -- [2]
 				11, -- [3]
-				1, -- [4]
+				7, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 187,
-	}, -- [36]
-	{
-		["Map"] = 2107,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2352,8 +2392,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [37]
+	{
+		["Map"] = 2245,
+		["Duration"] = 995,
+		["Season"] = 30,
+		["Time"] = 1618095663,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2362,39 +2406,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618094424,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
 				4, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				4, -- [2]
-				11, -- [3]
-				7, -- [4]
-				1, -- [5]
+				6, -- [1]
+				9, -- [2]
+				14, -- [3]
+				9, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 575,
-	}, -- [37]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2416,8 +2456,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [38]
+	{
+		["Map"] = 2106,
+		["Duration"] = 291,
+		["Season"] = 30,
+		["Time"] = 1618096220,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2426,39 +2470,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618095663,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				3, -- [1]
 				4, -- [2]
 				4, -- [3]
-				4, -- [4]
-				2, -- [5]
+				3, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				9, -- [2]
-				14, -- [3]
-				9, -- [4]
-				4, -- [5]
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 995,
-	}, -- [38]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2480,8 +2520,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [39]
+	{
+		["Map"] = 726,
+		["Duration"] = 637,
+		["Season"] = 30,
+		["Time"] = 1618097115,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2495,11 +2539,11 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618096220,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -2510,19 +2554,15 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				4, -- [2]
+				4, -- [1]
+				6, -- [2]
 				4, -- [3]
-				4, -- [4]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 291,
-	}, -- [39]
-	{
-		["Map"] = 726,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2544,8 +2584,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [40]
+	{
+		["Map"] = 727,
+		["Duration"] = 484,
+		["Season"] = 30,
+		["Time"] = 1618097961,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2554,39 +2598,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618097115,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				6, -- [2]
-				4, -- [3]
-				5, -- [4]
+				11, -- [2]
+				1, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 637,
-	}, -- [40]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2608,14 +2648,18 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [41]
+	{
+		["Map"] = 566,
+		["Duration"] = 197,
+		["Season"] = 30,
+		["Time"] = 1618098487,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
 				2, -- [1]
@@ -2623,11 +2667,11 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618097961,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -2638,19 +2682,15 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				11, -- [2]
-				1, -- [3]
-				4, -- [4]
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 484,
-	}, -- [41]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2672,8 +2712,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [42]
+	{
+		["Map"] = 726,
+		["Duration"] = 440,
+		["Season"] = 30,
+		["Time"] = 1618099172,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2682,39 +2726,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				0, -- [2]
+				1, -- [1]
+				1, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618098487,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				2, -- [2]
 				1, -- [3]
-				1, -- [4]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				5, -- [1]
+				12, -- [2]
 				11, -- [3]
-				1, -- [4]
+				8, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 197,
-	}, -- [42]
-	{
-		["Map"] = 726,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2736,8 +2776,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [43]
+	{
+		["Map"] = 1035,
+		["Duration"] = 644,
+		["Season"] = 30,
+		["Time"] = 1618100077,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2746,39 +2790,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618099172,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				1, -- [3]
+				4, -- [1]
+				4, -- [2]
+				4, -- [3]
 				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				12, -- [2]
-				11, -- [3]
-				8, -- [4]
+				8, -- [1]
+				7, -- [2]
+				4, -- [3]
+				11, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 440,
-	}, -- [43]
-	{
-		["Map"] = 1035,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2800,8 +2840,12 @@ REFlexDatabase = {
 				841, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [44]
+	{
+		["Map"] = 2245,
+		["Duration"] = 602,
+		["Season"] = 30,
+		["Time"] = 1618101576,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2810,39 +2854,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				3, -- [1]
 				0, -- [2]
-				10, -- [3]
+				7, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618100077,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				4, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				8, -- [1]
-				7, -- [2]
-				4, -- [3]
-				11, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 644,
-	}, -- [44]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2864,8 +2904,12 @@ REFlexDatabase = {
 				842, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [45]
+	{
+		["Map"] = 1035,
+		["Duration"] = 460,
+		["Season"] = 30,
+		["Time"] = 1618103054,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2874,39 +2918,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				3, -- [1]
+				0, -- [1]
 				0, -- [2]
-				7, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618101576,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				5, -- [1]
+				12, -- [2]
+				12, -- [3]
+				6, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 602,
-	}, -- [45]
-	{
-		["Map"] = 1035,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2928,8 +2968,12 @@ REFlexDatabase = {
 				842, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [46]
+	{
+		["Map"] = 2106,
+		["Duration"] = 451,
+		["Season"] = 30,
+		["Time"] = 1618103840,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -2938,39 +2982,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618103054,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
+				3, -- [2]
+				3, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				12, -- [2]
-				12, -- [3]
+				4, -- [1]
+				13, -- [2]
+				13, -- [3]
 				6, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 460,
-	}, -- [46]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -2992,8 +3032,12 @@ REFlexDatabase = {
 				842, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [47]
+	{
+		["Map"] = 726,
+		["Duration"] = 410,
+		["Season"] = 30,
+		["Time"] = 1618104446,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -3002,39 +3046,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				0, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618103840,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				13, -- [2]
-				13, -- [3]
-				6, -- [4]
+				11, -- [2]
+				11, -- [3]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 451,
-	}, -- [47]
-	{
-		["Map"] = 726,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3056,8 +3096,12 @@ REFlexDatabase = {
 				842, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [48]
+	{
+		["Map"] = 2245,
+		["Duration"] = 1051,
+		["Season"] = 30,
+		["Time"] = 1618105682,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -3071,34 +3115,30 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618104446,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
 				11, -- [2]
 				11, -- [3]
-				5, -- [4]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 410,
-	}, -- [48]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3120,8 +3160,12 @@ REFlexDatabase = {
 				842, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [49]
+	{
+		["Map"] = 727,
+		["Duration"] = 404,
+		["Season"] = 30,
+		["Time"] = 1618107390,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -3135,34 +3179,30 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618105682,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				10, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
+				2, -- [1]
 				11, -- [2]
-				11, -- [3]
-				4, -- [4]
+				20, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 1051,
-	}, -- [49]
-	{
-		["Map"] = 727,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3184,8 +3224,12 @@ REFlexDatabase = {
 				842, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [50]
+	{
+		["Map"] = 2245,
+		["Duration"] = 894,
+		["Season"] = 30,
+		["Time"] = 1618108637,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -3194,39 +3238,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
+				0, -- [1]
 				0, -- [2]
-				8, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618107390,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				10, -- [3]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
 				2, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
-				20, -- [3]
-				3, -- [4]
-				1, -- [5]
+				3, -- [1]
+				3, -- [2]
+				2, -- [3]
+				4, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 404,
-	}, -- [50]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3248,8 +3288,12 @@ REFlexDatabase = {
 				842, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [51]
+	{
+		["Map"] = 2106,
+		["Duration"] = 1200,
+		["Season"] = 30,
+		["Time"] = 1618110105,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -3258,39 +3302,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618108637,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
-				2, -- [3]
-				4, -- [4]
-				2, -- [5]
+				4, -- [1]
+				5, -- [2]
+				5, -- [3]
+				5, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 894,
-	}, -- [51]
-	{
-		["Map"] = 2106,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3312,8 +3352,12 @@ REFlexDatabase = {
 				842, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [52]
+	{
+		["Map"] = 726,
+		["Duration"] = 473,
+		["Season"] = 30,
+		["Time"] = 1618110779,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -3323,38 +3367,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618110105,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				5, -- [2]
-				5, -- [3]
-				5, -- [4]
-				1, -- [5]
+				3, -- [1]
+				8, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 1200,
-	}, -- [52]
-	{
-		["Map"] = 726,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3376,49 +3416,49 @@ REFlexDatabase = {
 				842, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
+	}, -- [53]
+	{
+		["Map"] = 1035,
+		["Duration"] = 194,
+		["Season"] = 30,
+		["Time"] = 1618111164,
+		["PlayersNum"] = 19,
 		["BGComposition"] = {
 			{
 				0, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618110779,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				8, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
+				2, -- [1]
+				5, -- [2]
+				11, -- [3]
+				4, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 473,
-	}, -- [53]
-	{
-		["Map"] = 1035,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3440,8 +3480,12 @@ REFlexDatabase = {
 				842, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [54]
+	{
+		["Map"] = 1035,
+		["Duration"] = 789,
+		["Season"] = 30,
+		["Time"] = 1618112269,
 		["PlayersNum"] = 19,
 		["BGComposition"] = {
 			{
@@ -3455,34 +3499,30 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618111164,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				3, -- [1]
+				2, -- [2]
+				3, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				5, -- [2]
-				11, -- [3]
-				4, -- [4]
+				5, -- [1]
+				4, -- [2]
+				13, -- [3]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 194,
-	}, -- [54]
-	{
-		["Map"] = 1035,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3504,89 +3544,9 @@ REFlexDatabase = {
 				842, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 19,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618112269,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				2, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				4, -- [2]
-				13, -- [3]
-				5, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 789,
 	}, -- [55]
 	{
 		["Map"] = 2106,
-		["BGComposition"] = {
-			{
-				2, -- [1]
-				1, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 355,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1618250971,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				1, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3608,49 +3568,49 @@ REFlexDatabase = {
 				843, -- [17]
 			}, -- [1]
 		},
-	}, -- [56]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				2, -- [1]
 				1, -- [2]
-				3, -- [3]
+				7, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 14,
-		["Duration"] = 410,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618252237,
+		["Time"] = 1618250971,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				2, -- [2]
-				2, -- [3]
-				4, -- [4]
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				7, -- [1]
-				12, -- [2]
-				12, -- [3]
-				14, -- [4]
-				2, -- [5]
+				2, -- [1]
+				1, -- [2]
+				11, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 355,
+	}, -- [56]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3672,49 +3632,49 @@ REFlexDatabase = {
 				843, -- [17]
 			}, -- [1]
 		},
-	}, -- [57]
-	{
-		["Map"] = 2107,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 14,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				0, -- [1]
+				1, -- [2]
+				3, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				3, -- [2]
-				7, -- [3]
+				6, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 243,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618253463,
+		["Time"] = 1618252237,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				3, -- [1]
+				2, -- [2]
+				2, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
-				11, -- [3]
-				3, -- [4]
-				1, -- [5]
+				7, -- [1]
+				12, -- [2]
+				12, -- [3]
+				14, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Winner"] = 1,
+		["Season"] = 30,
+		["Duration"] = 410,
+	}, -- [57]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3736,49 +3696,49 @@ REFlexDatabase = {
 				843, -- [17]
 			}, -- [1]
 		},
-	}, -- [58]
-	{
-		["Map"] = 1035,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				3, -- [2]
 				7, -- [3]
-			}, -- [1]
-			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 1030,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618255043,
+		["Time"] = 1618253463,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				9, -- [2]
-				13, -- [3]
-				8, -- [4]
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 243,
+	}, -- [58]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3800,9 +3760,9 @@ REFlexDatabase = {
 				843, -- [17]
 			}, -- [1]
 		},
-	}, -- [59]
-	{
-		["Map"] = 2245,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -3810,39 +3770,39 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 253,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618255567,
+		["Time"] = 1618255043,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				5, -- [1]
+				9, -- [2]
+				13, -- [3]
+				8, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 1030,
+	}, -- [59]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3864,9 +3824,9 @@ REFlexDatabase = {
 				843, -- [17]
 			}, -- [1]
 		},
-	}, -- [60]
-	{
-		["Map"] = 1035,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -3874,39 +3834,39 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 220,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618256009,
+		["Time"] = 1618255567,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
-				11, -- [3]
-				4, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 253,
+	}, -- [60]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3928,9 +3888,9 @@ REFlexDatabase = {
 				843, -- [17]
 			}, -- [1]
 		},
-	}, -- [61]
-	{
-		["Map"] = 2245,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -3944,14 +3904,10 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 293,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618256754,
+		["Time"] = 1618256009,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -3963,14 +3919,18 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				2, -- [1]
-				2, -- [2]
+				3, -- [2]
 				11, -- [3]
 				4, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 220,
+	}, -- [61]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -3992,9 +3952,9 @@ REFlexDatabase = {
 				843, -- [17]
 			}, -- [1]
 		},
-	}, -- [62]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4002,39 +3962,39 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 590,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618257517,
+		["Time"] = 1618256754,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				5, -- [1]
-				2, -- [2]
-				3, -- [3]
-				5, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
+				2, -- [1]
 				2, -- [2]
-				3, -- [3]
-				8, -- [4]
-				1, -- [5]
+				11, -- [3]
+				4, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Winner"] = 1,
+		["Season"] = 30,
+		["Duration"] = 293,
+	}, -- [62]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4056,13 +4016,13 @@ REFlexDatabase = {
 				843, -- [17]
 			}, -- [1]
 		},
-	}, -- [63]
-	{
-		["Map"] = 727,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				2, -- [2]
+				0, -- [1]
+				3, -- [2]
 				7, -- [3]
 			}, -- [1]
 			{
@@ -4072,33 +4032,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 739,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618259241,
+		["Time"] = 1618257517,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
+				5, -- [1]
+				2, -- [2]
+				3, -- [3]
+				5, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
-				1, -- [3]
-				5, -- [4]
-				2, -- [5]
+				5, -- [1]
+				2, -- [2]
+				3, -- [3]
+				8, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 590,
+	}, -- [63]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4120,49 +4080,49 @@ REFlexDatabase = {
 				843, -- [17]
 			}, -- [1]
 		},
-	}, -- [64]
-	{
-		["Map"] = 761,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 156,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618260818,
+		["Time"] = 1618259241,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				3, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				9, -- [2]
-				11, -- [3]
-				11, -- [4]
-				1, -- [5]
+				3, -- [1]
+				11, -- [2]
+				1, -- [3]
+				5, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 739,
+	}, -- [64]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4184,9 +4144,9 @@ REFlexDatabase = {
 				843, -- [17]
 			}, -- [1]
 		},
-	}, -- [65]
-	{
-		["Map"] = 566,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4195,38 +4155,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 572,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618261599,
+		["Time"] = 1618260818,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				4, -- [2]
+				5, -- [1]
+				9, -- [2]
 				11, -- [3]
-				5, -- [4]
+				11, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Winner"] = 1,
+		["Season"] = 30,
+		["Duration"] = 156,
+	}, -- [65]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4248,49 +4208,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [66]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 437,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618262322,
+		["Time"] = 1618261599,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				4, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
+				4, -- [1]
 				4, -- [2]
-				4, -- [3]
-				6, -- [4]
-				2, -- [5]
+				11, -- [3]
+				5, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 572,
+	}, -- [66]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4312,49 +4272,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [67]
-	{
-		["Map"] = 566,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
-			{
-				2, -- [1]
-				1, -- [2]
-				7, -- [3]
-			}, -- [1]
 			{
 				1, -- [1]
 				2, -- [2]
 				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 394,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618263003,
+		["Time"] = 1618262322,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				4, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				7, -- [2]
-				13, -- [3]
+				6, -- [1]
+				4, -- [2]
+				4, -- [3]
 				6, -- [4]
-				3, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 437,
+	}, -- [67]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4376,49 +4336,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [68]
-	{
-		["Map"] = 566,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				2, -- [2]
+				2, -- [1]
+				1, -- [2]
 				7, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				2, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 326,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618263512,
+		["Time"] = 1618263003,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				5, -- [1]
+				7, -- [2]
+				13, -- [3]
+				6, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Winner"] = 1,
+		["Season"] = 30,
+		["Duration"] = 394,
+	}, -- [68]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4440,49 +4400,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [69]
-	{
-		["Map"] = 566,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
+				1, -- [1]
+				1, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 248,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618264486,
+		["Time"] = 1618263512,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				8, -- [2]
-				11, -- [3]
-				7, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 326,
+	}, -- [69]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4504,9 +4464,9 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [70]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4514,39 +4474,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				0, -- [1]
+				2, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 356,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618265219,
+		["Time"] = 1618264486,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				11, -- [2]
+				5, -- [1]
+				8, -- [2]
 				11, -- [3]
-				6, -- [4]
-				1, -- [5]
+				7, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 248,
+	}, -- [70]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4568,9 +4528,9 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [71]
-	{
-		["Map"] = 727,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4584,33 +4544,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 420,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618265978,
+		["Time"] = 1618265219,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
 				11, -- [2]
-				1, -- [3]
-				4, -- [4]
+				11, -- [3]
+				6, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Winner"] = 1,
+		["Season"] = 30,
+		["Duration"] = 356,
+	}, -- [71]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4632,9 +4592,9 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [72]
-	{
-		["Map"] = 566,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4642,39 +4602,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
+				1, -- [1]
+				1, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 645,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618266998,
+		["Time"] = 1618265978,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				5, -- [2]
-				11, -- [3]
-				5, -- [4]
+				4, -- [1]
+				11, -- [2]
+				1, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 420,
+	}, -- [72]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4696,49 +4656,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [73]
-	{
-		["Map"] = 1035,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 324,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618267637,
+		["Time"] = 1618266998,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				5, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
+				3, -- [1]
 				5, -- [2]
 				11, -- [3]
-				9, -- [4]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Winner"] = 1,
+		["Season"] = 30,
+		["Duration"] = 645,
+	}, -- [73]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4760,49 +4720,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [74]
-	{
-		["Map"] = 1035,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [1]
 			{
-				3, -- [1]
-				2, -- [2]
-				5, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 320,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618268231,
+		["Time"] = 1618267637,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				5, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				3, -- [5]
+				6, -- [1]
+				5, -- [2]
+				11, -- [3]
+				9, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 324,
+	}, -- [74]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4824,9 +4784,9 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [75]
-	{
-		["Map"] = 566,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4834,39 +4794,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				3, -- [1]
+				2, -- [2]
+				5, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 640,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618269101,
+		["Time"] = 1618268231,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				5, -- [2]
-				5, -- [3]
-				5, -- [4]
-				1, -- [5]
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				8, -- [1]
-				10, -- [2]
-				5, -- [3]
-				10, -- [4]
-				2, -- [5]
+				3, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 320,
+	}, -- [75]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4888,9 +4848,9 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [76]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -4899,38 +4859,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 325,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618269720,
+		["Time"] = 1618269101,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				4, -- [4]
+				3, -- [1]
+				5, -- [2]
+				5, -- [3]
+				5, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				8, -- [1]
 				10, -- [2]
-				11, -- [3]
-				11, -- [4]
+				5, -- [3]
+				10, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 640,
+	}, -- [76]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -4952,30 +4912,26 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [77]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				3, -- [2]
+				1, -- [1]
+				2, -- [2]
 				7, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 328,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618270456,
+		["Time"] = 1618269720,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -4987,14 +4943,18 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				8, -- [1]
-				11, -- [2]
+				10, -- [2]
 				11, -- [3]
-				12, -- [4]
+				11, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 325,
+	}, -- [77]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -5016,9 +4976,9 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [78]
-	{
-		["Map"] = 566,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -5027,38 +4987,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 251,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618270877,
+		["Time"] = 1618270456,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
-				5, -- [4]
-				2, -- [5]
+				4, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				7, -- [1]
+				8, -- [1]
 				11, -- [2]
 				11, -- [3]
-				14, -- [4]
-				3, -- [5]
+				12, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Winner"] = 1,
+		["Season"] = 30,
+		["Duration"] = 328,
+	}, -- [78]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -5080,49 +5040,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [79]
-	{
-		["Map"] = 2245,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				1, -- [2]
 				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 464,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618271548,
+		["Time"] = 1618270877,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				4, -- [1]
-				5, -- [2]
-				6, -- [3]
-				6, -- [4]
-				1, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				5, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				8, -- [2]
-				6, -- [3]
-				9, -- [4]
-				1, -- [5]
+				7, -- [1]
+				11, -- [2]
+				11, -- [3]
+				14, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 251,
+	}, -- [79]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -5144,49 +5104,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [80]
-	{
-		["Map"] = 1035,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 159,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618272044,
+		["Time"] = 1618271548,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
+				4, -- [1]
+				5, -- [2]
+				6, -- [3]
+				6, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				11, -- [2]
-				11, -- [3]
-				12, -- [4]
+				6, -- [1]
+				8, -- [2]
+				6, -- [3]
+				9, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Winner"] = 1,
+		["Season"] = 30,
+		["Duration"] = 464,
+	}, -- [80]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -5208,49 +5168,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [81]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
+				0, -- [1]
 				2, -- [2]
-				6, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 281,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618272596,
+		["Time"] = 1618272044,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				6, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				10, -- [1]
-				13, -- [2]
-				13, -- [3]
-				16, -- [4]
-				4, -- [5]
+				5, -- [1]
+				11, -- [2]
+				11, -- [3]
+				12, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 159,
+	}, -- [81]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -5272,49 +5232,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [82]
-	{
-		["Map"] = 727,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				2, -- [1]
+				2, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 347,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618273811,
+		["Time"] = 1618272596,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				4, -- [4]
+				3, -- [2]
+				3, -- [3]
+				6, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
+				10, -- [1]
+				13, -- [2]
+				13, -- [3]
+				16, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 281,
+	}, -- [82]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -5336,9 +5296,9 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [83]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -5352,14 +5312,10 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 440,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618274640,
+		["Time"] = 1618273811,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -5370,15 +5326,19 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				5, -- [2]
-				11, -- [3]
-				8, -- [4]
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 347,
+	}, -- [83]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -5400,49 +5360,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [84]
-	{
-		["Map"] = 2245,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 207,
-		["Season"] = 30,
-		["isArena"] = false,
+		["PlayerNum"] = 1,
 		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1618275143,
-		["isRated"] = false,
-		["BGPlace"] = {
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
 			{
 				1, -- [1]
 				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["Time"] = 1618274640,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
+				4, -- [1]
+				5, -- [2]
 				11, -- [3]
-				3, -- [4]
+				8, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 440,
+	}, -- [84]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -5464,14 +5424,14 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [85]
-	{
-		["Map"] = 761,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -5480,14 +5440,10 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 181,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1618275629,
+		["Time"] = 1618275143,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -5499,14 +5455,18 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				2, -- [1]
-				3, -- [2]
+				2, -- [2]
 				11, -- [3]
-				4, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 207,
+	}, -- [85]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -5528,9 +5488,9 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [86]
-	{
-		["Map"] = 761,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -5544,33 +5504,33 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 240,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618276303,
+		["Time"] = 1618275629,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 181,
+	}, -- [86]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -5592,9 +5552,9 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [87]
-	{
-		["Map"] = 566,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -5602,20 +5562,16 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				1, -- [2]
-				7, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 494,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1618277101,
+		["Time"] = 1618276303,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -5626,15 +5582,19 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				4, -- [2]
-				11, -- [3]
-				4, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Winner"] = 1,
+		["Season"] = 30,
+		["Duration"] = 240,
+	}, -- [87]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -5656,6 +5616,46 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				1, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["Time"] = 1618277101,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				4, -- [2]
+				11, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 494,
 	}, -- [88]
 	{
 		["PlayerStats"] = {
@@ -6062,7 +6062,7 @@ REFlexDatabase = {
 		},
 		["Hidden"] = false,
 		["Map"] = 727,
-		["Season"] = 30,
+		["isArena"] = false,
 		["PlayerSide"] = 0,
 		["Version"] = 313,
 		["isRated"] = true,
@@ -6083,7 +6083,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["isArena"] = false,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -6103,46 +6103,6 @@ REFlexDatabase = {
 	}, -- [89]
 	{
 		["Map"] = 2245,
-		["Duration"] = 233,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618340191,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6164,49 +6124,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [90]
-	{
-		["Map"] = 566,
-		["Duration"] = 194,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1618340191,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618341559,
+		["Duration"] = 233,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				10, -- [2]
-				11, -- [3]
-				7, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [90]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6228,13 +6188,34 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [91]
-	{
-		["Map"] = 761,
-		["Duration"] = 311,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618341559,
 		["PlayersNum"] = 20,
+		["Duration"] = 194,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				10, -- [2]
+				11, -- [3]
+				7, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -6242,35 +6223,14 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618344758,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
+				1, -- [1]
 				2, -- [2]
-				2, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				12, -- [2]
-				12, -- [3]
-				7, -- [4]
-				3, -- [5]
+				7, -- [3]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+	}, -- [91]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6292,49 +6252,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [92]
-	{
-		["Map"] = 2245,
-		["Duration"] = 222,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618344758,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618345352,
+		["Duration"] = 311,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
 				2, -- [2]
 				2, -- [3]
-				2, -- [4]
-				1, -- [5]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
+				5, -- [1]
+				12, -- [2]
+				12, -- [3]
+				7, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [92]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6356,49 +6316,49 @@ REFlexDatabase = {
 				844, -- [17]
 			}, -- [1]
 		},
-	}, -- [93]
-	{
-		["Map"] = 1035,
-		["Duration"] = 520,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618345352,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618346519,
+		["Duration"] = 222,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				13, -- [2]
-				13, -- [3]
-				5, -- [4]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [93]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6420,49 +6380,49 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-	}, -- [94]
-	{
-		["Map"] = 1035,
-		["Duration"] = 465,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1618346519,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				6, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618348591,
+		["Duration"] = 520,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				1, -- [2]
-				1, -- [3]
+				3, -- [2]
+				3, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				4, -- [2]
-				11, -- [3]
-				6, -- [4]
+				4, -- [1]
+				13, -- [2]
+				13, -- [3]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [94]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6484,49 +6444,49 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-	}, -- [95]
-	{
-		["Map"] = 726,
-		["Duration"] = 457,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618348591,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618349887,
+		["Duration"] = 465,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
+				5, -- [1]
+				4, -- [2]
 				11, -- [3]
-				7, -- [4]
+				6, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+	}, -- [95]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6548,49 +6508,49 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-	}, -- [96]
-	{
-		["Map"] = 726,
-		["Duration"] = 611,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618349887,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618351280,
+		["Duration"] = 457,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
-				2, -- [5]
+				3, -- [1]
+				11, -- [2]
+				11, -- [3]
+				7, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [96]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6612,13 +6572,34 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-	}, -- [97]
-	{
-		["Map"] = 1035,
-		["Duration"] = 454,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618351280,
 		["PlayersNum"] = 20,
+		["Duration"] = 611,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				3, -- [2]
+				3, -- [3]
+				4, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -6631,30 +6612,9 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618352006,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				4, -- [2]
-				11, -- [3]
-				5, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
+	}, -- [97]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6676,9 +6636,89 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
+		["Season"] = 30,
+		["Time"] = 1618352006,
+		["PlayersNum"] = 20,
+		["Duration"] = 454,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				4, -- [2]
+				11, -- [3]
+				5, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
 	}, -- [98]
 	{
 		["Map"] = 761,
+		["Duration"] = 176,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				3, -- [1]
+				3, -- [2]
+				4, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1618353703,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				9, -- [2]
+				11, -- [3]
+				5, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6700,89 +6740,9 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				3, -- [1]
-				3, -- [2]
-				4, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
-		["Time"] = 1618353703,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				9, -- [2]
-				11, -- [3]
-				5, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 176,
 	}, -- [99]
 	{
 		["Map"] = 2106,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["Time"] = 1618355503,
-		["PlayersNum"] = 20,
-		["Duration"] = 380,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				4, -- [1]
-				5, -- [2]
-				5, -- [3]
-				4, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				5, -- [2]
-				5, -- [3]
-				4, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6804,49 +6764,49 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-	}, -- [100]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				2, -- [2]
-				8, -- [3]
+				7, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618356485,
-		["PlayersNum"] = 20,
-		["Duration"] = 339,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618355503,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				10, -- [3]
-				2, -- [4]
+				4, -- [1]
+				5, -- [2]
+				5, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				11, -- [2]
-				20, -- [3]
-				9, -- [4]
-				1, -- [5]
+				4, -- [1]
+				5, -- [2]
+				5, -- [3]
+				4, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 380,
+	}, -- [100]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6868,49 +6828,49 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-	}, -- [101]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
 			{
 				0, -- [1]
 				2, -- [2]
-				5, -- [3]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618357094,
-		["PlayersNum"] = 17,
-		["Duration"] = 345,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 0,
+		["isArena"] = false,
+		["Time"] = 1618356485,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
+				1, -- [1]
 				1, -- [2]
-				1, -- [3]
-				3, -- [4]
+				10, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				1, -- [2]
-				1, -- [3]
-				4, -- [4]
+				5, -- [1]
+				11, -- [2]
+				20, -- [3]
+				9, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 339,
+	}, -- [101]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6932,49 +6892,49 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-	}, -- [102]
-	{
-		["Map"] = 2107,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 17,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				5, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618358056,
-		["PlayersNum"] = 20,
-		["Duration"] = 215,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["PlayerSide"] = 0,
+		["isArena"] = false,
+		["Time"] = 1618357094,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				3, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
+				4, -- [1]
 				1, -- [2]
-				11, -- [3]
-				3, -- [4]
+				1, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 345,
+	}, -- [102]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -6996,9 +6956,9 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-	}, -- [103]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -7007,38 +6967,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618359023,
-		["PlayersNum"] = 20,
-		["Duration"] = 232,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618358056,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				4, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				4, -- [4]
-				2, -- [5]
+				3, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 215,
+	}, -- [103]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -7060,9 +7020,9 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-	}, -- [104]
-	{
-		["Map"] = 726,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -7071,19 +7031,15 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618359775,
-		["PlayersNum"] = 20,
-		["Duration"] = 603,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618359023,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -7094,15 +7050,19 @@ REFlexDatabase = {
 				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				10, -- [2]
-				10, -- [3]
-				5, -- [4]
+				3, -- [1]
+				4, -- [2]
+				11, -- [3]
+				4, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 232,
+	}, -- [104]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -7124,14 +7084,14 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-	}, -- [105]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -7140,14 +7100,10 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618360462,
-		["PlayersNum"] = 20,
-		["Duration"] = 243,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618359775,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -7155,18 +7111,22 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				3, -- [2]
-				11, -- [3]
-				4, -- [4]
-				1, -- [5]
+				4, -- [1]
+				10, -- [2]
+				10, -- [3]
+				5, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 603,
+	}, -- [105]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -7188,49 +7148,49 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-	}, -- [106]
-	{
-		["Map"] = 2106,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				1, -- [2]
 				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618361475,
-		["PlayersNum"] = 20,
-		["Duration"] = 717,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["PlayerSide"] = 0,
+		["isArena"] = false,
+		["Time"] = 1618360462,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
+				2, -- [1]
+				3, -- [2]
 				11, -- [3]
 				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 243,
+	}, -- [106]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -7252,9 +7212,9 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-	}, -- [107]
-	{
-		["Map"] = 2245,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -7263,19 +7223,15 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618362107,
-		["PlayersNum"] = 20,
-		["Duration"] = 315,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618361475,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -7286,15 +7242,19 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				5, -- [2]
+				3, -- [1]
+				11, -- [2]
 				11, -- [3]
-				2, -- [4]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
+		["Duration"] = 717,
+	}, -- [107]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -7316,9 +7276,9 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-	}, -- [108]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -7326,39 +7286,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1618362941,
-		["PlayersNum"] = 20,
-		["Duration"] = 638,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1618362107,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				2, -- [2]
-				12, -- [3]
-				6, -- [4]
+				2, -- [1]
+				5, -- [2]
+				11, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 315,
+	}, -- [108]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -7380,6 +7340,46 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = false,
+		["Time"] = 1618362941,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				2, -- [2]
+				12, -- [3]
+				6, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 638,
 	}, -- [109]
 	{
 		["Map"] = 617,
@@ -7461,18 +7461,18 @@ REFlexDatabase = {
 				20, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 88,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618381251,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618381251,
+		["PlayerSide"] = 1,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -7570,18 +7570,18 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 38,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618381426,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618381426,
+		["PlayerSide"] = 0,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -7679,18 +7679,18 @@ REFlexDatabase = {
 				15, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 44,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618381624,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618381624,
+		["PlayerSide"] = 0,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -7788,18 +7788,18 @@ REFlexDatabase = {
 				47, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 75,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618381776,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618381776,
+		["PlayerSide"] = 1,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -7897,18 +7897,18 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 69,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618381930,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618381930,
+		["PlayerSide"] = 1,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -8006,18 +8006,18 @@ REFlexDatabase = {
 				50, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 27,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618382150,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618382150,
+		["PlayerSide"] = 0,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -8115,18 +8115,18 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 40,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618382322,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618382322,
+		["PlayerSide"] = 0,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -8224,18 +8224,18 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 138,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618382610,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618382610,
+		["PlayerSide"] = 0,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -8333,18 +8333,18 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 26,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618382816,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618382816,
+		["PlayerSide"] = 0,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -8442,18 +8442,18 @@ REFlexDatabase = {
 				4, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 33,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618382929,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618382929,
+		["PlayerSide"] = 1,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -8551,18 +8551,18 @@ REFlexDatabase = {
 				20, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 87,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618383263,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618383263,
+		["PlayerSide"] = 0,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -8660,18 +8660,18 @@ REFlexDatabase = {
 				140, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 30,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618383381,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618383381,
+		["PlayerSide"] = 1,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -8769,18 +8769,18 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 93,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618383645,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618383645,
+		["PlayerSide"] = 0,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -8878,18 +8878,18 @@ REFlexDatabase = {
 				85, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 107,
-		["PlayerNum"] = 2,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618383828,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618383828,
+		["PlayerSide"] = 1,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 2,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -8987,18 +8987,18 @@ REFlexDatabase = {
 				111, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 54,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618383996,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618383996,
+		["PlayerSide"] = 0,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -9096,18 +9096,18 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 36,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618384156,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618384156,
+		["PlayerSide"] = 0,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -9205,18 +9205,18 @@ REFlexDatabase = {
 				63, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 59,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618384347,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618384347,
+		["PlayerSide"] = 0,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -9314,18 +9314,18 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 116,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618384543,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618384543,
+		["PlayerSide"] = 1,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -9423,18 +9423,18 @@ REFlexDatabase = {
 				45, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 58,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618384687,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618384687,
+		["PlayerSide"] = 1,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -9532,18 +9532,18 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 44,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618384807,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618384807,
+		["PlayerSide"] = 1,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -9641,18 +9641,18 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 35,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618384918,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618384918,
+		["PlayerSide"] = 1,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -9750,18 +9750,18 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 36,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618385052,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618385052,
+		["PlayerSide"] = 0,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -9859,18 +9859,18 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 155,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618385348,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618385348,
+		["PlayerSide"] = 0,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -9968,18 +9968,18 @@ REFlexDatabase = {
 				15, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 31,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618385462,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618385462,
+		["PlayerSide"] = 0,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -9999,46 +9999,6 @@ REFlexDatabase = {
 	}, -- [133]
 	{
 		["Map"] = 2245,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["Duration"] = 167,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618438170,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10060,9 +10020,89 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
+		["Season"] = 30,
+		["Time"] = 1618438170,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 167,
 	}, -- [134]
 	{
 		["Map"] = 1035,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["Duration"] = 360,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1618440478,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				8, -- [1]
+				12, -- [2]
+				13, -- [3]
+				11, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10084,49 +10124,49 @@ REFlexDatabase = {
 				845, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 360,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
-		["Time"] = 1618440478,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				8, -- [1]
-				12, -- [2]
-				13, -- [3]
-				11, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
 	}, -- [135]
 	{
 		["Map"] = 761,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 259,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1618441531,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				2, -- [2]
+				11, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10148,49 +10188,49 @@ REFlexDatabase = {
 				846, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 259,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1618441531,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				2, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
 	}, -- [136]
 	{
 		["Map"] = 2106,
+		["Duration"] = 383,
+		["Season"] = 30,
+		["Time"] = 1618443217,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				6, -- [1]
+				6, -- [2]
+				11, -- [3]
+				5, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10212,8 +10252,12 @@ REFlexDatabase = {
 				846, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [137]
+	{
+		["Map"] = 2106,
+		["Duration"] = 292,
+		["Season"] = 30,
+		["Time"] = 1618443835,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -10223,38 +10267,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618443217,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				6, -- [2]
+				3, -- [1]
+				9, -- [2]
 				11, -- [3]
-				5, -- [4]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 383,
-	}, -- [137]
-	{
-		["Map"] = 2106,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10276,8 +10316,12 @@ REFlexDatabase = {
 				846, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [138]
+	{
+		["Map"] = 2107,
+		["Duration"] = 248,
+		["Season"] = 30,
+		["Time"] = 1618444351,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -10287,38 +10331,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618443835,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
+				3, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				9, -- [2]
-				11, -- [3]
+				3, -- [2]
+				13, -- [3]
 				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 292,
-	}, -- [138]
-	{
-		["Map"] = 2107,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10340,8 +10380,12 @@ REFlexDatabase = {
 				846, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [139]
+	{
+		["Map"] = 761,
+		["Duration"] = 303,
+		["Season"] = 30,
+		["Time"] = 1618445048,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -10350,39 +10394,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618444351,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
+				2, -- [1]
 				3, -- [2]
 				3, -- [3]
 				3, -- [4]
-				1, -- [5]
+				3, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
+				4, -- [1]
+				13, -- [2]
 				13, -- [3]
-				4, -- [4]
-				1, -- [5]
+				5, -- [4]
+				5, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 248,
-	}, -- [139]
-	{
-		["Map"] = 761,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10404,8 +10444,12 @@ REFlexDatabase = {
 				846, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+	}, -- [140]
+	{
+		["Map"] = 726,
+		["Duration"] = 430,
+		["Season"] = 30,
+		["Time"] = 1618445764,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -10419,34 +10463,30 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618445048,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				3, -- [1]
 				3, -- [2]
-				3, -- [3]
+				4, -- [3]
 				3, -- [4]
-				3, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				13, -- [2]
-				13, -- [3]
-				5, -- [4]
-				5, -- [5]
+				3, -- [1]
+				3, -- [2]
+				4, -- [3]
+				4, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 303,
-	}, -- [140]
-	{
-		["Map"] = 726,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10468,89 +10508,9 @@ REFlexDatabase = {
 				846, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1618445764,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				3, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				3, -- [2]
-				4, -- [3]
-				4, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 430,
 	}, -- [141]
 	{
 		["Map"] = 726,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 311,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1618446418,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				11, -- [2]
-				11, -- [3]
-				9, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10572,9 +10532,89 @@ REFlexDatabase = {
 				846, -- [17]
 			}, -- [1]
 		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["Time"] = 1618446418,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				11, -- [2]
+				11, -- [3]
+				9, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
+		["Duration"] = 311,
 	}, -- [142]
 	{
 		["Map"] = 727,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 342,
+		["Season"] = 30,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
+		["Time"] = 1618447082,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				10, -- [3]
+				1, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				11, -- [2]
+				20, -- [3]
+				7, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10596,49 +10636,49 @@ REFlexDatabase = {
 				846, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1618447082,
-		["PlayersNum"] = 20,
-		["Duration"] = 342,
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
+	}, -- [143]
+	{
+		["Map"] = 2107,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 181,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 0,
+		["isBrawl"] = false,
+		["Time"] = 1618447710,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
-				10, -- [3]
-				1, -- [4]
-				2, -- [5]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				11, -- [2]
-				20, -- [3]
-				7, -- [4]
+				2, -- [1]
+				5, -- [2]
+				11, -- [3]
+				3, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-	}, -- [143]
-	{
-		["Map"] = 2107,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10660,49 +10700,49 @@ REFlexDatabase = {
 				846, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1618447710,
-		["PlayersNum"] = 20,
-		["Duration"] = 181,
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
+	}, -- [144]
+	{
+		["Map"] = 727,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 418,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 0,
+		["isBrawl"] = false,
+		["Time"] = 1618448495,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				5, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				3, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-	}, -- [144]
-	{
-		["Map"] = 727,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10724,49 +10764,49 @@ REFlexDatabase = {
 				846, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1618448495,
-		["PlayersNum"] = 20,
-		["Duration"] = 418,
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
+	}, -- [145]
+	{
+		["Map"] = 2106,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 298,
+		["Season"] = 30,
 		["isArena"] = false,
-		["PlayerSide"] = 0,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1618449113,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				8, -- [1]
+				11, -- [2]
 				11, -- [3]
-				1, -- [4]
+				11, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-	}, -- [145]
-	{
-		["Map"] = 2106,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10788,34 +10828,9 @@ REFlexDatabase = {
 				846, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1618449113,
-		["PlayersNum"] = 20,
-		["Duration"] = 298,
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				8, -- [1]
-				11, -- [2]
-				11, -- [3]
-				11, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
+	}, -- [146]
+	{
+		["Map"] = 1035,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -10823,14 +10838,39 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [1]
+				3, -- [2]
+				5, -- [3]
 			}, -- [2]
 		},
-	}, -- [146]
-	{
-		["Map"] = 1035,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 280,
+		["Season"] = 30,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
+		["Time"] = 1618449876,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				5, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				11, -- [1]
+				14, -- [2]
+				14, -- [3]
+				15, -- [4]
+				5, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -10851,46 +10891,6 @@ REFlexDatabase = {
 				"暗影", -- [16]
 				846, -- [17]
 			}, -- [1]
-		},
-		["Season"] = 30,
-		["Time"] = 1618449876,
-		["PlayersNum"] = 20,
-		["Duration"] = 280,
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				5, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				11, -- [1]
-				14, -- [2]
-				14, -- [3]
-				15, -- [4]
-				5, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				2, -- [1]
-				3, -- [2]
-				5, -- [3]
-			}, -- [2]
 		},
 	}, -- [147]
 	{
@@ -11300,7 +11300,7 @@ REFlexDatabase = {
 		},
 		["Hidden"] = false,
 		["Map"] = 566,
-		["isArena"] = false,
+		["Season"] = 30,
 		["PlayerSide"] = 0,
 		["Version"] = 313,
 		["isRated"] = true,
@@ -11321,7 +11321,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["isArena"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -11341,46 +11341,6 @@ REFlexDatabase = {
 	}, -- [148]
 	{
 		["Map"] = 2106,
-		["Duration"] = 432,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618474389,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				12, -- [2]
-				12, -- [3]
-				4, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -11402,49 +11362,49 @@ REFlexDatabase = {
 				846, -- [17]
 			}, -- [1]
 		},
-	}, -- [149]
-	{
-		["Map"] = 761,
-		["Duration"] = 198,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618474389,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
+		["Duration"] = 432,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
 			{
 				2, -- [1]
-				1, -- [2]
-				7, -- [3]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
+			{
+				4, -- [1]
+				12, -- [2]
+				12, -- [3]
+				4, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["BGComposition"] = {
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618474976,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				10, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+	}, -- [149]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -11466,49 +11426,49 @@ REFlexDatabase = {
 				846, -- [17]
 			}, -- [1]
 		},
-	}, -- [150]
-	{
-		["Map"] = 2107,
-		["Duration"] = 773,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618474976,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618476079,
+		["Duration"] = 198,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				6, -- [2]
-				3, -- [3]
-				6, -- [4]
-				4, -- [5]
+				2, -- [1]
+				10, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+	}, -- [150]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -11530,49 +11490,49 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [151]
-	{
-		["Map"] = 726,
-		["Duration"] = 323,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618476079,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618477723,
+		["Duration"] = 773,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				1, -- [2]
-				1, -- [3]
+				3, -- [2]
+				3, -- [3]
 				3, -- [4]
-				1, -- [5]
+				3, -- [5]
 			}, -- [1]
 			{
-				8, -- [1]
-				10, -- [2]
-				11, -- [3]
-				10, -- [4]
-				1, -- [5]
+				4, -- [1]
+				6, -- [2]
+				3, -- [3]
+				6, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [151]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -11594,13 +11554,34 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [152]
-	{
-		["Map"] = 2107,
-		["Duration"] = 658,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618477723,
 		["PlayersNum"] = 20,
+		["Duration"] = 323,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				8, -- [1]
+				10, -- [2]
+				11, -- [3]
+				10, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -11608,35 +11589,14 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618478768,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				5, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
+	}, -- [152]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -11658,13 +11618,34 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [153]
-	{
-		["Map"] = 1035,
-		["Duration"] = 650,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618478768,
 		["PlayersNum"] = 20,
+		["Duration"] = 658,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				5, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -11672,35 +11653,14 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618479882,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				4, -- [2]
-				12, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
+	}, -- [153]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -11722,13 +11682,34 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [154]
-	{
-		["Map"] = 566,
-		["Duration"] = 390,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618479882,
 		["PlayersNum"] = 20,
+		["Duration"] = 650,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				4, -- [2]
+				12, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -11736,35 +11717,14 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				0, -- [2]
+				1, -- [1]
+				1, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618480752,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
+	}, -- [154]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -11786,49 +11746,49 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [155]
-	{
-		["Map"] = 566,
-		["Duration"] = 424,
+		["Season"] = 30,
+		["Time"] = 1618480752,
+		["PlayersNum"] = 20,
+		["Duration"] = 390,
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 19,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618481990,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				5, -- [2]
-				13, -- [3]
-				4, -- [4]
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				0, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [155]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -11850,16 +11810,37 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [156]
-	{
-		["Map"] = 2106,
-		["Duration"] = 295,
+		["Season"] = 30,
+		["Time"] = 1618481990,
+		["PlayersNum"] = 19,
+		["Duration"] = 424,
 		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
 		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				5, -- [2]
+				13, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
 				9, -- [3]
 			}, -- [1]
@@ -11869,30 +11850,9 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618482646,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				4, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				7, -- [1]
-				11, -- [2]
-				11, -- [3]
-				14, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
+	}, -- [156]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -11914,49 +11874,49 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [157]
-	{
-		["Map"] = 761,
-		["Duration"] = 212,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1618482646,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				2, -- [1]
-				1, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618483024,
+		["Duration"] = 295,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				4, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				1, -- [2]
+				7, -- [1]
+				11, -- [2]
 				11, -- [3]
-				2, -- [4]
+				14, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [157]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -11978,34 +11938,19 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [158]
-	{
-		["Map"] = 761,
-		["Duration"] = 235,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618483024,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618483620,
+		["Duration"] = 212,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
@@ -12013,14 +11958,29 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				2, -- [1]
-				3, -- [2]
+				1, -- [2]
 				11, -- [3]
-				3, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				1, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+	}, -- [158]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12042,49 +12002,49 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [159]
-	{
-		["Map"] = 566,
-		["Duration"] = 368,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618483620,
 		["PlayersNum"] = 20,
+		["Duration"] = 235,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				0, -- [2]
 				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618484782,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
+	}, -- [159]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12106,13 +12066,34 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [160]
-	{
-		["Map"] = 726,
-		["Duration"] = 578,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618484782,
 		["PlayersNum"] = 20,
+		["Duration"] = 368,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12121,34 +12102,13 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618485657,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				12, -- [2]
-				3, -- [3]
-				6, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
+	}, -- [160]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12170,49 +12130,49 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [161]
-	{
-		["Map"] = 727,
-		["Duration"] = 348,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1618485657,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618486494,
+		["Duration"] = 578,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
-				1, -- [5]
+				4, -- [1]
+				12, -- [2]
+				3, -- [3]
+				6, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [161]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12234,18 +12194,39 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [162]
-	{
-		["Map"] = 761,
-		["Duration"] = 584,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618486494,
 		["PlayersNum"] = 20,
+		["Duration"] = 348,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -12253,30 +12234,9 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618487455,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				11, -- [2]
-				11, -- [3]
-				4, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
+	}, -- [162]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12298,13 +12258,34 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [163]
-	{
-		["Map"] = 2106,
-		["Duration"] = 470,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618487455,
 		["PlayersNum"] = 20,
+		["Duration"] = 584,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12313,34 +12294,13 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618489113,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
+	}, -- [163]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12362,30 +12322,15 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [164]
-	{
-		["Map"] = 726,
-		["Duration"] = 477,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1618489113,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618490406,
+		["Duration"] = 470,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -12403,8 +12348,23 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+	}, -- [164]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12426,13 +12386,34 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [165]
-	{
-		["Map"] = 727,
-		["Duration"] = 694,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618490406,
 		["PlayersNum"] = 20,
+		["Duration"] = 477,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12441,34 +12422,13 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618491576,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
+	}, -- [165]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12490,13 +12450,34 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [166]
-	{
-		["Map"] = 727,
-		["Duration"] = 346,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618491576,
 		["PlayersNum"] = 20,
+		["Duration"] = 694,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12505,34 +12486,13 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618494106,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
+	}, -- [166]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12554,49 +12514,49 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [167]
-	{
-		["Map"] = 761,
-		["Duration"] = 170,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618494106,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618494697,
+		["Duration"] = 346,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				4, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [167]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12618,13 +12578,34 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [168]
-	{
-		["Map"] = 761,
-		["Duration"] = 158,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1618494697,
 		["PlayersNum"] = 20,
+		["Duration"] = 170,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				2, -- [2]
+				11, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -12633,34 +12614,13 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618495074,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
 				2, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+	}, -- [168]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12682,49 +12642,49 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [169]
-	{
-		["Map"] = 726,
-		["Duration"] = 1050,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618495074,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618496533,
+		["Duration"] = 158,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
+				2, -- [1]
+				2, -- [2]
 				11, -- [3]
-				4, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [169]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12746,18 +12706,39 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [170]
-	{
-		["Map"] = 761,
-		["Duration"] = 266,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1618496533,
 		["PlayersNum"] = 20,
+		["Duration"] = 1050,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -12765,30 +12746,9 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618497258,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
+	}, -- [170]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12810,13 +12770,34 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [171]
-	{
-		["Map"] = 2106,
-		["Duration"] = 604,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618497258,
 		["PlayersNum"] = 20,
+		["Duration"] = 266,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12825,34 +12806,13 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618500091,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
+	}, -- [171]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12874,18 +12834,39 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [172]
-	{
-		["Map"] = 2107,
-		["Duration"] = 311,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1618500091,
 		["PlayersNum"] = 20,
+		["Duration"] = 604,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -12893,30 +12874,9 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618500668,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				10, -- [2]
-				13, -- [3]
-				7, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
+	}, -- [172]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -12938,13 +12898,34 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [173]
-	{
-		["Map"] = 726,
-		["Duration"] = 396,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1618500668,
 		["PlayersNum"] = 20,
+		["Duration"] = 311,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				10, -- [2]
+				13, -- [3]
+				7, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -12957,30 +12938,9 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618501529,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				2, -- [2]
-				3, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
+	}, -- [173]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -13002,13 +12962,34 @@ REFlexDatabase = {
 				847, -- [17]
 			}, -- [1]
 		},
-	}, -- [174]
-	{
-		["Map"] = 1035,
-		["Duration"] = 640,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1618501529,
 		["PlayersNum"] = 20,
+		["Duration"] = 396,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				3, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				2, -- [2]
+				3, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -13017,34 +12998,13 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1618502637,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
+	}, -- [174]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -13065,6 +13025,46 @@ REFlexDatabase = {
 				"暗影", -- [16]
 				848, -- [17]
 			}, -- [1]
+		},
+		["Season"] = 30,
+		["Time"] = 1618502637,
+		["PlayersNum"] = 20,
+		["Duration"] = 640,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
 		},
 	}, -- [175]
 	{
@@ -13473,7 +13473,7 @@ REFlexDatabase = {
 		},
 		["Hidden"] = false,
 		["Map"] = 761,
-		["Season"] = 30,
+		["isArena"] = false,
 		["PlayerSide"] = 0,
 		["Version"] = 313,
 		["isRated"] = true,
@@ -13494,7 +13494,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["isArena"] = false,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -13514,6 +13514,46 @@ REFlexDatabase = {
 	}, -- [176]
 	{
 		["Map"] = 2245,
+		["Duration"] = 365,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1618560184,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				3, -- [2]
+				11, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -13535,8 +13575,12 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [177]
+	{
+		["Map"] = 761,
+		["Duration"] = 162,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -13550,34 +13594,30 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618560184,
+		["Time"] = 1618560706,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
+				4, -- [1]
+				4, -- [2]
 				11, -- [3]
-				4, -- [4]
+				6, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 365,
-	}, -- [177]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -13599,8 +13639,12 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [178]
+	{
+		["Map"] = 761,
+		["Duration"] = 197,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -13610,38 +13654,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618560706,
+		["Time"] = 1618561262,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [2]
+				2, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				4, -- [2]
-				11, -- [3]
-				6, -- [4]
+				5, -- [1]
+				10, -- [2]
+				12, -- [3]
+				10, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 162,
-	}, -- [178]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -13663,8 +13703,12 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [179]
+	{
+		["Map"] = 1035,
+		["Duration"] = 789,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -13673,39 +13717,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618561262,
+		["Time"] = 1618562411,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
+				3, -- [2]
+				3, -- [3]
 				2, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				10, -- [2]
-				12, -- [3]
-				10, -- [4]
-				1, -- [5]
+				4, -- [1]
+				6, -- [2]
+				13, -- [3]
+				4, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 197,
-	}, -- [179]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -13727,49 +13767,49 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [180]
+	{
+		["Map"] = 2245,
+		["Duration"] = 1284,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618562411,
+		["Time"] = 1618564172,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				2, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				6, -- [2]
-				13, -- [3]
+				2, -- [1]
+				2, -- [2]
+				11, -- [3]
 				4, -- [4]
-				4, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 789,
-	}, -- [180]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -13791,49 +13831,49 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [181]
+	{
+		["Map"] = 761,
+		["Duration"] = 458,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618564172,
+		["Time"] = 1618565096,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
 				2, -- [1]
 				2, -- [2]
-				11, -- [3]
-				4, -- [4]
-				2, -- [5]
+				2, -- [3]
+				5, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 1284,
-	}, -- [181]
-	{
-		["Map"] = 761,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -13855,8 +13895,12 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [182]
+	{
+		["Map"] = 566,
+		["Duration"] = 251,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -13866,38 +13910,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618565096,
+		["Time"] = 1618565748,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				5, -- [4]
+				4, -- [2]
+				11, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 458,
-	}, -- [182]
-	{
-		["Map"] = 566,
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -13919,8 +13959,12 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [183]
+	{
+		["Map"] = 2107,
+		["Duration"] = 740,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -13934,34 +13978,30 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618565748,
+		["Time"] = 1618566694,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				2, -- [1]
-				4, -- [2]
-				11, -- [3]
+				2, -- [2]
+				12, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 251,
-	}, -- [183]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -13983,8 +14023,12 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [184]
+	{
+		["Map"] = 1035,
+		["Duration"] = 170,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -13994,38 +14038,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618566694,
+		["Time"] = 1618567230,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
+				1, -- [2]
+				1, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				12, -- [3]
+				3, -- [1]
+				1, -- [2]
+				11, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 740,
-	}, -- [184]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -14047,49 +14087,49 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [185]
+	{
+		["Map"] = 2107,
+		["Duration"] = 396,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618567230,
+		["Time"] = 1618567866,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
+				1, -- [1]
 				1, -- [2]
 				11, -- [3]
-				3, -- [4]
-				1, -- [5]
+				7, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 170,
-	}, -- [185]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -14111,49 +14151,49 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [186]
+	{
+		["Map"] = 761,
+		["Duration"] = 205,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618567866,
+		["Time"] = 1618568830,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [1]
+				2, -- [2]
+				3, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				7, -- [4]
-				2, -- [5]
+				2, -- [1]
+				2, -- [2]
+				3, -- [3]
+				3, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 396,
-	}, -- [186]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -14175,8 +14215,12 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [187]
+	{
+		["Map"] = 1035,
+		["Duration"] = 429,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14190,34 +14234,30 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618568830,
+		["Time"] = 1618569542,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				2, -- [2]
-				3, -- [3]
-				2, -- [4]
+				1, -- [1]
+				1, -- [2]
+				10, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				2, -- [1]
-				2, -- [2]
-				3, -- [3]
+				11, -- [2]
+				20, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 205,
-	}, -- [187]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -14239,8 +14279,12 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [188]
+	{
+		["Map"] = 2106,
+		["Duration"] = 438,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14250,38 +14294,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618569542,
+		["Time"] = 1618570410,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				10, -- [3]
-				1, -- [4]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
-				20, -- [3]
+				3, -- [1]
+				2, -- [2]
+				2, -- [3]
 				3, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 429,
-	}, -- [188]
-	{
-		["Map"] = 2106,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -14303,8 +14343,12 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [189]
+	{
+		["Map"] = 2106,
+		["Duration"] = 1200,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14314,38 +14358,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618570410,
+		["Time"] = 1618571894,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
+				3, -- [2]
+				4, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				2, -- [2]
-				2, -- [3]
-				3, -- [4]
+				5, -- [1]
+				5, -- [2]
+				14, -- [3]
+				5, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 438,
-	}, -- [189]
-	{
-		["Map"] = 2106,
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -14367,8 +14407,12 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [190]
+	{
+		["Map"] = 566,
+		["Duration"] = 1269,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14382,34 +14426,30 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618571894,
+		["Time"] = 1618573323,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
 				3, -- [2]
-				4, -- [3]
+				3, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
+				3, -- [1]
 				5, -- [2]
-				14, -- [3]
-				5, -- [4]
-				2, -- [5]
+				13, -- [3]
+				4, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 1200,
-	}, -- [190]
-	{
-		["Map"] = 566,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -14431,8 +14471,12 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [191]
+	{
+		["Map"] = 761,
+		["Duration"] = 728,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14446,11 +14490,11 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618573323,
+		["Time"] = 1618574204,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -14462,18 +14506,14 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				3, -- [1]
-				5, -- [2]
+				7, -- [2]
 				13, -- [3]
-				4, -- [4]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 1269,
-	}, -- [191]
-	{
-		["Map"] = 761,
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -14495,8 +14535,12 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [192]
+	{
+		["Map"] = 1035,
+		["Duration"] = 629,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14505,39 +14549,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618574204,
+		["Time"] = 1618577605,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				7, -- [2]
-				13, -- [3]
-				5, -- [4]
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 728,
-	}, -- [192]
-	{
-		["Map"] = 1035,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -14559,8 +14599,12 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [193]
+	{
+		["Map"] = 2106,
+		["Duration"] = 663,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -14569,16 +14613,16 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618577605,
+		["Time"] = 1618578635,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -14589,19 +14633,15 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
+				3, -- [1]
 				3, -- [2]
 				11, -- [3]
-				3, -- [4]
+				5, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 629,
-	}, -- [193]
-	{
-		["Map"] = 2106,
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -14623,49 +14663,49 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [194]
+	{
+		["Map"] = 2107,
+		["Duration"] = 555,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				2, -- [2]
+				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				2, -- [1]
 				0, -- [2]
-				10, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1618578635,
+		["Time"] = 1618581632,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
-				11, -- [3]
-				5, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 663,
-	}, -- [194]
-	{
-		["Map"] = 2107,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -14687,46 +14727,6 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				2, -- [1]
-				0, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
-		["Time"] = 1618581632,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 555,
 	}, -- [195]
 	{
 		["PlayerStats"] = {
@@ -15133,7 +15133,7 @@ REFlexDatabase = {
 		},
 		["Hidden"] = false,
 		["Map"] = 727,
-		["isArena"] = false,
+		["Season"] = 30,
 		["PlayerSide"] = 1,
 		["Version"] = 313,
 		["isRated"] = true,
@@ -15154,7 +15154,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["isArena"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -15252,18 +15252,18 @@ REFlexDatabase = {
 				46, -- [17]
 			}, -- [4]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["PlayersNum"] = 4,
 		["Duration"] = 41,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isArena"] = true,
 		["Time"] = 1618582589,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -15361,18 +15361,18 @@ REFlexDatabase = {
 				155, -- [17]
 			}, -- [4]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 2,
 		["PlayersNum"] = 4,
 		["Duration"] = 86,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isArena"] = true,
 		["Time"] = 1618582750,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["Winner"] = 1,
-		["PlayerNum"] = 2,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -15432,18 +15432,18 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [2]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 2,
 		["PlayersNum"] = 2,
 		["Duration"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isArena"] = true,
 		["Time"] = 1618582852,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["Winner"] = 1,
-		["PlayerNum"] = 2,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -15541,18 +15541,18 @@ REFlexDatabase = {
 				27, -- [17]
 			}, -- [4]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["PlayersNum"] = 4,
 		["Duration"] = 64,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isArena"] = true,
 		["Time"] = 1618583085,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -15650,18 +15650,18 @@ REFlexDatabase = {
 				7, -- [17]
 			}, -- [4]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["PlayersNum"] = 4,
 		["Duration"] = 77,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isArena"] = true,
 		["Time"] = 1618583305,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -15759,18 +15759,18 @@ REFlexDatabase = {
 				957, -- [17]
 			}, -- [4]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 3,
 		["PlayersNum"] = 4,
 		["Duration"] = 147,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isArena"] = true,
 		["Time"] = 1618583601,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 0,
+		["Version"] = 313,
 		["Winner"] = 0,
-		["PlayerNum"] = 3,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -15868,18 +15868,18 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [4]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["PlayersNum"] = 4,
 		["Duration"] = 49,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isArena"] = true,
 		["Time"] = 1618583780,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["Winner"] = 0,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -15977,18 +15977,18 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [4]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["PlayersNum"] = 4,
 		["Duration"] = 32,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isArena"] = true,
 		["Time"] = 1618583933,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["Winner"] = 0,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16086,18 +16086,18 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [4]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["PlayersNum"] = 4,
 		["Duration"] = 241,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isArena"] = true,
 		["Time"] = 1618584344,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 0,
+		["Version"] = 313,
 		["Winner"] = 1,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16117,46 +16117,6 @@ REFlexDatabase = {
 	}, -- [205]
 	{
 		["Map"] = 2167,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				1, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				2, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["Time"] = 1618584602,
-		["PlayersNum"] = 3,
-		["Duration"] = 20,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -16178,6 +16138,46 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [1]
 		},
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 3,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				1, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				2, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = false,
+		["Time"] = 1618584602,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 20,
 	}, -- [206]
 	{
 		["Map"] = 572,
@@ -16259,18 +16259,18 @@ REFlexDatabase = {
 				116, -- [17]
 			}, -- [4]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["PlayersNum"] = 4,
 		["Duration"] = 36,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isArena"] = true,
 		["Time"] = 1618584818,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16368,18 +16368,18 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [4]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["PlayersNum"] = 4,
 		["Duration"] = 37,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isArena"] = true,
 		["Time"] = 1618585060,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 0,
+		["Version"] = 313,
 		["Winner"] = 1,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16477,18 +16477,18 @@ REFlexDatabase = {
 				9, -- [17]
 			}, -- [4]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["PlayersNum"] = 4,
 		["Duration"] = 71,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
 		["isArena"] = true,
 		["Time"] = 1618585320,
-		["isBrawl"] = false,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 0,
+		["Version"] = 313,
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16586,18 +16586,18 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 133,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618610689,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618610689,
+		["PlayerSide"] = 1,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16695,18 +16695,18 @@ REFlexDatabase = {
 				848, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 64,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618610857,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618610857,
+		["PlayerSide"] = 0,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16842,18 +16842,18 @@ REFlexDatabase = {
 				60, -- [17]
 			}, -- [6]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 6,
 		["Duration"] = 24,
-		["PlayerNum"] = 5,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618610997,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618610997,
+		["PlayerSide"] = 1,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 5,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -16951,18 +16951,18 @@ REFlexDatabase = {
 				85, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 63,
-		["PlayerNum"] = 2,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618612161,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618612161,
+		["PlayerSide"] = 1,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 2,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17060,18 +17060,18 @@ REFlexDatabase = {
 				849, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 262,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618613086,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618613086,
+		["PlayerSide"] = 0,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17169,18 +17169,18 @@ REFlexDatabase = {
 				849, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 31,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618613219,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
 		["isRated"] = true,
-		["Time"] = 1618613219,
+		["PlayerSide"] = 0,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17278,18 +17278,18 @@ REFlexDatabase = {
 				849, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 161,
-		["PlayerNum"] = 4,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618613462,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618613462,
+		["PlayerSide"] = 1,
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17387,18 +17387,18 @@ REFlexDatabase = {
 				11, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 40,
-		["PlayerNum"] = 3,
+		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1618613592,
 		["isBrawl"] = false,
 		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
 		["isRated"] = true,
-		["Time"] = 1618613592,
+		["PlayerSide"] = 1,
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["PlayerNum"] = 3,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17496,18 +17496,18 @@ REFlexDatabase = {
 				93, -- [17]
 			}, -- [4]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 2,
 		["PlayersNum"] = 4,
 		["Duration"] = 28,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isArena"] = true,
+		["PlayerSide"] = 0,
 		["isBrawl"] = false,
 		["Time"] = 1618623392,
-		["isArena"] = true,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 0,
+		["Version"] = 313,
 		["Winner"] = 0,
-		["PlayerNum"] = 2,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17605,18 +17605,18 @@ REFlexDatabase = {
 				57, -- [17]
 			}, -- [4]
 		},
-		["Hidden"] = false,
+		["PlayerNum"] = 2,
 		["PlayersNum"] = 4,
 		["Duration"] = 65,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["isArena"] = true,
+		["PlayerSide"] = 1,
 		["isBrawl"] = false,
 		["Time"] = 1618623560,
-		["isArena"] = true,
-		["Version"] = 313,
 		["isRated"] = true,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["Winner"] = 1,
-		["PlayerNum"] = 2,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -17636,46 +17636,6 @@ REFlexDatabase = {
 	}, -- [219]
 	{
 		["Map"] = 2245,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 887,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1619136180,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
-				4, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				5, -- [2]
-				4, -- [3]
-				6, -- [4]
-				10, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -17697,9 +17657,9 @@ REFlexDatabase = {
 				861, -- [17]
 			}, -- [1]
 		},
-	}, -- [220]
-	{
-		["Map"] = 566,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -17707,39 +17667,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 347,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1619136696,
+		["Time"] = 1619136180,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				3, -- [4]
 				4, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
+				4, -- [1]
 				5, -- [2]
-				11, -- [3]
-				5, -- [4]
-				8, -- [5]
+				4, -- [3]
+				6, -- [4]
+				10, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 887,
+	}, -- [220]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -17761,9 +17721,9 @@ REFlexDatabase = {
 				861, -- [17]
 			}, -- [1]
 		},
-	}, -- [221]
-	{
-		["Map"] = 761,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -17771,39 +17731,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 274,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1619137272,
+		["Time"] = 1619136696,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
+				2, -- [4]
 				4, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				4, -- [2]
+				5, -- [1]
+				5, -- [2]
 				11, -- [3]
 				5, -- [4]
-				5, -- [5]
+				8, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 347,
+	}, -- [221]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -17825,49 +17785,49 @@ REFlexDatabase = {
 				861, -- [17]
 			}, -- [1]
 		},
-	}, -- [222]
-	{
-		["Map"] = 727,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
+				1, -- [1]
+				1, -- [2]
 				8, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 428,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1619138034,
+		["Time"] = 1619137272,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				3, -- [4]
+				4, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				10, -- [2]
-				10, -- [3]
+				3, -- [1]
+				4, -- [2]
+				11, -- [3]
 				5, -- [4]
-				4, -- [5]
+				5, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 274,
+	}, -- [222]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -17889,49 +17849,49 @@ REFlexDatabase = {
 				861, -- [17]
 			}, -- [1]
 		},
-	}, -- [223]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				3, -- [2]
-				7, -- [3]
+				6, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 346,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1619138622,
+		["Time"] = 1619138034,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
-				4, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				5, -- [2]
-				11, -- [3]
-				6, -- [4]
-				7, -- [5]
+				4, -- [1]
+				10, -- [2]
+				10, -- [3]
+				5, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Winner"] = 1,
+		["Season"] = 30,
+		["Duration"] = 428,
+	}, -- [223]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -17953,49 +17913,49 @@ REFlexDatabase = {
 				861, -- [17]
 			}, -- [1]
 		},
-	}, -- [224]
-	{
-		["Map"] = 2106,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
 			{
 				0, -- [1]
 				3, -- [2]
 				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 702,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1619139646,
+		["Time"] = 1619138622,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				4, -- [4]
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				4, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				13, -- [2]
-				4, -- [3]
-				7, -- [4]
-				11, -- [5]
+				5, -- [1]
+				5, -- [2]
+				11, -- [3]
+				6, -- [4]
+				7, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 346,
+	}, -- [224]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18017,49 +17977,49 @@ REFlexDatabase = {
 				861, -- [17]
 			}, -- [1]
 		},
-	}, -- [225]
-	{
-		["Map"] = 2107,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
 			{
 				0, -- [1]
 				3, -- [2]
 				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 988,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Time"] = 1619140819,
+		["Time"] = 1619139646,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
+				4, -- [4]
+				4, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
 				13, -- [2]
-				13, -- [3]
-				5, -- [4]
-				6, -- [5]
+				4, -- [3]
+				7, -- [4]
+				11, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Season"] = 30,
+		["Duration"] = 702,
+	}, -- [225]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18081,49 +18041,49 @@ REFlexDatabase = {
 				861, -- [17]
 			}, -- [1]
 		},
-	}, -- [226]
-	{
-		["Map"] = 727,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				3, -- [2]
-				6, -- [3]
+				7, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
 		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 420,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 0,
 		["isBrawl"] = false,
-		["Time"] = 1619141505,
+		["Time"] = 1619140819,
+		["isArena"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				11, -- [2]
-				11, -- [3]
+				4, -- [1]
+				13, -- [2]
+				13, -- [3]
 				5, -- [4]
-				4, -- [5]
+				6, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 988,
+	}, -- [226]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18145,9 +18105,89 @@ REFlexDatabase = {
 				861, -- [17]
 			}, -- [1]
 		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["Time"] = 1619141505,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				11, -- [2]
+				11, -- [3]
+				5, -- [4]
+				4, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
+		["Duration"] = 420,
 	}, -- [227]
 	{
 		["Map"] = 761,
+		["Duration"] = 161,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619299666,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				11, -- [2]
+				1, -- [3]
+				8, -- [4]
+				4, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18169,26 +18209,30 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [228]
+	{
+		["Map"] = 1035,
+		["Duration"] = 140,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619299666,
+		["Time"] = 1619300026,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -18196,22 +18240,18 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				3, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
-				1, -- [3]
-				8, -- [4]
-				4, -- [5]
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 161,
-	}, -- [228]
-	{
-		["Map"] = 1035,
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18233,49 +18273,49 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [229]
+	{
+		["Map"] = 727,
+		["Duration"] = 346,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				1, -- [2]
+				0, -- [1]
+				2, -- [2]
 				8, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619300026,
+		["Time"] = 1619300856,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
-				1, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				3, -- [1]
+				11, -- [2]
 				11, -- [3]
-				3, -- [4]
+				4, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 140,
-	}, -- [229]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18297,49 +18337,49 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
-		["Time"] = 1619300856,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				11, -- [2]
-				11, -- [3]
-				4, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 346,
 	}, -- [230]
 	{
 		["Map"] = 761,
+		["Duration"] = 170,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619301245,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				2, -- [2]
+				11, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18361,8 +18401,12 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [231]
+	{
+		["Map"] = 1035,
+		["Duration"] = 310,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -18372,38 +18416,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619301245,
+		["Time"] = 1619301716,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				2, -- [2]
-				2, -- [3]
+				3, -- [2]
+				3, -- [3]
 				2, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
-				11, -- [3]
-				2, -- [4]
-				1, -- [5]
+				3, -- [1]
+				6, -- [2]
+				13, -- [3]
+				8, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 170,
-	}, -- [231]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18425,8 +18465,12 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [232]
+	{
+		["Map"] = 726,
+		["Duration"] = 381,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -18440,34 +18484,30 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619301716,
+		["Time"] = 1619302386,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
-				3, -- [2]
-				3, -- [3]
+				2, -- [2]
+				2, -- [3]
 				2, -- [4]
-				2, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
-				6, -- [2]
-				13, -- [3]
-				8, -- [4]
-				2, -- [5]
+				3, -- [2]
+				12, -- [3]
+				3, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 310,
-	}, -- [232]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18489,8 +18529,12 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [233]
+	{
+		["Map"] = 566,
+		["Duration"] = 791,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -18499,16 +18543,16 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				0, -- [2]
-				10, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619302386,
+		["Time"] = 1619303423,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -18519,19 +18563,15 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				3, -- [2]
-				12, -- [3]
-				3, -- [4]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 381,
-	}, -- [233]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18553,49 +18593,49 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
-		["Time"] = 1619303423,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				4, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 791,
 	}, -- [234]
 	{
 		["Map"] = 727,
+		["Duration"] = 402,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1619304459,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				4, -- [4]
+				4, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18617,14 +18657,18 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [235]
+	{
+		["Map"] = 2245,
+		["Duration"] = 271,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				2, -- [2]
-				6, -- [3]
+				7, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
@@ -18632,34 +18676,30 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619304459,
+		["Time"] = 1619305003,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
 				1, -- [1]
 				1, -- [2]
 				11, -- [3]
-				4, -- [4]
-				4, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 402,
-	}, -- [235]
-	{
-		["Map"] = 2245,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18681,8 +18721,12 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [236]
+	{
+		["Map"] = 2107,
+		["Duration"] = 187,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -18696,11 +18740,11 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619305003,
+		["Time"] = 1619305445,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -18718,12 +18762,8 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 271,
-	}, -- [236]
-	{
-		["Map"] = 2107,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18745,26 +18785,30 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [237]
+	{
+		["Map"] = 761,
+		["Duration"] = 182,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				2, -- [2]
-				7, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619305445,
+		["Time"] = 1619306315,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -18782,12 +18826,8 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 187,
-	}, -- [237]
-	{
-		["Map"] = 761,
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18809,8 +18849,12 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [238]
+	{
+		["Map"] = 727,
+		["Duration"] = 366,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -18819,39 +18863,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619306315,
+		["Time"] = 1619307162,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				3, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
+				3, -- [1]
 				1, -- [2]
-				11, -- [3]
-				1, -- [4]
+				1, -- [3]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 182,
-	}, -- [238]
-	{
-		["Map"] = 727,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18873,8 +18913,12 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [239]
+	{
+		["Map"] = 761,
+		["Duration"] = 248,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -18883,39 +18927,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619307162,
+		["Time"] = 1619307646,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				3, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [2]
+				3, -- [3]
 				3, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				1, -- [2]
-				1, -- [3]
+				4, -- [1]
+				2, -- [2]
+				3, -- [3]
 				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 366,
-	}, -- [239]
-	{
-		["Map"] = 761,
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -18937,8 +18977,12 @@ REFlexDatabase = {
 				864, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [240]
+	{
+		["Map"] = 761,
+		["Duration"] = 611,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -18952,34 +18996,30 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619307646,
+		["Time"] = 1619308431,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				3, -- [1]
-				2, -- [2]
+				3, -- [2]
 				3, -- [3]
 				3, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
 				4, -- [1]
-				2, -- [2]
+				12, -- [2]
 				3, -- [3]
-				4, -- [4]
-				1, -- [5]
+				5, -- [4]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 248,
-	}, -- [240]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19001,14 +19041,18 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [241]
+	{
+		["Map"] = 2107,
+		["Duration"] = 460,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				2, -- [2]
-				8, -- [3]
+				7, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
@@ -19016,34 +19060,30 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619308431,
+		["Time"] = 1619309251,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
+				2, -- [1]
 				3, -- [2]
 				3, -- [3]
 				3, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				12, -- [2]
+				3, -- [1]
+				5, -- [2]
 				3, -- [3]
-				5, -- [4]
+				6, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 611,
-	}, -- [241]
-	{
-		["Map"] = 2107,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19065,49 +19105,49 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [242]
+	{
+		["Map"] = 2107,
+		["Duration"] = 663,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				2, -- [2]
-				7, -- [3]
+				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619309251,
+		["Time"] = 1619310196,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				3, -- [1]
 				3, -- [2]
 				3, -- [3]
 				3, -- [4]
 				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				5, -- [2]
+				5, -- [1]
+				6, -- [2]
 				3, -- [3]
-				6, -- [4]
+				5, -- [4]
 				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 460,
-	}, -- [242]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19129,8 +19169,12 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [243]
+	{
+		["Map"] = 726,
+		["Duration"] = 485,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -19139,39 +19183,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
+				1, -- [1]
+				0, -- [2]
 				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619310196,
+		["Time"] = 1619311090,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				3, -- [1]
 				3, -- [2]
 				3, -- [3]
-				3, -- [4]
-				2, -- [5]
+				4, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				5, -- [1]
-				6, -- [2]
+				4, -- [1]
+				7, -- [2]
 				3, -- [3]
-				5, -- [4]
-				3, -- [5]
+				9, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 663,
-	}, -- [243]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19193,8 +19233,12 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [244]
+	{
+		["Map"] = 2106,
+		["Duration"] = 358,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -19203,39 +19247,35 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				0, -- [2]
-				9, -- [3]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619311090,
+		["Time"] = 1619311681,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				3, -- [1]
-				3, -- [2]
-				3, -- [3]
-				4, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				7, -- [2]
-				3, -- [3]
-				9, -- [4]
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 485,
-	}, -- [244]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19257,49 +19297,49 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [245]
+	{
+		["Map"] = 726,
+		["Duration"] = 801,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				0, -- [1]
-				2, -- [2]
+				1, -- [1]
+				1, -- [2]
 				8, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1619311681,
+		["Time"] = 1619312791,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
 				2, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
+				3, -- [1]
+				12, -- [2]
+				12, -- [3]
 				3, -- [4]
-				1, -- [5]
+				3, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 358,
-	}, -- [245]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19321,89 +19361,9 @@ REFlexDatabase = {
 				865, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1619312791,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				12, -- [2]
-				12, -- [3]
-				3, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["Duration"] = 801,
 	}, -- [246]
 	{
 		["Map"] = 2107,
-		["Duration"] = 429,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619637137,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				4, -- [1]
-				13, -- [2]
-				13, -- [3]
-				6, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19425,13 +19385,34 @@ REFlexDatabase = {
 				868, -- [17]
 			}, -- [1]
 		},
-	}, -- [247]
-	{
-		["Map"] = 2106,
-		["Duration"] = 740,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619637137,
 		["PlayersNum"] = 20,
+		["Duration"] = 429,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				13, -- [2]
+				13, -- [3]
+				6, -- [4]
+				3, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -19439,35 +19420,14 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
-				9, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619638375,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				3, -- [1]
-				4, -- [2]
-				4, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				5, -- [1]
-				7, -- [2]
-				6, -- [3]
-				6, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
+	}, -- [247]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19489,49 +19449,49 @@ REFlexDatabase = {
 				868, -- [17]
 			}, -- [1]
 		},
-	}, -- [248]
-	{
-		["Map"] = 1035,
-		["Duration"] = 140,
+		["Season"] = 30,
+		["Time"] = 1619638375,
+		["PlayersNum"] = 20,
+		["Duration"] = 740,
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 19,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				5, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619638852,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				3, -- [1]
+				4, -- [2]
+				4, -- [3]
 				3, -- [4]
-				3, -- [5]
+				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				10, -- [3]
-				4, -- [4]
-				4, -- [5]
+				5, -- [1]
+				7, -- [2]
+				6, -- [3]
+				6, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [248]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19553,49 +19513,49 @@ REFlexDatabase = {
 				868, -- [17]
 			}, -- [1]
 		},
-	}, -- [249]
-	{
-		["Map"] = 1035,
-		["Duration"] = 155,
+		["Season"] = 30,
+		["Time"] = 1619638852,
+		["PlayersNum"] = 19,
+		["Duration"] = 140,
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619639308,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
-				10, -- [3]
-				2, -- [4]
-				1, -- [5]
+				1, -- [3]
+				3, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				4, -- [2]
-				20, -- [3]
-				3, -- [4]
-				1, -- [5]
+				1, -- [1]
+				1, -- [2]
+				10, -- [3]
+				4, -- [4]
+				4, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				5, -- [3]
+			}, -- [2]
+		},
+	}, -- [249]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19617,49 +19577,49 @@ REFlexDatabase = {
 				868, -- [17]
 			}, -- [1]
 		},
-	}, -- [250]
-	{
-		["Map"] = 761,
-		["Duration"] = 156,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619639308,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619639899,
+		["Duration"] = 155,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
-				1, -- [3]
+				10, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				10, -- [2]
-				11, -- [3]
-				6, -- [4]
+				2, -- [1]
+				4, -- [2]
+				20, -- [3]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [250]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19681,13 +19641,34 @@ REFlexDatabase = {
 				868, -- [17]
 			}, -- [1]
 		},
-	}, -- [251]
-	{
-		["Map"] = 2107,
-		["Duration"] = 298,
+		["Season"] = 30,
+		["Time"] = 1619639899,
+		["PlayersNum"] = 20,
+		["Duration"] = 156,
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 19,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				10, -- [2]
+				11, -- [3]
+				6, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -19697,33 +19678,12 @@ REFlexDatabase = {
 			{
 				1, -- [1]
 				3, -- [2]
-				5, -- [3]
+				6, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619640376,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
+	}, -- [251]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19745,30 +19705,15 @@ REFlexDatabase = {
 				868, -- [17]
 			}, -- [1]
 		},
-	}, -- [252]
-	{
-		["Map"] = 2107,
-		["Duration"] = 294,
+		["Season"] = 30,
+		["Time"] = 1619640376,
+		["PlayersNum"] = 19,
+		["Duration"] = 298,
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619640982,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -19779,15 +19724,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
+				1, -- [1]
+				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				5, -- [3]
+			}, -- [2]
+		},
+	}, -- [252]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19809,30 +19769,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [253]
-	{
-		["Map"] = 727,
-		["Duration"] = 340,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619640982,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619641609,
+		["Duration"] = 294,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -19843,15 +19788,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				10, -- [2]
-				10, -- [3]
-				6, -- [4]
+				2, -- [1]
+				2, -- [2]
+				1, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [253]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19873,30 +19833,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [254]
-	{
-		["Map"] = 1035,
-		["Duration"] = 145,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619641609,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619641956,
+		["Duration"] = 340,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -19907,15 +19852,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				7, -- [2]
-				11, -- [3]
-				4, -- [4]
+				4, -- [1]
+				10, -- [2]
+				10, -- [3]
+				6, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+	}, -- [254]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -19937,30 +19897,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [255]
-	{
-		["Map"] = 726,
-		["Duration"] = 588,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619641956,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619642855,
+		["Duration"] = 145,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -19971,15 +19916,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
+				3, -- [1]
+				7, -- [2]
 				11, -- [3]
-				2, -- [4]
+				4, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [255]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20001,30 +19961,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [256]
-	{
-		["Map"] = 2107,
-		["Duration"] = 210,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619642855,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619644403,
+		["Duration"] = 588,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -20035,15 +19980,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				11, -- [2]
 				11, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [256]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20065,30 +20025,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [257]
-	{
-		["Map"] = 2107,
-		["Duration"] = 1001,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619644403,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619646604,
+		["Duration"] = 210,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -20101,13 +20046,28 @@ REFlexDatabase = {
 			{
 				1, -- [1]
 				1, -- [2]
-				1, -- [3]
+				11, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [257]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20129,30 +20089,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [258]
-	{
-		["Map"] = 2245,
-		["Duration"] = 589,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619646604,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619647534,
+		["Duration"] = 1001,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -20165,13 +20110,28 @@ REFlexDatabase = {
 			{
 				1, -- [1]
 				1, -- [2]
-				11, -- [3]
+				1, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [258]
+	{
+		["Map"] = 2245,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20193,30 +20153,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [259]
-	{
-		["Map"] = 761,
-		["Duration"] = 237,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619647534,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619648087,
+		["Duration"] = 589,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -20229,13 +20174,28 @@ REFlexDatabase = {
 			{
 				1, -- [1]
 				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+				11, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+	}, -- [259]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20257,30 +20217,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [260]
-	{
-		["Map"] = 726,
-		["Duration"] = 515,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+		["Season"] = 30,
+		["Time"] = 1619648087,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619648746,
+		["Duration"] = 237,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -20291,15 +20236,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
-				10, -- [3]
-				2, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [260]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20321,30 +20281,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [261]
-	{
-		["Map"] = 761,
-		["Duration"] = 202,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619648746,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619649446,
+		["Duration"] = 515,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -20356,14 +20301,29 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				2, -- [1]
-				3, -- [2]
-				11, -- [3]
+				11, -- [2]
+				10, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+	}, -- [261]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20385,13 +20345,34 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [262]
-	{
-		["Map"] = 726,
-		["Duration"] = 577,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619649446,
 		["PlayersNum"] = 20,
+		["Duration"] = 202,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				11, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -20404,30 +20385,9 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619651298,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
+	}, -- [262]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20449,30 +20409,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [263]
-	{
-		["Map"] = 727,
-		["Duration"] = 483,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619651298,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619652200,
+		["Duration"] = 577,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -20491,7 +20436,22 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [263]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20513,30 +20473,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [264]
-	{
-		["Map"] = 1035,
-		["Duration"] = 1171,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619652200,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619653701,
+		["Duration"] = 483,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -20547,15 +20492,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
-				11, -- [3]
-				2, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [264]
+	{
+		["Map"] = 1035,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20577,30 +20537,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [265]
-	{
-		["Map"] = 566,
-		["Duration"] = 318,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619653701,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619654430,
+		["Duration"] = 1171,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -20612,14 +20557,29 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				2, -- [1]
-				3, -- [2]
+				11, -- [2]
 				11, -- [3]
 				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [265]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20641,30 +20601,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [266]
-	{
-		["Map"] = 727,
-		["Duration"] = 346,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619654430,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				3, -- [1]
-				1, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619655246,
+		["Duration"] = 318,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -20675,15 +20620,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
+				2, -- [1]
+				3, -- [2]
 				11, -- [3]
-				1, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+	}, -- [266]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20705,30 +20665,15 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [267]
-	{
-		["Map"] = 727,
-		["Duration"] = 347,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619655246,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619657157,
+		["Duration"] = 346,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -20739,15 +20684,30 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				11, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				3, -- [1]
+				1, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+	}, -- [267]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20769,49 +20729,49 @@ REFlexDatabase = {
 				869, -- [17]
 			}, -- [1]
 		},
-	}, -- [268]
-	{
-		["Map"] = 761,
-		["Duration"] = 292,
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
+		["Time"] = 1619657157,
 		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1619657849,
+		["Duration"] = 347,
+		["PlayerNum"] = 1,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
+				2, -- [1]
 				11, -- [2]
 				11, -- [3]
-				5, -- [4]
+				2, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+	}, -- [268]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -20832,6 +20792,46 @@ REFlexDatabase = {
 				"神圣", -- [16]
 				869, -- [17]
 			}, -- [1]
+		},
+		["Season"] = 30,
+		["Time"] = 1619657849,
+		["PlayersNum"] = 20,
+		["Duration"] = 292,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				11, -- [2]
+				11, -- [3]
+				5, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
 		},
 	}, -- [269]
 	{
@@ -21240,7 +21240,7 @@ REFlexDatabase = {
 		},
 		["Hidden"] = false,
 		["Map"] = 2107,
-		["Season"] = 30,
+		["isArena"] = false,
 		["PlayerSide"] = 0,
 		["Version"] = 313,
 		["isRated"] = true,
@@ -21261,7 +21261,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["isArena"] = false,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -21685,7 +21685,7 @@ REFlexDatabase = {
 		},
 		["Hidden"] = false,
 		["Map"] = 2107,
-		["Season"] = 30,
+		["isArena"] = false,
 		["PlayerSide"] = 1,
 		["Version"] = 313,
 		["isRated"] = true,
@@ -21706,7 +21706,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["isArena"] = false,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -21726,46 +21726,6 @@ REFlexDatabase = {
 	}, -- [271]
 	{
 		["Map"] = 566,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 426,
-		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621299996,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				3, -- [2]
-				3, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				3, -- [2]
-				13, -- [3]
-				4, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -21787,9 +21747,89 @@ REFlexDatabase = {
 				893, -- [17]
 			}, -- [1]
 		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isBrawl"] = false,
+		["Time"] = 1621299996,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				3, -- [2]
+				3, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				3, -- [2]
+				13, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
+		["Duration"] = 426,
 	}, -- [272]
 	{
 		["Map"] = 761,
+		["Duration"] = 153,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1621301653,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				9, -- [2]
+				11, -- [3]
+				5, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -21811,8 +21851,12 @@ REFlexDatabase = {
 				893, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
+	}, -- [273]
+	{
+		["Map"] = 1035,
+		["Duration"] = 440,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -21822,15 +21866,15 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1621301653,
+		["Time"] = 1621302423,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -21841,19 +21885,15 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				9, -- [2]
+				3, -- [1]
+				4, -- [2]
 				11, -- [3]
-				5, -- [4]
+				3, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 153,
-	}, -- [273]
-	{
-		["Map"] = 1035,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -21875,46 +21915,6 @@ REFlexDatabase = {
 				893, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
-		["Time"] = 1621302423,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				4, -- [2]
-				11, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["Duration"] = 440,
 	}, -- [274]
 	{
 		["PlayerStats"] = {
@@ -22322,7 +22322,7 @@ REFlexDatabase = {
 		},
 		["Hidden"] = false,
 		["Map"] = 2107,
-		["Season"] = 30,
+		["isArena"] = false,
 		["PlayerSide"] = 0,
 		["Version"] = 313,
 		["isRated"] = true,
@@ -22343,7 +22343,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["isArena"] = false,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -22363,6 +22363,46 @@ REFlexDatabase = {
 	}, -- [275]
 	{
 		["Map"] = 2106,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 322,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1621701610,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -22384,15 +22424,30 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 322,
-		["Season"] = 30,
-		["isBrawl"] = false,
+	}, -- [276]
+	{
+		["Map"] = 727,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
+		["Duration"] = 346,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1621701610,
+		["Time"] = 1621702268,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -22403,30 +22458,15 @@ REFlexDatabase = {
 				1, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				11, -- [2]
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				4, -- [4]
+				1, -- [4]
 				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [2]
-		},
-	}, -- [276]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -22448,34 +22488,9 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 346,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isArena"] = false,
-		["Time"] = 1621702268,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+	}, -- [277]
+	{
+		["Map"] = 726,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -22488,9 +22503,34 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-	}, -- [277]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["Duration"] = 391,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1621702955,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -22512,15 +22552,30 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 391,
-		["Season"] = 30,
-		["isBrawl"] = false,
+	}, -- [278]
+	{
+		["Map"] = 727,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
 		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["Duration"] = 518,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1621702955,
+		["Time"] = 1621703629,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -22539,22 +22594,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
-	}, -- [278]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -22576,34 +22616,9 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 518,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
-		["Time"] = 1621703629,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["PlayerNum"] = 1,
+	}, -- [279]
+	{
+		["Map"] = 761,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -22611,14 +22626,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				2, -- [2]
+				2, -- [1]
+				1, -- [2]
 				7, -- [3]
 			}, -- [2]
 		},
-	}, -- [279]
-	{
-		["Map"] = 761,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["Duration"] = 200,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1621703985,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -22640,15 +22680,30 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 200,
-		["Season"] = 30,
-		["isBrawl"] = false,
+	}, -- [280]
+	{
+		["Map"] = 566,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
 		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["Duration"] = 202,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Time"] = 1621703985,
+		["Time"] = 1621704639,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -22662,27 +22717,12 @@ REFlexDatabase = {
 				1, -- [1]
 				1, -- [2]
 				11, -- [3]
-				3, -- [4]
+				2, -- [4]
 				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				2, -- [1]
-				1, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-	}, -- [280]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -22704,34 +22744,9 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 202,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
-		["Time"] = 1621704639,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+	}, -- [281]
+	{
+		["Map"] = 2245,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -22740,13 +22755,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				3, -- [2]
-				7, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-	}, -- [281]
-	{
-		["Map"] = 2245,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["Duration"] = 208,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1621705155,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				2, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				2, -- [2]
+				12, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -22768,34 +22808,9 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 208,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
-		["Time"] = 1621705155,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				2, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				2, -- [2]
-				12, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
+	}, -- [282]
+	{
+		["Map"] = 726,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -22803,14 +22818,39 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
-	}, -- [282]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 0,
+		["PlayersNum"] = 20,
+		["Duration"] = 498,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1621705967,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				11, -- [2]
+				11, -- [3]
+				3, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -22832,89 +22872,9 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [1]
 		},
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 20,
-		["Duration"] = 498,
-		["Season"] = 30,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
-		["isArena"] = false,
-		["Time"] = 1621705967,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				11, -- [2]
-				11, -- [3]
-				3, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["PlayerNum"] = 1,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [2]
-		},
 	}, -- [283]
 	{
 		["Map"] = 566,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-		["Time"] = 1621966695,
-		["PlayersNum"] = 20,
-		["Duration"] = 205,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				4, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				10, -- [2]
-				11, -- [3]
-				7, -- [4]
-				9, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -22936,49 +22896,49 @@ REFlexDatabase = {
 				897, -- [17]
 			}, -- [1]
 		},
-	}, -- [284]
-	{
-		["Map"] = 761,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				2, -- [2]
+				7, -- [3]
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				3, -- [2]
+				7, -- [3]
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["Time"] = 1621967106,
-		["PlayersNum"] = 20,
-		["Duration"] = 155,
-		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
 		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1621966695,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				6, -- [2]
-				6, -- [3]
-				5, -- [4]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
 				4, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
-				6, -- [2]
-				6, -- [3]
+				3, -- [1]
+				10, -- [2]
+				11, -- [3]
 				7, -- [4]
-				7, -- [5]
+				9, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
+		["Duration"] = 205,
+	}, -- [284]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23000,9 +22960,89 @@ REFlexDatabase = {
 				897, -- [17]
 			}, -- [1]
 		},
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1621967106,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				6, -- [2]
+				6, -- [3]
+				5, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				6, -- [2]
+				6, -- [3]
+				7, -- [4]
+				7, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
+		["Duration"] = 155,
 	}, -- [285]
 	{
 		["Map"] = 566,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["Time"] = 1621970225,
+		["PlayersNum"] = 20,
+		["Duration"] = 205,
+		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				10, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23024,15 +23064,30 @@ REFlexDatabase = {
 				897, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [286]
+	{
+		["Map"] = 566,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["Time"] = 1621970660,
 		["PlayersNum"] = 20,
-		["Duration"] = 205,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1621970225,
+		["Duration"] = 188,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23040,33 +23095,18 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-				1, -- [5]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				10, -- [3]
-				1, -- [4]
-				1, -- [5]
+				2, -- [1]
+				2, -- [2]
+				11, -- [3]
+				2, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
-	}, -- [286]
-	{
-		["Map"] = 566,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23088,92 +23128,92 @@ REFlexDatabase = {
 				897, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 188,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1621970660,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				2, -- [1]
-				2, -- [2]
-				11, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				2, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
 	}, -- [287]
 	{
 		["Map"] = 2222,
-		["PlayerSide"] = 1,
+		["Hidden"] = true,
 		["PlayersNum"] = 0,
 		["Duration"] = 0,
 		["Season"] = 30,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = false,
-		["Time"] = 1621971068,
-		["isRated"] = false,
-		["BGPlace"] = {
+		["BGComposition"] = {
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
 			}, -- [2]
 		},
 		["Players"] = {
 		},
-		["BGComposition"] = {
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
 			{
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Hidden"] = true,
+		["Time"] = 1621971068,
+		["isArena"] = false,
+		["Version"] = 313,
 	}, -- [288]
 	{
 		["Map"] = 1035,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["Time"] = 1621971488,
+		["PlayersNum"] = 20,
+		["Duration"] = 200,
+		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				10, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				20, -- [3]
+				2, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23195,49 +23235,49 @@ REFlexDatabase = {
 				897, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [289]
+	{
+		["Map"] = 2107,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["Time"] = 1621971908,
 		["PlayersNum"] = 20,
-		["Duration"] = 200,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1621971488,
+		["Duration"] = 219,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
-				10, -- [3]
-				1, -- [4]
+				1, -- [3]
+				2, -- [4]
 				1, -- [5]
 			}, -- [1]
 			{
 				1, -- [1]
 				1, -- [2]
-				20, -- [3]
-				2, -- [4]
-				1, -- [5]
+				11, -- [3]
+				3, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-	}, -- [289]
-	{
-		["Map"] = 2107,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23259,89 +23299,9 @@ REFlexDatabase = {
 				897, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 219,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1621971908,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				11, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				8, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
 	}, -- [290]
 	{
 		["Map"] = 726,
-		["BGComposition"] = {
-			{
-				2, -- [1]
-				2, -- [2]
-				6, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 477,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1622010155,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				6, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				7, -- [1]
-				11, -- [2]
-				11, -- [3]
-				13, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Season"] = 30,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23363,9 +23323,9 @@ REFlexDatabase = {
 				897, -- [17]
 			}, -- [1]
 		},
-	}, -- [291]
-	{
-		["Map"] = 566,
+		["Season"] = 30,
+		["Time"] = 1622010155,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				2, -- [1]
@@ -23374,38 +23334,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				1, -- [1]
-				2, -- [2]
-				7, -- [3]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 186,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1622010620,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				2, -- [5]
+				6, -- [4]
+				1, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				2, -- [5]
+				7, -- [1]
+				11, -- [2]
+				11, -- [3]
+				13, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 477,
+	}, -- [291]
+	{
+		["Map"] = 566,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23427,49 +23387,49 @@ REFlexDatabase = {
 				897, -- [17]
 			}, -- [1]
 		},
-	}, -- [292]
-	{
-		["Map"] = 761,
+		["Season"] = 30,
+		["Time"] = 1622010620,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				6, -- [3]
+			}, -- [1]
 			{
 				1, -- [1]
 				2, -- [2]
 				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				2, -- [2]
-				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 184,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1622011066,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				4, -- [4]
-				4, -- [5]
+				1, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				4, -- [1]
-				9, -- [2]
-				11, -- [3]
-				11, -- [4]
-				11, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 186,
+	}, -- [292]
+	{
+		["Map"] = 761,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23491,9 +23451,9 @@ REFlexDatabase = {
 				897, -- [17]
 			}, -- [1]
 		},
-	}, -- [293]
-	{
-		["Map"] = 2106,
+		["Season"] = 30,
+		["Time"] = 1622011066,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -23501,39 +23461,39 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 371,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1622011625,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				6, -- [1]
-				10, -- [2]
-				10, -- [3]
-				6, -- [4]
-				2, -- [5]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				4, -- [4]
+				4, -- [5]
 			}, -- [1]
 			{
-				6, -- [1]
-				10, -- [2]
-				10, -- [3]
-				7, -- [4]
-				6, -- [5]
+				4, -- [1]
+				9, -- [2]
+				11, -- [3]
+				11, -- [4]
+				11, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
+		["Winner"] = 0,
+		["Hidden"] = false,
+		["Duration"] = 184,
+	}, -- [293]
+	{
+		["Map"] = 2106,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23555,49 +23515,49 @@ REFlexDatabase = {
 				897, -- [17]
 			}, -- [1]
 		},
-	}, -- [294]
-	{
-		["Map"] = 2107,
+		["Season"] = 30,
+		["Time"] = 1622011625,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				2, -- [2]
-				6, -- [3]
+				7, -- [3]
 			}, -- [1]
 			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 162,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1622012008,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
-				1, -- [2]
-				3, -- [3]
-				3, -- [4]
-				3, -- [5]
+				6, -- [1]
+				10, -- [2]
+				10, -- [3]
+				6, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				1, -- [2]
-				3, -- [3]
-				6, -- [4]
-				5, -- [5]
+				6, -- [1]
+				10, -- [2]
+				10, -- [3]
+				7, -- [4]
+				6, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 371,
+	}, -- [294]
+	{
+		["Map"] = 2107,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23619,9 +23579,9 @@ REFlexDatabase = {
 				897, -- [17]
 			}, -- [1]
 		},
-	}, -- [295]
-	{
-		["Map"] = 726,
+		["Season"] = 30,
+		["Time"] = 1622012008,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				2, -- [1]
@@ -23630,38 +23590,38 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				2, -- [2]
-				8, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 298,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1622012551,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
 				2, -- [1]
 				1, -- [2]
-				1, -- [3]
+				3, -- [3]
 				3, -- [4]
 				3, -- [5]
 			}, -- [1]
 			{
 				3, -- [1]
 				1, -- [2]
-				1, -- [3]
-				7, -- [4]
+				3, -- [3]
+				6, -- [4]
 				5, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 162,
+	}, -- [295]
+	{
+		["Map"] = 726,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23683,9 +23643,9 @@ REFlexDatabase = {
 				897, -- [17]
 			}, -- [1]
 		},
-	}, -- [296]
-	{
-		["Map"] = 727,
+		["Season"] = 30,
+		["Time"] = 1622012551,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				2, -- [1]
@@ -23693,39 +23653,39 @@ REFlexDatabase = {
 				6, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				2, -- [2]
-				7, -- [3]
+				8, -- [3]
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 347,
-		["Hidden"] = false,
-		["isArena"] = false,
-		["Time"] = 1622013057,
 		["isBrawl"] = false,
 		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
-				7, -- [3]
-				7, -- [4]
-				1, -- [5]
+				1, -- [3]
+				3, -- [4]
+				3, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
+				3, -- [1]
 				1, -- [2]
-				7, -- [3]
-				9, -- [4]
-				1, -- [5]
+				1, -- [3]
+				7, -- [4]
+				5, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["Hidden"] = false,
+		["Duration"] = 298,
+	}, -- [296]
+	{
+		["Map"] = 727,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23747,9 +23707,89 @@ REFlexDatabase = {
 				898, -- [17]
 			}, -- [1]
 		},
+		["Season"] = 30,
+		["Time"] = 1622013057,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				2, -- [1]
+				2, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				7, -- [3]
+				7, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				7, -- [3]
+				9, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
+		["Duration"] = 347,
 	}, -- [297]
 	{
 		["Map"] = 1035,
+		["Duration"] = 140,
+		["Season"] = 30,
+		["Time"] = 1622065260,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				2, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23771,26 +23811,30 @@ REFlexDatabase = {
 				898, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [298]
+	{
+		["Map"] = 2106,
+		["Duration"] = 280,
+		["Season"] = 30,
+		["Time"] = 1622065791,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
-				1, -- [1]
-				2, -- [2]
+				0, -- [1]
+				3, -- [2]
 				7, -- [3]
 			}, -- [1]
 			{
-				2, -- [1]
-				2, -- [2]
+				1, -- [1]
+				3, -- [2]
 				6, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1622065260,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23798,22 +23842,18 @@ REFlexDatabase = {
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-				1, -- [5]
+				3, -- [5]
 			}, -- [1]
 			{
 				1, -- [1]
 				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
+				11, -- [3]
+				3, -- [4]
+				5, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 140,
-	}, -- [298]
-	{
-		["Map"] = 2106,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23835,8 +23875,12 @@ REFlexDatabase = {
 				898, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [299]
+	{
+		["Map"] = 2107,
+		["Duration"] = 164,
+		["Season"] = 30,
+		["Time"] = 1622066242,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -23850,34 +23894,30 @@ REFlexDatabase = {
 				6, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1622065791,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				3, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
-				11, -- [3]
+				1, -- [3]
 				3, -- [4]
-				5, -- [5]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 280,
-	}, -- [299]
-	{
-		["Map"] = 2107,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23899,8 +23939,12 @@ REFlexDatabase = {
 				898, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
+	}, -- [300]
+	{
+		["Map"] = 727,
+		["Duration"] = 340,
+		["Season"] = 30,
+		["Time"] = 1622066906,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -23914,34 +23958,30 @@ REFlexDatabase = {
 				6, -- [3]
 			}, -- [2]
 		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1622066242,
+		["PlayerNum"] = 1,
 		["isArena"] = false,
 		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				5, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				2, -- [5]
+				6, -- [4]
+				7, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
+				6, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
-				3, -- [5]
+				8, -- [4]
+				12, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 164,
-	}, -- [300]
-	{
-		["Map"] = 727,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西园寺恋", -- [1]
@@ -23963,61 +24003,21 @@ REFlexDatabase = {
 				898, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1622066906,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				5, -- [1]
-				1, -- [2]
-				1, -- [3]
-				6, -- [4]
-				7, -- [5]
-			}, -- [1]
-			{
-				6, -- [1]
-				1, -- [2]
-				1, -- [3]
-				8, -- [4]
-				12, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 340,
 	}, -- [301]
 }
 REFlexHonorDatabase = {
 	[1618502400] = 13828,
 	[1618416000] = 25955,
-	[1621958400] = 5261,
-	[1621267200] = 2274,
-	[1619625600] = 16897,
-	[1619280000] = 8550,
-	[1617120000] = 2895,
-	[1618070400] = 14643,
-	[1618588800] = 12830,
-	[1618329600] = 10725,
-	[1619107200] = 2292,
-	[1618243200] = 11500,
-	[1621699200] = 10353,
 	[1622044800] = 7873,
+	[1621699200] = 10353,
+	[1618243200] = 11500,
+	[1619107200] = 2292,
+	[1618329600] = 10725,
+	[1618588800] = 12830,
+	[1618070400] = 14643,
+	[1617120000] = 2895,
+	[1619280000] = 8550,
+	[1619625600] = 16897,
+	[1621267200] = 2274,
+	[1621958400] = 5261,
 }

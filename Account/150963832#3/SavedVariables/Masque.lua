@@ -3704,11 +3704,11 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_GYSc5kkQtkn"] = {
+				["WeakAuras_QxxhkdTn0)x"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_1IzqECRaTws"] = {
+				["WeakAuras_GYSc5kkQtkn"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -3968,11 +3968,11 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_3Ap(mRgk0k5"] = {
+				["WeakAuras_NRZkat)WE3K"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_Ehl11)RbwpA"] = {
+				["WeakAuras_3Ap(mRgk0k5"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -3984,7 +3984,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_NRZkat)WE3K"] = {
+				["WeakAuras_Ehl11)RbwpA"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -4239,7 +4239,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_Vu92xtOzfUG"] = {
+				["WeakAuras_2zOcq1mQXZy"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -4251,7 +4251,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_zeQDO7M5Szz"] = {
+				["WeakAuras_ej1uRk61RD6"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -4283,7 +4283,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_2zOcq1mQXZy"] = {
+				["WeakAuras_Vu92xtOzfUG"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -4568,7 +4568,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_bR0A5LiHuD7"] = {
+				["WeakAuras_XRBfDQM4zu8"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -4600,7 +4600,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_9alhV0ZA9Fo"] = {
+				["WeakAuras_bR0A5LiHuD7"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -4831,7 +4831,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_GJkX1KbRNAN"] = {
+				["WeakAuras_KMtffB4tHnt"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -4875,7 +4875,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_m5xUB2FaA)E"] = {
+				["WeakAuras_mk)CVq9oOkU"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -4891,26 +4891,27 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_cE5fJ5OKz1x"] = {
+				["WeakAuras_(peCcGDhdWp"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["HeroRotation_Suggested Icon"] = {
+				["WeakAuras_m5xUB2FaA)E"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+				},
+				["WeakAuras_f0tZPkhbKVL"] = {
+					["Upgraded"] = true,
+					["Inherit"] = false,
+				},
+				["WeakAuras_5FHxYRX0mER"] = {
+					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
 				["WeakAuras_MfeKhJHHi5u"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_(peCcGDhdWp"] = {
-					["Upgraded"] = true,
-					["Inherit"] = false,
-				},
 				["WeakAuras_aohXaJqrnIh"] = {
-					["Upgraded"] = true,
-					["Inherit"] = false,
-				},
-				["WeakAuras_f0tZPkhbKVL"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -4949,7 +4950,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_DEGX1nOOWUi"] = {
+				["WeakAuras_8Cmi8jD3HFu"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -4972,7 +4973,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_Ya(STfLkgMd"] = {
+				["WeakAuras_Cupx(YFbA7n"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -5012,7 +5013,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_8Cmi8jD3HFu"] = {
+				["WeakAuras_rXU5OWyZhds"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -5024,7 +5025,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_ppldN(2(ezM"] = {
+				["WeakAuras_Ya(STfLkgMd"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -5079,8 +5080,7 @@ MasqueDB = {
 				["Plater Nameplates_Buff Special"] = {
 					["Inherit"] = false,
 				},
-				["WeakAuras_Q6d6OJMBwhP"] = {
-					["Upgraded"] = true,
+				["TellMeWhen_分组: 4"] = {
 					["Inherit"] = false,
 				},
 				["WeakAuras_5w9oLiDEebn"] = {
@@ -5091,7 +5091,8 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["TellMeWhen_分组: 4"] = {
+				["WeakAuras_leqIozUUfZT"] = {
+					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
 				["WeakAuras_xcIXtCBsquY"] = {
@@ -5358,7 +5359,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_leqIozUUfZT"] = {
+				["WeakAuras_Q6d6OJMBwhP"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -5394,7 +5395,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_rXU5OWyZhds"] = {
+				["WeakAuras_DEGX1nOOWUi"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -5410,7 +5411,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_Cupx(YFbA7n"] = {
+				["WeakAuras_ppldN(2(ezM"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -5458,12 +5459,11 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_5FHxYRX0mER"] = {
+				["WeakAuras_cE5fJ5OKz1x"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_mk)CVq9oOkU"] = {
-					["Upgraded"] = true,
+				["HeroRotation_Suggested Icon"] = {
 					["Inherit"] = false,
 				},
 				["WeakAuras_M8WWZFb(epj"] = {
@@ -5502,7 +5502,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_KMtffB4tHnt"] = {
+				["WeakAuras_Ry(7puLdJIv"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -5510,7 +5510,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_Ry(7puLdJIv"] = {
+				["WeakAuras_GJkX1KbRNAN"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -5585,7 +5585,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_XRBfDQM4zu8"] = {
+				["WeakAuras_9alhV0ZA9Fo"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -5705,7 +5705,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_ej1uRk61RD6"] = {
+				["WeakAuras_zeQDO7M5Szz"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
@@ -6013,7 +6013,7 @@ MasqueDB = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},
-				["WeakAuras_QxxhkdTn0)x"] = {
+				["WeakAuras_1IzqECRaTws"] = {
 					["Upgraded"] = true,
 					["Inherit"] = false,
 				},

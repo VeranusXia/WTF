@@ -125,11 +125,11 @@ CliqueDB3 = {
 		},
 		["西园寺恋 - 白银之手"] = {
 			["spec1_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec2_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
@@ -137,11 +137,11 @@ CliqueDB3 = {
 		},
 		["焊接机器人 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec2_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,

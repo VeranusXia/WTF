@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 26961,
+	["session"] = 26965,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Modules\\Bags\\Sort.lua:149: attempt to compare number with nil",
