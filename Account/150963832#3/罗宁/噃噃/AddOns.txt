@@ -196,3 +196,5 @@ OmniCD: enabled
 BigFootBank: enabled
 REFlex: enabled
 DBM-SanctumOfDomination: enabled
+ElvUI_DTBars2: disabled
+ElvUI_QuestXP: disabled

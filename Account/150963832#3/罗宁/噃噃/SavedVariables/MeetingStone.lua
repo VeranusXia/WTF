@@ -5,7 +5,7 @@ MEETINGSTONE_CHARACTER_DB = {
 	},
 	["profiles"] = {
 		["噃噃 - 罗宁"] = {
-			["version"] = "80200.03",
+			["version"] = "90002.03",
 		},
 	},
 }
