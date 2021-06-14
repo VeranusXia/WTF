@@ -34,3 +34,10 @@ X: -286
 Y: 23
 W: 200
 H: 50
+Frame: BagSync_MinimapButton
+FrameLevel: 3
+Anchor: TOPRIGHT
+X: -129
+Y: -164
+W: 32
+H: 32

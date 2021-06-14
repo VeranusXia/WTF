@@ -2,7 +2,7 @@ AdvancedInterfaceOptions: enabled
 AngryKeystones: enabled
 AuctionLite: disabled
 AzeriteTooltip: disabled
-BagSync: disabled
+BagSync: enabled
 BattlePetBreedID: enabled
 !BugGrabber: enabled
 BugSack: enabled
@@ -45,7 +45,7 @@ Mapster: enabled
 Masque: enabled
 MBB: enabled
 Pawn: disabled
-PetTracker: disabled
+PetTracker: enabled
 PetTracker_Breeds: enabled
 PetTracker_Config: enabled
 PetTracker_Journal: enabled
@@ -57,7 +57,7 @@ Rarity: disabled
 Rarity_Options: disabled
 Rematch: enabled
 RematchElvUISkin: disabled
-SavedInstances: disabled
+SavedInstances: enabled
 Simulationcraft: enabled
 Skada: disabled
 TargetNameplateIndicator: disabled
@@ -163,7 +163,7 @@ Handynotes_Pandaria: enabled
 zPetBattleLevelUpMonitor: enabled
 RareScanner: enabled
 EJShowSL: enabled
-CanIMogIt: disabled
+CanIMogIt: enabled
 HandyNotes_ScourgeInvasionShadowlands: disabled
 Narcissus: disabled
 Narcissus_Database: disabled
