@@ -27,22 +27,6 @@ REFlexSettings = {
 REFlexDatabase = {
 	{
 		["Map"] = 761,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["PlayerNum"] = 1,
-		["PlayersNum"] = 17,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				10, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
 		["Hidden"] = false,
 		["Players"] = {
 			{
@@ -65,9 +49,14 @@ REFlexDatabase = {
 				900, -- [17]
 			}, -- [1]
 		},
-		["Time"] = 1623804037,
-		["isArena"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 17,
+		["Duration"] = 199,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1623804037,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -86,15 +75,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 199,
-	}, -- [1]
-	{
-		["Map"] = 2245,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
 		["PlayerNum"] = 1,
-		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -104,9 +85,12 @@ REFlexDatabase = {
 			{
 				0, -- [1]
 				1, -- [2]
-				9, -- [3]
+				6, -- [3]
 			}, -- [2]
 		},
+	}, -- [1]
+	{
+		["Map"] = 2245,
 		["Hidden"] = false,
 		["Players"] = {
 			{
@@ -129,9 +113,14 @@ REFlexDatabase = {
 				900, -- [17]
 			}, -- [1]
 		},
-		["Time"] = 1623804429,
-		["isArena"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 181,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1623804429,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -150,15 +139,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["Duration"] = 181,
-	}, -- [2]
-	{
-		["Map"] = 727,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
 		["PlayerNum"] = 1,
-		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -166,11 +147,14 @@ REFlexDatabase = {
 				10, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
-				8, -- [3]
+				9, -- [3]
 			}, -- [2]
 		},
+	}, -- [2]
+	{
+		["Map"] = 727,
 		["Hidden"] = false,
 		["Players"] = {
 			{
@@ -193,9 +177,14 @@ REFlexDatabase = {
 				900, -- [17]
 			}, -- [1]
 		},
-		["Time"] = 1623805012,
-		["isArena"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 340,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1623805012,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -214,12 +203,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 340,
-	}, -- [3]
-	{
-		["Map"] = 2106,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -232,11 +216,48 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Version"] = 313,
-		["PlayersNum"] = 20,
+	}, -- [3]
+	{
+		["Map"] = 2106,
 		["Duration"] = 433,
 		["Season"] = 30,
+		["Time"] = 1623805616,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
 		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				2, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				1, -- [2]
+				1, -- [3]
+				5, -- [4]
+				5, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
 		["Players"] = {
 			{
 				"倾颜", -- [1]
@@ -258,28 +279,7 @@ REFlexDatabase = {
 				900, -- [17]
 			}, -- [1]
 		},
-		["isArena"] = false,
-		["Time"] = 1623805616,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				3, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				3, -- [1]
-				1, -- [2]
-				1, -- [3]
-				5, -- [4]
-				5, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 1,
-		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Hidden"] = false,
 	}, -- [4]
 	{
 		["PlayerStats"] = {
@@ -728,5 +728,5 @@ REFlexDatabase = {
 	}, -- [5]
 }
 REFlexHonorDatabase = {
-	[1623772800] = 3419,
+	[1623772800] = 13919,
 }
