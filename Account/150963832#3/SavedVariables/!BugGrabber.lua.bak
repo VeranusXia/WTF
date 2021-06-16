@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 26988,
 	["lastSanitation"] = 3,
-	["session"] = 26985,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Modules\\Bags\\Sort.lua:149: attempt to compare number with nil",
@@ -497,8 +497,8 @@ BugGrabberDB = {
 			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'AutoBattleGround' 尝试调用保护功能 'AcceptInvite()'。",
 			["time"] = "2021/05/29 21:48:27",
 			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `AcceptInvite'\n[string \"@Interface\\FrameXML\\LFGList.lua\"]:2547: in function `LFGListInviteDialog_Accept'\n[string \"@Interface\\AddOns\\AutoBattleGround\\AutoBattleGround-4.7.lua\"]:546: in function <...terface\\AddOns\\AutoBattleGround\\AutoBattleGround.lua:541>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\FrameXML\\StaticPopup.lua\"]:5130: in function `StaticPopupSpecial_Show'\n[string \"@Interface\\FrameXML\\LFGList.lua\"]:2530: in function <Interface\\FrameXML\\LFGList.lua:2501>\n[string \"=[C]\"]: in function `LFGListInviteDialog_Show'\n[string \"@Interface\\FrameXML\\LFGList.lua\"]:2495: in function `LFGListInviteDialog_CheckPending'\n[string \"@Interface\\FrameXML\\LFGList.lua\"]:2458: in function <Interface\\FrameXML\\LFGList.lua:2444>",
-			["session"] = 26935,
-			["counter"] = 1,
+			["session"] = 26986,
+			["counter"] = 2,
 		}, -- [65]
 	},
 }
