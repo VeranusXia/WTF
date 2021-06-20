@@ -1,3 +1,16 @@
+VER 3 0100000000000002 "交任务" "INV_MISC_QUESTIONMARK"
+/目标 加布里埃尔元帅
+/script SelectGossipActiveQuest(2)
+/script GetQuestReward(1)
+/script CompleteQuest()
+/cast 火红烈焰
+END
+VER 3 0100000000000003 "爆发" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/施放 狂野怒火
+/施放 野性守护
+/use 13
+END
 VER 3 0100000000000001 "误导" "INV_MISC_QUESTIONMARK"
 #showtooltip 误导
 /click AutoTankMisdirect
