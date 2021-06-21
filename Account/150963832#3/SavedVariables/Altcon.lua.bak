@@ -50,8 +50,8 @@ AltconDB = {
 			["profile"] = "西瓜味泡泡糖 - 罗宁",
 			["challenge"] = {
 			},
-			["class"] = "DEMONHUNTER",
 			["ilevel"] = "208.5",
+			["class"] = "DEMONHUNTER",
 		},
 		["Boogaloo - 罗宁"] = {
 			["profile"] = "Boogaloo - 罗宁",
@@ -444,8 +444,8 @@ AltconDB = {
 			["profile"] = "招商中证白酒 - 罗宁",
 			["challenge"] = {
 			},
-			["ilevel"] = "224.3",
 			["class"] = "MONK",
+			["ilevel"] = "225.2",
 		},
 		["瓦拉纳丶微微 - 瓦拉纳"] = {
 			["profile"] = "瓦拉纳丶微微 - 瓦拉纳",

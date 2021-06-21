@@ -18669,8 +18669,8 @@ HekiliDB = {
 					["maxRefresh"] = 10,
 					["damagePets"] = false,
 					["settings"] = {
-						["demon_blades_acknowledged"] = false,
 						["recommend_movement"] = true,
+						["demon_blades_acknowledged"] = false,
 					},
 					["aoe"] = 2,
 					["gcdSync"] = true,

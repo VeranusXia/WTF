@@ -930,23 +930,23 @@ MEETINGSTONE_UI_DB = {
 			[9] = {
 				["BossKilled"] = {
 					["min"] = 0,
-					["max"] = 0,
 					["enable"] = false,
-				},
-				["ItemLevel"] = {
-					["min"] = 0,
-					["max"] = 230,
-					["enable"] = true,
-				},
-				["Age"] = {
-					["min"] = 0,
-					["max"] = 10,
-					["enable"] = true,
+					["max"] = 0,
 				},
 				["Members"] = {
 					["min"] = 5,
-					["max"] = 9,
 					["enable"] = true,
+					["max"] = 9,
+				},
+				["ItemLevel"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 230,
+				},
+				["Age"] = {
+					["min"] = 0,
+					["enable"] = true,
+					["max"] = 10,
 				},
 			},
 			[111] = {

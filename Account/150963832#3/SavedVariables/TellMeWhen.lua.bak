@@ -8338,6 +8338,7 @@ TellMeWhenDB = {
 	},
 	["profiles"] = {
 		["武僧"] = {
+			["Locked"] = true,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -8894,7 +8895,6 @@ TellMeWhenDB = {
 			},
 			["NumGroups"] = 0,
 			["Version"] = 90701,
-			["Locked"] = true,
 		},
 		["猎人"] = {
 			["Locked"] = true,
@@ -11423,10 +11423,10 @@ TellMeWhenDB = {
 					},
 				}, -- [7]
 			},
-			["Locked"] = true,
-			["Version"] = 90701,
 			["NumGroups"] = 0,
 			["TextureName"] = "Asphyxia",
+			["Version"] = 90701,
+			["Locked"] = true,
 		},
 		["骑士"] = {
 			["Locked"] = true,

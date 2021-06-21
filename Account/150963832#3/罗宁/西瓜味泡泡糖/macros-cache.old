@@ -1,3 +1,12 @@
+VER 3 010000000000000A "剥皮" "134366"
+/targetenemy [dead]
+/cast 剥皮
+END
+VER 3 010000000000000B "大招" "INV_Misc_QuestionMark"
+#showtooltip
+/cast  [@cursor]恶魔变形
+/use 14
+END
 VER 3 0100000000000009 "大招" "INV_Misc_QuestionMark"
 #showtooltip
 /cast  [@cursor]恶魔变形
