@@ -7,21 +7,32 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 2,
+					["combatId"] = 3,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.006549,
+							["totalabsorbed"] = 0.001265,
+							["pets"] = {
+							},
+							["aID"] = "729-057CB281",
+							["total_without_pet"] = 103719.001265,
+							["dps_started"] = false,
+							["total"] = 103719.001265,
+							["spec"] = 73,
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-729-057CB281",
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["夺目的风翎鹤"] = 324960,
+								["火甲虫"] = 103719,
 							},
-							["total"] = 324960.006549,
-							["pets"] = {
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
 							},
-							["on_hold"] = false,
+							["end_time"] = 1624331801,
 							["avoidance"] = {
 								["overall"] = {
 									["DODGE"] = 0,
@@ -40,380 +51,8 @@ _detalhes_database = {
 									["FULL_HIT_AMT"] = 0,
 								},
 							},
-							["aID"] = "729-057CB281",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 324960.006549,
-							["isTank"] = true,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["end_time"] = 1624181397,
-							["classe"] = "WARRIOR",
-							["friendlyfire_total"] = 0,
-							["nome"] = "焊接机器人",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 324960,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["夺目的风翎鹤"] = 324960,
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 324960,
-										["c_max"] = 324960,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 324960,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 73,
-							["serial"] = "Player-729-057CB281",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.006549,
-							["start_time"] = 1624181397,
-							["delay"] = 0,
-							["last_event"] = 1624181397,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.004875,
-							["damage_from"] = {
-								["焊接机器人"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.004875,
-							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1624181397,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["nome"] = "夺目的风翎鹤",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["aID"] = "72762",
-							["total"] = 0.004875,
-							["serial"] = "Creature-0-3116-870-690-72762-00004F06B6",
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 324960.004875,
-							["start_time"] = 1624181397,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 2,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["combatId"] = 2,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["combatId"] = 2,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[105771] = {
-										["activedamt"] = -1,
-										["id"] = 105771,
-										["targets"] = {
-										},
-										["actived_at"] = 1624181397,
-										["uptime"] = 0,
-										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 0,
-							["aID"] = "729-057CB281",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[335151] = {
-										["activedamt"] = 1,
-										["id"] = 335151,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[93795] = {
-										["activedamt"] = 1,
-										["id"] = 93795,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[339463] = {
-										["activedamt"] = 1,
-										["id"] = 339463,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[145389] = {
-										["activedamt"] = 1,
-										["id"] = 145389,
-										["targets"] = {
-										},
-										["uptime"] = 0,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 0,
-							["nome"] = "焊接机器人",
-							["spec"] = 73,
-							["grupo"] = true,
-							["debuff_uptime_targets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["pets"] = {
-							},
-							["last_event"] = 1624181397,
-							["classe"] = "WARRIOR",
-							["isTank"] = true,
-							["serial"] = "Player-729-057CB281",
-							["tipo"] = 4,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 2,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["焊接机器人"] = true,
-				},
-				["raid_roster_indexed"] = {
-					"焊接机器人", -- [1]
-				},
-				["tempo_start"] = 1624181397,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 2048,
-				["playing_solo"] = true,
-				["totals"] = {
-					324959.981214, -- [1]
-					-0.008938, -- [2]
-					{
-						-0.008054999999998813, -- [1]
-						[0] = -0.004998,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					324960, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "17:29:58",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "夺目的风翎鹤",
-				["TotalElapsedCombatTime"] = 712938.073,
-				["CombatEndedAt"] = 712938.073,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["焊接机器人"] = 324960.006549,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 712938.073,
-				["combat_id"] = 2,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "17:29:57",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["夺目的风翎鹤"] = 1,
-				},
-				["start_time"] = 712937.797,
-				["TimeData"] = {
-				},
-				["contra"] = "夺目的风翎鹤",
-			}, -- [1]
-			{
-				{
-					["combatId"] = 1,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.00586,
-							["spec"] = 73,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["致死蝰蛇"] = 39368,
-							},
-							["on_hold"] = false,
-							["pets"] = {
-							},
-							["avoidance"] = {
-								["overall"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 0,
-									["PARTIAL_ABSORBED"] = 0,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 0,
-									["ABSORB"] = 0,
-									["ABSORB_AMT"] = 0,
-									["FULL_HIT"] = 0,
-									["HITS"] = 0,
-									["FULL_HIT_AMT"] = 0,
-								},
-							},
-							["isTank"] = true,
-							["aID"] = "729-057CB281",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 39368.00586,
-							["friendlyfire"] = {
-							},
-							["classe"] = "WARRIOR",
-							["dps_started"] = false,
-							["total"] = 39368.00586,
-							["friendlyfire_total"] = 0,
-							["end_time"] = 1624181393,
 							["nome"] = "焊接机器人",
 							["spells"] = {
 								["tipo"] = 2,
@@ -423,15 +62,15 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 39368,
+										["n_max"] = 103719,
 										["targets"] = {
-											["致死蝰蛇"] = 39368,
+											["火甲虫"] = 103719,
 										},
-										["n_dmg"] = 39368,
-										["n_min"] = 39368,
+										["n_dmg"] = 103719,
+										["n_min"] = 103719,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 39368,
+										["total"] = 103719,
 										["c_max"] = 0,
 										["id"] = 52174,
 										["r_dmg"] = 0,
@@ -449,69 +88,68 @@ _detalhes_database = {
 								},
 							},
 							["grupo"] = true,
-							["serial"] = "Player-729-057CB281",
-							["last_dps"] = 0,
+							["classe"] = "WARRIOR",
+							["last_dps"] = 85789.08292992845,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.00586,
-							["start_time"] = 1624181392,
+							["damage_taken"] = 0.001265,
+							["start_time"] = 1624331799,
 							["delay"] = 0,
-							["last_event"] = 1624181392,
+							["last_event"] = 1624331799,
 						}, -- [1]
 						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.00327,
+							["flag_original"] = 2600,
+							["totalabsorbed"] = 0.002428,
 							["damage_from"] = {
 								["焊接机器人"] = true,
 							},
 							["targets"] = {
 							},
-							["total"] = 0.00327,
 							["pets"] = {
-							},
-							["friendlyfire"] = {
 							},
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 0.00327,
+							["total_without_pet"] = 0.002428,
+							["friendlyfire"] = {
+							},
 							["fight_component"] = true,
-							["monster"] = true,
 							["dps_started"] = false,
-							["end_time"] = 1624181393,
+							["end_time"] = 1624331801,
 							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
-							["nome"] = "致死蝰蛇",
+							["nome"] = "火甲虫",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
 							},
-							["aID"] = "72841",
-							["serial"] = "Creature-0-3116-870-690-72841-00004F07B4",
+							["aID"] = "9699",
+							["total"] = 0.002428,
+							["serial"] = "Creature-0-3123-0-61-9699-0000515294",
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["damage_taken"] = 39368.00327,
-							["start_time"] = 1624181393,
+							["damage_taken"] = 103719.002428,
+							["start_time"] = 1624331801,
 							["delay"] = 0,
 							["tipo"] = 1,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 1,
+					["combatId"] = 3,
 					["tipo"] = 3,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 1,
+					["combatId"] = 3,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 						{
-							["received"] = 20.001343,
-							["resource"] = 0.001343,
+							["received"] = 20.006168,
+							["resource"] = 0.006168,
 							["targets"] = {
 								["焊接机器人"] = 20,
 							},
@@ -519,8 +157,8 @@ _detalhes_database = {
 							},
 							["powertype"] = 1,
 							["classe"] = "WARRIOR",
-							["passiveover"] = 0.001343,
-							["total"] = 20.001343,
+							["passiveover"] = 0.006168,
+							["total"] = 20.006168,
 							["tipo"] = 3,
 							["nome"] = "焊接机器人",
 							["spells"] = {
@@ -540,21 +178,32 @@ _detalhes_database = {
 							["grupo"] = true,
 							["spec"] = 73,
 							["flag_original"] = 1297,
-							["alternatepower"] = 0.001343,
-							["last_event"] = 1624181396,
+							["alternatepower"] = 0.006168,
+							["last_event"] = 1624331905,
 							["aID"] = "729-057CB281",
 							["isTank"] = true,
 							["serial"] = "Player-729-057CB281",
-							["totalover"] = 0.001343,
+							["totalover"] = 0.006168,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 1,
+					["combatId"] = 3,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
+							["nome"] = "焊接机器人",
+							["spec"] = 73,
+							["grupo"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 4,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["last_event"] = 1624331801,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
@@ -563,18 +212,7 @@ _detalhes_database = {
 										["id"] = 93795,
 										["targets"] = {
 										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[145389] = {
-										["activedamt"] = 1,
-										["id"] = 145389,
-										["targets"] = {
-										},
-										["uptime"] = 1,
+										["uptime"] = 2,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -585,18 +223,7 @@ _detalhes_database = {
 										["id"] = 335151,
 										["targets"] = {
 										},
-										["uptime"] = 1,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[324748] = {
-										["activedamt"] = 1,
-										["id"] = 324748,
-										["targets"] = {
-										},
-										["uptime"] = 1,
+										["uptime"] = 2,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -604,28 +231,13 @@ _detalhes_database = {
 									},
 								},
 							},
-							["spell_cast"] = {
-								[324748] = 1,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 73,
-							["grupo"] = true,
-							["nome"] = "焊接机器人",
-							["buff_uptime"] = 4,
-							["pets"] = {
-							},
-							["classe"] = "WARRIOR",
-							["aID"] = "729-057CB281",
-							["last_event"] = 1624181393,
-							["isTank"] = true,
 							["serial"] = "Player-729-057CB281",
-							["tipo"] = 4,
+							["aID"] = "729-057CB281",
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 1,
+					["combatId"] = 3,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
@@ -636,16 +248,16 @@ _detalhes_database = {
 				["raid_roster_indexed"] = {
 					"焊接机器人", -- [1]
 				},
-				["CombatStartedAt"] = 712936.799,
+				["CombatStartedAt"] = 525234.189,
 				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 2047,
+				["combat_counter"] = 2050,
 				["playing_solo"] = true,
 				["totals"] = {
-					39368, -- [1]
+					103718.994494, -- [1]
 					0, -- [2]
 					{
 						20, -- [1]
@@ -671,28 +283,30 @@ _detalhes_database = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
-				["data_fim"] = "17:29:53",
+				["data_fim"] = "11:16:41",
+				["pvp"] = true,
 				["cleu_timeline"] = {
 				},
-				["enemy"] = "致死蝰蛇",
-				["TotalElapsedCombatTime"] = 1.111000000033528,
-				["CombatEndedAt"] = 712933.615,
+				["enemy"] = "火甲虫",
+				["TotalElapsedCombatTime"] = 1.209000000031665,
+				["CombatEndedAt"] = 525129.4940000001,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "17:29:52",
-				["end_time"] = 712933.615,
-				["combat_id"] = 1,
-				["tempo_start"] = 1624181392,
+				["data_inicio"] = "11:16:40",
+				["end_time"] = 525129.4940000001,
+				["combat_id"] = 3,
+				["resincked"] = true,
+				["tempo_start"] = 1624331799,
+				["frags"] = {
+					["火甲虫"] = 1,
+				},
 				["cleu_events"] = {
 					["n"] = 1,
 				},
-				["frags"] = {
-					["致死蝰蛇"] = 1,
-				},
 				["totals_grupo"] = {
-					39368, -- [1]
+					103719, -- [1]
 					0, -- [2]
 					{
 						20, -- [1]
@@ -712,6 +326,8 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
+				["CombatSkillCache"] = {
+				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -727,19 +343,754 @@ _detalhes_database = {
 					},
 					["damage"] = {
 						{
-							["焊接机器人"] = 39368.00586,
+							["焊接机器人"] = 1419266.002351,
 						}, -- [1]
 					},
 				},
-				["CombatSkillCache"] = {
+				["start_time"] = 525128.285,
+				["TimeData"] = {
 				},
 				["spells_cast_timeline"] = {
 				},
-				["start_time"] = 712932.394,
-				["contra"] = "致死蝰蛇",
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006549,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["total_without_pet"] = 324960.006549,
+							["dps_started"] = false,
+							["total"] = 324960.006549,
+							["spec"] = 73,
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-729-057CB281",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["夺目的风翎鹤"] = 324960,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1624181397,
+							["damage_taken"] = 0.006549,
+							["friendlyfire"] = {
+							},
+							["nome"] = "焊接机器人",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 324960,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["夺目的风翎鹤"] = 324960,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 324960,
+										["c_max"] = 324960,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 324960,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_event"] = 1624181397,
+							["aID"] = "729-057CB281",
+							["custom"] = 0,
+							["tipo"] = 1,
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["start_time"] = 1624181397,
+							["delay"] = 0,
+							["last_dps"] = 1177391.328270761,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.004875,
+							["damage_from"] = {
+								["焊接机器人"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["delay"] = 0,
+							["aID"] = "72762",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004875,
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["monster"] = true,
+							["total"] = 0.004875,
+							["classe"] = "UNKNOW",
+							["on_hold"] = false,
+							["nome"] = "夺目的风翎鹤",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["fight_component"] = true,
+							["end_time"] = 1624181397,
+							["damage_taken"] = 324960.004875,
+							["friendlyfire_total"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1624181397,
+							["serial"] = "Creature-0-3116-870-690-72762-00004F06B6",
+							["dps_started"] = false,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[105771] = {
+										["activedamt"] = -1,
+										["id"] = 105771,
+										["targets"] = {
+										},
+										["actived_at"] = 1624181397,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["appliedamt"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 0,
+							["aID"] = "729-057CB281",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[335151] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 335151,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[324748] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 324748,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[93795] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 93795,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[145389] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 145389,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[339463] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 339463,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 0,
+							["nome"] = "焊接机器人",
+							["spec"] = 73,
+							["grupo"] = true,
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["last_event"] = 1624181397,
+							["classe"] = "WARRIOR",
+							["isTank"] = true,
+							["serial"] = "Player-729-057CB281",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["焊接机器人"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"焊接机器人", -- [1]
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					324959.981214, -- [1]
+					-0.008938, -- [2]
+					{
+						-0.008054999999998813, -- [1]
+						[0] = -0.004998,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					324960, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "17:29:58",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "夺目的风翎鹤",
+				["TotalElapsedCombatTime"] = 712938.073,
+				["CombatEndedAt"] = 712938.073,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "17:29:57",
+				["end_time"] = 712938.073,
+				["combat_id"] = 2,
+				["player_last_events"] = {
+				},
+				["tempo_start"] = 1624181397,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "夺目的风翎鹤",
+				["combat_counter"] = 2048,
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["焊接机器人"] = 324960.006549,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["start_time"] = 712937.797,
 				["TimeData"] = {
 				},
+				["frags"] = {
+					["夺目的风翎鹤"] = 1,
+				},
 			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00586,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["致死蝰蛇"] = 39368,
+							},
+							["total"] = 39368.00586,
+							["pets"] = {
+							},
+							["damage_taken"] = 0.00586,
+							["friendlyfire"] = {
+							},
+							["classe"] = "WARRIOR",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 39368.00586,
+							["last_event"] = 1624181392,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1624181393,
+							["delay"] = 0,
+							["start_time"] = 1624181392,
+							["nome"] = "焊接机器人",
+							["spec"] = 73,
+							["grupo"] = true,
+							["aID"] = "729-057CB281",
+							["spells"] = {
+								["_ActorTable"] = {
+									[52174] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 39368,
+										["targets"] = {
+											["致死蝰蛇"] = 39368,
+										},
+										["n_dmg"] = 39368,
+										["n_min"] = 39368,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 39368,
+										["c_max"] = 0,
+										["id"] = 52174,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-729-057CB281",
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.00327,
+							["damage_from"] = {
+								["焊接机器人"] = true,
+							},
+							["targets"] = {
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.00327,
+							["end_time"] = 1624181393,
+							["fight_component"] = true,
+							["total"] = 0.00327,
+							["damage_taken"] = 39368.00327,
+							["on_hold"] = false,
+							["nome"] = "致死蝰蛇",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["aID"] = "72841",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1624181393,
+							["serial"] = "Creature-0-3116-870-690-72841-00004F07B4",
+							["monster"] = true,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+						{
+							["received"] = 20.001343,
+							["resource"] = 0.001343,
+							["targets"] = {
+								["焊接机器人"] = 20,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "WARRIOR",
+							["passiveover"] = 0.001343,
+							["total"] = 20.001343,
+							["totalover"] = 0.001343,
+							["nome"] = "焊接机器人",
+							["spells"] = {
+								["_ActorTable"] = {
+									[100] = {
+										["total"] = 20,
+										["id"] = 100,
+										["totalover"] = 0,
+										["targets"] = {
+											["焊接机器人"] = 20,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.001343,
+							["aID"] = "729-057CB281",
+							["tipo"] = 3,
+							["last_event"] = 1624181396,
+							["isTank"] = true,
+							["serial"] = "Player-729-057CB281",
+							["spec"] = 73,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[93795] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 93795,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[145389] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 145389,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[335151] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 335151,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[324748] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 324748,
+										["uptime"] = 1,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "焊接机器人",
+							["spec"] = 73,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[324748] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 1624181393,
+							["buff_uptime"] = 4,
+							["isTank"] = true,
+							["serial"] = "Player-729-057CB281",
+							["aID"] = "729-057CB281",
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["焊接机器人"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"焊接机器人", -- [1]
+				},
+				["CombatStartedAt"] = 712936.799,
+				["tempo_start"] = 1624181392,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					39368, -- [1]
+					0, -- [2]
+					{
+						20, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					39368, -- [1]
+					0, -- [2]
+					{
+						20, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "17:29:53",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "致死蝰蛇",
+				["TotalElapsedCombatTime"] = 1.111000000033528,
+				["CombatEndedAt"] = 712933.615,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["焊接机器人"] = 39368.00586,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 712933.615,
+				["combat_id"] = 1,
+				["overall_added"] = true,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["致死蝰蛇"] = 1,
+				},
+				["combat_counter"] = 2047,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "17:29:52",
+				["start_time"] = 712932.394,
+				["contra"] = "致死蝰蛇",
+				["spells_cast_timeline"] = {
+				},
+			}, -- [3]
 		},
 	},
 	["ocd_tracker"] = {
@@ -773,7 +1124,7 @@ _detalhes_database = {
 		["nextreset"] = 1625476202,
 		["last_version"] = 14,
 	},
-	["last_instance_id"] = 961,
+	["last_instance_id"] = 469,
 	["announce_interrupts"] = {
 		["enabled"] = false,
 		["whisper"] = "",
@@ -781,7 +1132,7 @@ _detalhes_database = {
 		["custom"] = "",
 		["next"] = "",
 	},
-	["last_instance_time"] = 1624180541,
+	["last_instance_time"] = 1624331895,
 	["active_profile"] = "Default",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "自由镇",
@@ -798,17 +1149,17 @@ _detalhes_database = {
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
+			["enabled"] = true,
 			["showamount"] = false,
-			["animate"] = false,
 			["useplayercolor"] = false,
-			["useclasscolors"] = false,
 			["author"] = "Details! Team",
+			["useclasscolors"] = false,
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["enabled"] = true,
+			["animate"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -845,11 +1196,11 @@ _detalhes_database = {
 			["last_section_selected"] = "main",
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["hide_on_combat"] = false,
-			["show_icon"] = 5,
-			["opened"] = 0,
 			["encounter_timers_dbm"] = {
 			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -875,22 +1226,17 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = false,
 			},
-			["scale"] = 1,
+			["use_square_mode"] = false,
 			["arrow_anchor_x"] = 0,
-			["row_height"] = 20,
+			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["point"] = "CENTER",
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["author"] = "Details! Team",
+			["arrow_anchor_y"] = 0,
+			["font_size"] = 10,
+			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = true,
+			["y"] = -2.288818359375e-05,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -898,9 +1244,13 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -2.288818359375e-05,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -908,515 +1258,32 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 1.52587890625e-05,
 				["x"] = -3.0517578125e-05,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
+			["use_spark"] = true,
 			["x"] = -0.00018310546875,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["font_size"] = 10,
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = false,
-			["use_square_mode"] = false,
+			["author"] = "Details! Team",
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 	},
-	["last_encounter"] = "德纳修斯大帝",
+	["cached_talents"] = {
+	},
+	["last_encounter"] = "狂野的拉佐格尔",
 	["announce_prepots"] = {
 		["enabled"] = false,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "20",
-	["cached_talents"] = {
-		["Player-840-029DD8FC"] = {
-			19820, -- [1]
-			19818, -- [2]
-			22168, -- [3]
-			19995, -- [4]
-			20173, -- [5]
-			23107, -- [6]
-			22218, -- [7]
-		},
-		["Player-729-00D37538"] = {
-			22460, -- [1]
-			22443, -- [2]
-			22444, -- [3]
-			22466, -- [4]
-			22446, -- [5]
-			23176, -- [6]
-			21632, -- [7]
-		},
-		["Player-729-060F4421"] = {
-			22491, -- [1]
-			19676, -- [2]
-			22379, -- [3]
-			22382, -- [4]
-			19140, -- [5]
-			22400, -- [6]
-			22405, -- [7]
-		},
-		["Player-833-01824E85"] = {
-			22279, -- [1]
-			22495, -- [2]
-			19348, -- [3]
-			22286, -- [4]
-			22276, -- [5]
-			22287, -- [6]
-			22288, -- [7]
-		},
-		["Player-729-057CB281"] = {
-			15759, -- [1]
-			19676, -- [2]
-			22626, -- [3]
-			23096, -- [4]
-			22631, -- [5]
-			22544, -- [6]
-			23099, -- [7]
-		},
+	["last_day"] = "22",
+	["character_data"] = {
+		["logons"] = 84,
 	},
-	["benchmark_db"] = {
-		["frame"] = {
-		},
-	},
-	["last_realversion"] = 144,
-	["combat_id"] = 2,
-	["savedStyles"] = {
-	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-	},
-	["combat_counter"] = 2048,
-	["announce_deaths"] = {
-		["enabled"] = false,
-		["last_hits"] = 1,
-		["only_first"] = 5,
-		["where"] = 1,
-	},
-	["tabela_overall"] = {
-		{
-			["tipo"] = 2,
-			["_ActorTable"] = {
-				{
-					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.018358,
-					["pets"] = {
-					},
-					["classe"] = "WARRIOR",
-					["total_without_pet"] = 364328.018358,
-					["dps_started"] = false,
-					["total"] = 364328.018358,
-					["spec"] = 73,
-					["colocacao"] = 1,
-					["on_hold"] = false,
-					["isTank"] = true,
-					["serial"] = "Player-729-057CB281",
-					["damage_from"] = {
-					},
-					["targets"] = {
-						["致死蝰蛇"] = 39368,
-						["夺目的风翎鹤"] = 324960,
-					},
-					["friendlyfire_total"] = 0,
-					["raid_targets"] = {
-					},
-					["end_time"] = 1624181393,
-					["friendlyfire"] = {
-					},
-					["last_event"] = 0,
-					["nome"] = "焊接机器人",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 324960,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["夺目的风翎鹤"] = 324960,
-								},
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 324960,
-								["c_max"] = 324960,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							}, -- [1]
-							[52174] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 39368,
-								["targets"] = {
-									["致死蝰蛇"] = 39368,
-								},
-								["n_dmg"] = 39368,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 39368,
-								["c_max"] = 0,
-								["id"] = 52174,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
-							},
-						},
-					},
-					["grupo"] = true,
-					["avoidance"] = {
-						["overall"] = {
-							["DODGE"] = 0,
-							["FULL_ABSORB_AMT"] = 0,
-							["BLOCKED_AMT"] = 0,
-							["BLOCKED_HITS"] = 0,
-							["FULL_ABSORBED"] = 0,
-							["ALL"] = 0,
-							["PARTIAL_ABSORBED"] = 0,
-							["PARRY"] = 0,
-							["PARTIAL_ABSORB_AMT"] = 0,
-							["ABSORB"] = 0,
-							["ABSORB_AMT"] = 0,
-							["FULL_HIT"] = 0,
-							["HITS"] = 0,
-							["FULL_HIT_AMT"] = 0,
-						},
-					},
-					["aID"] = "729-057CB281",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 0.018358,
-					["start_time"] = 1624181389,
-					["delay"] = 0,
-					["last_dps"] = 243372.0897557424,
-				}, -- [1]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.009835,
-					["damage_from"] = {
-						["焊接机器人"] = true,
-					},
-					["targets"] = {
-					},
-					["on_hold"] = false,
-					["pets"] = {
-					},
-					["monster"] = true,
-					["aID"] = "72762",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.009835,
-					["friendlyfire"] = {
-					},
-					["end_time"] = 1624181398,
-					["dps_started"] = false,
-					["total"] = 0.009835,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "夺目的风翎鹤",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-						},
-					},
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3116-870-690-72762-00004F06B6",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1624181395,
-					["delay"] = 0,
-					["damage_taken"] = 324960.009835,
-				}, -- [2]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.005202,
-					["damage_from"] = {
-						["焊接机器人"] = true,
-					},
-					["targets"] = {
-					},
-					["on_hold"] = false,
-					["pets"] = {
-					},
-					["monster"] = true,
-					["aID"] = "72841",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.005202,
-					["friendlyfire"] = {
-					},
-					["end_time"] = 1624181393,
-					["dps_started"] = false,
-					["total"] = 0.005202,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "致死蝰蛇",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-						},
-					},
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3116-870-690-72841-00004F07B4",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1624181390,
-					["delay"] = 0,
-					["damage_taken"] = 39368.005202,
-				}, -- [3]
-			},
-		}, -- [1]
-		{
-			["tipo"] = 3,
-			["_ActorTable"] = {
-			},
-		}, -- [2]
-		{
-			["tipo"] = 7,
-			["_ActorTable"] = {
-			},
-		}, -- [3]
-		{
-			["tipo"] = 9,
-			["_ActorTable"] = {
-				{
-					["flag_original"] = 1047,
-					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[105771] = {
-								["refreshamt"] = 0,
-								["appliedamt"] = 0,
-								["activedamt"] = -1,
-								["uptime"] = 0,
-								["id"] = 105771,
-								["actived_at"] = 1624181397,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-						},
-					},
-					["pets"] = {
-					},
-					["classe"] = "WARRIOR",
-					["buff_uptime_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[335151] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 335151,
-								["uptime"] = 1,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[324748] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 324748,
-								["uptime"] = 1,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[93795] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 93795,
-								["uptime"] = 1,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[339463] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 339463,
-								["uptime"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[145389] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 145389,
-								["uptime"] = 1,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-						},
-					},
-					["debuff_uptime"] = 0,
-					["debuff_uptime_targets"] = {
-					},
-					["nome"] = "焊接机器人",
-					["spec"] = 73,
-					["grupo"] = true,
-					["spell_cast"] = {
-						[324748] = 1,
-					},
-					["buff_uptime_targets"] = {
-					},
-					["buff_uptime"] = 4,
-					["tipo"] = 4,
-					["last_event"] = 0,
-					["isTank"] = true,
-					["serial"] = "Player-729-057CB281",
-					["aID"] = "729-057CB281",
-				}, -- [1]
-			},
-		}, -- [4]
-		{
-			["tipo"] = 2,
-			["_ActorTable"] = {
-			},
-		}, -- [5]
-		["raid_roster"] = {
-		},
-		["raid_roster_indexed"] = {
-		},
-		["tempo_start"] = 1624181392,
-		["last_events_tables"] = {
-		},
-		["alternate_power"] = {
-		},
-		["combat_counter"] = 2046,
-		["spells_cast_timeline"] = {
-		},
-		["totals"] = {
-			364328.020554, -- [1]
-			0, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[3] = 0,
-				[6] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
-			}, -- [4]
-			["frags_total"] = 0,
-			["voidzone_damage"] = 0,
-		},
-		["player_last_events"] = {
-		},
-		["frags_need_refresh"] = false,
-		["aura_timeline"] = {
-		},
-		["__call"] = {
-		},
-		["data_inicio"] = "17:29:52",
-		["end_time"] = 712938.073,
-		["cleu_events"] = {
-			["n"] = 1,
-		},
-		["segments_added"] = {
-			{
-				["elapsed"] = 0.2759999999543652,
-				["type"] = 0,
-				["name"] = "夺目的风翎鹤",
-				["clock"] = "17:29:57",
-			}, -- [1]
-			{
-				["elapsed"] = 1.221000000019558,
-				["type"] = 0,
-				["name"] = "致死蝰蛇",
-				["clock"] = "17:29:52",
-			}, -- [2]
-		},
-		["totals_grupo"] = {
-			364328.012409, -- [1]
-			0, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[3] = 0,
-				[6] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
-			}, -- [4]
-		},
-		["frags"] = {
-		},
-		["data_fim"] = "17:29:58",
-		["overall_enemy_name"] = "-- x -- x --",
-		["CombatSkillCache"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["start_time"] = 712936.576,
-		["TimeData"] = {
-			["Raid Damage Done"] = {
-			},
-		},
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
-			["damage"] = {
-			},
-		},
-	},
-	["force_font_outline"] = "",
 	["local_instances_config"] = {
 		{
 			["modo"] = 2,
@@ -1470,7 +1337,7 @@ _detalhes_database = {
 			["snap"] = {
 				1, -- [1]
 			},
-			["segment"] = -1,
+			["segment"] = 0,
 			["mode"] = 2,
 			["attribute"] = 1,
 			["pos"] = {
@@ -1489,13 +1356,328 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["character_data"] = {
-		["logons"] = 83,
+	["combat_id"] = 4,
+	["savedStyles"] = {
+	},
+	["force_font_outline"] = "",
+	["combat_counter"] = 2054,
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1300,
+					["totalabsorbed"] = 0.005546,
+					["on_hold"] = false,
+					["damage_from"] = {
+					},
+					["targets"] = {
+					},
+					["avoidance"] = {
+						["overall"] = {
+							["DODGE"] = 0,
+							["FULL_ABSORB_AMT"] = 0,
+							["BLOCKED_AMT"] = 0,
+							["BLOCKED_HITS"] = 0,
+							["FULL_ABSORBED"] = 0,
+							["ALL"] = 0,
+							["PARTIAL_ABSORBED"] = 0,
+							["PARRY"] = 0,
+							["PARTIAL_ABSORB_AMT"] = 0,
+							["ABSORB"] = 0,
+							["ABSORB_AMT"] = 0,
+							["FULL_HIT"] = 0,
+							["HITS"] = 0,
+							["FULL_HIT_AMT"] = 0,
+						},
+					},
+					["pets"] = {
+						"狂野的拉佐格尔 <焊接机器人>", -- [1]
+					},
+					["end_time"] = 1624331982,
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.005546,
+					["last_event"] = 0,
+					["aID"] = "729-057CB281",
+					["dps_started"] = false,
+					["total"] = 0.005546,
+					["classe"] = "WARRIOR",
+					["isTank"] = true,
+					["nome"] = "焊接机器人",
+					["spec"] = 73,
+					["grupo"] = true,
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["serial"] = "Player-729-057CB281",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.005546,
+					["start_time"] = 1624331979,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["received"] = 5.008288,
+					["resource"] = 0.008288,
+					["targets"] = {
+						["焊接机器人"] = 5,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 1,
+					["classe"] = "WARRIOR",
+					["passiveover"] = 0.003752,
+					["total"] = 5.008288,
+					["totalover"] = 0.003752,
+					["tipo"] = 3,
+					["nome"] = "焊接机器人",
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[6343] = {
+								["total"] = 5,
+								["id"] = 6343,
+								["totalover"] = 0,
+								["targets"] = {
+									["焊接机器人"] = 5,
+								},
+								["counter"] = 1,
+							},
+						},
+					},
+					["grupo"] = true,
+					["spec"] = 73,
+					["flag_original"] = 1297,
+					["alternatepower"] = 0.008288,
+					["last_event"] = 0,
+					["aID"] = "729-057CB281",
+					["isTank"] = true,
+					["serial"] = "Player-729-057CB281",
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[19832] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 0,
+								["activedamt"] = -1,
+								["uptime"] = 0,
+								["id"] = 19832,
+								["actived_at"] = 1624331968,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["buff_uptime"] = 24,
+					["classe"] = "WARRIOR",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[93795] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 93795,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[335151] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 335151,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[331939] = {
+								["refreshamt"] = 5,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 331939,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["debuff_uptime"] = 0,
+					["nome"] = "焊接机器人",
+					["spec"] = 73,
+					["grupo"] = true,
+					["debuff_uptime_targets"] = {
+					},
+					["buff_uptime_targets"] = {
+					},
+					["pets"] = {
+						"狂野的拉佐格尔 <焊接机器人>", -- [1]
+					},
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["isTank"] = true,
+					["serial"] = "Player-729-057CB281",
+					["aID"] = "729-057CB281",
+				}, -- [1]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["raid_roster_indexed"] = {
+		},
+		["tempo_start"] = 1624331893,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 2051,
+		["spells_cast_timeline"] = {
+		},
+		["totals"] = {
+			3752.024491, -- [1]
+			0, -- [2]
+			{
+				5.004536, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "11:19:21",
+		["end_time"] = 525309.772,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 20.63000000000466,
+				["type"] = 7,
+				["name"] = "垃圾清理",
+				["clock"] = "11:19:21",
+			}, -- [1]
+		},
+		["totals_grupo"] = {
+			0.003885, -- [1]
+			0, -- [2]
+			{
+				5.004536, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["frags"] = {
+		},
+		["data_fim"] = "11:19:42",
+		["overall_enemy_name"] = "垃圾清理",
+		["CombatSkillCache"] = {
+		},
+		["cleu_timeline"] = {
+		},
+		["start_time"] = 525289.142,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["last_realversion"] = 144,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
 	},
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
@@ -1509,8 +1691,5 @@ _detalhes_database = {
 	},
 	["cached_specs"] = {
 		["Player-729-057CB281"] = 73,
-		["Player-746-060EEF92"] = 257,
-		["Player-886-05275C03"] = 70,
-		["Player-729-060F2A6F"] = 253,
 	},
 }

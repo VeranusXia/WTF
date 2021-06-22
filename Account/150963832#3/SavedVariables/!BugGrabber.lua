@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 27017,
+	["session"] = 27021,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Modules\\Bags\\Sort.lua:149: attempt to compare number with nil",
@@ -511,8 +511,8 @@ BugGrabberDB = {
 			["message"] = "Interface\\AddOns\\HandyNotes_SummerFestival\\Core.lua:265: attempt to call upvalue 'GetQuestsCompleted' (a nil value)",
 			["time"] = "2021/06/21 21:02:16",
 			["stack"] = "[string \"@Interface\\AddOns\\HandyNotes_SummerFestival\\Core.lua\"]:265: in function <Interface\\AddOns\\HandyNotes_SummerFestival\\Core.lua:238>\n[string \"@Interface\\AddOns\\HandyNotes_SummerFestival\\Core.lua\"]:324: in function <Interface\\AddOns\\HandyNotes_SummerFestival\\Core.lua:288>\n[string \"=[C]\"]: ?\n[string \"@Interface\\AddOns\\Masque\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:70: in function <...ace\\AddOns\\Masque\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:65>\n[string \"@Interface\\AddOns\\Masque\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:527: in function `EnableAddon'\n[string \"@Interface\\AddOns\\Masque\\Libs\\AceAddon-3.0\\AceAddon-3.0-13.lua\"]:630: in function <...ace\\AddOns\\Masque\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:615>",
-			["session"] = 27017,
-			["counter"] = 1,
+			["session"] = 27021,
+			["counter"] = 5,
 		}, -- [67]
 	},
 }

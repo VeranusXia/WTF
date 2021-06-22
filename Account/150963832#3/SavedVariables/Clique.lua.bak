@@ -41,11 +41,11 @@ CliqueDB3 = {
 		},
 		["殷倾颜 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec2_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Target"] = true,
 				["ElvUF_Player"] = true,
@@ -126,11 +126,11 @@ CliqueDB3 = {
 		},
 		["Reneebaby - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec2_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec3_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
@@ -150,15 +150,15 @@ CliqueDB3 = {
 		},
 		["焊接机器人 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
-			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
-			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
 			},
+			["spec2_profileKey"] = "Default",
+			["downclick"] = false,
+			["spec3_profileKey"] = "Default",
+			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
