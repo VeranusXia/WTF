@@ -128,8 +128,8 @@ AltconDB = {
 			["profile"] = "Reneebaby - 罗宁",
 			["challenge"] = {
 			},
-			["ilevel"] = "209.1",
 			["class"] = "ROGUE",
+			["ilevel"] = "209.1",
 		},
 		["我把你画成花 - 罗宁"] = {
 			["profile"] = "我把你画成花 - 罗宁",
@@ -233,8 +233,8 @@ AltconDB = {
 			["profile"] = "殷倾颜 - 罗宁",
 			["challenge"] = {
 			},
-			["class"] = "WARLOCK",
 			["ilevel"] = "199.4",
+			["class"] = "WARLOCK",
 		},
 		["西园寺恋 - 白银之手"] = {
 			["profile"] = "西园寺恋 - 白银之手",
@@ -426,19 +426,19 @@ AltconDB = {
 			["class"] = "WARRIOR",
 			["ilevel"] = "8.0",
 		},
-		["拔剑乱杀 - 燃烧之刃"] = {
-			["profile"] = "拔剑乱杀 - 燃烧之刃",
+		["龟裂 - 瓦拉纳"] = {
+			["profile"] = "龟裂 - 瓦拉纳",
 			["challenge"] = {
 			},
-			["class"] = "WARRIOR",
-			["ilevel"] = "6.2",
+			["class"] = "ROGUE",
+			["ilevel"] = "39.1",
 		},
 		["招商中证白酒 - 罗宁"] = {
 			["profile"] = "招商中证白酒 - 罗宁",
 			["challenge"] = {
 			},
 			["class"] = "MONK",
-			["ilevel"] = "225.2",
+			["ilevel"] = "224.3",
 		},
 		["电压守 - 瓦拉纳"] = {
 			["profile"] = "电压守 - 瓦拉纳",
@@ -629,12 +629,12 @@ AltconDB = {
 			["class"] = "ROGUE",
 			["ilevel"] = "0.3",
 		},
-		["龟裂 - 瓦拉纳"] = {
-			["profile"] = "龟裂 - 瓦拉纳",
+		["拔剑乱杀 - 燃烧之刃"] = {
+			["profile"] = "拔剑乱杀 - 燃烧之刃",
 			["challenge"] = {
 			},
-			["class"] = "ROGUE",
-			["ilevel"] = "39.1",
+			["class"] = "WARRIOR",
+			["ilevel"] = "6.2",
 		},
 		["不是吧不是 - 阿古斯"] = {
 			["profile"] = "不是吧不是 - 阿古斯",

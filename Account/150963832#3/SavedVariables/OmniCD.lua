@@ -9,8 +9,8 @@ OmniCDDB = {
 		["噃噃 - 罗宁"] = "Default",
 		["震击机器人 - 罗宁"] = "Default",
 		["焊接机器人 - 罗宁"] = "Default",
-		["蕾妮 - 格瑞姆巴托"] = "Default",
 		["西园寺恋 - 布兰卡德"] = "Default",
+		["蕾妮 - 格瑞姆巴托"] = "Default",
 		["殷倾颜 - 罗宁"] = "Default",
 		["Amilus - 燃烧之刃"] = "Default",
 		["西园寺恋 - 白银之手"] = "Default",
@@ -27,9 +27,10 @@ OmniCDDB = {
 		["奶凶的小萝莉 - 蜘蛛王国"] = "Default",
 	},
 	["global"] = {
-		["oodVer"] = 2602,
-		["oodChk"] = 210616,
 		["disableElvMsg"] = true,
+		["oodChk"] = 210623,
+		["oodMsg"] = "|cfff16436 A new update is available. (Hotfix)",
+		["oodVer"] = 2603,
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {

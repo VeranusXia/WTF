@@ -10,7 +10,7 @@ Frame: PlayerPowerBarAlt
 FrameLevel: 2
 Anchor: TOP
 X: 0
-Y: -35
+Y: -34
 W: 10
 H: 10
 Frame: ColorPickerFrame
@@ -19,7 +19,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 241
 Frame: AltconFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -30,7 +30,7 @@ H: 330
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT
-X: -287
+X: -286
 Y: 23
 W: 200
 H: 50

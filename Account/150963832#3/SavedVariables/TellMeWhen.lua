@@ -505,6 +505,60 @@ TellMeWhenDB = {
 				{
 				}, -- [2]
 			},
+			["TMW:textlayout:1Of8K1BLKs7T"] = {
+				{
+					["Anchors"] = {
+						{
+							["point"] = "TOPRIGHT",
+							["relativePoint"] = "TOPRIGHT",
+						}, -- [1]
+						{
+							["y"] = -2,
+							["x"] = -2,
+							["point"] = "TOPRIGHT",
+							["relativePoint"] = "TOPRIGHT",
+						}, -- [2]
+						["n"] = 2,
+					},
+					["DefaultText"] = "[((neh <= MissingHP) / 10000):Round ((MissingHP < neh) / 10000):Round \"w\"]",
+					["Name"] = "默认",
+					["StringName"] = "回复量",
+					["Height"] = 1,
+					["SkinAs"] = "HotKey",
+					["Size"] = 10,
+				}, -- [1]
+				{
+					["Anchors"] = {
+						{
+							["point"] = "BOTTOMLEFT",
+							["relativePoint"] = "BOTTOMLEFT",
+						}, -- [1]
+					},
+					["DefaultText"] = "[((Mastery / 100 * neh) / 10000):Round \"w\"]",
+					["Name"] = "默认",
+					["StringName"] = "护盾值",
+					["SkinAs"] = "Count",
+					["Size"] = 10,
+				}, -- [2]
+				["GUID"] = "TMW:textlayout:1Of8K1BLKs7T",
+				["Name"] = "图标样式 3",
+				["n"] = 2,
+			},
+			["TMW:textlayout:1Rxe3pRa7xP_"] = {
+				{
+					["Outline"] = "OUTLINE",
+					["Anchors"] = {
+						{
+							["point"] = "BOTTOMRIGHT",
+							["relativePoint"] = "BOTTOMRIGHT",
+						}, -- [1]
+					},
+					["Name"] = "默认",
+					["Size"] = 9,
+				}, -- [1]
+				["GUID"] = "TMW:textlayout:1Rxe3pRa7xP_",
+				["Name"] = "技能按键",
+			},
 			["TMW:textlayout:1NaZ=cmnWDS8"] = {
 				{
 					["Anchors"] = {
@@ -545,58 +599,31 @@ TellMeWhenDB = {
 				["Name"] = "计量条显示样式 2",
 				["n"] = 3,
 			},
-			["TMW:textlayout:1Rxe3pRa7xP_"] = {
+			["TMW:textlayout:1NvBttoa5BrF"] = {
 				{
-					["Outline"] = "OUTLINE",
 					["Anchors"] = {
 						{
+							["y"] = 5,
+							["point"] = "TOP",
+							["relativePoint"] = "TOP",
+						}, -- [1]
+					},
+					["StringName"] = "绑定/标签",
+					["Height"] = 1,
+				}, -- [1]
+				{
+					["Anchors"] = {
+						{
+							["x"] = 6,
 							["point"] = "BOTTOMRIGHT",
 							["relativePoint"] = "BOTTOMRIGHT",
 						}, -- [1]
 					},
-					["Name"] = "默认",
-					["Size"] = 9,
-				}, -- [1]
-				["GUID"] = "TMW:textlayout:1Rxe3pRa7xP_",
-				["Name"] = "技能按键",
-			},
-			["TMW:textlayout:1Of8K1BLKs7T"] = {
-				{
-					["Anchors"] = {
-						{
-							["point"] = "TOPRIGHT",
-							["relativePoint"] = "TOPRIGHT",
-						}, -- [1]
-						{
-							["y"] = -2,
-							["x"] = -2,
-							["point"] = "TOPRIGHT",
-							["relativePoint"] = "TOPRIGHT",
-						}, -- [2]
-						["n"] = 2,
-					},
-					["DefaultText"] = "[((neh <= MissingHP) / 10000):Round ((MissingHP < neh) / 10000):Round \"w\"]",
-					["Name"] = "默认",
-					["StringName"] = "回复量",
-					["Height"] = 1,
-					["SkinAs"] = "HotKey",
-					["Size"] = 10,
-				}, -- [1]
-				{
-					["Anchors"] = {
-						{
-							["point"] = "BOTTOMLEFT",
-							["relativePoint"] = "BOTTOMLEFT",
-						}, -- [1]
-					},
-					["DefaultText"] = "[((Mastery / 100 * neh) / 10000):Round \"w\"]",
-					["Name"] = "默认",
-					["StringName"] = "护盾值",
-					["SkinAs"] = "Count",
-					["Size"] = 10,
+					["DefaultText"] = "[Stacks:Hide(0)]",
+					["StringName"] = "叠加数量",
 				}, -- [2]
-				["GUID"] = "TMW:textlayout:1Of8K1BLKs7T",
-				["Name"] = "图标样式 3",
+				["GUID"] = "TMW:textlayout:1NvBttoa5BrF",
+				["Name"] = "图标样式 2",
 				["n"] = 2,
 			},
 			[",Rr\\)h/,f.i["] = {
@@ -626,33 +653,6 @@ TellMeWhenDB = {
 				}, -- [2]
 				["GUID"] = ",Rr\\)h/,f.i[",
 				["Name"] = "森林自用字体",
-				["n"] = 2,
-			},
-			["TMW:textlayout:1NvBttoa5BrF"] = {
-				{
-					["Anchors"] = {
-						{
-							["y"] = 5,
-							["point"] = "TOP",
-							["relativePoint"] = "TOP",
-						}, -- [1]
-					},
-					["StringName"] = "绑定/标签",
-					["Height"] = 1,
-				}, -- [1]
-				{
-					["Anchors"] = {
-						{
-							["x"] = 6,
-							["point"] = "BOTTOMRIGHT",
-							["relativePoint"] = "BOTTOMRIGHT",
-						}, -- [1]
-					},
-					["DefaultText"] = "[Stacks:Hide(0)]",
-					["StringName"] = "叠加数量",
-				}, -- [2]
-				["GUID"] = "TMW:textlayout:1NvBttoa5BrF",
-				["Name"] = "图标样式 2",
 				["n"] = 2,
 			},
 		},
@@ -2190,7 +2190,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[380] = {
+					[24] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -2212,7 +2212,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[24] = {
+					[380] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -2234,7 +2234,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[412] = {
+					[26] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -2278,7 +2278,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[135] = {
+					[269] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -2311,7 +2311,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[269] = {
+					[135] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -2377,7 +2377,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[365] = {
+					[46] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -2564,7 +2564,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[100] = {
+					[398] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -2575,7 +2575,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[398] = {
+					[100] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -2674,7 +2674,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[287] = {
+					[144] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -2982,7 +2982,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[145] = {
+					[289] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -3026,7 +3026,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[289] = {
+					[145] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -3070,7 +3070,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[177] = {
+					[353] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -3169,7 +3169,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[322] = {
+					[81] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -3213,7 +3213,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[89] = {
+					[354] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -3224,7 +3224,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[81] = {
+					[322] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -3246,7 +3246,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[354] = {
+					[89] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -3389,7 +3389,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[353] = {
+					[177] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -3510,7 +3510,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[144] = {
+					[287] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -3587,7 +3587,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[46] = {
+					[365] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -3609,7 +3609,7 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 					},
-					[26] = {
+					[412] = {
 						["States"] = {
 							{
 							}, -- [1]
@@ -3908,19 +3908,19 @@ TellMeWhenDB = {
 								["BitFlags"] = {
 									[63] = true,
 									[262] = true,
-									[62] = true,
+									[105] = true,
 									[264] = true,
 									[265] = true,
 									[266] = true,
 									[267] = true,
-									[105] = true,
+									[62] = true,
 									[64] = true,
 									[270] = true,
 									[102] = true,
 									[257] = true,
-									[65] = true,
-									[256] = true,
 									[258] = true,
+									[256] = true,
+									[65] = true,
 								},
 							}, -- [1]
 							["n"] = 1,
@@ -4230,19 +4230,19 @@ TellMeWhenDB = {
 								["BitFlags"] = {
 									[63] = true,
 									[262] = true,
-									[105] = true,
+									[62] = true,
 									[264] = true,
 									[265] = true,
 									[266] = true,
 									[267] = true,
-									[62] = true,
+									[105] = true,
 									[64] = true,
 									[270] = true,
 									[102] = true,
 									[257] = true,
-									[258] = true,
-									[256] = true,
 									[65] = true,
+									[256] = true,
+									[258] = true,
 								},
 							}, -- [1]
 							["n"] = 1,
@@ -8339,8 +8339,6 @@ TellMeWhenDB = {
 	["profiles"] = {
 		["武僧"] = {
 			["Locked"] = true,
-			["NumGroups"] = 0,
-			["Version"] = 90701,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -8895,6 +8893,8 @@ TellMeWhenDB = {
 					},
 				}, -- [6]
 			},
+			["Version"] = 90701,
+			["NumGroups"] = 0,
 		},
 		["猎人"] = {
 			["Locked"] = true,
@@ -8952,7 +8952,6 @@ TellMeWhenDB = {
 			["NumGroups"] = 0,
 		},
 		["术士"] = {
-			["Locked"] = true,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -9654,11 +9653,12 @@ TellMeWhenDB = {
 			},
 			["NumGroups"] = 0,
 			["Version"] = 90701,
+			["Locked"] = true,
 		},
 		["德鲁伊"] = {
 			["Locked"] = true,
-			["Version"] = 90701,
 			["NumGroups"] = 0,
+			["Version"] = 90701,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -10365,6 +10365,7 @@ TellMeWhenDB = {
 			},
 		},
 		["盗贼"] = {
+			["Locked"] = true,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -11366,12 +11367,9 @@ TellMeWhenDB = {
 			},
 			["NumGroups"] = 0,
 			["Version"] = 90701,
-			["Locked"] = true,
 		},
 		["萨满"] = {
 			["Locked"] = true,
-			["NumGroups"] = 0,
-			["Version"] = 90701,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -11422,6 +11420,8 @@ TellMeWhenDB = {
 					},
 				}, -- [1]
 			},
+			["Version"] = 90701,
+			["NumGroups"] = 0,
 		},
 		["法师"] = {
 			["Locked"] = true,
@@ -19900,8 +19900,8 @@ TellMeWhenDB = {
 					},
 				},
 			},
-			["Version"] = 90701,
 			["NumGroups"] = 0,
+			["Version"] = 90701,
 		},
 		["骑士"] = {
 			["Locked"] = true,

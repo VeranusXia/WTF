@@ -64,8 +64,8 @@ AltconDB = {
 			["profile"] = "焊接机器人 - 罗宁",
 			["challenge"] = {
 			},
-			["ilevel"] = "210.5",
 			["class"] = "WARRIOR",
+			["ilevel"] = "210.5",
 		},
 		["恋绣衾 - 安苏"] = {
 			["profile"] = "恋绣衾 - 安苏",
@@ -419,19 +419,19 @@ AltconDB = {
 			["class"] = "MAGE",
 			["ilevel"] = "8.0",
 		},
-		["拔剑乱杀 - 燃烧之刃"] = {
-			["profile"] = "拔剑乱杀 - 燃烧之刃",
-			["challenge"] = {
-			},
-			["class"] = "WARRIOR",
-			["ilevel"] = "6.2",
-		},
 		["龟裂 - 瓦拉纳"] = {
 			["profile"] = "龟裂 - 瓦拉纳",
 			["challenge"] = {
 			},
 			["class"] = "ROGUE",
 			["ilevel"] = "39.1",
+		},
+		["拔剑乱杀 - 燃烧之刃"] = {
+			["profile"] = "拔剑乱杀 - 燃烧之刃",
+			["challenge"] = {
+			},
+			["class"] = "WARRIOR",
+			["ilevel"] = "6.2",
 		},
 		["电压守 - 瓦拉纳"] = {
 			["profile"] = "电压守 - 瓦拉纳",
@@ -627,7 +627,7 @@ AltconDB = {
 			["challenge"] = {
 			},
 			["class"] = "MONK",
-			["ilevel"] = "225.2",
+			["ilevel"] = "224.3",
 		},
 		["电压观察者 - 瓦拉纳"] = {
 			["profile"] = "电压观察者 - 瓦拉纳",
@@ -647,8 +647,8 @@ AltconDB = {
 			["profile"] = "震击机器人 - 罗宁",
 			["challenge"] = {
 			},
-			["class"] = "SHAMAN",
 			["ilevel"] = "192.6",
+			["class"] = "SHAMAN",
 		},
 	},
 }
