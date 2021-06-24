@@ -28,16 +28,16 @@ CliqueDB3 = {
 		},
 		["倾颜 - 熊猫酒仙"] = {
 			["spec1_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
-			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
-			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Target"] = true,
 				["ElvUF_Player"] = true,
 				["ElvUF_Pet"] = true,
 			},
+			["spec3_profileKey"] = "Default",
+			["downclick"] = false,
+			["spec2_profileKey"] = "Default",
+			["specswap"] = false,
 		},
 		["西园寺恋 - 白银之手"] = {
 			["spec1_profileKey"] = "Default",
@@ -138,15 +138,15 @@ CliqueDB3 = {
 		},
 		["殷倾颜 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
+			["downclick"] = false,
 			["fastooc"] = false,
+			["specswap"] = false,
+			["spec3_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
 			},
-			["spec2_profileKey"] = "Default",
-			["downclick"] = false,
-			["spec3_profileKey"] = "Default",
-			["specswap"] = false,
 		},
 		["焊接机器人 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",

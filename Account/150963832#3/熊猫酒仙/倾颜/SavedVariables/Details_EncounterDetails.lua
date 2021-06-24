@@ -455,15 +455,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "染病恐魔",
 		},
-		[321368] = {
-			["school"] = 16,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "缚霜者纳尔佐",
-		},
 		[333231] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -491,6 +482,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "老练的里克",
 		},
+		[320376] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "缝肉的造物",
+		},
 		[326574] = {
 			["school"] = 32,
 			["token"] = {
@@ -507,14 +506,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "凋骨",
 		},
-		[320376] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "缝肉的造物",
-		},
 		[319626] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -523,6 +514,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "库尔萨洛克",
+		},
+		[321368] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "缚霜者纳尔佐",
 		},
 		[334322] = {
 			["school"] = 40,
@@ -618,14 +618,5 @@ EncounterDetailsDB = {
 		},
 	},
 	["emotes"] = {
-		{
-			["boss"] = "莫德蕾莎",
-		}, -- [1]
-		{
-			["boss"] = "斩血",
-		}, -- [2]
-		{
-			["boss"] = "库尔萨洛克",
-		}, -- [3]
 	},
 }
