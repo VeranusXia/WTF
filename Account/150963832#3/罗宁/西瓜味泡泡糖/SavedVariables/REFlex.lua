@@ -18293,18 +18293,18 @@ REFlexDatabase = {
 				892, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["PlayerNum"] = 2,
 		["PlayersNum"] = 4,
 		["Duration"] = 65,
-		["PlayerNum"] = 2,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isRated"] = true,
-		["Time"] = 1621173999,
-		["Winner"] = 0,
 		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = true,
+		["Time"] = 1621173999,
+		["isRated"] = true,
+		["Version"] = 313,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -18402,18 +18402,18 @@ REFlexDatabase = {
 				892, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["PlayerNum"] = 1,
 		["PlayersNum"] = 4,
 		["Duration"] = 81,
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
-		["isRated"] = true,
-		["Time"] = 1621174195,
-		["Winner"] = 0,
 		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
+		["Time"] = 1621174195,
+		["isRated"] = true,
+		["Version"] = 313,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -18511,18 +18511,18 @@ REFlexDatabase = {
 				892, -- [17]
 			}, -- [4]
 		},
-		["Season"] = 30,
+		["PlayerNum"] = 1,
 		["PlayersNum"] = 4,
 		["Duration"] = 61,
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
-		["isRated"] = true,
-		["Time"] = 1621174371,
-		["Winner"] = 0,
 		["Hidden"] = false,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isArena"] = true,
+		["Time"] = 1621174371,
+		["isRated"] = true,
+		["Version"] = 313,
+		["Winner"] = 0,
+		["Season"] = 30,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -18620,18 +18620,18 @@ REFlexDatabase = {
 				893, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 2,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 49,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621174528,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 1,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621174528,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 1,
+		["PlayerNum"] = 2,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -18729,18 +18729,18 @@ REFlexDatabase = {
 				30, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 4,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 40,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621174645,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 0,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621174645,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 0,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -18838,18 +18838,18 @@ REFlexDatabase = {
 				30, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 4,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 40,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1621174857,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 0,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621174857,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 0,
+		["Winner"] = 0,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -18947,18 +18947,18 @@ REFlexDatabase = {
 				30, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 4,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 82,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1621175165,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 1,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621175165,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 0,
+		["Winner"] = 1,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -19056,18 +19056,18 @@ REFlexDatabase = {
 				37, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 43,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621175461,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 1,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621175461,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -19165,18 +19165,18 @@ REFlexDatabase = {
 				893, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 2,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 39,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621175582,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 1,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621175582,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 1,
+		["PlayerNum"] = 2,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -19274,18 +19274,18 @@ REFlexDatabase = {
 				30, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 4,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 43,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621175698,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 1,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621175698,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 1,
+		["PlayerNum"] = 4,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -19383,18 +19383,18 @@ REFlexDatabase = {
 				130, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 2,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 63,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621175834,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 1,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621175834,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 1,
+		["PlayerNum"] = 2,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -21269,18 +21269,18 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 3,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 26,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621578783,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 0,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621578783,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 0,
+		["PlayerNum"] = 3,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -21300,10 +21300,6 @@ REFlexDatabase = {
 	}, -- [57]
 	{
 		["Map"] = 980,
-		["Duration"] = 33,
-		["Hidden"] = false,
-		["Version"] = 313,
-		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -21317,10 +21313,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Season"] = 30,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
 		["Time"] = 1621578900,
+		["PlayersNum"] = 4,
+		["Duration"] = 33,
+		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -21339,7 +21339,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -21442,18 +21442,18 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 19,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1621579046,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 1,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621579046,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 0,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -21551,18 +21551,18 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 2,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 52,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621579187,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 1,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621579187,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 1,
+		["PlayerNum"] = 2,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -21660,18 +21660,18 @@ REFlexDatabase = {
 				9, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 2,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 45,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1621579348,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 0,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621579348,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 0,
+		["Winner"] = 0,
+		["PlayerNum"] = 2,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -21769,18 +21769,18 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 3,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 76,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621579538,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 0,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621579538,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 0,
+		["PlayerNum"] = 3,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -21878,18 +21878,18 @@ REFlexDatabase = {
 				17, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 2,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 23,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621579645,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 0,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621579645,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 0,
+		["PlayerNum"] = 2,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -21987,18 +21987,18 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 3,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 29,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621579752,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 0,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621579752,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 0,
+		["PlayerNum"] = 3,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -22096,18 +22096,18 @@ REFlexDatabase = {
 				62, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 29,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621579859,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 0,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621579859,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -22205,18 +22205,18 @@ REFlexDatabase = {
 				253, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 47,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621579982,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 0,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621579982,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -22314,18 +22314,18 @@ REFlexDatabase = {
 				18, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 2,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 29,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1621580121,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 1,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621580121,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 0,
+		["Winner"] = 1,
+		["PlayerNum"] = 2,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -22423,18 +22423,18 @@ REFlexDatabase = {
 				36, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 2,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 82,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1621580309,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 1,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621580309,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 0,
+		["Winner"] = 1,
+		["PlayerNum"] = 2,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -22532,18 +22532,18 @@ REFlexDatabase = {
 				1, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 112,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621580504,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 0,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621580504,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -22641,18 +22641,18 @@ REFlexDatabase = {
 				86, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 2,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 58,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1621580672,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 0,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621580672,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 0,
+		["Winner"] = 0,
+		["PlayerNum"] = 2,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -22750,18 +22750,18 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 3,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 37,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 0,
-		["isBrawl"] = false,
-		["Time"] = 1621580800,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 1,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621580800,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 0,
+		["Winner"] = 1,
+		["PlayerNum"] = 3,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -22859,18 +22859,18 @@ REFlexDatabase = {
 				40, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 40,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621580916,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 0,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621580916,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -22968,18 +22968,18 @@ REFlexDatabase = {
 				896, -- [17]
 			}, -- [4]
 		},
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["PlayersNum"] = 4,
 		["Duration"] = 55,
-		["Hidden"] = false,
-		["isArena"] = true,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["Time"] = 1621581055,
-		["isRated"] = true,
-		["Version"] = 313,
-		["Winner"] = 0,
 		["Season"] = 30,
+		["isArena"] = true,
+		["Time"] = 1621581055,
+		["isBrawl"] = false,
+		["Version"] = 313,
+		["isRated"] = true,
+		["PlayerSide"] = 1,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -22999,10 +22999,6 @@ REFlexDatabase = {
 	}, -- [73]
 	{
 		["Map"] = 1672,
-		["Duration"] = 30,
-		["Season"] = 30,
-		["Time"] = 1622013301,
-		["PlayersNum"] = 3,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23016,10 +23012,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 3,
+		["Duration"] = 30,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622013301,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23038,7 +23038,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23063,10 +23063,6 @@ REFlexDatabase = {
 	}, -- [74]
 	{
 		["Map"] = 1911,
-		["Duration"] = 98,
-		["Season"] = 30,
-		["Time"] = 1622013528,
-		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23080,10 +23076,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 0,
+		["PlayersNum"] = 4,
+		["Duration"] = 98,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622013528,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23102,7 +23102,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23127,10 +23127,6 @@ REFlexDatabase = {
 	}, -- [75]
 	{
 		["Map"] = 980,
-		["Duration"] = 24,
-		["Season"] = 30,
-		["Time"] = 1622013634,
-		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23144,10 +23140,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 4,
+		["Duration"] = 24,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622013634,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23166,7 +23166,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23191,10 +23191,6 @@ REFlexDatabase = {
 	}, -- [76]
 	{
 		["Map"] = 2167,
-		["Duration"] = 0,
-		["Season"] = 30,
-		["Time"] = 1622013784,
-		["PlayersNum"] = 3,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23208,10 +23204,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 0,
+		["PlayersNum"] = 3,
+		["Duration"] = 0,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622013784,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23230,7 +23230,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23255,10 +23255,6 @@ REFlexDatabase = {
 	}, -- [77]
 	{
 		["Map"] = 1505,
-		["Duration"] = 56,
-		["Season"] = 30,
-		["Time"] = 1622013988,
-		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23272,10 +23268,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 0,
+		["PlayersNum"] = 4,
+		["Duration"] = 56,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622013988,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23294,7 +23294,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23319,10 +23319,6 @@ REFlexDatabase = {
 	}, -- [78]
 	{
 		["Map"] = 1134,
-		["Duration"] = 32,
-		["Season"] = 30,
-		["Time"] = 1622014173,
-		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23336,10 +23332,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 0,
+		["PlayersNum"] = 4,
+		["Duration"] = 32,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622014173,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23358,7 +23358,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23383,10 +23383,6 @@ REFlexDatabase = {
 	}, -- [79]
 	{
 		["Map"] = 980,
-		["Duration"] = 36,
-		["Season"] = 30,
-		["Time"] = 1622014308,
-		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23400,10 +23396,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 4,
+		["Duration"] = 36,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622014308,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23422,7 +23422,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23447,10 +23447,6 @@ REFlexDatabase = {
 	}, -- [80]
 	{
 		["Map"] = 2373,
-		["Duration"] = 32,
-		["Season"] = 30,
-		["Time"] = 1622014418,
-		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23464,10 +23460,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 4,
+		["Duration"] = 32,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622014418,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23486,7 +23486,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23511,10 +23511,6 @@ REFlexDatabase = {
 	}, -- [81]
 	{
 		["Map"] = 2167,
-		["Duration"] = 100,
-		["Season"] = 30,
-		["Time"] = 1622014642,
-		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23528,10 +23524,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 0,
+		["PlayersNum"] = 4,
+		["Duration"] = 100,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622014642,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23550,7 +23550,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23575,10 +23575,6 @@ REFlexDatabase = {
 	}, -- [82]
 	{
 		["Map"] = 617,
-		["Duration"] = 24,
-		["Season"] = 30,
-		["Time"] = 1622014798,
-		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23592,10 +23588,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 0,
+		["PlayersNum"] = 4,
+		["Duration"] = 24,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622014798,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23614,7 +23614,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23639,10 +23639,6 @@ REFlexDatabase = {
 	}, -- [83]
 	{
 		["Map"] = 2373,
-		["Duration"] = 64,
-		["Season"] = 30,
-		["Time"] = 1622014983,
-		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23656,10 +23652,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 0,
+		["PlayersNum"] = 4,
+		["Duration"] = 64,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622014983,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23678,7 +23678,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23703,10 +23703,6 @@ REFlexDatabase = {
 	}, -- [84]
 	{
 		["Map"] = 1672,
-		["Duration"] = 43,
-		["Season"] = 30,
-		["Time"] = 1622015949,
-		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23720,10 +23716,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 0,
+		["PlayersNum"] = 4,
+		["Duration"] = 43,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622015949,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23742,7 +23742,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23767,10 +23767,6 @@ REFlexDatabase = {
 	}, -- [85]
 	{
 		["Map"] = 617,
-		["Duration"] = 55,
-		["Season"] = 30,
-		["Time"] = 1622016085,
-		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23784,10 +23780,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 4,
+		["Duration"] = 55,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622016085,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23806,7 +23806,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23831,10 +23831,6 @@ REFlexDatabase = {
 	}, -- [86]
 	{
 		["Map"] = 1825,
-		["Duration"] = 134,
-		["Season"] = 30,
-		["Time"] = 1622016352,
-		["PlayersNum"] = 4,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -23848,10 +23844,14 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["PlayerNum"] = 1,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
 		["PlayerSide"] = 1,
+		["PlayersNum"] = 4,
+		["Duration"] = 134,
+		["Hidden"] = false,
+		["isArena"] = false,
+		["Time"] = 1622016352,
+		["isBrawl"] = false,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -23870,7 +23870,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -23975,19 +23975,23 @@ REFlexDatabase = {
 		},
 		["PlayersNum"] = 4,
 		["Duration"] = 50,
-		["Hidden"] = false,
-		["isBrawl"] = false,
-		["PlayerSide"] = 0,
+		["Season"] = 30,
 		["isArena"] = true,
+		["PlayerSide"] = 0,
+		["isBrawl"] = false,
 		["Time"] = 1622232637,
 		["isRated"] = false,
 		["Version"] = 313,
 		["Winner"] = 1,
 		["PlayerNum"] = 3,
-		["Season"] = 30,
+		["Hidden"] = false,
 	}, -- [88]
 	{
 		["Map"] = 1035,
+		["Duration"] = 420,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -24000,15 +24004,11 @@ REFlexDatabase = {
 				6, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["Time"] = 1622267952,
-		["PlayersNum"] = 20,
-		["Duration"] = 420,
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Version"] = 313,
+		["Time"] = 1622267952,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -24027,7 +24027,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -24052,6 +24052,10 @@ REFlexDatabase = {
 	}, -- [89]
 	{
 		["Map"] = 2106,
+		["Duration"] = 262,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -24064,15 +24068,11 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["Time"] = 1622268380,
-		["PlayersNum"] = 20,
-		["Duration"] = 262,
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Version"] = 313,
+		["Time"] = 1622268380,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -24091,7 +24091,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -24116,6 +24116,10 @@ REFlexDatabase = {
 	}, -- [90]
 	{
 		["Map"] = 726,
+		["Duration"] = 311,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -24128,15 +24132,11 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["Time"] = 1622268950,
-		["PlayersNum"] = 20,
-		["Duration"] = 311,
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Version"] = 313,
+		["Time"] = 1622268950,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -24155,7 +24155,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -24180,6 +24180,10 @@ REFlexDatabase = {
 	}, -- [91]
 	{
 		["Map"] = 761,
+		["Duration"] = 207,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -24192,15 +24196,11 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["Time"] = 1622269326,
-		["PlayersNum"] = 20,
-		["Duration"] = 207,
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Version"] = 313,
+		["Time"] = 1622269326,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -24219,7 +24219,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -24244,6 +24244,10 @@ REFlexDatabase = {
 	}, -- [92]
 	{
 		["Map"] = 726,
+		["Duration"] = 404,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -24256,15 +24260,11 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["Time"] = 1622269900,
-		["PlayersNum"] = 20,
-		["Duration"] = 404,
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Version"] = 313,
+		["Time"] = 1622269900,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -24283,7 +24283,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -24308,6 +24308,10 @@ REFlexDatabase = {
 	}, -- [93]
 	{
 		["Map"] = 1035,
+		["Duration"] = 140,
+		["PlayerNum"] = 1,
+		["PlayerSide"] = 1,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -24320,15 +24324,11 @@ REFlexDatabase = {
 				8, -- [3]
 			}, -- [2]
 		},
-		["Season"] = 30,
-		["Time"] = 1622270250,
-		["PlayersNum"] = 20,
-		["Duration"] = 140,
-		["PlayerNum"] = 1,
+		["Hidden"] = false,
 		["isArena"] = false,
-		["Version"] = 313,
+		["Time"] = 1622270250,
 		["isBrawl"] = false,
-		["PlayerSide"] = 1,
+		["Version"] = 313,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -24347,7 +24347,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -24488,18 +24488,18 @@ REFlexDatabase = {
 				50, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 56,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622844269,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 0,
-		["Winner"] = 0,
 		["PlayerNum"] = 1,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = true,
+		["Time"] = 1622844269,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -26416,18 +26416,18 @@ REFlexDatabase = {
 				16, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 18,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622847019,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 0,
-		["Winner"] = 0,
 		["PlayerNum"] = 1,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = true,
+		["Time"] = 1622847019,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -26563,18 +26563,18 @@ REFlexDatabase = {
 				4, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 27,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622847127,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 1,
-		["Winner"] = 1,
 		["PlayerNum"] = 1,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = true,
+		["Time"] = 1622847127,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -26691,18 +26691,18 @@ REFlexDatabase = {
 				40, -- [17]
 			}, -- [5]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 5,
 		["Duration"] = 36,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622847242,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 1,
-		["Winner"] = 1,
 		["PlayerNum"] = 1,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = true,
+		["Time"] = 1622847242,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -26838,18 +26838,18 @@ REFlexDatabase = {
 				166, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 65,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622847387,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 1,
-		["Winner"] = 0,
 		["PlayerNum"] = 5,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = true,
+		["Time"] = 1622847387,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -26985,18 +26985,18 @@ REFlexDatabase = {
 				100, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 48,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622847571,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 0,
-		["Winner"] = 0,
 		["PlayerNum"] = 2,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = true,
+		["Time"] = 1622847571,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -27132,18 +27132,18 @@ REFlexDatabase = {
 				174, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 67,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622847886,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 0,
-		["Winner"] = 1,
 		["PlayerNum"] = 5,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = true,
+		["Time"] = 1622847886,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -27279,18 +27279,18 @@ REFlexDatabase = {
 				32, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 74,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622848050,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 1,
-		["Winner"] = 0,
 		["PlayerNum"] = 5,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = true,
+		["Time"] = 1622848050,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -27426,18 +27426,18 @@ REFlexDatabase = {
 				8, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 42,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622848182,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 1,
-		["Winner"] = 1,
 		["PlayerNum"] = 2,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = true,
+		["Time"] = 1622848182,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -27573,18 +27573,18 @@ REFlexDatabase = {
 				14, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 50,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622848702,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 1,
-		["Winner"] = 1,
 		["PlayerNum"] = 1,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = true,
+		["Time"] = 1622848702,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -27720,18 +27720,18 @@ REFlexDatabase = {
 				7, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 66,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622848994,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 0,
-		["Winner"] = 1,
 		["PlayerNum"] = 5,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 0,
+		["isRated"] = true,
+		["Time"] = 1622848994,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -27867,18 +27867,18 @@ REFlexDatabase = {
 				150, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 27,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622849124,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 1,
-		["Winner"] = 1,
 		["PlayerNum"] = 2,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = true,
+		["Time"] = 1622849124,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -28014,18 +28014,18 @@ REFlexDatabase = {
 				66, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 52,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622849255,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 1,
-		["Winner"] = 0,
 		["PlayerNum"] = 1,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = true,
+		["Time"] = 1622849255,
+		["Winner"] = 0,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -28161,18 +28161,18 @@ REFlexDatabase = {
 				7, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 33,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622849385,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 1,
-		["Winner"] = 1,
 		["PlayerNum"] = 2,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = true,
+		["Time"] = 1622849385,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -28308,18 +28308,18 @@ REFlexDatabase = {
 				66, -- [17]
 			}, -- [6]
 		},
-		["Hidden"] = false,
+		["Season"] = 30,
 		["PlayersNum"] = 6,
 		["Duration"] = 95,
-		["Season"] = 30,
-		["isArena"] = true,
-		["Time"] = 1622849561,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isRated"] = true,
-		["PlayerSide"] = 1,
-		["Winner"] = 1,
 		["PlayerNum"] = 1,
+		["isArena"] = true,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = true,
+		["Time"] = 1622849561,
+		["Winner"] = 1,
+		["Hidden"] = false,
 		["TeamData"] = {
 			{
 				"", -- [1]
@@ -28360,15 +28360,26 @@ REFlexDatabase = {
 				32, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 470,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1623734298,
-		["isArena"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1623734298,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -28387,19 +28398,8 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
+		["PlayerNum"] = 1,
+		["Duration"] = 470,
 	}, -- [114]
 	{
 		["Map"] = 2245,
@@ -28424,15 +28424,26 @@ REFlexDatabase = {
 				32, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 415,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1623734869,
-		["isArena"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1623734869,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -28451,19 +28462,8 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
+		["PlayerNum"] = 1,
+		["Duration"] = 415,
 	}, -- [115]
 	{
 		["Map"] = 2107,
@@ -28488,15 +28488,26 @@ REFlexDatabase = {
 				32, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 241,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1623735530,
-		["isArena"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1623735530,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -28515,19 +28526,8 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
+		["PlayerNum"] = 1,
+		["Duration"] = 241,
 	}, -- [116]
 	{
 		["Map"] = 761,
@@ -28552,15 +28552,26 @@ REFlexDatabase = {
 				32, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 154,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1623735865,
-		["isArena"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1623735865,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -28579,19 +28590,8 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
+		["PlayerNum"] = 1,
+		["Duration"] = 154,
 	}, -- [117]
 	{
 		["Map"] = 761,
@@ -28616,15 +28616,26 @@ REFlexDatabase = {
 				32, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 162,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1623736289,
-		["isArena"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1623736289,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -28643,19 +28654,8 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
+		["PlayerNum"] = 1,
+		["Duration"] = 162,
 	}, -- [118]
 	{
 		["Map"] = 2107,
@@ -28680,15 +28680,26 @@ REFlexDatabase = {
 				32, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 169,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1623736728,
-		["isArena"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1623736728,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -28707,19 +28718,8 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
+		["PlayerNum"] = 1,
+		["Duration"] = 169,
 	}, -- [119]
 	{
 		["Map"] = 2245,
@@ -28744,15 +28744,26 @@ REFlexDatabase = {
 				32, -- [17]
 			}, -- [1]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 229,
 		["Hidden"] = false,
-		["isBrawl"] = false,
-		["Time"] = 1623737142,
-		["isArena"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1623737142,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -28771,22 +28782,15 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
-			}, -- [2]
-		},
+		["PlayerNum"] = 1,
+		["Duration"] = 229,
 	}, -- [120]
 	{
 		["Map"] = 2107,
+		["Duration"] = 163,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -28799,15 +28803,11 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 163,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["isArena"] = false,
-		["Time"] = 1624086484,
+		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Version"] = 313,
+		["Time"] = 1624086484,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -28826,7 +28826,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -28851,6 +28851,10 @@ REFlexDatabase = {
 	}, -- [121]
 	{
 		["Map"] = 761,
+		["Duration"] = 174,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -28863,15 +28867,11 @@ REFlexDatabase = {
 				5, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 174,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["isArena"] = false,
-		["Time"] = 1624086986,
+		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Version"] = 313,
+		["Time"] = 1624086986,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -28890,7 +28890,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 0,
-		["Season"] = 30,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -28915,6 +28915,10 @@ REFlexDatabase = {
 	}, -- [122]
 	{
 		["Map"] = 2106,
+		["Duration"] = 275,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				1, -- [1]
@@ -28927,15 +28931,11 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 20,
-		["Duration"] = 275,
-		["Hidden"] = false,
+		["Season"] = 30,
 		["isArena"] = false,
-		["Time"] = 1624087435,
+		["PlayerSide"] = 1,
 		["isBrawl"] = false,
-		["Version"] = 313,
+		["Time"] = 1624087435,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -28954,7 +28954,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -29425,22 +29425,6 @@ REFlexDatabase = {
 	}, -- [124]
 	{
 		["Map"] = 727,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
-		["PlayerNum"] = 1,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				3, -- [2]
-				7, -- [3]
-			}, -- [2]
-		},
 		["Hidden"] = false,
 		["Players"] = {
 			{
@@ -29463,9 +29447,14 @@ REFlexDatabase = {
 				33, -- [17]
 			}, -- [1]
 		},
-		["Time"] = 1624166498,
-		["isArena"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 343,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1624166498,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -29484,15 +29473,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 343,
-	}, -- [125]
-	{
-		["Map"] = 2107,
-		["PlayerSide"] = 1,
-		["isBrawl"] = false,
 		["PlayerNum"] = 1,
-		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -29500,11 +29481,14 @@ REFlexDatabase = {
 				7, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
+				0, -- [1]
 				3, -- [2]
-				6, -- [3]
+				7, -- [3]
 			}, -- [2]
 		},
+	}, -- [125]
+	{
+		["Map"] = 2107,
 		["Hidden"] = false,
 		["Players"] = {
 			{
@@ -29527,9 +29511,14 @@ REFlexDatabase = {
 				33, -- [17]
 			}, -- [1]
 		},
-		["Time"] = 1624167405,
-		["isArena"] = false,
 		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["Duration"] = 479,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isArena"] = false,
+		["Time"] = 1624167405,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
@@ -29548,141 +29537,7 @@ REFlexDatabase = {
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Season"] = 30,
-		["Duration"] = 479,
-	}, -- [126]
-	{
-		["Map"] = 2222,
-		["PlayerSide"] = 1,
-		["PlayersNum"] = 0,
-		["Duration"] = 0,
-		["Hidden"] = true,
-		["isArena"] = false,
-		["Version"] = 313,
-		["isBrawl"] = false,
-		["Time"] = 1624169698,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Players"] = {
-		},
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-			}, -- [2]
-		},
-		["Season"] = 30,
-	}, -- [127]
-	{
-		["Map"] = 2222,
-		["Hidden"] = true,
-		["PlayersNum"] = 0,
-		["Duration"] = 0,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-			}, -- [2]
-		},
-		["Players"] = {
-		},
-		["isBrawl"] = false,
-		["Time"] = 1624252362,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Version"] = 313,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
-	}, -- [128]
-	{
-		["Map"] = 2222,
-		["Hidden"] = true,
-		["PlayersNum"] = 0,
-		["Duration"] = 0,
-		["Season"] = 30,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-			}, -- [2]
-		},
-		["Players"] = {
-		},
-		["isBrawl"] = false,
-		["Time"] = 1624252962,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [1]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			}, -- [2]
-		},
-		["Version"] = 313,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
-	}, -- [129]
-	{
-		["Map"] = 2107,
-		["Hidden"] = false,
+		["PlayerNum"] = 1,
 		["BGComposition"] = {
 			{
 				0, -- [1]
@@ -29695,11 +29550,177 @@ REFlexDatabase = {
 				6, -- [3]
 			}, -- [2]
 		},
+	}, -- [126]
+	{
+		["Map"] = 2222,
 		["Version"] = 313,
-		["PlayersNum"] = 20,
+		["PlayersNum"] = 0,
+		["Duration"] = 0,
+		["Season"] = 30,
+		["isBrawl"] = false,
+		["Time"] = 1624169698,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Players"] = {
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = true,
+	}, -- [127]
+	{
+		["Map"] = 2222,
+		["Season"] = 30,
+		["PlayersNum"] = 0,
+		["Duration"] = 0,
+		["Hidden"] = true,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			}, -- [2]
+		},
+		["Players"] = {
+		},
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Time"] = 1624252362,
+		["isBrawl"] = false,
+		["Version"] = 313,
+	}, -- [128]
+	{
+		["Map"] = 2222,
+		["Season"] = 30,
+		["PlayersNum"] = 0,
+		["Duration"] = 0,
+		["Hidden"] = true,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+			}, -- [2]
+		},
+		["Players"] = {
+		},
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Time"] = 1624252962,
+		["isBrawl"] = false,
+		["Version"] = 313,
+	}, -- [129]
+	{
+		["Map"] = 2107,
 		["Duration"] = 191,
 		["Season"] = 30,
+		["Time"] = 1624253507,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
 		["PlayerNum"] = 1,
+		["isArena"] = false,
+		["Version"] = 313,
+		["isBrawl"] = false,
+		["PlayerSide"] = 1,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				10, -- [2]
+				11, -- [3]
+				7, -- [4]
+				8, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
 		["Players"] = {
 			{
 				"西瓜味泡泡糖", -- [1]
@@ -29721,34 +29742,8469 @@ REFlexDatabase = {
 				33, -- [17]
 			}, -- [1]
 		},
+		["Hidden"] = false,
+	}, -- [130]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 180,
+		["PlayerNum"] = 9,
+		["isBrawl"] = false,
+		["Time"] = 1624683890,
+		["Players"] = {
+			{
+				"大胡子美人-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1720, -- [12]
+				7, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				29, -- [17]
+			}, -- [1]
+			{
+				"七次乄一夜-贫瘠之地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				28381, -- [10]
+				37335, -- [11]
+				1635, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				28, -- [17]
+			}, -- [2]
+			{
+				"彩牛-神圣之歌", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				39885, -- [10]
+				0, -- [11]
+				1622, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				27, -- [17]
+			}, -- [3]
+			{
+				"西野-海加尔", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"玛格汉兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1622, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				112, -- [17]
+			}, -- [4]
+			{
+				"山灬馿灬逼-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"玛格汉兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1617, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				37, -- [17]
+			}, -- [5]
+			{
+				"大长腿柯基-战歌", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1595, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				47, -- [17]
+			}, -- [6]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				2, -- [2]
+				4, -- [3]
+				0, -- [4]
+				125, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				31365, -- [10]
+				0, -- [11]
+				1581, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				39, -- [17]
+			}, -- [7]
+			{
+				"风月阑珊-熊猫酒仙", -- [1]
+				1, -- [2]
+				4, -- [3]
+				0, -- [4]
+				125, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				32907, -- [10]
+				5603, -- [11]
+				1576, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				16, -- [17]
+			}, -- [8]
+			{
+				"西瓜味泡泡糖", -- [1]
+				1, -- [2]
+				4, -- [3]
+				0, -- [4]
+				125, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				76642, -- [10]
+				6941, -- [11]
+				1548, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				33, -- [17]
+			}, -- [9]
+			{
+				"大官人丶", -- [1]
+				0, -- [2]
+				4, -- [3]
+				0, -- [4]
+				125, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				61553, -- [10]
+				417, -- [11]
+				1539, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				35, -- [17]
+			}, -- [10]
+			{
+				"辛幼熏-白银之手", -- [1]
+				0, -- [2]
+				4, -- [3]
+				0, -- [4]
+				125, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				12188, -- [10]
+				26666, -- [11]
+				1520, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				107, -- [17]
+			}, -- [11]
+			{
+				"吉尔尼斯之手-海克泰尔", -- [1]
+				0, -- [2]
+				4, -- [3]
+				0, -- [4]
+				125, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				3505, -- [10]
+				0, -- [11]
+				1514, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"生存", -- [16]
+				18, -- [17]
+			}, -- [12]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				4, -- [3]
+				0, -- [4]
+				125, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				24538, -- [11]
+				1504, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				43, -- [17]
+			}, -- [13]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				4, -- [3]
+				0, -- [4]
+				125, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1489, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				73, -- [17]
+			}, -- [14]
+			{
+				"岄神-壁炉谷", -- [1]
+				0, -- [2]
+				4, -- [3]
+				0, -- [4]
+				125, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				11757, -- [11]
+				1460, -- [12]
+				-8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				95, -- [17]
+			}, -- [15]
+			{
+				"缺德兽-贫瘠之地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				51890, -- [11]
+				1401, -- [12]
+				66, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				28, -- [17]
+			}, -- [16]
+			{
+				"五色欧那斯-奥特兰克", -- [1]
+				0, -- [2]
+				4, -- [3]
+				0, -- [4]
+				125, -- [5]
+				1, -- [6]
+				"矮人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				602, -- [11]
+				1277, -- [12]
+				-4, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				10, -- [17]
+			}, -- [17]
+			{
+				"吃好喝好玩好-燃烧之刃", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				6203, -- [10]
+				42, -- [11]
+				1137, -- [12]
+				176, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				74, -- [17]
+			}, -- [18]
+			{
+				"香菜枸杞饭-迅捷微风", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"狐人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1136, -- [12]
+				176, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				131, -- [17]
+			}, -- [19]
+			{
+				"卿偌梦-凤凰之神", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"熊猫人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				384, -- [12]
+				192, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"元素", -- [16]
+				75, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 761,
 		["isArena"] = false,
-		["Time"] = 1624253507,
-		["isRated"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				6, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1582, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1555, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [131]
+	{
+		["PlayerStats"] = {
+			1, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 166,
+		["PlayerNum"] = 3,
+		["isBrawl"] = false,
+		["Time"] = 1624684226,
+		["Players"] = {
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				1, -- [2]
+				2, -- [3]
+				0, -- [4]
+				259, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				11252, -- [10]
+				0, -- [11]
+				1569, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				39, -- [17]
+			}, -- [1]
+			{
+				"风月阑珊-熊猫酒仙", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				255, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1564, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				16, -- [17]
+			}, -- [2]
+			{
+				"西瓜味泡泡糖", -- [1]
+				0, -- [2]
+				2, -- [3]
+				0, -- [4]
+				259, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				370, -- [10]
+				0, -- [11]
+				1537, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				33, -- [17]
+			}, -- [3]
+			{
+				"大官人丶", -- [1]
+				0, -- [2]
+				2, -- [3]
+				0, -- [4]
+				259, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				43727, -- [10]
+				384, -- [11]
+				1528, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				35, -- [17]
+			}, -- [4]
+			{
+				"搬山魁首-安格博达", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"地精", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1524, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"毁灭", -- [16]
+				128, -- [17]
+			}, -- [5]
+			{
+				"炙刃炎舞-燃烧之刃", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1519, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				37, -- [17]
+			}, -- [6]
+			{
+				"丶曾小贤-奈法利安", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				36188, -- [10]
+				15593, -- [11]
+				1511, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				44, -- [17]
+			}, -- [7]
+			{
+				"辛幼熏-白银之手", -- [1]
+				1, -- [2]
+				2, -- [3]
+				0, -- [4]
+				259, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				2000, -- [10]
+				0, -- [11]
+				1510, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				107, -- [17]
+			}, -- [8]
+			{
+				"吉尔尼斯之手-海克泰尔", -- [1]
+				0, -- [2]
+				2, -- [3]
+				0, -- [4]
+				259, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				4472, -- [10]
+				0, -- [11]
+				1504, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"生存", -- [16]
+				18, -- [17]
+			}, -- [9]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				2, -- [3]
+				0, -- [4]
+				259, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				28599, -- [11]
+				1495, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				43, -- [17]
+			}, -- [10]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				257, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1480, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				73, -- [17]
+			}, -- [11]
+			{
+				"不要焦绿-伊森利恩", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1456, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				38, -- [17]
+			}, -- [12]
+			{
+				"岄神-壁炉谷", -- [1]
+				0, -- [2]
+				2, -- [3]
+				0, -- [4]
+				259, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				6213, -- [11]
+				1452, -- [12]
+				26, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				95, -- [17]
+			}, -- [13]
+			{
+				"微微晓风行者-巫妖之王", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1450, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				203, -- [17]
+			}, -- [14]
+			{
+				"塔纳-暗影议会", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1419, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"复仇", -- [16]
+				18, -- [17]
+			}, -- [15]
+			{
+				"咸鱼风行者-影之哀伤", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1398, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"射击", -- [16]
+				148, -- [17]
+			}, -- [16]
+			{
+				"双采集-塞拉赞恩", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"至高岭牛头人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1335, -- [12]
+				-7, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"平衡", -- [16]
+				237, -- [17]
+			}, -- [17]
+			{
+				"臭脚吖子-冰风岗", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"玛格汉兽人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1294, -- [12]
+				-6, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				74, -- [17]
+			}, -- [18]
+			{
+				"五色欧那斯-奥特兰克", -- [1]
+				0, -- [2]
+				2, -- [3]
+				0, -- [4]
+				259, -- [5]
+				1, -- [6]
+				"矮人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				8194, -- [10]
+				0, -- [11]
+				1273, -- [12]
+				68, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				10, -- [17]
+			}, -- [19]
+			{
+				"猫离尘-迦拉克隆", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"惩戒", -- [16]
+				9, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 2107,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				3, -- [1]
+				1, -- [2]
+				1, -- [3]
+				6, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				3, -- [1]
+				1, -- [2]
+				1, -- [3]
+				7, -- [4]
+				5, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1477, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1486, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [132]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 154,
+		["PlayerNum"] = 7,
+		["isBrawl"] = false,
+		["Time"] = 1624684693,
+		["Players"] = {
+			{
+				"见青山-冰风岗", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1640, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				18, -- [17]
+			}, -- [1]
+			{
+				"悠悠幽幽-艾森娜", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				5593, -- [10]
+				0, -- [11]
+				1615, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				25, -- [17]
+			}, -- [2]
+			{
+				"燃泯-格瑞姆巴托", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"夜之子", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1604, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				39, -- [17]
+			}, -- [3]
+			{
+				"囿囿呦呦-艾森娜", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				13718, -- [10]
+				0, -- [11]
+				1584, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"射击", -- [16]
+				11, -- [17]
+			}, -- [4]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				122, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				22825, -- [10]
+				911, -- [11]
+				1578, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				39, -- [17]
+			}, -- [5]
+			{
+				"风月阑珊-熊猫酒仙", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				122, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1573, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				16, -- [17]
+			}, -- [6]
+			{
+				"西瓜味泡泡糖", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				122, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1547, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				33, -- [17]
+			}, -- [7]
+			{
+				"大官人丶", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				122, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				7114, -- [10]
+				44, -- [11]
+				1538, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				35, -- [17]
+			}, -- [8]
+			{
+				"小浩子爱吃油-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				17473, -- [11]
+				1527, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				14, -- [17]
+			}, -- [9]
+			{
+				"辛幼熏-白银之手", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				122, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1521, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				107, -- [17]
+			}, -- [10]
+			{
+				"吉尔尼斯之手-海克泰尔", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				122, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				21926, -- [10]
+				0, -- [11]
+				1515, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"生存", -- [16]
+				18, -- [17]
+			}, -- [11]
+			{
+				"幽郁的逗逼-黑铁", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1507, -- [12]
+				14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"防护", -- [16]
+				24, -- [17]
+			}, -- [12]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				122, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1506, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				43, -- [17]
+			}, -- [13]
+			{
+				"無视感应-海克泰尔", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1497, -- [12]
+				14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				139, -- [17]
+			}, -- [14]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				122, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1492, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [15]
+			{
+				"岄神-壁炉谷", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				122, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				3200, -- [10]
+				27839, -- [11]
+				1478, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				95, -- [17]
+			}, -- [16]
+			{
+				"魏婴-燃烧之刃", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				8520, -- [10]
+				2260, -- [11]
+				1395, -- [12]
+				17, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"毁灭", -- [16]
+				39, -- [17]
+			}, -- [17]
+			{
+				"五色欧那斯-奥特兰克", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				122, -- [5]
+				1, -- [6]
+				"矮人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				4796, -- [10]
+				0, -- [11]
+				1341, -- [12]
+				-5, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				10, -- [17]
+			}, -- [18]
+			{
+				"熊喵三拳-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1309, -- [12]
+				156, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				17, -- [17]
+			}, -- [19]
+			{
+				"兵乒乓乒乓丘-冰风岗", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				361, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				11203, -- [10]
+				4619, -- [11]
+				763, -- [12]
+				190, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				84, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 761,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				6, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				1, -- [2]
+				11, -- [3]
+				10, -- [4]
+				7, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1553, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1561, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [133]
+	{
+		["PlayerStats"] = {
+			2, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 319,
+		["PlayerNum"] = 6,
+		["isBrawl"] = false,
+		["Time"] = 1624685236,
+		["Players"] = {
+			{
+				"咿呦丶", -- [1]
+				1, -- [2]
+				6, -- [3]
+				1, -- [4]
+				172, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				172685, -- [10]
+				29854, -- [11]
+				1618, -- [12]
+				-16, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				46, -- [17]
+			}, -- [1]
+			{
+				"Approx-影之哀伤", -- [1]
+				1, -- [2]
+				7, -- [3]
+				2, -- [4]
+				173, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				140952, -- [10]
+				5160, -- [11]
+				1581, -- [12]
+				-15, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				20, -- [17]
+			}, -- [2]
+			{
+				"Leenima-贫瘠之地", -- [1]
+				0, -- [2]
+				5, -- [3]
+				1, -- [4]
+				169, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				13984, -- [10]
+				21650, -- [11]
+				1569, -- [12]
+				-15, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"元素", -- [16]
+				4, -- [17]
+			}, -- [3]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				5, -- [2]
+				20, -- [3]
+				1, -- [4]
+				408, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				406903, -- [10]
+				26124, -- [11]
+				1565, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				39, -- [17]
+			}, -- [4]
+			{
+				"风月阑珊-熊猫酒仙", -- [1]
+				3, -- [2]
+				20, -- [3]
+				1, -- [4]
+				408, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				132421, -- [10]
+				18961, -- [11]
+				1560, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				16, -- [17]
+			}, -- [5]
+			{
+				"西瓜味泡泡糖", -- [1]
+				1, -- [2]
+				13, -- [3]
+				0, -- [4]
+				394, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				25749, -- [10]
+				884, -- [11]
+				1535, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"复仇", -- [16]
+				33, -- [17]
+			}, -- [6]
+			{
+				"维克希尔-安苏", -- [1]
+				1, -- [2]
+				4, -- [3]
+				3, -- [4]
+				168, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				133852, -- [10]
+				30269, -- [11]
+				1532, -- [12]
+				-14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				6, -- [17]
+			}, -- [7]
+			{
+				"蒙迪欧-弗塞雷迦", -- [1]
+				1, -- [2]
+				4, -- [3]
+				3, -- [4]
+				168, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				67296, -- [10]
+				14958, -- [11]
+				1531, -- [12]
+				-14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				68, -- [17]
+			}, -- [8]
+			{
+				"胸前纹青龙-熔火之心", -- [1]
+				1, -- [2]
+				7, -- [3]
+				3, -- [4]
+				173, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				34696, -- [10]
+				49090, -- [11]
+				1529, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"酒仙", -- [16]
+				39, -- [17]
+			}, -- [9]
+			{
+				"大官人丶", -- [1]
+				8, -- [2]
+				19, -- [3]
+				1, -- [4]
+				406, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				238449, -- [10]
+				10900, -- [11]
+				1527, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				35, -- [17]
+			}, -- [10]
+			{
+				"辛幼熏-白银之手", -- [1]
+				1, -- [2]
+				18, -- [3]
+				1, -- [4]
+				404, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				16712, -- [10]
+				142015, -- [11]
+				1510, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				107, -- [17]
+			}, -- [11]
+			{
+				"吉尔尼斯之手-海克泰尔", -- [1]
+				1, -- [2]
+				16, -- [3]
+				1, -- [4]
+				400, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				61821, -- [10]
+				15434, -- [11]
+				1504, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"生存", -- [16]
+				18, -- [17]
+			}, -- [12]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				14, -- [3]
+				2, -- [4]
+				396, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				158605, -- [11]
+				1496, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				43, -- [17]
+			}, -- [13]
+			{
+				"痛苦之源-伊瑟拉", -- [1]
+				3, -- [2]
+				7, -- [3]
+				2, -- [4]
+				173, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				126026, -- [10]
+				33182, -- [11]
+				1492, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"毁灭", -- [16]
+				99, -- [17]
+			}, -- [14]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				20, -- [3]
+				0, -- [4]
+				408, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				37512, -- [10]
+				0, -- [11]
+				1482, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [15]
+			{
+				"岄神-壁炉谷", -- [1]
+				0, -- [2]
+				20, -- [3]
+				0, -- [4]
+				408, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				3383, -- [10]
+				139056, -- [11]
+				1469, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				95, -- [17]
+			}, -- [16]
+			{
+				"五色欧那斯-奥特兰克", -- [1]
+				1, -- [2]
+				15, -- [3]
+				2, -- [4]
+				398, -- [5]
+				1, -- [6]
+				"矮人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				55618, -- [10]
+				33852, -- [11]
+				1336, -- [12]
+				64, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				10, -- [17]
+			}, -- [17]
+			{
+				"Arllg-冰霜之刃", -- [1]
+				0, -- [2]
+				7, -- [3]
+				1, -- [4]
+				173, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				10087, -- [11]
+				955, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				8, -- [17]
+			}, -- [18]
+			{
+				"我成为光啦-鬼雾峰", -- [1]
+				0, -- [2]
+				6, -- [3]
+				1, -- [4]
+				172, -- [5]
+				0, -- [6]
+				"巨魔", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				3707, -- [11]
+				766, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				8, -- [17]
+			}, -- [19]
+			{
+				"糟老头皮皮宣-安苏", -- [1]
+				0, -- [2]
+				5, -- [3]
+				3, -- [4]
+				170, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				97402, -- [10]
+				96036, -- [11]
+				576, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"生存", -- [16]
+				129, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 726,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				4, -- [1]
+				10, -- [2]
+				10, -- [3]
+				7, -- [4]
+				9, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				10, -- [2]
+				10, -- [3]
+				14, -- [4]
+				19, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1504, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1486, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [134]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+			50, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 230,
+		["PlayerNum"] = 5,
+		["isBrawl"] = false,
+		["Time"] = 1624685988,
+		["Players"] = {
+			{
+				"暗影利刃-索瑞森", -- [1]
+				1, -- [2]
+				2, -- [3]
+				1, -- [4]
+				273, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				37309, -- [10]
+				9108, -- [11]
+				1658, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				69, -- [17]
+			}, -- [1]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				3, -- [2]
+				8, -- [3]
+				0, -- [4]
+				61, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				132844, -- [10]
+				19162, -- [11]
+				1575, -- [12]
+				-14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				39, -- [17]
+			}, -- [2]
+			{
+				"加菲丶-埃德萨拉", -- [1]
+				0, -- [2]
+				3, -- [3]
+				0, -- [4]
+				275, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				17284, -- [10]
+				0, -- [11]
+				1551, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				3, -- [17]
+			}, -- [3]
+			{
+				"寒蝉冥泣-安加萨", -- [1]
+				0, -- [2]
+				3, -- [3]
+				1, -- [4]
+				275, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				22356, -- [10]
+				14923, -- [11]
+				1549, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野性", -- [16]
+				196, -- [17]
+			}, -- [4]
+			{
+				"西瓜味泡泡糖", -- [1]
+				5, -- [2]
+				9, -- [3]
+				0, -- [4]
+				64, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				144634, -- [10]
+				28268, -- [11]
+				1546, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				33, -- [17]
+			}, -- [5]
+			{
+				"大官人丶", -- [1]
+				2, -- [2]
+				5, -- [3]
+				1, -- [4]
+				57, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				66148, -- [10]
+				865, -- [11]
+				1538, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				35, -- [17]
+			}, -- [6]
+			{
+				"银色满际-凤凰之神", -- [1]
+				0, -- [2]
+				2, -- [3]
+				0, -- [4]
+				273, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				976, -- [10]
+				0, -- [11]
+				1536, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				96, -- [17]
+			}, -- [7]
+			{
+				"大少爷-银月", -- [1]
+				0, -- [2]
+				3, -- [3]
+				2, -- [4]
+				275, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				44601, -- [10]
+				15459, -- [11]
+				1530, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				10, -- [17]
+			}, -- [8]
+			{
+				"辛幼熏-白银之手", -- [1]
+				0, -- [2]
+				7, -- [3]
+				0, -- [4]
+				59, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				15575, -- [11]
+				1522, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				107, -- [17]
+			}, -- [9]
+			{
+				"哞哞叫的牛丶-凤凰之神", -- [1]
+				0, -- [2]
+				1, -- [3]
+				2, -- [4]
+				271, -- [5]
+				0, -- [6]
+				"至高岭牛头人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				34266, -- [10]
+				0, -- [11]
+				1519, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				19, -- [17]
+			}, -- [10]
+			{
+				"吉尔尼斯之手-海克泰尔", -- [1]
+				0, -- [2]
+				7, -- [3]
+				0, -- [4]
+				59, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				2208, -- [10]
+				0, -- [11]
+				1516, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"生存", -- [16]
+				19, -- [17]
+			}, -- [11]
+			{
+				"百花繚亂-闪电之刃", -- [1]
+				0, -- [2]
+				3, -- [3]
+				1, -- [4]
+				275, -- [5]
+				0, -- [6]
+				"巨魔", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				9272, -- [10]
+				3826, -- [11]
+				1515, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"邪恶", -- [16]
+				130, -- [17]
+			}, -- [12]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				6, -- [3]
+				1, -- [4]
+				59, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				14487, -- [10]
+				130456, -- [11]
+				1508, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				43, -- [17]
+			}, -- [13]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				8, -- [3]
+				0, -- [4]
+				61, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1495, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [14]
+			{
+				"岄神-壁炉谷", -- [1]
+				0, -- [2]
+				9, -- [3]
+				0, -- [4]
+				65, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				785, -- [10]
+				59320, -- [11]
+				1482, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				95, -- [17]
+			}, -- [15]
+			{
+				"Mctavish-凤凰之神", -- [1]
+				0, -- [2]
+				1, -- [3]
+				1, -- [4]
+				271, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				24472, -- [10]
+				932, -- [11]
+				1470, -- [12]
+				14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂怒", -- [16]
+				181, -- [17]
+			}, -- [16]
+			{
+				"额斯呐沙碧-死亡之翼", -- [1]
+				2, -- [2]
+				3, -- [3]
+				2, -- [4]
+				275, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				177478, -- [10]
+				61990, -- [11]
+				1429, -- [12]
+				16, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂怒", -- [16]
+				70, -- [17]
+			}, -- [17]
+			{
+				"五色欧那斯-奥特兰克", -- [1]
+				0, -- [2]
+				7, -- [3]
+				0, -- [4]
+				59, -- [5]
+				1, -- [6]
+				"矮人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				14057, -- [10]
+				2031, -- [11]
+				1400, -- [12]
+				-8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				10, -- [17]
+			}, -- [18]
+			{
+				"痛苦压制-元素之力", -- [1]
+				0, -- [2]
+				3, -- [3]
+				0, -- [4]
+				275, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				3292, -- [10]
+				3447, -- [11]
+				1141, -- [12]
+				175, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				25, -- [17]
+			}, -- [19]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				0, -- [2]
+				3, -- [3]
+				1, -- [4]
+				53, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				68190, -- [10]
+				8956, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 1035,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				2, -- [3]
+				1, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				12, -- [3]
+				2, -- [4]
+				4, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1528, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1542, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [135]
+	{
+		["PlayerStats"] = {
+			1, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 191,
+		["PlayerNum"] = 2,
+		["isBrawl"] = false,
+		["Time"] = 1624686354,
+		["Players"] = {
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				0, -- [2]
+				18, -- [3]
+				0, -- [4]
+				308, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				3012, -- [10]
+				0, -- [11]
+				1561, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				39, -- [17]
+			}, -- [1]
+			{
+				"西瓜味泡泡糖", -- [1]
+				7, -- [2]
+				19, -- [3]
+				0, -- [4]
+				311, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				355138, -- [10]
+				4272, -- [11]
+				1533, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				33, -- [17]
+			}, -- [2]
+			{
+				"大官人丶", -- [1]
+				7, -- [2]
+				19, -- [3]
+				0, -- [4]
+				311, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				161877, -- [10]
+				0, -- [11]
+				1526, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				35, -- [17]
+			}, -- [3]
+			{
+				"Saberdh-黑石尖塔", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				0, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1525, -- [12]
+				-14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"复仇", -- [16]
+				15, -- [17]
+			}, -- [4]
+			{
+				"辛幼熏-白银之手", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				257, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				4270, -- [10]
+				0, -- [11]
+				1510, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				107, -- [17]
+			}, -- [5]
+			{
+				"吉尔尼斯之手-海克泰尔", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				257, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				2195, -- [10]
+				0, -- [11]
+				1504, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"生存", -- [16]
+				19, -- [17]
+			}, -- [6]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				1, -- [2]
+				19, -- [3]
+				0, -- [4]
+				311, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				9361, -- [10]
+				0, -- [11]
+				1497, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				43, -- [17]
+			}, -- [7]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				255, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1484, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [8]
+			{
+				"岄神-壁炉谷", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				257, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				3850, -- [10]
+				0, -- [11]
+				1472, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				95, -- [17]
+			}, -- [9]
+			{
+				"萌达奶-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				3, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				4247, -- [10]
+				4282, -- [11]
+				1467, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				16, -- [17]
+			}, -- [10]
+			{
+				"上帝是女孩乂-凤凰之神", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1428, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				78, -- [17]
+			}, -- [11]
+			{
+				"五色欧那斯-奥特兰克", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				258, -- [5]
+				1, -- [6]
+				"矮人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1392, -- [12]
+				30, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				10, -- [17]
+			}, -- [12]
+			{
+				"playervygxvx-伊森利恩", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1369, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				116, -- [17]
+			}, -- [13]
+			{
+				"Windowmaker-玛洛加尔", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1367, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"复仇", -- [16]
+				69, -- [17]
+			}, -- [14]
+			{
+				"倪打野-贫瘠之地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1367, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				101, -- [17]
+			}, -- [15]
+			{
+				"战迪奥丶-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"玛格汉兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1367, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂怒", -- [16]
+				81, -- [17]
+			}, -- [16]
+			{
+				"每天都在潜行-图拉扬", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1367, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				185, -- [17]
+			}, -- [17]
+			{
+				"粉红小凸点-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1367, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				161, -- [17]
+			}, -- [18]
+			{
+				"重案组小青龙-双子峰", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1367, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂怒", -- [16]
+				29, -- [17]
+			}, -- [19]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				4, -- [2]
+				19, -- [3]
+				0, -- [4]
+				311, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				72114, -- [10]
+				0, -- [11]
+				0, -- [12]
+				192, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				2, -- [1]
+				2, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 2245,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
 		["BGPlace"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1426, -- [4]
+				9, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1456, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [136]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+			0, -- [2]
+			0, -- [3]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 200,
+		["PlayerNum"] = 5,
+		["isBrawl"] = false,
+		["Time"] = 1624686807,
+		["Players"] = {
+			{
+				"哟丶小橙汁儿-血色十字军", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1629, -- [12]
+				-15, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"毁灭", -- [16]
+				54, -- [17]
+			}, -- [1]
+			{
+				"细雨如诗-寒冰皇冠", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1586, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				157, -- [17]
+			}, -- [2]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				315, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1569, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				39, -- [17]
+			}, -- [3]
+			{
+				"似曾相识-阿拉希", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"巨魔", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1553, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				131, -- [17]
+			}, -- [4]
+			{
+				"西瓜味泡泡糖", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				315, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1541, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				33, -- [17]
+			}, -- [5]
+			{
+				"公路箭仙-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1538, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"射击", -- [16]
+				326, -- [17]
+			}, -- [6]
+			{
+				"大官人丶", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				315, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1535, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				35, -- [17]
+			}, -- [7]
+			{
+				"肥嘟嘟佐卫门-烈焰峰", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1528, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				9, -- [17]
+			}, -- [8]
+			{
+				"辛幼熏-白银之手", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				315, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				6368, -- [10]
+				0, -- [11]
+				1519, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				108, -- [17]
+			}, -- [9]
+			{
+				"吉尔尼斯之手-海克泰尔", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				315, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				2360, -- [11]
+				1513, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"生存", -- [16]
+				19, -- [17]
+			}, -- [10]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				315, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1507, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				43, -- [17]
+			}, -- [11]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				315, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1494, -- [12]
+				30, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [12]
+			{
+				"岄神-壁炉谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				315, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				579, -- [11]
+				1482, -- [12]
+				52, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				95, -- [17]
+			}, -- [13]
+			{
+				"五色欧那斯-奥特兰克", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				315, -- [5]
+				1, -- [6]
+				"矮人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1422, -- [12]
+				89, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				11, -- [17]
+			}, -- [14]
+			{
+				"茉莉的猎手-凤凰之神", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1391, -- [12]
+				-7, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				6, -- [17]
+			}, -- [15]
+			{
+				"曹雨生-烈焰峰", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"熊猫人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				766, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				130, -- [17]
+			}, -- [16]
+			{
+				"喝醉打女人-影之哀伤", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"巨魔", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				575, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				21, -- [17]
+			}, -- [17]
+			{
+				"夜色满楼-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				575, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂怒", -- [16]
+				13, -- [17]
+			}, -- [18]
+			{
+				"你很沙雕诶-格雷迈恩", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"赞达拉巨魔", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				4093, -- [11]
+				384, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				27, -- [17]
+			}, -- [19]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				315, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				192, -- [12]
+				192, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 566,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
 				3, -- [5]
 			}, -- [1]
 			{
-				3, -- [1]
-				10, -- [2]
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				4, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1505, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1549, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [137]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 155,
+		["PlayerNum"] = 5,
+		["isBrawl"] = false,
+		["Time"] = 1624687204,
+		["Players"] = {
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1579, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				40, -- [17]
+			}, -- [1]
+			{
+				"各凭本事-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1577, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"防护", -- [16]
+				50, -- [17]
+			}, -- [2]
+			{
+				"雁影-鲜血熔炉", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1568, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				6, -- [17]
+			}, -- [3]
+			{
+				"殇丨残魂-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"玛格汉兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1561, -- [12]
+				14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				12, -- [17]
+			}, -- [4]
+			{
+				"西瓜味泡泡糖", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1552, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				33, -- [17]
+			}, -- [5]
+			{
+				"咖啡拌炒饭-伊森利恩", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1548, -- [12]
+				14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				11, -- [17]
+			}, -- [6]
+			{
+				"大官人丶", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1546, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				35, -- [17]
+			}, -- [7]
+			{
+				"岄神-壁炉谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1534, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				96, -- [17]
+			}, -- [8]
+			{
+				"辛幼熏-白银之手", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1531, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				108, -- [17]
+			}, -- [9]
+			{
+				"吉尔尼斯之手-海克泰尔", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1525, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"生存", -- [16]
+				19, -- [17]
+			}, -- [10]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1524, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [11]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1519, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				43, -- [17]
+			}, -- [12]
+			{
+				"一手倾城-黑石尖塔", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1516, -- [12]
+				15, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				31, -- [17]
+			}, -- [13]
+			{
+				"五色欧那斯-奥特兰克", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"矮人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1511, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				11, -- [17]
+			}, -- [14]
+			{
+				"Sxm-影之哀伤", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1499, -- [12]
+				16, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				15, -- [17]
+			}, -- [15]
+			{
+				"尛吖头-凤凰之神", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1451, -- [12]
+				137, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				108, -- [17]
+			}, -- [16]
+			{
+				"一尺寒光-冰风岗", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1448, -- [12]
+				101, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"毁灭", -- [16]
+				42, -- [17]
+			}, -- [17]
+			{
+				"无敌血刃-银松森林", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1384, -- [12]
+				129, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"邪恶", -- [16]
+				63, -- [17]
+			}, -- [18]
+			{
+				"专业萨爹-达尔坎", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"至高岭牛头人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				384, -- [12]
+				192, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				78, -- [17]
+			}, -- [19]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				384, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 1035,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
 				11, -- [3]
-				7, -- [4]
-				8, -- [5]
+				1, -- [4]
+				1, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 0,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1586, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1611, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [138]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 186,
+		["PlayerNum"] = 6,
 		["isBrawl"] = false,
+		["Time"] = 1624687642,
+		["Players"] = {
+			{
+				"你和我-风暴之鳞", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				257, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1596, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				128, -- [17]
+			}, -- [1]
+			{
+				"哦髪嚄-无尽之海", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				257, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				3434, -- [10]
+				0, -- [11]
+				1569, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				68, -- [17]
+			}, -- [2]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1567, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				40, -- [17]
+			}, -- [3]
+			{
+				"银月城丶游侠-试炼之环", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				257, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				17629, -- [10]
+				0, -- [11]
+				1556, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"射击", -- [16]
+				34, -- [17]
+			}, -- [4]
+			{
+				"寒冰箭丶-闪电之刃", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				255, -- [5]
+				0, -- [6]
+				"夜之子", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1550, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				26, -- [17]
+			}, -- [5]
+			{
+				"西瓜味泡泡糖", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1541, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				34, -- [17]
+			}, -- [6]
+			{
+				"煊赫门公主-埃德萨拉", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				257, -- [5]
+				0, -- [6]
+				"夜之子", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				4096, -- [10]
+				0, -- [11]
+				1539, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				12, -- [17]
+			}, -- [7]
+			{
+				"大官人丶", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1535, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				35, -- [17]
+			}, -- [8]
+			{
+				"岄神-壁炉谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1524, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				96, -- [17]
+			}, -- [9]
+			{
+				"辛幼熏-白银之手", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1521, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				108, -- [17]
+			}, -- [10]
+			{
+				"Brockenmoon-冰霜之刃", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				257, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1518, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				36, -- [17]
+			}, -- [11]
+			{
+				"那一斧的柔情-梅尔加尼", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				257, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1517, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				12, -- [17]
+			}, -- [12]
+			{
+				"隐形大盗-血色十字军", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				257, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1515, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				14, -- [17]
+			}, -- [13]
+			{
+				"吉尔尼斯之手-海克泰尔", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1515, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"生存", -- [16]
+				19, -- [17]
+			}, -- [14]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1514, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [15]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1509, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				43, -- [17]
+			}, -- [16]
+			{
+				"五色欧那斯-奥特兰克", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"矮人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1502, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				11, -- [17]
+			}, -- [17]
+			{
+				"壹米玖捌-凤凰之神", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				257, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				3625, -- [10]
+				0, -- [11]
+				576, -- [12]
+				191, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				29, -- [17]
+			}, -- [18]
+			{
+				"镜面-伊森利恩", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				257, -- [5]
+				0, -- [6]
+				"至高岭牛头人", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				0, -- [10]
+				0, -- [11]
+				384, -- [12]
+				192, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				30, -- [17]
+			}, -- [19]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				384, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 2107,
+		["isArena"] = false,
 		["PlayerSide"] = 1,
-	}, -- [130]
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				10, -- [2]
+				11, -- [3]
+				5, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1524, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1521, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [139]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 242,
+		["PlayerNum"] = 4,
+		["isBrawl"] = false,
+		["Time"] = 1624688046,
+		["Players"] = {
+			{
+				"playerFMFGIE-霜之哀伤", -- [1]
+				4, -- [2]
+				9, -- [3]
+				0, -- [4]
+				382, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				199677, -- [10]
+				11641, -- [11]
+				1628, -- [12]
+				6, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"惩戒", -- [16]
+				20, -- [17]
+			}, -- [1]
+			{
+				"可爱小阿阳-凤凰之神", -- [1]
+				4, -- [2]
+				12, -- [3]
+				0, -- [4]
+				388, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				129482, -- [10]
+				3264, -- [11]
+				1581, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				50, -- [17]
+			}, -- [2]
+			{
+				"关从戈-死亡之翼", -- [1]
+				3, -- [2]
+				5, -- [3]
+				0, -- [4]
+				375, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				139783, -- [10]
+				39087, -- [11]
+				1504, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				70, -- [17]
+			}, -- [3]
+			{
+				"西瓜味泡泡糖", -- [1]
+				2, -- [2]
+				4, -- [3]
+				1, -- [4]
+				132, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				182506, -- [10]
+				33603, -- [11]
+				1528, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				34, -- [17]
+			}, -- [4]
+			{
+				"淸蒸麥楽鷄-古尔丹", -- [1]
+				1, -- [2]
+				10, -- [3]
+				1, -- [4]
+				387, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				130218, -- [10]
+				43980, -- [11]
+				1587, -- [12]
+				7, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"平衡", -- [16]
+				11, -- [17]
+			}, -- [5]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				1, -- [2]
+				4, -- [3]
+				1, -- [4]
+				132, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				163694, -- [10]
+				4968, -- [11]
+				1554, -- [12]
+				-14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				40, -- [17]
+			}, -- [6]
+			{
+				"一拳丶琦玉-死亡之翼", -- [1]
+				1, -- [2]
+				13, -- [3]
+				0, -- [4]
+				391, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				147228, -- [10]
+				18609, -- [11]
+				1525, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"踏风", -- [16]
+				45, -- [17]
+			}, -- [7]
+			{
+				"大官人丶", -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				123, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				149965, -- [10]
+				1731, -- [11]
+				1523, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				35, -- [17]
+			}, -- [8]
+			{
+				"芭芭雅嘎-贫瘠之地", -- [1]
+				1, -- [2]
+				11, -- [3]
+				0, -- [4]
+				387, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				99616, -- [10]
+				37827, -- [11]
+				1495, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"复仇", -- [16]
+				12, -- [17]
+			}, -- [9]
+			{
+				"洛妮命三千-巨龙之吼", -- [1]
+				0, -- [2]
+				8, -- [3]
+				1, -- [4]
+				380, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				8601, -- [10]
+				26369, -- [11]
+				1583, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				56, -- [17]
+			}, -- [10]
+			{
+				"绿皮神箭手-迅捷微风", -- [1]
+				0, -- [2]
+				2, -- [3]
+				0, -- [4]
+				365, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1573, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"射击", -- [16]
+				80, -- [17]
+			}, -- [11]
+			{
+				"岄神-壁炉谷", -- [1]
+				0, -- [2]
+				1, -- [3]
+				2, -- [4]
+				123, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				4563, -- [10]
+				52584, -- [11]
+				1512, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				96, -- [17]
+			}, -- [12]
+			{
+				"辛幼熏-白银之手", -- [1]
+				0, -- [2]
+				2, -- [3]
+				2, -- [4]
+				125, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				4090, -- [10]
+				130297, -- [11]
+				1509, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				108, -- [17]
+			}, -- [13]
+			{
+				"吉尔尼斯之手-海克泰尔", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				121, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				48097, -- [10]
+				21078, -- [11]
+				1503, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"生存", -- [16]
+				19, -- [17]
+			}, -- [14]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				4, -- [3]
+				0, -- [4]
+				132, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				25006, -- [10]
+				18596, -- [11]
+				1502, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [15]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				2, -- [3]
+				2, -- [4]
+				125, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				105009, -- [11]
+				1498, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				43, -- [17]
+			}, -- [16]
+			{
+				"怪喵-安苏", -- [1]
+				0, -- [2]
+				8, -- [3]
+				1, -- [4]
+				377, -- [5]
+				0, -- [6]
+				"赞达拉巨魔", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				2835, -- [10]
+				96760, -- [11]
+				1498, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				6, -- [17]
+			}, -- [17]
+			{
+				"五色欧那斯-奥特兰克", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				121, -- [5]
+				1, -- [6]
+				"矮人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				12603, -- [10]
+				3518, -- [11]
+				1491, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				11, -- [17]
+			}, -- [18]
+			{
+				"Ntrkiller-死亡之翼", -- [1]
+				0, -- [2]
+				8, -- [3]
+				1, -- [4]
+				378, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				19114, -- [10]
+				153617, -- [11]
+				1476, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				29, -- [17]
+			}, -- [19]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				0, -- [2]
+				3, -- [3]
+				1, -- [4]
+				128, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				28780, -- [10]
+				564, -- [11]
+				384, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 761,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				4, -- [1]
+				10, -- [2]
+				11, -- [3]
+				2, -- [4]
+				9, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1488, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1449, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [140]
+	{
+		["PlayerStats"] = {
+			2, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 245,
+		["PlayerNum"] = 2,
+		["isBrawl"] = false,
+		["Time"] = 1624688467,
+		["Players"] = {
+			{
+				"大官人丶", -- [1]
+				5, -- [2]
+				14, -- [3]
+				0, -- [4]
+				285, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				220788, -- [10]
+				8092, -- [11]
+				1510, -- [12]
+				7, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				35, -- [17]
+			}, -- [1]
+			{
+				"西瓜味泡泡糖", -- [1]
+				4, -- [2]
+				10, -- [3]
+				0, -- [4]
+				283, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				141863, -- [10]
+				19811, -- [11]
+				1515, -- [12]
+				7, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				34, -- [17]
+			}, -- [2]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				2, -- [2]
+				8, -- [3]
+				0, -- [4]
+				271, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				109495, -- [10]
+				12469, -- [11]
+				1540, -- [12]
+				6, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				40, -- [17]
+			}, -- [3]
+			{
+				"吉尔尼斯之手-海克泰尔", -- [1]
+				2, -- [2]
+				14, -- [3]
+				0, -- [4]
+				285, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				70403, -- [10]
+				5951, -- [11]
+				1490, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"生存", -- [16]
+				19, -- [17]
+			}, -- [4]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				2, -- [2]
+				8, -- [3]
+				0, -- [4]
+				271, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				58179, -- [10]
+				3114, -- [11]
+				384, -- [12]
+				191, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [5]
+			{
+				"岄神-壁炉谷", -- [1]
+				1, -- [2]
+				14, -- [3]
+				0, -- [4]
+				285, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				11175, -- [10]
+				97200, -- [11]
+				1499, -- [12]
+				7, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				96, -- [17]
+			}, -- [6]
+			{
+				"行见-恶魔之魂", -- [1]
+				1, -- [2]
+				2, -- [3]
+				2, -- [4]
+				21, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				26713, -- [10]
+				7297, -- [11]
+				1490, -- [12]
+				-16, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				7, -- [17]
+			}, -- [7]
+			{
+				"洗手液战神-安苏", -- [1]
+				1, -- [2]
+				2, -- [3]
+				1, -- [4]
+				13, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				64527, -- [10]
+				7243, -- [11]
+				1468, -- [12]
+				-15, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				91, -- [17]
+			}, -- [8]
+			{
+				"我叫猪坦-克尔苏加德", -- [1]
+				1, -- [2]
+				2, -- [3]
+				2, -- [4]
+				21, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				41203, -- [10]
+				15692, -- [11]
+				1400, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				64, -- [17]
+			}, -- [9]
+			{
+				"叉烧肘子-影之哀伤", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"熊猫人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				51184, -- [10]
+				1581, -- [11]
+				1511, -- [12]
+				-16, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				14, -- [17]
+			}, -- [10]
+			{
+				"辛幼熏-白银之手", -- [1]
+				0, -- [2]
+				9, -- [3]
+				1, -- [4]
+				274, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				10318, -- [10]
+				77394, -- [11]
+				1496, -- [12]
+				7, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				108, -- [17]
+			}, -- [11]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				5, -- [3]
+				1, -- [4]
+				265, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				17452, -- [10]
+				16697, -- [11]
+				1490, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [12]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				9, -- [3]
+				1, -- [4]
+				273, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				35886, -- [11]
+				1486, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				44, -- [17]
+			}, -- [13]
+			{
+				"地狱灬雷霆-燃烧之刃", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"玛格汉兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				37774, -- [10]
+				0, -- [11]
+				1479, -- [12]
+				-15, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				70, -- [17]
+			}, -- [14]
+			{
+				"五色欧那斯-奥特兰克", -- [1]
+				0, -- [2]
+				7, -- [3]
+				0, -- [4]
+				268, -- [5]
+				1, -- [6]
+				"矮人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				41587, -- [10]
+				3907, -- [11]
+				1479, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				11, -- [17]
+			}, -- [15]
+			{
+				"射击丶-迅捷微风", -- [1]
+				0, -- [2]
+				0, -- [3]
+				3, -- [4]
+				0, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				59553, -- [10]
+				20201, -- [11]
+				1314, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				47, -- [17]
+			}, -- [16]
+			{
+				"鲜血在沸腾-主宰之剑", -- [1]
+				0, -- [2]
+				1, -- [3]
+				1, -- [4]
+				3, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				19334, -- [10]
+				8131, -- [11]
+				762, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"邪恶", -- [16]
+				34, -- [17]
+			}, -- [17]
+			{
+				"閻魔爱-凤凰之神", -- [1]
+				0, -- [2]
+				2, -- [3]
+				1, -- [4]
+				6, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				32658, -- [10]
+				17786, -- [11]
+				576, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恶魔学识", -- [16]
+				72, -- [17]
+			}, -- [18]
+			{
+				"云前辈-凤凰之神", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"赞达拉巨魔", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				38201, -- [11]
+				384, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				10, -- [17]
+			}, -- [19]
+			{
+				"步入尸尘-影之哀伤", -- [1]
+				0, -- [2]
+				2, -- [3]
+				2, -- [4]
+				21, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				48110, -- [10]
+				21440, -- [11]
+				192, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"毁灭", -- [16]
+				30, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 2107,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				2, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				4, -- [2]
+				4, -- [3]
+				2, -- [4]
+				7, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1358, -- [4]
+				7, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1381, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [141]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+			0, -- [2]
+			2, -- [3]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 238,
+		["PlayerNum"] = 7,
+		["isBrawl"] = false,
+		["Time"] = 1624688934,
+		["Players"] = {
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				4, -- [2]
+				13, -- [3]
+				0, -- [4]
+				333, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				103245, -- [10]
+				3798, -- [11]
+				1546, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				40, -- [17]
+			}, -- [1]
+			{
+				"大官人丶", -- [1]
+				4, -- [2]
+				13, -- [3]
+				0, -- [4]
+				329, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				137024, -- [10]
+				2386, -- [11]
+				1517, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				36, -- [17]
+			}, -- [2]
+			{
+				"沉沦-血色十字军", -- [1]
+				3, -- [2]
+				12, -- [3]
+				0, -- [4]
+				331, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				100451, -- [10]
+				0, -- [11]
+				384, -- [12]
+				192, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"惩戒", -- [16]
+				6, -- [17]
+			}, -- [3]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				1, -- [2]
+				12, -- [3]
+				0, -- [4]
+				331, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				29162, -- [10]
+				4592, -- [11]
+				1498, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [4]
+			{
+				"纳兰猫猫-凤凰之神", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				5619, -- [10]
+				214870, -- [11]
+				1584, -- [12]
+				-17, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				62, -- [17]
+			}, -- [5]
+			{
+				"丿依然灬尐-天空之墙", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1522, -- [12]
+				-15, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"踏风", -- [16]
+				51, -- [17]
+			}, -- [6]
+			{
+				"西瓜味泡泡糖", -- [1]
+				0, -- [2]
+				12, -- [3]
+				0, -- [4]
+				331, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				224394, -- [10]
+				28773, -- [11]
+				1522, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				34, -- [17]
+			}, -- [7]
+			{
+				"法爷发型不乱-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				53658, -- [10]
+				68936, -- [11]
+				1520, -- [12]
+				-15, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"增强", -- [16]
+				23, -- [17]
+			}, -- [8]
+			{
+				"岄神-壁炉谷", -- [1]
+				0, -- [2]
+				13, -- [3]
+				0, -- [4]
+				333, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				6460, -- [10]
+				131837, -- [11]
+				1506, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				96, -- [17]
+			}, -- [9]
+			{
+				"Saberdh-黑石尖塔", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				46764, -- [10]
+				34320, -- [11]
+				1501, -- [12]
+				-14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"复仇", -- [16]
+				15, -- [17]
+			}, -- [10]
+			{
+				"吉尔尼斯之手-海克泰尔", -- [1]
+				0, -- [2]
+				13, -- [3]
+				0, -- [4]
+				333, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				78842, -- [10]
+				11038, -- [11]
+				1498, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"生存", -- [16]
+				19, -- [17]
+			}, -- [11]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				13, -- [3]
+				0, -- [4]
+				333, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				46299, -- [11]
+				1494, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				44, -- [17]
+			}, -- [12]
+			{
+				"五色欧那斯-奥特兰克", -- [1]
+				0, -- [2]
+				13, -- [3]
+				0, -- [4]
+				333, -- [5]
+				1, -- [6]
+				"矮人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				49724, -- [10]
+				1430, -- [11]
+				1487, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				11, -- [17]
+			}, -- [13]
+			{
+				"尔萨-洛丹伦", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				79837, -- [11]
+				954, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				8, -- [17]
+			}, -- [14]
+			{
+				"牛牛冲啊-狂风峭壁", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				38369, -- [10]
+				12624, -- [11]
+				765, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				9, -- [17]
+			}, -- [15]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				0, -- [2]
+				13, -- [3]
+				0, -- [4]
+				333, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				50877, -- [10]
+				878, -- [11]
+				575, -- [12]
+				191, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [16]
+			{
+				"壹支穿云箭-外域", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				58511, -- [10]
+				16662, -- [11]
+				384, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"邪恶", -- [16]
+				22, -- [17]
+			}, -- [17]
+			{
+				"攻強卷軸-冰风岗", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"巨魔", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				23960, -- [10]
+				8299, -- [11]
+				384, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				67, -- [17]
+			}, -- [18]
+			{
+				"饮千仇-冬拥湖", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				8078, -- [10]
+				0, -- [11]
+				192, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂怒", -- [16]
+				22, -- [17]
+			}, -- [19]
+			{
+				"等待小星星-贫瘠之地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				1271, -- [10]
+				5957, -- [11]
+				192, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				38, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				2, -- [2]
+				8, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 566,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				5, -- [1]
+				8, -- [2]
+				7, -- [3]
+				1, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				5, -- [1]
+				8, -- [2]
+				7, -- [3]
+				1, -- [4]
+				7, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1440, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1438, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [142]
+	{
+		["PlayerStats"] = {
+			1, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 170,
+		["PlayerNum"] = 6,
+		["isBrawl"] = false,
+		["Time"] = 1624689423,
+		["Players"] = {
+			{
+				"末日之雷-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				121, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1726, -- [12]
+				-18, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				44, -- [17]
+			}, -- [1]
+			{
+				"筱噜同学-国王之谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1602, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				24, -- [17]
+			}, -- [2]
+			{
+				"雨里-艾莫莉丝", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1565, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				488, -- [17]
+			}, -- [3]
+			{
+				"内爆绵羊-血色十字军", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				121, -- [5]
+				0, -- [6]
+				"赞达拉巨魔", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1555, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				21, -- [17]
+			}, -- [4]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1554, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				40, -- [17]
+			}, -- [5]
+			{
+				"西瓜味泡泡糖", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				364, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1531, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				34, -- [17]
+			}, -- [6]
+			{
+				"萨老-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				121, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1531, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				6, -- [17]
+			}, -- [7]
+			{
+				"大官人丶", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1526, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				36, -- [17]
+			}, -- [8]
+			{
+				"龙潭-迅捷微风", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				121, -- [5]
+				0, -- [6]
+				"地精", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1521, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				18, -- [17]
+			}, -- [9]
+			{
+				"格蕾希亚-国王之谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1515, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				41, -- [17]
+			}, -- [10]
+			{
+				"一抹暗骚丶-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				121, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1511, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				27, -- [17]
+			}, -- [11]
+			{
+				"四文鱼-迅捷微风", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				121, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1511, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"暗影", -- [16]
+				29, -- [17]
+			}, -- [12]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				364, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1508, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [13]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				361, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1504, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				44, -- [17]
+			}, -- [14]
+			{
+				"当做怀旧玩-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				121, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1471, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				10, -- [17]
+			}, -- [15]
+			{
+				"很牛很暴力-密林游侠", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				121, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				954, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂怒", -- [16]
+				21, -- [17]
+			}, -- [16]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				364, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				36398, -- [10]
+				21008, -- [11]
+				766, -- [12]
+				190, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [17]
+			{
+				"你打不过我的-冰风岗", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				364, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				0, -- [10]
+				81, -- [11]
+				765, -- [12]
+				190, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恶魔学识", -- [16]
+				158, -- [17]
+			}, -- [18]
+			{
+				"暗牙-克尔苏加德", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				121, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				46743, -- [10]
+				8510, -- [11]
+				384, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				33, -- [17]
+			}, -- [19]
+			{
+				"无敌糖门滚-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				192, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恶魔学识", -- [16]
+				53, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 761,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				3, -- [5]
+			}, -- [1]
+			{
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				4, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1535, -- [4]
+				9, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1527, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [143]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 342,
+		["PlayerNum"] = 12,
+		["isBrawl"] = false,
+		["Time"] = 1624690012,
+		["Players"] = {
+			{
+				"陌尘不离-格瑞姆巴托", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1721, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				60, -- [17]
+			}, -- [1]
+			{
+				"風華絕代-红龙女王", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1637, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"增强", -- [16]
+				44, -- [17]
+			}, -- [2]
+			{
+				"咖啡中毒-凤凰之神", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1624, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"惩戒", -- [16]
+				43, -- [17]
+			}, -- [3]
+			{
+				"筱噜同学-国王之谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1612, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				24, -- [17]
+			}, -- [4]
+			{
+				"一凡-伊森利恩", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1595, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂怒", -- [16]
+				23, -- [17]
+			}, -- [5]
+			{
+				"倾宇倾绝-回音山", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"巨魔", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1594, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				17, -- [17]
+			}, -- [6]
+			{
+				"雨里-艾莫莉丝", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1576, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				488, -- [17]
+			}, -- [7]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1565, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				40, -- [17]
+			}, -- [8]
+			{
+				"柳絮风中-血色十字军", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1555, -- [12]
+				14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				29, -- [17]
+			}, -- [9]
+			{
+				"小奶妈丶-冬泉谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"巨魔", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1549, -- [12]
+				14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				21, -- [17]
+			}, -- [10]
+			{
+				"一萨一世-凤凰之神", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"狐人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1546, -- [12]
+				14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				128, -- [17]
+			}, -- [11]
+			{
+				"西瓜味泡泡糖", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				501, -- [10]
+				0, -- [11]
+				1543, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				34, -- [17]
+			}, -- [12]
+			{
+				"大官人丶", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1538, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				36, -- [17]
+			}, -- [13]
+			{
+				"格蕾希亚-国王之谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1528, -- [12]
+				-8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				41, -- [17]
+			}, -- [14]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1521, -- [12]
+				-8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [15]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1517, -- [12]
+				-8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				44, -- [17]
+			}, -- [16]
+			{
+				"倒霉的潜行者-亚雷戈斯", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1506, -- [12]
+				16, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"狂徒", -- [16]
+				41, -- [17]
+			}, -- [17]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				956, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [18]
+			{
+				"莊子-金色平原", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				384, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				88, -- [17]
+			}, -- [19]
+			{
+				"菲瓦伦丁-血色十字军", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				192, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"邪恶", -- [16]
+				63, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 727,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1642, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1615, -- [4]
+				9, -- [5]
+			}, -- [2]
+		},
+	}, -- [144]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 417,
+		["PlayerNum"] = 10,
+		["isBrawl"] = false,
+		["Time"] = 1624690584,
+		["Players"] = {
+			{
+				"小坏灬-迅捷微风", -- [1]
+				5, -- [2]
+				28, -- [3]
+				0, -- [4]
+				437, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				604789, -- [10]
+				60593, -- [11]
+				1610, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				100, -- [17]
+			}, -- [1]
+			{
+				"炼丶狱-凤凰之神", -- [1]
+				4, -- [2]
+				26, -- [3]
+				1, -- [4]
+				433, -- [5]
+				0, -- [6]
+				"玛格汉兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				188252, -- [10]
+				16585, -- [11]
+				1610, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				31, -- [17]
+			}, -- [2]
+			{
+				"澤村英梨梨-雏龙之翼", -- [1]
+				7, -- [2]
+				24, -- [3]
+				1, -- [4]
+				429, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				200679, -- [10]
+				28616, -- [11]
+				1601, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				21, -- [17]
+			}, -- [3]
+			{
+				"筱噜同学-国王之谷", -- [1]
+				1, -- [2]
+				5, -- [3]
+				3, -- [4]
+				185, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				8356, -- [10]
+				363495, -- [11]
+				1601, -- [12]
+				-14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				24, -- [17]
+			}, -- [4]
+			{
+				"醉里挑灯看箭-黑翼之巢", -- [1]
+				2, -- [2]
+				21, -- [3]
+				1, -- [4]
+				423, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				76999, -- [10]
+				25468, -- [11]
+				1576, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				129, -- [17]
+			}, -- [5]
+			{
+				"雨里-艾莫莉丝", -- [1]
+				0, -- [2]
+				5, -- [3]
+				4, -- [4]
+				184, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				123345, -- [10]
+				64148, -- [11]
+				1566, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				488, -- [17]
+			}, -- [6]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				2, -- [2]
+				6, -- [3]
+				3, -- [4]
+				187, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				214036, -- [10]
+				13913, -- [11]
+				1556, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				40, -- [17]
+			}, -- [7]
+			{
+				"谁敢比我脸黑-死亡之翼", -- [1]
+				0, -- [2]
+				21, -- [3]
+				1, -- [4]
+				423, -- [5]
+				0, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				6385, -- [10]
+				314552, -- [11]
+				1552, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				29, -- [17]
+			}, -- [8]
+			{
+				"Workbook-希尔瓦娜斯", -- [1]
+				0, -- [2]
+				21, -- [3]
+				1, -- [4]
+				423, -- [5]
+				0, -- [6]
+				"赞达拉巨魔", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				38784, -- [10]
+				81547, -- [11]
+				1534, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				15, -- [17]
+			}, -- [9]
+			{
+				"西瓜味泡泡糖", -- [1]
+				0, -- [2]
+				5, -- [3]
+				1, -- [4]
+				185, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				85957, -- [10]
+				41434, -- [11]
+				1534, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"复仇", -- [16]
+				34, -- [17]
+			}, -- [10]
+			{
+				"Dethiny-死亡之翼", -- [1]
+				3, -- [2]
+				22, -- [3]
+				0, -- [4]
+				425, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				152024, -- [10]
+				10895, -- [11]
+				1533, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"邪恶", -- [16]
+				84, -- [17]
+			}, -- [11]
+			{
+				"大官人丶", -- [1]
+				1, -- [2]
+				7, -- [3]
+				7, -- [4]
+				189, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				362576, -- [10]
+				7900, -- [11]
+				1529, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				36, -- [17]
+			}, -- [12]
+			{
+				"格蕾希亚-国王之谷", -- [1]
+				0, -- [2]
+				4, -- [3]
+				1, -- [4]
+				182, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				5267, -- [10]
+				61131, -- [11]
+				1520, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				41, -- [17]
+			}, -- [13]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				1, -- [2]
+				6, -- [3]
+				2, -- [4]
+				186, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				61227, -- [10]
+				31392, -- [11]
+				1513, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [14]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				1, -- [3]
+				4, -- [4]
+				177, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				70722, -- [11]
+				1509, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				44, -- [17]
+			}, -- [15]
+			{
+				"Azraella-安苏", -- [1]
+				4, -- [2]
+				24, -- [3]
+				1, -- [4]
+				429, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				177046, -- [10]
+				46717, -- [11]
+				1462, -- [12]
+				35, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				51, -- [17]
+			}, -- [16]
+			{
+				"怒气丶不足-寒冰皇冠", -- [1]
+				3, -- [2]
+				28, -- [3]
+				0, -- [4]
+				437, -- [5]
+				0, -- [6]
+				"玛格汉兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				210660, -- [10]
+				22236, -- [11]
+				958, -- [12]
+				185, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				13, -- [17]
+			}, -- [17]
+			{
+				"黄晃晃-厄祖玛特", -- [1]
+				0, -- [2]
+				19, -- [3]
+				1, -- [4]
+				419, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				14494, -- [10]
+				193254, -- [11]
+				958, -- [12]
+				185, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				2, -- [17]
+			}, -- [18]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				0, -- [2]
+				6, -- [3]
+				2, -- [4]
+				186, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				48930, -- [10]
+				2606, -- [11]
+				956, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [19]
+			{
+				"莊子-金色平原", -- [1]
+				2, -- [2]
+				6, -- [3]
+				1, -- [4]
+				186, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				88942, -- [10]
+				31041, -- [11]
+				384, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				88, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 726,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				6, -- [1]
+				6, -- [2]
+				6, -- [3]
+				5, -- [4]
+				5, -- [5]
+			}, -- [1]
+			{
+				13, -- [1]
+				16, -- [2]
+				16, -- [3]
+				11, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1531, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1537, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [145]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+			0, -- [2]
+			0, -- [3]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 186,
+		["PlayerNum"] = 4,
+		["isBrawl"] = false,
+		["Time"] = 1624690921,
+		["Players"] = {
+			{
+				"筱噜同学-国王之谷", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				318, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				537, -- [10]
+				25176, -- [11]
+				1587, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				24, -- [17]
+			}, -- [1]
+			{
+				"雨里-艾莫莉丝", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				318, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1553, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				488, -- [17]
+			}, -- [2]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				318, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1543, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				40, -- [17]
+			}, -- [3]
+			{
+				"西瓜味泡泡糖", -- [1]
+				1, -- [2]
+				2, -- [3]
+				0, -- [4]
+				321, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				19370, -- [10]
+				0, -- [11]
+				1522, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				34, -- [17]
+			}, -- [4]
+			{
+				"大官人丶", -- [1]
+				1, -- [2]
+				2, -- [3]
+				0, -- [4]
+				321, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				32721, -- [10]
+				72, -- [11]
+				1517, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				36, -- [17]
+			}, -- [5]
+			{
+				"格蕾希亚-国王之谷", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				318, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				326, -- [11]
+				1508, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				41, -- [17]
+			}, -- [6]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				315, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1502, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [7]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				2, -- [3]
+				0, -- [4]
+				321, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1498, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				44, -- [17]
+			}, -- [8]
+			{
+				"行见-恶魔之魂", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1484, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				7, -- [17]
+			}, -- [9]
+			{
+				"爆炸大包子-冰风岗", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"熊猫人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1452, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"增强", -- [16]
+				83, -- [17]
+			}, -- [10]
+			{
+				"凋零的小菊花-回音山", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1343, -- [12]
+				-8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"踏风", -- [16]
+				19, -- [17]
+			}, -- [11]
+			{
+				"康小雨-凤凰之神", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1342, -- [12]
+				-8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				1279, -- [17]
+			}, -- [12]
+			{
+				"我就不睡-红龙军团", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1342, -- [12]
+				-8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"惩戒", -- [16]
+				106, -- [17]
+			}, -- [13]
+			{
+				"沧仓苍沧-冬泉谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1312, -- [12]
+				-7, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"惩戒", -- [16]
+				14, -- [17]
+			}, -- [14]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				315, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				956, -- [12]
+				183, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [15]
+			{
+				"莊子-金色平原", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				315, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				384, -- [12]
+				192, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				88, -- [17]
+			}, -- [16]
+			{
+				"Dadoubleu-贫瘠之地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				3428, -- [11]
+				384, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"平衡", -- [16]
+				79, -- [17]
+			}, -- [17]
+			{
+				"漫步天涯海角-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				6768, -- [10]
+				10839, -- [11]
+				192, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"元素", -- [16]
+				6, -- [17]
+			}, -- [18]
+			{
+				"无限未来-冰霜之刃", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"夜之子", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				21749, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				29, -- [17]
+			}, -- [19]
+			{
+				"乘風破浪-刺骨利刃", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"惩戒", -- [16]
+				1, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				0, -- [1]
+				0, -- [2]
+				10, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 566,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				3, -- [4]
+				6, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1479, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1460, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [146]
+	{
+		["PlayerStats"] = {
+			0, -- [1]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 347,
+		["PlayerNum"] = 9,
+		["isBrawl"] = false,
+		["Time"] = 1624691432,
+		["Players"] = {
+			{
+				"烟雨灬偲依-伊森利恩", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1728, -- [12]
+				3, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"邪恶", -- [16]
+				141, -- [17]
+			}, -- [1]
+			{
+				"筱噜同学-国王之谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1595, -- [12]
+				-14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				24, -- [17]
+			}, -- [2]
+			{
+				"清风丶物语-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1593, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				47, -- [17]
+			}, -- [3]
+			{
+				"雨里-艾莫莉丝", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1562, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				488, -- [17]
+			}, -- [4]
+			{
+				"心利贝儿-亚雷戈斯", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1561, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				87, -- [17]
+			}, -- [5]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1553, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				40, -- [17]
+			}, -- [6]
+			{
+				"半妖犭-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"狐人", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1552, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恶魔学识", -- [16]
+				66, -- [17]
+			}, -- [7]
+			{
+				"妹妹坐船头-死亡熔炉", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1552, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				38, -- [17]
+			}, -- [8]
+			{
+				"西瓜味泡泡糖", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1533, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				34, -- [17]
+			}, -- [9]
+			{
+				"大官人丶", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1528, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				36, -- [17]
+			}, -- [10]
+			{
+				"賊走运-凤凰之神", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1526, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"敏锐", -- [16]
+				13, -- [17]
+			}, -- [11]
+			{
+				"格蕾希亚-国王之谷", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1519, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				41, -- [17]
+			}, -- [12]
+			{
+				"未知的僧侣-死亡之翼", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1517, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"踏风", -- [16]
+				8, -- [17]
+			}, -- [13]
+			{
+				"皮尔吉福斯特-玛洛加尔", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1516, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				76, -- [17]
+			}, -- [14]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1513, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [15]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1509, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				44, -- [17]
+			}, -- [16]
+			{
+				"开张大吉-安苏", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"术士", -- [8]
+				"WARLOCK", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1505, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"痛苦", -- [16]
+				222, -- [17]
+			}, -- [17]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1139, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [18]
+			{
+				"美绪-冰风岗", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				270, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				766, -- [12]
+				190, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"复仇", -- [16]
+				33, -- [17]
+			}, -- [19]
+			{
+				"莊子-金色平原", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				30, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				576, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				89, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 727,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				11, -- [3]
+				1, -- [4]
+				1, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1545, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1535, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [147]
+	{
+		["PlayerStats"] = {
+			1, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 211,
+		["PlayerNum"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1624691930,
+		["Players"] = {
+			{
+				"西瓜味泡泡糖", -- [1]
+				3, -- [2]
+				9, -- [3]
+				0, -- [4]
+				273, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				122004, -- [10]
+				8452, -- [11]
+				1521, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"浩劫", -- [16]
+				34, -- [17]
+			}, -- [1]
+			{
+				"大官人丶", -- [1]
+				2, -- [2]
+				9, -- [3]
+				0, -- [4]
+				273, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				104194, -- [10]
+				1210, -- [11]
+				1517, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				36, -- [17]
+			}, -- [2]
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				3, -- [2]
+				9, -- [3]
+				0, -- [4]
+				273, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				101221, -- [10]
+				3921, -- [11]
+				1541, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				40, -- [17]
+			}, -- [3]
+			{
+				"北霜尘-燃烧之刃", -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				17, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				71515, -- [10]
+				35771, -- [11]
+				1548, -- [12]
+				-15, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"复仇", -- [16]
+				39, -- [17]
+			}, -- [4]
+			{
+				"雨里-艾莫莉丝", -- [1]
+				0, -- [2]
+				9, -- [3]
+				0, -- [4]
+				273, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				62806, -- [10]
+				5821, -- [11]
+				1549, -- [12]
+				9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				488, -- [17]
+			}, -- [5]
+			{
+				"骑牛踩蚂蚁-血牙魔王", -- [1]
+				0, -- [2]
+				1, -- [3]
+				1, -- [4]
+				17, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				57104, -- [10]
+				5983, -- [11]
+				1591, -- [12]
+				-16, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				26, -- [17]
+			}, -- [6]
+			{
+				"老陆-狂热之刃", -- [1]
+				0, -- [2]
+				1, -- [3]
+				1, -- [4]
+				17, -- [5]
+				0, -- [6]
+				"兽人", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				55131, -- [10]
+				9866, -- [11]
+				1478, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				94, -- [17]
+			}, -- [7]
+			{
+				"李七郎-影之哀伤", -- [1]
+				0, -- [2]
+				1, -- [3]
+				1, -- [4]
+				17, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				53524, -- [10]
+				0, -- [11]
+				1434, -- [12]
+				-11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"射击", -- [16]
+				15, -- [17]
+			}, -- [8]
+			{
+				"莊子-金色平原", -- [1]
+				0, -- [2]
+				9, -- [3]
+				0, -- [4]
+				273, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				29742, -- [10]
+				6128, -- [11]
+				576, -- [12]
+				191, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				89, -- [17]
+			}, -- [9]
+			{
+				"Eocc-死亡之翼", -- [1]
+				0, -- [2]
+				1, -- [3]
+				1, -- [4]
+				17, -- [5]
+				0, -- [6]
+				"亡灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				15933, -- [10]
+				14939, -- [11]
+				953, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				134, -- [17]
+			}, -- [10]
+			{
+				"咸鱼大魔王-艾露恩", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				13642, -- [10]
+				0, -- [11]
+				1356, -- [12]
+				-9, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"射击", -- [16]
+				50, -- [17]
+			}, -- [11]
+			{
+				"筱噜同学-国王之谷", -- [1]
+				0, -- [2]
+				9, -- [3]
+				0, -- [4]
+				273, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"牧师", -- [8]
+				"PRIEST", -- [9]
+				10993, -- [10]
+				99629, -- [11]
+				1581, -- [12]
+				8, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"戒律", -- [16]
+				24, -- [17]
+			}, -- [12]
+			{
+				"芮居居-斯坦索姆", -- [1]
+				1, -- [2]
+				8, -- [3]
+				0, -- [4]
+				272, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				7165, -- [10]
+				698, -- [11]
+				1139, -- [12]
+				164, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				5, -- [17]
+			}, -- [13]
+			{
+				"碎旗者-贫瘠之地", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				17, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				6985, -- [10]
+				9545, -- [11]
+				192, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野性", -- [16]
+				132, -- [17]
+			}, -- [14]
+			{
+				"格蕾希亚-国王之谷", -- [1]
+				0, -- [2]
+				9, -- [3]
+				0, -- [4]
+				273, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				5729, -- [10]
+				85891, -- [11]
+				1508, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				41, -- [17]
+			}, -- [15]
+			{
+				"牛哥满地打滚-格瑞姆巴托", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				775, -- [10]
+				40490, -- [11]
+				1500, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				24, -- [17]
+			}, -- [16]
+			{
+				"晨晨的甜甜圈-影之哀伤", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				15, -- [5]
+				0, -- [6]
+				"熊猫人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				209, -- [10]
+				2882, -- [11]
+				954, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				62, -- [17]
+			}, -- [17]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				255, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1502, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [18]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				3, -- [3]
+				1, -- [4]
+				261, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				0, -- [10]
+				28277, -- [11]
+				1498, -- [12]
+				10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				44, -- [17]
+			}, -- [19]
+			{
+				"灬宝宝带我飞-安苏", -- [1]
+				0, -- [2]
+				1, -- [3]
+				1, -- [4]
+				17, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				0, -- [10]
+				0, -- [11]
+				1410, -- [12]
+				-10, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"射击", -- [16]
+				358, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				3, -- [2]
+				7, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				2, -- [2]
+				7, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 2107,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				9, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1446, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1458, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [148]
+	{
+		["PlayerStats"] = {
+			2, -- [1]
+			0, -- [2]
+		},
+		["PlayersNum"] = 20,
+		["Duration"] = 306,
+		["PlayerNum"] = 11,
+		["isBrawl"] = false,
+		["Time"] = 1624692655,
+		["Players"] = {
+			{
+				"笙歌叹离愁-加里索斯", -- [1]
+				3, -- [2]
+				11, -- [3]
+				0, -- [4]
+				385, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				174544, -- [10]
+				2936, -- [11]
+				1550, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				40, -- [17]
+			}, -- [1]
+			{
+				"大官人丶", -- [1]
+				3, -- [2]
+				10, -- [3]
+				1, -- [4]
+				383, -- [5]
+				1, -- [6]
+				"光铸德莱尼", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				150474, -- [10]
+				6188, -- [11]
+				1527, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				36, -- [17]
+			}, -- [2]
+			{
+				"镜面-伊森利恩", -- [1]
+				0, -- [2]
+				1, -- [3]
+				1, -- [4]
+				162, -- [5]
+				0, -- [6]
+				"至高岭牛头人", -- [7]
+				"死亡骑士", -- [8]
+				"DEATHKNIGHT", -- [9]
+				123461, -- [10]
+				107663, -- [11]
+				1137, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"鲜血", -- [16]
+				30, -- [17]
+			}, -- [3]
+			{
+				"挔茶丶-末日行者", -- [1]
+				1, -- [2]
+				11, -- [3]
+				0, -- [4]
+				385, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				84384, -- [10]
+				8208, -- [11]
+				1422, -- [12]
+				25, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				228, -- [17]
+			}, -- [4]
+			{
+				"雨里-艾莫莉丝", -- [1]
+				2, -- [2]
+				11, -- [3]
+				0, -- [4]
+				385, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				83003, -- [10]
+				3957, -- [11]
+				1558, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				488, -- [17]
+			}, -- [5]
+			{
+				"银月城丶游侠-试炼之环", -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				162, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				73082, -- [10]
+				0, -- [11]
+				1562, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"射击", -- [16]
+				35, -- [17]
+			}, -- [6]
+			{
+				"寒冰箭丶-闪电之刃", -- [1]
+				0, -- [2]
+				1, -- [3]
+				0, -- [4]
+				162, -- [5]
+				0, -- [6]
+				"夜之子", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				67216, -- [10]
+				55015, -- [11]
+				1558, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"火焰", -- [16]
+				27, -- [17]
+			}, -- [7]
+			{
+				"Thrones-杜隆坦", -- [1]
+				0, -- [2]
+				0, -- [3]
+				2, -- [4]
+				159, -- [5]
+				0, -- [6]
+				"夜之子", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				59572, -- [10]
+				14667, -- [11]
+				1321, -- [12]
+				-6, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				629, -- [17]
+			}, -- [8]
+			{
+				"莊子-金色平原", -- [1]
+				2, -- [2]
+				11, -- [3]
+				0, -- [4]
+				385, -- [5]
+				1, -- [6]
+				"虚空精灵", -- [7]
+				"猎人", -- [8]
+				"HUNTER", -- [9]
+				58749, -- [10]
+				3887, -- [11]
+				767, -- [12]
+				190, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"野兽控制", -- [16]
+				89, -- [17]
+			}, -- [9]
+			{
+				"格蕾希亚-国王之谷", -- [1]
+				0, -- [2]
+				10, -- [3]
+				0, -- [4]
+				383, -- [5]
+				1, -- [6]
+				"狼人", -- [7]
+				"德鲁伊", -- [8]
+				"DRUID", -- [9]
+				56336, -- [10]
+				149879, -- [11]
+				1518, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				41, -- [17]
+			}, -- [10]
+			{
+				"西瓜味泡泡糖", -- [1]
+				0, -- [2]
+				11, -- [3]
+				0, -- [4]
+				385, -- [5]
+				1, -- [6]
+				"暗夜精灵", -- [7]
+				"恶魔猎手", -- [8]
+				"DEMONHUNTER", -- [9]
+				51216, -- [10]
+				5599, -- [11]
+				1530, -- [12]
+				12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"复仇", -- [16]
+				34, -- [17]
+			}, -- [11]
+			{
+				"Lilith-贫瘠之地", -- [1]
+				0, -- [2]
+				11, -- [3]
+				0, -- [4]
+				385, -- [5]
+				1, -- [6]
+				"人类", -- [7]
+				"潜行者", -- [8]
+				"ROGUE", -- [9]
+				40880, -- [10]
+				11388, -- [11]
+				1512, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"奇袭", -- [16]
+				74, -- [17]
+			}, -- [12]
+			{
+				"灵魂的屠戮-塞拉摩", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				159, -- [5]
+				0, -- [6]
+				"玛格汉兽人", -- [7]
+				"战士", -- [8]
+				"WARRIOR", -- [9]
+				34249, -- [10]
+				19466, -- [11]
+				1537, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"武器", -- [16]
+				94, -- [17]
+			}, -- [13]
+			{
+				"煊赫门公主-埃德萨拉", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				159, -- [5]
+				0, -- [6]
+				"夜之子", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				21452, -- [10]
+				7713, -- [11]
+				1549, -- [12]
+				-13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				13, -- [17]
+			}, -- [14]
+			{
+				"圣光飘零-熔火之心", -- [1]
+				0, -- [2]
+				11, -- [3]
+				0, -- [4]
+				385, -- [5]
+				1, -- [6]
+				"德莱尼", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				11180, -- [10]
+				112003, -- [11]
+				1565, -- [12]
+				11, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				118, -- [17]
+			}, -- [15]
+			{
+				"晶晶闪亮亮-格瑞姆巴托", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				159, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"法师", -- [8]
+				"MAGE", -- [9]
+				10362, -- [10]
+				9645, -- [11]
+				1587, -- [12]
+				-14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"冰霜", -- [16]
+				11, -- [17]
+			}, -- [16]
+			{
+				"哦髪嚄-无尽之海", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				159, -- [5]
+				0, -- [6]
+				"血精灵", -- [7]
+				"圣骑士", -- [8]
+				"PALADIN", -- [9]
+				4153, -- [10]
+				24902, -- [11]
+				1572, -- [12]
+				-14, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"神圣", -- [16]
+				68, -- [17]
+			}, -- [17]
+			{
+				"喵呜喵呜汪-月光林地", -- [1]
+				0, -- [2]
+				11, -- [3]
+				0, -- [4]
+				385, -- [5]
+				1, -- [6]
+				"熊猫人", -- [7]
+				"武僧", -- [8]
+				"MONK", -- [9]
+				729, -- [10]
+				49439, -- [11]
+				1508, -- [12]
+				13, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"织雾", -- [16]
+				44, -- [17]
+			}, -- [18]
+			{
+				"那一斧的柔情-梅尔加尼", -- [1]
+				0, -- [2]
+				1, -- [3]
+				2, -- [4]
+				162, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				28969, -- [11]
+				1532, -- [12]
+				-12, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				12, -- [17]
+			}, -- [19]
+			{
+				"蒼瑶-塞拉赞恩", -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+				159, -- [5]
+				0, -- [6]
+				"牛头人", -- [7]
+				"萨满祭司", -- [8]
+				"SHAMAN", -- [9]
+				0, -- [10]
+				85072, -- [11]
+				1315, -- [12]
+				-6, -- [13]
+				0, -- [14]
+				0, -- [15]
+				"恢复", -- [16]
+				24, -- [17]
+			}, -- [20]
+		},
+		["BGComposition"] = {
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Hidden"] = false,
+		["Map"] = 726,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["Version"] = 313,
+		["isRated"] = true,
+		["BGPlace"] = {
+			{
+				6, -- [1]
+				1, -- [2]
+				1, -- [3]
+				7, -- [4]
+				7, -- [5]
+			}, -- [1]
+			{
+				7, -- [1]
+				1, -- [2]
+				1, -- [3]
+				11, -- [4]
+				16, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 1,
+		["Season"] = 30,
+		["TeamData"] = {
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1527, -- [4]
+				10, -- [5]
+			}, -- [1]
+			{
+				"", -- [1]
+				-1, -- [2]
+				-13, -- [3]
+				1520, -- [4]
+				10, -- [5]
+			}, -- [2]
+		},
+	}, -- [149]
 }
 REFlexHonorDatabase = {
-	[1621958400] = 3855,
-	[1621094400] = 2565,
 	[1624204800] = 7185,
+	[1621958400] = 3855,
+	[1624636800] = 13894,
 	[1624032000] = 1821,
 	[1623340800] = 1080,
 	[1622822400] = 12591,
@@ -29761,4 +38217,5 @@ REFlexHonorDatabase = {
 	[1622217600] = 6518,
 	[1623686400] = 3628,
 	[1624118400] = 1846,
+	[1621094400] = 2565,
 }

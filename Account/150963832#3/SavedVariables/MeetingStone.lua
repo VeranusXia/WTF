@@ -389,7 +389,7 @@ MEETINGSTONE_UI_DB = {
 				["new"] = false,
 			},
 			["ActivitiesData"] = {
-				["data"] = "$1$Z$S326`魔兽主播活动`卡拉赞之夜`6月19日（周六）晚8点，斗鱼人气主播：痴汉万宝路（房间号：1340947）卡拉赞之夜*J最后的守护者麦迪文在逆风小径建起了一座名为卡拉赞的高塔，在他死后恐怖的诅咒也降临于此，在夜幕下，深入神秘而阴暗的高塔冒险吧！`http://w.163.com/special/convene-stone/`2`3$S327`魔兽主播活动`竞技场主宰`6月26日（周六）晚8点，虎牙人气主播：惊无命（房间号：623751）竞技场主宰*J你准备好大打出手了吗？“燃烧的远征”竞技场第1赛季已经开始号召全外域最精干的斗士们齐聚一堂，在三个竞技场中一较高下。准备争夺装备、坐骑和头衔奖励，以及最重要的——经久不衰的荣耀。步入竞技场吧，勇士，证明你的实力！`http://w.163.com/special/convene-stone/`2`3$$",
+				["data"] = "$1$Z$S327`魔兽主播活动`竞技场主宰`6月26日（周六）晚8点，虎牙人气主播：惊无命（房间号：623751）竞技场主宰*J你准备好大打出手了吗？“燃烧的远征”竞技场第1赛季已经开始号召全外域最精干的斗士们齐聚一堂，在三个竞技场中一较高下。准备争夺装备、坐骑和头衔奖励，以及最重要的——经久不衰的荣耀。步入竞技场吧，勇士，证明你的实力！`http://w.163.com/special/convene-stone/`2`3$S328`魔兽主播活动`统御之链`7月3日（周六）晚8点，斗鱼人气主播：AC绅士向（房间号：45662）统御之链*J背信弃义的德纳修斯大帝已经伏法，但噬渊的力量仍在不断增长。与恢复了实力的格里恩、通灵领主、法夜和温西尔重返噬渊，并肩回击典狱长！`http://w.163.com/special/convene-stone/`2`3$$",
 			},
 		},
 		["version"] = "90002.03",
@@ -698,8 +698,8 @@ MEETINGSTONE_UI_DB = {
 				["MinLevel"] = 110,
 				["HonorLevel"] = 0,
 			},
-			["阿塔达萨（史诗钥石）"] = {
-				["ItemLevel"] = 460,
+			["达萨罗之战（史诗）"] = {
+				["ItemLevel"] = 470,
 				["HonorLevel"] = 0,
 			},
 			["暗夜要塞（普通）"] = {
@@ -710,20 +710,16 @@ MEETINGSTONE_UI_DB = {
 				["PvPRating"] = 0,
 				["HonorLevel"] = 0,
 			},
-			["随机海岛（史诗）"] = {
+			["维克雷斯庄园（史诗）"] = {
+				["ItemLevel"] = 335,
+				["HonorLevel"] = 0,
+			},
+			["阿塔达萨（史诗钥石）"] = {
 				["ItemLevel"] = 460,
 				["HonorLevel"] = 0,
 			},
-			["世界首领（军团再临）"] = {
-				["ItemLevel"] = 0,
-				["Summary"] = "冰封之王 50%",
-				["PvPRating"] = 0,
-				["MaxLevel"] = 110,
-				["MinLevel"] = 110,
-				["HonorLevel"] = 0,
-			},
-			["地渊孢林（史诗钥石）"] = {
-				["ItemLevel"] = 440,
+			["随机海岛（史诗）"] = {
+				["ItemLevel"] = 460,
 				["HonorLevel"] = 0,
 			},
 			["苏拉玛"] = {
@@ -750,12 +746,16 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 340,
 				["HonorLevel"] = 0,
 			},
-			["维克雷斯庄园（史诗）"] = {
-				["ItemLevel"] = 335,
+			["地渊孢林（史诗钥石）"] = {
+				["ItemLevel"] = 440,
 				["HonorLevel"] = 0,
 			},
-			["达萨罗之战（史诗）"] = {
-				["ItemLevel"] = 470,
+			["世界首领（军团再临）"] = {
+				["ItemLevel"] = 0,
+				["Summary"] = "冰封之王 50%",
+				["PvPRating"] = 0,
+				["MaxLevel"] = 110,
+				["MinLevel"] = 110,
 				["HonorLevel"] = 0,
 			},
 			["艾萨拉之眼（史诗）"] = {
@@ -822,17 +822,17 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["enable"] = false,
 				},
+				["Members"] = {
+					["min"] = 0,
+					["max"] = 0,
+					["enable"] = false,
+				},
 				["ItemLevel"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
 				},
 				["Age"] = {
-					["min"] = 0,
-					["max"] = 0,
-					["enable"] = false,
-				},
-				["Members"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
@@ -844,6 +844,11 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["max"] = 0,
 				},
+				["Members"] = {
+					["min"] = 1,
+					["enable"] = false,
+					["max"] = 4,
+				},
 				["ItemLevel"] = {
 					["min"] = 220,
 					["enable"] = false,
@@ -854,11 +859,6 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["max"] = 0,
 				},
-				["Members"] = {
-					["min"] = 1,
-					["enable"] = false,
-					["max"] = 4,
-				},
 			}, -- [2]
 			{
 				["BossKilled"] = {
@@ -866,17 +866,17 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["max"] = 1,
 				},
+				["ItemLevel"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
+				},
 				["Age"] = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
 				},
 				["Members"] = {
-					["min"] = 0,
-					["enable"] = false,
-					["max"] = 0,
-				},
-				["ItemLevel"] = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
@@ -888,17 +888,17 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["enable"] = false,
 				},
+				["Age"] = {
+					["min"] = 0,
+					["max"] = 0,
+					["enable"] = false,
+				},
 				["Members"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
 				},
 				["ItemLevel"] = {
-					["min"] = 0,
-					["max"] = 0,
-					["enable"] = false,
-				},
-				["Age"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
@@ -911,17 +911,17 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["enable"] = false,
 				},
+				["ItemLevel"] = {
+					["min"] = 0,
+					["max"] = 0,
+					["enable"] = false,
+				},
 				["Age"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
 				},
 				["Members"] = {
-					["min"] = 0,
-					["max"] = 0,
-					["enable"] = false,
-				},
-				["ItemLevel"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
@@ -933,6 +933,11 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["max"] = 0,
 				},
+				["Age"] = {
+					["min"] = 0,
+					["enable"] = true,
+					["max"] = 10,
+				},
 				["Members"] = {
 					["min"] = 5,
 					["enable"] = true,
@@ -943,14 +948,14 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = true,
 					["max"] = 230,
 				},
-				["Age"] = {
-					["min"] = 0,
-					["enable"] = true,
-					["max"] = 10,
-				},
 			},
 			[111] = {
 				["BossKilled"] = {
+					["min"] = 0,
+					["max"] = 0,
+					["enable"] = false,
+				},
+				["Members"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
@@ -961,11 +966,6 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 				},
 				["Age"] = {
-					["min"] = 0,
-					["max"] = 0,
-					["enable"] = false,
-				},
-				["Members"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,

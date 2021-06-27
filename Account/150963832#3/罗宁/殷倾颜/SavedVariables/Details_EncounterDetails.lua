@@ -870,12 +870,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "德纳修斯大帝",
 		},
-		[345425] = {
+		[343895] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "啸翼",
+			["source"] = "顽石军团巨怪",
 		},
 		[340324] = {
 			["school"] = 32,
@@ -894,13 +895,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "啸翼",
 		},
-		[334094] = {
-			["school"] = 8,
+		[327464] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "格拉夏尔将军",
+			["source"] = "蕾茉妮雅",
 		},
 		[328276] = {
 			["school"] = 32,
@@ -911,13 +911,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "德纳修斯大帝",
 		},
-		[343895] = {
+		[345425] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "顽石军团巨怪",
+			["source"] = "啸翼",
 		},
 		[331209] = {
 			["school"] = 1,
@@ -1006,13 +1005,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "格拉夏尔将军",
 		},
-		[326699] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[334094] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "德纳修斯大帝",
+			["source"] = "格拉夏尔将军",
 		},
 		[343898] = {
 			["school"] = 1,
@@ -1064,14 +1063,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "被感染的岩喉",
 		},
-		[343135] = {
+		[329875] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "格拉夏尔将军",
+			["source"] = "蕾茉妮雅",
 		},
 		[298701] = {
 			["school"] = 32,
@@ -1081,14 +1080,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "奴隶主奥洛克",
 		},
-		[329875] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[45029] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "蕾茉妮雅",
+			["source"] = "腐蚀者萨索瓦尔",
 		},
 		[342272] = {
 			["school"] = 32,
@@ -1137,22 +1138,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "幽灵狼",
 		},
-		[332619] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[298704] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "德纳修斯大帝",
+			["source"] = "奴隶主奥洛克",
 		},
-		[332937] = {
+		[328857] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "邪恶镜像",
+			["source"] = "啸翼",
 		},
 		[328921] = {
 			["school"] = 1,
@@ -1162,20 +1162,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "啸翼",
 		},
-		[34933] = {
-			["school"] = 64,
+		[55078] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "符文武器",
+		},
+		[332619] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "法力蛭",
-		},
-		[298704] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "奴隶主奥洛克",
+			["source"] = "德纳修斯大帝",
 		},
 		[46177] = {
 			["school"] = 32,
@@ -1184,12 +1185,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "穆鲁",
 		},
-		[55078] = {
-			["school"] = 32,
+		[335297] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "符文武器",
+			["source"] = "泥拳",
 		},
 		[329943] = {
 			["school"] = 1,
@@ -1228,15 +1229,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "德纳修斯大帝",
 		},
-		[309671] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[31707] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "瑟鲁姆·深炉",
+			["source"] = "水元素",
 		},
 		[332318] = {
 			["school"] = 1,
@@ -1331,12 +1329,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "赤红秘法师",
 		},
-		[31707] = {
-			["school"] = 16,
+		[309671] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "水元素",
+			["source"] = "瑟鲁姆·深炉",
 		},
 		[264603] = {
 			["school"] = 64,
@@ -1353,20 +1354,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "啸翼",
 		},
-		[335297] = {
-			["school"] = 1,
+		[34933] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "泥拳",
+			["source"] = "法力蛭",
 		},
-		[328857] = {
+		[332937] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "啸翼",
+			["source"] = "邪恶镜像",
 		},
 		[326824] = {
 			["school"] = 32,
@@ -1417,16 +1418,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "雪怒",
 		},
-		[45029] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[343135] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "腐蚀者萨索瓦尔",
+			["source"] = "格拉夏尔将军",
 		},
 		[201633] = {
 			["school"] = 2,
@@ -1452,12 +1451,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "卡尔将军",
 		},
-		[327464] = {
+		[326699] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "蕾茉妮雅",
+			["source"] = "德纳修斯大帝",
 		},
 		[46680] = {
 			["school"] = 1,
