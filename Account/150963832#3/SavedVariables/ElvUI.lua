@@ -94,9 +94,9 @@ ElvDB = {
 		["匠人匠心 - 蜘蛛王国"] = "Default",
 		["龟裂 - 瓦拉纳"] = "Default",
 		["拂霓裳 - 蜘蛛王国"] = "Default",
+		["电压守 - 瓦拉纳"] = "Default",
 		["实力不够悬殊 - 金色平原"] = "Default",
 		["招商中证白酒 - 罗宁"] = "Default",
-		["电压守 - 瓦拉纳"] = "Default",
 		["都放弃速度灭 - 奈萨里奥"] = "Default",
 		["拔剑乱杀 - 燃烧之刃"] = "Default",
 		["爱你哟 - 蜘蛛王国"] = "Default",
@@ -169,12 +169,12 @@ ElvDB = {
 			["实力不够悬殊"] = "ROGUE",
 		},
 		["蜘蛛王国"] = {
-			["Riyuujo"] = "WARLOCK",
+			["王源"] = "DRUID",
 			["禁止白嫖"] = "WARRIOR",
 			["权宜之计"] = "ROGUE",
 			["梨花細雨"] = "DRUID",
 			["奶凶的小萝莉"] = "DEATHKNIGHT",
-			["猪柳蛋帕妮妮"] = "HUNTER",
+			["Riyuujo"] = "WARLOCK",
 			["狂乱合唱"] = "PRIEST",
 			["海妖花粉"] = "SHAMAN",
 			["但偏偏雨渐渐"] = "WARLOCK",
@@ -183,7 +183,7 @@ ElvDB = {
 			["蔡徐坤"] = "HUNTER",
 			["爱你哟"] = "WARRIOR",
 			["须臾洞察"] = "ROGUE",
-			["王源"] = "DRUID",
+			["猪柳蛋帕妮妮"] = "HUNTER",
 		},
 		["白银之手"] = {
 			["西园寺恋"] = "PRIEST",
@@ -554,16 +554,16 @@ ElvDB = {
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,5,735",
 				["PlayerNameplate"] = "BOTTOM,ElvUIParent,BOTTOM,0,368",
 				["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,290,121",
-				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,211,169",
-				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,161,121",
+				["ElvUIBankMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,180",
+				["SLE_DataPanel_8_Mover"] = "BOTTOM,ElvUIParent,BOTTOM,273,0",
 				["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-4,198",
 				["DurabilityFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-392",
 				["ElvUF_PetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-163,147",
 				["VehicleSeatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,460,0",
-				["SLE_DataPanel_8_Mover"] = "BOTTOM,ElvUIParent,BOTTOM,273,0",
+				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,161,121",
 				["ExperienceBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,450,0",
 				["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,0",
-				["ElvUIBankMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,180",
+				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,211,169",
 				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,180",
 				["LossControlMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,274",
 				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,5,432",
@@ -656,6 +656,39 @@ ElvDB = {
 					["tank"] = {
 						["enable"] = false,
 					},
+					["boss"] = {
+						["debuffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = -18,
+						},
+						["spacing"] = 22,
+						["castbar"] = {
+							["width"] = 200,
+						},
+						["power"] = {
+							["text_format"] = "[powercolor][curpp]",
+							["xOffset"] = 2,
+						},
+						["width"] = 200,
+						["infoPanel"] = {
+							["height"] = 17,
+						},
+						["name"] = {
+							["xOffset"] = 2,
+						},
+						["height"] = 47,
+						["buffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = 10,
+						},
+					},
+					["pet"] = {
+						["castbar"] = {
+							["width"] = 100,
+						},
+						["width"] = 100,
+						["height"] = 25,
+					},
 					["party"] = {
 						["buffs"] = {
 							["sizeOverride"] = 20,
@@ -704,12 +737,49 @@ ElvDB = {
 							["yOffset"] = -5,
 						},
 					},
-					["pet"] = {
-						["castbar"] = {
-							["width"] = 100,
+					["raid"] = {
+						["healPrediction"] = {
+							["enable"] = true,
 						},
-						["width"] = 100,
-						["height"] = 25,
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["name"] = {
+							["attachTextTo"] = "InfoPanel",
+							["position"] = "LEFT",
+							["xOffset"] = 15,
+						},
+						["height"] = 35,
+						["visibility"] = "[nogroup][@raid6,noexists][@raid31,exists] hide;show",
+						["raidicon"] = {
+							["attachTo"] = "TOPRIGHT",
+							["xOffset"] = -2,
+						},
+						["rdebuffs"] = {
+							["font"] = "PT Sans Narrow",
+						},
+						["numGroups"] = 8,
+						["growthDirection"] = "DOWN_LEFT",
+						["buffIndicator"] = {
+							["size"] = 6,
+						},
+						["roleIcon"] = {
+							["yOffset"] = 0,
+							["attachTo"] = "InfoPanel",
+							["position"] = "LEFT",
+							["xOffset"] = 0,
+							["size"] = 14,
+						},
+						["power"] = {
+							["height"] = 6,
+						},
+						["width"] = 90,
+						["health"] = {
+							["position"] = "TOPLEFT",
+							["xOffset"] = 4,
+							["text_format"] = "",
+							["yOffset"] = -4,
+						},
 					},
 					["player"] = {
 						["debuffs"] = {
@@ -792,76 +862,6 @@ ElvDB = {
 							["detachFromFrame"] = true,
 							["enable"] = false,
 							["detachedWidth"] = 225,
-						},
-					},
-					["raid"] = {
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["infoPanel"] = {
-							["enable"] = true,
-						},
-						["name"] = {
-							["attachTextTo"] = "InfoPanel",
-							["position"] = "LEFT",
-							["xOffset"] = 15,
-						},
-						["height"] = 35,
-						["visibility"] = "[nogroup][@raid6,noexists][@raid31,exists] hide;show",
-						["raidicon"] = {
-							["attachTo"] = "TOPRIGHT",
-							["xOffset"] = -2,
-						},
-						["rdebuffs"] = {
-							["font"] = "PT Sans Narrow",
-						},
-						["numGroups"] = 8,
-						["growthDirection"] = "DOWN_LEFT",
-						["buffIndicator"] = {
-							["size"] = 6,
-						},
-						["roleIcon"] = {
-							["yOffset"] = 0,
-							["attachTo"] = "InfoPanel",
-							["position"] = "LEFT",
-							["xOffset"] = 0,
-							["size"] = 14,
-						},
-						["power"] = {
-							["height"] = 6,
-						},
-						["width"] = 90,
-						["health"] = {
-							["position"] = "TOPLEFT",
-							["xOffset"] = 4,
-							["text_format"] = "",
-							["yOffset"] = -4,
-						},
-					},
-					["boss"] = {
-						["debuffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = -18,
-						},
-						["spacing"] = 22,
-						["castbar"] = {
-							["width"] = 200,
-						},
-						["power"] = {
-							["text_format"] = "[powercolor][curpp]",
-							["xOffset"] = 2,
-						},
-						["width"] = 200,
-						["infoPanel"] = {
-							["height"] = 17,
-						},
-						["name"] = {
-							["xOffset"] = 2,
-						},
-						["height"] = 47,
-						["buffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = 10,
 						},
 					},
 					["raid40"] = {
@@ -1264,12 +1264,12 @@ ElvDB = {
 			["实力不够悬殊"] = "Horde",
 		},
 		["蜘蛛王国"] = {
-			["Riyuujo"] = "Alliance",
+			["王源"] = "Alliance",
 			["禁止白嫖"] = "Alliance",
 			["权宜之计"] = "Alliance",
 			["梨花細雨"] = "Alliance",
 			["奶凶的小萝莉"] = "Alliance",
-			["猪柳蛋帕妮妮"] = "Alliance",
+			["Riyuujo"] = "Alliance",
 			["狂乱合唱"] = "Alliance",
 			["海妖花粉"] = "Alliance",
 			["但偏偏雨渐渐"] = "Alliance",
@@ -1278,7 +1278,7 @@ ElvDB = {
 			["蔡徐坤"] = "Alliance",
 			["爱你哟"] = "Alliance",
 			["须臾洞察"] = "Alliance",
-			["王源"] = "Alliance",
+			["猪柳蛋帕妮妮"] = "Alliance",
 		},
 		["白银之手"] = {
 			["西园寺恋"] = "Alliance",
@@ -1412,7 +1412,7 @@ ElvDB = {
 			["维莉雅蕾妮"] = 163130886,
 			["西瓜味泡泡糖"] = 1392462730,
 			["殷倾颜"] = 2455563684,
-			["招商中证白酒"] = 2510314829,
+			["招商中证白酒"] = 2514891147,
 			["噃噃"] = 7805715635,
 			["她会的我也会"] = 431850502,
 			["龙小二"] = 10023623,
@@ -1656,31 +1656,31 @@ ElvDB = {
 		["datatexts"] = {
 			["customCurrencies"] = {
 				[1560] = {
+					["SHOW_MAX"] = false,
 					["DISPLAY_STYLE"] = "ICON",
-					["NAME"] = "战争物资",
 					["USE_TOOLTIP"] = true,
 					["ID"] = 1560,
 					["ICON"] = "|T2032600:16:16:0:0:64:64:4:60:4:60|t",
 					["DISPLAY_IN_MAIN_TOOLTIP"] = true,
-					["SHOW_MAX"] = false,
+					["NAME"] = "战争物资",
 				},
 				[1813] = {
+					["DISPLAY_STYLE"] = "ICON",
 					["NAME"] = "贮藏心能",
-					["SHOW_MAX"] = false,
 					["USE_TOOLTIP"] = true,
 					["ID"] = 1813,
 					["ICON"] = "|T3528288:16:16:0:0:64:64:4:60:4:60|t",
 					["DISPLAY_IN_MAIN_TOOLTIP"] = true,
-					["DISPLAY_STYLE"] = "ICON",
+					["SHOW_MAX"] = false,
 				},
 				[1767] = {
+					["NAME"] = "冥殇",
 					["SHOW_MAX"] = false,
-					["DISPLAY_STYLE"] = "ICON",
 					["USE_TOOLTIP"] = true,
 					["ID"] = 1767,
 					["DISPLAY_IN_MAIN_TOOLTIP"] = true,
 					["ICON"] = "|T3743739:16:16:0:0:64:64:4:60:4:60|t",
-					["NAME"] = "冥殇",
+					["DISPLAY_STYLE"] = "ICON",
 				},
 			},
 			["settings"] = {
@@ -1699,104 +1699,66 @@ ElvDB = {
 							nil, -- [3]
 							true, -- [4]
 						}, -- [8]
-						nil, -- [9]
-						nil, -- [10]
-						{
+						[11] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [11]
-						nil, -- [12]
-						{
+						},
+						[13] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [13]
-						nil, -- [14]
-						{
+						},
+						[21] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [15]
-						nil, -- [16]
-						nil, -- [17]
-						nil, -- [18]
-						nil, -- [19]
-						nil, -- [20]
-						nil, -- [21]
-						nil, -- [22]
-						nil, -- [23]
-						nil, -- [24]
-						{
+						},
+						[23] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [25]
-						nil, -- [26]
-						nil, -- [27]
-						nil, -- [28]
-						{
+						},
+						[27] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [29]
-						nil, -- [30]
-						nil, -- [31]
-						{
+						},
+						[38] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [32]
-						nil, -- [33]
-						nil, -- [34]
-						{
+						},
+						[40] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [35]
-						nil, -- [36]
-						nil, -- [37]
-						{
+						},
+						[42] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [38]
-						nil, -- [39]
-						{
+						},
+						[44] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [40]
-						nil, -- [41]
-						{
+						},
+						[46] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [42]
-						nil, -- [43]
-						{
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							true, -- [4]
-						}, -- [44]
-						nil, -- [45]
-						{
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							true, -- [4]
-						}, -- [46]
+						},
 						[49] = {
 							nil, -- [1]
 							nil, -- [2]
@@ -1950,10 +1912,10 @@ ElvPrivateDB = {
 		["西瓜味醒目 - 安苏"] = "西瓜味醒目 - 安苏",
 		["欧欧蕾蕾 - 罗宁"] = "欧欧蕾蕾 - 罗宁",
 		["拔剑乱杀 - 燃烧之刃"] = "拔剑乱杀 - 燃烧之刃",
-		["实力不够悬殊 - 金色平原"] = "实力不够悬殊 - 金色平原",
-		["拂霓裳 - 蜘蛛王国"] = "拂霓裳 - 蜘蛛王国",
 		["招商中证白酒 - 罗宁"] = "招商中证白酒 - 罗宁",
+		["拂霓裳 - 蜘蛛王国"] = "拂霓裳 - 蜘蛛王国",
 		["电压守 - 瓦拉纳"] = "电压守 - 瓦拉纳",
+		["实力不够悬殊 - 金色平原"] = "实力不够悬殊 - 金色平原",
 		["卡姆希拉夫 - 燃烧之刃"] = "卡姆希拉夫 - 燃烧之刃",
 		["都放弃速度灭 - 奈萨里奥"] = "都放弃速度灭 - 奈萨里奥",
 		["蕾妮 - 蜘蛛王国"] = "蕾妮 - 蜘蛛王国",
@@ -2151,15 +2113,15 @@ ElvPrivateDB = {
 		["拔剑乱杀 - 燃烧之刃"] = {
 			["install_complete"] = 12.21,
 		},
-		["实力不够悬殊 - 金色平原"] = {
+		["招商中证白酒 - 罗宁"] = {
+			["install_complete"] = 12.16,
 		},
 		["拂霓裳 - 蜘蛛王国"] = {
 			["install_complete"] = 11.41,
 		},
-		["招商中证白酒 - 罗宁"] = {
-			["install_complete"] = 12.16,
-		},
 		["电压守 - 瓦拉纳"] = {
+		},
+		["实力不够悬殊 - 金色平原"] = {
 		},
 		["卡姆希拉夫 - 燃烧之刃"] = {
 			["install_complete"] = 11.41,
