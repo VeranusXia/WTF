@@ -2,7 +2,7 @@ AdvancedInterfaceOptions: enabled
 AngryKeystones: enabled
 AuctionLite: disabled
 AzeriteTooltip: disabled
-BagSync: enabled
+BagSync: disabled
 BattlePetBreedID: enabled
 !BugGrabber: enabled
 BugSack: enabled
@@ -45,7 +45,7 @@ Mapster: enabled
 Masque: enabled
 MBB: enabled
 Pawn: disabled
-PetTracker: enabled
+PetTracker: disabled
 PetTracker_Breeds: enabled
 PetTracker_Config: enabled
 PetTracker_Journal: enabled
@@ -163,7 +163,7 @@ Handynotes_Pandaria: enabled
 zPetBattleLevelUpMonitor: enabled
 RareScanner: enabled
 EJShowSL: enabled
-CanIMogIt: enabled
+CanIMogIt: disabled
 HandyNotes_ScourgeInvasionShadowlands: disabled
 Narcissus: disabled
 Narcissus_Database: disabled

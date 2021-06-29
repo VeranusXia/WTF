@@ -25,8 +25,8 @@ Details_StreamerDB = {
 		["奶凶的小萝莉 - 蜘蛛王国"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["蕾妮 - 蜘蛛王国"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["殷倾颜 - 罗宁"] = "但偏偏雨渐渐 - 蜘蛛王国",
-		["蕾妮 - 格瑞姆巴托"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["西园寺恋 - 白银之手"] = "但偏偏雨渐渐 - 蜘蛛王国",
+		["蕾妮 - 格瑞姆巴托"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["瓦拉纳微微 - 瓦拉纳"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["蕾妮 - 布兰卡德"] = "但偏偏雨渐渐 - 蜘蛛王国",
 		["片桐夏向 - 罗宁"] = "但偏偏雨渐渐 - 蜘蛛王国",
@@ -59,28 +59,18 @@ Details_StreamerDB = {
 				["radius"] = 160,
 				["hide"] = false,
 			},
-			["arrow_anchor_y"] = 0,
+			["scale"] = 1,
 			["arrow_anchor_x"] = 0,
-			["main_frame_locked"] = false,
+			["row_height"] = 20,
 			["row_texture"] = "Details Serenity",
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
-			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
-				["scale"] = 1,
-				["font_shadow"] = true,
-				["y"] = 1.52587890625e-05,
-				["x"] = -3.0517578125e-05,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
-				["size"] = 32,
-			},
-			["author"] = "Details! Team",
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
@@ -92,22 +82,32 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -2.288818359375e-05,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 1.52587890625e-05,
+				["x"] = -3.0517578125e-05,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
 			["use_spark"] = true,
 			["x"] = -0.00018310546875,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["point"] = "CENTER",
-			["font_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["row_height"] = 20,
-			["scale"] = 1,
+			["y"] = -2.288818359375e-05,
+			["author"] = "Details! Team",
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
 		},
 	},
 }
