@@ -358,3 +358,4 @@ LibDispellable-1.0: enabled
 TomTom: enabled
 HereBeDragons: enabled
 DBM-SanctumOfDomination: enabled
+MRT: enabled
