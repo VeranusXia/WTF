@@ -2,7 +2,7 @@ Version: 1
 Frame: FreeInstanceFetcherFrame
 FrameLevel: 1
 Anchor: TOPLEFT
-X: 265
+X: 455
 Y: 0
 W: 48
 H: 48
@@ -12,7 +12,7 @@ Anchor: TOPLEFT
 X: 48
 Y: -4
 W: 235
-H: 641
+H: 640
 Frame: PlayerPowerBarAlt
 FrameLevel: 2
 Anchor: TOP
@@ -26,7 +26,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 241
 Frame: FloatingBattlePetTooltip
 FrameLevel: 1
 Anchor: BOTTOM
