@@ -1,7 +1,7 @@
 
 AltconDB = {
 	["showMinimapButton"] = 1,
-	["weeklyReset"] = 1625093999,
+	["weeklyReset"] = 1625698799,
 	["minimapButton"] = {
 		["minimapPos"] = 180.7777135390206,
 	},
@@ -128,8 +128,8 @@ AltconDB = {
 			["profile"] = "Reneebaby - 罗宁",
 			["challenge"] = {
 			},
-			["class"] = "ROGUE",
 			["ilevel"] = "209.1",
+			["class"] = "ROGUE",
 		},
 		["我把你画成花 - 罗宁"] = {
 			["profile"] = "我把你画成花 - 罗宁",
@@ -233,8 +233,8 @@ AltconDB = {
 			["profile"] = "殷倾颜 - 罗宁",
 			["challenge"] = {
 			},
-			["ilevel"] = "199.4",
 			["class"] = "WARLOCK",
+			["ilevel"] = "199.4",
 		},
 		["西园寺恋 - 白银之手"] = {
 			["profile"] = "西园寺恋 - 白银之手",
@@ -398,12 +398,12 @@ AltconDB = {
 			["class"] = "DRUID",
 			["ilevel"] = "67.8",
 		},
-		["震击机器人 - 罗宁"] = {
-			["profile"] = "震击机器人 - 罗宁",
+		["Tfboys - 蜘蛛王国"] = {
+			["profile"] = "Tfboys - 蜘蛛王国",
 			["challenge"] = {
 			},
-			["class"] = "SHAMAN",
-			["ilevel"] = "192.6",
+			["class"] = "MONK",
+			["ilevel"] = "187.2",
 		},
 		["欧欧蕾蕾 - 罗宁"] = {
 			["profile"] = "欧欧蕾蕾 - 罗宁",
@@ -412,19 +412,19 @@ AltconDB = {
 			["class"] = "MONK",
 			["ilevel"] = "8.0",
 		},
-		["Minpojke - 罗宁"] = {
-			["profile"] = "Minpojke - 罗宁",
+		["不是吧不是 - 阿古斯"] = {
+			["profile"] = "不是吧不是 - 阿古斯",
 			["challenge"] = {
 			},
-			["class"] = "DRUID",
-			["ilevel"] = "207.2",
-		},
-		["电压观察者 - 瓦拉纳"] = {
-			["profile"] = "电压观察者 - 瓦拉纳",
-			["challenge"] = {
-			},
-			["class"] = "WARRIOR",
+			["class"] = "MAGE",
 			["ilevel"] = "8.0",
+		},
+		["龟裂 - 瓦拉纳"] = {
+			["profile"] = "龟裂 - 瓦拉纳",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "39.1",
 		},
 		["拔剑乱杀 - 燃烧之刃"] = {
 			["profile"] = "拔剑乱杀 - 燃烧之刃",
@@ -433,12 +433,12 @@ AltconDB = {
 			["class"] = "WARRIOR",
 			["ilevel"] = "6.2",
 		},
-		["瓦拉纳丶微微 - 瓦拉纳"] = {
-			["profile"] = "瓦拉纳丶微微 - 瓦拉纳",
+		["电压守 - 瓦拉纳"] = {
+			["profile"] = "电压守 - 瓦拉纳",
 			["challenge"] = {
 			},
-			["class"] = "PRIEST",
-			["ilevel"] = "29.0",
+			["class"] = "MAGE",
+			["ilevel"] = "8.0",
 		},
 		["实力不够悬殊 - 金色平原"] = {
 			["profile"] = "实力不够悬殊 - 金色平原",
@@ -489,12 +489,12 @@ AltconDB = {
 			["class"] = "PRIEST",
 			["ilevel"] = "84.2",
 		},
-		["安苏宠物批发 - 安苏"] = {
-			["profile"] = "安苏宠物批发 - 安苏",
+		["恋绣衾 - 死亡之翼"] = {
+			["profile"] = "恋绣衾 - 死亡之翼",
 			["challenge"] = {
 			},
-			["class"] = "PALADIN",
-			["ilevel"] = "14.8",
+			["class"] = "MAGE",
+			["ilevel"] = "229.9",
 		},
 		["须臾洞察 - 蜘蛛王国"] = {
 			["profile"] = "须臾洞察 - 蜘蛛王国",
@@ -502,6 +502,27 @@ AltconDB = {
 			},
 			["class"] = "ROGUE",
 			["ilevel"] = "208.7",
+		},
+		["凤楼吟 - 死亡之翼"] = {
+			["profile"] = "凤楼吟 - 死亡之翼",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "21.4",
+		},
+		["混世魔王二狗 - 罗宁"] = {
+			["profile"] = "混世魔王二狗 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "DRUID",
+			["ilevel"] = "0.2",
+		},
+		["Superdino - 罗宁"] = {
+			["profile"] = "Superdino - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "HUNTER",
+			["ilevel"] = "12.5",
 		},
 		["花环一号 - 罗宁"] = {
 			["profile"] = "花环一号 - 罗宁",
@@ -524,27 +545,6 @@ AltconDB = {
 			["class"] = "MAGE",
 			["ilevel"] = "50.1",
 		},
-		["凤楼吟 - 死亡之翼"] = {
-			["profile"] = "凤楼吟 - 死亡之翼",
-			["challenge"] = {
-			},
-			["class"] = "ROGUE",
-			["ilevel"] = "21.4",
-		},
-		["沈琴愉 - 布兰卡德"] = {
-			["profile"] = "沈琴愉 - 布兰卡德",
-			["challenge"] = {
-			},
-			["class"] = "PALADIN",
-			["ilevel"] = "115.8",
-		},
-		["Superdino - 罗宁"] = {
-			["profile"] = "Superdino - 罗宁",
-			["challenge"] = {
-			},
-			["class"] = "HUNTER",
-			["ilevel"] = "12.5",
-		},
 		["夜迷糊 - 罗宁"] = {
 			["profile"] = "夜迷糊 - 罗宁",
 			["challenge"] = {
@@ -552,19 +552,19 @@ AltconDB = {
 			["class"] = "ROGUE",
 			["ilevel"] = "192.2",
 		},
-		["导演我躺哪儿 - 苏拉玛"] = {
-			["profile"] = "导演我躺哪儿 - 苏拉玛",
-			["challenge"] = {
-			},
-			["class"] = "MAGE",
-			["ilevel"] = "115.9",
-		},
 		["爱你哟 - 蜘蛛王国"] = {
 			["profile"] = "爱你哟 - 蜘蛛王国",
 			["challenge"] = {
 			},
 			["class"] = "WARRIOR",
 			["ilevel"] = "67.6",
+		},
+		["导演我躺哪儿 - 苏拉玛"] = {
+			["profile"] = "导演我躺哪儿 - 苏拉玛",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "115.9",
 		},
 		["蕾妮 - 格瑞姆巴托"] = {
 			["profile"] = "蕾妮 - 格瑞姆巴托",
@@ -580,12 +580,12 @@ AltconDB = {
 			["class"] = "MAGE",
 			["ilevel"] = "18.5",
 		},
-		["混世魔王二狗 - 罗宁"] = {
-			["profile"] = "混世魔王二狗 - 罗宁",
+		["沈琴愉 - 布兰卡德"] = {
+			["profile"] = "沈琴愉 - 布兰卡德",
 			["challenge"] = {
 			},
-			["class"] = "DRUID",
-			["ilevel"] = "0.2",
+			["class"] = "PALADIN",
+			["ilevel"] = "115.8",
 		},
 		["迷你雪人 - 瓦里安"] = {
 			["profile"] = "迷你雪人 - 瓦里安",
@@ -594,12 +594,12 @@ AltconDB = {
 			["class"] = "HUNTER",
 			["ilevel"] = "12.5",
 		},
-		["恋绣衾 - 死亡之翼"] = {
-			["profile"] = "恋绣衾 - 死亡之翼",
+		["安苏宠物批发 - 安苏"] = {
+			["profile"] = "安苏宠物批发 - 安苏",
 			["challenge"] = {
 			},
-			["class"] = "MAGE",
-			["ilevel"] = "229.9",
+			["class"] = "PALADIN",
+			["ilevel"] = "14.8",
 		},
 		["她会的我也会 - 罗宁"] = {
 			["profile"] = "她会的我也会 - 罗宁",
@@ -622,33 +622,33 @@ AltconDB = {
 			["class"] = "PRIEST",
 			["ilevel"] = "229.6",
 		},
-		["电压守 - 瓦拉纳"] = {
-			["profile"] = "电压守 - 瓦拉纳",
+		["瓦拉纳丶微微 - 瓦拉纳"] = {
+			["profile"] = "瓦拉纳丶微微 - 瓦拉纳",
 			["challenge"] = {
 			},
-			["class"] = "MAGE",
+			["class"] = "PRIEST",
+			["ilevel"] = "29.0",
+		},
+		["电压观察者 - 瓦拉纳"] = {
+			["profile"] = "电压观察者 - 瓦拉纳",
+			["challenge"] = {
+			},
+			["class"] = "WARRIOR",
 			["ilevel"] = "8.0",
 		},
-		["龟裂 - 瓦拉纳"] = {
-			["profile"] = "龟裂 - 瓦拉纳",
+		["Minpojke - 罗宁"] = {
+			["profile"] = "Minpojke - 罗宁",
 			["challenge"] = {
 			},
-			["class"] = "ROGUE",
-			["ilevel"] = "39.1",
+			["class"] = "DRUID",
+			["ilevel"] = "207.2",
 		},
-		["不是吧不是 - 阿古斯"] = {
-			["profile"] = "不是吧不是 - 阿古斯",
+		["震击机器人 - 罗宁"] = {
+			["profile"] = "震击机器人 - 罗宁",
 			["challenge"] = {
 			},
-			["class"] = "MAGE",
-			["ilevel"] = "8.0",
-		},
-		["Tfboys - 蜘蛛王国"] = {
-			["profile"] = "Tfboys - 蜘蛛王国",
-			["challenge"] = {
-			},
-			["class"] = "MONK",
-			["ilevel"] = "187.2",
+			["class"] = "SHAMAN",
+			["ilevel"] = "192.6",
 		},
 	},
 }

@@ -1,5 +1,7 @@
 
 ElvCharacterDB = {
+	["ChatHistoryLog"] = {
+	},
 	["ChatEditHistory"] = {
 		"/p 你们谁的心能会弹队友", -- [1]
 		"/p 楼层太低就这坏处", -- [2]
@@ -22,6 +24,5 @@ ElvCharacterDB = {
 		"/cw 猪肉涨价-金色平原 123", -- [19]
 		"/团队 对面就一个奶", -- [20]
 	},
-	["ChatHistoryLog"] = {
-	},
+	["ConvertKeybindings"] = true,
 }
