@@ -1,4 +1,11 @@
 Version: 1
+Frame: FreeInstanceFetcherFrame
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 265
+Y: 0
+W: 48
+H: 48
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: TOPLEFT
