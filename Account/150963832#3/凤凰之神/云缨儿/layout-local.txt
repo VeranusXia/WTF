@@ -5,7 +5,7 @@ Anchor: TOPLEFT
 X: 48
 Y: -4
 W: 235
-H: 641
+H: 640
 Frame: PlayerPowerBarAlt
 FrameLevel: 2
 Anchor: TOP
@@ -19,7 +19,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 241
 Frame: AltconFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -27,13 +27,6 @@ X: 0
 Y: 0
 W: 770
 H: 330
-Frame: BagSync_MinimapButton
-FrameLevel: 3
-Anchor: TOPRIGHT
-X: -129
-Y: -164
-W: 32
-H: 32
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT
@@ -41,3 +34,10 @@ X: -286
 Y: 23
 W: 200
 H: 50
+Frame: BagSync_MinimapButton
+FrameLevel: 3
+Anchor: TOPRIGHT
+X: -129
+Y: -164
+W: 32
+H: 32

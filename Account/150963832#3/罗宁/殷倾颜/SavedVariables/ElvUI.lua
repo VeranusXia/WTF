@@ -1,5 +1,7 @@
 
 ElvCharacterDB = {
+	["ChatHistoryLog"] = {
+	},
 	["ChatEditHistory"] = {
 		"啊", -- [1]
 		"/RL", -- [2]
@@ -22,6 +24,5 @@ ElvCharacterDB = {
 		"/cw 阿豫-罗宁 你这2名字一样的 哈哈哈很容易被发现", -- [19]
 		"bu le", -- [20]
 	},
-	["ChatHistoryLog"] = {
-	},
+	["ConvertKeybindings"] = true,
 }
