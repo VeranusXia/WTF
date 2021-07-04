@@ -1,0 +1,243 @@
+
+MasterPlanAG = {
+	["瓦里安"] = {
+		["微微瓦里安"] = {
+			["class"] = "MAGE",
+			["faction"] = "Horde",
+		},
+	},
+	["熊猫酒仙"] = {
+		["倾颜"] = {
+			["class"] = "HUNTER",
+			["faction"] = "Alliance",
+		},
+		["Wucena"] = {
+			["class"] = "DEMONHUNTER",
+			["faction"] = "Alliance",
+		},
+		["小微微"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Alliance",
+		},
+	},
+	["伊森利恩"] = {
+		["恋绣衾"] = {
+			["faction"] = "Horde",
+			["class"] = "DRUID",
+		},
+	},
+	["燃烧之刃"] = {
+		["不用去猜"] = {
+			["faction"] = "Horde",
+			["class"] = "DEMONHUNTER",
+		},
+		["卡姆希拉夫"] = {
+			["faction"] = "Horde",
+			["class"] = "PRIEST",
+		},
+		["Amilus"] = {
+			["class"] = "SHAMAN",
+			["faction"] = "Horde",
+		},
+	},
+	["耳语海岸"] = {
+		["微微大魔王"] = {
+			["class"] = "MAGE",
+			["faction"] = "Alliance",
+		},
+	},
+	["布兰卡德"] = {
+		["沈琴愉"] = {
+			["class"] = "PALADIN",
+			["faction"] = "Horde",
+		},
+		["蕾妮"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Horde",
+		},
+		["西园寺恋"] = {
+			["faction"] = "Horde",
+			["class"] = "PRIEST",
+		},
+	},
+	["金色平原"] = {
+		["薇伦莎丶月歌"] = {
+			["class"] = "MAGE",
+			["faction"] = "Alliance",
+		},
+		["艾米拉丝"] = {
+			["faction"] = "Horde",
+			["class"] = "PRIEST",
+		},
+	},
+	["奈萨里奥"] = {
+		["都放弃速度灭"] = {
+			["lastCacheTime"] = 1603762119,
+			["class"] = "MONK",
+			["curRes"] = 1247,
+			["faction"] = "Horde",
+		},
+	},
+	["罗宁"] = {
+		["海潮茎秆"] = {
+			["faction"] = "Alliance",
+			["class"] = "DEMONHUNTER",
+		},
+		["夜迷糊"] = {
+			["class"] = "ROGUE",
+			["faction"] = "Horde",
+		},
+		["我把你画成花"] = {
+			["class"] = "DEMONHUNTER",
+			["faction"] = "Alliance",
+		},
+		["维莉雅蕾妮"] = {
+			["summary"] = {
+				["lastOilTime"] = 1604067596,
+				["ti2"] = 122486,
+				["inProgress"] = {
+					[665] = 1604082208,
+					[284] = 1604089385,
+					[308] = 1604096603,
+					[219] = 1604071388,
+					[666] = 1604082206,
+					[668] = 1604096598,
+					[177] = 1604070491,
+				},
+				["ti3"] = 127855,
+				["ti1"] = 118531,
+				["tt1"] = 1603163472,
+				["tt3"] = 1602223931,
+				["tt2"] = true,
+			},
+			["curOil"] = 3760,
+			["class"] = "PALADIN",
+			["lastCacheTime"] = 1604067749,
+			["curRes"] = 2483,
+			["faction"] = "Alliance",
+		},
+		["西瓜味菊花"] = {
+			["class"] = "PALADIN",
+			["faction"] = "Alliance",
+		},
+		["甄冰瑜"] = {
+			["summary"] = {
+				["inProgress"] = {
+					[173] = 1604071603,
+					[143] = 1604071612,
+					[369] = 1604086007,
+				},
+			},
+			["faction"] = "Alliance",
+			["class"] = "PRIEST",
+			["curRes"] = 2814,
+			["lastCacheTime"] = 1604068030,
+		},
+		["大球球"] = {
+			["faction"] = "Alliance",
+			["class"] = "DRUID",
+		},
+		["她会的我也会"] = {
+			["summary"] = {
+				["inProgress"] = {
+					[332] = 1604071766,
+					[188] = 1604070863,
+				},
+			},
+			["faction"] = "Alliance",
+			["class"] = "MAGE",
+			["curRes"] = 2299,
+			["lastCacheTime"] = 1604068183,
+		},
+		["呿呿"] = {
+			["class"] = "HUNTER",
+			["faction"] = "Alliance",
+		},
+		["看群文件"] = {
+			["class"] = "ROGUE",
+			["faction"] = "Alliance",
+		},
+		["嘕嘕"] = {
+			["faction"] = "Alliance",
+			["class"] = "PRIEST",
+		},
+		["Boogaloo"] = {
+			["class"] = "MONK",
+			["faction"] = "Alliance",
+		},
+		["嗫嗫"] = {
+			["class"] = "WARRIOR",
+			["faction"] = "Alliance",
+		},
+		["殷倾颜"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Alliance",
+		},
+		["Reneebaby"] = {
+			["class"] = "ROGUE",
+			["lastCacheTime"] = 1603269423,
+			["curRes"] = 3489,
+			["faction"] = "Alliance",
+		},
+		["欧欧蕾蕾"] = {
+			["class"] = "MONK",
+			["faction"] = "Horde",
+		},
+		["焊接机器人"] = {
+			["class"] = "WARRIOR",
+			["faction"] = "Alliance",
+		},
+		["小微微"] = {
+			["class"] = "PRIEST",
+			["faction"] = "Alliance",
+		},
+	},
+	["安苏"] = {
+		["安苏宠物批发"] = {
+			["faction"] = "Alliance",
+			["class"] = "PALADIN",
+		},
+	},
+	["蜘蛛王国"] = {
+		["海妖花粉"] = {
+			["faction"] = "Alliance",
+			["class"] = "SHAMAN",
+		},
+		["奶凶的小萝莉"] = {
+			["class"] = "DEATHKNIGHT",
+			["faction"] = "Alliance",
+		},
+		["妖唲绫"] = {
+			["faction"] = "Alliance",
+			["class"] = "DEMONHUNTER",
+		},
+		["王源"] = {
+			["class"] = "DRUID",
+			["faction"] = "Alliance",
+		},
+		["爱你哟"] = {
+			["faction"] = "Alliance",
+			["class"] = "WARRIOR",
+		},
+		["猪柳蛋帕妮妮"] = {
+			["faction"] = "Alliance",
+			["class"] = "HUNTER",
+		},
+		["Tfboys"] = {
+			["class"] = "MONK",
+			["faction"] = "Alliance",
+		},
+	},
+	["瓦拉纳"] = {
+		["电压观察者"] = {
+			["faction"] = "Alliance",
+			["class"] = "WARRIOR",
+		},
+	},
+	["死亡之翼"] = {
+		["恋绣衾"] = {
+			["faction"] = "Horde",
+			["class"] = "MAGE",
+		},
+	},
+}

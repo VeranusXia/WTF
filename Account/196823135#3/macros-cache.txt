@@ -1,0 +1,76 @@
+VER 3 00000000000000B1 "123" "134400"
+/script DEFAULT_CHAT_FRAME:AddMessage("\124cff9d9d9d\124Hitem:155881:0:154126:0:0:0:0:0:0:0:0:0:3:1587:4782:4778\124h[哈兰的注铅骰子]\124h\124r");
+/fstack
+END
+VER 3 00000000000000B0 "123" "134400"
+/fstack
+END
+VER 3 00000000000000B4 "公会" "136103"
+/guildroster
+END
+VER 3 00000000000000B5 "劳模" "644389"
+/click ALPTButton1
+END
+VER 3 00000000000000B6 "实力悬殊" "135763"
+/tar [dead][noexists] 肿胀
+/tar [dead][noexists] 沈琴愉
+/cast [@target,exists,nodead] 眼镜蛇射击
+/cast [@target,exists,nodead] 恶魔之咬
+/cast [@target,exists,nodead] 惩击
+/cast [@target,exists,nodead] 净化邪恶
+/cast 渐隐术
+/use 协同战旗
+END
+VER 3 00000000000000C2 "徽章宏" "INV_MISC_QUESTIONMARK"
+#showtooltip 14
+/equip [nocombat]罪孽角斗士的勋章
+/use 罪孽角斗士的勋章
+/equip [nocombat]罪孽候选者的适应魔印
+END
+VER 3 00000000000000C0 "快乐竞技场" "1322720"
+/click HappyArena
+END
+VER 3 00000000000000B7 "快乐评级" "1322720"
+/click HappyPVP
+END
+VER 3 00000000000000B9 "沙包宏1" "135769"
+/脚本 T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 and StaticPopup1["which"]~="DEATH" then StaticPopup1Button1:Click() T=t end end end F:SetScript("OnUpdate",X)
+END
+VER 3 00000000000000BA "沙包宏2" "135769"
+/脚本 T2,F2=T2 or 0,F2 or CreateFrame("frame")if X2 then X2=nil else X2=function()local t=GetTime()if t-T2>1 and StaticPopup2["which"]~="DEATH" then StaticPopup2Button1:Click() T2=t end end end F2:SetScript("OnUpdate",X2)
+END
+VER 3 00000000000000BB "离线踢人" "134400"
+/脚本 local o=0 for i=1,40  do name,_,_,_,_,_,_,online=GetRaidRosterInfo(i);  if not online  then if name ~= nil then if UnitIsGroupLeader(name)==false and UnitIsGroupAssistant(name)==false then UninviteUnit(name) end end end end
+END
+VER 3 00000000000000BC "练级宏" "1373904"
+/use 碎裂的统御头盔
+/use 凿刻的云羽鸟之唤
+/use 执政共鸣水晶
+/use 心能吸取器
+/use 涅美娅的标枪
+/use 破旧的武器
+/use 魂网
+/use 一罐泥土
+/use 魔法之笛
+/use 戈姆放牧之枝
+/use 宗主的狩猎号角
+/use 洁玫的焰火粉末
+/use 浓缩心能之瓶
+/use 瓦丝琪之印
+/use 碎裂的心能水晶
+/use 进攻战斗号角
+/use 收割链钩
+/use 多头蛇切刀
+/use 注能的心能球果
+/use 中空的恐惧蝠之牙
+/
+END
+VER 3 00000000000000BD "自动卖备" "635350"
+/run for bag=0,4 do for slot=1,50 do local i=GetContainerItemLink(bag,slot)if i and i:sub(18,23)=="154161"then UseContainerItem(bag,slot)end;end;end
+END
+VER 3 00000000000000BF "自动坐骑宏" "136103"
+/run local m,a = C_Map.GetBestMapForUnit,C_MountJournal.SummonByID;local p=m("player");if p==1543 or p==1648  then a(1304) else a(0) end
+END
+VER 3 00000000000000BE "自动确认宏" "134400"
+/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 then StaticPopup1Button1:Click()T=t end end end F:SetScript ("OnUpdate",X)
+END

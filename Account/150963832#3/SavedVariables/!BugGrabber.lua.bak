@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 27104,
 	["lastSanitation"] = 3,
-	["session"] = 27075,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Modules\\Bags\\Sort.lua:149: attempt to compare number with nil",
@@ -521,5 +521,27 @@ BugGrabberDB = {
 			["session"] = 27061,
 			["counter"] = 5,
 		}, -- [68]
+		{
+			["message"] = "[ADDON_ACTION_FORBIDDEN] 插件 'Myslot' 尝试调用保护功能 'ApplyMountEquipment()'。",
+			["time"] = "2021/07/03 14:47:42",
+			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `ApplyMountEquipment'\n[string \"@Interface\\AddOns\\Blizzard_Collections\\Blizzard_MountCollection.lua\"]:284: in function `MountJournal_OnDialogApplyEquipmentChoice'\n[string \"@Interface\\AddOns\\Blizzard_Collections\\Blizzard_MountCollection.lua\"]:18: in function `OnAccept'\n[string \"@Interface\\FrameXML\\StaticPopup.lua\"]:5078: in function `StaticPopup_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>",
+			["session"] = 27088,
+			["counter"] = 1,
+		}, -- [69]
+		{
+			["message"] = "[ADDON_ACTION_FORBIDDEN] 插件 'Masque' 尝试调用保护功能 'CastSpellByID()'。",
+			["time"] = "2021/07/03 16:04:31",
+			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `CastSpellByID'\n[string \"@Interface\\FrameXML\\ZoneAbility.lua\"]:258: in function <Interface\\FrameXML\\ZoneAbility.lua:257>",
+			["session"] = 27089,
+			["counter"] = 1,
+		}, -- [70]
+		{
+			["message"] = "Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:431: attempt to call field 'GetNumMaxPets' (a nil value)",
+			["time"] = "2021/07/03 18:43:36",
+			["locals"] = "self = RematchToolbar {\n LesserPetTreat = RematchLesserPetTreatButton {\n }\n PetCountOnEnter = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:418\n width = 791.000061\n SummonRandom = <unnamed> {\n }\n tallLocale = true\n Save = <unnamed> {\n }\n Update = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:156\n DimButton = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:386\n UpdateCooldowns = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:406\n ButtonPreClick = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:280\n ButtonOnClick = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:347\n templates = <table> {\n }\n UpdateItemButton = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:362\n SaveAs = <unnamed> {\n }\n Resize = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:103\n ButtonOnLeave = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:271\n ButtonPostClick = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:327\n ButtonOnEnter = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:214\n Bandage = RematchBandageButton {\n }\n Buttons = <table> {\n }\n OnHide = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:73\n OnEvent = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:83\n PetTreat = RematchPetTreatButton {\n }\n Import = <unnamed> {\n }\n Achievement = <unnamed> {\n }\n Heal = RematchHealButton {\n }\n OnShow = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:64\n 0 = <userdata>\n PetCount = <unnamed> {\n }\n SafariHat = <unnamed> {\n }\n SetTemplate = <function> defined @Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua:29\n FindBattle = <unnamed> {\n }\n}\nat25 = 1864\nmissing = 325\nroster = <unnamed> {\n GetNumUniquePets = <function> defined @Interface\\AddOns\\Rematch\\Process\\Roster.lua:39\n ClearFilter = <function> defined @Interface\\AddOns\\Rematch\\Process\\Filters.lua:115\n AllPets = <function> defined @Interface\\AddOns\\Rematch\\Process\\Roster.lua:217\n SetSimilarFilter = <function> defined @Interface\\AddOns\\Rematch\\Process\\Filters.lua:378\n AllOwnedPets = <function> defined @Interface\\AddOns\\Rematch\\Process\\Roster.lua:229\n UpdateOwned = <function> defined @Interface\\AddOns\\Rematch\\Process\\Roster.lua:111\n RunSearchMatch = <function> defined @Interface\\AddOns\\Rematch\\Process\\PetList.lua:424\n uniquePets = 1120\n ClearAllFilters = <function> defined @Interface\\AddOns\\Rematch\\Process\\Filters.lua:135\n SetHidePet = <function> defined @Interface\\AddOns\\Rematch\\Process\\Filters.lua:402\n IsStrong = <function> defined @Interface\\AddOns\\Rematch\\Process\\Roster.lua:311\n ownedPets = 1929\n IsFilterUsed = <function> defined @Interface\\AddOns\\Rematch\\Process\\Filters.lua:100\n FilterPetByPetID = <function> defined @Interface\\AddOns\\Rematch\\Process\\PetList.lua:139\n isStrongCache = <table> {\n }\n SetMovesetFilter = <function> defined @Interface\\AddOns\\Rematch\\Process\\Filters.lua:389\n SetSearch = <function> defined @Interface\\AddOns\\Rematch\\Process\\Filters.lua:207\n RunStatMatch = <function> defined @Interface\\AddOns\\Rematch\\Process\\PetList.lua:497\n SetFilter = <function> defined @Interface\\AddOns\\Rematch\\Process\\Filters.lua:85\n UpdatePetList = <function> defined @Interface\\AddOns\\Rematch\\Process\\PetList.lua:42\n UpdateZoneRegistration = <function> defined @Interface\\AddOns\\Rematch\\Process\\Filters.lua:74\n IsPetInTeam = <function> defined @Interface\\AddOns\\Rematch\\Process\\Roster.lua:292\n petList = <table> {\n }\n ParseSearchStatRanges = <function> defined @Interface\\AddOns\\Rematch\\Process\\Filters.lua:231\n RestoreJournalFilters = <function> defined @Interface\\AddOns\\Rematch\\Process\\Roster.lua:197\n GetSortStat = <function> defined @Interface\\AddOns\\Rematch\\Process\\PetList.lua:513\n ClearRadio = <function> defined @Interface\\AddOns\\Rematch\\Process\\Filters.lua:123\n AllSpecies = <function> defined @Interface\\AddOns\\Rematch\\Process\\Roster.lua:244\n searchStatMasks = <table> {\n }\n speciesIDs = <table> {\n }\n GetFilter = <function> defined @Interface\\AddOns\\Rematch\\Process\\Filters.lua:90\n ",
+			["stack"] = "[string \"@Interface\\AddOns\\Rematch\\Widgets\\Toolbar.lua\"]:431: in function `PetCountOnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>",
+			["session"] = 27092,
+			["counter"] = 1,
+		}, -- [71]
 	},
 }

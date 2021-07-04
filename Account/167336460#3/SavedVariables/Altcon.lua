@@ -1,0 +1,661 @@
+
+AltconDB = {
+	["showMinimapButton"] = 1,
+	["weeklyReset"] = 1625698799,
+	["minimapButton"] = {
+		["minimapPos"] = 180.7777135390206,
+	},
+	["profiles"] = {
+		["我来抓人了 - 金色平原"] = {
+			["profile"] = "我来抓人了 - 金色平原",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "8.0",
+		},
+		["微微瓦里安 - 瓦里安"] = {
+			["profile"] = "微微瓦里安 - 瓦里安",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "115.9",
+		},
+		["猪柳蛋帕妮妮 - 蜘蛛王国"] = {
+			["profile"] = "猪柳蛋帕妮妮 - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["class"] = "HUNTER",
+			["ilevel"] = "53.8",
+		},
+		["钉耙猫 - 蜘蛛王国"] = {
+			["profile"] = "钉耙猫 - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["resource"] = 4464,
+			["ilevel"] = "462.1",
+			["resource5"] = 827,
+			["class"] = "PRIEST",
+			["coin"] = 1,
+			["resource4"] = 222,
+		},
+		["素纨凝音 - 奈萨里奥"] = {
+			["profile"] = "素纨凝音 - 奈萨里奥",
+			["challenge"] = {
+			},
+			["resource"] = 160,
+			["ilevel"] = "277.9",
+			["class"] = "PRIEST",
+		},
+		["西瓜味泡泡糖 - 罗宁"] = {
+			["profile"] = "西瓜味泡泡糖 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "DEMONHUNTER",
+			["ilevel"] = "209.9",
+		},
+		["Boogaloo - 罗宁"] = {
+			["profile"] = "Boogaloo - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "MONK",
+			["ilevel"] = "68.5",
+		},
+		["焊接机器人 - 罗宁"] = {
+			["profile"] = "焊接机器人 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "WARRIOR",
+			["ilevel"] = "210.5",
+		},
+		["恋绣衾 - 安苏"] = {
+			["profile"] = "恋绣衾 - 安苏",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "252.7",
+		},
+		["倾颜 - 熊猫酒仙"] = {
+			["profile"] = "倾颜 - 熊猫酒仙",
+			["challenge"] = {
+			},
+			["class"] = "HUNTER",
+			["ilevel"] = "193.2",
+		},
+		["狂乱合唱 - 蜘蛛王国"] = {
+			["profile"] = "狂乱合唱 - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["class"] = "PRIEST",
+			["ilevel"] = "34.4",
+		},
+		["小微微 - 熊猫酒仙"] = {
+			["profile"] = "小微微 - 熊猫酒仙",
+			["challenge"] = {
+			},
+			["class"] = "WARLOCK",
+			["ilevel"] = "98.9",
+		},
+		["瓦拉纳微微 - 瓦拉纳"] = {
+			["profile"] = "瓦拉纳微微 - 瓦拉纳",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "63.4",
+		},
+		["龙小二 - 罗宁"] = {
+			["profile"] = "龙小二 - 罗宁",
+			["challenge"] = {
+			},
+			["resource"] = 14,
+			["ilevel"] = "184.3",
+			["class"] = "ROGUE",
+		},
+		["维莉雅丶蕾妮 - 主宰之剑"] = {
+			["profile"] = "维莉雅丶蕾妮 - 主宰之剑",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "115.9",
+		},
+		["Amilus - 燃烧之刃"] = {
+			["profile"] = "Amilus - 燃烧之刃",
+			["challenge"] = {
+			},
+			["class"] = "SHAMAN",
+			["ilevel"] = "209.3",
+		},
+		["Reneebaby - 罗宁"] = {
+			["profile"] = "Reneebaby - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "208.5",
+		},
+		["我把你画成花 - 罗宁"] = {
+			["profile"] = "我把你画成花 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "DEMONHUNTER",
+			["ilevel"] = "60.6",
+		},
+		["招商中证白酒 - 血色十字军"] = {
+			["profile"] = "招商中证白酒 - 血色十字军",
+			["challenge"] = {
+			},
+			["class"] = "DEATHKNIGHT",
+			["ilevel"] = "14.0",
+		},
+		["哈哈我只有猫 - 格瑞姆巴托"] = {
+			["profile"] = "哈哈我只有猫 - 格瑞姆巴托",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "23.9",
+		},
+		["云叶 - 罗宁"] = {
+			["profile"] = "云叶 - 罗宁",
+			["challenge"] = {
+			},
+			["ilevel"] = "221.4",
+			["class"] = "DEATHKNIGHT",
+		},
+		["凤凰观察小组 - 凤凰之神"] = {
+			["profile"] = "凤凰观察小组 - 凤凰之神",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "12.5",
+		},
+		["电压使者 - 瓦拉纳"] = {
+			["profile"] = "电压使者 - 瓦拉纳",
+			["challenge"] = {
+			},
+			["class"] = "WARRIOR",
+			["ilevel"] = "8.0",
+		},
+		["维莉雅蕾妮 - 罗宁"] = {
+			["profile"] = "维莉雅蕾妮 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "PALADIN",
+			["ilevel"] = "207.9",
+		},
+		["放狠话高手 - 安苏"] = {
+			["profile"] = "放狠话高手 - 安苏",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "8.0",
+		},
+		["暮光炮 - 瓦拉纳"] = {
+			["profile"] = "暮光炮 - 瓦拉纳",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "33.8",
+		},
+		["恋绣衾 - 白银之手"] = {
+			["profile"] = "恋绣衾 - 白银之手",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "98.1",
+		},
+		["噃噃 - 罗宁"] = {
+			["profile"] = "噃噃 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "WARLOCK",
+			["ilevel"] = "8.9",
+		},
+		["不用去猜 - 燃烧之刃"] = {
+			["profile"] = "不用去猜 - 燃烧之刃",
+			["challenge"] = {
+			},
+			["class"] = "DEMONHUNTER",
+			["ilevel"] = "105.3",
+		},
+		["帝国之眼 - 蜘蛛王国"] = {
+			["profile"] = "帝国之眼 - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "12.5",
+		},
+		["妖唲绫 - 蜘蛛王国"] = {
+			["profile"] = "妖唲绫 - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["class"] = "DEMONHUNTER",
+			["ilevel"] = "80.6",
+		},
+		["甄冰瑜 - 罗宁"] = {
+			["profile"] = "甄冰瑜 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "PRIEST",
+			["ilevel"] = "215.8",
+		},
+		["殷倾颜 - 罗宁"] = {
+			["profile"] = "殷倾颜 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "WARLOCK",
+			["ilevel"] = "199.4",
+		},
+		["西园寺恋 - 白银之手"] = {
+			["profile"] = "西园寺恋 - 白银之手",
+			["challenge"] = {
+			},
+			["class"] = "PRIEST",
+			["ilevel"] = "208.8",
+		},
+		["片桐夏向 - 罗宁"] = {
+			["profile"] = "片桐夏向 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "MONK",
+			["ilevel"] = "13.8",
+		},
+		["王源 - 蜘蛛王国"] = {
+			["profile"] = "王源 - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["class"] = "DRUID",
+			["ilevel"] = "105.6",
+		},
+		["蕾妮 - 布兰卡德"] = {
+			["profile"] = "蕾妮 - 布兰卡德",
+			["challenge"] = {
+			},
+			["class"] = "WARLOCK",
+			["ilevel"] = "115.6",
+		},
+		["Veranus - 燃烧之刃"] = {
+			["profile"] = "Veranus - 燃烧之刃",
+			["challenge"] = {
+			},
+			["class"] = "PALADIN",
+			["ilevel"] = "37.1",
+		},
+		["放狠话高手 - 死亡之翼"] = {
+			["profile"] = "放狠话高手 - 死亡之翼",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "152.5",
+		},
+		["禁止白嫖 - 蜘蛛王国"] = {
+			["profile"] = "禁止白嫖 - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["class"] = "WARRIOR",
+			["ilevel"] = "76.2",
+		},
+		["权宜之计 - 蜘蛛王国"] = {
+			["profile"] = "权宜之计 - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "41.1",
+		},
+		["卡姆希拉夫 - 燃烧之刃"] = {
+			["profile"] = "卡姆希拉夫 - 燃烧之刃",
+			["challenge"] = {
+			},
+			["class"] = "PRIEST",
+			["ilevel"] = "71.2",
+		},
+		["瓦里安微微 - 瓦里安"] = {
+			["profile"] = "瓦里安微微 - 瓦里安",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "115.9",
+		},
+		["Playerywqfve - 瓦里安"] = {
+			["profile"] = "Playerywqfve - 瓦里安",
+			["challenge"] = {
+			},
+			["class"] = "PALADIN",
+			["ilevel"] = "330.1",
+		},
+		["凤仙引 - 死亡之翼"] = {
+			["profile"] = "凤仙引 - 死亡之翼",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "119.6",
+		},
+		["蔡徐坤 - 蜘蛛王国"] = {
+			["profile"] = "蔡徐坤 - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["resource"] = 10,
+			["ilevel"] = "374.8",
+			["class"] = "HUNTER",
+		},
+		["天命之选 - 血色十字军"] = {
+			["profile"] = "天命之选 - 血色十字军",
+			["challenge"] = {
+			},
+			["class"] = "DEMONHUNTER",
+			["ilevel"] = "132.3",
+		},
+		["恋绣衾 - 伊森利恩"] = {
+			["profile"] = "恋绣衾 - 伊森利恩",
+			["challenge"] = {
+			},
+			["class"] = "DRUID",
+			["ilevel"] = "87.5",
+		},
+		["Wucena - 熊猫酒仙"] = {
+			["profile"] = "Wucena - 熊猫酒仙",
+			["challenge"] = {
+			},
+			["class"] = "DEMONHUNTER",
+			["ilevel"] = "55.2",
+		},
+		["多才多艺 - 瓦拉纳"] = {
+			["profile"] = "多才多艺 - 瓦拉纳",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "53.3",
+		},
+		["萨洛拉丝微微 - 萨洛拉丝"] = {
+			["profile"] = "萨洛拉丝微微 - 萨洛拉丝",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "315.4",
+		},
+		["西园寺恋 - 布兰卡德"] = {
+			["profile"] = "西园寺恋 - 布兰卡德",
+			["challenge"] = {
+			},
+			["class"] = "PRIEST",
+			["ilevel"] = "208.8",
+		},
+		["小微微 - 罗宁"] = {
+			["profile"] = "小微微 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "PRIEST",
+			["ilevel"] = "55.2",
+		},
+		["晋升实力 - 金色平原"] = {
+			["profile"] = "晋升实力 - 金色平原",
+			["challenge"] = {
+			},
+			["class"] = "WARRIOR",
+			["ilevel"] = "8.0",
+		},
+		["微微大魔王 - 耳语海岸"] = {
+			["profile"] = "微微大魔王 - 耳语海岸",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "81.5",
+		},
+		["大球球 - 罗宁"] = {
+			["profile"] = "大球球 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "DRUID",
+			["ilevel"] = "67.8",
+		},
+		["Tfboys - 蜘蛛王国"] = {
+			["profile"] = "Tfboys - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["class"] = "MONK",
+			["ilevel"] = "187.2",
+		},
+		["欧欧蕾蕾 - 罗宁"] = {
+			["profile"] = "欧欧蕾蕾 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "MONK",
+			["ilevel"] = "8.0",
+		},
+		["不是吧不是 - 阿古斯"] = {
+			["profile"] = "不是吧不是 - 阿古斯",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "8.0",
+		},
+		["龟裂 - 瓦拉纳"] = {
+			["profile"] = "龟裂 - 瓦拉纳",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "39.1",
+		},
+		["拔剑乱杀 - 燃烧之刃"] = {
+			["profile"] = "拔剑乱杀 - 燃烧之刃",
+			["challenge"] = {
+			},
+			["class"] = "WARRIOR",
+			["ilevel"] = "6.2",
+		},
+		["电压守 - 瓦拉纳"] = {
+			["profile"] = "电压守 - 瓦拉纳",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "8.0",
+		},
+		["实力不够悬殊 - 金色平原"] = {
+			["profile"] = "实力不够悬殊 - 金色平原",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "0.3",
+		},
+		["奶凶的小萝莉 - 蜘蛛王国"] = {
+			["profile"] = "奶凶的小萝莉 - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["class"] = "DEATHKNIGHT",
+			["ilevel"] = "80.6",
+		},
+		["都放弃速度灭 - 奈萨里奥"] = {
+			["profile"] = "都放弃速度灭 - 奈萨里奥",
+			["challenge"] = {
+			},
+			["class"] = "MONK",
+			["ilevel"] = "62.2",
+		},
+		["云缨儿 - 凤凰之神"] = {
+			["profile"] = "云缨儿 - 凤凰之神",
+			["challenge"] = {
+			},
+			["class"] = "MONK",
+			["ilevel"] = "223.9",
+		},
+		["Cena - 布兰卡德"] = {
+			["profile"] = "Cena - 布兰卡德",
+			["challenge"] = {
+			},
+			["class"] = "DRUID",
+			["ilevel"] = "8.0",
+		},
+		["西瓜味醒目 - 安苏"] = {
+			["profile"] = "西瓜味醒目 - 安苏",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "53.3",
+		},
+		["Amilus - 死亡之翼"] = {
+			["profile"] = "Amilus - 死亡之翼",
+			["challenge"] = {
+			},
+			["class"] = "PRIEST",
+			["ilevel"] = "84.2",
+		},
+		["恋绣衾 - 死亡之翼"] = {
+			["profile"] = "恋绣衾 - 死亡之翼",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "229.9",
+		},
+		["须臾洞察 - 蜘蛛王国"] = {
+			["profile"] = "须臾洞察 - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "208.7",
+		},
+		["凤楼吟 - 死亡之翼"] = {
+			["profile"] = "凤楼吟 - 死亡之翼",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "21.4",
+		},
+		["混世魔王二狗 - 罗宁"] = {
+			["profile"] = "混世魔王二狗 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "DRUID",
+			["ilevel"] = "0.2",
+		},
+		["Superdino - 罗宁"] = {
+			["profile"] = "Superdino - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "HUNTER",
+			["ilevel"] = "12.5",
+		},
+		["花环一号 - 罗宁"] = {
+			["profile"] = "花环一号 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "DRUID",
+			["ilevel"] = "55.0",
+		},
+		["海妖花粉 - 蜘蛛王国"] = {
+			["profile"] = "海妖花粉 - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["class"] = "SHAMAN",
+			["ilevel"] = "61.1",
+		},
+		["别浪我们能输 - 金色平原"] = {
+			["profile"] = "别浪我们能输 - 金色平原",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "50.1",
+		},
+		["夜迷糊 - 罗宁"] = {
+			["profile"] = "夜迷糊 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "192.2",
+		},
+		["爱你哟 - 蜘蛛王国"] = {
+			["profile"] = "爱你哟 - 蜘蛛王国",
+			["challenge"] = {
+			},
+			["class"] = "WARRIOR",
+			["ilevel"] = "67.6",
+		},
+		["导演我躺哪儿 - 苏拉玛"] = {
+			["profile"] = "导演我躺哪儿 - 苏拉玛",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "115.9",
+		},
+		["蕾妮 - 格瑞姆巴托"] = {
+			["profile"] = "蕾妮 - 格瑞姆巴托",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "10.8",
+		},
+		["暴走的朱雀 - 苏拉玛"] = {
+			["profile"] = "暴走的朱雀 - 苏拉玛",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "18.5",
+		},
+		["沈琴愉 - 布兰卡德"] = {
+			["profile"] = "沈琴愉 - 布兰卡德",
+			["challenge"] = {
+			},
+			["class"] = "PALADIN",
+			["ilevel"] = "115.8",
+		},
+		["迷你雪人 - 瓦里安"] = {
+			["profile"] = "迷你雪人 - 瓦里安",
+			["challenge"] = {
+			},
+			["class"] = "HUNTER",
+			["ilevel"] = "12.5",
+		},
+		["安苏宠物批发 - 安苏"] = {
+			["profile"] = "安苏宠物批发 - 安苏",
+			["challenge"] = {
+			},
+			["class"] = "PALADIN",
+			["ilevel"] = "14.8",
+		},
+		["她会的我也会 - 罗宁"] = {
+			["profile"] = "她会的我也会 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "MAGE",
+			["ilevel"] = "200.0",
+		},
+		["海潮茎秆 - 罗宁"] = {
+			["profile"] = "海潮茎秆 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "DEMONHUNTER",
+			["ilevel"] = "168.8",
+		},
+		["西园寺恋 - 罗宁"] = {
+			["profile"] = "西园寺恋 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "PRIEST",
+			["ilevel"] = "229.6",
+		},
+		["瓦拉纳丶微微 - 瓦拉纳"] = {
+			["profile"] = "瓦拉纳丶微微 - 瓦拉纳",
+			["challenge"] = {
+			},
+			["class"] = "PRIEST",
+			["ilevel"] = "29.0",
+		},
+		["电压观察者 - 瓦拉纳"] = {
+			["profile"] = "电压观察者 - 瓦拉纳",
+			["challenge"] = {
+			},
+			["class"] = "WARRIOR",
+			["ilevel"] = "8.0",
+		},
+		["Minpojke - 罗宁"] = {
+			["profile"] = "Minpojke - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "DRUID",
+			["ilevel"] = "207.2",
+		},
+		["震击机器人 - 罗宁"] = {
+			["profile"] = "震击机器人 - 罗宁",
+			["challenge"] = {
+			},
+			["class"] = "SHAMAN",
+			["ilevel"] = "192.6",
+		},
+	},
+}

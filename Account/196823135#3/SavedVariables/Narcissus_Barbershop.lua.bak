@@ -1,0 +1,26 @@
+
+NarciBarberShopDB = {
+	["ToggleRandomAppearance"] = false,
+	["ToggleNotification"] = true,
+	["Hotkeys"] = {
+		["RotateRight"] = "D",
+		["RotateLeft"] = "A",
+		["ZoomOut"] = "S",
+		["ZoomIn"] = "W",
+	},
+	["PlayerData"] = {
+		["0449EBE4"] = {
+			["playerName"] = "恋绣衾",
+			["realmID"] = "940",
+			["SavedLooks"] = {
+				[28] = {
+					["male"] = {
+					},
+					["female"] = {
+					},
+				},
+			},
+			["realmName"] = "伊森利恩",
+		},
+	},
+}

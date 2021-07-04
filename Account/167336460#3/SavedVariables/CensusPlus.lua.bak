@@ -1,0 +1,35 @@
+
+CensusPlus_Database = {
+	["TimesPlus"] = {
+	},
+	["Guilds"] = {
+	},
+	["Info"] = {
+		["LogVer"] = "8.0.3. >=WoW.8.2.5",
+		["AutoCensus"] = false,
+		["PlayFinishSound"] = false,
+		["Locale"] = "??",
+		["CPWindow_Transparency"] = 0.5,
+		["CensusButtonAnimi"] = true,
+		["UseWorldFrameClicks"] = false,
+		["Verbose"] = false,
+		["ClientLocale"] = "zhCN",
+		["SoundFile"] = 1,
+		["CensusButtonShown"] = true,
+		["Version"] = "8.0.3",
+		["ChattyOptions"] = false,
+		["UseLogBars"] = true,
+		["Stealth"] = false,
+		["AutoCensusTimer"] = 1800,
+		["UseInterfaceClicks"] = false,
+	},
+	["Servers"] = {
+	},
+}
+CensusPlus_CRealms = {
+	["UTCDateStamp"] = "2020-01-04",
+}
+CensusPlus_Guilds = {
+}
+CensusPlus_JobQueue = {
+}

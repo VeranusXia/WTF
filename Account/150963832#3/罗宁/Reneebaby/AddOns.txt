@@ -389,3 +389,4 @@ OmniCD: enabled
 PlateColor: enabled
 QuestPlates: enabled
 DBM-SanctumOfDomination: enabled
+MRT: enabled

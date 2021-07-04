@@ -1,11 +1,4 @@
 Version: 1
-Frame: FreeInstanceFetcherFrame
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 455
-Y: 0
-W: 48
-H: 48
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: TOPLEFT
@@ -51,7 +44,7 @@ H: 50
 Frame: BagSync_MinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
-X: -129
-Y: -164
+X: -130
+Y: -165
 W: 32
 H: 32

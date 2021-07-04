@@ -1,0 +1,82 @@
+
+CompactRaidDB = {
+	["keepgroupstogether"] = 1,
+	["showtooltip"] = 1,
+	["healthColor"] = "0.0,1.0,0.0",
+	["showParty"] = 1,
+	["modules"] = {
+		["RaidDebuff"] = {
+			["customDebuffs"] = {
+			},
+			["xoffset"] = 0,
+			["yoffset"] = 0,
+			["scale"] = 100,
+			["userLevels"] = {
+			},
+		},
+		["Artwork"] = {
+			["background"] = "Interface\\DialogFrame\\UI-DialogBox-Background",
+			["statusbar"] = "Interface\\BUTTONS\\WHITE8X8.BLP",
+			["border"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+			["font"] = "Fonts\\ARKai_T.ttf",
+		},
+	},
+	["powerColor"] = "0.0,0.0,1.0",
+	["showToolboxes"] = 1,
+	["outrangeAlpha"] = 40,
+	["showRoleIcon"] = 1,
+	["showDebuffs"] = 1,
+	["nameWidthLimit"] = 75,
+	["showDispels"] = 1,
+	["version"] = 6.02,
+	["showbarbkgnd"] = 1,
+	["height"] = 36,
+	["showPrivIcons"] = 1,
+	["nameYOffset"] = 0,
+	["tooltipPosition"] = 1,
+	["scale"] = 100,
+	["showBuffs"] = 1,
+	["spacing"] = 1,
+	["showRaidIcon"] = 1,
+	["containerBorderSize"] = 12,
+	["containerAlpha"] = 75,
+	["nameHeight"] = 12,
+	["showSolo"] = 1,
+	["profiles"] = {
+		["西园寺恋 - 罗宁"] = {
+			["modules"] = {
+				["CornerIndicators"] = {
+					["talent1"] = {
+						["TOPRIGHT"] = "[ignoreVehicle]#1#[aura]#真言术：盾#",
+						["TOPLEFT"] = "[selfcast]#1#[aura]#恢复#[style]#2#",
+						["BOTTOMLEFT"] = "[ignoreVehicle]#1#[aura]#愈合祷言#",
+					},
+				},
+				["ClickSets"] = {
+					["talent1"] = {
+						["1"] = "action:target",
+						["ctrl-2"] = "buildin:真言术：盾",
+						["alt-ctrl-1"] = "buildin:守护之魂",
+						["2"] = "action:togglemenu",
+						["ctrl-1"] = "buildin:恢复",
+						["alt-2"] = "buildin:愈合祷言",
+						["shift-2"] = "buildin:纯净术",
+						["alt-1"] = "buildin:治疗术",
+						["shift-1"] = "buildin:快速治疗",
+					},
+				},
+			},
+			["version"] = 6.02,
+			["showPartyPets"] = 1,
+			["showFriendlyNpc"] = 1,
+		},
+	},
+	["healthtextmode"] = 0,
+	["showDirectionArrow"] = 1,
+	["nameColor"] = "1.0,1.0,1.0",
+	["width"] = 64,
+	["nameXOffset"] = 0,
+	["powerBarHeight"] = 1,
+	["raidFilter"] = "CLASS",
+	["unitBkColor"] = "0.0,0.0,0.0",
+}

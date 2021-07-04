@@ -1,5 +1,7 @@
 
 ElvCharacterDB = {
+	["ChatHistoryLog"] = {
+	},
 	["ChatEditHistory"] = {
 		"/团队 对面死人队", -- [1]
 		"/团队 就出来3个人", -- [2]
@@ -22,6 +24,5 @@ ElvCharacterDB = {
 		"/p 来不及了", -- [19]
 		"/p 新款", -- [20]
 	},
-	["ChatHistoryLog"] = {
-	},
+	["ConvertKeybindings"] = true,
 }

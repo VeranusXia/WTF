@@ -2,12 +2,12 @@ AdvancedInterfaceOptions: enabled
 AngryKeystones: enabled
 AuctionLite: disabled
 AzeriteTooltip: disabled
-BagSync: disabled
-BattlePetBreedID: enabled
+BagSync: enabled
+BattlePetBreedID: disabled
 !BugGrabber: enabled
 BugSack: enabled
 Clique: enabled
-FarmHud: enabled
+FarmHud: disabled
 FishingBuddy: disabled
 GarrisonMissionManager: disabled
 GatherMate2: enabled
@@ -58,7 +58,7 @@ Rarity_Options: disabled
 Rematch: enabled
 RematchElvUISkin: disabled
 SavedInstances: enabled
-Simulationcraft: enabled
+Simulationcraft: disabled
 Skada: disabled
 TargetNameplateIndicator: disabled
 tdBattlePetScript: enabled
@@ -136,7 +136,7 @@ LootHistory: disabled
 MikScrollingBattleText: enabled
 MSBTOptions: enabled
 Myslot: enabled
-GladiatorlosSACN: enabled
+GladiatorlosSACN: disabled
 CamelSpotter: disabled
 ElvUI_OptionsUI: enabled
 DBM-PvP: enabled
@@ -179,7 +179,7 @@ Hekili: enabled
 !AutoRefuse: enabled
 CovenantMissionHelper: disabled
 !HFixInv: enabled
-FreeInstanceFetcher: enabled
+FreeInstanceFetcher: disabled
 BigDebuffs: enabled
 Details: enabled
 Details_EncounterDetails: enabled
@@ -193,10 +193,13 @@ GladiusEx: enabled
 OmniCC: enabled
 OmniCC_Config: enabled
 OmniCD: enabled
-BigFootBank: enabled
+BigFootBank: disabled
 REFlex: enabled
 DBM-SanctumOfDomination: enabled
 WoWUnit: enabled
 Ace3: enabled
 !BlizzBugsSuck: enabled
 !ClassColors: enabled
+MRT: enabled
+LibDataBroker-1.1: enabled
+HereBeDragons: enabled
