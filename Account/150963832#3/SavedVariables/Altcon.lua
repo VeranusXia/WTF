@@ -50,8 +50,8 @@ AltconDB = {
 			["profile"] = "西瓜味泡泡糖 - 罗宁",
 			["challenge"] = {
 			},
-			["ilevel"] = "209.9",
 			["class"] = "DEMONHUNTER",
+			["ilevel"] = "209.9",
 		},
 		["Boogaloo - 罗宁"] = {
 			["profile"] = "Boogaloo - 罗宁",
@@ -419,13 +419,6 @@ AltconDB = {
 			["class"] = "MAGE",
 			["ilevel"] = "8.0",
 		},
-		["拔剑乱杀 - 燃烧之刃"] = {
-			["profile"] = "拔剑乱杀 - 燃烧之刃",
-			["challenge"] = {
-			},
-			["class"] = "WARRIOR",
-			["ilevel"] = "6.2",
-		},
 		["龟裂 - 瓦拉纳"] = {
 			["profile"] = "龟裂 - 瓦拉纳",
 			["challenge"] = {
@@ -433,12 +426,12 @@ AltconDB = {
 			["class"] = "ROGUE",
 			["ilevel"] = "39.1",
 		},
-		["实力不够悬殊 - 金色平原"] = {
-			["profile"] = "实力不够悬殊 - 金色平原",
+		["拔剑乱杀 - 燃烧之刃"] = {
+			["profile"] = "拔剑乱杀 - 燃烧之刃",
 			["challenge"] = {
 			},
-			["class"] = "ROGUE",
-			["ilevel"] = "0.3",
+			["class"] = "WARRIOR",
+			["ilevel"] = "6.2",
 		},
 		["电压守 - 瓦拉纳"] = {
 			["profile"] = "电压守 - 瓦拉纳",
@@ -446,6 +439,13 @@ AltconDB = {
 			},
 			["class"] = "MAGE",
 			["ilevel"] = "8.0",
+		},
+		["实力不够悬殊 - 金色平原"] = {
+			["profile"] = "实力不够悬殊 - 金色平原",
+			["challenge"] = {
+			},
+			["class"] = "ROGUE",
+			["ilevel"] = "0.3",
 		},
 		["奶凶的小萝莉 - 蜘蛛王国"] = {
 			["profile"] = "奶凶的小萝莉 - 蜘蛛王国",
@@ -465,8 +465,8 @@ AltconDB = {
 			["profile"] = "云缨儿 - 凤凰之神",
 			["challenge"] = {
 			},
-			["class"] = "MONK",
 			["ilevel"] = "223.9",
+			["class"] = "MONK",
 		},
 		["Cena - 布兰卡德"] = {
 			["profile"] = "Cena - 布兰卡德",
@@ -510,12 +510,12 @@ AltconDB = {
 			["class"] = "ROGUE",
 			["ilevel"] = "21.4",
 		},
-		["花环一号 - 罗宁"] = {
-			["profile"] = "花环一号 - 罗宁",
+		["混世魔王二狗 - 罗宁"] = {
+			["profile"] = "混世魔王二狗 - 罗宁",
 			["challenge"] = {
 			},
 			["class"] = "DRUID",
-			["ilevel"] = "55.0",
+			["ilevel"] = "0.2",
 		},
 		["Superdino - 罗宁"] = {
 			["profile"] = "Superdino - 罗宁",
@@ -524,19 +524,19 @@ AltconDB = {
 			["class"] = "HUNTER",
 			["ilevel"] = "12.5",
 		},
-		["混世魔王二狗 - 罗宁"] = {
-			["profile"] = "混世魔王二狗 - 罗宁",
+		["花环一号 - 罗宁"] = {
+			["profile"] = "花环一号 - 罗宁",
 			["challenge"] = {
 			},
 			["class"] = "DRUID",
-			["ilevel"] = "0.2",
+			["ilevel"] = "55.0",
 		},
-		["沈琴愉 - 布兰卡德"] = {
-			["profile"] = "沈琴愉 - 布兰卡德",
+		["海妖花粉 - 蜘蛛王国"] = {
+			["profile"] = "海妖花粉 - 蜘蛛王国",
 			["challenge"] = {
 			},
-			["class"] = "PALADIN",
-			["ilevel"] = "115.8",
+			["class"] = "SHAMAN",
+			["ilevel"] = "61.1",
 		},
 		["别浪我们能输 - 金色平原"] = {
 			["profile"] = "别浪我们能输 - 金色平原",
@@ -580,12 +580,12 @@ AltconDB = {
 			["class"] = "MAGE",
 			["ilevel"] = "18.5",
 		},
-		["海妖花粉 - 蜘蛛王国"] = {
-			["profile"] = "海妖花粉 - 蜘蛛王国",
+		["沈琴愉 - 布兰卡德"] = {
+			["profile"] = "沈琴愉 - 布兰卡德",
 			["challenge"] = {
 			},
-			["class"] = "SHAMAN",
-			["ilevel"] = "61.1",
+			["class"] = "PALADIN",
+			["ilevel"] = "115.8",
 		},
 		["迷你雪人 - 瓦里安"] = {
 			["profile"] = "迷你雪人 - 瓦里安",

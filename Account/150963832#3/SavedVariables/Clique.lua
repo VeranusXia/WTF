@@ -28,15 +28,15 @@ CliqueDB3 = {
 		},
 		["云缨儿 - 凤凰之神"] = {
 			["spec1_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
-			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
-			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
 				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
 			},
+			["spec3_profileKey"] = "Default",
+			["downclick"] = false,
+			["spec2_profileKey"] = "Default",
+			["specswap"] = false,
 		},
 		["倾颜 - 熊猫酒仙"] = {
 			["spec1_profileKey"] = "Default",
@@ -51,16 +51,15 @@ CliqueDB3 = {
 				["ElvUF_Pet"] = true,
 			},
 		},
-		["Amilus - 燃烧之刃"] = {
+		["西瓜味泡泡糖 - 罗宁"] = {
 			["spec1_profileKey"] = "Default",
-			["spec3_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
-				["ElvUF_Target"] = true,
 				["ElvUF_Player"] = true,
+				["ElvUF_Target"] = true,
 			},
 		},
 		["王源 - 蜘蛛王国"] = {
@@ -113,15 +112,16 @@ CliqueDB3 = {
 				["ElvUF_Target"] = true,
 			},
 		},
-		["西瓜味泡泡糖 - 罗宁"] = {
+		["Amilus - 燃烧之刃"] = {
 			["spec1_profileKey"] = "Default",
-			["spec2_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
+			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
-				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
+				["ElvUF_Player"] = true,
 			},
 		},
 		["Reneebaby - 罗宁"] = {
@@ -174,7 +174,7 @@ CliqueDB3 = {
 		["倾颜 - 熊猫酒仙"] = "Default",
 		["殷倾颜 - 罗宁"] = "Default",
 		["安苏宠物批发 - 安苏"] = "Default",
-		["蕾妮 - 格瑞姆巴托"] = "Default",
+		["西园寺恋 - 布兰卡德"] = "Default",
 		["狂乱合唱 - 蜘蛛王国"] = "Default",
 		["西园寺恋 - 白银之手"] = "Default",
 		["片桐夏向 - 罗宁"] = "Default",
@@ -184,7 +184,7 @@ CliqueDB3 = {
 		["西园寺恋 - 罗宁"] = "Default",
 		["Amilus - 燃烧之刃"] = "Default",
 		["Reneebaby - 罗宁"] = "Default",
-		["西园寺恋 - 布兰卡德"] = "Default",
+		["蕾妮 - 格瑞姆巴托"] = "Default",
 		["奶凶的小萝莉 - 蜘蛛王国"] = "Default",
 	},
 	["profiles"] = {
