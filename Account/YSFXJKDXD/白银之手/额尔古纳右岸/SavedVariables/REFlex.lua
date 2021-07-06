@@ -7,6 +7,10 @@ REFlexSettings = {
 	["ShowServerName"] = false,
 	["CurrentTab"] = 1,
 	["LDBMode"] = 3,
+	["LDBSide"] = "A",
+	["ArenaStatsLimit"] = 3,
+	["ConfigVersion"] = 313,
+	["FirstTime"] = true,
 	["Filters"] = {
 		["Map"] = 1,
 		["Bracket"] = 1,
@@ -18,14 +22,50 @@ REFlexSettings = {
 		["Season"] = 0,
 		["DateMode"] = 1,
 	},
-	["ArenaStatsLimit"] = 3,
-	["FirstTime"] = true,
-	["ConfigVersion"] = 313,
-	["LDBSide"] = "A",
 }
 REFlexDatabase = {
 	{
 		["Map"] = 2106,
+		["Duration"] = 326,
+		["Hidden"] = false,
+		["Version"] = 313,
+		["PlayersNum"] = 20,
+		["BGComposition"] = {
+			{
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				3, -- [2]
+				6, -- [3]
+			}, -- [2]
+		},
+		["Season"] = 30,
+		["isArena"] = false,
+		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1621989023,
+		["isRated"] = false,
+		["BGPlace"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				4, -- [5]
+			}, -- [1]
+			{
+				7, -- [1]
+				11, -- [2]
+				11, -- [3]
+				4, -- [4]
+				6, -- [5]
+			}, -- [2]
+		},
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"额尔古纳右岸", -- [1]
@@ -47,8 +87,12 @@ REFlexDatabase = {
 				252, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1621989023,
+	}, -- [1]
+	{
+		["Map"] = 761,
+		["Duration"] = 213,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -57,39 +101,35 @@ REFlexDatabase = {
 				9, -- [3]
 			}, -- [1]
 			{
-				1, -- [1]
-				3, -- [2]
-				6, -- [3]
+				0, -- [1]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1621989406,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
 				2, -- [4]
 				4, -- [5]
 			}, -- [1]
 			{
-				7, -- [1]
-				11, -- [2]
-				11, -- [3]
-				4, -- [4]
-				6, -- [5]
+				2, -- [1]
+				1, -- [2]
+				1, -- [3]
+				2, -- [4]
+				8, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 326,
-	}, -- [1]
-	{
-		["Map"] = 761,
+		["Winner"] = 1,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"额尔古纳右岸", -- [1]
@@ -111,8 +151,12 @@ REFlexDatabase = {
 				252, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1621989406,
+	}, -- [2]
+	{
+		["Map"] = 726,
+		["Duration"] = 496,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -122,38 +166,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				1, -- [2]
-				9, -- [3]
+				0, -- [2]
+				10, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1621990052,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				4, -- [5]
+				3, -- [4]
+				7, -- [5]
 			}, -- [1]
 			{
-				2, -- [1]
+				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				2, -- [4]
-				8, -- [5]
+				5, -- [4]
+				10, -- [5]
 			}, -- [2]
 		},
 		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 213,
-	}, -- [2]
-	{
-		["Map"] = 726,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"额尔古纳右岸", -- [1]
@@ -175,8 +215,12 @@ REFlexDatabase = {
 				252, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1621990052,
+	}, -- [3]
+	{
+		["Map"] = 726,
+		["Duration"] = 424,
+		["Hidden"] = false,
+		["Version"] = 313,
 		["PlayersNum"] = 20,
 		["BGComposition"] = {
 			{
@@ -186,38 +230,34 @@ REFlexDatabase = {
 			}, -- [1]
 			{
 				0, -- [1]
-				0, -- [2]
-				10, -- [3]
+				1, -- [2]
+				9, -- [3]
 			}, -- [2]
 		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
+		["Season"] = 30,
 		["isArena"] = false,
 		["PlayerSide"] = 1,
+		["isBrawl"] = false,
+		["Time"] = 1621990714,
 		["isRated"] = false,
 		["BGPlace"] = {
 			{
-				1, -- [1]
+				2, -- [1]
 				1, -- [2]
 				1, -- [3]
-				3, -- [4]
-				7, -- [5]
+				2, -- [4]
+				2, -- [5]
 			}, -- [1]
 			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				6, -- [1]
+				7, -- [2]
+				11, -- [3]
 				5, -- [4]
-				10, -- [5]
+				3, -- [5]
 			}, -- [2]
 		},
-		["Winner"] = 1,
-		["Hidden"] = false,
-		["Duration"] = 496,
-	}, -- [3]
-	{
-		["Map"] = 726,
+		["Winner"] = 0,
+		["PlayerNum"] = 1,
 		["Players"] = {
 			{
 				"额尔古纳右岸", -- [1]
@@ -239,46 +279,6 @@ REFlexDatabase = {
 				252, -- [17]
 			}, -- [1]
 		},
-		["Season"] = 30,
-		["Time"] = 1621990714,
-		["PlayersNum"] = 20,
-		["BGComposition"] = {
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [1]
-			{
-				0, -- [1]
-				1, -- [2]
-				9, -- [3]
-			}, -- [2]
-		},
-		["PlayerNum"] = 1,
-		["isBrawl"] = false,
-		["Version"] = 313,
-		["isArena"] = false,
-		["PlayerSide"] = 1,
-		["isRated"] = false,
-		["BGPlace"] = {
-			{
-				2, -- [1]
-				1, -- [2]
-				1, -- [3]
-				2, -- [4]
-				2, -- [5]
-			}, -- [1]
-			{
-				6, -- [1]
-				7, -- [2]
-				11, -- [3]
-				5, -- [4]
-				3, -- [5]
-			}, -- [2]
-		},
-		["Winner"] = 0,
-		["Hidden"] = false,
-		["Duration"] = 424,
 	}, -- [4]
 }
 REFlexHonorDatabase = {

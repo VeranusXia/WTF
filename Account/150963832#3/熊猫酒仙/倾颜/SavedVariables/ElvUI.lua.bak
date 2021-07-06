@@ -1,5 +1,7 @@
 
 ElvCharacterDB = {
+	["ChatHistoryLog"] = {
+	},
 	["ChatEditHistory"] = {
 		"/p 锁甲应该2-3W", -- [1]
 		"我BL没号大于210啊!", -- [2]
@@ -22,6 +24,5 @@ ElvCharacterDB = {
 		"/团队 家里", -- [19]
 		"/团队 FS DK在干嘛", -- [20]
 	},
-	["ChatHistoryLog"] = {
-	},
+	["ConvertKeybindings"] = true,
 }

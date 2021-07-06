@@ -10,8 +10,8 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
-				["ElvUF_Target"] = true,
 				["ElvUF_Player"] = true,
+				["ElvUF_Target"] = true,
 			},
 		},
 		["西园寺恋 - 布兰卡德"] = {
@@ -22,8 +22,8 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
-				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
+				["ElvUF_Player"] = true,
 			},
 		},
 		["王源 - 蜘蛛王国"] = {
@@ -32,11 +32,11 @@ CliqueDB3 = {
 			["downclick"] = false,
 			["specswap"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Default",
 			["spec4_profileKey"] = "Default",
+			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
-				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
+				["ElvUF_Player"] = true,
 			},
 		},
 		["Minpojke - 罗宁"] = {
@@ -45,11 +45,11 @@ CliqueDB3 = {
 			["downclick"] = false,
 			["specswap"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Default",
 			["spec4_profileKey"] = "Default",
+			["spec3_profileKey"] = "Default",
 			["blacklist"] = {
-				["ElvUF_Target"] = true,
 				["ElvUF_Player"] = true,
+				["ElvUF_Target"] = true,
 			},
 		},
 		["西园寺恋 - 罗宁"] = {
@@ -60,8 +60,8 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["spec3_profileKey"] = "Default",
 			["blacklist"] = {
-				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
+				["ElvUF_Player"] = true,
 			},
 		},
 		["Amilus - 燃烧之刃"] = {
@@ -72,8 +72,8 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
-				["ElvUF_Target"] = true,
 				["ElvUF_Player"] = true,
+				["ElvUF_Target"] = true,
 			},
 		},
 		["Reneebaby - 罗宁"] = {
@@ -84,8 +84,8 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["spec3_profileKey"] = "Default",
 			["blacklist"] = {
-				["ElvUF_Player"] = true,
 				["ElvUF_Target"] = true,
+				["ElvUF_Player"] = true,
 			},
 		},
 		["焊接机器人 - 罗宁"] = {
@@ -96,36 +96,36 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["spec2_profileKey"] = "Default",
 			["blacklist"] = {
-				["ElvUF_Target"] = true,
 				["ElvUF_Player"] = true,
+				["ElvUF_Target"] = true,
 			},
 		},
 	},
 	["profileKeys"] = {
-		["焊接机器人 - 罗宁"] = "Default",
+		["奶凶的小萝莉 - 蜘蛛王国"] = "Default",
 		["招商中证白酒 - 罗宁"] = "Default",
-		["额尔古纳右岸 - 白银之手"] = "Default",
+		["殷倾颜 - 罗宁"] = "Default",
 		["西园寺恋 - 布兰卡德"] = "Default",
 		["狂乱合唱 - 蜘蛛王国"] = "Default",
-		["Amilus - 燃烧之刃"] = "Default",
+		["安苏宠物批发 - 安苏"] = "Default",
 		["不是吧不是 - 阿古斯"] = "Default",
 		["王源 - 蜘蛛王国"] = "Default",
 		["维莉雅蕾妮 - 罗宁"] = "Default",
-		["Minpojke - 罗宁"] = "Default",
+		["额尔古纳右岸 - 白银之手"] = "Default",
 		["西园寺恋 - 罗宁"] = "Default",
-		["安苏宠物批发 - 安苏"] = "Default",
+		["Amilus - 燃烧之刃"] = "Default",
 		["Reneebaby - 罗宁"] = "Default",
-		["殷倾颜 - 罗宁"] = "Default",
-		["奶凶的小萝莉 - 蜘蛛王国"] = "Default",
+		["Minpojke - 罗宁"] = "Default",
+		["焊接机器人 - 罗宁"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]

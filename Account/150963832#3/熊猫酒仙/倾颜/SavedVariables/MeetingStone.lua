@@ -11,7 +11,7 @@ MEETINGSTONE_CHARACTER_DB = {
 				"113-0-724-0", -- [3]
 				"2-0-0-0", -- [4]
 			},
-			["version"] = "90002.03",
+			["version"] = "90005.03",
 			["lastSearchCode"] = "9-0-19-0",
 			["settings"] = {
 				["storage"] = {

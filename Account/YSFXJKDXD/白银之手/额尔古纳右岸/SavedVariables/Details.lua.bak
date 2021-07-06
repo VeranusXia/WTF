@@ -7,40 +7,42 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 19,
 					["tipo"] = 2,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.005865,
 							["damage_from"] = {
-								["高塔审判官"] = true,
 								["渊誓警卫"] = true,
+								["高塔审判官"] = true,
 							},
 							["targets"] = {
-								["高塔审判官"] = 40364,
 								["渊誓警卫"] = 20521,
+								["高塔审判官"] = 40364,
 							},
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
-							["total"] = 60885.005865,
-							["on_hold"] = false,
-							["aID"] = "707-064D548B",
+							["classe"] = "HUNTER",
+							["last_dps"] = 1593.681443434116,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 32599.005865,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1622021484,
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1622021485,
-							["classe"] = "HUNTER",
-							["friendlyfire_total"] = 0,
+							["aID"] = "707-064D548B",
+							["damage_taken"] = 7734.005865,
 							["nome"] = "额尔古纳右岸",
+							["spec"] = 253,
+							["grupo"] = true,
+							["total"] = 60885.005865,
+							["custom"] = 0,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[193455] = {
 										["c_amt"] = 1,
@@ -49,8 +51,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 1214,
 										["targets"] = {
-											["高塔审判官"] = 6055,
 											["渊誓警卫"] = 4088,
+											["高塔审判官"] = 6055,
 										},
 										["n_dmg"] = 7689,
 										["n_min"] = 990,
@@ -60,16 +62,16 @@ _detalhes_database = {
 										["c_max"] = 2454,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 2454,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 7,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[217200] = {
 										["c_amt"] = 5,
@@ -78,8 +80,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 375,
 										["targets"] = {
-											["高塔审判官"] = 4927,
 											["渊誓警卫"] = 3964,
+											["高塔审判官"] = 4927,
 										},
 										["n_dmg"] = 5305,
 										["n_min"] = 296,
@@ -89,16 +91,16 @@ _detalhes_database = {
 										["c_max"] = 750,
 										["id"] = 217200,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 604,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 16,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[185358] = {
 										["c_amt"] = 0,
@@ -117,16 +119,74 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 185358,
 										["r_dmg"] = 0,
-										["spellschool"] = 64,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 64,
+									},
+									[75] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 4624,
+										["g_amt"] = 0,
+										["n_max"] = 552,
+										["targets"] = {
+											["渊誓警卫"] = 3266,
+											["高塔审判官"] = 5405,
+										},
+										["n_dmg"] = 4047,
+										["n_min"] = 447,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 8671,
+										["c_max"] = 1077,
+										["id"] = 75,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 846,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 8,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[53351] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1831,
+										["targets"] = {
+											["高塔审判官"] = 1737,
+											["渊誓警卫"] = 1831,
+										},
+										["n_dmg"] = 3568,
+										["n_min"] = 1737,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 3568,
+										["c_max"] = 0,
+										["id"] = 53351,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[324149] = {
 										["c_amt"] = 0,
@@ -145,115 +205,55 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 324149,
 										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
 										["spellschool"] = 32,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[53351] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1831,
-										["targets"] = {
-											["渊誓警卫"] = 1831,
-											["高塔审判官"] = 1737,
-										},
-										["n_dmg"] = 3568,
-										["n_min"] = 1737,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 3568,
-										["c_max"] = 0,
-										["id"] = 53351,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[75] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 4624,
-										["g_amt"] = 0,
-										["n_max"] = 552,
-										["targets"] = {
-											["高塔审判官"] = 5405,
-											["渊誓警卫"] = 3266,
-										},
-										["n_dmg"] = 4047,
-										["n_min"] = 447,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 8671,
-										["c_max"] = 1077,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["c_min"] = 846,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 8,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 253,
-							["serial"] = "Player-707-064D548B",
-							["last_dps"] = 1593.681443434116,
-							["custom"] = 0,
+							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 7734.005865,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1622021450,
-							["delay"] = 0,
-							["last_event"] = 1622021484,
+							["serial"] = "Player-707-064D548B",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.004941,
 							["damage_from"] = {
-								["渊誓警卫"] = true,
 								["高塔审判官"] = true,
+								["渊誓警卫"] = true,
 							},
 							["targets"] = {
-								["高塔审判官"] = 12635,
 								["渊誓警卫"] = 4853,
+								["高塔审判官"] = 12635,
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
+							["last_event"] = 1622021484,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 17488.004941,
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 17488.004941,
 							["classe"] = "PET",
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 8,
@@ -262,8 +262,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 177,
 										["targets"] = {
-											["高塔审判官"] = 3761,
 											["渊誓警卫"] = 1517,
+											["高塔审判官"] = 3761,
 										},
 										["n_dmg"] = 2565,
 										["n_min"] = 140,
@@ -273,16 +273,16 @@ _detalhes_database = {
 										["c_max"] = 353,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 303,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 16,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 1,
@@ -291,8 +291,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 230,
 										["targets"] = {
-											["高塔审判官"] = 936,
 											["渊誓警卫"] = 454,
+											["高塔审判官"] = 936,
 										},
 										["n_dmg"] = 876,
 										["n_min"] = 208,
@@ -302,16 +302,16 @@ _detalhes_database = {
 										["c_max"] = 514,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 514,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[16827] = {
 										["c_amt"] = 2,
@@ -320,8 +320,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 638,
 										["targets"] = {
-											["高塔审判官"] = 4702,
 											["渊誓警卫"] = 2175,
+											["高塔审判官"] = 4702,
 										},
 										["n_dmg"] = 4583,
 										["n_min"] = 503,
@@ -331,16 +331,16 @@ _detalhes_database = {
 										["c_max"] = 1270,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1024,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 8,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[83381] = {
 										["c_amt"] = 1,
@@ -349,8 +349,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 821,
 										["targets"] = {
-											["渊誓警卫"] = 707,
 											["高塔审判官"] = 2964,
+											["渊誓警卫"] = 707,
 										},
 										["n_dmg"] = 2345,
 										["n_min"] = 707,
@@ -360,16 +360,16 @@ _detalhes_database = {
 										["c_max"] = 1326,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1326,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[344572] = {
 										["c_amt"] = 0,
@@ -388,29 +388,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 344572,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 15034.004941,
 							["end_time"] = 1622021485,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 15034.004941,
+							["on_hold"] = false,
 							["start_time"] = 1622021451,
-							["delay"] = 0,
-							["last_event"] = 1622021484,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -424,24 +424,22 @@ _detalhes_database = {
 								["额尔古纳右岸"] = 2927,
 								["猛禽 <额尔古纳右岸>"] = 9281,
 							},
-							["total"] = 12208.007759,
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 12208.007759,
-							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1622021485,
+							["fight_component"] = true,
+							["total"] = 12208.007759,
+							["damage_taken"] = 20521.007759,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "渊誓警卫",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[329706] = {
 										["c_amt"] = 0,
@@ -460,20 +458,20 @@ _detalhes_database = {
 										["counter"] = 13,
 										["total"] = 10144,
 										["c_max"] = 0,
-										["DODGE"] = 1,
+										["r_amt"] = 0,
 										["id"] = 329706,
 										["r_dmg"] = 0,
-										["MISS"] = 2,
+										["b_dmg"] = 0,
 										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["a_amt"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 12,
-										["a_amt"] = 0,
+										["extra"] = {
+										},
 										["n_amt"] = 10,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["MISS"] = 2,
+										["DODGE"] = 1,
 									},
 									[166906] = {
 										["c_amt"] = 0,
@@ -493,27 +491,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 166906,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 3,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 								},
+								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["aID"] = "175882",
-							["serial"] = "Creature-0-3042-2222-14742-175882-00002E151E",
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1622021483,
-							["damage_taken"] = 20521.007759,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1622021447,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-3042-2222-14742-175882-00002E151E",
+							["monster"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -521,25 +521,25 @@ _detalhes_database = {
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["高塔审判官"] = 8279,
 								["渊誓警卫"] = 2519,
+								["高塔审判官"] = 8279,
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
+							["last_event"] = 1622021483,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10798.007881,
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 10798.007881,
 							["classe"] = "PET",
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 5,
@@ -548,8 +548,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 178,
 										["targets"] = {
-											["高塔审判官"] = 3382,
 											["渊誓警卫"] = 1362,
+											["高塔审判官"] = 3382,
 										},
 										["n_dmg"] = 3100,
 										["n_min"] = 140,
@@ -559,16 +559,16 @@ _detalhes_database = {
 										["c_max"] = 354,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 284,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 19,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[344572] = {
 										["c_amt"] = 0,
@@ -587,16 +587,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 344572,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[83381] = {
 										["c_amt"] = 2,
@@ -605,8 +605,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 707,
 										["targets"] = {
-											["渊誓警卫"] = 707,
 											["高塔审判官"] = 3941,
+											["渊誓警卫"] = 707,
 										},
 										["n_dmg"] = 1370,
 										["n_min"] = 663,
@@ -616,16 +616,16 @@ _detalhes_database = {
 										["c_max"] = 1643,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1635,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[201754] = {
 										["c_amt"] = 0,
@@ -634,8 +634,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 260,
 										["targets"] = {
-											["高塔审判官"] = 684,
 											["渊誓警卫"] = 450,
+											["高塔审判官"] = 684,
 										},
 										["n_dmg"] = 1134,
 										["n_min"] = 210,
@@ -645,29 +645,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 0.007881,
 							["end_time"] = 1622021485,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.007881,
+							["on_hold"] = false,
 							["start_time"] = 1622021451,
-							["delay"] = 0,
-							["last_event"] = 1622021483,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
@@ -681,24 +681,22 @@ _detalhes_database = {
 								["额尔古纳右岸"] = 4807,
 								["猛禽 <额尔古纳右岸>"] = 5753,
 							},
-							["total"] = 10560.007014,
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10560.007014,
-							["fight_component"] = true,
-							["monster"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1622021485,
+							["fight_component"] = true,
+							["total"] = 10560.007014,
+							["damage_taken"] = 40364.007014,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "高塔审判官",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -719,17 +717,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 7,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 1,
 									}, -- [1]
 									[304948] = {
 										["c_amt"] = 0,
@@ -747,15 +745,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 304948,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[304949] = {
 										["c_amt"] = 0,
@@ -775,15 +773,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 304949,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 									[304946] = {
 										["c_amt"] = 0,
@@ -803,46 +801,46 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 304946,
 										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["a_amt"] = 0,
 										["n_amt"] = 10,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 									},
 								},
+								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["aID"] = "171626",
-							["serial"] = "Creature-0-3042-2222-14742-171626-00002E1549",
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1622021479,
-							["damage_taken"] = 40364.007014,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1622021450,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-3042-2222-14742-171626-00002E1549",
+							["monster"] = true,
 						}, -- [5]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 19,
 					["tipo"] = 3,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["猛禽 <额尔古纳右岸>"] = 8181,
-								["狗还是你狗 <额尔古纳右岸>"] = 8181,
+							["healing_from"] = {
 							},
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
 							["iniciar_hps"] = true,
-							["classe"] = "HUNTER",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 16362.001984,
 							["total_without_pet"] = 0.001984,
 							["total"] = 0.001984,
@@ -858,13 +856,14 @@ _detalhes_database = {
 							},
 							["totalover_without_pet"] = 0.001984,
 							["healing_taken"] = 0.001984,
-							["timeMachine"] = 2,
-							["healing_from"] = {
+							["spec"] = 253,
+							["targets_overheal"] = {
+								["猛禽 <额尔古纳右岸>"] = 8181,
+								["狗还是你狗 <额尔古纳右岸>"] = 8181,
 							},
-							["heal_enemy_amt"] = 0,
+							["last_event"] = 1622021553,
 							["nome"] = "额尔古纳右岸",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[136] = {
 										["c_amt"] = 0,
@@ -886,9 +885,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 5,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
-										["n_amt"] = 5,
 										["absorbed"] = 0,
 									},
 									[290819] = {
@@ -911,251 +910,252 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["n_amt"] = 5,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
-										["n_amt"] = 5,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["start_time"] = 1622021545,
-							["spec"] = 253,
+							["totaldenied"] = 0.001984,
+							["classe"] = "HUNTER",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["aID"] = "707-064D548B",
-							["totaldenied"] = 0.001984,
+							["start_time"] = 1622021545,
 							["delay"] = 1622021553,
-							["last_event"] = 1622021553,
+							["timeMachine"] = 2,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorb"] = 0.00346,
 							["last_hps"] = 0,
-							["healing_from"] = {
+							["targets_overheal"] = {
 							},
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
 							["targets"] = {
 							},
-							["targets_overheal"] = {
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
 							},
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.00346,
-							["targets_absorbs"] = {
+							["iniciar_hps"] = false,
+							["healing_from"] = {
 							},
-							["classe"] = "PET",
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
 							["totalover"] = 0.00346,
 							["total_without_pet"] = 0.00346,
-							["iniciar_hps"] = false,
-							["start_time"] = 0,
+							["totalover_without_pet"] = 0.00346,
 							["heal_enemy_amt"] = 0,
 							["total"] = 0.00346,
+							["delay"] = 0,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
+							["targets_absorbs"] = {
 							},
 							["healing_taken"] = 0.00346,
+							["classe"] = "PET",
 							["heal_enemy"] = {
 							},
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 0,
 							["on_hold"] = false,
 							["totaldenied"] = 0.00346,
-							["delay"] = 0,
-							["tipo"] = 2,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
+							["start_time"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["totalabsorb"] = 0.008187,
 							["last_hps"] = 0,
-							["healing_from"] = {
+							["targets_overheal"] = {
 							},
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
 							["targets"] = {
 							},
-							["targets_overheal"] = {
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
 							},
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.008187,
-							["targets_absorbs"] = {
+							["iniciar_hps"] = false,
+							["healing_from"] = {
 							},
-							["classe"] = "PET",
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
 							["totalover"] = 0.008187,
 							["total_without_pet"] = 0.008187,
-							["iniciar_hps"] = false,
-							["start_time"] = 0,
+							["totalover_without_pet"] = 0.008187,
 							["heal_enemy_amt"] = 0,
 							["total"] = 0.008187,
+							["delay"] = 0,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
+							["targets_absorbs"] = {
 							},
 							["healing_taken"] = 0.008187,
+							["classe"] = "PET",
 							["heal_enemy"] = {
 							},
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 0,
 							["on_hold"] = false,
 							["totaldenied"] = 0.008187,
-							["delay"] = 0,
-							["tipo"] = 2,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
+							["start_time"] = 0,
 						}, -- [3]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 19,
 					["tipo"] = 7,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 19,
 					["tipo"] = 9,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[5116] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 5116,
+										["uptime"] = 17,
 										["targets"] = {
 										},
-										["uptime"] = 17,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[217200] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 1,
 										["id"] = 217200,
+										["uptime"] = 26,
 										["targets"] = {
 										},
-										["uptime"] = 26,
 										["appliedamt"] = 4,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[324149] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 324149,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 178,
 							["aID"] = "707-064D548B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
-									[19574] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
-										["id"] = 19574,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 38,
 										["targets"] = {
 										},
-										["uptime"] = 15,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[257946] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 3,
-										["id"] = 257946,
-										["targets"] = {
-										},
-										["uptime"] = 27,
-										["appliedamt"] = 3,
 										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[246152] = {
-										["activedamt"] = 3,
-										["id"] = 246152,
+										["id"] = 257946,
+										["uptime"] = 27,
 										["targets"] = {
 										},
-										["uptime"] = 24,
 										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[19574] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 19574,
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 									[246851] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 246851,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 8,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[246852] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 246852,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 8,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[313424] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 7,
 										["id"] = 313424,
+										["uptime"] = 38,
 										["targets"] = {
 										},
-										["uptime"] = 38,
 										["appliedamt"] = 1,
-										["refreshamt"] = 7,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[193530] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 193530,
-										["targets"] = {
-										},
 										["uptime"] = 20,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[186406] = {
-										["activedamt"] = 1,
-										["id"] = 186406,
 										["targets"] = {
 										},
-										["uptime"] = 38,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[246152] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 246152,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 48,
 							["nome"] = "额尔古纳右岸",
@@ -1167,100 +1167,100 @@ _detalhes_database = {
 								[193530] = 1,
 								[272790] = 10,
 								[53351] = 2,
-								[19801] = 1,
+								[217200] = 5,
 								[193455] = 8,
 								[19574] = 1,
 								[185358] = 1,
 								[34026] = 4,
-								[217200] = 5,
+								[19801] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["last_event"] = 1622021485,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-707-064D548B",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["nome"] = "渊誓警卫",
-							["flag_original"] = 68168,
+							["aID"] = "175882",
 							["spell_cast"] = {
 								[329706] = 12,
 								[166906] = 3,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["serial"] = "Creature-0-3042-2222-14742-175882-00002E151E",
-							["aID"] = "175882",
+							["flag_original"] = 68168,
 						}, -- [2]
 						{
 							["monster"] = true,
+							["last_event"] = 0,
 							["nome"] = "高塔审判官",
-							["flag_original"] = 2632,
+							["aID"] = "171626",
 							["spell_cast"] = {
 								[304948] = 1,
 								[304949] = 1,
 								[304946] = 2,
 							},
-							["classe"] = "UNKNOW",
 							["fight_component"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
+							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
-							["tipo"] = 4,
 							["serial"] = "Creature-0-3042-2222-14742-171626-00002E1549",
-							["aID"] = "171626",
+							["flag_original"] = 2632,
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["spell_cast"] = {
-								[201754] = 5,
-								[61684] = 2,
-								[2649] = 5,
-								[263852] = 3,
-								[16827] = 10,
-							},
-							["tipo"] = 4,
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
 							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
+							["spell_cast"] = {
+								[16827] = 10,
+								[61684] = 2,
+								[201754] = 5,
+								[263852] = 3,
+								[2649] = 5,
+							},
 						}, -- [4]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
 							["spell_cast"] = {
 								[201754] = 5,
 							},
-							["tipo"] = 4,
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
-							["last_event"] = 0,
 						}, -- [5]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 19,
 					["tipo"] = 2,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1270,35 +1270,37 @@ _detalhes_database = {
 				["raid_roster_indexed"] = {
 					"额尔古纳右岸", -- [1]
 				},
-				["tempo_start"] = 1622021447,
+				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 24,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
-					83652.86405999996, -- [1]
-					-0.018744, -- [2]
+					83652.85246099996, -- [1]
+					-0.02313099999992119, -- [2]
 					{
-						0, -- [1]
+						-0.007110000000000838, -- [1]
 						[0] = -0.009819,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = -0.001699999999999591,
+						[3] = -0.006939,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["totals_grupo"] = {
 					32599, -- [1]
@@ -1307,22 +1309,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "17:31:26",
 				["cleu_timeline"] = {
 				},
@@ -1333,11 +1336,28 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
+				["data_inicio"] = "17:30:47",
+				["end_time"] = 803085.309,
+				["combat_id"] = 19,
+				["player_last_events"] = {
+				},
+				["tempo_start"] = 1622021447,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "渊誓警卫",
+				["combat_counter"] = 24,
+				["CombatSkillCache"] = {
+				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 60885.005865,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -1346,38 +1366,19 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 60885.005865,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 803085.309,
-				["combat_id"] = 19,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "17:30:47",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["渊誓警卫"] = 1,
-					["高塔审判官"] = 1,
 				},
 				["start_time"] = 803047.105,
 				["TimeData"] = {
 				},
-				["contra"] = "渊誓警卫",
+				["frags"] = {
+					["高塔审判官"] = 1,
+					["渊誓警卫"] = 1,
+				},
 			}, -- [1]
 			{
 				{
-					["combatId"] = 18,
 					["tipo"] = 2,
+					["combatId"] = 18,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1394,22 +1395,24 @@ _detalhes_database = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
-							["total"] = 7515.005578,
-							["on_hold"] = false,
-							["aID"] = "707-064D548B",
+							["classe"] = "HUNTER",
+							["last_dps"] = 1267.072260643216,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3651.005578,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1622021245,
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1622021245,
-							["classe"] = "HUNTER",
-							["friendlyfire_total"] = 0,
+							["aID"] = "707-064D548B",
+							["damage_taken"] = 26471.005578,
 							["nome"] = "额尔古纳右岸",
+							["spec"] = 253,
+							["grupo"] = true,
+							["total"] = 7515.005578,
+							["custom"] = 0,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[217200] = {
 										["c_amt"] = 1,
@@ -1428,16 +1431,16 @@ _detalhes_database = {
 										["c_max"] = 587,
 										["id"] = 217200,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 587,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[75] = {
 										["c_amt"] = 0,
@@ -1456,16 +1459,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[193455] = {
 										["c_amt"] = 0,
@@ -1484,75 +1487,72 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 253,
-							["serial"] = "Player-707-064D548B",
-							["last_dps"] = 1267.072260643216,
-							["custom"] = 0,
+							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 26471.005578,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1622021240,
-							["delay"] = 0,
-							["last_event"] = 1622021245,
+							["serial"] = "Player-707-064D548B",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 8143.006221,
-							["aID"] = "156203",
 							["damage_from"] = {
 								["额尔古纳右岸"] = true,
 								["狗还是你狗 <额尔古纳右岸>"] = true,
 								["逐风追电"] = true,
-								["林田惠桑"] = true,
+								["撕心乄裂肺"] = true,
 								["起泡脓包"] = true,
 								["原始土元素"] = true,
 								["逛街的胡萝卜"] = true,
-								["洱海月光"] = true,
+								["猛禽 <额尔古纳右岸>"] = true,
+								["雷加丶雪诺-迦拉克隆"] = true,
+								["死神救赎者-迦拉克隆"] = true,
+								["林田惠桑"] = true,
 								["花萼双辉-迦拉克隆"] = true,
 								["是顾芷柔呀-迦拉克隆"] = true,
-								["死神救赎者-迦拉克隆"] = true,
-								["雷加丶雪诺-迦拉克隆"] = true,
-								["猛禽 <额尔古纳右岸>"] = true,
-								["撕心乄裂肺"] = true,
+								["洱海月光"] = true,
 							},
 							["targets"] = {
 								["狗还是你狗 <额尔古纳右岸>"] = 955,
-								["花萼双辉-迦拉克隆"] = 10202,
-								["洱海月光"] = 1093,
-								["撕心乄裂肺"] = 1100,
-								["猛禽 <额尔古纳右岸>"] = 155,
 								["原始土元素"] = 1749,
+								["洱海月光"] = 1093,
+								["花萼双辉-迦拉克隆"] = 10202,
+								["猛禽 <额尔古纳右岸>"] = 155,
+								["撕心乄裂肺"] = 1100,
 							},
-							["fight_component"] = true,
+							["delay"] = 1622021426,
 							["pets"] = {
 								"冥殁余烬 <冥河焚烧者>", -- [1]
 							},
-							["end_time"] = 1622021447,
-							["classe"] = "UNKNOW",
+							["last_dps"] = 0,
+							["tipo"] = 1,
+							["aID"] = "156203",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 13903.006221,
-							["monster"] = true,
 							["dps_started"] = false,
+							["fight_component"] = true,
+							["end_time"] = 1622021447,
+							["damage_taken"] = 195576.006221,
 							["total"] = 15254.006221,
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
 							["nome"] = "冥河焚烧者",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1572,17 +1572,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["DODGE"] = 2,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 962,
+										["a_amt"] = 1,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 1,
+										["a_dmg"] = 962,
 										["n_amt"] = 8,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["DODGE"] = 2,
 									}, -- [1]
 									[346135] = {
 										["c_amt"] = 0,
@@ -1591,8 +1591,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 31,
 										["targets"] = {
-											["狗还是你狗 <额尔古纳右岸>"] = 155,
 											["猛禽 <额尔古纳右岸>"] = 155,
+											["狗还是你狗 <额尔古纳右岸>"] = 155,
 											["撕心乄裂肺"] = 0,
 										},
 										["n_dmg"] = 310,
@@ -1603,17 +1603,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 346135,
 										["r_dmg"] = 0,
-										["MISS"] = 2,
-										["spellschool"] = 4,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 10,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 4,
+										["MISS"] = 2,
 									},
 									[345522] = {
 										["c_amt"] = 0,
@@ -1632,20 +1632,20 @@ _detalhes_database = {
 										["counter"] = 12,
 										["total"] = 5590,
 										["c_max"] = 0,
-										["MISS"] = 3,
+										["r_amt"] = 0,
 										["id"] = 345522,
 										["r_dmg"] = 0,
-										["IMMUNE"] = 2,
+										["b_dmg"] = 0,
 										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["a_amt"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["extra"] = {
+										},
 										["n_amt"] = 7,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["IMMUNE"] = 2,
+										["MISS"] = 3,
 									},
 									[343104] = {
 										["c_amt"] = 0,
@@ -1664,29 +1664,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 343104,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 4,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["monster"] = true,
 							["friendlyfire"] = {
 							},
-							["serial"] = "Creature-0-3042-2222-14742-156203-00002E1312",
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1622021426,
-							["damage_taken"] = 195576.006221,
+							["on_hold"] = false,
 							["start_time"] = 1622021415,
-							["delay"] = 1622021426,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-3042-2222-14742-156203-00002E1312",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = -2147483648,
@@ -1698,19 +1699,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2377.005572,
-							["on_hold"] = false,
+							["delay"] = 0,
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1622021245,
-							["friendlyfire_total"] = 0,
 							["aID"] = "",
+							["damage_taken"] = 0.005572,
 							["nome"] = "环境伤害 (岩浆)",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[7] = {
 										["c_amt"] = 0,
@@ -1729,30 +1730,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 7,
 										["r_dmg"] = 0,
-										["spellschool"] = 3,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 3,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["total"] = 2377.005572,
-							["serial"] = "",
+							["last_dps"] = 0,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1622021241,
-							["damage_taken"] = 0.005572,
+							["on_hold"] = false,
 							["start_time"] = 1622021241,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "",
+							["dps_started"] = false,
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -1763,22 +1764,21 @@ _detalhes_database = {
 							["targets"] = {
 								["冥河焚烧者"] = 2254,
 							},
-							["total"] = 2254.003694,
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2254.003694,
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1622021245,
+							["total"] = 2254.003694,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1797,16 +1797,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 0,
@@ -1825,16 +1825,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[16827] = {
 										["c_amt"] = 0,
@@ -1853,16 +1853,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[83381] = {
 										["c_amt"] = 0,
@@ -1881,29 +1881,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
+							["damage_taken"] = 155.003694,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1622021245,
-							["damage_taken"] = 155.003694,
+							["on_hold"] = false,
 							["start_time"] = 1622021241,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
+							["end_time"] = 1622021245,
 						}, -- [4]
 						{
 							["flag_original"] = 4369,
@@ -1915,22 +1916,21 @@ _detalhes_database = {
 							["targets"] = {
 								["冥河焚烧者"] = 1610,
 							},
-							["total"] = 1610.0053,
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1610.0053,
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1622021245,
+							["total"] = 1610.0053,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -1949,16 +1949,16 @@ _detalhes_database = {
 										["c_max"] = 277,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 277,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 1,
@@ -1977,16 +1977,16 @@ _detalhes_database = {
 										["c_max"] = 414,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 414,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[83381] = {
 										["c_amt"] = 0,
@@ -2005,63 +2005,62 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
+							["damage_taken"] = 955.0053,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1622021245,
-							["damage_taken"] = 955.0053,
+							["on_hold"] = false,
 							["start_time"] = 1622021242,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
+							["end_time"] = 1622021245,
 						}, -- [5]
 						{
 							["flag_original"] = 2632,
 							["totalabsorbed"] = 0.004984,
-							["friendlyfire_total"] = 0,
 							["damage_from"] = {
-								["死神救赎者-迦拉克隆"] = true,
-								["原始土元素"] = true,
+								["撕心乄裂肺"] = true,
 								["逐风追电"] = true,
+								["死神救赎者-迦拉克隆"] = true,
 								["[*] 阴燃冥殇"] = true,
 								["起泡脓包"] = true,
-								["撕心乄裂肺"] = true,
+								["原始土元素"] = true,
 							},
 							["targets"] = {
 								["狗还是你狗 <额尔古纳右岸>"] = 800,
 								["原始土元素"] = 551,
 							},
+							["delay"] = 1622021250,
 							["pets"] = {
 							},
-							["serial"] = "Creature-0-3042-2222-14742-175734-00002E147E",
-							["end_time"] = 1622021447,
-							["aID"] = "175734",
+							["classe"] = "UNKNOW",
+							["last_event"] = 1622021250,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1351.004984,
-							["monster"] = true,
-							["on_hold"] = false,
 							["dps_started"] = false,
-							["total"] = 1351.004984,
-							["classe"] = "UNKNOW",
+							["monster"] = true,
+							["end_time"] = 1622021447,
+							["damage_taken"] = 25637.004984,
 							["ownerName"] = "冥河焚烧者",
 							["nome"] = "冥殁余烬 <冥河焚烧者>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2082,201 +2081,203 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["DODGE"] = 2,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 9,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["DODGE"] = 2,
 									}, -- [1]
 								},
+								["tipo"] = 2,
 							},
+							["total"] = 1351.004984,
+							["last_dps"] = 0,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 25637.004984,
+							["on_hold"] = false,
 							["start_time"] = 1622021442,
-							["delay"] = 1622021250,
-							["last_event"] = 1622021250,
+							["serial"] = "Creature-0-3042-2222-14742-175734-00002E147E",
+							["aID"] = "175734",
 						}, -- [6]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 18,
 					["tipo"] = 3,
+					["combatId"] = 18,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 18,
 					["tipo"] = 7,
+					["combatId"] = 18,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 18,
 					["tipo"] = 9,
+					["combatId"] = 18,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[217200] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 1,
 										["id"] = 217200,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 27,
 							["aID"] = "707-064D548B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[257946] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 1,
 										["id"] = 257946,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[246152] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 246152,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[317361] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 317361,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[313424] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 313424,
-										["targets"] = {
-										},
 										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[246851] = {
-										["activedamt"] = 1,
-										["id"] = 246851,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 186406,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[246851] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 246851,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 5,
 							["nome"] = "额尔古纳右岸",
 							["spec"] = 253,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[34026] = 1,
-								[193455] = 1,
-								[272790] = 2,
 								[217200] = 1,
+								[193455] = 1,
+								[34026] = 1,
+								[272790] = 2,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["last_event"] = 1622021245,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-707-064D548B",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
 							["spell_cast"] = {
-								[263852] = 1,
+								[201754] = 2,
 								[61684] = 1,
 								[2649] = 1,
+								[263852] = 1,
 								[16827] = 2,
-								[201754] = 2,
 							},
-							["tipo"] = 4,
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
-							["last_event"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
 							["spell_cast"] = {
 								[201754] = 2,
 							},
-							["tipo"] = 4,
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
-							["last_event"] = 0,
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 18,
 					["tipo"] = 2,
+					["combatId"] = 18,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2287,12 +2288,14 @@ _detalhes_database = {
 					"额尔古纳右岸", -- [1]
 				},
 				["CombatStartedAt"] = 803045.169,
-				["overall_added"] = true,
+				["tempo_start"] = 1622021240,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 23,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					25145.84344699999, -- [1]
@@ -2301,22 +2304,86 @@ _detalhes_database = {
 						-0.006798, -- [1]
 						[0] = -0.032914,
 						["alternatepower"] = 0,
-						[3] = -0.01335900000000834,
 						[6] = 0,
+						[3] = -0.01335900000000834,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = -0.01293299999999986,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = -0.01293299999999986,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
+				["totals_grupo"] = {
+					3651, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "17:27:26",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "冥河焚烧者",
+				["TotalElapsedCombatTime"] = 5.592999999993481,
+				["CombatEndedAt"] = 803033.267,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 7515.005578,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 802845.6460000001,
+				["combat_id"] = 18,
+				["overall_added"] = true,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["冥河符文锻造师"] = 1,
+					["岩浆缚焰者"] = 2,
+					["冥河焚烧者"] = 1,
+				},
+				["combat_counter"] = 23,
 				["player_last_events"] = {
 					["额尔古纳右岸"] = {
 						{
@@ -2406,83 +2473,18 @@ _detalhes_database = {
 						["n"] = 3,
 					},
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "17:27:26",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "冥河焚烧者",
-				["TotalElapsedCombatTime"] = 5.592999999993481,
-				["CombatEndedAt"] = 803033.267,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "17:27:20",
-				["end_time"] = 802845.6460000001,
-				["combat_id"] = 18,
-				["tempo_start"] = 1622021240,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["frags"] = {
-					["冥河符文锻造师"] = 1,
-					["冥河焚烧者"] = 1,
-					["岩浆缚焰者"] = 2,
-				},
-				["totals_grupo"] = {
-					3651, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 7515.005578,
-						}, -- [1]
-					},
-				},
 				["CombatSkillCache"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["data_inicio"] = "17:27:20",
 				["start_time"] = 802839.715,
 				["contra"] = "冥河焚烧者",
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
 			}, -- [2]
 			{
 				{
-					["combatId"] = 17,
 					["tipo"] = 2,
+					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2496,22 +2498,24 @@ _detalhes_database = {
 								"狗还是你狗 <额尔古纳右岸>", -- [1]
 								"猛禽 <额尔古纳右岸>", -- [2]
 							},
-							["total"] = 4798.004867,
-							["on_hold"] = false,
-							["aID"] = "707-064D548B",
+							["classe"] = "HUNTER",
+							["last_dps"] = 596.8410084508811,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1666.004867,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1622021188,
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1622021194,
-							["classe"] = "HUNTER",
-							["friendlyfire_total"] = 0,
+							["aID"] = "707-064D548B",
+							["damage_taken"] = 0.004867,
 							["nome"] = "额尔古纳右岸",
+							["spec"] = 253,
+							["grupo"] = true,
+							["total"] = 4798.004867,
+							["custom"] = 0,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[193455] = {
 										["c_amt"] = 0,
@@ -2530,16 +2534,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[75] = {
 										["c_amt"] = 0,
@@ -2558,16 +2562,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[217200] = {
 										["c_amt"] = 0,
@@ -2586,29 +2590,27 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 217200,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["spec"] = 253,
-							["serial"] = "Player-707-064D548B",
-							["last_dps"] = 596.8410084508811,
-							["custom"] = 0,
+							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 0.004867,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1622021186,
-							["delay"] = 0,
-							["last_event"] = 1622021188,
+							["serial"] = "Player-707-064D548B",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -2618,22 +2620,21 @@ _detalhes_database = {
 							["targets"] = {
 								["石头牢笼"] = 1638,
 							},
-							["total"] = 1638.003687,
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1638.003687,
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1622021194,
+							["total"] = 1638.003687,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2652,16 +2653,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 0,
@@ -2680,16 +2681,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[83381] = {
 										["c_amt"] = 1,
@@ -2708,29 +2709,30 @@ _detalhes_database = {
 										["c_max"] = 1290,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 1290,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
+							["damage_taken"] = 0.003687,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1622021188,
-							["damage_taken"] = 0.003687,
+							["on_hold"] = false,
 							["start_time"] = 1622021187,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
+							["end_time"] = 1622021194,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -2740,22 +2742,21 @@ _detalhes_database = {
 							["targets"] = {
 								["石头牢笼"] = 1494,
 							},
-							["total"] = 1494.002281,
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1494.002281,
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1622021194,
+							["total"] = 1494.002281,
 							["friendlyfire_total"] = 0,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2774,16 +2775,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 0,
@@ -2802,16 +2803,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[16827] = {
 										["c_amt"] = 0,
@@ -2830,16 +2831,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[83381] = {
 										["c_amt"] = 0,
@@ -2858,229 +2859,230 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
+							["damage_taken"] = 0.002281,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1622021188,
-							["damage_taken"] = 0.002281,
+							["on_hold"] = false,
 							["start_time"] = 1622021188,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
+							["end_time"] = 1622021194,
 						}, -- [3]
 						{
 							["flag_original"] = 68136,
 							["totalabsorbed"] = 0.008031,
 							["damage_from"] = {
 								["额尔古纳右岸"] = true,
-								["猛禽 <额尔古纳右岸>"] = true,
 								["狗还是你狗 <额尔古纳右岸>"] = true,
+								["猛禽 <额尔古纳右岸>"] = true,
 								["艾琳达灬影歌"] = true,
 							},
 							["targets"] = {
 							},
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["total"] = 0.008031,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.008031,
-							["friendlyfire"] = {
-							},
+							["delay"] = 0,
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["end_time"] = 1622021194,
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
+							["damage_taken"] = 6284.008031,
 							["nome"] = "石头牢笼",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
 							["aID"] = "176145",
-							["total"] = 0.008031,
-							["serial"] = "Creature-0-3042-2222-14742-176145-00002E1435",
 							["last_dps"] = 0,
+							["on_hold"] = false,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["damage_taken"] = 6284.008031,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1622021194,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-3042-2222-14742-176145-00002E1435",
+							["dps_started"] = false,
 						}, -- [4]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 17,
 					["tipo"] = 3,
+					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 17,
 					["tipo"] = 7,
+					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 17,
 					["tipo"] = 9,
+					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[217200] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 217200,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["uptime"] = 1,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 38,
 							["aID"] = "707-064D548B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 186406,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 8,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[246152] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 246152,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["uptime"] = 7,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[317361] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 317361,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 8,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[313424] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 1,
 										["id"] = 313424,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 8,
 										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[257946] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 257946,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["uptime"] = 7,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 1,
 							["nome"] = "额尔古纳右岸",
 							["spec"] = 253,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[341826] = 1,
-								[217200] = 1,
-								[272790] = 2,
 								[34026] = 1,
+								[217200] = 1,
+								[341826] = 1,
+								[272790] = 2,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["last_event"] = 1622021194,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-707-064D548B",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
 							["spell_cast"] = {
 								[201754] = 1,
 								[2649] = 1,
 								[16827] = 1,
 							},
-							["tipo"] = 4,
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A25B",
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A25B",
-							["last_event"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
+							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
 							["spell_cast"] = {
 								[201754] = 1,
 							},
-							["tipo"] = 4,
-							["aID"] = "Pet-0-3042-2222-14742-165189-010303A24D",
-							["serial"] = "Pet-0-3042-2222-14742-165189-010303A24D",
-							["last_event"] = 0,
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 17,
 					["tipo"] = 2,
+					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -3091,12 +3093,14 @@ _detalhes_database = {
 					"额尔古纳右岸", -- [1]
 				},
 				["CombatStartedAt"] = 802839.0650000001,
-				["overall_added"] = true,
+				["tempo_start"] = 1622021186,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 22,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					4797.915887999989, -- [1]
@@ -3105,26 +3109,46 @@ _detalhes_database = {
 						9.99215, -- [1]
 						[0] = -10.01588,
 						["alternatepower"] = 0,
-						[3] = -0.008080000000006748,
 						[6] = 0,
+						[3] = -0.008080000000006748,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = -0.01425999999999994,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = -0.01425999999999994,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					1666, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "17:26:34",
 				["pvp"] = true,
 				["cleu_timeline"] = {
@@ -3136,44 +3160,16 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "17:26:26",
-				["end_time"] = 802794.1240000001,
-				["combat_id"] = 17,
-				["tempo_start"] = 1622021186,
-				["frags"] = {
-					["石头牢笼"] = 1,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["totals_grupo"] = {
-					1666, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 4798.004867,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -3182,22 +3178,29 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 4798.004867,
-						}, -- [1]
-					},
+				},
+				["end_time"] = 802794.1240000001,
+				["combat_id"] = 17,
+				["overall_added"] = true,
+				["frags"] = {
+					["石头牢笼"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 22,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
 				},
 				["start_time"] = 802786.085,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["data_inicio"] = "17:26:26",
 			}, -- [3]
 			{
 				{
-					["combatId"] = 16,
 					["tipo"] = 2,
+					["combatId"] = 16,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -3209,22 +3212,23 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["spec"] = 253,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
+							["classe"] = "HUNTER",
+							["last_dps"] = 263.1104752127694,
+							["aID"] = "707-064D548B",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4957.001353,
-							["end_time"] = 1622021168,
-							["colocacao"] = 1,
+							["tipo"] = 1,
+							["delay"] = 1622021157,
 							["dps_started"] = false,
 							["total"] = 4957.001353,
-							["aID"] = "707-064D548B",
-							["classe"] = "HUNTER",
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 0.001353,
 							["nome"] = "额尔古纳右岸",
+							["spec"] = 253,
+							["grupo"] = true,
+							["end_time"] = 1622021168,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[217200] = {
 										["c_amt"] = 0,
@@ -3243,16 +3247,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 217200,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[75] = {
 										["c_amt"] = 2,
@@ -3271,16 +3275,16 @@ _detalhes_database = {
 										["c_max"] = 871,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 838,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 									[193455] = {
 										["c_amt"] = 0,
@@ -3299,29 +3303,28 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["extra"] = {
-										},
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-707-064D548B",
-							["last_dps"] = 263.1104752127694,
 							["custom"] = 0,
+							["colocacao"] = 1,
 							["last_event"] = 1622021157,
-							["damage_taken"] = 0.001353,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1622021159,
-							["delay"] = 1622021157,
-							["tipo"] = 1,
+							["serial"] = "Player-707-064D548B",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -3333,142 +3336,142 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 							["aID"] = "176145",
-							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002105,
-							["friendlyfire"] = {
-							},
+							["delay"] = 0,
 							["fight_component"] = true,
-							["dps_started"] = false,
 							["total"] = 0.002105,
 							["end_time"] = 1622021168,
-							["on_hold"] = false,
+							["damage_taken"] = 4957.002105,
 							["nome"] = "石头牢笼",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["serial"] = "Creature-0-3042-2222-14742-176145-0000AE1410",
+							["on_hold"] = false,
 							["last_dps"] = 0,
+							["dps_started"] = false,
 							["custom"] = 0,
 							["last_event"] = 0,
-							["damage_taken"] = 4957.002105,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1622021168,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Creature-0-3042-2222-14742-176145-0000AE1410",
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 16,
 					["tipo"] = 3,
+					["combatId"] = 16,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 16,
 					["tipo"] = 7,
+					["combatId"] = 16,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 16,
 					["tipo"] = 9,
+					["combatId"] = 16,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[217200] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 217200,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["uptime"] = 8,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 72,
 							["aID"] = "707-064D548B",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[257946] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 257946,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["uptime"] = 7,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[246152] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 246152,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["uptime"] = 7,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[317361] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 317361,
+										["uptime"] = 19,
 										["targets"] = {
 										},
-										["uptime"] = 19,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[313424] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
-										["id"] = 313424,
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 1,
 										["refreshamt"] = 3,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[982] = {
-										["activedamt"] = 1,
-										["id"] = 982,
+										["id"] = 313424,
+										["uptime"] = 17,
 										["targets"] = {
 										},
-										["uptime"] = 3,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 186406,
+										["uptime"] = 19,
 										["targets"] = {
 										},
-										["uptime"] = 19,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[982] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 982,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 8,
 							["nome"] = "额尔古纳右岸",
@@ -3479,22 +3482,22 @@ _detalhes_database = {
 								[341826] = 1,
 								[193455] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["last_event"] = 1622021168,
+							["classe"] = "HUNTER",
 							["pets"] = {
 							},
-							["classe"] = "HUNTER",
 							["serial"] = "Player-707-064D548B",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 16,
 					["tipo"] = 2,
+					["combatId"] = 16,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -3505,12 +3508,14 @@ _detalhes_database = {
 					"额尔古纳右岸", -- [1]
 				},
 				["CombatStartedAt"] = 802785.6900000001,
-				["overall_added"] = true,
+				["tempo_start"] = 1622021149,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 21,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
 				["playing_solo"] = true,
 				["totals"] = {
 					4956.982320000001, -- [1]
@@ -3519,26 +3524,46 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					4957, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["data_fim"] = "17:26:08",
 				["pvp"] = true,
 				["cleu_timeline"] = {
@@ -3550,44 +3575,16 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "17:25:49",
-				["end_time"] = 802767.767,
-				["combat_id"] = 16,
-				["tempo_start"] = 1622021149,
-				["frags"] = {
-					["石头牢笼"] = 1,
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["totals_grupo"] = {
-					4957, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 4957.001353,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -3596,17 +3593,24 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 4957.001353,
-						}, -- [1]
-					},
+				},
+				["end_time"] = 802767.767,
+				["combat_id"] = 16,
+				["overall_added"] = true,
+				["frags"] = {
+					["石头牢笼"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["combat_counter"] = 21,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
 				},
 				["start_time"] = 802748.927,
 				["TimeData"] = {
 				},
-				["spells_cast_timeline"] = {
-				},
+				["data_inicio"] = "17:25:49",
 			}, -- [4]
 			{
 				{
@@ -3622,36 +3626,36 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
+							["serial"] = "Player-707-064D548B",
 							["pets"] = {
 							},
-							["delay"] = 0,
+							["total"] = 0.001227,
+							["friendlyfire"] = {
+							},
 							["aID"] = "707-064D548B",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001227,
+							["classe"] = "HUNTER",
+							["dps_started"] = false,
+							["end_time"] = 1622020447,
+							["on_hold"] = false,
+							["tipo"] = 1,
+							["nome"] = "额尔古纳右岸",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1622020447,
-							["friendlyfire_total"] = 0,
-							["classe"] = "HUNTER",
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
 							["grupo"] = true,
-							["total"] = 0.001227,
-							["damage_taken"] = 4460.001227,
 							["last_dps"] = 0,
+							["spec"] = 253,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 0,
+							["damage_taken"] = 4460.001227,
 							["start_time"] = 1622020447,
-							["serial"] = "Player-707-064D548B",
-							["friendlyfire"] = {
-							},
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = -2147483648,
@@ -3663,18 +3667,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 1622020438,
-							["friendlyfire"] = {
-							},
+							["aID"] = "",
+							["dps_started"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3842.002923,
-							["delay"] = 1622020416,
+							["serial"] = "",
 							["fight_component"] = true,
 							["total"] = 3842.002923,
-							["classe"] = "UNKNOW",
 							["damage_taken"] = 0.002923,
+							["on_hold"] = false,
 							["nome"] = "环境伤害 (坠落)",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3695,29 +3698,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 3,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 3,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["dps_started"] = false,
-							["last_dps"] = 0,
-							["end_time"] = 1622020447,
-							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["end_time"] = 1622020447,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1622020438,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1622020435,
-							["serial"] = "",
-							["aID"] = "",
+							["delay"] = 1622020416,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -3727,19 +3731,21 @@ _detalhes_database = {
 							["targets"] = {
 								["额尔古纳右岸"] = 618,
 							},
+							["serial"] = "Creature-0-3120-2222-22796-176116-00002E07F5",
 							["pets"] = {
 							},
-							["delay"] = 1622020417,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["aID"] = "176116",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 618.001796,
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["end_time"] = 1622020447,
 							["monster"] = true,
 							["total"] = 618.001796,
-							["classe"] = "UNKNOW",
-							["end_time"] = 1622020447,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1622020417,
 							["nome"] = "堕落的导师",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3760,31 +3766,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
 							["fight_component"] = true,
-							["damage_taken"] = 0.001796,
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
+							["damage_taken"] = 0.001796,
 							["custom"] = 0,
-							["last_event"] = 1622020417,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622020446,
-							["serial"] = "Creature-0-3120-2222-22796-176116-00002E07F5",
-							["dps_started"] = false,
+							["delay"] = 1622020417,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -3806,79 +3810,79 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "额尔古纳右岸",
 							["spec"] = 253,
 							["grupo"] = true,
-							["aID"] = "707-064D548B",
+							["classe"] = "HUNTER",
+							["buff_uptime"] = 155,
+							["buff_uptime_targets"] = {
+							},
 							["pets"] = {
 							},
-							["nome"] = "额尔古纳右岸",
-							["buff_uptime"] = 155,
-							["tipo"] = 4,
 							["last_event"] = 1622020447,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 31,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 31,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 31,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 31,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 264420,
-										["uptime"] = 31,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 31,
+										["id"] = 264420,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 2,
-										["id"] = 313424,
-										["uptime"] = 31,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 31,
+										["id"] = 313424,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[41252] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 41252,
-										["uptime"] = 31,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 31,
+										["id"] = 41252,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-707-064D548B",
-							["classe"] = "HUNTER",
+							["aID"] = "707-064D548B",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -3911,21 +3915,21 @@ _detalhes_database = {
 						-0.00458799999999826, -- [1]
 						[0] = -0.00342,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -3946,7 +3950,25 @@ _detalhes_database = {
 				["data_inicio"] = "17:13:37",
 				["end_time"] = 802048.0160000001,
 				["combat_id"] = 15,
-				["overall_added"] = true,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 0.001227,
+						}, -- [1]
+					},
+				},
 				["spells_cast_timeline"] = {
 				},
 				["frags"] = {
@@ -3961,42 +3983,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 802016.9670000001,
 				["TimeData"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 0.001227,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
+				["overall_added"] = true,
 			}, -- [5]
 			{
 				{
@@ -4010,37 +4014,37 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["delay"] = 0,
+							["serial"] = "Player-707-064D548B",
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 							},
-							["total"] = 0.001627,
-							["tipo"] = 1,
+							["spec"] = 253,
+							["on_hold"] = false,
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001627,
-							["aID"] = "707-064D548B",
-							["dps_started"] = false,
 							["end_time"] = 1622020404,
-							["damage_taken"] = 0.001627,
+							["dps_started"] = false,
+							["total"] = 0.001627,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
+							["nome"] = "额尔古纳右岸",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
 							["grupo"] = true,
-							["last_dps"] = 0,
 							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["damage_taken"] = 0.001627,
 							["start_time"] = 1622020404,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["aID"] = "707-064D548B",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -4049,24 +4053,23 @@ _detalhes_database = {
 								["凿刻的追踪者"] = true,
 								["堕落的追猎者"] = true,
 								["堕落的夺灵者"] = true,
-								["堕落的美食家"] = true,
 								["堕落的见证者"] = true,
+								["堕落的美食家"] = true,
 							},
 							["targets"] = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-030303A25B",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001404,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-030303A25B",
 							["dps_started"] = false,
 							["total"] = 0.001404,
-							["classe"] = "PET",
+							["damage_taken"] = 10817.001404,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
 							["spells"] = {
@@ -4074,15 +4077,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 10817.001404,
+							["on_hold"] = false,
 							["end_time"] = 1622020404,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1622020404,
-							["serial"] = "Pet-0-3120-2222-22796-165189-030303A25B",
-							["aID"] = "Pet-0-3120-2222-22796-165189-030303A25B",
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4104,79 +4108,79 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "额尔古纳右岸",
 							["spec"] = 253,
 							["grupo"] = true,
-							["aID"] = "707-064D548B",
+							["classe"] = "HUNTER",
+							["buff_uptime"] = 25,
+							["buff_uptime_targets"] = {
+							},
 							["pets"] = {
 							},
-							["nome"] = "额尔古纳右岸",
-							["buff_uptime"] = 25,
-							["tipo"] = 4,
 							["last_event"] = 1622020404,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 5,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 5,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 264420,
-										["uptime"] = 5,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 264420,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 313424,
-										["uptime"] = 5,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 313424,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[5384] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 5384,
-										["uptime"] = 5,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 5384,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-707-064D548B",
-							["classe"] = "HUNTER",
+							["aID"] = "707-064D548B",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -4209,21 +4213,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -4232,18 +4236,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -4264,10 +4268,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 0.001627,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -4275,27 +4276,30 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 0.001627,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 802004.981,
 				["combat_id"] = 14,
-				["overall_added"] = true,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "堕落的夺灵者",
 				["frags"] = {
 					["猛禽"] = 1,
 				},
 				["combat_counter"] = 18,
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "17:13:20",
 				["CombatSkillCache"] = {
 				},
-				["data_inicio"] = "17:13:20",
-				["start_time"] = 801999.5260000001,
-				["contra"] = "堕落的夺灵者",
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
+				["start_time"] = 801999.5260000001,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [6]
 			{
 				{
@@ -4309,60 +4313,59 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["delay"] = 0,
+							["serial"] = "Player-707-064D548B",
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 							},
-							["total"] = 0.004065,
-							["tipo"] = 1,
+							["spec"] = 253,
+							["on_hold"] = false,
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004065,
-							["aID"] = "707-064D548B",
-							["dps_started"] = false,
 							["end_time"] = 1622020399,
-							["damage_taken"] = 0.004065,
+							["dps_started"] = false,
+							["total"] = 0.004065,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
+							["nome"] = "额尔古纳右岸",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
 							["grupo"] = true,
-							["last_dps"] = 0,
 							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["damage_taken"] = 0.004065,
 							["start_time"] = 1622020399,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["aID"] = "707-064D548B",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.00443,
 							["damage_from"] = {
-								["堕落的美食家"] = true,
 								["堕落的见证者"] = true,
+								["堕落的美食家"] = true,
 							},
 							["targets"] = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-030303A25B",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00443,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-030303A25B",
 							["dps_started"] = false,
 							["total"] = 0.00443,
-							["classe"] = "PET",
+							["damage_taken"] = 2240.00443,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
 							["spells"] = {
@@ -4370,15 +4373,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 2240.00443,
+							["on_hold"] = false,
 							["end_time"] = 1622020399,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1622020399,
-							["serial"] = "Pet-0-3120-2222-22796-165189-030303A25B",
-							["aID"] = "Pet-0-3120-2222-22796-165189-030303A25B",
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4400,79 +4404,79 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "额尔古纳右岸",
 							["spec"] = 253,
 							["grupo"] = true,
-							["aID"] = "707-064D548B",
+							["classe"] = "HUNTER",
+							["buff_uptime"] = 5,
+							["buff_uptime_targets"] = {
+							},
 							["pets"] = {
 							},
-							["nome"] = "额尔古纳右岸",
-							["buff_uptime"] = 5,
-							["tipo"] = 4,
 							["last_event"] = 1622020399,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 264420,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 264420,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 313424,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 313424,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[5384] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 5384,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 5384,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-707-064D548B",
-							["classe"] = "HUNTER",
+							["aID"] = "707-064D548B",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -4505,21 +4509,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -4528,18 +4532,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = false,
@@ -4560,10 +4564,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 0.004065,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -4571,26 +4572,29 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 0.004065,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 801999.285,
 				["combat_id"] = 13,
-				["overall_added"] = true,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "堕落的美食家",
 				["frags"] = {
 				},
 				["combat_counter"] = 17,
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "17:13:19",
 				["CombatSkillCache"] = {
 				},
-				["data_inicio"] = "17:13:19",
-				["start_time"] = 801998.386,
-				["contra"] = "堕落的美食家",
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
+				["start_time"] = 801998.386,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [7]
 			{
 				{
@@ -4604,61 +4608,60 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["delay"] = 0,
+							["serial"] = "Player-707-064D548B",
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 							},
-							["total"] = 0.003927,
-							["tipo"] = 1,
+							["spec"] = 253,
+							["on_hold"] = false,
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003927,
-							["aID"] = "707-064D548B",
-							["dps_started"] = false,
 							["end_time"] = 1622020397,
-							["damage_taken"] = 0.003927,
+							["dps_started"] = false,
+							["total"] = 0.003927,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
+							["nome"] = "额尔古纳右岸",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
 							["grupo"] = true,
-							["last_dps"] = 0,
 							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["damage_taken"] = 0.003927,
 							["start_time"] = 1622020397,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["aID"] = "707-064D548B",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.004011,
 							["damage_from"] = {
 								["堕落的夺灵者"] = true,
-								["堕落的美食家"] = true,
 								["堕落的见证者"] = true,
+								["堕落的美食家"] = true,
 							},
 							["targets"] = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-030303A25B",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004011,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-030303A25B",
 							["dps_started"] = false,
 							["total"] = 0.004011,
-							["classe"] = "PET",
+							["damage_taken"] = 2248.004011,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
 							["spells"] = {
@@ -4666,15 +4669,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 2248.004011,
+							["on_hold"] = false,
 							["end_time"] = 1622020397,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1622020397,
-							["serial"] = "Pet-0-3120-2222-22796-165189-030303A25B",
-							["aID"] = "Pet-0-3120-2222-22796-165189-030303A25B",
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4696,101 +4700,101 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "额尔古纳右岸",
 							["spec"] = 253,
 							["grupo"] = true,
-							["aID"] = "707-064D548B",
+							["classe"] = "HUNTER",
+							["buff_uptime"] = 5,
+							["buff_uptime_targets"] = {
+							},
 							["pets"] = {
 							},
-							["nome"] = "额尔古纳右岸",
-							["buff_uptime"] = 5,
-							["tipo"] = 4,
 							["last_event"] = 1622020397,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
+										["uptime"] = 1,
 										["id"] = 264420,
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[186265] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 186265,
-										["uptime"] = 0,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[313424] = {
-										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 313424,
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[202748] = {
 										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 202748,
-										["uptime"] = 0,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
 									},
 									[5384] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 5384,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 5384,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[313424] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 313424,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 202748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[186265] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 186265,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-707-064D548B",
-							["classe"] = "HUNTER",
+							["aID"] = "707-064D548B",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -4803,8 +4807,8 @@ _detalhes_database = {
 				["raid_roster"] = {
 					["额尔古纳右岸"] = true,
 				},
-				["tempo_start"] = 1622020396,
-				["last_events_tables"] = {
+				["overall_added"] = true,
+				["cleu_timeline"] = {
 				},
 				["alternate_power"] = {
 				},
@@ -4812,8 +4816,10 @@ _detalhes_database = {
 					"额尔古纳右岸", -- [1]
 				},
 				["enemy"] = "未知",
-				["combat_counter"] = 16,
-				["overall_added"] = true,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["tempo_start"] = 1622020396,
 				["totals"] = {
 					-0.01925899999980629, -- [1]
 					0, -- [2]
@@ -4821,38 +4827,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["cleu_timeline"] = {
-				},
-				["frags_need_refresh"] = false,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "17:13:17",
-				["end_time"] = 801997.493,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["combat_id"] = 12,
-				["frags"] = {
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -4861,36 +4850,33 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
-				["hasSaved"] = true,
-				["spells_cast_timeline"] = {
+				["last_events_tables"] = {
 				},
-				["data_fim"] = "17:13:18",
-				["instance_type"] = "none",
-				["CombatSkillCache"] = {
+				["frags_need_refresh"] = false,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
 				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 0.003927,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -4898,13 +4884,31 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 0.003927,
+						}, -- [1]
 					},
 				},
+				["end_time"] = 801997.493,
+				["combat_counter"] = 16,
+				["instance_type"] = "none",
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "17:13:18",
+				["contra"] = "堕落的美食家",
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "17:13:17",
 				["start_time"] = 801996.488,
 				["TimeData"] = {
 				},
-				["contra"] = "堕落的美食家",
+				["combat_id"] = 12,
 			}, -- [8]
 			{
 				{
@@ -4919,42 +4923,42 @@ _detalhes_database = {
 								["堕落的引导者"] = true,
 								["堕落的追猎者"] = true,
 								["堕落的夺灵者"] = true,
-								["堕落的美食家"] = true,
 								["堕落的见证者"] = true,
+								["堕落的美食家"] = true,
 							},
 							["targets"] = {
 							},
-							["delay"] = 0,
+							["serial"] = "Player-707-064D548B",
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 							},
+							["spec"] = 253,
+							["classe"] = "HUNTER",
+							["aID"] = "707-064D548B",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004213,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1622020396,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
+							["nome"] = "额尔古纳右岸",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["tipo"] = 1,
-							["aID"] = "707-064D548B",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.004213,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1622020396,
-							["damage_taken"] = 13493.004213,
-							["friendlyfire_total"] = 0,
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
 							["grupo"] = true,
-							["last_dps"] = 0,
 							["total"] = 0.004213,
+							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1622020396,
-							["serial"] = "Player-707-064D548B",
-							["classe"] = "HUNTER",
+							["delay"] = 0,
+							["damage_taken"] = 13493.004213,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -4965,20 +4969,20 @@ _detalhes_database = {
 								["额尔古纳右岸"] = 5449,
 								["猛禽 <额尔古纳右岸>"] = 601,
 							},
-							["delay"] = 0,
+							["serial"] = "Creature-0-3120-2222-22796-156264-00002E0336",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "156264",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6050.003618,
-							["end_time"] = 1622020396,
-							["monster"] = true,
-							["total"] = 6050.003618,
 							["damage_taken"] = 0.003618,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622020396,
+							["on_hold"] = false,
+							["last_event"] = 1622020396,
 							["nome"] = "堕落的美食家",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5000,17 +5004,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["MISS"] = 10,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["n_amt"] = 7,
-										["spellschool"] = 1,
-										["MISS"] = 10,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[329013] = {
 										["c_amt"] = 0,
@@ -5028,15 +5032,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 329013,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 3,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[329016] = {
 										["c_amt"] = 0,
@@ -5055,31 +5059,31 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 329016,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["MISS"] = 1,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["spellschool"] = 1,
-										["MISS"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "156264",
 							["custom"] = 0,
-							["last_event"] = 1622020396,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622020383,
-							["serial"] = "Creature-0-3120-2222-22796-156264-00002E0336",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["total"] = 6050.003618,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -5089,20 +5093,20 @@ _detalhes_database = {
 							["targets"] = {
 								["额尔古纳右岸"] = 5319,
 							},
-							["delay"] = 0,
+							["serial"] = "Creature-0-3120-2222-22796-156260-00002E0D9E",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "156260",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5319.005378,
-							["end_time"] = 1622020396,
-							["monster"] = true,
-							["total"] = 5319.005378,
 							["damage_taken"] = 0.005378,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622020396,
+							["on_hold"] = false,
+							["last_event"] = 1622020395,
 							["nome"] = "堕落的夺灵者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5123,17 +5127,17 @@ _detalhes_database = {
 										["c_max"] = 1029,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["MISS"] = 2,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["c_min"] = 1029,
 										["successful_casted"] = 0,
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["spellschool"] = 1,
-										["MISS"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[328414] = {
 										["c_amt"] = 0,
@@ -5153,29 +5157,29 @@ _detalhes_database = {
 										["DEFLECT"] = 2,
 										["id"] = 328414,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 3,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "156260",
 							["custom"] = 0,
-							["last_event"] = 1622020395,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622020381,
-							["serial"] = "Creature-0-3120-2222-22796-156260-00002E0D9E",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["total"] = 5319.005378,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
@@ -5186,20 +5190,20 @@ _detalhes_database = {
 								["额尔古纳右岸"] = 910,
 								["猛禽 <额尔古纳右岸>"] = 616,
 							},
-							["delay"] = 0,
+							["serial"] = "Creature-0-3120-2222-22796-158928-00002DFC6F",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "158928",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1526.001164,
-							["end_time"] = 1622020396,
-							["monster"] = true,
-							["total"] = 1526.001164,
 							["damage_taken"] = 0.001164,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622020396,
+							["on_hold"] = false,
+							["last_event"] = 1622020394,
 							["nome"] = "堕落的见证者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5220,16 +5224,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[328411] = {
 										["c_amt"] = 0,
@@ -5248,29 +5252,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 328411,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "158928",
 							["custom"] = 0,
-							["last_event"] = 1622020394,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622020387,
-							["serial"] = "Creature-0-3120-2222-22796-158928-00002DFC6F",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["total"] = 1526.001164,
 						}, -- [4]
 						{
 							["flag_original"] = 68168,
@@ -5284,20 +5288,21 @@ _detalhes_database = {
 								["额尔古纳右岸"] = 566,
 								["六指丶-格瑞姆巴托"] = 832,
 							},
-							["delay"] = 1622020366,
+							["serial"] = "Creature-0-3120-2222-22796-176108-00002E102B",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
 							["aID"] = "176108",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1398.005355,
-							["dps_started"] = false,
-							["fight_component"] = true,
-							["end_time"] = 1622020396,
 							["damage_taken"] = 2419.005355,
-							["total"] = 1398.005355,
+							["dps_started"] = false,
+							["end_time"] = 1622020396,
+							["on_hold"] = false,
+							["last_event"] = 1622020366,
 							["nome"] = "堕落的引导者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5319,16 +5324,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[328970] = {
 										["c_amt"] = 0,
@@ -5346,29 +5351,28 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 328970,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["total"] = 1398.005355,
 							["monster"] = true,
-							["friendlyfire"] = {
-							},
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622020366,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622020394,
-							["serial"] = "Creature-0-3120-2222-22796-176108-00002E102B",
-							["classe"] = "UNKNOW",
+							["delay"] = 1622020366,
+							["fight_component"] = true,
 						}, -- [5]
 						{
 							["flag_original"] = 2632,
@@ -5378,20 +5382,20 @@ _detalhes_database = {
 							["targets"] = {
 								["额尔古纳右岸"] = 911,
 							},
-							["delay"] = 1622020372,
+							["serial"] = "Creature-0-3120-2222-22796-159027-00002E0D5B",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "159027",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 911.006145,
-							["end_time"] = 1622020396,
-							["monster"] = true,
-							["total"] = 911.006145,
 							["damage_taken"] = 0.006145,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622020396,
+							["on_hold"] = false,
+							["last_event"] = 1622020372,
 							["nome"] = "堕落的追猎者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5412,30 +5416,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "159027",
 							["custom"] = 0,
-							["last_event"] = 1622020372,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622020395,
-							["serial"] = "Creature-0-3120-2222-22796-159027-00002E0D5B",
-							["fight_component"] = true,
+							["delay"] = 1622020372,
+							["total"] = 911.006145,
 						}, -- [6]
 						{
 							["flag_original"] = 2632,
@@ -5445,20 +5449,20 @@ _detalhes_database = {
 							["targets"] = {
 								["额尔古纳右岸"] = 338,
 							},
-							["delay"] = 1622020372,
+							["serial"] = "Creature-0-3120-2222-22796-176113-00002E0D5B",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "176113",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 338.003647,
-							["end_time"] = 1622020396,
-							["monster"] = true,
-							["total"] = 338.003647,
 							["damage_taken"] = 0.003647,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622020396,
+							["on_hold"] = false,
+							["last_event"] = 1622020372,
 							["nome"] = "凿刻的追踪者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5479,53 +5483,52 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "176113",
 							["custom"] = 0,
-							["last_event"] = 1622020372,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622020395,
-							["serial"] = "Creature-0-3120-2222-22796-176113-00002E0D5B",
-							["fight_component"] = true,
+							["delay"] = 1622020372,
+							["total"] = 338.003647,
 						}, -- [7]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.00761,
 							["damage_from"] = {
-								["堕落的见证者"] = true,
 								["堕落的美食家"] = true,
+								["堕落的见证者"] = true,
 							},
 							["targets"] = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-030303A25B",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00761,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-030303A25B",
 							["dps_started"] = false,
 							["total"] = 0.00761,
-							["classe"] = "PET",
+							["damage_taken"] = 1217.00761,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
 							["spells"] = {
@@ -5533,15 +5536,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 1217.00761,
+							["on_hold"] = false,
 							["end_time"] = 1622020396,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1622020396,
-							["serial"] = "Pet-0-3120-2222-22796-165189-030303A25B",
-							["aID"] = "Pet-0-3120-2222-22796-165189-030303A25B",
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [8]
 					},
 				}, -- [1]
@@ -5551,15 +5555,16 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["额尔古纳右岸"] = true,
+							["targets_overheal"] = {
+								["猛禽 <额尔古纳右岸>"] = 16366,
+								["狗还是你狗 <额尔古纳右岸>"] = 16366,
 							},
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "HUNTER",
 							["totalover"] = 32732.003159,
 							["total_without_pet"] = 7014.003159,
 							["total"] = 7014.003159,
@@ -5578,11 +5583,10 @@ _detalhes_database = {
 							["healing_taken"] = 7014.003159,
 							["fight_component"] = true,
 							["end_time"] = 1622020396,
-							["targets_overheal"] = {
-								["猛禽 <额尔古纳右岸>"] = 16366,
-								["狗还是你狗 <额尔古纳右岸>"] = 16366,
+							["healing_from"] = {
+								["额尔古纳右岸"] = true,
 							},
-							["last_event"] = 1622020389,
+							["spec"] = 253,
 							["nome"] = "额尔古纳右岸",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5605,9 +5609,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["totaldenied"] = 0,
 										["n_amt"] = 1,
 										["n_curado"] = 7014,
-										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 									[128594] = {
@@ -5632,32 +5636,32 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["totaldenied"] = 0,
 										["n_amt"] = 2,
 										["n_curado"] = 0,
-										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "HUNTER",
-							["totaldenied"] = 0.003159,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "707-064D548B",
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1622020389,
+							["custom"] = 0,
+							["last_event"] = 1622020389,
+							["aID"] = "707-064D548B",
+							["totaldenied"] = 0.003159,
 							["delay"] = 0,
-							["spec"] = 253,
+							["tipo"] = 2,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["healing_from"] = {
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "Pet-0-3120-2222-22796-165189-030303A25B",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.001692,
 							["total_without_pet"] = 0.001692,
 							["total"] = 0.001692,
@@ -5681,25 +5685,25 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
-							["totaldenied"] = 0.001692,
-							["targets_overheal"] = {
-							},
-							["last_event"] = 0,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
 							["start_time"] = 1622020396,
-							["delay"] = 0,
+							["healing_from"] = {
+							},
 							["classe"] = "PET",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["aID"] = "Pet-0-3120-2222-22796-165189-030303A25B",
+							["totaldenied"] = 0.001692,
+							["delay"] = 0,
+							["tipo"] = 2,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
-							["healing_from"] = {
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "Pet-0-3120-2222-22796-165189-030303A24D",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.006997,
 							["total_without_pet"] = 0.006997,
 							["total"] = 0.006997,
@@ -5723,16 +5727,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
-							["totaldenied"] = 0.006997,
-							["targets_overheal"] = {
-							},
-							["last_event"] = 0,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
 							["start_time"] = 1622020396,
-							["delay"] = 0,
+							["healing_from"] = {
+							},
 							["classe"] = "PET",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["aID"] = "Pet-0-3120-2222-22796-165189-030303A24D",
+							["totaldenied"] = 0.006997,
+							["delay"] = 0,
+							["tipo"] = 2,
 						}, -- [3]
 					},
 				}, -- [2]
@@ -5761,26 +5765,81 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 31,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 31,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 31,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
+										["uptime"] = 31,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[264420] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 31,
+										["id"] = 264420,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5384] = {
+										["appliedamt"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 5384,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[313424] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 28,
+										["id"] = 313424,
+										["refreshamt"] = 5,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 202748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[186265] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 186265,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[41252] = {
 										["activedamt"] = 1,
@@ -5789,65 +5848,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1622020365,
 										["uptime"] = 0,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["appliedamt"] = 1,
-									},
-									[5384] = {
 										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 5384,
-										["uptime"] = 0,
-										["targets"] = {
-										},
-										["appliedamt"] = 0,
-									},
-									[186265] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186265,
-										["uptime"] = 8,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[202748] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 202748,
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 5,
-										["id"] = 313424,
-										["uptime"] = 28,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 264420,
-										["uptime"] = 31,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -5860,11 +5864,7 @@ _detalhes_database = {
 								[186265] = 1,
 								[109304] = 1,
 							},
-							["tipo"] = 4,
-							["serial"] = "Player-707-064D548B",
-							["last_event"] = 1622020396,
-							["classe"] = "HUNTER",
-							["pets"] = {
+							["buff_uptime_targets"] = {
 							},
 							["cooldowns_defensive_spells"] = {
 								["_ActorTable"] = {
@@ -5885,72 +5885,76 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime_targets"] = {
+							["tipo"] = 4,
+							["pets"] = {
 							},
+							["classe"] = "HUNTER",
+							["serial"] = "Player-707-064D548B",
+							["last_event"] = 1622020396,
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "堕落的引导者",
-							["aID"] = "176108",
+							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[328970] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3120-2222-22796-176108-00002E102B",
-							["flag_original"] = 68168,
+							["aID"] = "176108",
 						}, -- [2]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "堕落的夺灵者",
-							["aID"] = "156260",
+							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[328414] = 3,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3120-2222-22796-156260-00002E0D9E",
-							["flag_original"] = 68168,
+							["aID"] = "156260",
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "堕落的美食家",
-							["aID"] = "156264",
+							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[329013] = 3,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3120-2222-22796-156264-00002E0336",
-							["flag_original"] = 2632,
+							["aID"] = "156264",
 						}, -- [4]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "堕落的见证者",
-							["aID"] = "158928",
+							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[328411] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3120-2222-22796-158928-00002DFC6F",
-							["flag_original"] = 2632,
+							["aID"] = "158928",
 						}, -- [5]
 					},
 				}, -- [4]
@@ -5966,14 +5970,12 @@ _detalhes_database = {
 				["raid_roster_indexed"] = {
 					"额尔古纳右岸", -- [1]
 				},
-				["overall_added"] = true,
+				["tempo_start"] = 1622020365,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 15,
 				["playing_solo"] = true,
 				["totals"] = {
 					15541.969921, -- [1]
@@ -5982,42 +5984,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = -0.002458,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 2,
+						["dispell"] = 0,
 						["interrupt"] = -0.005635000000000057,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 2,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					0, -- [1]
-					7014, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
 						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 2,
+						["dead"] = 0,
 					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
@@ -6032,27 +6015,12 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "17:12:46",
-				["end_time"] = 801996.381,
-				["combat_id"] = 11,
-				["player_last_events"] = {
-				},
-				["tempo_start"] = 1622020365,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "堕落的引导者",
-				["combat_counter"] = 15,
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 0.004213,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -6061,15 +6029,51 @@ _detalhes_database = {
 							["额尔古纳右岸"] = 7014.003159,
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 0.004213,
+						}, -- [1]
 					},
 				},
-				["start_time"] = 801965.934,
-				["TimeData"] = {
-				},
+				["end_time"] = 801996.381,
+				["combat_id"] = 11,
 				["frags"] = {
 					["堕落的公证人"] = 1,
 				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					7014, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 2,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 801965.934,
+				["contra"] = "堕落的引导者",
+				["data_inicio"] = "17:12:46",
 			}, -- [9]
 			{
 				{
@@ -6085,36 +6089,36 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["delay"] = 0,
+							["serial"] = "Player-707-064D548B",
 							["pets"] = {
 							},
-							["total"] = 0.00569,
-							["tipo"] = 1,
+							["spec"] = 253,
+							["on_hold"] = false,
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00569,
-							["aID"] = "707-064D548B",
-							["dps_started"] = false,
 							["end_time"] = 1622020029,
-							["damage_taken"] = 1223.00569,
+							["dps_started"] = false,
+							["total"] = 0.00569,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
+							["nome"] = "额尔古纳右岸",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
 							["grupo"] = true,
-							["last_dps"] = 0,
 							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["damage_taken"] = 1223.00569,
 							["start_time"] = 1622020029,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["aID"] = "707-064D548B",
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -6124,20 +6128,20 @@ _detalhes_database = {
 							["targets"] = {
 								["额尔古纳右岸"] = 284,
 							},
-							["delay"] = 1622020009,
+							["serial"] = "Creature-0-3120-2222-22796-157444-00002E05B9",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "157444",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 284.005179,
-							["end_time"] = 1622020029,
-							["monster"] = true,
-							["total"] = 284.005179,
 							["damage_taken"] = 0.005179,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622020029,
+							["on_hold"] = false,
+							["last_event"] = 1622020009,
 							["nome"] = "营地观察者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6158,30 +6162,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "157444",
 							["custom"] = 0,
-							["last_event"] = 1622020009,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622020028,
-							["serial"] = "Creature-0-3120-2222-22796-157444-00002E05B9",
-							["fight_component"] = true,
+							["delay"] = 1622020009,
+							["total"] = 284.005179,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -6203,51 +6207,51 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "额尔古纳右岸",
 							["spec"] = 253,
 							["grupo"] = true,
-							["aID"] = "707-064D548B",
+							["classe"] = "HUNTER",
+							["buff_uptime"] = 80,
+							["buff_uptime_targets"] = {
+							},
 							["pets"] = {
 							},
-							["nome"] = "额尔古纳右岸",
-							["buff_uptime"] = 80,
-							["tipo"] = 4,
 							["last_event"] = 1622020029,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 20,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 20,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 20,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 20,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 264420,
-										["uptime"] = 20,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 20,
+										["id"] = 264420,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[122708] = {
 										["activedamt"] = 1,
@@ -6256,49 +6260,49 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1622020009,
 										["uptime"] = 0,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 									},
 									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["refreshamt"] = 4,
-										["id"] = 313424,
 										["uptime"] = 20,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[202748] = {
-										["counter"] = 0,
+										["id"] = 313424,
+										["refreshamt"] = 4,
 										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 202748,
-										["uptime"] = 0,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
+										["counter"] = 0,
 									},
 									[5384] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 5384,
-										["uptime"] = 0,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
-										["appliedamt"] = 0,
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 5384,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202748] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 202748,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-707-064D548B",
-							["classe"] = "HUNTER",
+							["aID"] = "707-064D548B",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -6331,21 +6335,21 @@ _detalhes_database = {
 						-0.002273000000002412, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					0, -- [1]
@@ -6354,18 +6358,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = false,
@@ -6386,10 +6390,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 0.00569,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -6397,17 +6398,23 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 0.00569,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 801629.578,
 				["combat_id"] = 10,
-				["overall_added"] = true,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "营地观察者",
 				["frags"] = {
 				},
 				["combat_counter"] = 14,
+				["data_inicio"] = "17:06:50",
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["额尔古纳右岸"] = {
 						{
@@ -6487,13 +6494,10 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["CombatSkillCache"] = {
-				},
-				["data_inicio"] = "17:06:50",
 				["start_time"] = 801609.85,
-				["contra"] = "营地观察者",
-				["spells_cast_timeline"] = {
+				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [10]
 			{
 				{
@@ -6513,23 +6517,7 @@ _detalhes_database = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
-							["classe"] = "HUNTER",
-							["last_dps"] = 2056.647470657233,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1206.008199,
-							["last_event"] = 1622019976,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1622019977,
 							["aID"] = "707-064D548B",
-							["damage_taken"] = 561.008199,
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
-							["grupo"] = true,
-							["total"] = 3050.008199,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[75] = {
@@ -6549,27 +6537,43 @@ _detalhes_database = {
 										["c_max"] = 1206,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 1206,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["colocacao"] = 1,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1206.008199,
+							["on_hold"] = false,
+							["serial"] = "Player-707-064D548B",
+							["dps_started"] = false,
+							["total"] = 3050.008199,
+							["classe"] = "HUNTER",
 							["friendlyfire"] = {
 							},
+							["nome"] = "额尔古纳右岸",
+							["spec"] = 253,
+							["grupo"] = true,
+							["end_time"] = 1622019977,
+							["tipo"] = 1,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1622019976,
+							["last_dps"] = 2056.647470657233,
 							["start_time"] = 1622019976,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["damage_taken"] = 561.008199,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -6581,13 +6585,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019977,
+							["last_event"] = 1622019976,
 							["aID"] = "Pet-0-3120-2222-22796-165189-020303A24D",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 922.006086,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-020303A24D",
 							["dps_started"] = false,
 							["total"] = 922.006086,
 							["friendlyfire_total"] = 0,
@@ -6612,30 +6616,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.006086,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019976,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.006086,
 							["start_time"] = 1622019976,
-							["serial"] = "Pet-0-3120-2222-22796-165189-020303A24D",
-							["end_time"] = 1622019977,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -6647,13 +6651,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019977,
+							["last_event"] = 1622019976,
 							["aID"] = "Pet-0-3120-2222-22796-165189-020303A25B",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 922.001478,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-020303A25B",
 							["dps_started"] = false,
 							["total"] = 922.001478,
 							["friendlyfire_total"] = 0,
@@ -6678,30 +6682,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.001478,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019976,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001478,
 							["start_time"] = 1622019976,
-							["serial"] = "Pet-0-3120-2222-22796-165189-020303A25B",
-							["end_time"] = 1622019977,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -6713,36 +6717,36 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["delay"] = 0,
+							["serial"] = "Creature-0-3120-2222-22796-163961-0000AE0E3D",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "163961",
+							["monster"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00669,
-							["end_time"] = 1622019977,
-							["fight_component"] = true,
-							["total"] = 0.00669,
 							["damage_taken"] = 3050.00669,
-							["on_hold"] = false,
+							["fight_component"] = true,
+							["end_time"] = 1622019977,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
 							["nome"] = "侵入的幼虫",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "163961",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622019977,
-							["serial"] = "Creature-0-3120-2222-22796-163961-0000AE0E3D",
-							["monster"] = true,
+							["delay"] = 0,
+							["total"] = 0.00669,
 						}, -- [4]
 					},
 				}, -- [1]
@@ -6764,84 +6768,84 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "额尔古纳右岸",
 							["spec"] = 253,
 							["grupo"] = true,
-							["aID"] = "707-064D548B",
+							["classe"] = "HUNTER",
+							["buff_uptime"] = 7,
+							["buff_uptime_targets"] = {
+							},
 							["pets"] = {
 							},
-							["nome"] = "额尔古纳右岸",
-							["buff_uptime"] = 7,
-							["tipo"] = 4,
 							["last_event"] = 1622019977,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[19574] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 19574,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 19574,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 264420,
-										["uptime"] = 1,
-										["targets"] = {
-										},
 										["appliedamt"] = 2,
-									},
-									[257946] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 257946,
-										["uptime"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 2,
+										["uptime"] = 1,
+										["id"] = 264420,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[246851] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 246851,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 313424,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 313424,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[324822] = {
 										["activedamt"] = 1,
@@ -6850,27 +6854,27 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1622019976,
 										["uptime"] = 0,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = true,
-										["appliedamt"] = 1,
-									},
-									[246851] = {
 										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246851,
-										["uptime"] = 1,
+									},
+									[257946] = {
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 257946,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-707-064D548B",
-							["classe"] = "HUNTER",
+							["aID"] = "707-064D548B",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -6903,21 +6907,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					1206, -- [1]
@@ -6926,18 +6930,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -6958,10 +6962,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 3050.008199,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -6969,18 +6970,24 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 3050.008199,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 801577.892,
 				["combat_id"] = 9,
-				["overall_added"] = true,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "侵入的幼虫",
 				["frags"] = {
 					["侵入的幼虫"] = 1,
 				},
 				["combat_counter"] = 13,
+				["data_inicio"] = "17:06:17",
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["额尔古纳右岸"] = {
 						{
@@ -7060,13 +7067,10 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["CombatSkillCache"] = {
-				},
-				["data_inicio"] = "17:06:17",
 				["start_time"] = 801576.409,
-				["contra"] = "侵入的幼虫",
-				["spells_cast_timeline"] = {
+				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [11]
 			{
 				{
@@ -7085,23 +7089,7 @@ _detalhes_database = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
-							["classe"] = "HUNTER",
-							["last_dps"] = 1869.024472793779,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6950.004967,
-							["last_event"] = 1622019972,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1622019972,
 							["aID"] = "707-064D548B",
-							["damage_taken"] = 0.004967,
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
-							["grupo"] = true,
-							["total"] = 13057.004967,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[53351] = {
@@ -7121,16 +7109,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 53351,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[217200] = {
 										["c_amt"] = 2,
@@ -7149,16 +7137,16 @@ _detalhes_database = {
 										["c_max"] = 792,
 										["id"] = 217200,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 634,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[75] = {
 										["c_amt"] = 0,
@@ -7177,16 +7165,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[193455] = {
 										["c_amt"] = 0,
@@ -7205,27 +7193,43 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["colocacao"] = 1,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 6950.004967,
+							["on_hold"] = false,
+							["serial"] = "Player-707-064D548B",
+							["dps_started"] = false,
+							["total"] = 13057.004967,
+							["classe"] = "HUNTER",
 							["friendlyfire"] = {
 							},
+							["nome"] = "额尔古纳右岸",
+							["spec"] = 253,
+							["grupo"] = true,
+							["end_time"] = 1622019972,
+							["tipo"] = 1,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1622019972,
+							["last_dps"] = 1869.024472793779,
 							["start_time"] = 1622019965,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["damage_taken"] = 0.004967,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -7238,13 +7242,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019972,
+							["last_event"] = 1622019971,
 							["aID"] = "Pet-0-3120-2222-22796-165189-020303A25B",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3348.003458,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-020303A25B",
 							["dps_started"] = false,
 							["total"] = 3348.003458,
 							["friendlyfire_total"] = 0,
@@ -7269,16 +7273,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 0,
@@ -7297,16 +7301,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[16827] = {
 										["c_amt"] = 0,
@@ -7325,16 +7329,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[83381] = {
 										["c_amt"] = 0,
@@ -7353,16 +7357,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[344572] = {
 										["c_amt"] = 0,
@@ -7381,30 +7385,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 344572,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 1672.003458,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019971,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 1672.003458,
 							["start_time"] = 1622019965,
-							["serial"] = "Pet-0-3120-2222-22796-165189-020303A25B",
-							["end_time"] = 1622019972,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -7417,20 +7421,20 @@ _detalhes_database = {
 							["targets"] = {
 								["猛禽 <额尔古纳右岸>"] = 1672,
 							},
-							["delay"] = 0,
+							["serial"] = "Creature-0-3120-2222-22796-156636-00002E0E6D",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "156636",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1672.007309,
-							["end_time"] = 1622019972,
-							["monster"] = true,
-							["total"] = 1672.007309,
 							["damage_taken"] = 13057.007309,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622019972,
+							["on_hold"] = false,
+							["last_event"] = 1622019971,
 							["nome"] = "潜伏的纺惧蛛",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7451,16 +7455,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[330595] = {
 										["c_amt"] = 0,
@@ -7479,30 +7483,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 330595,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["DODGE"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["DODGE"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "156636",
 							["custom"] = 0,
-							["last_event"] = 1622019971,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622019966,
-							["serial"] = "Creature-0-3120-2222-22796-156636-00002E0E6D",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["total"] = 1672.007309,
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -7514,13 +7518,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019972,
+							["last_event"] = 1622019972,
 							["aID"] = "Pet-0-3120-2222-22796-165189-020303A24D",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2759.008196,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-020303A24D",
 							["dps_started"] = false,
 							["total"] = 2759.008196,
 							["friendlyfire_total"] = 0,
@@ -7545,16 +7549,16 @@ _detalhes_database = {
 										["c_max"] = 318,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 318,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 1,
@@ -7573,16 +7577,16 @@ _detalhes_database = {
 										["c_max"] = 482,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 482,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[83381] = {
 										["c_amt"] = 0,
@@ -7601,16 +7605,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[344572] = {
 										["c_amt"] = 0,
@@ -7629,30 +7633,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 344572,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.008196,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019972,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.008196,
 							["start_time"] = 1622019965,
-							["serial"] = "Pet-0-3120-2222-22796-165189-020303A24D",
-							["end_time"] = 1622019972,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [4]
 					},
 				}, -- [1]
@@ -7677,15 +7681,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[217200] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 1,
-										["id"] = 217200,
-										["uptime"] = 5,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 5,
+										["id"] = 217200,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -7695,103 +7699,103 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 313424,
-										["uptime"] = 7,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 313424,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[246851] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246851,
-										["uptime"] = 3,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 246851,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 264420,
-										["uptime"] = 7,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 264420,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[257946] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 257946,
-										["uptime"] = 5,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 257946,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[324822] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 324822,
-										["uptime"] = 7,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 324822,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
+										["uptime"] = 7,
 										["id"] = 186406,
-										["uptime"] = 7,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[246152] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 246152,
-										["uptime"] = 5,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[269083] = {
-										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 7,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
+										["counter"] = 0,
 									},
 									[19574] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 19574,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 19574,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[269083] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[246152] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 246152,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -7803,71 +7807,71 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[193455] = 1,
 								[272790] = 4,
-								[217200] = 2,
-								[53351] = 1,
 								[19574] = 1,
+								[53351] = 1,
+								[217200] = 2,
 							},
-							["tipo"] = 4,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 							["last_event"] = 1622019972,
-							["classe"] = "HUNTER",
+							["tipo"] = 4,
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
+							["classe"] = "HUNTER",
 							["serial"] = "Player-707-064D548B",
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-020303A25B",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-020303A25B",
 							["spell_cast"] = {
 								[201754] = 2,
 								[16827] = 2,
-								[2649] = 1,
 								[263852] = 1,
+								[2649] = 1,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-020303A25B",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-020303A25B",
+							["last_event"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-020303A24D",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-020303A24D",
 							["spell_cast"] = {
 								[201754] = 2,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-020303A24D",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-020303A24D",
+							["last_event"] = 0,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "潜伏的纺惧蛛",
-							["aID"] = "156636",
+							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[330595] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3120-2222-22796-156636-00002E0E6D",
-							["flag_original"] = 68168,
+							["aID"] = "156636",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -7900,21 +7904,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					6950, -- [1]
@@ -7923,18 +7927,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -7955,10 +7959,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 13057.004967,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -7966,27 +7967,30 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 13057.004967,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 801573.059,
 				["combat_id"] = 8,
-				["overall_added"] = true,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "潜伏的纺惧蛛",
 				["frags"] = {
 					["潜伏的纺惧蛛"] = 1,
 				},
 				["combat_counter"] = 12,
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "17:06:06",
 				["CombatSkillCache"] = {
 				},
-				["data_inicio"] = "17:06:06",
-				["start_time"] = 801565.921,
-				["contra"] = "潜伏的纺惧蛛",
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
+				["start_time"] = 801565.921,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [12]
 			{
 				{
@@ -8005,23 +8009,7 @@ _detalhes_database = {
 								"狗还是你狗 <额尔古纳右岸>", -- [1]
 								"猛禽 <额尔古纳右岸>", -- [2]
 							},
-							["classe"] = "HUNTER",
-							["last_dps"] = 1744.974467336475,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 14740.003085,
-							["last_event"] = 1622019951,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1622019952,
 							["aID"] = "707-064D548B",
-							["damage_taken"] = 0.003085,
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
-							["grupo"] = true,
-							["total"] = 29860.003085,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[193455] = {
@@ -8041,16 +8029,16 @@ _detalhes_database = {
 										["c_max"] = 2218,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 2156,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[217200] = {
 										["c_amt"] = 1,
@@ -8069,72 +8057,16 @@ _detalhes_database = {
 										["c_max"] = 639,
 										["id"] = 217200,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 639,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 9,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
-									[75] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1005,
-										["g_amt"] = 0,
-										["n_max"] = 503,
-										["targets"] = {
-											["充血的纺惧蛛"] = 3486,
-										},
-										["n_dmg"] = 2481,
-										["n_min"] = 489,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 3486,
-										["c_max"] = 1005,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
 										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 1005,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
-									[53351] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1925,
-										["targets"] = {
-											["充血的纺惧蛛"] = 1925,
-										},
-										["n_dmg"] = 1925,
-										["n_min"] = 1925,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1925,
-										["c_max"] = 0,
-										["id"] = 53351,
-										["r_dmg"] = 0,
 										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
 									},
 									[324149] = {
 										["c_amt"] = 0,
@@ -8153,27 +8085,99 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 324149,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[53351] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1925,
+										["targets"] = {
+											["充血的纺惧蛛"] = 1925,
+										},
+										["n_dmg"] = 1925,
+										["n_min"] = 1925,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1925,
+										["c_max"] = 0,
+										["id"] = 53351,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[75] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1005,
+										["g_amt"] = 0,
+										["n_max"] = 503,
+										["targets"] = {
+											["充血的纺惧蛛"] = 3486,
+										},
+										["n_dmg"] = 2481,
+										["n_min"] = 489,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 3486,
+										["c_max"] = 1005,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 1005,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["colocacao"] = 1,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 14740.003085,
+							["on_hold"] = false,
+							["serial"] = "Player-707-064D548B",
+							["dps_started"] = false,
+							["total"] = 29860.003085,
+							["classe"] = "HUNTER",
 							["friendlyfire"] = {
 							},
+							["nome"] = "额尔古纳右岸",
+							["spec"] = 253,
+							["grupo"] = true,
+							["end_time"] = 1622019952,
+							["tipo"] = 1,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1622019951,
+							["last_dps"] = 1744.974467336475,
 							["start_time"] = 1622019934,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["damage_taken"] = 0.003085,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -8186,13 +8190,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019952,
+							["last_event"] = 1622019951,
 							["aID"] = "Pet-0-3120-2222-22796-165189-020303A25B",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9100.005861,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-020303A25B",
 							["dps_started"] = false,
 							["total"] = 9100.005861,
 							["friendlyfire_total"] = 0,
@@ -8217,16 +8221,16 @@ _detalhes_database = {
 										["c_max"] = 321,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 321,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 10,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 0,
@@ -8245,16 +8249,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[16827] = {
 										["c_amt"] = 1,
@@ -8273,16 +8277,16 @@ _detalhes_database = {
 										["c_max"] = 1156,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 1156,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[83381] = {
 										["c_amt"] = 1,
@@ -8301,30 +8305,30 @@ _detalhes_database = {
 										["c_max"] = 1488,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 1488,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 6459.005861,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019951,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 6459.005861,
 							["start_time"] = 1622019936,
-							["serial"] = "Pet-0-3120-2222-22796-165189-020303A25B",
-							["end_time"] = 1622019952,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -8337,20 +8341,20 @@ _detalhes_database = {
 							["targets"] = {
 								["猛禽 <额尔古纳右岸>"] = 6459,
 							},
-							["delay"] = 1622019953,
+							["serial"] = "Creature-0-3120-2222-22796-168724-00002E0D71",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "168724",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6459.002211999999,
-							["end_time"] = 1622019965,
-							["monster"] = true,
-							["total"] = 6459.002211999999,
 							["damage_taken"] = 29860.002212,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622019965,
+							["on_hold"] = false,
+							["last_event"] = 1622019953,
 							["nome"] = "充血的纺惧蛛",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8370,20 +8374,20 @@ _detalhes_database = {
 										["counter"] = 6,
 										["total"] = 1944,
 										["c_max"] = 0,
-										["r_amt"] = 0,
+										["DODGE"] = 1,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["b_dmg"] = 0,
+										["a_dmg"] = 0,
 										["spellschool"] = 1,
-										["a_amt"] = 0,
+										["extra"] = {
+										},
 										["PARRY"] = 2,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["extra"] = {
-										},
+										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["DODGE"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[330595] = {
 										["c_amt"] = 0,
@@ -8403,16 +8407,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 330595,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["MISS"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["MISS"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[330604] = {
 										["c_amt"] = 0,
@@ -8431,29 +8435,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 330604,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 6,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "168724",
 							["custom"] = 0,
-							["last_event"] = 1622019953,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622019950,
-							["serial"] = "Creature-0-3120-2222-22796-168724-00002E0D71",
-							["fight_component"] = true,
+							["delay"] = 1622019953,
+							["total"] = 6459.002211999999,
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -8465,13 +8469,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019952,
+							["last_event"] = 1622019951,
 							["aID"] = "Pet-0-3120-2222-22796-165189-020303A24D",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6020.005926,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-020303A24D",
 							["dps_started"] = false,
 							["total"] = 6020.005926,
 							["friendlyfire_total"] = 0,
@@ -8496,16 +8500,16 @@ _detalhes_database = {
 										["c_max"] = 321,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 321,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 9,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 1,
@@ -8524,16 +8528,16 @@ _detalhes_database = {
 										["c_max"] = 470,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 470,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[83381] = {
 										["c_amt"] = 1,
@@ -8552,30 +8556,30 @@ _detalhes_database = {
 										["c_max"] = 1488,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 1488,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.005926,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019951,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005926,
 							["start_time"] = 1622019936,
-							["serial"] = "Pet-0-3120-2222-22796-165189-020303A24D",
-							["end_time"] = 1622019952,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [4]
 					},
 				}, -- [1]
@@ -8585,15 +8589,16 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["额尔古纳右岸"] = true,
+							["targets_overheal"] = {
+								["猛禽 <额尔古纳右岸>"] = 15374,
+								["狗还是你狗 <额尔古纳右岸>"] = 16366,
 							},
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "HUNTER",
 							["totalover"] = 31740.005621,
 							["total_without_pet"] = 8006.005621,
 							["total"] = 8006.005621,
@@ -8613,11 +8618,10 @@ _detalhes_database = {
 							["healing_taken"] = 7014.005621,
 							["fight_component"] = true,
 							["end_time"] = 1622019952,
-							["targets_overheal"] = {
-								["猛禽 <额尔古纳右岸>"] = 15374,
-								["狗还是你狗 <额尔古纳右岸>"] = 16366,
+							["healing_from"] = {
+								["额尔古纳右岸"] = true,
 							},
-							["last_event"] = 1622019941,
+							["spec"] = 253,
 							["nome"] = "额尔古纳右岸",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8640,9 +8644,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["totaldenied"] = 0,
 										["n_amt"] = 1,
 										["n_curado"] = 7014,
-										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 									[128594] = {
@@ -8667,33 +8671,32 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
+										["totaldenied"] = 0,
 										["n_amt"] = 2,
 										["n_curado"] = 992,
-										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "HUNTER",
-							["totaldenied"] = 0.005621,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["aID"] = "707-064D548B",
+							["heal_enemy_amt"] = 0,
 							["start_time"] = 1622019951,
+							["custom"] = 0,
+							["last_event"] = 1622019941,
+							["aID"] = "707-064D548B",
+							["totaldenied"] = 0.005621,
 							["delay"] = 1622019941,
-							["spec"] = 253,
+							["tipo"] = 2,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["healing_from"] = {
-								["额尔古纳右岸"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "Pet-0-3120-2222-22796-165189-020303A25B",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.004625,
 							["total_without_pet"] = 0.004625,
 							["total"] = 0.004625,
@@ -8718,25 +8721,26 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["额尔古纳右岸"] = true,
 							},
-							["last_event"] = 0,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["totaldenied"] = 0.004625,
-							["start_time"] = 1622019952,
-							["delay"] = 0,
 							["classe"] = "PET",
+							["aID"] = "Pet-0-3120-2222-22796-165189-020303A25B",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["start_time"] = 1622019952,
+							["totaldenied"] = 0.004625,
+							["delay"] = 0,
+							["tipo"] = 2,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
-							["healing_from"] = {
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["aID"] = "Pet-0-3120-2222-22796-165189-020303A24D",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.007597,
 							["total_without_pet"] = 0.007597,
 							["total"] = 0.007597,
@@ -8760,16 +8764,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
-							["totaldenied"] = 0.007597,
-							["targets_overheal"] = {
-							},
-							["last_event"] = 0,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["heal_enemy_amt"] = 0,
 							["start_time"] = 1622019952,
-							["delay"] = 0,
+							["healing_from"] = {
+							},
 							["classe"] = "PET",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["aID"] = "Pet-0-3120-2222-22796-165189-020303A24D",
+							["totaldenied"] = 0.007597,
+							["delay"] = 0,
+							["tipo"] = 2,
 						}, -- [3]
 					},
 				}, -- [2]
@@ -8788,26 +8792,26 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[217200] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 1,
-										["id"] = 217200,
-										["uptime"] = 15,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["activedamt"] = 0,
+										["uptime"] = 15,
+										["id"] = 217200,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[324149] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 324149,
-										["uptime"] = 5,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 5,
+										["id"] = 324149,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -8825,99 +8829,100 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 18,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 18,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 18,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 18,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[246152] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 246152,
-										["uptime"] = 16,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["activedamt"] = 2,
+										["uptime"] = 16,
+										["id"] = 246152,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
+										["uptime"] = 18,
 										["id"] = 264420,
-										["uptime"] = 18,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[257946] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 1,
-										["id"] = 257946,
-										["uptime"] = 16,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 313424,
-										["uptime"] = 18,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[324822] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 324822,
-										["uptime"] = 18,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[246851] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246851,
-										["uptime"] = 5,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 246851,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[313424] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 18,
+										["id"] = 313424,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324822] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 18,
+										["id"] = 324822,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[257946] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 16,
+										["id"] = 257946,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 20,
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 							["nome"] = "额尔古纳右岸",
 							["spec"] = 253,
 							["grupo"] = true,
@@ -8925,19 +8930,10 @@ _detalhes_database = {
 								[34026] = 3,
 								[193455] = 2,
 								[272790] = 6,
-								[217200] = 3,
-								[109304] = 1,
-								[53351] = 1,
 								[324149] = 1,
-							},
-							["serial"] = "Player-707-064D548B",
-							["classe"] = "HUNTER",
-							["last_event"] = 1622019952,
-							["pets"] = {
-								"猛禽 <额尔古纳右岸>", -- [1]
-								"狗还是你狗 <额尔古纳右岸>", -- [2]
-							},
-							["buff_uptime_targets"] = {
+								[53351] = 1,
+								[109304] = 1,
+								[217200] = 3,
 							},
 							["cooldowns_defensive_spells"] = {
 								["_ActorTable"] = {
@@ -8951,60 +8947,68 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
+							["pets"] = {
+								"猛禽 <额尔古纳右岸>", -- [1]
+								"狗还是你狗 <额尔古纳右岸>", -- [2]
+							},
+							["last_event"] = 1622019952,
+							["serial"] = "Player-707-064D548B",
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
 							["pets"] = {
 							},
-							["last_event"] = 0,
+							["fight_component"] = true,
 							["spell_cast"] = {
-								[201754] = 3,
-								[61684] = 1,
-								[2649] = 2,
-								[263852] = 1,
 								[16827] = 5,
+								[61684] = 1,
+								[201754] = 3,
+								[263852] = 1,
+								[2649] = 2,
 							},
-							["classe"] = "PET",
+							["tipo"] = 4,
 							["aID"] = "Pet-0-3120-2222-22796-165189-020303A25B",
 							["serial"] = "Pet-0-3120-2222-22796-165189-020303A25B",
-							["fight_component"] = true,
+							["last_event"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-020303A24D",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-020303A24D",
 							["spell_cast"] = {
 								[201754] = 3,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-020303A24D",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-020303A24D",
+							["last_event"] = 0,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "充血的纺惧蛛",
-							["aID"] = "168724",
+							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[330595] = 2,
 								[330604] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3120-2222-22796-168724-00002E0D71",
-							["flag_original"] = 68168,
+							["aID"] = "168724",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -9020,14 +9024,12 @@ _detalhes_database = {
 				["raid_roster_indexed"] = {
 					"额尔古纳右岸", -- [1]
 				},
-				["overall_added"] = true,
+				["tempo_start"] = 1622019934,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 11,
 				["playing_solo"] = true,
 				["totals"] = {
 					36319, -- [1]
@@ -9036,42 +9038,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 1,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 1,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
-				["totals_grupo"] = {
-					14740, -- [1]
-					8006, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 1,
-					}, -- [4]
+				["player_last_events"] = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
@@ -9086,27 +9069,12 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "17:05:35",
-				["end_time"] = 801552.357,
-				["combat_id"] = 7,
-				["player_last_events"] = {
-				},
-				["tempo_start"] = 1622019934,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "充血的纺惧蛛",
-				["combat_counter"] = 11,
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 29860.003085,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -9115,15 +9083,51 @@ _detalhes_database = {
 							["额尔古纳右岸"] = 8006.005621,
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 29860.003085,
+						}, -- [1]
 					},
 				},
-				["start_time"] = 801535.245,
-				["TimeData"] = {
-				},
+				["end_time"] = 801552.357,
+				["combat_id"] = 7,
 				["frags"] = {
 					["充血的纺惧蛛"] = 1,
 				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["TimeData"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					14740, -- [1]
+					8006, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 1,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 801535.245,
+				["contra"] = "充血的纺惧蛛",
+				["data_inicio"] = "17:05:35",
 			}, -- [13]
 			{
 				{
@@ -9143,23 +9147,7 @@ _detalhes_database = {
 								"狗还是你狗 <额尔古纳右岸>", -- [1]
 								"猛禽 <额尔古纳右岸>", -- [2]
 							},
-							["classe"] = "HUNTER",
-							["last_dps"] = 881.5268514382045,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 15706.008211,
-							["last_event"] = 1622019931,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1622019932,
 							["aID"] = "707-064D548B",
-							["damage_taken"] = 10175.008211,
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
-							["grupo"] = true,
-							["total"] = 23907.008211,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[193455] = {
@@ -9179,16 +9167,16 @@ _detalhes_database = {
 										["c_max"] = 2164,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 2164,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[75] = {
 										["c_amt"] = 1,
@@ -9207,16 +9195,16 @@ _detalhes_database = {
 										["c_max"] = 957,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 957,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 7,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[217200] = {
 										["c_amt"] = 3,
@@ -9235,27 +9223,43 @@ _detalhes_database = {
 										["c_max"] = 639,
 										["id"] = 217200,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 634,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 9,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["colocacao"] = 1,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 15706.008211,
+							["on_hold"] = false,
+							["serial"] = "Player-707-064D548B",
+							["dps_started"] = false,
+							["total"] = 23907.008211,
+							["classe"] = "HUNTER",
 							["friendlyfire"] = {
 							},
+							["nome"] = "额尔古纳右岸",
+							["spec"] = 253,
+							["grupo"] = true,
+							["end_time"] = 1622019932,
+							["tipo"] = 1,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1622019931,
+							["last_dps"] = 881.5268514382045,
 							["start_time"] = 1622019904,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["damage_taken"] = 10175.008211,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -9269,20 +9273,20 @@ _detalhes_database = {
 								["猛禽 <额尔古纳右岸>"] = 3269,
 								["额尔古纳右岸"] = 10175,
 							},
-							["delay"] = 0,
+							["serial"] = "Creature-0-3120-2222-22796-156636-00002E0F17",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "156636",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 13444.004503,
-							["end_time"] = 1622019932,
-							["monster"] = true,
-							["total"] = 13444.004503,
 							["damage_taken"] = 23907.004503,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622019932,
+							["on_hold"] = false,
+							["last_event"] = 1622019929,
 							["nome"] = "潜伏的纺惧蛛",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9294,9 +9298,9 @@ _detalhes_database = {
 										["n_max"] = 848,
 										["targets"] = {
 											["狗还是你狗"] = 0,
+											["额尔古纳右岸"] = 4364,
 											["猛禽 <额尔古纳右岸>"] = 2363,
 											["猛禽"] = 0,
-											["额尔古纳右岸"] = 4364,
 										},
 										["n_dmg"] = 5432,
 										["n_min"] = 483,
@@ -9304,20 +9308,20 @@ _detalhes_database = {
 										["counter"] = 15,
 										["total"] = 6727,
 										["c_max"] = 1295,
-										["r_amt"] = 0,
+										["DODGE"] = 2,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["b_dmg"] = 0,
+										["MISS"] = 4,
 										["spellschool"] = 1,
-										["a_amt"] = 0,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 1295,
 										["successful_casted"] = 0,
-										["extra"] = {
-										},
+										["a_amt"] = 0,
 										["n_amt"] = 8,
-										["MISS"] = 4,
-										["DODGE"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[330595] = {
 										["c_amt"] = 0,
@@ -9337,16 +9341,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 330595,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["DODGE"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 4,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["DODGE"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[330604] = {
 										["c_amt"] = 0,
@@ -9365,29 +9369,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 330604,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 6,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "156636",
 							["custom"] = 0,
-							["last_event"] = 1622019929,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622019907,
-							["serial"] = "Creature-0-3120-2222-22796-156636-00002E0F17",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["total"] = 13444.004503,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -9399,13 +9403,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019932,
+							["last_event"] = 1622019926,
 							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3985.001411,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 							["dps_started"] = false,
 							["total"] = 3985.001411,
 							["friendlyfire_total"] = 0,
@@ -9430,16 +9434,16 @@ _detalhes_database = {
 										["c_max"] = 321,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 318,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 13,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 1,
@@ -9458,30 +9462,30 @@ _detalhes_database = {
 										["c_max"] = 476,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 476,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.001411,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019926,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001411,
 							["start_time"] = 1622019904,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
-							["end_time"] = 1622019932,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -9494,13 +9498,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019932,
+							["last_event"] = 1622019930,
 							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4216.002075,
-							["delay"] = 1622019911,
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 							["dps_started"] = false,
 							["total"] = 4216.002075,
 							["friendlyfire_total"] = 0,
@@ -9525,16 +9529,16 @@ _detalhes_database = {
 										["c_max"] = 317,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 317,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[16827] = {
 										["c_amt"] = 2,
@@ -9553,16 +9557,16 @@ _detalhes_database = {
 										["c_max"] = 1156,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 1145,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[201754] = {
 										["c_amt"] = 0,
@@ -9581,30 +9585,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 3269.002075,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019930,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 3269.002075,
 							["start_time"] = 1622019923,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-							["end_time"] = 1622019932,
+							["delay"] = 1622019911,
+							["classe"] = "PET",
 						}, -- [4]
 					},
 				}, -- [1]
@@ -9629,15 +9633,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[217200] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 1,
-										["id"] = 217200,
-										["uptime"] = 18,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["activedamt"] = 0,
+										["uptime"] = 18,
+										["id"] = 217200,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -9647,103 +9651,103 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 3,
-										["id"] = 313424,
-										["uptime"] = 28,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 28,
+										["id"] = 313424,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[246851] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246851,
-										["uptime"] = 8,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 246851,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 264420,
-										["uptime"] = 28,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 28,
+										["id"] = 264420,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[257946] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 1,
-										["id"] = 257946,
-										["uptime"] = 17,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["activedamt"] = 2,
+										["uptime"] = 17,
+										["id"] = 257946,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[324822] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 324822,
-										["uptime"] = 28,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 28,
+										["id"] = 324822,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
+										["uptime"] = 28,
 										["id"] = 186406,
-										["uptime"] = 28,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[246152] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
 										["refreshamt"] = 0,
-										["id"] = 246152,
-										["uptime"] = 16,
-										["targets"] = {
-										},
-										["appliedamt"] = 2,
-									},
-									[269083] = {
-										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 28,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
+										["counter"] = 0,
 									},
 									[982] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 982,
-										["uptime"] = 3,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 982,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[269083] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 28,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[246152] = {
+										["appliedamt"] = 2,
+										["targets"] = {
+										},
+										["activedamt"] = 2,
+										["uptime"] = 16,
+										["id"] = 246152,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -9753,73 +9757,73 @@ _detalhes_database = {
 							["spec"] = 253,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[193455] = 4,
-								[982] = 1,
-								[272790] = 4,
 								[217200] = 3,
+								[193455] = 4,
+								[272790] = 4,
+								[982] = 1,
 							},
-							["tipo"] = 4,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 							["last_event"] = 1622019932,
-							["classe"] = "HUNTER",
+							["tipo"] = 4,
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
+							["classe"] = "HUNTER",
 							["serial"] = "Player-707-064D548B",
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 							["spell_cast"] = {
 								[201754] = 1,
 								[16827] = 3,
-								[263852] = 2,
 								[2649] = 2,
+								[263852] = 2,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["last_event"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 							["spell_cast"] = {
 								[201754] = 3,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["last_event"] = 0,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "潜伏的纺惧蛛",
-							["aID"] = "156636",
+							["flag_original"] = 2632,
 							["spell_cast"] = {
 								[330595] = 4,
 								[330604] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3120-2222-22796-156636-0000AE0F17",
-							["flag_original"] = 2632,
+							["aID"] = "156636",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -9852,21 +9856,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					15706, -- [1]
@@ -9875,18 +9879,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -9907,10 +9911,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 23907.008211,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -9918,28 +9919,31 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 23907.008211,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 801532.656,
 				["combat_id"] = 6,
-				["overall_added"] = true,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "潜伏的纺惧蛛",
 				["frags"] = {
 					["猛禽"] = 1,
 					["潜伏的纺惧蛛"] = 2,
 				},
 				["combat_counter"] = 10,
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "17:05:05",
 				["CombatSkillCache"] = {
 				},
-				["data_inicio"] = "17:05:05",
-				["start_time"] = 801504.478,
-				["contra"] = "潜伏的纺惧蛛",
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
+				["start_time"] = 801504.478,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [14]
 			{
 				{
@@ -9958,23 +9962,7 @@ _detalhes_database = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
-							["classe"] = "HUNTER",
-							["last_dps"] = 1971.470594177245,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 8472.006809999999,
-							["last_event"] = 1622019900,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1622019901,
 							["aID"] = "707-064D548B",
-							["damage_taken"] = 0.00681,
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
-							["grupo"] = true,
-							["total"] = 15064.00681,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[193455] = {
@@ -9994,16 +9982,16 @@ _detalhes_database = {
 										["c_max"] = 2208,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 2208,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[75] = {
 										["c_amt"] = 0,
@@ -10022,16 +10010,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[217200] = {
 										["c_amt"] = 1,
@@ -10050,27 +10038,43 @@ _detalhes_database = {
 										["c_max"] = 630,
 										["id"] = 217200,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 630,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["colocacao"] = 1,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 8472.006809999999,
+							["on_hold"] = false,
+							["serial"] = "Player-707-064D548B",
+							["dps_started"] = false,
+							["total"] = 15064.00681,
+							["classe"] = "HUNTER",
 							["friendlyfire"] = {
 							},
+							["nome"] = "额尔古纳右岸",
+							["spec"] = 253,
+							["grupo"] = true,
+							["end_time"] = 1622019901,
+							["tipo"] = 1,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1622019900,
+							["last_dps"] = 1971.470594177245,
 							["start_time"] = 1622019892,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["damage_taken"] = 0.00681,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -10083,20 +10087,20 @@ _detalhes_database = {
 							["targets"] = {
 								["猛禽 <额尔古纳右岸>"] = 2310,
 							},
-							["delay"] = 0,
+							["serial"] = "Creature-0-3120-2222-22796-168855-00002E0E23",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "168855",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2310.00527,
-							["end_time"] = 1622019901,
-							["monster"] = true,
-							["total"] = 2310.00527,
 							["damage_taken"] = 15064.00527,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622019901,
+							["on_hold"] = false,
+							["last_event"] = 1622019899,
 							["nome"] = "腐烂的死亡行者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10118,17 +10122,17 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["DODGE"] = 1,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
-										["a_dmg"] = 0,
+										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["spellschool"] = 1,
-										["DODGE"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[330636] = {
 										["c_amt"] = 0,
@@ -10147,29 +10151,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 330636,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "168855",
 							["custom"] = 0,
-							["last_event"] = 1622019899,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622019897,
-							["serial"] = "Creature-0-3120-2222-22796-168855-00002E0E23",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["total"] = 2310.00527,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -10182,13 +10186,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019901,
+							["last_event"] = 1622019900,
 							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4355.004783,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 							["dps_started"] = false,
 							["total"] = 4355.004783,
 							["friendlyfire_total"] = 0,
@@ -10213,16 +10217,16 @@ _detalhes_database = {
 										["c_max"] = 317,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 317,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 0,
@@ -10241,16 +10245,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[16827] = {
 										["c_amt"] = 2,
@@ -10269,16 +10273,16 @@ _detalhes_database = {
 										["c_max"] = 1139,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 1139,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[83381] = {
 										["c_amt"] = 0,
@@ -10297,30 +10301,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 2310.004783,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019900,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 2310.004783,
 							["start_time"] = 1622019894,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-							["end_time"] = 1622019901,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -10332,13 +10336,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019901,
+							["last_event"] = 1622019899,
 							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2237.005538,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 							["dps_started"] = false,
 							["total"] = 2237.005538,
 							["friendlyfire_total"] = 0,
@@ -10363,16 +10367,16 @@ _detalhes_database = {
 										["c_max"] = 316,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 316,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 0,
@@ -10391,16 +10395,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[83381] = {
 										["c_amt"] = 0,
@@ -10419,30 +10423,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.005538,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019899,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005538,
 							["start_time"] = 1622019894,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
-							["end_time"] = 1622019901,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [4]
 					},
 				}, -- [1]
@@ -10467,15 +10471,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[217200] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 217200,
-										["uptime"] = 6,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 217200,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -10485,92 +10489,92 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 9,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 9,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[246152] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246152,
-										["uptime"] = 2,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 246152,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
+										["uptime"] = 9,
 										["id"] = 264420,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[257946] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 257946,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 2,
-										["id"] = 313424,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[324822] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 324822,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[246851] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246851,
-										["uptime"] = 8,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 246851,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[313424] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 313424,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324822] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 324822,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[257946] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 257946,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -10580,73 +10584,73 @@ _detalhes_database = {
 							["spec"] = 253,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[34026] = 1,
-								[193455] = 3,
-								[272790] = 2,
 								[217200] = 1,
+								[193455] = 3,
+								[34026] = 1,
+								[272790] = 2,
 							},
-							["tipo"] = 4,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 							["last_event"] = 1622019901,
-							["classe"] = "HUNTER",
+							["tipo"] = 4,
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
+							["classe"] = "HUNTER",
 							["serial"] = "Player-707-064D548B",
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 							["spell_cast"] = {
-								[263852] = 1,
+								[201754] = 1,
 								[61684] = 1,
 								[2649] = 1,
+								[263852] = 1,
 								[16827] = 2,
-								[201754] = 1,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["last_event"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 							["spell_cast"] = {
 								[201754] = 1,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["last_event"] = 0,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "腐烂的死亡行者",
-							["aID"] = "168855",
+							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[330636] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3120-2222-22796-168855-00002E0E23",
-							["flag_original"] = 68168,
+							["aID"] = "168855",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -10679,21 +10683,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					8472, -- [1]
@@ -10702,18 +10706,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -10734,10 +10738,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 15064.00681,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -10745,27 +10746,30 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 15064.00681,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 801501.289,
 				["combat_id"] = 5,
-				["overall_added"] = true,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "腐烂的死亡行者",
 				["frags"] = {
 					["腐烂的死亡行者"] = 1,
 				},
 				["combat_counter"] = 9,
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "17:04:53",
 				["CombatSkillCache"] = {
 				},
-				["data_inicio"] = "17:04:53",
-				["start_time"] = 801493.15,
-				["contra"] = "腐烂的死亡行者",
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
+				["start_time"] = 801493.15,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [15]
 			{
 				{
@@ -10784,23 +10788,7 @@ _detalhes_database = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
-							["classe"] = "HUNTER",
-							["last_dps"] = 1672.878180220009,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 15401.003924,
-							["last_event"] = 1622019888,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1622019889,
 							["aID"] = "707-064D548B",
-							["damage_taken"] = 0.003924,
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
-							["grupo"] = true,
-							["total"] = 30075.003924,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[193455] = {
@@ -10820,16 +10808,16 @@ _detalhes_database = {
 										["c_max"] = 2149,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 2149,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[217200] = {
 										["c_amt"] = 3,
@@ -10848,72 +10836,16 @@ _detalhes_database = {
 										["c_max"] = 624,
 										["id"] = 217200,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 622,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
-									[75] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 1932,
-										["g_amt"] = 0,
-										["n_max"] = 492,
-										["targets"] = {
-											["充血的纺惧蛛"] = 3860,
-										},
-										["n_dmg"] = 1928,
-										["n_min"] = 469,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 3860,
-										["c_max"] = 975,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
 										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 957,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
-									[53351] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2382,
-										["targets"] = {
-											["充血的纺惧蛛"] = 2382,
-										},
-										["n_dmg"] = 2382,
-										["n_min"] = 2382,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 2382,
-										["c_max"] = 0,
-										["id"] = 53351,
-										["r_dmg"] = 0,
 										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
 									},
 									[324149] = {
 										["c_amt"] = 1,
@@ -10932,27 +10864,99 @@ _detalhes_database = {
 										["c_max"] = 344,
 										["id"] = 324149,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 344,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[53351] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2382,
+										["targets"] = {
+											["充血的纺惧蛛"] = 2382,
+										},
+										["n_dmg"] = 2382,
+										["n_min"] = 2382,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2382,
+										["c_max"] = 0,
+										["id"] = 53351,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
-										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[75] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1932,
+										["g_amt"] = 0,
+										["n_max"] = 492,
+										["targets"] = {
+											["充血的纺惧蛛"] = 3860,
+										},
+										["n_dmg"] = 1928,
+										["n_min"] = 469,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 3860,
+										["c_max"] = 975,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 957,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["colocacao"] = 1,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 15401.003924,
+							["on_hold"] = false,
+							["serial"] = "Player-707-064D548B",
+							["dps_started"] = false,
+							["total"] = 30075.003924,
+							["classe"] = "HUNTER",
 							["friendlyfire"] = {
 							},
+							["nome"] = "额尔古纳右岸",
+							["spec"] = 253,
+							["grupo"] = true,
+							["end_time"] = 1622019889,
+							["tipo"] = 1,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1622019888,
+							["last_dps"] = 1672.878180220009,
 							["start_time"] = 1622019871,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["damage_taken"] = 0.003924,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -10965,13 +10969,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019889,
+							["last_event"] = 1622019888,
 							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8548.008952,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 							["dps_started"] = false,
 							["total"] = 8548.008952,
 							["friendlyfire_total"] = 0,
@@ -10996,16 +11000,16 @@ _detalhes_database = {
 										["c_max"] = 313,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 312,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 11,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 0,
@@ -11024,16 +11028,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[16827] = {
 										["c_amt"] = 0,
@@ -11052,16 +11056,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[83381] = {
 										["c_amt"] = 1,
@@ -11080,30 +11084,30 @@ _detalhes_database = {
 										["c_max"] = 1469,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 1469,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 7296.008952,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019888,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 7296.008952,
 							["start_time"] = 1622019872,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-							["end_time"] = 1622019889,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -11116,20 +11120,20 @@ _detalhes_database = {
 							["targets"] = {
 								["猛禽 <额尔古纳右岸>"] = 7296,
 							},
-							["delay"] = 0,
+							["serial"] = "Creature-0-3120-2222-22796-168724-00002E0EC4",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "168724",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7296.005826000001,
-							["end_time"] = 1622019892,
-							["monster"] = true,
-							["total"] = 7296.005826000001,
 							["damage_taken"] = 30075.005826,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622019892,
+							["on_hold"] = false,
+							["last_event"] = 1622019889,
 							["nome"] = "充血的纺惧蛛",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11151,8 +11155,8 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
 										["PARRY"] = 1,
@@ -11160,8 +11164,8 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[330595] = {
 										["c_amt"] = 0,
@@ -11181,16 +11185,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 330595,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["DODGE"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 2,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["DODGE"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[330604] = {
 										["c_amt"] = 0,
@@ -11209,29 +11213,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 330604,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 6,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "168724",
 							["custom"] = 0,
-							["last_event"] = 1622019889,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622019872,
-							["serial"] = "Creature-0-3120-2222-22796-168724-00002E0EC4",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["total"] = 7296.005826000001,
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -11243,13 +11247,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019889,
+							["last_event"] = 1622019888,
 							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6126.005338,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 							["dps_started"] = false,
 							["total"] = 6126.005338,
 							["friendlyfire_total"] = 0,
@@ -11274,16 +11278,16 @@ _detalhes_database = {
 										["c_max"] = 314,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 313,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 12,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[83381] = {
 										["c_amt"] = 1,
@@ -11302,16 +11306,16 @@ _detalhes_database = {
 										["c_max"] = 1455,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 1455,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[201754] = {
 										["c_amt"] = 1,
@@ -11330,30 +11334,30 @@ _detalhes_database = {
 										["c_max"] = 468,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 468,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.005338,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019888,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005338,
 							["start_time"] = 1622019872,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
-							["end_time"] = 1622019889,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [4]
 					},
 				}, -- [1]
@@ -11378,26 +11382,26 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[217200] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 217200,
-										["uptime"] = 10,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["activedamt"] = 0,
+										["uptime"] = 10,
+										["id"] = 217200,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[324149] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 324149,
-										["uptime"] = 11,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 11,
+										["id"] = 324149,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -11407,114 +11411,114 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 4,
-										["id"] = 313424,
-										["uptime"] = 18,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 18,
+										["id"] = 313424,
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[246851] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246851,
-										["uptime"] = 3,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 246851,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 264420,
-										["uptime"] = 18,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 18,
+										["id"] = 264420,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[257946] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 257946,
-										["uptime"] = 13,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["activedamt"] = 2,
+										["uptime"] = 13,
+										["id"] = 257946,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[324822] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 324822,
-										["uptime"] = 18,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 18,
+										["id"] = 324822,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[246852] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246852,
-										["uptime"] = 5,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 246852,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
+										["uptime"] = 18,
 										["id"] = 186406,
-										["uptime"] = 18,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 18,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[324156] = {
-										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 324156,
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
+										["counter"] = 0,
 									},
 									[246152] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 246152,
-										["uptime"] = 11,
+										["appliedamt"] = 2,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["activedamt"] = 2,
+										["uptime"] = 11,
+										["id"] = 246152,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324156] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 324156,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[269083] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 18,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -11527,74 +11531,74 @@ _detalhes_database = {
 								[34026] = 3,
 								[193455] = 3,
 								[272790] = 4,
-								[217200] = 2,
+								[324149] = 1,
 								[326099] = 1,
 								[324821] = 1,
 								[53351] = 1,
-								[324149] = 1,
+								[217200] = 2,
 							},
-							["tipo"] = 4,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 							["last_event"] = 1622019889,
-							["classe"] = "HUNTER",
+							["tipo"] = 4,
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
+							["classe"] = "HUNTER",
 							["serial"] = "Player-707-064D548B",
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 							["spell_cast"] = {
 								[201754] = 2,
 								[16827] = 5,
-								[263852] = 2,
 								[2649] = 2,
+								[263852] = 2,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["last_event"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 							["spell_cast"] = {
 								[201754] = 2,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["last_event"] = 0,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "充血的纺惧蛛",
-							["aID"] = "168724",
+							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[330595] = 2,
 								[330604] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3120-2222-22796-168724-00002E0EC4",
-							["flag_original"] = 68168,
+							["aID"] = "168724",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -11627,21 +11631,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					15401, -- [1]
@@ -11650,18 +11654,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -11682,10 +11686,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 30075.003924,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -11693,27 +11694,30 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 30075.003924,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 801489.9400000001,
 				["combat_id"] = 4,
-				["overall_added"] = true,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "充血的纺惧蛛",
 				["frags"] = {
 					["充血的纺惧蛛"] = 1,
 				},
 				["combat_counter"] = 8,
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "17:04:32",
 				["CombatSkillCache"] = {
 				},
-				["data_inicio"] = "17:04:32",
-				["start_time"] = 801471.962,
-				["contra"] = "充血的纺惧蛛",
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
+				["start_time"] = 801471.962,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [16]
 			{
 				{
@@ -11732,23 +11736,7 @@ _detalhes_database = {
 								"狗还是你狗 <额尔古纳右岸>", -- [1]
 								"猛禽 <额尔古纳右岸>", -- [2]
 							},
-							["classe"] = "HUNTER",
-							["last_dps"] = 1431.095731516032,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6018.006221,
-							["last_event"] = 1622019869,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1622019870,
 							["aID"] = "707-064D548B",
-							["damage_taken"] = 0.006221,
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
-							["grupo"] = true,
-							["total"] = 11828.006221,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[193455] = {
@@ -11768,16 +11756,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[75] = {
 										["c_amt"] = 2,
@@ -11796,16 +11784,16 @@ _detalhes_database = {
 										["c_max"] = 968,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 951,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[217200] = {
 										["c_amt"] = 1,
@@ -11824,27 +11812,43 @@ _detalhes_database = {
 										["c_max"] = 615,
 										["id"] = 217200,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 615,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["colocacao"] = 1,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 6018.006221,
+							["on_hold"] = false,
+							["serial"] = "Player-707-064D548B",
+							["dps_started"] = false,
+							["total"] = 11828.006221,
+							["classe"] = "HUNTER",
 							["friendlyfire"] = {
 							},
+							["nome"] = "额尔古纳右岸",
+							["spec"] = 253,
+							["grupo"] = true,
+							["end_time"] = 1622019870,
+							["tipo"] = 1,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1622019869,
+							["last_dps"] = 1431.095731516032,
 							["start_time"] = 1622019861,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["damage_taken"] = 0.006221,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -11857,13 +11861,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019870,
+							["last_event"] = 1622019869,
 							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3305.008547,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 							["dps_started"] = false,
 							["total"] = 3305.008547,
 							["friendlyfire_total"] = 0,
@@ -11888,16 +11892,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 0,
@@ -11916,16 +11920,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[16827] = {
 										["c_amt"] = 0,
@@ -11944,16 +11948,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[83381] = {
 										["c_amt"] = 0,
@@ -11972,30 +11976,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 2613.008547,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019869,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 2613.008547,
 							["start_time"] = 1622019863,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-							["end_time"] = 1622019870,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -12008,20 +12012,20 @@ _detalhes_database = {
 							["targets"] = {
 								["猛禽 <额尔古纳右岸>"] = 2613,
 							},
-							["delay"] = 0,
+							["serial"] = "Creature-0-3120-2222-22796-156636-00002E0EFA",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "156636",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2613.002217,
-							["end_time"] = 1622019870,
-							["monster"] = true,
-							["total"] = 2613.002217,
 							["damage_taken"] = 11828.002217,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622019870,
+							["on_hold"] = false,
+							["last_event"] = 1622019868,
 							["nome"] = "潜伏的纺惧蛛",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12042,16 +12046,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[330595] = {
 										["c_amt"] = 0,
@@ -12070,29 +12074,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 330595,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "156636",
 							["custom"] = 0,
-							["last_event"] = 1622019868,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622019864,
-							["serial"] = "Creature-0-3120-2222-22796-156636-00002E0EFA",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["total"] = 2613.002217,
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -12104,13 +12108,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019870,
+							["last_event"] = 1622019869,
 							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2505.002379,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 							["dps_started"] = false,
 							["total"] = 2505.002379,
 							["friendlyfire_total"] = 0,
@@ -12135,16 +12139,16 @@ _detalhes_database = {
 										["c_max"] = 311,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 310,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 0,
@@ -12163,16 +12167,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[83381] = {
 										["c_amt"] = 0,
@@ -12191,30 +12195,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.002379,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019869,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.002379,
 							["start_time"] = 1622019863,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
-							["end_time"] = 1622019870,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [4]
 					},
 				}, -- [1]
@@ -12239,15 +12243,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[217200] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 1,
-										["id"] = 217200,
-										["uptime"] = 6,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 217200,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -12257,103 +12261,103 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 313424,
-										["uptime"] = 7,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 7,
+										["id"] = 313424,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[246851] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246851,
-										["uptime"] = 4,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 246851,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 264420,
-										["uptime"] = 9,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 264420,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[257946] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 2,
-										["id"] = 257946,
-										["uptime"] = 8,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 257946,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[324822] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 324822,
-										["uptime"] = 9,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 324822,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[246852] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246852,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 246852,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
 										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[246152] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
+										["id"] = 186406,
 										["refreshamt"] = 0,
-										["id"] = 246152,
-										["uptime"] = 8,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 9,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[246152] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 246152,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -12363,73 +12367,73 @@ _detalhes_database = {
 							["spec"] = 253,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[34026] = 1,
-								[193455] = 1,
-								[272790] = 6,
 								[217200] = 3,
+								[193455] = 1,
+								[34026] = 1,
+								[272790] = 6,
 							},
-							["tipo"] = 4,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 							["last_event"] = 1622019870,
-							["classe"] = "HUNTER",
+							["tipo"] = 4,
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
+							["classe"] = "HUNTER",
 							["serial"] = "Player-707-064D548B",
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 							["spell_cast"] = {
-								[201754] = 3,
-								[61684] = 1,
-								[2649] = 1,
-								[263852] = 1,
 								[16827] = 2,
+								[61684] = 1,
+								[201754] = 3,
+								[263852] = 1,
+								[2649] = 1,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["last_event"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 							["spell_cast"] = {
 								[201754] = 3,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["last_event"] = 0,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "潜伏的纺惧蛛",
-							["aID"] = "156636",
+							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[330595] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3120-2222-22796-156636-00002E0EFA",
-							["flag_original"] = 68168,
+							["aID"] = "156636",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -12462,21 +12466,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					6018, -- [1]
@@ -12485,18 +12489,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -12517,10 +12521,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 11828.006221,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -12528,27 +12529,30 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 11828.006221,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 801470.42,
 				["combat_id"] = 3,
-				["overall_added"] = true,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "潜伏的纺惧蛛",
 				["frags"] = {
 					["潜伏的纺惧蛛"] = 1,
 				},
 				["combat_counter"] = 7,
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "17:04:22",
 				["CombatSkillCache"] = {
 				},
-				["data_inicio"] = "17:04:22",
-				["start_time"] = 801462.155,
-				["contra"] = "潜伏的纺惧蛛",
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
+				["start_time"] = 801462.155,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [17]
 			{
 				{
@@ -12567,22 +12571,20 @@ _detalhes_database = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
-							["classe"] = "HUNTER",
-							["last_dps"] = 1811.60820539249,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 0.001567,
 							["aID"] = "707-064D548B",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6639.001567,
-							["tipo"] = 1,
-							["delay"] = 0,
+							["on_hold"] = false,
+							["serial"] = "Player-707-064D548B",
 							["dps_started"] = false,
-							["total"] = 13328.001567,
-							["friendlyfire_total"] = 0,
-							["damage_taken"] = 0.001567,
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
-							["grupo"] = true,
 							["end_time"] = 1622019858,
+							["classe"] = "HUNTER",
+							["friendlyfire"] = {
+							},
+							["nome"] = "额尔古纳右岸",
 							["spells"] = {
 								["_ActorTable"] = {
 									[53351] = {
@@ -12602,16 +12604,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 53351,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[193455] = {
 										["c_amt"] = 0,
@@ -12630,16 +12632,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[75] = {
 										["c_amt"] = 0,
@@ -12658,16 +12660,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[217200] = {
 										["c_amt"] = 0,
@@ -12686,28 +12688,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 217200,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["custom"] = 0,
-							["colocacao"] = 1,
+							["grupo"] = true,
+							["total"] = 13328.001567,
 							["last_event"] = 1622019856,
-							["friendlyfire"] = {
-							},
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["last_dps"] = 1811.60820539249,
 							["start_time"] = 1622019849,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["spec"] = 253,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -12720,20 +12724,20 @@ _detalhes_database = {
 							["targets"] = {
 								["猛禽 <额尔古纳右岸>"] = 1950,
 							},
-							["delay"] = 0,
+							["serial"] = "Creature-0-3120-2222-22796-156636-00002E0EC3",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "156636",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1950.00186,
-							["end_time"] = 1622019858,
-							["monster"] = true,
-							["total"] = 1950.00186,
 							["damage_taken"] = 13328.00186,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622019858,
+							["on_hold"] = false,
+							["last_event"] = 1622019856,
 							["nome"] = "潜伏的纺惧蛛",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12755,8 +12759,8 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 										["extra"] = {
 										},
 										["PARRY"] = 1,
@@ -12764,8 +12768,8 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[330595] = {
 										["c_amt"] = 0,
@@ -12784,29 +12788,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 330595,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["extra"] = {
-										},
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "156636",
 							["custom"] = 0,
-							["last_event"] = 1622019856,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622019851,
-							["serial"] = "Creature-0-3120-2222-22796-156636-00002E0EC3",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["total"] = 1950.00186,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -12819,13 +12823,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019858,
+							["last_event"] = 1622019856,
 							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4730.007968,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 							["dps_started"] = false,
 							["total"] = 4730.007968,
 							["friendlyfire_total"] = 0,
@@ -12850,16 +12854,16 @@ _detalhes_database = {
 										["c_max"] = 310,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 310,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 1,
@@ -12878,16 +12882,16 @@ _detalhes_database = {
 										["c_max"] = 470,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 470,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[16827] = {
 										["c_amt"] = 1,
@@ -12906,16 +12910,16 @@ _detalhes_database = {
 										["c_max"] = 1111,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 1111,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[83381] = {
 										["c_amt"] = 1,
@@ -12934,30 +12938,30 @@ _detalhes_database = {
 										["c_max"] = 1430,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 1430,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 1950.007968,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019856,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 1950.007968,
 							["start_time"] = 1622019850,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-							["end_time"] = 1622019858,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -12969,13 +12973,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019858,
+							["last_event"] = 1622019856,
 							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1959.008041,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 							["dps_started"] = false,
 							["total"] = 1959.008041,
 							["friendlyfire_total"] = 0,
@@ -13000,16 +13004,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 0,
@@ -13028,16 +13032,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[83381] = {
 										["c_amt"] = 0,
@@ -13056,30 +13060,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.008041,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019856,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.008041,
 							["start_time"] = 1622019851,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
-							["end_time"] = 1622019858,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [4]
 					},
 				}, -- [1]
@@ -13104,15 +13108,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[217200] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 1,
-										["id"] = 217200,
-										["uptime"] = 6,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 217200,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -13122,92 +13126,92 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 9,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 9,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[246152] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246152,
-										["uptime"] = 8,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 246152,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
+										["uptime"] = 9,
 										["id"] = 264420,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[257946] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 257946,
-										["uptime"] = 8,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 313424,
-										["uptime"] = 5,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[324822] = {
-										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 324822,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
+										["counter"] = 0,
 									},
 									[246851] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246851,
-										["uptime"] = 5,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 246851,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[313424] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 313424,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324822] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 324822,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[257946] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 257946,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -13223,67 +13227,67 @@ _detalhes_database = {
 								[53351] = 1,
 								[217200] = 2,
 							},
-							["tipo"] = 4,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 							["last_event"] = 1622019858,
-							["classe"] = "HUNTER",
+							["tipo"] = 4,
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
+							["classe"] = "HUNTER",
 							["serial"] = "Player-707-064D548B",
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 							["spell_cast"] = {
 								[201754] = 2,
 								[2649] = 1,
-								[263852] = 1,
 								[16827] = 2,
+								[263852] = 1,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["last_event"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 							["spell_cast"] = {
 								[201754] = 2,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["last_event"] = 0,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "潜伏的纺惧蛛",
-							["aID"] = "156636",
+							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[330595] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3120-2222-22796-156636-00002E0EC3",
-							["flag_original"] = 68168,
+							["aID"] = "156636",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -13316,21 +13320,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					6639, -- [1]
@@ -13339,18 +13343,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -13371,10 +13375,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 13328.001567,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -13382,27 +13383,30 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 13328.001567,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 801458.272,
 				["combat_id"] = 2,
-				["overall_added"] = true,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "潜伏的纺惧蛛",
 				["frags"] = {
 					["潜伏的纺惧蛛"] = 1,
 				},
 				["combat_counter"] = 6,
-				["player_last_events"] = {
-				},
+				["data_inicio"] = "17:04:10",
 				["CombatSkillCache"] = {
 				},
-				["data_inicio"] = "17:04:10",
-				["start_time"] = 801449.8250000001,
-				["contra"] = "潜伏的纺惧蛛",
-				["spells_cast_timeline"] = {
+				["player_last_events"] = {
 				},
+				["start_time"] = 801449.8250000001,
+				["TimeData"] = {
+				},
+				["overall_added"] = true,
 			}, -- [18]
 			{
 				{
@@ -13422,23 +13426,7 @@ _detalhes_database = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
-							["classe"] = "HUNTER",
-							["last_dps"] = 1454.634289553113,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 5390.005083,
-							["last_event"] = 1622019835,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1622019836,
 							["aID"] = "707-064D548B",
-							["damage_taken"] = 205.005083,
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
-							["grupo"] = true,
-							["total"] = 11992.005083,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[193455] = {
@@ -13458,16 +13446,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[75] = {
 										["c_amt"] = 0,
@@ -13486,16 +13474,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[217200] = {
 										["c_amt"] = 1,
@@ -13514,27 +13502,43 @@ _detalhes_database = {
 										["c_max"] = 617,
 										["id"] = 217200,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 617,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["colocacao"] = 1,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5390.005083,
+							["on_hold"] = false,
+							["serial"] = "Player-707-064D548B",
+							["dps_started"] = false,
+							["total"] = 11992.005083,
+							["classe"] = "HUNTER",
 							["friendlyfire"] = {
 							},
+							["nome"] = "额尔古纳右岸",
+							["spec"] = 253,
+							["grupo"] = true,
+							["end_time"] = 1622019836,
+							["tipo"] = 1,
+							["colocacao"] = 1,
+							["custom"] = 0,
+							["last_event"] = 1622019835,
+							["last_dps"] = 1454.634289553113,
 							["start_time"] = 1622019827,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["damage_taken"] = 205.005083,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -13547,13 +13551,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019836,
+							["last_event"] = 1622019835,
 							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4339.001554,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 							["dps_started"] = false,
 							["total"] = 4339.001554,
 							["friendlyfire_total"] = 0,
@@ -13578,16 +13582,16 @@ _detalhes_database = {
 										["c_max"] = 310,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 310,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 0,
@@ -13606,16 +13610,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[16827] = {
 										["c_amt"] = 0,
@@ -13634,16 +13638,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[83381] = {
 										["c_amt"] = 1,
@@ -13662,30 +13666,30 @@ _detalhes_database = {
 										["c_max"] = 1436,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 1436,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 1850.001554,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019835,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 1850.001554,
 							["start_time"] = 1622019829,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-							["end_time"] = 1622019836,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -13697,13 +13701,13 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
+							["end_time"] = 1622019836,
+							["last_event"] = 1622019834,
 							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
-							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2263.007888,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 							["dps_started"] = false,
 							["total"] = 2263.007888,
 							["friendlyfire_total"] = 0,
@@ -13728,16 +13732,16 @@ _detalhes_database = {
 										["c_max"] = 310,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 309,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[201754] = {
 										["c_amt"] = 0,
@@ -13756,16 +13760,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[83381] = {
 										["c_amt"] = 0,
@@ -13784,30 +13788,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 0.007888,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1622019834,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.007888,
 							["start_time"] = 1622019829,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
-							["end_time"] = 1622019836,
+							["delay"] = 0,
+							["classe"] = "PET",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -13820,20 +13824,20 @@ _detalhes_database = {
 							["targets"] = {
 								["猛禽 <额尔古纳右岸>"] = 1850,
 							},
-							["delay"] = 0,
+							["serial"] = "Creature-0-3120-2222-22796-156596-00002DFF20",
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
+							["aID"] = "156596",
+							["fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1850.002625,
-							["end_time"] = 1622019836,
-							["monster"] = true,
-							["total"] = 1850.002625,
 							["damage_taken"] = 11992.002625,
-							["friendlyfire_total"] = 0,
+							["monster"] = true,
+							["end_time"] = 1622019836,
+							["on_hold"] = false,
+							["last_event"] = 1622019834,
 							["nome"] = "恐惧殴骨者",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -13854,16 +13858,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
 										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 3,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[330616] = {
 										["c_amt"] = 0,
@@ -13882,30 +13886,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 330616,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["extra"] = {
+										},
 										["PARRY"] = 1,
 										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["aID"] = "156596",
 							["custom"] = 0,
-							["last_event"] = 1622019834,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["start_time"] = 1622019829,
-							["serial"] = "Creature-0-3120-2222-22796-156596-00002DFF20",
-							["fight_component"] = true,
+							["delay"] = 0,
+							["total"] = 1850.002625,
 						}, -- [4]
 					},
 				}, -- [1]
@@ -13930,15 +13934,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[217200] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 1,
-										["id"] = 217200,
-										["uptime"] = 6,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 217200,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -13948,92 +13952,92 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 9,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 9,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[246152] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246152,
-										["uptime"] = 8,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 246152,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[264420] = {
-										["counter"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
+										["uptime"] = 9,
 										["id"] = 264420,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[257946] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 257946,
-										["uptime"] = 8,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[313424] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 313424,
-										["uptime"] = 8,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[324822] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
 										["refreshamt"] = 0,
-										["id"] = 324822,
-										["uptime"] = 9,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[246851] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 246851,
-										["uptime"] = 3,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
+										["activedamt"] = 1,
+										["uptime"] = 3,
+										["id"] = 246851,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[313424] = {
 										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 313424,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324822] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 9,
+										["id"] = 324822,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[257946] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 257946,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -14043,72 +14047,72 @@ _detalhes_database = {
 							["spec"] = 253,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[34026] = 1,
-								[193455] = 2,
-								[272790] = 4,
 								[217200] = 2,
+								[193455] = 2,
+								[34026] = 1,
+								[272790] = 4,
 							},
-							["tipo"] = 4,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 							["last_event"] = 1622019836,
-							["classe"] = "HUNTER",
+							["tipo"] = 4,
 							["pets"] = {
 								"猛禽 <额尔古纳右岸>", -- [1]
 								"狗还是你狗 <额尔古纳右岸>", -- [2]
 							},
+							["classe"] = "HUNTER",
 							["serial"] = "Player-707-064D548B",
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "猛禽 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 							["spell_cast"] = {
 								[201754] = 2,
 								[263852] = 1,
-								[2649] = 1,
 								[16827] = 3,
+								[2649] = 1,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
+							["last_event"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "额尔古纳右岸",
 							["nome"] = "狗还是你狗 <额尔古纳右岸>",
-							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["tipo"] = 4,
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 							["spell_cast"] = {
 								[201754] = 2,
 							},
+							["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+							["last_event"] = 0,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["nome"] = "恐惧殴骨者",
-							["aID"] = "156596",
+							["flag_original"] = 68168,
 							["spell_cast"] = {
 								[330616] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
-							["classe"] = "UNKNOW",
 							["pets"] = {
 							},
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3120-2222-22796-156596-00002DFF20",
-							["flag_original"] = 68168,
+							["aID"] = "156596",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -14141,21 +14145,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
 					5390, -- [1]
@@ -14164,18 +14168,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
@@ -14196,10 +14200,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["额尔古纳右岸"] = 11992.005083,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -14207,18 +14208,24 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["额尔古纳右岸"] = 11992.005083,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 801436.255,
 				["combat_id"] = 1,
-				["overall_added"] = true,
-				["TimeData"] = {
+				["spells_cast_timeline"] = {
 				},
+				["contra"] = "恐惧殴骨者",
 				["frags"] = {
 					["恐惧殴骨者"] = 1,
 				},
 				["combat_counter"] = 5,
+				["data_inicio"] = "17:03:48",
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["额尔古纳右岸"] = {
 						{
@@ -14298,13 +14305,10 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["CombatSkillCache"] = {
-				},
-				["data_inicio"] = "17:03:48",
 				["start_time"] = 801428.011,
-				["contra"] = "恐惧殴骨者",
-				["spells_cast_timeline"] = {
+				["TimeData"] = {
 				},
+				["overall_added"] = true,
 			}, -- [19]
 			{
 				{
@@ -14318,36 +14322,36 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["delay"] = 0,
+							["serial"] = "Player-707-064D548B",
 							["pets"] = {
 							},
-							["total"] = 0.003563,
-							["tipo"] = 1,
+							["spec"] = 253,
+							["on_hold"] = false,
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003563,
-							["aID"] = "707-064D548B",
-							["dps_started"] = false,
 							["end_time"] = 1622019827,
-							["damage_taken"] = 674.003563,
+							["dps_started"] = false,
+							["total"] = 0.003563,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 0,
+							["nome"] = "额尔古纳右岸",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "额尔古纳右岸",
-							["spec"] = 253,
 							["grupo"] = true,
-							["last_dps"] = 0,
 							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["damage_taken"] = 674.003563,
 							["start_time"] = 1622019827,
-							["serial"] = "Player-707-064D548B",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["aID"] = "707-064D548B",
 						}, -- [1]
 					},
 				}, -- [1]
@@ -14366,46 +14370,46 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "额尔古纳右岸",
 							["spec"] = 253,
 							["grupo"] = true,
-							["aID"] = "707-064D548B",
+							["classe"] = "HUNTER",
+							["buff_uptime"] = 0,
+							["buff_uptime_targets"] = {
+							},
 							["pets"] = {
 							},
-							["nome"] = "额尔古纳右岸",
-							["buff_uptime"] = 0,
-							["tipo"] = 4,
 							["last_event"] = 1622019629,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[186406] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 186406,
-										["uptime"] = 0,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
-										["appliedamt"] = 0,
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 186406,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[269083] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 269083,
-										["uptime"] = 0,
+										["appliedamt"] = 0,
 										["targets"] = {
 										},
-										["appliedamt"] = 0,
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 269083,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-707-064D548B",
-							["classe"] = "HUNTER",
+							["aID"] = "707-064D548B",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -14424,7 +14428,7 @@ _detalhes_database = {
 				},
 				["alternate_power"] = {
 				},
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["enemy"] = "未知",
 				["combat_counter"] = 2,
@@ -14435,21 +14439,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = -0.00515,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = -0.001439,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 					["额尔古纳右岸"] = {
@@ -14548,35 +14552,13 @@ _detalhes_database = {
 				["data_inicio"] = 0,
 				["end_time"] = 801238.228,
 				["instance_type"] = "none",
-				["totals_grupo"] = {
-					0, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
+				["overall_added"] = true,
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -14584,24 +14566,46 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+						}, -- [1]
 					},
 				},
 				["hasSaved"] = true,
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 				["data_fim"] = "17:00:42",
-				["cleu_timeline"] = {
+				["cleu_events"] = {
+					["n"] = 1,
 				},
 				["CombatSkillCache"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
+				["cleu_timeline"] = {
 				},
 				["start_time"] = 0,
 				["TimeData"] = {
 				},
-				["overall_added"] = true,
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
 			}, -- [20]
 		},
 	},
@@ -14651,17 +14655,17 @@ _detalhes_database = {
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["enabled"] = true,
+			["animate"] = false,
 			["showamount"] = false,
 			["useplayercolor"] = false,
-			["author"] = "Details! Team",
 			["useclasscolors"] = false,
+			["author"] = "Details! Team",
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
+			["enabled"] = true,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -14698,11 +14702,11 @@ _detalhes_database = {
 			["last_section_selected"] = "main",
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["encounter_timers_dbm"] = {
-			},
+			["hide_on_combat"] = false,
 			["show_icon"] = 5,
 			["opened"] = 0,
-			["hide_on_combat"] = false,
+			["encounter_timers_dbm"] = {
+			},
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["use_square_mode"] = false,
@@ -14723,22 +14727,22 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = false,
 			},
-			["arrow_anchor_y"] = 0,
+			["scale"] = 1,
 			["arrow_anchor_x"] = 0,
-			["main_frame_locked"] = false,
+			["row_height"] = 20,
 			["row_texture"] = "Details Serenity",
-			["use_spark"] = true,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
-			["author"] = "Details! Team",
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = 0,
+			["font_size"] = 10,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -14746,9 +14750,13 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -14756,24 +14764,21 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = -3.0517578125e-05,
 				["x"] = 0,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
 				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
 			},
+			["use_spark"] = true,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["point"] = "CENTER",
-			["font_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["row_height"] = 20,
-			["scale"] = 1,
+			["y"] = 0,
+			["author"] = "Details! Team",
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
 		},
 	},
+	["last_day"] = "27",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -14790,90 +14795,20 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "26",
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["character_data"] = {
-		["logons"] = 4,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
 	},
 	["combat_id"] = 19,
 	["savedStyles"] = {
 	},
-	["local_instances_config"] = {
-		{
-			["modo"] = 2,
-			["sub_attribute"] = 1,
-			["horizontalSnap"] = false,
-			["verticalSnap"] = false,
-			["isLocked"] = true,
-			["is_open"] = true,
-			["sub_atributo_last"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			},
-			["snap"] = {
-				[3] = 2,
-			},
-			["segment"] = 0,
-			["mode"] = 2,
-			["attribute"] = 1,
-			["pos"] = {
-				["normal"] = {
-					["y"] = -442.4443817138672,
-					["x"] = 619.3331298828125,
-					["w"] = 220.0000915527344,
-					["h"] = 134.5555572509766,
-				},
-				["solo"] = {
-					["y"] = 2,
-					["x"] = 1,
-					["w"] = 300,
-					["h"] = 200,
-				},
-			},
-		}, -- [1]
-		{
-			["modo"] = 2,
-			["sub_attribute"] = 1,
-			["horizontalSnap"] = false,
-			["verticalSnap"] = false,
-			["isLocked"] = true,
-			["is_open"] = true,
-			["sub_atributo_last"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			},
-			["snap"] = {
-				1, -- [1]
-			},
-			["segment"] = 0,
-			["mode"] = 2,
-			["attribute"] = 1,
-			["pos"] = {
-				["normal"] = {
-					["y"] = -442.4443817138672,
-					["x"] = 837.5833740234375,
-					["w"] = 216.4999542236328,
-					["h"] = 134.5555572509766,
-				},
-				["solo"] = {
-					["y"] = 2,
-					["x"] = 1,
-					["w"] = 300,
-					["h"] = 200,
-				},
-			},
-		}, -- [2]
+	["combat_counter"] = 25,
+	["cached_talents"] = {
 	},
-	["force_font_outline"] = "",
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -14889,18 +14824,18 @@ _detalhes_database = {
 					["totalabsorbed"] = 0.087956,
 					["damage_from"] = {
 						["潜伏的纺惧蛛"] = true,
-						["渊誓警卫"] = true,
-						["高塔审判官"] = true,
+						["堕落的美食家"] = true,
+						["凿刻的追踪者"] = true,
 						["环境伤害 (岩浆)"] = true,
 						["堕落的见证者"] = true,
 						["堕落的导师"] = true,
-						["凿刻的追踪者"] = true,
+						["渊誓警卫"] = true,
 						["堕落的引导者"] = true,
 						["堕落的追猎者"] = true,
 						["堕落的夺灵者"] = true,
 						["营地观察者"] = true,
 						["环境伤害 (坠落)"] = true,
-						["堕落的美食家"] = true,
+						["高塔审判官"] = true,
 					},
 					["targets"] = {
 						["高塔审判官"] = 40364,
@@ -14910,28 +14845,30 @@ _detalhes_database = {
 						["冥河焚烧者"] = 7515,
 						["渊誓警卫"] = 20521,
 						["恐惧殴骨者"] = 11992,
-						["潜伏的纺惧蛛"] = 62120,
 						["充血的纺惧蛛"] = 59935,
+						["潜伏的纺惧蛛"] = 62120,
 					},
-					["damage_taken"] = 38523.087956,
+					["serial"] = "Player-707-064D548B",
 					["pets"] = {
 						"猛禽 <额尔古纳右岸>", -- [1]
 						"狗还是你狗 <额尔古纳右岸>", -- [2]
 					},
-					["delay"] = 0,
+					["end_time"] = 1622019836,
+					["friendlyfire"] = {
+					},
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 123395.087956,
-					["classe"] = "HUNTER",
 					["last_dps"] = 0,
 					["dps_started"] = false,
 					["total"] = 230316.087956,
-					["aID"] = "707-064D548B",
-					["end_time"] = 1622019836,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "额尔古纳右岸",
 					["spec"] = 253,
 					["grupo"] = true,
+					["aID"] = "707-064D548B",
 					["spells"] = {
 						["_ActorTable"] = {
 							[193455] = {
@@ -14944,11 +14881,11 @@ _detalhes_database = {
 									["冥河焚烧者"] = 926,
 									["潜伏的纺惧蛛"] = 11830,
 									["石头牢笼"] = 1877,
-									["渊誓警卫"] = 4088,
+									["腐烂的死亡行者"] = 5436,
 									["恐惧殴骨者"] = 2112,
+									["渊誓警卫"] = 4088,
 									["高塔审判官"] = 6055,
 									["充血的纺惧蛛"] = 10790,
-									["腐烂的死亡行者"] = 5436,
 								},
 								["n_dmg"] = 29765,
 								["n_min"] = 0,
@@ -14958,15 +14895,15 @@ _detalhes_database = {
 								["c_max"] = 2454,
 								["id"] = 193455,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 28,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[217200] = {
 								["c_amt"] = 18,
@@ -14978,11 +14915,11 @@ _detalhes_database = {
 									["冥河焚烧者"] = 1466,
 									["潜伏的纺惧蛛"] = 9604,
 									["石头牢笼"] = 1762,
-									["渊誓警卫"] = 3964,
+									["腐烂的死亡行者"] = 1576,
 									["恐惧殴骨者"] = 1851,
+									["渊誓警卫"] = 3964,
 									["高塔审判官"] = 4927,
 									["充血的纺惧蛛"] = 6313,
-									["腐烂的死亡行者"] = 1576,
 								},
 								["n_dmg"] = 19586,
 								["n_min"] = 0,
@@ -14992,15 +14929,15 @@ _detalhes_database = {
 								["c_max"] = 792,
 								["id"] = 217200,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 62,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[185358] = {
 								["c_amt"] = 0,
@@ -15019,13 +14956,71 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 185358,
 								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[324149] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 344,
+								["g_amt"] = 0,
+								["n_max"] = 207,
+								["targets"] = {
+									["充血的纺惧蛛"] = 1385,
+									["高塔审判官"] = 373,
+								},
+								["n_dmg"] = 1414,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 1758,
+								["c_max"] = 344,
+								["id"] = 324149,
+								["r_dmg"] = 0,
 								["extra"] = {
 								},
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 1,
+								["n_amt"] = 8,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[53351] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2382,
+								["targets"] = {
+									["潜伏的纺惧蛛"] = 4251,
+									["高塔审判官"] = 1737,
+									["渊誓警卫"] = 1831,
+									["充血的纺惧蛛"] = 4307,
+								},
+								["n_dmg"] = 12126,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 12126,
+								["c_max"] = 0,
+								["id"] = 53351,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 6,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
@@ -15043,8 +15038,8 @@ _detalhes_database = {
 									["冥河焚烧者"] = 1259,
 									["渊誓警卫"] = 3266,
 									["恐惧殴骨者"] = 1427,
-									["潜伏的纺惧蛛"] = 9628,
 									["充血的纺惧蛛"] = 7346,
+									["潜伏的纺惧蛛"] = 9628,
 								},
 								["n_dmg"] = 20629,
 								["n_min"] = 0,
@@ -15054,85 +15049,25 @@ _detalhes_database = {
 								["c_max"] = 1206,
 								["id"] = 75,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 43,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[53351] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 2382,
-								["targets"] = {
-									["高塔审判官"] = 1737,
-									["潜伏的纺惧蛛"] = 4251,
-									["渊誓警卫"] = 1831,
-									["充血的纺惧蛛"] = 4307,
-								},
-								["n_dmg"] = 12126,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 6,
-								["total"] = 12126,
-								["c_max"] = 0,
-								["id"] = 53351,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
 								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 6,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[324149] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 344,
-								["g_amt"] = 0,
-								["n_max"] = 207,
-								["targets"] = {
-									["高塔审判官"] = 373,
-									["充血的纺惧蛛"] = 1385,
-								},
-								["n_dmg"] = 1414,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 9,
-								["total"] = 1758,
-								["c_max"] = 344,
-								["id"] = 324149,
-								["r_dmg"] = 0,
 								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 8,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
 							},
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 38523.087956,
 					["start_time"] = 1622019668,
-					["serial"] = "Player-707-064D548B",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["classe"] = "HUNTER",
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
@@ -15145,20 +15080,21 @@ _detalhes_database = {
 					["targets"] = {
 						["猛禽 <额尔古纳右岸>"] = 1850,
 					},
-					["delay"] = 0,
+					["serial"] = "Creature-0-3120-2222-22796-156596-00002DFF20",
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 11992.008681,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "156596",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1850.008681,
-					["total"] = 1850.008681,
-					["monster"] = true,
 					["end_time"] = 1622019836,
-					["last_dps"] = 0,
-					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 1850.008681,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "恐惧殴骨者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -15179,15 +15115,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 3,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[330616] = {
 								["c_amt"] = 0,
@@ -15206,47 +15142,45 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 330616,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 								["PARRY"] = 1,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 11992.008681,
 					["start_time"] = 1622019826,
-					["serial"] = "Creature-0-3120-2222-22796-156596-00002DFF20",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [2]
 				{
 					["flag_original"] = 4369,
 					["totalabsorbed"] = 0.07616000000000002,
-					["tipo"] = 1,
 					["damage_from"] = {
 						["潜伏的纺惧蛛"] = true,
-						["高塔审判官"] = true,
+						["恐惧殴骨者"] = true,
 						["充血的纺惧蛛"] = true,
+						["堕落的见证者"] = true,
 						["渊誓警卫"] = true,
-						["凿刻的追踪者"] = true,
-						["腐烂的死亡行者"] = true,
+						["堕落的美食家"] = true,
 						["堕落的追猎者"] = true,
 						["堕落的夺灵者"] = true,
-						["堕落的美食家"] = true,
-						["堕落的见证者"] = true,
-						["恐惧殴骨者"] = true,
+						["腐烂的死亡行者"] = true,
+						["凿刻的追踪者"] = true,
+						["高塔审判官"] = true,
 					},
 					["targets"] = {
 						["高塔审判官"] = 12635,
@@ -15256,20 +15190,22 @@ _detalhes_database = {
 						["冥河焚烧者"] = 2254,
 						["渊誓警卫"] = 4853,
 						["恐惧殴骨者"] = 4339,
-						["潜伏的纺惧蛛"] = 15599,
 						["充血的纺惧蛛"] = 17648,
+						["潜伏的纺惧蛛"] = 15599,
 					},
 					["pets"] = {
 					},
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["last_event"] = 0,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 64099.07616,
+					["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 					["dps_started"] = false,
 					["total"] = 64099.07616,
-					["damage_taken"] = 57214.07616,
+					["friendlyfire_total"] = 0,
 					["ownerName"] = "额尔古纳右岸",
 					["nome"] = "猛禽 <额尔古纳右岸>",
 					["spells"] = {
@@ -15284,11 +15220,11 @@ _detalhes_database = {
 									["冥河焚烧者"] = 415,
 									["潜伏的纺惧蛛"] = 3495,
 									["石头牢笼"] = 139,
-									["渊誓警卫"] = 1517,
+									["腐烂的死亡行者"] = 1110,
 									["恐惧殴骨者"] = 772,
+									["渊誓警卫"] = 1517,
 									["高塔审判官"] = 3761,
 									["充血的纺惧蛛"] = 4270,
-									["腐烂的死亡行者"] = 1110,
 								},
 								["n_dmg"] = 10566,
 								["n_min"] = 0,
@@ -15298,15 +15234,15 @@ _detalhes_database = {
 								["c_max"] = 353,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 67,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[201754] = {
 								["c_amt"] = 2,
@@ -15318,11 +15254,11 @@ _detalhes_database = {
 									["冥河焚烧者"] = 202,
 									["潜伏的纺惧蛛"] = 2120,
 									["石头牢笼"] = 211,
-									["渊誓警卫"] = 454,
+									["腐烂的死亡行者"] = 230,
 									["恐惧殴骨者"] = 462,
+									["渊誓警卫"] = 454,
 									["高塔审判官"] = 936,
 									["充血的纺惧蛛"] = 1198,
-									["腐烂的死亡行者"] = 230,
 								},
 								["n_dmg"] = 4829,
 								["n_min"] = 0,
@@ -15332,15 +15268,15 @@ _detalhes_database = {
 								["c_max"] = 514,
 								["id"] = 201754,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 21,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[16827] = {
 								["c_amt"] = 8,
@@ -15352,11 +15288,11 @@ _detalhes_database = {
 									["冥河焚烧者"] = 994,
 									["潜伏的纺惧蛛"] = 6788,
 									["石头牢笼"] = 499,
-									["渊誓警卫"] = 2175,
+									["腐烂的死亡行者"] = 2278,
 									["恐惧殴骨者"] = 1669,
+									["渊誓警卫"] = 2175,
 									["高塔审判官"] = 4702,
 									["充血的纺惧蛛"] = 6278,
-									["腐烂的死亡行者"] = 2278,
 								},
 								["n_dmg"] = 16243,
 								["n_min"] = 0,
@@ -15366,15 +15302,15 @@ _detalhes_database = {
 								["c_max"] = 1270,
 								["id"] = 16827,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 29,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[83381] = {
 								["c_amt"] = 5,
@@ -15390,8 +15326,8 @@ _detalhes_database = {
 									["冥河焚烧者"] = 643,
 									["渊誓警卫"] = 707,
 									["恐惧殴骨者"] = 1436,
-									["高塔审判官"] = 2964,
 									["充血的纺惧蛛"] = 5902,
+									["高塔审判官"] = 2964,
 								},
 								["n_dmg"] = 9693,
 								["n_min"] = 0,
@@ -15401,15 +15337,15 @@ _detalhes_database = {
 								["c_max"] = 1488,
 								["id"] = 83381,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 13,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[344572] = {
 								["c_amt"] = 0,
@@ -15418,8 +15354,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 310,
 								["targets"] = {
-									["高塔审判官"] = 272,
 									["潜伏的纺惧蛛"] = 310,
+									["高塔审判官"] = 272,
 								},
 								["n_dmg"] = 582,
 								["n_min"] = 0,
@@ -15429,34 +15365,32 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 344572,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["end_time"] = 1622019836,
 					["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1622019710,
-					["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["damage_taken"] = 57214.07616,
 				}, -- [3]
 				{
 					["flag_original"] = 4369,
 					["totalabsorbed"] = 0.07261000000000001,
-					["tipo"] = 1,
 					["damage_from"] = {
 					},
 					["targets"] = {
@@ -15467,20 +15401,21 @@ _detalhes_database = {
 						["冥河焚烧者"] = 1610,
 						["渊誓警卫"] = 2519,
 						["恐惧殴骨者"] = 2263,
-						["潜伏的纺惧蛛"] = 11208,
 						["充血的纺惧蛛"] = 12146,
+						["潜伏的纺惧蛛"] = 11208,
 					},
 					["pets"] = {
 					},
-					["delay"] = 0,
-					["damage_taken"] = 0.07261000000000001,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 42822.07261,
+					["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 					["dps_started"] = false,
 					["end_time"] = 1622019836,
-					["last_dps"] = 0,
+					["classe"] = "PET",
 					["ownerName"] = "额尔古纳右岸",
 					["nome"] = "狗还是你狗 <额尔古纳右岸>",
 					["spells"] = {
@@ -15495,11 +15430,11 @@ _detalhes_database = {
 									["冥河焚烧者"] = 554,
 									["潜伏的纺惧蛛"] = 5888,
 									["石头牢笼"] = 140,
-									["渊誓警卫"] = 1362,
+									["腐烂的死亡行者"] = 1264,
 									["恐惧殴骨者"] = 1083,
+									["渊誓警卫"] = 1362,
 									["高塔审判官"] = 3382,
 									["充血的纺惧蛛"] = 4591,
-									["腐烂的死亡行者"] = 1264,
 								},
 								["n_dmg"] = 11926,
 								["n_min"] = 0,
@@ -15509,15 +15444,15 @@ _detalhes_database = {
 								["c_max"] = 354,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 75,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[201754] = {
 								["c_amt"] = 5,
@@ -15529,11 +15464,11 @@ _detalhes_database = {
 									["冥河焚烧者"] = 414,
 									["潜伏的纺惧蛛"] = 2839,
 									["石头牢笼"] = 208,
-									["渊誓警卫"] = 450,
+									["腐烂的死亡行者"] = 236,
 									["恐惧殴骨者"] = 461,
+									["渊誓警卫"] = 450,
 									["高塔审判官"] = 684,
 									["充血的纺惧蛛"] = 1660,
-									["腐烂的死亡行者"] = 236,
 								},
 								["n_dmg"] = 4642,
 								["n_min"] = 0,
@@ -15543,15 +15478,15 @@ _detalhes_database = {
 								["c_max"] = 482,
 								["id"] = 201754,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 20,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[83381] = {
 								["c_amt"] = 5,
@@ -15567,8 +15502,8 @@ _detalhes_database = {
 									["冥河焚烧者"] = 642,
 									["渊誓警卫"] = 707,
 									["恐惧殴骨者"] = 719,
-									["高塔审判官"] = 3941,
 									["充血的纺惧蛛"] = 5895,
+									["高塔审判官"] = 3941,
 								},
 								["n_dmg"] = 9513,
 								["n_min"] = 0,
@@ -15578,15 +15513,15 @@ _detalhes_database = {
 								["c_max"] = 1643,
 								["id"] = 83381,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 13,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[344572] = {
 								["c_amt"] = 0,
@@ -15595,8 +15530,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 310,
 								["targets"] = {
-									["高塔审判官"] = 272,
 									["潜伏的纺惧蛛"] = 310,
+									["高塔审判官"] = 272,
 								},
 								["n_dmg"] = 582,
 								["n_min"] = 0,
@@ -15606,29 +15541,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 344572,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "PET",
+					["friendlyfire"] = {
+					},
 					["total"] = 42822.07261,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["tipo"] = 1,
+					["damage_taken"] = 0.07261000000000001,
 					["start_time"] = 1622019692,
-					["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
-					["on_hold"] = false,
+					["delay"] = 0,
+					["last_dps"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 68168,
@@ -15642,20 +15577,21 @@ _detalhes_database = {
 						["猛禽 <额尔古纳右岸>"] = 9504,
 						["额尔古纳右岸"] = 10175,
 					},
-					["delay"] = 0,
+					["serial"] = "Creature-0-3120-2222-22796-156636-00002E0EC3",
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 62120.017642,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "156636",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 19679.017642,
-					["total"] = 19679.017642,
-					["monster"] = true,
 					["end_time"] = 1622019859,
-					["last_dps"] = 0,
-					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 19679.017642,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "潜伏的纺惧蛛",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -15667,9 +15603,9 @@ _detalhes_database = {
 								["n_max"] = 848,
 								["targets"] = {
 									["狗还是你狗"] = 0,
+									["额尔古纳右岸"] = 4364,
 									["猛禽 <额尔古纳右岸>"] = 6877,
 									["猛禽"] = 0,
-									["额尔古纳右岸"] = 4364,
 								},
 								["n_dmg"] = 9946,
 								["n_min"] = 0,
@@ -15677,20 +15613,20 @@ _detalhes_database = {
 								["counter"] = 24,
 								["total"] = 11241,
 								["c_max"] = 1295,
-								["r_amt"] = 0,
+								["MISS"] = 4,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["b_dmg"] = 0,
+								["DODGE"] = 2,
 								["a_dmg"] = 0,
-								["a_amt"] = 0,
+								["extra"] = {
+								},
 								["PARRY"] = 1,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
-								["extra"] = {
-								},
+								["a_amt"] = 0,
 								["n_amt"] = 16,
-								["DODGE"] = 2,
-								["MISS"] = 4,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[330595] = {
 								["c_amt"] = 0,
@@ -15711,16 +15647,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 330595,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["DODGE"] = 2,
+								["extra"] = {
+								},
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 7,
 								["a_amt"] = 0,
 								["n_amt"] = 5,
-								["extra"] = {
-								},
-								["DODGE"] = 2,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[330604] = {
 								["c_amt"] = 0,
@@ -15739,29 +15675,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 330604,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 6,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 62120.017642,
 					["start_time"] = 1622019812,
-					["serial"] = "Creature-0-3120-2222-22796-156636-00002E0EC3",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [5]
 				{
 					["flag_original"] = 68168,
@@ -15774,20 +15709,21 @@ _detalhes_database = {
 					["targets"] = {
 						["猛禽 <额尔古纳右岸>"] = 11994,
 					},
-					["delay"] = 0,
+					["serial"] = "Creature-0-3120-2222-22796-168724-00002E0EC4",
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 59935.01259,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "168724",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 11994.01259,
-					["total"] = 11994.01259,
-					["monster"] = true,
 					["end_time"] = 1622019890,
-					["last_dps"] = 0,
-					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 11994.01259,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "充血的纺惧蛛",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -15809,8 +15745,8 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["DODGE"] = 1,
+								["a_dmg"] = 0,
 								["extra"] = {
 								},
 								["PARRY"] = 3,
@@ -15818,8 +15754,8 @@ _detalhes_database = {
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 8,
-								["a_dmg"] = 0,
-								["DODGE"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[330595] = {
 								["c_amt"] = 0,
@@ -15839,17 +15775,17 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 330595,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["MISS"] = 1,
+								["DODGE"] = 1,
 								["extra"] = {
 								},
-								["a_amt"] = 0,
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 4,
-								["a_dmg"] = 0,
+								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["DODGE"] = 1,
-								["MISS"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[330604] = {
 								["c_amt"] = 0,
@@ -15868,29 +15804,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 330604,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["a_amt"] = 0,
 								["n_amt"] = 9,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 59935.01259,
 					["start_time"] = 1622019857,
-					["serial"] = "Creature-0-3120-2222-22796-168724-00002E0EC4",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [6]
 				{
 					["flag_original"] = 68168,
@@ -15903,20 +15838,21 @@ _detalhes_database = {
 					["targets"] = {
 						["猛禽 <额尔古纳右岸>"] = 2310,
 					},
-					["delay"] = 0,
+					["serial"] = "Creature-0-3120-2222-22796-168855-00002E0E23",
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 15064.008347,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "168855",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2310.008347,
-					["total"] = 2310.008347,
-					["monster"] = true,
 					["end_time"] = 1622019902,
-					["last_dps"] = 0,
-					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 2310.008347,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "腐烂的死亡行者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -15938,16 +15874,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["DODGE"] = 1,
+								["extra"] = {
+								},
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["extra"] = {
-								},
-								["DODGE"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[330636] = {
 								["c_amt"] = 0,
@@ -15966,29 +15902,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 330636,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 15064.008347,
 					["start_time"] = 1622019895,
-					["serial"] = "Creature-0-3120-2222-22796-168855-00002E0E23",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [7]
 				{
 					["flag_original"] = 68168,
@@ -16000,36 +15935,36 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
-					["delay"] = 0,
+					["serial"] = "Creature-0-3120-2222-22796-163961-0000AE0E3D",
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 3050.008975,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "163961",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.008975,
-					["total"] = 0.008975,
-					["monster"] = true,
 					["end_time"] = 1622019978,
-					["last_dps"] = 0,
-					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 0.008975,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "侵入的幼虫",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 3050.008975,
 					["start_time"] = 1622019975,
-					["serial"] = "Creature-0-3120-2222-22796-163961-0000AE0E3D",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [8]
 				{
 					["flag_original"] = 2632,
@@ -16039,20 +15974,21 @@ _detalhes_database = {
 					["targets"] = {
 						["额尔古纳右岸"] = 284,
 					},
-					["delay"] = 0,
+					["serial"] = "Creature-0-3120-2222-22796-157444-00002E05B9",
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.012816,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "157444",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 284.012816,
-					["total"] = 284.012816,
-					["monster"] = true,
 					["end_time"] = 1622020030,
-					["last_dps"] = 0,
-					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 284.012816,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "营地观察者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16073,29 +16009,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 0.012816,
 					["start_time"] = 1622020026,
-					["serial"] = "Creature-0-3120-2222-22796-157444-00002E05B9",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [9]
 				{
 					["flag_original"] = 68168,
@@ -16109,20 +16044,21 @@ _detalhes_database = {
 						["额尔古纳右岸"] = 566,
 						["六指丶-格瑞姆巴托"] = 832,
 					},
-					["delay"] = 0,
+					["serial"] = "Creature-0-3120-2222-22796-176108-00002E102B",
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 2419.013035,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "176108",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1398.013035,
-					["total"] = 1398.013035,
-					["monster"] = true,
 					["end_time"] = 1622020397,
-					["last_dps"] = 0,
-					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 1398.013035,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "堕落的引导者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16144,15 +16080,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[328970] = {
 								["c_amt"] = 0,
@@ -16170,29 +16106,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 328970,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 2419.013035,
 					["start_time"] = 1622020392,
-					["serial"] = "Creature-0-3120-2222-22796-176108-00002E102B",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [10]
 				{
 					["flag_original"] = 2632,
@@ -16203,20 +16138,21 @@ _detalhes_database = {
 						["额尔古纳右岸"] = 338,
 						["猛禽 <额尔古纳右岸>"] = 1484,
 					},
-					["delay"] = 0,
+					["serial"] = "Creature-0-3120-2222-22796-176113-00002E0D5B",
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.016712,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "176113",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1822.016712,
-					["total"] = 1822.016712,
-					["monster"] = true,
 					["end_time"] = 1622020397,
-					["last_dps"] = 0,
-					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 1822.016712,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "凿刻的追踪者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16238,15 +16174,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 4,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[325024] = {
 								["c_amt"] = 0,
@@ -16265,29 +16201,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 325024,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 0.016712,
 					["start_time"] = 1622020389,
-					["serial"] = "Creature-0-3120-2222-22796-176113-00002E0D5B",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [11]
 				{
 					["flag_original"] = 2632,
@@ -16298,20 +16233,21 @@ _detalhes_database = {
 						["额尔古纳右岸"] = 911,
 						["猛禽 <额尔古纳右岸>"] = 1766,
 					},
-					["delay"] = 0,
+					["serial"] = "Creature-0-3120-2222-22796-159027-00002E0D5B",
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.018082,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "159027",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2677.018082,
-					["total"] = 2677.018082,
-					["monster"] = true,
 					["end_time"] = 1622020397,
-					["last_dps"] = 0,
-					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 2677.018082,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "堕落的追猎者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16332,15 +16268,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[328558] = {
 								["c_amt"] = 0,
@@ -16359,15 +16295,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 328558,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[329838] = {
 								["c_amt"] = 0,
@@ -16385,15 +16321,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 329838,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[329299] = {
 								["c_amt"] = 0,
@@ -16411,29 +16347,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 329299,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 0.018082,
 					["start_time"] = 1622020390,
-					["serial"] = "Creature-0-3120-2222-22796-159027-00002E0D5B",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [12]
 				{
 					["flag_original"] = 68168,
@@ -16444,20 +16379,21 @@ _detalhes_database = {
 						["额尔古纳右岸"] = 5319,
 						["猛禽 <额尔古纳右岸>"] = 2926,
 					},
-					["delay"] = 0,
+					["serial"] = "Creature-0-3120-2222-22796-156260-00002E0D9E",
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.026104,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "156260",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 8245.026104,
-					["total"] = 8245.026104,
-					["monster"] = true,
 					["end_time"] = 1622020397,
-					["last_dps"] = 0,
-					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 8245.026104,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "堕落的夺灵者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16479,16 +16415,16 @@ _detalhes_database = {
 								["c_max"] = 1029,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["MISS"] = 2,
+								["extra"] = {
+								},
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 7,
-								["extra"] = {
-								},
-								["MISS"] = 2,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[328414] = {
 								["c_amt"] = 0,
@@ -16508,29 +16444,28 @@ _detalhes_database = {
 								["DEFLECT"] = 2,
 								["id"] = 328414,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 3,
 								["a_amt"] = 0,
 								["n_amt"] = 5,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 0.026104,
 					["start_time"] = 1622020374,
-					["serial"] = "Creature-0-3120-2222-22796-156260-00002E0D9E",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [13]
 				{
 					["flag_original"] = 2632,
@@ -16541,20 +16476,21 @@ _detalhes_database = {
 						["额尔古纳右岸"] = 5449,
 						["猛禽 <额尔古纳右岸>"] = 7142,
 					},
-					["delay"] = 0,
+					["serial"] = "Creature-0-3120-2222-22796-156264-00002E0336",
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.021136,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "156264",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 12591.021136,
-					["total"] = 12591.021136,
-					["monster"] = true,
 					["end_time"] = 1622020397,
-					["last_dps"] = 0,
-					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 12591.021136,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "堕落的美食家",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16576,16 +16512,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["MISS"] = 10,
+								["extra"] = {
+								},
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 19,
-								["extra"] = {
-								},
-								["MISS"] = 10,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[329013] = {
 								["c_amt"] = 0,
@@ -16603,15 +16539,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 329013,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 3,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[329016] = {
 								["c_amt"] = 0,
@@ -16630,30 +16566,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 329016,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["MISS"] = 1,
+								["extra"] = {
+								},
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["extra"] = {
-								},
-								["MISS"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 0.021136,
 					["start_time"] = 1622020375,
-					["serial"] = "Creature-0-3120-2222-22796-156264-00002E0336",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [14]
 				{
 					["flag_original"] = 2632,
@@ -16664,20 +16599,21 @@ _detalhes_database = {
 						["额尔古纳右岸"] = 910,
 						["猛禽 <额尔古纳右岸>"] = 3204,
 					},
-					["delay"] = 0,
+					["serial"] = "Creature-0-3120-2222-22796-158928-00002DFC6F",
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.026743,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "158928",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4114.026743,
-					["total"] = 4114.026743,
-					["monster"] = true,
 					["end_time"] = 1622020397,
-					["last_dps"] = 0,
-					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 4114.026743,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "堕落的见证者",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16698,15 +16634,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 4,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[328411] = {
 								["c_amt"] = 0,
@@ -16726,29 +16662,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 328411,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 0.026743,
 					["start_time"] = 1622020379,
-					["serial"] = "Creature-0-3120-2222-22796-158928-00002DFC6F",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [15]
 				{
 					["flag_original"] = -2147483648,
@@ -16760,17 +16695,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
-					["on_hold"] = false,
+					["classe"] = "UNKNOW",
+					["damage_taken"] = 0.007481,
 					["aID"] = "",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3842.007481,
-					["delay"] = 0,
+					["serial"] = "",
 					["fight_component"] = true,
 					["end_time"] = 1622020448,
 					["friendlyfire_total"] = 0,
-					["damage_taken"] = 0.007481,
+					["friendlyfire"] = {
+					},
 					["nome"] = "环境伤害 (坠落)",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16791,29 +16727,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 3,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 3,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["dps_started"] = false,
-					["total"] = 3842.007481,
-					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["total"] = 3842.007481,
+					["dps_started"] = false,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1622020433,
-					["serial"] = "",
-					["classe"] = "UNKNOW",
+					["delay"] = 0,
+					["on_hold"] = false,
 				}, -- [16]
 				{
 					["flag_original"] = 68168,
@@ -16823,20 +16758,21 @@ _detalhes_database = {
 					["targets"] = {
 						["额尔古纳右岸"] = 618,
 					},
-					["delay"] = 0,
+					["serial"] = "Creature-0-3120-2222-22796-176116-00002E07F5",
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 0.010354,
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
 					["aID"] = "176116",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 618.010354,
-					["total"] = 618.010354,
-					["monster"] = true,
 					["end_time"] = 1622020448,
-					["last_dps"] = 0,
-					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 618.010354,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["nome"] = "堕落的导师",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16857,34 +16793,32 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 0.010354,
 					["start_time"] = 1622020444,
-					["serial"] = "Creature-0-3120-2222-22796-176116-00002E07F5",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [17]
 				{
 					["flag_original"] = 68136,
 					["totalabsorbed"] = 0.016554,
-					["aID"] = "176145",
 					["damage_from"] = {
 						["额尔古纳右岸"] = true,
 						["狗还是你狗 <额尔古纳右岸>"] = true,
@@ -16894,32 +16828,33 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["aID"] = "176145",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.016554,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["fight_component"] = true,
 					["end_time"] = 1622021168,
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["damage_taken"] = 9755.016554,
 					["nome"] = "石头牢笼",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
-					["total"] = 0.016554,
-					["serial"] = "Creature-0-3042-2222-14742-176145-0000AE1410",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 9755.016554,
+					["dps_started"] = false,
+					["total"] = 0.016554,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1622021165,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-3042-2222-14742-176145-0000AE1410",
+					["classe"] = "UNKNOW",
 				}, -- [18]
 				{
 					["flag_original"] = 68168,
@@ -16932,32 +16867,34 @@ _detalhes_database = {
 						["原始土元素"] = true,
 						["逛街的胡萝卜"] = true,
 						["死神救赎者-迦拉克隆"] = true,
-						["撕心乄裂肺"] = true,
-						["猛禽 <额尔古纳右岸>"] = true,
 						["雷加丶雪诺-迦拉克隆"] = true,
+						["猛禽 <额尔古纳右岸>"] = true,
+						["撕心乄裂肺"] = true,
 					},
 					["targets"] = {
-						["原始土元素"] = 1198,
+						["狗还是你狗 <额尔古纳右岸>"] = 0,
 						["撕心乄裂肺"] = 1100,
+						["洱海月光"] = 0,
+						["花萼双辉-迦拉克隆"] = 0,
+						["猛禽 <额尔古纳右岸>"] = 0,
+						["原始土元素"] = 1198,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
+					["damage_taken"] = 67046.01193400001,
 					["aID"] = "156203",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2298.011934,
-					["friendlyfire"] = {
-					},
-					["end_time"] = 1622021246,
-					["dps_started"] = false,
 					["total"] = 2298.011934,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["end_time"] = 1622021246,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["nome"] = "冥河焚烧者",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -16966,6 +16903,7 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 605,
 								["targets"] = {
+									["花萼双辉-迦拉克隆"] = 0,
 									["原始土元素"] = 1198,
 								},
 								["n_dmg"] = 1198,
@@ -16976,16 +16914,45 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 2,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+							[346135] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["猛禽 <额尔古纳右岸>"] = 0,
+									["狗还是你狗 <额尔古纳右岸>"] = 0,
+									["撕心乄裂肺"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 346135,
+								["r_dmg"] = 0,
 								["extra"] = {
 								},
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 2,
+								["n_amt"] = 0,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
-							}, -- [1]
+							},
 							[345522] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -16993,6 +16960,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 1100,
 								["targets"] = {
+									["洱海月光"] = 0,
+									["花萼双辉-迦拉克隆"] = 0,
 									["撕心乄裂肺"] = 1100,
 								},
 								["n_dmg"] = 1100,
@@ -17003,34 +16972,62 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 345522,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 1,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_dmg"] = 0,
+								["n_amt"] = 1,
 								["MISS"] = 1,
+								["IMMUNE"] = 1,
+							},
+							[343104] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["花萼双辉-迦拉克隆"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 343104,
+								["r_dmg"] = 0,
 								["extra"] = {
 								},
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 1,
+								["n_amt"] = 0,
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3042-2222-14742-156203-00002E1312",
+					["fight_component"] = true,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1622021238,
-					["delay"] = 0,
-					["damage_taken"] = 67046.01193400001,
+					["serial"] = "Creature-0-3042-2222-14742-156203-00002E1312",
+					["friendlyfire"] = {
+					},
 				}, -- [19]
 				{
 					["flag_original"] = -2147483648,
 					["totalabsorbed"] = 0.010686,
-					["aID"] = "",
 					["damage_from"] = {
 					},
 					["targets"] = {
@@ -17038,20 +17035,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
+					["on_hold"] = false,
+					["aID"] = "",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2377.010686,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["fight_component"] = true,
 					["end_time"] = 1622021246,
-					["friendlyfire"] = {
-					},
 					["friendlyfire_total"] = 0,
+					["damage_taken"] = 0.010686,
 					["nome"] = "环境伤害 (岩浆)",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[7] = {
 								["c_amt"] = 0,
@@ -17070,27 +17066,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 7,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 1,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["total"] = 2377.010686,
-					["serial"] = "",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.010686,
+					["dps_started"] = false,
+					["total"] = 2377.010686,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1622021239,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "",
+					["classe"] = "UNKNOW",
 				}, -- [20]
 				{
 					["flag_original"] = 68168,
@@ -17104,24 +17102,22 @@ _detalhes_database = {
 						["额尔古纳右岸"] = 2927,
 						["猛禽 <额尔古纳右岸>"] = 9281,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
+					["damage_taken"] = 20521.014765,
 					["aID"] = "175882",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 12208.014765,
-					["friendlyfire"] = {
-					},
-					["end_time"] = 1622021486,
-					["dps_started"] = false,
 					["total"] = 12208.014765,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["end_time"] = 1622021486,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["nome"] = "渊誓警卫",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[329706] = {
 								["c_amt"] = 0,
@@ -17142,17 +17138,17 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 329706,
 								["r_dmg"] = 0,
-								["MISS"] = 2,
-								["DODGE"] = 1,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 0,
+								["a_amt"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 12,
-								["a_amt"] = 0,
+								["a_dmg"] = 0,
 								["n_amt"] = 10,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["DODGE"] = 1,
+								["MISS"] = 2,
 							},
 							[166906] = {
 								["c_amt"] = 0,
@@ -17172,27 +17168,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 166906,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 3,
 								["a_amt"] = 0,
 								["n_amt"] = 3,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3042-2222-14742-175882-00002E151E",
+					["fight_component"] = true,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1622021445,
-					["delay"] = 0,
-					["damage_taken"] = 20521.014765,
+					["serial"] = "Creature-0-3042-2222-14742-175882-00002E151E",
+					["friendlyfire"] = {
+					},
 				}, -- [21]
 				{
 					["flag_original"] = 2632,
@@ -17206,24 +17204,22 @@ _detalhes_database = {
 						["额尔古纳右岸"] = 4807,
 						["猛禽 <额尔古纳右岸>"] = 5753,
 					},
-					["on_hold"] = false,
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["monster"] = true,
+					["dps_started"] = false,
+					["damage_taken"] = 40364.009766,
 					["aID"] = "171626",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 10560.009766,
-					["friendlyfire"] = {
-					},
-					["end_time"] = 1622021486,
-					["dps_started"] = false,
 					["total"] = 10560.009766,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["end_time"] = 1622021486,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["nome"] = "高塔审判官",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -17244,16 +17240,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
-								["extra"] = {
-								},
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["a_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
 								["n_amt"] = 7,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["extra"] = {
+								},
+								["MISS"] = 1,
 							}, -- [1]
 							[304948] = {
 								["c_amt"] = 0,
@@ -17271,15 +17267,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 304948,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 0,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[304949] = {
 								["c_amt"] = 0,
@@ -17299,15 +17295,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 304949,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["a_amt"] = 0,
 								["n_amt"] = 2,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 							[304946] = {
 								["c_amt"] = 0,
@@ -17327,27 +17323,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 304946,
 								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["a_amt"] = 0,
 								["n_amt"] = 10,
-								["b_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
 							},
 						},
+						["tipo"] = 2,
 					},
-					["last_event"] = 0,
+					["classe"] = "UNKNOW",
 					["friendlyfire_total"] = 0,
-					["serial"] = "Creature-0-3042-2222-14742-171626-00002E1549",
+					["fight_component"] = true,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1622021448,
-					["delay"] = 0,
-					["damage_taken"] = 40364.009766,
+					["serial"] = "Creature-0-3042-2222-14742-171626-00002E1549",
+					["friendlyfire"] = {
+					},
 				}, -- [22]
 			},
 		}, -- [1]
@@ -17356,15 +17354,16 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["healing_from"] = {
-						["额尔古纳右岸"] = true,
+					["targets_overheal"] = {
+						["猛禽 <额尔古纳右岸>"] = 0,
+						["狗还是你狗 <额尔古纳右岸>"] = 0,
 					},
 					["pets"] = {
 						"猛禽 <额尔古纳右岸>", -- [1]
 						"狗还是你狗 <额尔古纳右岸>", -- [2]
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["aID"] = "707-064D548B",
 					["totalover"] = 64472.017685,
 					["total_without_pet"] = 15020.017685,
 					["total"] = 15020.017685,
@@ -17384,36 +17383,61 @@ _detalhes_database = {
 					["healing_taken"] = 14028.017685,
 					["fight_component"] = true,
 					["end_time"] = 1622019953,
-					["targets_overheal"] = {
-						["猛禽 <额尔古纳右岸>"] = 0,
-						["狗还是你狗 <额尔古纳右岸>"] = 0,
+					["healing_from"] = {
+						["额尔古纳右岸"] = true,
 					},
-					["last_event"] = 0,
+					["classe"] = "HUNTER",
 					["nome"] = "额尔古纳右岸",
 					["spells"] = {
 						["_ActorTable"] = {
-							[109304] = {
+							[136] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
+									["猛禽 <额尔古纳右岸>"] = 0,
 								},
-								["n_max"] = 7014,
+								["n_max"] = 0,
 								["targets"] = {
-									["额尔古纳右岸"] = 14028,
+									["猛禽 <额尔古纳右岸>"] = 0,
 								},
 								["n_min"] = 0,
-								["counter"] = 2,
+								["counter"] = 0,
 								["overheal"] = 0,
-								["total"] = 14028,
+								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 109304,
+								["id"] = 136,
 								["targets_absorbs"] = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 2,
-								["n_curado"] = 14028,
+								["n_curado"] = 0,
 								["totaldenied"] = 0,
+								["n_amt"] = 0,
+								["absorbed"] = 0,
+							},
+							[290819] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["狗还是你狗 <额尔古纳右岸>"] = 0,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["狗还是你狗 <额尔古纳右岸>"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 0,
+								["overheal"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 290819,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 0,
 								["absorbed"] = 0,
 							},
 							[128594] = {
@@ -17438,32 +17462,57 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
+								["totaldenied"] = 0,
 								["n_amt"] = 4,
 								["n_curado"] = 992,
+								["absorbed"] = 0,
+							},
+							[109304] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 7014,
+								["targets"] = {
+									["额尔古纳右岸"] = 14028,
+								},
+								["n_min"] = 0,
+								["counter"] = 2,
+								["overheal"] = 0,
+								["total"] = 14028,
+								["c_max"] = 0,
+								["id"] = 109304,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
 								["totaldenied"] = 0,
+								["n_amt"] = 2,
+								["n_curado"] = 14028,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["aID"] = "707-064D548B",
-					["totaldenied"] = 0.017685,
-					["custom"] = 0,
-					["tipo"] = 2,
-					["spec"] = 253,
+					["heal_enemy_amt"] = 0,
 					["start_time"] = 1622019942,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["spec"] = 253,
+					["totaldenied"] = 0.017685,
 					["delay"] = 0,
-					["classe"] = "HUNTER",
+					["tipo"] = 2,
 				}, -- [1]
 				{
 					["flag_original"] = 4369,
-					["targets_overheal"] = {
+					["healing_from"] = {
+						["额尔古纳右岸"] = true,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 0.010318,
 					["total_without_pet"] = 0.010318,
 					["total"] = 0.010318,
@@ -17488,26 +17537,25 @@ _detalhes_database = {
 						},
 						["tipo"] = 3,
 					},
-					["healing_from"] = {
-						["额尔古纳右岸"] = true,
+					["targets_overheal"] = {
 					},
-					["last_event"] = 0,
-					["totaldenied"] = 0.010318,
-					["custom"] = 0,
-					["tipo"] = 2,
-					["heal_enemy_amt"] = 0,
-					["start_time"] = 1622019950,
-					["delay"] = 0,
 					["aID"] = "Pet-0-3120-2222-22796-165189-020303A25B",
+					["classe"] = "PET",
+					["custom"] = 0,
+					["last_event"] = 0,
+					["start_time"] = 1622019950,
+					["totaldenied"] = 0.010318,
+					["delay"] = 0,
+					["tipo"] = 2,
 				}, -- [2]
 				{
 					["flag_original"] = 4369,
-					["targets_overheal"] = {
+					["healing_from"] = {
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "PET",
+					["aID"] = "Pet-0-3120-2222-22796-165189-020303A24D",
 					["totalover"] = 0.016857,
 					["total_without_pet"] = 0.016857,
 					["total"] = 0.016857,
@@ -17531,16 +17579,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 3,
 					},
-					["healing_from"] = {
-					},
-					["last_event"] = 0,
-					["totaldenied"] = 0.016857,
-					["custom"] = 0,
-					["tipo"] = 2,
-					["aID"] = "Pet-0-3120-2222-22796-165189-020303A24D",
 					["start_time"] = 1622019950,
-					["delay"] = 0,
+					["targets_overheal"] = {
+					},
 					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["totaldenied"] = 0.016857,
+					["delay"] = 0,
+					["tipo"] = 2,
 				}, -- [3]
 			},
 		}, -- [2]
@@ -17557,34 +17605,34 @@ _detalhes_database = {
 					["debuff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[5116] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 1,
 								["id"] = 5116,
 								["uptime"] = 17,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[324149] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 3,
 								["id"] = 324149,
 								["uptime"] = 21,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[217200] = {
-								["counter"] = 0,
+								["refreshamt"] = 8,
 								["activedamt"] = 0,
 								["appliedamt"] = 18,
 								["id"] = 217200,
 								["uptime"] = 112,
 								["targets"] = {
 								},
-								["refreshamt"] = 8,
+								["counter"] = 0,
 							},
 						},
 						["tipo"] = 9,
@@ -17601,194 +17649,194 @@ _detalhes_database = {
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[246851] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 11,
 								["appliedamt"] = 11,
 								["id"] = 246851,
 								["uptime"] = 51,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[324822] = {
-								["counter"] = 0,
+								["actived_at"] = 1622019976,
 								["refreshamt"] = 0,
 								["activedamt"] = 9,
-								["uptime"] = 107,
-								["id"] = 324822,
 								["appliedamt"] = 9,
+								["id"] = 324822,
+								["uptime"] = 107,
 								["targets"] = {
 								},
-								["actived_at"] = 1622019976,
+								["counter"] = 0,
 							},
 							[324156] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 324156,
 								["uptime"] = 2,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[41252] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["appliedamt"] = 2,
 								["activedamt"] = 2,
-								["actived_at"] = 1622020365,
-								["id"] = 41252,
 								["uptime"] = 31,
+								["id"] = 41252,
+								["actived_at"] = 1622020365,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[257946] = {
-								["counter"] = 0,
+								["refreshamt"] = 11,
 								["activedamt"] = 18,
 								["appliedamt"] = 18,
 								["id"] = 257946,
 								["uptime"] = 131,
 								["targets"] = {
 								},
-								["refreshamt"] = 11,
+								["counter"] = 0,
 							},
 							[246852] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 3,
 								["appliedamt"] = 3,
 								["id"] = 246852,
 								["uptime"] = 14,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[186406] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 19,
 								["appliedamt"] = 19,
 								["id"] = 186406,
 								["uptime"] = 267,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[313424] = {
-								["counter"] = 0,
+								["refreshamt"] = 37,
 								["activedamt"] = 19,
 								["appliedamt"] = 19,
 								["id"] = 313424,
 								["uptime"] = 254,
 								["targets"] = {
 								},
-								["refreshamt"] = 37,
+								["counter"] = 0,
 							},
 							[202748] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 3,
 								["appliedamt"] = 3,
 								["id"] = 202748,
 								["uptime"] = 1,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[246152] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 17,
 								["appliedamt"] = 17,
 								["id"] = 246152,
 								["uptime"] = 117,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[122708] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["appliedamt"] = 1,
 								["activedamt"] = 1,
-								["actived_at"] = 1622020009,
-								["id"] = 122708,
 								["uptime"] = 0,
+								["id"] = 122708,
+								["actived_at"] = 1622020009,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
 							[193530] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 193530,
 								["uptime"] = 20,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[5384] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 3,
 								["appliedamt"] = 3,
 								["id"] = 5384,
 								["uptime"] = 7,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
-							[317361] = {
+							[19574] = {
 								["refreshamt"] = 0,
 								["activedamt"] = 3,
 								["appliedamt"] = 3,
-								["id"] = 317361,
-								["uptime"] = 32,
+								["id"] = 19574,
+								["uptime"] = 17,
 								["targets"] = {
 								},
 								["counter"] = 0,
-							},
-							[982] = {
-								["counter"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 982,
-								["uptime"] = 6,
-								["targets"] = {
-								},
-								["refreshamt"] = 0,
-							},
-							[186265] = {
-								["counter"] = 0,
-								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 186265,
-								["uptime"] = 8,
-								["targets"] = {
-								},
-								["refreshamt"] = 0,
-							},
-							[269083] = {
-								["counter"] = 0,
-								["activedamt"] = 15,
-								["appliedamt"] = 15,
-								["id"] = 269083,
-								["uptime"] = 197,
-								["targets"] = {
-								},
-								["refreshamt"] = 0,
 							},
 							[264420] = {
-								["counter"] = 0,
+								["refreshamt"] = 0,
 								["activedamt"] = 16,
 								["appliedamt"] = 16,
 								["id"] = 264420,
 								["uptime"] = 197,
 								["targets"] = {
 								},
-								["refreshamt"] = 0,
+								["counter"] = 0,
 							},
-							[19574] = {
+							[186265] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 186265,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[269083] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 15,
+								["appliedamt"] = 15,
+								["id"] = 269083,
+								["uptime"] = 197,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[982] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 982,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[317361] = {
 								["counter"] = 0,
 								["activedamt"] = 3,
 								["appliedamt"] = 3,
-								["id"] = 19574,
-								["uptime"] = 17,
+								["id"] = 317361,
+								["uptime"] = 32,
 								["targets"] = {
 								},
 								["refreshamt"] = 0,
@@ -17798,7 +17846,8 @@ _detalhes_database = {
 					},
 					["fight_component"] = true,
 					["debuff_uptime"] = 150,
-					["aID"] = "707-064D548B",
+					["debuff_uptime_targets"] = {
+					},
 					["buff_uptime_targets"] = {
 					},
 					["spec"] = 253,
@@ -17811,22 +17860,17 @@ _detalhes_database = {
 						[193455] = 27,
 						[53351] = 6,
 						[982] = 2,
-						[185358] = 1,
-						[193530] = 1,
-						[5116] = 1,
-						[109304] = 2,
-						[326099] = 1,
-						[19801] = 1,
-						[186265] = 1,
-						[324821] = 1,
-						[217200] = 25,
 						[272790] = 48,
+						[193530] = 1,
+						[217200] = 25,
+						[326099] = 1,
+						[185358] = 1,
+						[186265] = 1,
+						[19801] = 1,
+						[324821] = 1,
+						[109304] = 2,
+						[5116] = 1,
 					},
-					["serial"] = "Player-707-064D548B",
-					["buff_uptime"] = 1459,
-					["last_event"] = 0,
-					["nome"] = "额尔古纳右岸",
-					["tipo"] = 4,
 					["cooldowns_defensive_spells"] = {
 						["_ActorTable"] = {
 							[109304] = {
@@ -17846,208 +17890,212 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["debuff_uptime_targets"] = {
-					},
+					["tipo"] = 4,
+					["last_event"] = 0,
+					["nome"] = "额尔古纳右岸",
+					["buff_uptime"] = 1459,
+					["serial"] = "Player-707-064D548B",
+					["aID"] = "707-064D548B",
 				}, -- [1]
 				{
 					["fight_component"] = true,
-					["flag_original"] = 4369,
+					["tipo"] = 4,
 					["ownerName"] = "额尔古纳右岸",
 					["nome"] = "猛禽 <额尔古纳右岸>",
-					["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 					["spell_cast"] = {
-						[263852] = 14,
+						[2649] = 18,
 						[61684] = 6,
 						[201754] = 24,
+						[263852] = 14,
 						[16827] = 37,
-						[2649] = 18,
 					},
+					["last_event"] = 0,
 					["pets"] = {
 					},
-					["tipo"] = 4,
+					["aID"] = "Pet-0-3120-2222-22796-165189-010303A25B",
 					["classe"] = "PET",
 					["serial"] = "Pet-0-3120-2222-22796-165189-010303A25B",
-					["last_event"] = 0,
+					["flag_original"] = 4369,
 				}, -- [2]
 				{
 					["flag_original"] = 4369,
 					["ownerName"] = "额尔古纳右岸",
 					["nome"] = "狗还是你狗 <额尔古纳右岸>",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[201754] = 26,
 					},
-					["last_event"] = 0,
-					["tipo"] = 4,
-					["classe"] = "PET",
-					["pets"] = {
-					},
-					["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
 					["aID"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["serial"] = "Pet-0-3120-2222-22796-165189-010303A24D",
+					["tipo"] = 4,
 				}, -- [3]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["last_event"] = 0,
 					["nome"] = "恐惧殴骨者",
-					["tipo"] = 4,
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[330616] = 1,
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
 					["aID"] = "156596",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-3120-2222-22796-156596-00002DFF20",
-					["pets"] = {
-					},
+					["flag_original"] = 68168,
 				}, -- [4]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["last_event"] = 0,
 					["nome"] = "潜伏的纺惧蛛",
-					["tipo"] = 4,
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[330595] = 7,
 						[330604] = 1,
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
 					["aID"] = "156636",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-3120-2222-22796-156636-00002E0EC3",
-					["pets"] = {
-					},
+					["flag_original"] = 68168,
 				}, -- [5]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["last_event"] = 0,
 					["nome"] = "充血的纺惧蛛",
-					["tipo"] = 4,
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[330595] = 4,
 						[330604] = 2,
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
 					["aID"] = "168724",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-3120-2222-22796-168724-00002E0EC4",
-					["pets"] = {
-					},
+					["flag_original"] = 68168,
 				}, -- [6]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["last_event"] = 0,
 					["nome"] = "腐烂的死亡行者",
-					["tipo"] = 4,
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[330636] = 1,
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
 					["aID"] = "168855",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-3120-2222-22796-168855-00002E0E23",
-					["pets"] = {
-					},
+					["flag_original"] = 68168,
 				}, -- [7]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["last_event"] = 0,
 					["nome"] = "堕落的引导者",
-					["tipo"] = 4,
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[328970] = 1,
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
 					["aID"] = "176108",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-3120-2222-22796-176108-00002E102B",
-					["pets"] = {
-					},
+					["flag_original"] = 68168,
 				}, -- [8]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["last_event"] = 0,
 					["nome"] = "堕落的夺灵者",
-					["tipo"] = 4,
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[328414] = 3,
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
 					["aID"] = "156260",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-3120-2222-22796-156260-00002E0D9E",
-					["pets"] = {
-					},
+					["flag_original"] = 68168,
 				}, -- [9]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["last_event"] = 0,
 					["nome"] = "堕落的美食家",
-					["tipo"] = 4,
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[329013] = 3,
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
 					["aID"] = "156264",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-3120-2222-22796-156264-00002E0336",
-					["pets"] = {
-					},
+					["flag_original"] = 2632,
 				}, -- [10]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["last_event"] = 0,
 					["nome"] = "堕落的见证者",
-					["tipo"] = 4,
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[328411] = 2,
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
 					["aID"] = "158928",
+					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["serial"] = "Creature-0-3120-2222-22796-158928-00002DFC6F",
-					["pets"] = {
-					},
+					["flag_original"] = 2632,
 				}, -- [11]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["nome"] = "渊誓警卫",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[329706] = 12,
 						[166906] = 3,
 					},
-					["nome"] = "渊誓警卫",
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["aID"] = "175882",
+					["serial"] = "Creature-0-3042-2222-14742-175882-00002E151E",
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["flag_original"] = 68168,
-					["aID"] = "175882",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3042-2222-14742-175882-00002E151E",
-					["tipo"] = 4,
 				}, -- [12]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["flag_original"] = 2632,
+					["nome"] = "高塔审判官",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[304948] = 1,
 						[304949] = 1,
 						[304946] = 2,
 					},
-					["nome"] = "高塔审判官",
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
+					["aID"] = "171626",
+					["serial"] = "Creature-0-3042-2222-14742-171626-00002E1549",
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["flag_original"] = 2632,
-					["aID"] = "171626",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3042-2222-14742-171626-00002E1549",
-					["tipo"] = 4,
 				}, -- [13]
 			},
 		}, -- [4]
@@ -18060,6 +18108,74 @@ _detalhes_database = {
 		},
 		["raid_roster_indexed"] = {
 		},
+		["spells_cast_timeline"] = {
+		},
+		["tempo_start"] = 801226.463,
+		["cleu_timeline"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 1,
+		["totals"] = {
+			438838.3029480001, -- [1]
+			15019.998614, -- [2]
+			{
+				0, -- [1]
+				[0] = -0.019392,
+				["alternatepower"] = 0,
+				[3] = -0.005988000000002103,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 3.012973000000001,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "17:03:48",
+		["end_time"] = 803085.309,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["totals_grupo"] = {
+			230316.0864790001, -- [1]
+			15020.00878, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 3.012973000000001,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["frags"] = {
+		},
+		["hasSaved"] = true,
 		["segments_added"] = {
 			{
 				["elapsed"] = 38.20400000002701,
@@ -18182,109 +18298,110 @@ _detalhes_database = {
 				["clock"] = 0,
 			}, -- [20]
 		},
-		["tempo_start"] = 801226.463,
-		["cleu_timeline"] = {
+		["data_fim"] = "17:31:26",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
 		},
-		["alternate_power"] = {
-		},
-		["combat_counter"] = 1,
-		["totals"] = {
-			438838.3029480001, -- [1]
-			15019.998614, -- [2]
-			{
-				0, -- [1]
-				[0] = -0.019392,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = -0.005988000000002103,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 3.012973000000001,
-			}, -- [4]
-			["voidzone_damage"] = 0,
-			["frags_total"] = 0,
-		},
-		["player_last_events"] = {
-		},
-		["frags_need_refresh"] = false,
-		["aura_timeline"] = {
-		},
-		["__call"] = {
-		},
-		["data_inicio"] = "17:03:48",
-		["end_time"] = 803085.309,
-		["last_events_tables"] = {
-		},
-		["totals_grupo"] = {
-			230316.0864790001, -- [1]
-			15020.00878, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 3.012973000000001,
-			}, -- [4]
-		},
-		["overall_refreshed"] = true,
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
-			["damage"] = {
+			["damage_section"] = {
 			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
-			["damage_section"] = {
+			["damage"] = {
 			},
-		},
-		["hasSaved"] = true,
-		["spells_cast_timeline"] = {
-		},
-		["data_fim"] = "17:31:26",
-		["overall_enemy_name"] = "-- x -- x --",
-		["CombatSkillCache"] = {
-		},
-		["frags"] = {
 		},
 		["start_time"] = 802820.728,
 		["TimeData"] = {
 		},
-		["cleu_events"] = {
-			["n"] = 1,
+		["last_events_tables"] = {
 		},
 	},
-	["cached_talents"] = {
+	["force_font_outline"] = "",
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = false,
+			["isLocked"] = true,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[3] = 2,
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -442.4443817138672,
+					["x"] = 619.3331298828125,
+					["w"] = 220.0000915527344,
+					["h"] = 134.5555572509766,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = false,
+			["isLocked"] = true,
+			["is_open"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				1, -- [1]
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -442.4443817138672,
+					["x"] = 837.5833740234375,
+					["w"] = 216.4999542236328,
+					["h"] = 134.5555572509766,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
 	},
-	["combat_counter"] = 24,
-	["benchmark_db"] = {
-		["frame"] = {
-		},
+	["character_data"] = {
+		["logons"] = 5,
 	},
 	["announce_cooldowns"] = {
+		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
-		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},

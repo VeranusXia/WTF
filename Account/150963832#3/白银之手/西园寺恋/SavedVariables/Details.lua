@@ -5,6 +5,2088 @@ _detalhes_database = {
 	["mythic_dungeon_id"] = 0,
 	["tabela_historico"] = {
 		["tabelas"] = {
+			{
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007602,
+							["damage_from"] = {
+								["裂殴"] = true,
+								["碎皮刮擦者"] = true,
+								["[*] 暗言术：灭"] = true,
+							},
+							["targets"] = {
+								["碎皮咆哮者"] = 3394,
+								["碎皮雄兽"] = 502,
+								["碎皮幼崽"] = 1572,
+								["裂殴"] = 114953,
+							},
+							["pets"] = {
+							},
+							["aID"] = "707-064FE03A",
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 120421.007602,
+							["end_time"] = 1625535782,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 120421.007602,
+							["classe"] = "PRIEST",
+							["on_hold"] = false,
+							["nome"] = "西园寺恋",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[15407] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 598,
+										["targets"] = {
+											["裂殴"] = 6118,
+										},
+										["n_dmg"] = 6118,
+										["n_min"] = 524,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 6118,
+										["c_max"] = 0,
+										["id"] = 15407,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 11,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[323673] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 11447,
+										["targets"] = {
+											["裂殴"] = 11447,
+										},
+										["n_dmg"] = 11447,
+										["n_min"] = 11447,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 11447,
+										["c_max"] = 0,
+										["id"] = 323673,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[335467] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2598,
+										["g_amt"] = 0,
+										["n_max"] = 1729,
+										["targets"] = {
+											["裂殴"] = 19497,
+										},
+										["n_dmg"] = 16899,
+										["n_min"] = 407,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 19497,
+										["c_max"] = 2598,
+										["id"] = 335467,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 2598,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 15,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[34914] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4055,
+										["targets"] = {
+											["裂殴"] = 17032,
+										},
+										["n_dmg"] = 17032,
+										["n_min"] = 639,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["total"] = 17032,
+										["c_max"] = 0,
+										["id"] = 34914,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 19,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[8092] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 4912,
+										["g_amt"] = 0,
+										["n_max"] = 2528,
+										["targets"] = {
+											["裂殴"] = 14573,
+										},
+										["n_dmg"] = 9661,
+										["n_min"] = 2280,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 14573,
+										["c_max"] = 4912,
+										["id"] = 8092,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 4912,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[32379] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5220,
+										["targets"] = {
+											["裂殴"] = 5220,
+										},
+										["n_dmg"] = 5220,
+										["n_min"] = 5220,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 5220,
+										["c_max"] = 0,
+										["id"] = 32379,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[263165] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2997,
+										["targets"] = {
+											["裂殴"] = 25043,
+										},
+										["n_dmg"] = 25043,
+										["n_min"] = 1458,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 25043,
+										["c_max"] = 0,
+										["id"] = 263165,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 10,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[148859] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 627,
+										["targets"] = {
+											["裂殴"] = 4640,
+										},
+										["n_dmg"] = 4640,
+										["n_min"] = 453,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 4640,
+										["c_max"] = 0,
+										["id"] = 148859,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 9,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 135,
+										["targets"] = {
+											["碎皮咆哮者"] = 113,
+											["碎皮幼崽"] = 62,
+											["裂殴"] = 1057,
+										},
+										["n_dmg"] = 1232,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 33,
+										["total"] = 1232,
+										["c_max"] = 0,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["spellschool"] = 48,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 33,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[589] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 764,
+										["g_amt"] = 0,
+										["n_max"] = 467,
+										["targets"] = {
+											["裂殴"] = 10326,
+										},
+										["n_dmg"] = 9562,
+										["n_min"] = 41,
+										["g_dmg"] = 0,
+										["counter"] = 27,
+										["total"] = 10326,
+										["c_max"] = 764,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 764,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 26,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[49821] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 499,
+										["g_amt"] = 0,
+										["n_max"] = 259,
+										["targets"] = {
+											["碎皮咆哮者"] = 3281,
+											["碎皮雄兽"] = 502,
+											["碎皮幼崽"] = 1510,
+										},
+										["n_dmg"] = 4794,
+										["n_min"] = 247,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 5293,
+										["c_max"] = 499,
+										["id"] = 49821,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 499,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 19,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 258,
+							["serial"] = "Player-707-064FE03A",
+							["last_dps"] = 1580.079352359218,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 45102.007602,
+							["start_time"] = 1625535716,
+							["delay"] = 1625535724,
+							["last_event"] = 1625535780,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 20829.001165,
+							["damage_from"] = {
+								["少年维特的熊"] = true,
+								["乌龙苏打"] = true,
+								["Zoeybb"] = true,
+								["西园寺恋"] = true,
+								["龙子天行"] = true,
+								["远哥长得帅"] = true,
+								["静候佳阴"] = true,
+							},
+							["targets"] = {
+								["少年维特的熊"] = 9763,
+								["方形假劣人"] = 28073,
+								["剑胆琴心丶"] = 1207,
+								["跨过鸭绿江"] = 1029,
+								["龙子天行"] = 35284,
+							},
+							["serial"] = "Vehicle-0-3914-2222-13059-178547-000063B4BB",
+							["pets"] = {
+							},
+							["on_hold"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 75356.001165,
+							["fight_component"] = true,
+							["timeMachine"] = 53,
+							["dps_started"] = true,
+							["total"] = 75356.001165,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
+							["nome"] = "碎皮咆哮者",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2759,
+										["g_amt"] = 0,
+										["n_max"] = 1897,
+										["targets"] = {
+											["少年维特的熊"] = 9763,
+											["方形假劣人"] = 28073,
+											["剑胆琴心丶"] = 1207,
+											["跨过鸭绿江"] = 1029,
+											["龙子天行"] = 32327,
+										},
+										["n_dmg"] = 69640,
+										["n_min"] = 516,
+										["g_dmg"] = 0,
+										["counter"] = 61,
+										["total"] = 72399,
+										["c_max"] = 2759,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 3541,
+										["c_min"] = 2759,
+										["successful_casted"] = 0,
+										["a_amt"] = 3,
+										["n_amt"] = 58,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[355415] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 355415,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 8,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[355416] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 650,
+										["targets"] = {
+											["龙子天行"] = 2957,
+										},
+										["n_dmg"] = 2957,
+										["n_min"] = 35,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 2957,
+										["c_max"] = 0,
+										["id"] = 355416,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 7,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1625535794,
+							["damage_taken"] = 221564.001165,
+							["start_time"] = 1625535707,
+							["delay"] = 1625535794,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 14188.008503,
+							["damage_from"] = {
+								["乌龙苏打"] = true,
+								["西园寺恋"] = true,
+								["Zoeybb"] = true,
+								["远哥长得帅"] = true,
+								["龙子天行"] = true,
+							},
+							["targets"] = {
+								["西园寺恋"] = 37414,
+								["龙子天行"] = 4012,
+							},
+							["total"] = 41426.00850300001,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 41426.00850300001,
+							["fight_component"] = true,
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1625535782,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "裂殴",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3671,
+										["g_amt"] = 0,
+										["n_max"] = 2177,
+										["targets"] = {
+											["西园寺恋"] = 24187,
+											["龙子天行"] = 4012,
+										},
+										["n_dmg"] = 24528,
+										["n_min"] = 1576,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 28199,
+										["c_max"] = 3671,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 9701,
+										["c_min"] = 3671,
+										["successful_casted"] = 0,
+										["a_amt"] = 4,
+										["n_amt"] = 13,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[356386] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 356386,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[356384] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6240,
+										["targets"] = {
+											["西园寺恋"] = 12480,
+										},
+										["n_dmg"] = 12480,
+										["n_min"] = 6240,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 12480,
+										["c_max"] = 0,
+										["id"] = 356384,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[355416] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 249,
+										["targets"] = {
+											["西园寺恋"] = 747,
+										},
+										["n_dmg"] = 747,
+										["n_min"] = 249,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 747,
+										["c_max"] = 0,
+										["id"] = 355416,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[355415] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 355415,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 1,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "178907",
+							["serial"] = "Creature-0-3914-2222-13059-178907-000063B4E6",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1625535781,
+							["damage_taken"] = 477615.008503,
+							["start_time"] = 1625535736,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 4594.005872,
+							["damage_from"] = {
+								["少年维特的熊"] = true,
+								["弗特莱"] = true,
+								["乌龙苏打"] = true,
+								["西园寺恋"] = true,
+								["起泡脓包"] = true,
+								["灵魂兽"] = true,
+								["龙子天行"] = true,
+								["Zoeybb"] = true,
+								["一只小小团子"] = true,
+								["远哥长得帅"] = true,
+								["静候佳阴"] = true,
+							},
+							["targets"] = {
+								["少年维特的熊"] = 7608,
+								["弗特莱"] = 1302,
+								["远哥长得帅"] = 4037,
+								["龙子天行"] = 1687,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 14634.005872,
+							["fight_component"] = true,
+							["timeMachine"] = 60,
+							["dps_started"] = true,
+							["total"] = 14634.005872,
+							["monster"] = true,
+							["friendlyfire_total"] = 0,
+							["nome"] = "碎皮雄兽",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1687,
+										["targets"] = {
+											["少年维特的熊"] = 7608,
+											["弗特莱"] = 1302,
+											["龙子天行"] = 1687,
+										},
+										["n_dmg"] = 10597,
+										["n_min"] = 361,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 10597,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["DODGE"] = 2,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 1502,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 2,
+										["n_amt"] = 14,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[355418] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 355418,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[355416] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 779,
+										["targets"] = {
+											["远哥长得帅"] = 4037,
+											["少年维特的熊"] = 0,
+										},
+										["n_dmg"] = 4037,
+										["n_min"] = 260,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 4037,
+										["c_max"] = 0,
+										["id"] = 355416,
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 7,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[355415] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 355415,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["aID"] = "",
+							["serial"] = "Vehicle-0-3914-2222-13059-178527-0000E3B482",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1625535793,
+							["damage_taken"] = 106157.005872,
+							["start_time"] = 1625535753,
+							["delay"] = 1625535793,
+							["tipo"] = 1,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.006822,
+							["serial"] = "",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["西园寺恋"] = 5220,
+								["乌龙苏打"] = 8598,
+							},
+							["spellicon"] = 136149,
+							["on_hold"] = false,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 13818.006822,
+							["pets"] = {
+							},
+							["monster"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1625535782,
+							["friendlyfire_total"] = 0,
+							["aID"] = "",
+							["nome"] = "[*] 暗言术：灭",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[32409] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8598,
+										["targets"] = {
+											["西园寺恋"] = 5220,
+											["乌龙苏打"] = 8598,
+										},
+										["n_dmg"] = 13818,
+										["n_min"] = 5220,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 13818,
+										["c_max"] = 0,
+										["id"] = 32409,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["total"] = 13818.006822,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1625535779,
+							["damage_taken"] = 0.006822,
+							["start_time"] = 1625535779,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 323.004081,
+							["aID"] = "180103",
+							["damage_from"] = {
+								["乌龙苏打"] = true,
+								["远哥长得帅"] = true,
+								["龙子天行"] = true,
+							},
+							["targets"] = {
+								["西园寺恋"] = 2468,
+							},
+							["pets"] = {
+							},
+							["end_time"] = 1625535782,
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2468.004081,
+							["monster"] = true,
+							["dps_started"] = false,
+							["total"] = 2468.004081,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "碎皮刮擦者",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 413,
+										["targets"] = {
+											["西园寺恋"] = 2468,
+										},
+										["n_dmg"] = 2468,
+										["n_min"] = 299,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 2468,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 7,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[355415] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 355415,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 2,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3914-2222-13059-180103-0000E3B50B",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1625535761,
+							["damage_taken"] = 17207.004081,
+							["start_time"] = 1625535775,
+							["delay"] = 1625535761,
+							["tipo"] = 1,
+						}, -- [6]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 1782.005079,
+							["damage_from"] = {
+								["西园寺恋"] = true,
+								["少年维特的熊"] = true,
+								["远哥长得帅"] = true,
+								["静候佳阴"] = true,
+							},
+							["targets"] = {
+								["少年维特的熊"] = 1782,
+							},
+							["pets"] = {
+							},
+							["aID"] = "178526",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1782.005079,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 1782.005079,
+							["end_time"] = 1625535782,
+							["on_hold"] = false,
+							["nome"] = "碎皮幼崽",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 507,
+										["targets"] = {
+											["少年维特的熊"] = 1782,
+										},
+										["n_dmg"] = 1782,
+										["n_min"] = 386,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 1782,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["serial"] = "Creature-0-3914-2222-13059-178526-0000E3B4BB",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1625535724,
+							["damage_taken"] = 18367.005079,
+							["start_time"] = 1625535769,
+							["delay"] = 1625535724,
+							["tipo"] = 1,
+						}, -- [7]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["西园寺恋"] = 11850,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PRIEST",
+							["totalover"] = 11850.006367,
+							["total_without_pet"] = 31742.006367,
+							["total"] = 31742.006367,
+							["targets_absorbs"] = {
+								["西园寺恋"] = 17272,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-707-064FE03A",
+							["totalabsorb"] = 17272.006367,
+							["last_hps"] = 416.4961733978927,
+							["targets"] = {
+								["西园寺恋"] = 31742,
+							},
+							["totalover_without_pet"] = 0.006367,
+							["healing_taken"] = 31742.006367,
+							["fight_component"] = true,
+							["end_time"] = 1625535782,
+							["healing_from"] = {
+								["西园寺恋"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "西园寺恋",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[17] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 6016,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 2040,
+										["targets"] = {
+											["西园寺恋"] = 6016,
+										},
+										["n_min"] = 249,
+										["counter"] = 6,
+										["overheal"] = 0,
+										["total"] = 6016,
+										["c_max"] = 0,
+										["id"] = 17,
+										["targets_absorbs"] = {
+											["西园寺恋"] = 6016,
+										},
+										["n_amt"] = 6,
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 6016,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[323701] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 11256,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 6240,
+										["targets"] = {
+											["西园寺恋"] = 11256,
+										},
+										["n_min"] = 1576,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 11256,
+										["c_max"] = 0,
+										["id"] = 323701,
+										["targets_absorbs"] = {
+											["西园寺恋"] = 11256,
+										},
+										["n_amt"] = 3,
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 11256,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[34914] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 446,
+										["targets"] = {
+											["西园寺恋"] = 5318,
+										},
+										["n_min"] = 319,
+										["counter"] = 15,
+										["overheal"] = 0,
+										["total"] = 5318,
+										["c_max"] = 0,
+										["id"] = 34914,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 5318,
+										["totaldenied"] = 0,
+										["n_amt"] = 15,
+										["absorbed"] = 0,
+									},
+									[335467] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["西园寺恋"] = 1418,
+										},
+										["n_max"] = 1299,
+										["targets"] = {
+											["西园寺恋"] = 8327,
+										},
+										["n_min"] = 203,
+										["counter"] = 16,
+										["overheal"] = 1418,
+										["total"] = 8327,
+										["c_max"] = 0,
+										["id"] = 335467,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 8327,
+										["totaldenied"] = 0,
+										["n_amt"] = 16,
+										["absorbed"] = 0,
+									},
+									[323706] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["西园寺恋"] = 10432,
+										},
+										["n_max"] = 825,
+										["targets"] = {
+											["西园寺恋"] = 825,
+										},
+										["n_min"] = 0,
+										["counter"] = 3,
+										["overheal"] = 10432,
+										["total"] = 825,
+										["c_max"] = 0,
+										["id"] = 323706,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 825,
+										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1625535736,
+							["spec"] = 258,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "707-064FE03A",
+							["totaldenied"] = 0.006367,
+							["delay"] = 0,
+							["last_event"] = 1625535779,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.002044,
+							["resource"] = 266.0020436423721,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PRIEST",
+							["passiveover"] = 0.002044,
+							["fight_component"] = true,
+							["total"] = 0.002044,
+							["resource_type"] = 13,
+							["nome"] = "西园寺恋",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 258,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.002044,
+							["last_event"] = 1625535780,
+							["aID"] = "707-064FE03A",
+							["tipo"] = 3,
+							["serial"] = "Player-707-064FE03A",
+							["totalover"] = 0.002044,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[15407] = {
+										["activedamt"] = 0,
+										["id"] = 15407,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[48045] = {
+										["activedamt"] = -1,
+										["id"] = 48045,
+										["targets"] = {
+										},
+										["uptime"] = 76,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[335467] = {
+										["activedamt"] = 0,
+										["id"] = 335467,
+										["targets"] = {
+										},
+										["uptime"] = 26,
+										["appliedamt"] = 4,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[341291] = {
+										["activedamt"] = 1,
+										["id"] = 341291,
+										["targets"] = {
+										},
+										["uptime"] = 36,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[34914] = {
+										["activedamt"] = 0,
+										["id"] = 34914,
+										["targets"] = {
+										},
+										["uptime"] = 47,
+										["appliedamt"] = 1,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6788] = {
+										["activedamt"] = 0,
+										["id"] = 6788,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[263165] = {
+										["activedamt"] = 0,
+										["id"] = 263165,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 43,
+										["appliedamt"] = 3,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[323673] = {
+										["activedamt"] = 0,
+										["id"] = 323673,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 578,
+							["aID"] = "707-064FE03A",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[225787] = {
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["uptime"] = 77,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[256374] = {
+										["activedamt"] = 2,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 24,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[341207] = {
+										["activedamt"] = 1,
+										["id"] = 341207,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[355462] = {
+										["activedamt"] = 1,
+										["id"] = 355462,
+										["targets"] = {
+										},
+										["uptime"] = 77,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93811] = {
+										["activedamt"] = 1,
+										["id"] = 93811,
+										["targets"] = {
+										},
+										["uptime"] = 77,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[336885] = {
+										["activedamt"] = 2,
+										["id"] = 336885,
+										["targets"] = {
+										},
+										["uptime"] = 24,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[45242] = {
+										["activedamt"] = 1,
+										["id"] = 45242,
+										["targets"] = {
+										},
+										["uptime"] = 38,
+										["appliedamt"] = 1,
+										["refreshamt"] = 20,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[15407] = {
+										["activedamt"] = 3,
+										["id"] = 15407,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[17] = {
+										["activedamt"] = 2,
+										["id"] = 17,
+										["targets"] = {
+										},
+										["uptime"] = 16,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[345230] = {
+										["activedamt"] = 1,
+										["id"] = 345230,
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[347600] = {
+										["activedamt"] = 1,
+										["id"] = 347600,
+										["targets"] = {
+										},
+										["uptime"] = 77,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[289577] = {
+										["activedamt"] = 2,
+										["id"] = 289577,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[324748] = {
+										["activedamt"] = 2,
+										["id"] = 324748,
+										["targets"] = {
+										},
+										["uptime"] = 35,
+										["appliedamt"] = 2,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[341282] = {
+										["activedamt"] = 3,
+										["id"] = 341282,
+										["targets"] = {
+										},
+										["uptime"] = 16,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[263165] = {
+										["activedamt"] = 2,
+										["id"] = 263165,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[232698] = {
+										["activedamt"] = 1,
+										["id"] = 232698,
+										["targets"] = {
+										},
+										["uptime"] = 77,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 262,
+							["nome"] = "西园寺恋",
+							["spec"] = 258,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[15407] = 3,
+								[48045] = 3,
+								[147193] = 12,
+								[34914] = 4,
+								[8092] = 5,
+								[32379] = 1,
+								[17] = 2,
+								[335467] = 5,
+								[263165] = 2,
+								[323673] = 1,
+								[341263] = 12,
+								[589] = 1,
+								[336885] = 3,
+								[324748] = 4,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1625535782,
+							["pets"] = {
+							},
+							["classe"] = "PRIEST",
+							["serial"] = "Player-707-064FE03A",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["classe"] = "UNKNOW",
+							["nome"] = "碎皮幼崽",
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								[355432] = 2,
+							},
+							["tipo"] = 4,
+							["aID"] = "178526",
+							["serial"] = "Creature-0-3914-2222-13059-178526-0000E3B4BB",
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["classe"] = "UNKNOW",
+							["nome"] = "碎皮咆哮者",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[355415] = 8,
+							},
+							["monster"] = true,
+							["tipo"] = 4,
+							["aID"] = "",
+							["serial"] = "Vehicle-0-3914-2222-13059-178547-000063B4DA",
+							["last_event"] = 0,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["classe"] = "UNKNOW",
+							["nome"] = "碎皮雄兽",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[355418] = 2,
+								[355415] = 2,
+							},
+							["monster"] = true,
+							["tipo"] = 4,
+							["aID"] = "",
+							["serial"] = "Vehicle-0-3914-2222-13059-178527-000063B482",
+							["last_event"] = 0,
+						}, -- [4]
+						{
+							["monster"] = true,
+							["nome"] = "裂殴",
+							["flag_original"] = 2632,
+							["spell_cast"] = {
+								[356386] = 1,
+								[356384] = 2,
+								[355415] = 1,
+							},
+							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3914-2222-13059-178907-000063B4E6",
+							["aID"] = "178907",
+						}, -- [5]
+						{
+							["monster"] = true,
+							["nome"] = "碎皮刮擦者",
+							["flag_original"] = 2632,
+							["spell_cast"] = {
+								[355415] = 2,
+							},
+							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3914-2222-13059-180103-0000E3B50B",
+							["aID"] = "180103",
+						}, -- [6]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["西园寺恋"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"西园寺恋", -- [1]
+				},
+				["CombatStartedAt"] = 88300.269,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 1271,
+				["playing_solo"] = true,
+				["totals"] = {
+					269904.871468, -- [1]
+					31741.92239, -- [2]
+					{
+						-0.01987600000001066, -- [1]
+						[0] = -0.02766599999894109,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = -0.005819999999999936,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "09:43:02",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "裂殴",
+				["TotalElapsedCombatTime"] = 6.130000000004657,
+				["CombatEndedAt"] = 88306.399,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "09:41:45",
+				["end_time"] = 88293.341,
+				["combat_id"] = 1,
+				["tempo_start"] = 1625535705,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["frags"] = {
+					["裂殴"] = 1,
+					["碎皮幼崽"] = 2,
+					["凶暴跃足兽"] = 1,
+					["碎皮咆哮者"] = 8,
+					["碎皮雄兽"] = 3,
+					["碎皮刮擦者"] = 2,
+				},
+				["totals_grupo"] = {
+					120421, -- [1]
+					31742, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["西园寺恋"] = 31742.006367,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["西园寺恋"] = 120421.007602,
+						}, -- [1]
+					},
+				},
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 88217.129,
+				["contra"] = "碎皮咆哮者",
+				["TimeData"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.007883,
+							["resource"] = 3.007883,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PRIEST",
+							["passiveover"] = 0.007883,
+							["total"] = 0.007883,
+							["resource_type"] = 13,
+							["nome"] = "西园寺恋",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 258,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.007883,
+							["last_event"] = 1625535705,
+							["aID"] = "707-064FE03A",
+							["tipo"] = 3,
+							["serial"] = "Player-707-064FE03A",
+							["totalover"] = 0.007883,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "西园寺恋",
+							["spec"] = 258,
+							["grupo"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 0,
+							["pets"] = {
+							},
+							["classe"] = "PRIEST",
+							["last_event"] = 1625535701,
+							["tipo"] = 4,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[225787] = {
+										["activedamt"] = 0,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[232698] = {
+										["activedamt"] = 0,
+										["id"] = 232698,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[355462] = {
+										["activedamt"] = 0,
+										["id"] = 355462,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[289555] = {
+										["activedamt"] = 0,
+										["id"] = 289555,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[347600] = {
+										["activedamt"] = 0,
+										["id"] = 347600,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93811] = {
+										["activedamt"] = 0,
+										["id"] = 93811,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-707-064FE03A",
+							["aID"] = "707-064FE03A",
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+				},
+				["raid_roster_indexed"] = {
+				},
+				["CombatStartedAt"] = 88216.441,
+				["overall_added"] = true,
+				["cleu_timeline"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "未知",
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					-0.1383879999853297, -- [1]
+					-0.07250199999738074, -- [2]
+					{
+						-0.02274499999998625, -- [1]
+						[0] = -0.02303099999997299,
+						["alternatepower"] = 0,
+						[3] = -0.01271099999999592,
+						[6] = -0.004449999999991405,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["CombatEndedAt"] = 88213.03,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+						}, -- [1]
+					},
+				},
+				["end_time"] = 88213.03,
+				["tempo_start"] = 88067.18400000001,
+				["instance_type"] = "none",
+				["last_events_tables"] = {
+				},
+				["combat_counter"] = 1270,
+				["player_last_events"] = {
+				},
+				["frags"] = {
+				},
+				["data_fim"] = "09:41:41",
+				["data_inicio"] = 0,
+				["CombatSkillCache"] = {
+				},
+				["TotalElapsedCombatTime"] = 16.00699999999779,
+				["start_time"] = 0,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [2]
 		},
 	},
 	["ocd_tracker"] = {
@@ -21,7 +2103,7 @@ _detalhes_database = {
 		["pos"] = {
 		},
 	},
-	["last_version"] = "9.1.08697",
+	["last_version"] = "9.1.08698",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -35,8 +2117,6 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
-		["last_version"] = 14,
-		["nextreset"] = 1626001815,
 		["西园寺恋"] = {
 			"西园寺恋", -- [1]
 			false, -- [2]
@@ -46,6 +2126,8 @@ _detalhes_database = {
 			false, -- [6]
 			1, -- [7]
 		},
+		["nextreset"] = 1626001815,
+		["last_version"] = 14,
 	},
 	["last_instance_id"] = 2291,
 	["announce_interrupts"] = {
@@ -101,15 +2183,15 @@ _detalhes_database = {
 			["tank_block_size"] = 150,
 			["bar_height"] = 24,
 			["tank_block_texture"] = "Details Serenity",
-			["show_inc_bars"] = true,
-			["tank_block_height"] = 40,
-			["tank_block_powerbar_size_height"] = 10,
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
+			["tank_block_powerbar_size_height"] = 10,
+			["tank_block_height"] = 40,
+			["show_inc_bars"] = true,
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -119,11 +2201,11 @@ _detalhes_database = {
 			["last_section_selected"] = "main",
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["encounter_timers_dbm"] = {
-			},
+			["hide_on_combat"] = false,
 			["show_icon"] = 5,
 			["opened"] = 0,
-			["hide_on_combat"] = false,
+			["encounter_timers_dbm"] = {
+			},
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["use_square_mode"] = false,
@@ -144,32 +2226,22 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = false,
 			},
-			["arrow_anchor_y"] = 0,
+			["scale"] = 1,
 			["arrow_anchor_x"] = 0,
-			["main_frame_locked"] = false,
+			["row_height"] = 20,
 			["row_texture"] = "Details Serenity",
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
-			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
-				["scale"] = 1,
-				["font_shadow"] = true,
-				["y"] = 1.52587890625e-05,
-				["x"] = -3.0517578125e-05,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
-				["size"] = 32,
-			},
-			["author"] = "Details! Team",
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["font_size"] = 10,
+			["y"] = -2.288818359375e-05,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -177,24 +2249,35 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -2.288818359375e-05,
 			["use_spark"] = true,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 1.52587890625e-05,
+				["x"] = -3.0517578125e-05,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
 			["x"] = -0.00018310546875,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["point"] = "CENTER",
-			["font_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["row_height"] = 20,
-			["scale"] = 1,
+			["font_size"] = 10,
+			["author"] = "Details! Team",
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
 		},
 	},
+	["last_day"] = "06",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -206,19 +2289,1830 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
+	["cached_roles"] = {
+	},
 	["announce_prepots"] = {
 		["enabled"] = false,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["announce_damagerecord"] = {
+	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["last_day"] = "03",
-	["character_data"] = {
-		["logons"] = 64,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
 	},
+	["combat_id"] = 1,
+	["savedStyles"] = {
+	},
+	["combat_counter"] = 1271,
+	["cached_talents"] = {
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 20662.011339,
+					["dps_started"] = false,
+					["damage_from"] = {
+						["少年维特的熊"] = true,
+						["剑胆琴心丶"] = true,
+						["西园寺恋"] = true,
+						["斯淳瀚匀"] = true,
+						["樱香痕迹-奥特兰克"] = true,
+						["龙子天行"] = true,
+						["晓夏"] = true,
+						["远哥长得帅"] = true,
+						["静候佳阴"] = true,
+					},
+					["targets"] = {
+						["少年维特的熊"] = 17067,
+						["斯淳瀚匀"] = 17658,
+						["剑胆琴心丶"] = 1207,
+						["方形假劣人"] = 23431,
+						["龙子天行"] = 32648,
+						["远哥长得帅"] = 2597,
+						["静候佳阴"] = 9074,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["aID"] = "",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 103682.011339,
+					["end_time"] = 1625535701,
+					["monster"] = true,
+					["total"] = 103682.011339,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "碎皮咆哮者",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 10187,
+								["g_amt"] = 0,
+								["n_max"] = 1903,
+								["targets"] = {
+									["少年维特的熊"] = 16647,
+									["斯淳瀚匀"] = 16877,
+									["剑胆琴心丶"] = 1207,
+									["方形假劣人"] = 23431,
+									["龙子天行"] = 30015,
+									["静候佳阴"] = 9074,
+								},
+								["n_dmg"] = 87064,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 83,
+								["total"] = 97251,
+								["c_max"] = 2773,
+								["MISS"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["DODGE"] = 1,
+								["a_dmg"] = 4037,
+								["extra"] = {
+								},
+								["PARRY"] = 2,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 5,
+								["n_amt"] = 75,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[355416] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 779,
+								["targets"] = {
+									["少年维特的熊"] = 420,
+									["斯淳瀚匀"] = 781,
+									["远哥长得帅"] = 2597,
+									["龙子天行"] = 2633,
+								},
+								["n_dmg"] = 6431,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 18,
+								["total"] = 6431,
+								["c_max"] = 0,
+								["id"] = 355416,
+								["r_dmg"] = 0,
+								["DODGE"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 17,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[355415] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 355415,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 8,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["serial"] = "Vehicle-0-3914-2222-13059-178547-000063B461",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1625535577,
+					["delay"] = 0,
+					["damage_taken"] = 296868.011339,
+				}, -- [1]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 3529.016068,
+					["dps_started"] = false,
+					["damage_from"] = {
+						["少年维特的熊"] = true,
+						["弗特莱"] = true,
+						["剑胆琴心丶"] = true,
+						["西园寺恋"] = true,
+						["起泡脓包"] = true,
+						["灵魂兽"] = true,
+						["远哥长得帅"] = true,
+						["格里恩哥利亚"] = true,
+						["一只小小团子"] = true,
+						["晓夏"] = true,
+						["静候佳阴"] = true,
+					},
+					["targets"] = {
+						["少年维特的熊"] = 8730,
+						["一只小小团子"] = 4307,
+						["远哥长得帅"] = 4037,
+						["弗特莱"] = 1302,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["aID"] = "",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 18376.016068,
+					["end_time"] = 1625535701,
+					["monster"] = true,
+					["total"] = 18376.016068,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
+					["nome"] = "碎皮雄兽",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1641,
+								["targets"] = {
+									["少年维特的熊"] = 8730,
+									["一只小小团子"] = 4307,
+									["弗特莱"] = 1302,
+								},
+								["n_dmg"] = 14339,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 20,
+								["total"] = 14339,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["DODGE"] = 2,
+								["extra"] = {
+								},
+								["a_dmg"] = 1502,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 2,
+								["n_amt"] = 18,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[355418] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 355418,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[355416] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 779,
+								["targets"] = {
+									["远哥长得帅"] = 4037,
+									["少年维特的熊"] = 0,
+								},
+								["n_dmg"] = 4037,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["total"] = 4037,
+								["c_max"] = 0,
+								["id"] = 355416,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 7,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[355415] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 355415,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["serial"] = "Vehicle-0-3914-2222-13059-178527-0000E3B482",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1625535663,
+					["delay"] = 0,
+					["damage_taken"] = 143067.016068,
+				}, -- [2]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 2171.01941,
+					["damage_from"] = {
+						["少年维特的熊"] = true,
+						["西园寺恋"] = true,
+						["远哥长得帅"] = true,
+						["静候佳阴"] = true,
+					},
+					["targets"] = {
+						["少年维特的熊"] = 2171,
+					},
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 2171.01941,
+					["last_event"] = 0,
+					["aID"] = "178526",
+					["dps_started"] = false,
+					["total"] = 2171.01941,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "碎皮幼崽",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 507,
+								["targets"] = {
+									["少年维特的熊"] = 2171,
+								},
+								["n_dmg"] = 2171,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 2171,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["DODGE"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 5,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["on_hold"] = false,
+					["end_time"] = 1625535701,
+					["friendlyfire"] = {
+					},
+					["serial"] = "Creature-0-3914-2222-13059-178526-0000E3B4BB",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1625535680,
+					["delay"] = 0,
+					["damage_taken"] = 24485.01941,
+				}, -- [3]
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.016432,
+					["friendlyfire_total"] = 0,
+					["damage_from"] = {
+						["裂殴"] = true,
+						["碎皮刮擦者"] = true,
+						["[*] 暗言术：灭"] = true,
+					},
+					["targets"] = {
+						["碎皮咆哮者"] = 3394,
+						["碎皮雄兽"] = 502,
+						["碎皮幼崽"] = 1572,
+						["裂殴"] = 114953,
+					},
+					["pets"] = {
+					},
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1625535782,
+					["aID"] = "707-064FE03A",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 120421.016432,
+					["classe"] = "PRIEST",
+					["dps_started"] = false,
+					["total"] = 120421.016432,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["nome"] = "西园寺恋",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[15407] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 598,
+								["targets"] = {
+									["裂殴"] = 6118,
+								},
+								["n_dmg"] = 6118,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 6118,
+								["c_max"] = 0,
+								["id"] = 15407,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 11,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[323673] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 11447,
+								["targets"] = {
+									["裂殴"] = 11447,
+								},
+								["n_dmg"] = 11447,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 11447,
+								["c_max"] = 0,
+								["id"] = 323673,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[335467] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 2598,
+								["g_amt"] = 0,
+								["n_max"] = 1729,
+								["targets"] = {
+									["裂殴"] = 19497,
+								},
+								["n_dmg"] = 16899,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 16,
+								["total"] = 19497,
+								["c_max"] = 2598,
+								["id"] = 335467,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 15,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[34914] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 4055,
+								["targets"] = {
+									["裂殴"] = 17032,
+								},
+								["n_dmg"] = 17032,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 19,
+								["total"] = 17032,
+								["c_max"] = 0,
+								["id"] = 34914,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 19,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[8092] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 4912,
+								["g_amt"] = 0,
+								["n_max"] = 2528,
+								["targets"] = {
+									["裂殴"] = 14573,
+								},
+								["n_dmg"] = 9661,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 14573,
+								["c_max"] = 4912,
+								["id"] = 8092,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 4,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[32379] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 5220,
+								["targets"] = {
+									["裂殴"] = 5220,
+								},
+								["n_dmg"] = 5220,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 5220,
+								["c_max"] = 0,
+								["id"] = 32379,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[263165] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2997,
+								["targets"] = {
+									["裂殴"] = 25043,
+								},
+								["n_dmg"] = 25043,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 10,
+								["total"] = 25043,
+								["c_max"] = 0,
+								["id"] = 263165,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 10,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[148859] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 627,
+								["targets"] = {
+									["裂殴"] = 4640,
+								},
+								["n_dmg"] = 4640,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 4640,
+								["c_max"] = 0,
+								["id"] = 148859,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 9,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[259756] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 135,
+								["targets"] = {
+									["碎皮咆哮者"] = 113,
+									["碎皮幼崽"] = 62,
+									["裂殴"] = 1057,
+								},
+								["n_dmg"] = 1232,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 33,
+								["total"] = 1232,
+								["c_max"] = 0,
+								["id"] = 259756,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 33,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[589] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 764,
+								["g_amt"] = 0,
+								["n_max"] = 467,
+								["targets"] = {
+									["裂殴"] = 10326,
+								},
+								["n_dmg"] = 9562,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 27,
+								["total"] = 10326,
+								["c_max"] = 764,
+								["id"] = 589,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 26,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[49821] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 499,
+								["g_amt"] = 0,
+								["n_max"] = 259,
+								["targets"] = {
+									["碎皮咆哮者"] = 3281,
+									["碎皮雄兽"] = 502,
+									["碎皮幼崽"] = 1510,
+								},
+								["n_dmg"] = 4794,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 20,
+								["total"] = 5293,
+								["c_max"] = 499,
+								["id"] = 49821,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 19,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["spec"] = 258,
+					["serial"] = "Player-707-064FE03A",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1625535713,
+					["delay"] = 0,
+					["damage_taken"] = 45102.016432,
+				}, -- [4]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 14188.017296,
+					["damage_from"] = {
+						["乌龙苏打"] = true,
+						["Zoeybb"] = true,
+						["西园寺恋"] = true,
+						["远哥长得帅"] = true,
+						["龙子天行"] = true,
+					},
+					["targets"] = {
+						["西园寺恋"] = 37414,
+						["龙子天行"] = 4012,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "178907",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 41426.01729600001,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1625535782,
+					["dps_started"] = false,
+					["total"] = 41426.01729600001,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "裂殴",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 3671,
+								["g_amt"] = 0,
+								["n_max"] = 2177,
+								["targets"] = {
+									["西园寺恋"] = 24187,
+									["龙子天行"] = 4012,
+								},
+								["n_dmg"] = 24528,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 16,
+								["total"] = 28199,
+								["c_max"] = 3671,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 1,
+								["DODGE"] = 1,
+								["extra"] = {
+								},
+								["a_dmg"] = 9701,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 4,
+								["n_amt"] = 13,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[356386] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 356386,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[356384] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 6240,
+								["targets"] = {
+									["西园寺恋"] = 12480,
+								},
+								["n_dmg"] = 12480,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 12480,
+								["c_max"] = 0,
+								["id"] = 356384,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["a_amt"] = 0,
+								["n_amt"] = 2,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[355416] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 249,
+								["targets"] = {
+									["西园寺恋"] = 747,
+								},
+								["n_dmg"] = 747,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 747,
+								["c_max"] = 0,
+								["id"] = 355416,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 3,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[355415] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 355415,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-3914-2222-13059-178907-000063B4E6",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1625535733,
+					["delay"] = 0,
+					["damage_taken"] = 477615.017296,
+				}, -- [5]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 323.006232,
+					["damage_from"] = {
+						["乌龙苏打"] = true,
+						["远哥长得帅"] = true,
+						["龙子天行"] = true,
+					},
+					["targets"] = {
+						["西园寺恋"] = 2468,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["monster"] = true,
+					["aID"] = "180103",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 2468.006232,
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1625535782,
+					["dps_started"] = false,
+					["total"] = 2468.006232,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "碎皮刮擦者",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 413,
+								["targets"] = {
+									["西园寺恋"] = 2468,
+								},
+								["n_dmg"] = 2468,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 2468,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 7,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[355415] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 355415,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["serial"] = "Creature-0-3914-2222-13059-180103-0000E3B50B",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1625535772,
+					["delay"] = 0,
+					["damage_taken"] = 17207.006232,
+				}, -- [6]
+				{
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 0.012849,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["西园寺恋"] = 5220,
+						["乌龙苏打"] = 8598,
+					},
+					["dps_started"] = false,
+					["pets"] = {
+					},
+					["last_event"] = 0,
+					["aID"] = "",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 13818.012849,
+					["on_hold"] = false,
+					["end_time"] = 1625535782,
+					["monster"] = true,
+					["total"] = 13818.012849,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "[*] 暗言术：灭",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[32409] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 8598,
+								["targets"] = {
+									["西园寺恋"] = 5220,
+									["乌龙苏打"] = 8598,
+								},
+								["n_dmg"] = 13818,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 13818,
+								["c_max"] = 0,
+								["id"] = 32409,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 2,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["serial"] = "",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1625535776,
+					["delay"] = 0,
+					["damage_taken"] = 0.012849,
+				}, -- [7]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["targets_overheal"] = {
+						["西园寺恋"] = 11850,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["aID"] = "707-064FE03A",
+					["totalover"] = 11850.013534,
+					["total_without_pet"] = 31742.013534,
+					["total"] = 31742.013534,
+					["targets_absorbs"] = {
+						["西园寺恋"] = 17272,
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-707-064FE03A",
+					["totalabsorb"] = 17272.013534,
+					["last_hps"] = 0,
+					["targets"] = {
+						["西园寺恋"] = 31742,
+					},
+					["totalover_without_pet"] = 0.013534,
+					["healing_taken"] = 31742.013534,
+					["fight_component"] = true,
+					["end_time"] = 1625535782,
+					["start_time"] = 1625535733,
+					["healing_from"] = {
+						["西园寺恋"] = true,
+					},
+					["nome"] = "西园寺恋",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[17] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 6016,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 2040,
+								["targets"] = {
+									["西园寺恋"] = 6016,
+								},
+								["n_min"] = 0,
+								["counter"] = 6,
+								["overheal"] = 0,
+								["total"] = 6016,
+								["c_max"] = 0,
+								["id"] = 17,
+								["targets_absorbs"] = {
+									["西园寺恋"] = 6016,
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 6016,
+								["totaldenied"] = 0,
+								["n_amt"] = 6,
+								["absorbed"] = 0,
+							},
+							[323701] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 11256,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 6240,
+								["targets"] = {
+									["西园寺恋"] = 11256,
+								},
+								["n_min"] = 0,
+								["counter"] = 3,
+								["overheal"] = 0,
+								["total"] = 11256,
+								["c_max"] = 0,
+								["id"] = 323701,
+								["targets_absorbs"] = {
+									["西园寺恋"] = 11256,
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 11256,
+								["totaldenied"] = 0,
+								["n_amt"] = 3,
+								["absorbed"] = 0,
+							},
+							[34914] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 446,
+								["targets"] = {
+									["西园寺恋"] = 5318,
+								},
+								["n_min"] = 0,
+								["counter"] = 15,
+								["overheal"] = 0,
+								["total"] = 5318,
+								["c_max"] = 0,
+								["id"] = 34914,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 5318,
+								["totaldenied"] = 0,
+								["n_amt"] = 15,
+								["absorbed"] = 0,
+							},
+							[335467] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["西园寺恋"] = 1418,
+								},
+								["n_max"] = 1299,
+								["targets"] = {
+									["西园寺恋"] = 8327,
+								},
+								["n_min"] = 0,
+								["counter"] = 16,
+								["overheal"] = 1418,
+								["total"] = 8327,
+								["c_max"] = 0,
+								["id"] = 335467,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 8327,
+								["totaldenied"] = 0,
+								["n_amt"] = 16,
+								["absorbed"] = 0,
+							},
+							[323706] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["西园寺恋"] = 10432,
+								},
+								["n_max"] = 825,
+								["targets"] = {
+									["西园寺恋"] = 825,
+								},
+								["n_min"] = 0,
+								["counter"] = 3,
+								["overheal"] = 10432,
+								["total"] = 825,
+								["c_max"] = 0,
+								["id"] = 323706,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 825,
+								["totaldenied"] = 0,
+								["n_amt"] = 3,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["heal_enemy_amt"] = 0,
+					["classe"] = "PRIEST",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["spec"] = 258,
+					["totaldenied"] = 0.013534,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["received"] = 0.006593,
+					["resource"] = 266.0065926423721,
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "PRIEST",
+					["passiveover"] = 0.004549,
+					["resource_type"] = 13,
+					["fight_component"] = true,
+					["total"] = 0.006593,
+					["tipo"] = 3,
+					["totalover"] = 0.004549,
+					["nome"] = "西园寺恋",
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+						},
+					},
+					["grupo"] = true,
+					["spec"] = 258,
+					["flag_original"] = 1297,
+					["alternatepower"] = 0.006593,
+					["last_event"] = 0,
+					["aID"] = "707-064FE03A",
+					["serial"] = "Player-707-064FE03A",
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[15407] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 3,
+								["id"] = 15407,
+								["uptime"] = 7,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[48045] = {
+								["refreshamt"] = 0,
+								["activedamt"] = -1,
+								["appliedamt"] = 3,
+								["id"] = 48045,
+								["uptime"] = 76,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[335467] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 0,
+								["appliedamt"] = 4,
+								["id"] = 335467,
+								["uptime"] = 26,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[341291] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 3,
+								["id"] = 341291,
+								["uptime"] = 36,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[34914] = {
+								["refreshamt"] = 3,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 34914,
+								["uptime"] = 47,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[6788] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = 6788,
+								["uptime"] = 13,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[263165] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = 263165,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[589] = {
+								["refreshamt"] = 2,
+								["activedamt"] = 0,
+								["appliedamt"] = 3,
+								["id"] = 589,
+								["uptime"] = 43,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[323673] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 323673,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["pets"] = {
+					},
+					["classe"] = "PRIEST",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[93811] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 93811,
+								["uptime"] = 77,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[225787] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 225787,
+								["uptime"] = 77,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[347600] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 347600,
+								["uptime"] = 77,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[17] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 17,
+								["uptime"] = 16,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[341207] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 341207,
+								["uptime"] = 1,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[289577] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 289577,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[345230] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 345230,
+								["uptime"] = 20,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[15407] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 15407,
+								["uptime"] = 7,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[289555] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 289555,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[324748] = {
+								["refreshamt"] = 2,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 324748,
+								["uptime"] = 35,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[256374] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 256374,
+								["uptime"] = 24,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[336885] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 336885,
+								["uptime"] = 24,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[232698] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 232698,
+								["uptime"] = 77,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[45242] = {
+								["refreshamt"] = 20,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 45242,
+								["uptime"] = 38,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[341282] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 341282,
+								["uptime"] = 16,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[263165] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 263165,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[355462] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 355462,
+								["uptime"] = 77,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 262,
+					["nome"] = "西园寺恋",
+					["spec"] = 258,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[15407] = 3,
+						[48045] = 3,
+						[335467] = 5,
+						[34914] = 4,
+						[8092] = 5,
+						[32379] = 1,
+						[17] = 2,
+						[324748] = 4,
+						[263165] = 2,
+						[336885] = 3,
+						[341263] = 12,
+						[589] = 1,
+						[323673] = 1,
+						[147193] = 12,
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["buff_uptime"] = 578,
+					["serial"] = "Player-707-064FE03A",
+					["aID"] = "707-064FE03A",
+				}, -- [1]
+				{
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["nome"] = "碎皮幼崽",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[355432] = 2,
+					},
+					["flag_original"] = 68136,
+					["aID"] = "178526",
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3914-2222-13059-178526-0000E3B4BB",
+					["tipo"] = 4,
+				}, -- [2]
+				{
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["spell_cast"] = {
+						[355415] = 8,
+					},
+					["nome"] = "碎皮咆哮者",
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["flag_original"] = 2632,
+					["aID"] = "",
+					["last_event"] = 0,
+					["serial"] = "Vehicle-0-3914-2222-13059-178547-000063B4DA",
+					["tipo"] = 4,
+				}, -- [3]
+				{
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["spell_cast"] = {
+						[355418] = 2,
+						[355415] = 2,
+					},
+					["nome"] = "碎皮雄兽",
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["flag_original"] = 2632,
+					["aID"] = "",
+					["last_event"] = 0,
+					["serial"] = "Vehicle-0-3914-2222-13059-178527-000063B482",
+					["tipo"] = 4,
+				}, -- [4]
+				{
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["spell_cast"] = {
+						[356386] = 1,
+						[356384] = 2,
+						[355415] = 1,
+					},
+					["nome"] = "裂殴",
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["flag_original"] = 2632,
+					["aID"] = "178907",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3914-2222-13059-178907-000063B4E6",
+					["tipo"] = 4,
+				}, -- [5]
+				{
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["spell_cast"] = {
+						[355415] = 2,
+					},
+					["nome"] = "碎皮刮擦者",
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["flag_original"] = 2632,
+					["aID"] = "180103",
+					["last_event"] = 0,
+					["serial"] = "Creature-0-3914-2222-13059-180103-0000E3B50B",
+					["tipo"] = 4,
+				}, -- [6]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["raid_roster_indexed"] = {
+		},
+		["spells_cast_timeline"] = {
+		},
+		["tempo_start"] = 644.618,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 1260,
+		["cleu_timeline"] = {
+		},
+		["totals"] = {
+			1493962.265461, -- [1]
+			156850.127554, -- [2]
+			{
+				332.3352159523163, -- [1]
+				[0] = 25319.047833,
+				["alternatepower"] = 0,
+				[3] = 90.012711,
+				[6] = 66.00444999999999,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 76.21199999999953,
+				["type"] = 0,
+				["name"] = "裂殴",
+				["clock"] = "09:41:45",
+			}, -- [1]
+			{
+				["elapsed"] = 88213.03,
+				["type"] = 0,
+				["name"] = "未知",
+				["clock"] = 0,
+			}, -- [2]
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "09:41:45",
+		["end_time"] = 88293.341,
+		["totals_grupo"] = {
+			120421.007602, -- [1]
+			31742.006367, -- [2]
+			{
+				0, -- [1]
+				[0] = 0.002044,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["hasSaved"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = "09:43:02",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["start_time"] = 3.998999999996158,
+		["TimeData"] = {
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage_section"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage"] = {
+			},
+		},
+	},
+	["force_font_outline"] = "",
 	["local_instances_config"] = {
 		{
 			["modo"] = 2,
@@ -291,152 +4185,13 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["combat_id"] = 0,
-	["savedStyles"] = {
-	},
-	["force_font_outline"] = "",
-	["cached_talents"] = {
-	},
-	["announce_deaths"] = {
-		["enabled"] = false,
-		["last_hits"] = 1,
-		["only_first"] = 5,
-		["where"] = 1,
-	},
-	["tabela_overall"] = {
-		{
-			["tipo"] = 2,
-			["_ActorTable"] = {
-			},
-		}, -- [1]
-		{
-			["tipo"] = 3,
-			["_ActorTable"] = {
-			},
-		}, -- [2]
-		{
-			["tipo"] = 7,
-			["_ActorTable"] = {
-			},
-		}, -- [3]
-		{
-			["tipo"] = 9,
-			["_ActorTable"] = {
-			},
-		}, -- [4]
-		{
-			["tipo"] = 2,
-			["_ActorTable"] = {
-			},
-		}, -- [5]
-		["raid_roster"] = {
-		},
-		["raid_roster_indexed"] = {
-		},
-		["tempo_start"] = 644.618,
-		["last_events_tables"] = {
-		},
-		["alternate_power"] = {
-		},
-		["frags"] = {
-		},
-		["combat_counter"] = 1260,
-		["totals"] = {
-			0, -- [1]
-			0, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-			["voidzone_damage"] = 0,
-			["frags_total"] = 0,
-		},
-		["player_last_events"] = {
-		},
-		["frags_need_refresh"] = false,
-		["aura_timeline"] = {
-		},
-		["__call"] = {
-		},
-		["data_inicio"] = 0,
-		["end_time"] = 644.618,
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["damage"] = {
-			},
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
-		},
-		["overall_refreshed"] = true,
-		["hasSaved"] = true,
-		["spells_cast_timeline"] = {
-		},
-		["data_fim"] = 0,
-		["cleu_events"] = {
-			["n"] = 1,
-		},
-		["CombatSkillCache"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["start_time"] = 644.618,
-		["TimeData"] = {
-		},
-		["totals_grupo"] = {
-			0, -- [1]
-			0, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-		},
-	},
-	["combat_counter"] = 1268,
-	["benchmark_db"] = {
-		["frame"] = {
-		},
-	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["character_data"] = {
+		["logons"] = 65,
 	},
 	["announce_cooldowns"] = {
+		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
-		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
@@ -444,11 +4199,22 @@ _detalhes_database = {
 		["last_difficulty"] = 15,
 		["last_raid"] = "",
 	},
-	["cached_roles"] = {
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-707-06421B14"] = 252,
+		["Player-707-063AAE02"] = 258,
+		["Player-707-04BE9C0E"] = 64,
+		["Player-707-062B938E"] = 64,
+		["Player-707-062EF290"] = 71,
+		["Player-707-0623DD22"] = 71,
+		["Player-707-0596B700"] = 62,
+		["Player-707-04F3D43C"] = 260,
+		["Player-707-01CCE11F"] = 262,
+		["Player-707-062358F0"] = 253,
+		["Player-707-04CC0CE1"] = 252,
 		["Player-707-064FE03A"] = 258,
-		["Player-707-050B196C"] = 266,
+		["Player-707-063678BC"] = 267,
 	},
 }

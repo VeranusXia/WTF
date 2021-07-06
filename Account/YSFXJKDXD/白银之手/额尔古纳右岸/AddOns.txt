@@ -51,13 +51,13 @@ Myslot: enabled
 OmniCC: enabled
 OmniCC_Config: enabled
 OmniCD: enabled
-PetTracker: disabled
+PetTracker: enabled
 PetTracker_Battle: enabled
 PetTracker_Config: enabled
-PetTracker_Journal: disabled
+PetTracker_Journal: enabled
 Postal: enabled
 QBar: enabled
-RareScanner: disabled
+RareScanner: enabled
 SavedInstances: enabled
 Simulationcraft: enabled
 TellMeWhen: enabled
@@ -128,3 +128,4 @@ ElvUI_AuraBarsMovers: disabled
 ElvUI_CustomTweaks: disabled
 ElvUI_DTBars2: disabled
 ElvUI_QuestXP: disabled
+MRT: enabled
