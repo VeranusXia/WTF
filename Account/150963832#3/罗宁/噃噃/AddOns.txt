@@ -198,3 +198,4 @@ REFlex: disabled
 DBM-SanctumOfDomination: disabled
 ElvUI_DTBars2: disabled
 ElvUI_QuestXP: disabled
+MRT: disabled

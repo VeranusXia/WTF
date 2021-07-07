@@ -111,7 +111,7 @@ MEETINGSTONE_UI_DB = {
 		["西园寺恋 - 布兰卡德"] = "Default",
 		["萨洛拉丝微微 - 萨洛拉丝"] = "Default",
 		["匠人匠心 - 蜘蛛王国"] = "Default",
-		["小微微 - 罗宁"] = "Default",
+		["蕾妮 - 蜘蛛王国"] = "Default",
 		["蕾蒂微音 - 蜘蛛王国"] = "Default",
 		["Tfboys - 蜘蛛王国"] = "Default",
 		["安苏宠物批发 - 安苏"] = "Default",
@@ -124,8 +124,8 @@ MEETINGSTONE_UI_DB = {
 		["阿萨德啊是 - 黑手军团"] = "Default",
 		["实力不够悬殊 - 金色平原"] = "Default",
 		["素纨凝音 - 奈萨里奥"] = "Default",
-		["小小工具 - 萨洛拉丝"] = "Default",
 		["云缨儿 - 凤凰之神"] = "Default",
+		["小小工具 - 萨洛拉丝"] = "Default",
 		["殷倾颜 - 罗宁"] = "Default",
 		["放狠话高手 - 死亡之翼"] = "Default",
 		["奶凶的小萝莉 - 死亡之翼"] = "Default",
@@ -142,7 +142,7 @@ MEETINGSTONE_UI_DB = {
 		["西瓜味泡泡糖 - 罗宁"] = "Default",
 		["播种与收获 - 轻风之语"] = "Default",
 		["拉莱耶 - 蜘蛛王国"] = "Default",
-		["蕾妮 - 蜘蛛王国"] = "Default",
+		["小微微 - 罗宁"] = "Default",
 		["迷你雪人 - 瓦里安"] = "Default",
 		["梵蒂冈教主 - 凯尔萨斯"] = "Default",
 		["富裕年輕組 - 蜘蛛王国"] = "Default",
@@ -172,7 +172,7 @@ MEETINGSTONE_UI_DB = {
 			},
 			["ActivitiesData"] = {
 				["data"] = "$1$Z$S329`魔兽主播活动`突破统御圣所`7月10日（周六）晚8点，虎牙人气主播：上偙（房间号：252450）突破统御圣所*J许多纪元以来，典狱长一直都被束缚在噬渊之内。如今，他已经集结了无尽的大军，企图执行宏伟诡谋的最后阶段。扫除希尔瓦娜斯和被流放者的强大仆从，对托加斯特的核心发起进攻！`http://w.163.com/special/convene-stone/`1`3$S330`魔兽主播活动`塔扎维什，帷纱集市`7月17日（周六）晚8点，斗鱼人气主播：王科长（房间号：433724）塔扎维什，帷纱集市*J与艾·达里尔一起在神秘莫测的帷纱集市中探寻一条明路，阻止索·莉亚染指禁忌的力量！`http://w.163.com/special/convene-stone/`2`3$$",
-				["new"] = true,
+				["new"] = false,
 			},
 		},
 		["spamWord"] = {
@@ -703,8 +703,12 @@ MEETINGSTONE_UI_DB = {
 				["PvPRating"] = 0,
 				["HonorLevel"] = 0,
 			},
-			["阿塔达萨（史诗钥石）"] = {
-				["ItemLevel"] = 460,
+			["世界首领（军团再临）"] = {
+				["ItemLevel"] = 0,
+				["Summary"] = "冰封之王 50%",
+				["MinLevel"] = 110,
+				["MaxLevel"] = 110,
+				["PvPRating"] = 0,
 				["HonorLevel"] = 0,
 			},
 			["暗夜要塞（普通）"] = {
@@ -715,20 +719,16 @@ MEETINGSTONE_UI_DB = {
 				["MinLevel"] = 110,
 				["HonorLevel"] = 0,
 			},
-			["随机海岛（史诗）"] = {
-				["ItemLevel"] = 460,
-				["HonorLevel"] = 0,
-			},
-			["世界首领（军团再临）"] = {
-				["ItemLevel"] = 0,
-				["Summary"] = "冰封之王 50%",
-				["MinLevel"] = 110,
-				["MaxLevel"] = 110,
-				["PvPRating"] = 0,
-				["HonorLevel"] = 0,
-			},
 			["地渊孢林（史诗钥石）"] = {
 				["ItemLevel"] = 440,
+				["HonorLevel"] = 0,
+			},
+			["达萨罗之战（史诗）"] = {
+				["ItemLevel"] = 470,
+				["HonorLevel"] = 0,
+			},
+			["维克雷斯庄园（史诗）"] = {
+				["ItemLevel"] = 335,
 				["HonorLevel"] = 0,
 			},
 			["苏拉玛"] = {
@@ -755,12 +755,12 @@ MEETINGSTONE_UI_DB = {
 				["ItemLevel"] = 340,
 				["HonorLevel"] = 0,
 			},
-			["维克雷斯庄园（史诗）"] = {
-				["ItemLevel"] = 335,
+			["随机海岛（史诗）"] = {
+				["ItemLevel"] = 460,
 				["HonorLevel"] = 0,
 			},
-			["达萨罗之战（史诗）"] = {
-				["ItemLevel"] = 470,
+			["阿塔达萨（史诗钥石）"] = {
+				["ItemLevel"] = 460,
 				["HonorLevel"] = 0,
 			},
 			["黑心林地（史诗钥石）"] = {
@@ -823,11 +823,6 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["max"] = 0,
 				},
-				["ItemLevel"] = {
-					["min"] = 0,
-					["enable"] = false,
-					["max"] = 0,
-				},
 				["Age"] = {
 					["min"] = 0,
 					["enable"] = false,
@@ -838,15 +833,15 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["max"] = 0,
 				},
-			}, -- [1]
-			{
-				["BossKilled"] = {
+				["ItemLevel"] = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
 				},
-				["ItemLevel"] = {
-					["min"] = 220,
+			}, -- [1]
+			{
+				["BossKilled"] = {
+					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
 				},
@@ -860,16 +855,16 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["max"] = 4,
 				},
+				["ItemLevel"] = {
+					["min"] = 220,
+					["enable"] = false,
+					["max"] = 0,
+				},
 			}, -- [2]
 			{
 				["BossKilled"] = {
 					["min"] = 0,
 					["max"] = 1,
-					["enable"] = false,
-				},
-				["Age"] = {
-					["min"] = 0,
-					["max"] = 0,
 					["enable"] = false,
 				},
 				["Members"] = {
@@ -878,6 +873,11 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 				},
 				["ItemLevel"] = {
+					["min"] = 0,
+					["max"] = 0,
+					["enable"] = false,
+				},
+				["Age"] = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
@@ -889,17 +889,17 @@ MEETINGSTONE_UI_DB = {
 					["enable"] = false,
 					["max"] = 0,
 				},
-				["Members"] = {
-					["min"] = 0,
-					["enable"] = false,
-					["max"] = 0,
-				},
 				["ItemLevel"] = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
 				},
 				["Age"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
+				},
+				["Members"] = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
@@ -909,23 +909,23 @@ MEETINGSTONE_UI_DB = {
 			{
 				["BossKilled"] = {
 					["min"] = 0,
-					["max"] = 0,
 					["enable"] = false,
-				},
-				["ItemLevel"] = {
-					["min"] = 0,
 					["max"] = 0,
-					["enable"] = false,
-				},
-				["Age"] = {
-					["min"] = 0,
-					["max"] = 0,
-					["enable"] = false,
 				},
 				["Members"] = {
 					["min"] = 0,
-					["max"] = 0,
+					["enable"] = true,
+					["max"] = 33,
+				},
+				["ItemLevel"] = {
+					["min"] = 0,
 					["enable"] = false,
+					["max"] = 0,
+				},
+				["Age"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
 				},
 			}, -- [6]
 			[9] = {
@@ -933,11 +933,6 @@ MEETINGSTONE_UI_DB = {
 					["min"] = 0,
 					["max"] = 0,
 					["enable"] = false,
-				},
-				["Members"] = {
-					["min"] = 5,
-					["max"] = 9,
-					["enable"] = true,
 				},
 				["ItemLevel"] = {
 					["min"] = 0,
@@ -949,14 +944,14 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 10,
 					["enable"] = true,
 				},
+				["Members"] = {
+					["min"] = 5,
+					["max"] = 9,
+					["enable"] = true,
+				},
 			},
 			[111] = {
 				["BossKilled"] = {
-					["min"] = 0,
-					["enable"] = false,
-					["max"] = 0,
-				},
-				["ItemLevel"] = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
@@ -967,6 +962,11 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 				},
 				["Members"] = {
+					["min"] = 0,
+					["enable"] = false,
+					["max"] = 0,
+				},
+				["ItemLevel"] = {
 					["min"] = 0,
 					["enable"] = false,
 					["max"] = 0,
