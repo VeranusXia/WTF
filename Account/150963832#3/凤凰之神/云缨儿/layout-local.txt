@@ -34,6 +34,13 @@ X: -129
 Y: -164
 W: 32
 H: 32
+Frame: WeakAurasOptions
+FrameLevel: 1
+Anchor: BOTTOMRIGHT
+X: -186
+Y: -250
+W: 952
+H: 984
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT

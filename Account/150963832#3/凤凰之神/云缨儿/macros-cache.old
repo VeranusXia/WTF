@@ -2,7 +2,7 @@ VER 3 010000000000000A "壮胆酒战斗大师" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast 壮胆酒
 /use 静谧之瓶
-/use 罪孽候选者的纹章
+/use 罪孽角斗士的纹章
 END
 VER 3 0100000000000008 "幻灭踢" "INV_MISC_QUESTIONMARK"
 #showtooltip 幻灭踢
@@ -13,6 +13,7 @@ END
 VER 3 010000000000000D "徽章魂体转移" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use 罪孽角斗士的勋章
+/cast 生存意志
 /cast 魂体双分：转移
 END
 VER 3 010000000000000C "抓钩迅捷" "INV_MISC_QUESTIONMARK"
@@ -23,7 +24,7 @@ VER 3 0100000000000005 "爆发" "INV_MISC_QUESTIONMARK"
 #showtooltip 风火雷电
 /cast [nochanneling:怒雷破]风火雷电
 /castsequence 精序兵戈(格里恩),白虎下凡
-/use 13
+/use 罪孽角斗士的凶猛徽章
 END
 VER 3 0100000000000007 "猛虎" "INV_MISC_QUESTIONMARK"
 #showtooltip 猛虎掌

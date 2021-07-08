@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 27120,
 	["lastSanitation"] = 3,
+	["session"] = 27123,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Modules\\Bags\\Sort.lua:149: attempt to compare number with nil",
@@ -544,11 +544,25 @@ BugGrabberDB = {
 			["counter"] = 8,
 		}, -- [71]
 		{
+			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'Veranus' 尝试调用保护功能 'RaidFrame:Hide()'。",
+			["time"] = "2021/07/07 22:18:22",
+			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface\\FrameXML\\FriendsFrame.lua\"]:86: in function `FriendsFrame_ShowSubFrame'\n[string \"@Interface\\FrameXML\\FriendsFrame.lua\"]:348: in function `FriendsFrame_Update'\n[string \"@Interface\\FrameXML\\FriendsFrame.lua\"]:324: in function <Interface\\FrameXML\\FriendsFrame.lua:305>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2928: in function `SetUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2773: in function `ShowUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2641: in function <Interface\\FrameXML\\UIParent.lua:2637>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3492: in function <Interface\\FrameXML\\UIParent.lua:3471>\n[string \"=[C]\"]: in function `ShowUIPanel'\n[string \"@Interface\\FrameXML\\FriendsFrame.lua\"]:1089: in function `ToggleFriendsFrame'\n[string \"TOGGLESOCIAL\"]:1: in function <[string \"TOGGLESOCIAL\"]:1>",
+			["session"] = 27121,
+			["counter"] = 1,
+		}, -- [72]
+		{
 			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'ElvUI' 尝试调用保护功能 'SpellButton1:SetShown()'。",
 			["time"] = "2021/07/07 21:53:39",
 			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface\\AddOns\\ElvUI\\Modules\\Skins\\Blizzard\\SpellBook-法术书.lua\"]:90: in function <...ce\\AddOns\\ElvUI\\Modules\\Skins\\Blizzard\\SpellBook.lua:81>\n[string \"=[C]\"]: in function `SpellButton_UpdateButton'\n[string \"@Interface\\FrameXML\\SpellBookFrame.lua\"]:319: in function `SpellBookFrame_UpdateSpells'\n[string \"@Interface\\FrameXML\\SpellBookFrame.lua\"]:1292: in function `SpellBook_UpdatePlayerTab'\n[string \"@Interface\\FrameXML\\SpellBookFrame.lua\"]:14: in function `tabUpdate'\n[string \"@Interface\\FrameXML\\SpellBookFrame.lua\"]:285: in function `SpellBookFrame_Update'\n[string \"@Interface\\FrameXML\\SpellBookFrame.lua\"]:182: in function <Interface\\FrameXML\\SpellBookFrame.lua:181>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2928: in function `SetUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2773: in function `ShowUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2641: in function <Interface\\FrameXML\\UIParent.lua:2637>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3492: in function <Interface\\FrameXML\\UIParent.lua:3471>\n[string \"=[C]\"]: in function `ShowUIPanel'\n[string \"@Interface\\FrameXML\\SpellBookFrame.lua\"]:75: in function `ToggleSpellBook'\n[string \"TOGGLESPELLBOOK\"]:1: in function <[string \"TOGGLESPELLBOOK\"]:1>",
-			["session"] = 27120,
+			["session"] = 27121,
+			["counter"] = 2,
+		}, -- [73]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'MeetingStone' 尝试调用保护功能 'MountJournal:SetShown()'。",
+			["time"] = "2021/07/08 11:35:51",
+			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface\\AddOns\\Blizzard_Collections\\Blizzard_Collections-1.0.lua\"]:49: in function `CollectionsJournal_UpdateSelectedTab'\n[string \"@Interface\\AddOns\\Blizzard_Collections\\Blizzard_Collections-1.0.lua\"]:109: in function <...AddOns\\Blizzard_Collections\\Blizzard_Collections.lua:103>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2928: in function `SetUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2773: in function `ShowUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2641: in function <Interface\\FrameXML\\UIParent.lua:2637>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3492: in function <Interface\\FrameXML\\UIParent.lua:3471>\n[string \"=[C]\"]: in function `ShowUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:1111: in function `SetCollectionsJournalShown'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:1099: in function `ToggleCollectionsJournal'\n[string \"TOGGLECOLLECTIONS\"]:1: in function <[string \"TOGGLECOLLECTIONS\"]:1>",
+			["session"] = 27122,
 			["counter"] = 1,
-		}, -- [72]
+		}, -- [74]
 	},
 }

@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 27124,
 	["lastSanitation"] = 3,
-	["session"] = 27121,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Modules\\Bags\\Sort.lua:149: attempt to compare number with nil",
@@ -557,5 +557,20 @@ BugGrabberDB = {
 			["session"] = 27121,
 			["counter"] = 2,
 		}, -- [73]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'MeetingStone' 尝试调用保护功能 'MountJournal:SetShown()'。",
+			["time"] = "2021/07/08 11:35:51",
+			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface\\AddOns\\Blizzard_Collections\\Blizzard_Collections-1.0.lua\"]:49: in function `CollectionsJournal_UpdateSelectedTab'\n[string \"@Interface\\AddOns\\Blizzard_Collections\\Blizzard_Collections-1.0.lua\"]:109: in function <...AddOns\\Blizzard_Collections\\Blizzard_Collections.lua:103>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2928: in function `SetUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2773: in function `ShowUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2641: in function <Interface\\FrameXML\\UIParent.lua:2637>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3492: in function <Interface\\FrameXML\\UIParent.lua:3471>\n[string \"=[C]\"]: in function `ShowUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:1111: in function `SetCollectionsJournalShown'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:1099: in function `ToggleCollectionsJournal'\n[string \"TOGGLECOLLECTIONS\"]:1: in function <[string \"TOGGLECOLLECTIONS\"]:1>",
+			["session"] = 27122,
+			["counter"] = 1,
+		}, -- [74]
+		{
+			["message"] = "Interface\\SharedXML\\SharedUIPanelTemplates.lua:1146: Usage: <unnamed>:SetPoint(\"point\" [, region or nil] [, \"relativePoint\"] [, offsetX, offsetY])",
+			["time"] = "2021/07/08 17:00:38",
+			["locals"] = "(*temporary) = <unnamed> {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n",
+			["stack"] = "[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\SharedXML\\SharedUIPanelTemplates.lua\"]:1146: in function <Interface\\SharedXML\\SharedUIPanelTemplates.lua:1142>",
+			["session"] = 27124,
+			["counter"] = 1,
+		}, -- [75]
 	},
 }
