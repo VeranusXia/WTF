@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 27123,
+	["session"] = 27129,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Modules\\Bags\\Sort.lua:149: attempt to compare number with nil",
@@ -564,5 +564,20 @@ BugGrabberDB = {
 			["session"] = 27122,
 			["counter"] = 1,
 		}, -- [74]
+		{
+			["message"] = "Interface\\SharedXML\\SharedUIPanelTemplates.lua:1146: Usage: <unnamed>:SetPoint(\"point\" [, region or nil] [, \"relativePoint\"] [, offsetX, offsetY])",
+			["time"] = "2021/07/08 17:00:38",
+			["locals"] = "(*temporary) = <unnamed> {\n 0 = <userdata>\n PixelSnapDisabled = true\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n",
+			["stack"] = "[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface\\SharedXML\\SharedUIPanelTemplates.lua\"]:1146: in function <Interface\\SharedXML\\SharedUIPanelTemplates.lua:1142>",
+			["session"] = 27124,
+			["counter"] = 1,
+		}, -- [75]
+		{
+			["message"] = "[string \"Error in: 位面助手\"]:7: bad argument #2 to 'strsplit' (string expected, got nil)",
+			["time"] = "2021/07/08 21:29:35",
+			["stack"] = "[string \"Error in: 位面助手\"]:7: in function <[string \"Error in: 位面助手\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:604: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:537>\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:740: in function `ScanEventsInternal'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:701: in function `ScanEvents'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:847: in function `?'\n[string \"@Interface\\AddOns\\!HFixInv\\HFixInv.lua\"]:73: in function <Interface\\AddOns\\!HFixInv\\HFixInv.lua:69>",
+			["session"] = 27128,
+			["counter"] = 4,
+		}, -- [76]
 	},
 }

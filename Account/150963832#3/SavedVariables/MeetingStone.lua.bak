@@ -111,7 +111,7 @@ MEETINGSTONE_UI_DB = {
 		["西园寺恋 - 布兰卡德"] = "Default",
 		["萨洛拉丝微微 - 萨洛拉丝"] = "Default",
 		["匠人匠心 - 蜘蛛王国"] = "Default",
-		["小微微 - 罗宁"] = "Default",
+		["蕾妮 - 蜘蛛王国"] = "Default",
 		["蕾蒂微音 - 蜘蛛王国"] = "Default",
 		["Tfboys - 蜘蛛王国"] = "Default",
 		["安苏宠物批发 - 安苏"] = "Default",
@@ -124,8 +124,8 @@ MEETINGSTONE_UI_DB = {
 		["阿萨德啊是 - 黑手军团"] = "Default",
 		["实力不够悬殊 - 金色平原"] = "Default",
 		["素纨凝音 - 奈萨里奥"] = "Default",
-		["小小工具 - 萨洛拉丝"] = "Default",
 		["云缨儿 - 凤凰之神"] = "Default",
+		["小小工具 - 萨洛拉丝"] = "Default",
 		["殷倾颜 - 罗宁"] = "Default",
 		["放狠话高手 - 死亡之翼"] = "Default",
 		["奶凶的小萝莉 - 死亡之翼"] = "Default",
@@ -142,7 +142,7 @@ MEETINGSTONE_UI_DB = {
 		["西瓜味泡泡糖 - 罗宁"] = "Default",
 		["播种与收获 - 轻风之语"] = "Default",
 		["拉莱耶 - 蜘蛛王国"] = "Default",
-		["蕾妮 - 蜘蛛王国"] = "Default",
+		["小微微 - 罗宁"] = "Default",
 		["迷你雪人 - 瓦里安"] = "Default",
 		["梵蒂冈教主 - 凯尔萨斯"] = "Default",
 		["富裕年輕組 - 蜘蛛王国"] = "Default",
@@ -912,6 +912,11 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["enable"] = false,
 				},
+				["ItemLevel"] = {
+					["min"] = 0,
+					["max"] = 0,
+					["enable"] = false,
+				},
 				["Age"] = {
 					["min"] = 0,
 					["max"] = 0,
@@ -920,11 +925,6 @@ MEETINGSTONE_UI_DB = {
 				["Members"] = {
 					["min"] = 0,
 					["max"] = 4,
-					["enable"] = true,
-				},
-				["ItemLevel"] = {
-					["min"] = 0,
-					["max"] = 0,
 					["enable"] = false,
 				},
 			}, -- [6]
@@ -934,19 +934,19 @@ MEETINGSTONE_UI_DB = {
 					["max"] = 0,
 					["enable"] = false,
 				},
-				["Age"] = {
-					["min"] = 0,
-					["max"] = 10,
-					["enable"] = true,
-				},
 				["Members"] = {
-					["min"] = 5,
+					["min"] = 4,
 					["max"] = 9,
 					["enable"] = true,
 				},
 				["ItemLevel"] = {
 					["min"] = 0,
 					["max"] = 230,
+					["enable"] = true,
+				},
+				["Age"] = {
+					["min"] = 0,
+					["max"] = 10,
 					["enable"] = true,
 				},
 			},
