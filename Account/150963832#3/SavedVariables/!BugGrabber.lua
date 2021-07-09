@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 27130,
 	["lastSanitation"] = 3,
+	["session"] = 27137,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Modules\\Bags\\Sort.lua:149: attempt to compare number with nil",
@@ -576,8 +576,8 @@ BugGrabberDB = {
 			["message"] = "[string \"Error in: 位面助手\"]:7: bad argument #2 to 'strsplit' (string expected, got nil)",
 			["time"] = "2021/07/08 21:29:35",
 			["stack"] = "[string \"Error in: 位面助手\"]:7: in function <[string \"Error in: 位面助手\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:604: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:537>\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:740: in function `ScanEventsInternal'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:701: in function `ScanEvents'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:847: in function `?'\n[string \"@Interface\\AddOns\\!HFixInv\\HFixInv.lua\"]:73: in function <Interface\\AddOns\\!HFixInv\\HFixInv.lua:69>",
-			["session"] = 27128,
-			["counter"] = 4,
+			["session"] = 27136,
+			["counter"] = 6,
 		}, -- [76]
 	},
 }

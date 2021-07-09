@@ -34,13 +34,6 @@ X: 0
 Y: 0
 W: 770
 H: 330
-Frame: BagSync_MinimapButton
-FrameLevel: 3
-Anchor: TOPRIGHT
-X: -130
-Y: -165
-W: 32
-H: 32
 Frame: scanner_button
 FrameLevel: 200
 Anchor: RIGHT
@@ -48,3 +41,10 @@ X: -286
 Y: 23
 W: 200
 H: 50
+Frame: BagSync_MinimapButton
+FrameLevel: 3
+Anchor: TOPRIGHT
+X: -130
+Y: -165
+W: 32
+H: 32
