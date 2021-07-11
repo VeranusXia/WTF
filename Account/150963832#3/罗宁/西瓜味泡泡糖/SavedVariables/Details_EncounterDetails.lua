@@ -1488,19 +1488,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "特雷德奥瓦",
 		},
+		[324659] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "瞬息具象",
+		},
 		[323126] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "罪碑雕像",
-		},
-		[324148] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "雯图纳柯丝",
 		},
 		[321976] = {
 			["school"] = 8,
@@ -1509,12 +1509,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "传染软泥",
 		},
-		[324659] = {
-			["school"] = 32,
+		[324148] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "瞬息具象",
+			["source"] = "雯图纳柯丝",
 		},
 		[322232] = {
 			["school"] = 8,
@@ -2675,13 +2675,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "泥拳",
 		},
-		[331209] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[323544] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "泥拳",
+			["source"] = "哈卡之子",
 		},
 		[59638] = {
 			["school"] = 16,
@@ -2850,10 +2853,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "德纳修斯大帝",
 		},
-		[335297] = {
+		[331209] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "泥拳",
 		},
@@ -2872,16 +2876,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "罪碑雕像",
 		},
-		[323544] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[335297] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "哈卡之子",
+			["source"] = "泥拳",
 		},
 		[343086] = {
 			["school"] = 1,

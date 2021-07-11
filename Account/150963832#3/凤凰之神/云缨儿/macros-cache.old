@@ -19,6 +19,7 @@ END
 VER 3 010000000000000C "抓钩迅捷" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover,help,nodead]迅如猛虎;[@mouseover,harm,nodead][harm]抓钩武器;[help][]迅如猛虎
+/cast 碎玉闪电
 END
 VER 3 0100000000000005 "爆发" "INV_MISC_QUESTIONMARK"
 #showtooltip 风火雷电

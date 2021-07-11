@@ -150,13 +150,13 @@ DraenorTreasuresDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["treasure_smv"] = false,
+			["treasure_tj"] = false,
 			["treasure_gg"] = false,
 			["treasure_soa"] = false,
 			["treasure_ng"] = false,
 			["treasure_ffr"] = false,
 			["rare_h_smv"] = true,
-			["treasure_tj"] = false,
+			["treasure_smv"] = false,
 			["treasure_td"] = false,
 			["treasure_dh"] = false,
 		},

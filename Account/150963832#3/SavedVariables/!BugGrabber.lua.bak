@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-	["session"] = 27136,
+	["session"] = 27150,
 	["lastSanitation"] = 3,
 	["errors"] = {
 		{
@@ -573,11 +573,33 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [75]
 		{
+			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'Veranus' 尝试调用保护功能 'RaidFrame:Show()'。",
+			["time"] = "2021/07/10 20:44:44",
+			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\FrameXML\\FriendsFrame.lua\"]:83: in function `FriendsFrame_ShowSubFrame'\n[string \"@Interface\\FrameXML\\FriendsFrame.lua\"]:370: in function `FriendsFrame_Update'\n[string \"@Interface\\FrameXML\\FriendsFrame.lua\"]:324: in function <Interface\\FrameXML\\FriendsFrame.lua:305>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2928: in function `SetUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2773: in function `ShowUIPanel'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:2641: in function <Interface\\FrameXML\\UIParent.lua:2637>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface\\FrameXML\\UIParent.lua\"]:3492: in function <Interface\\FrameXML\\UIParent.lua:3471>\n[string \"=[C]\"]: in function `ShowUIPanel'\n[string \"@Interface\\FrameXML\\FriendsFrame.lua\"]:1089: in function `ToggleFriendsFrame'\n[string \"TOGGLESOCIAL\"]:1: in function <[string \"TOGGLESOCIAL\"]:1>",
+			["session"] = 27142,
+			["counter"] = 1,
+		}, -- [76]
+		{
+			["message"] = "Interface\\FrameXML\\LFGList.lua:2240: attempt to perform arithmetic on local 'appDuration' (a nil value)",
+			["time"] = "2021/07/10 22:18:39",
+			["locals"] = "self = LFGListSearchPanelScrollFrameButton1 {\n 0 = <userdata>\n isApplication = true\n Spinner = <unnamed> {\n }\n Highlight = <unnamed> {\n }\n DataDisplay = <unnamed> {\n }\n ActivityName = <unnamed> {\n }\n VoiceChat = <unnamed> {\n }\n PendingLabel = <unnamed> {\n }\n ExpirationTime = <unnamed> {\n }\n Selected = <unnamed> {\n }\n CancelButton = <unnamed> {\n }\n Name = <unnamed> {\n }\n expiration = 9212.774000\n ResultBG = <unnamed> {\n }\n ApplicationBG = <unnamed> {\n }\n resultID = 1096\n}\nresultID = 1096\n_ = nil\nappStatus = nil\npendingStatus = nil\nappDuration = nil\nisApplication = true\nisAppFinished = nil\n(*temporary) = 9321.184000\n(*temporary) = 9321.184000\n(*temporary) = \"RIGHT\"\n(*temporary) = <unnamed> {\n 0 = <userdata>\n}\n(*temporary) = \"LEFT\"\n(*temporary) = -3\n(*temporary) = 0\n(*temporary) = <userdata>\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to perform arithmetic on local 'appDuration' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface\\FrameXML\\LFGList.lua\"]:2240: in function <Interface\\FrameXML\\LFGList.lua:2155>\n[string \"=[C]\"]: in function `LFGListSearchEntry_Update'\n[string \"@Interface\\FrameXML\\LFGList.lua\"]:2314: in function <Interface\\FrameXML\\LFGList.lua:2306>",
+			["session"] = 27143,
+			["counter"] = 355,
+		}, -- [77]
+		{
 			["message"] = "[string \"Error in: 位面助手\"]:7: bad argument #2 to 'strsplit' (string expected, got nil)",
 			["time"] = "2021/07/08 21:29:35",
 			["stack"] = "[string \"Error in: 位面助手\"]:7: in function <[string \"Error in: 位面助手\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:604: in function <Interface\\AddOns\\WeakAuras\\GenericTrigger.lua:537>\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:740: in function `ScanEventsInternal'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:701: in function `ScanEvents'\n[string \"@Interface\\AddOns\\WeakAuras\\GenericTrigger.lua\"]:847: in function `?'\n[string \"@Interface\\AddOns\\!HFixInv\\HFixInv.lua\"]:73: in function <Interface\\AddOns\\!HFixInv\\HFixInv.lua:69>",
-			["session"] = 27136,
-			["counter"] = 6,
-		}, -- [76]
+			["session"] = 27148,
+			["counter"] = 11,
+		}, -- [78]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] 插件 'ElvUI' 尝试调用保护功能 'UseEquipmentSet()'。",
+			["time"] = "2021/07/11 21:03:53",
+			["stack"] = "[string \"@Interface\\AddOns\\!BugGrabber\\BugGrabber.lua\"]:519: in function <Interface\\AddOns\\!BugGrabber\\BugGrabber.lua:519>\n[string \"=[C]\"]: in function `UseEquipmentSet'\n[string \"@Interface\\FrameXML\\EquipmentManager.lua\"]:322: in function `EquipmentManager_EquipSet'\n[string \"@Interface\\FrameXML\\PaperDollFrame.lua\"]:2597: in function <Interface\\FrameXML\\PaperDollFrame.lua:2593>",
+			["session"] = 27150,
+			["counter"] = 1,
+		}, -- [79]
 	},
 }

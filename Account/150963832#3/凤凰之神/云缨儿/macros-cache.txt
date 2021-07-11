@@ -26,6 +26,7 @@ VER 3 0100000000000005 "爆发" "INV_MISC_QUESTIONMARK"
 /cast [nochanneling:怒雷破]风火雷电
 /castsequence 精序兵戈(格里恩),白虎下凡
 /use 罪孽角斗士的凶猛徽章
+/use 13
 END
 VER 3 0100000000000007 "猛虎" "INV_MISC_QUESTIONMARK"
 #showtooltip 猛虎掌
